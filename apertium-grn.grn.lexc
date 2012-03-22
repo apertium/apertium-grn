@@ -1,0 +1,116 @@
+Multichar_Symbols
+
+%<n%>                ! Nombre
+%<np%>               ! Nombre proprio
+%<v%>                ! Verbo
+%<post%>             ! Posposición
+%<cnjcoo%>           ! Conjunción coordinada
+
+%<tv%>               ! Transitivo
+%<iv%>               ! Intransitivo
+
+%<top%>              ! Toponimo
+
+%>                   ! Frontera de morfema
+% 
+%'
+%+
+
+LEXICON Root 
+
+Conjunctions ;
+Postpositions ;
+Nouns ; 
+ProperNouns ; 
+Verbs ; 
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!! 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON CASE
+
+%+pe%<post%>:%>pe # ;
+%+gua%<post%>:%>gua # ;
+%+guý%<post%>:%>guý # ;
+%+a%<post%>:%>a # ;
+%+ari%<post%>:%>ari # ;
+%+re%<post%>:%>re # ;
+# ; 
+
+LEXICON CC
+
+%<cnjcoo%>: # ;
+
+LEXICON POST
+
+%<post%>: # ;
+
+LEXICON N
+
+%<n%>: CASE ;
+
+LEXICON NP-TOP
+
+%<np%>%<top%>: CASE ;
+
+LEXICON V 
+
+%<v%>: # ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!! 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON Conjunctions 
+
+ha:ha CC ; ! "y"
+
+LEXICON Postpositions
+
+hagua:hagua POST ; ! "para"
+ndive:ndive POST ; ! "con"
+pegua:pegua POST ; ! "de"
+kupe:kupe POST ; ! "detras de"
+tenonde:tenonde POST ; ! "delante"
+ykere:ykere POST ; ! "al lado de"
+pype:pype POST ; ! "dentro"
+hyepype:hyepype POST ; ! "adentro"
+apytepe:apytepe POST ; ! "en medio de"
+
+LEXICON Nouns
+
+mitã:mitã N ; ! "niño"
+jagua:jagua N ; ! "perro"
+kure:kure N ; ! "cerdo"
+mbarakaja:mbarakaja N ; ! "gato"
+vaka:vaka N ; ! "vaca"
+kavaju:kavaju N ; ! "caballo"
+tarave:tarave N ; ! "cucaracha"
+taguato:taguato N ; ! " "
+ka%'i:ka%'i N ; ! "mono"
+apere%'a:apere%'a N ; ! "conejo"
+tetã:tetã N ; ! "país"
+jyva:jyva N ; ! "brazo"
+óga:óga N ; ! "casa"
+yvyra:yvyra N ; ! "árbol"
+tape:tape N ; ! "camino"
+aravo:aravo N ; ! "hora"
+tata:tata N ; ! "fuego"
+táva:táva N ; ! "ciudad"
+ysyry:ysyry N ; ! "río"
+
+LEXICON ProperNouns 
+
+Paraguái:Paraguái NP-TOP ; ! "Paraguay"
+Paraguái:Paraguay NP-TOP ; ! "Paraguay" ! Dir/LR
+Volívia:Volívia NP-TOP ; ! "Bolivia"
+Vrasil:Vrasil NP-TOP ; ! "Vrasil"
+Argentina:Argentina NP-TOP ; ! "Argentina"
+Peru:Peru NP-TOP ; ! "Peru"
+Chile:Chile NP-TOP ; ! "Chile"
+
+LEXICON Verbs 
+
+réra:réra V ; ! "llamar"
+
