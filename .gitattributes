@@ -5,9 +5,9 @@
 /NEWS -text
 /NOTES -text
 /README -text
-/apertium-grn-1.0.pc.in -text
 /apertium-grn.grn.lexc -text
 /apertium-grn.grn.rlx -text
 /apertium-grn.grn.twol -text
+/apertium-grn.pc.in -text
 /autogen.sh -text
 /configure.ac -text
