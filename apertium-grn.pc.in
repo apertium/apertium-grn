@@ -1,6 +1,5 @@
 prefix=@prefix@
 exec_prefix=${prefix}
-libdir=@libdir@
 
 Name: apertium-kir
 Description: Finite-state morphological transducer and constraint grammar for Guaraní
