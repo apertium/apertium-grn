@@ -47,13 +47,15 @@ Testing
 
 If you are in the source directory after running make, the following
 commands should work:
+```
+$ echo "Paraguáipe" | apertium -d . grn-morph
+^Paraguáipe/Paraguái<np><top>+pe<post>$
+```
 
-$  echo "TODO: test sentence" | apertium -d . grn-morph
-TODO: test analysis result
-
-$ echo "TODO: test sentence" | apertium -d . grn-tagger
-TODO: test tagger result
-
+```
+$ echo "Paraguáipe" | apertium -d . grn-tagger
+^Paraguáipe/Paraguái<np><top>+pe<post>$
+```
 Files and data
 ===============================================================================
 
