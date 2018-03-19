@@ -1,5 +1,14 @@
 Multichar_Symbols
 
+%[+a%]               ! Prefijo a- 1sg
+%[+re%]              ! Prefijo re- 2sg
+%[+o%]               ! Prefijo 0- 3sg / 3pl
+%[+ja%]              ! Prefijo ja- incluyente 1pl
+%[+ña%]              ! Prefijo ña- incluyente 1pl
+%[+ro%]              ! Prefijo ro- excluyente 1pl
+%[+pe%]              ! Prefijo pe- 2pl
+
+
 %<n%>                ! Nombre
 %<np%>               ! Nombre proprio
 %<v%>                ! Verbo
@@ -23,6 +32,7 @@ Postpositions ;
 Nouns ; 
 ProperNouns ; 
 Verbs ; 
+Prefixes ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! 
@@ -31,12 +41,21 @@ Verbs ;
 LEXICON CASE
 
 %+pe%<post%>:%>pe # ;
-%+gua%<post%>:%>gua # ;
-%+guý%<post%>:%>guý # ;
-%+a%<post%>:%>a # ;
-%+ari%<post%>:%>ari # ;
-%+re%<post%>:%>re # ;
-# ; 
+!%+gua%<post%>:%>gua # ;
+!%+guý%<post%>:%>guý # ;
+!%+a%<post%>:%>a # ;
+!%+ari%<post%>:%>ari # ;
+!%+re%<post%>:%>re # ;
+!# ; 
+
+LEXICON PREFIX
+%[+a%]:a%< Verbs ;
+!%[+re%]              
+!%[+o%]               
+!%[+ja%]             
+!%[+ña%]             
+!%[+ro%]              
+!%[+pe%] 
 
 LEXICON CC
 
@@ -113,4 +132,5 @@ Chile:Chile NP-TOP ; ! "Chile"
 LEXICON Verbs 
 
 réra:réra V ; ! "llamar"
+guata:guata V ; ! "caminar"
 
