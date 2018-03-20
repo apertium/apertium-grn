@@ -3,6 +3,9 @@ Alphabet
 A B Ã C E Ẽ G G̃ H I Ĩ J K L M N Ñ O Õ P R S T U Ũ V Y Ỹ
 a b ã c e ẽ g g̃ h i ĩ j k l m n ñ o õ p r s t u ũ v y ỹ
 
+
+%{J%}:j %{J%}:ñ
+
 %>:0 
 % 
 %'
@@ -17,7 +20,16 @@ Nas = m n ñ ã ẽ ĩ õ ỹ
 Cns = B C D F G H J K L M N P Q R S T V W X Z G̃ Ñ 
       b c d f g h j k l m n p q r s t v w x z g̃ ñ ;
 
+Vows = A Ã E Ẽ I Ĩ O Õ U Ũ Y Ỹ
+       a ã e ẽ i ĩ o õ u ũ y ỹ ;
+
 Rules
 
-"Morpheme boundary"
-%>:0 <=> _ ;
+"Remove morpheme boundary"
+%>:0 <=> _ ; 
+
+"Add nasal prefix [ñ] in present 1pl incl"
+%{J%}:ñ <=> _ a: CNAS: ;
+                    where CNAS in Nas ;
+
+
