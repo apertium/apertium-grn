@@ -15,7 +15,7 @@ Multichar_Symbols
 %<pl%>               ! Plural
 %<incl%>             ! incluyente
 %<excl%>             ! excluyente 
-%<prn%>              ! Pronome
+%<prn%>              ! Pronombre
 
 %<n%>                ! Nombre
 %<np%>               ! Nombre proprio
@@ -28,11 +28,16 @@ Multichar_Symbols
 
 %<top%>              ! Toponimo
 
+%<are%>              ! Verbos areales
+%<aire%>             ! Verbos aireales con [i] despues de prefijo
+
 %>                   ! Frontera de morfema
 % 
 %'
 %+
 
+!!!!!!!!!!!!!!Archiphonemes!!!!!!!!!!!
+%{J%}              ! Archiphoneme for [j] or [ñ] in prefix ja, ña
 
 
 
@@ -43,6 +48,8 @@ Postpositions ;
 Nouns ; 
 ProperNouns ; 
 Verbs ; 
+Prefixes ;
+
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! 
@@ -75,16 +82,29 @@ LEXICON NP-TOP
 
 %<np%>%<top%>: CASE ;
 
-!a<prn><p1><sg>+aguata<v><iv><pres><p1><sg>:aguara
 
-LEXICON CNJ !    Conjugation
+LEXICON Prefixes         !    Conjugation
 
-%<prn%>%<p1%>%<sg%>%+%<v%>: a # ;
-![%+a%]: a%+%<v%> # ;
+%<prn%>%<p1%>%<sg%>%+:a Verbs ;
+%<prn%>%<p2%>%<sg%>%+:re Verbs ;
+%<prn%>%<p3%>%<sg%>%+:o Verbs ;
+
+%<prn%>%<p1%>%<pl%>%<incl%>%+:%{J%}a Verbs ;
+%<prn%>%<p1%>%<pl%>%<excl%>%+:ro Verbs ;
+
+%<prn%>%<p2%>%<pl%>%+:pe Verbs ;
+
+LEXICON K
+
+# ;
+
+LEXICON V-INFL 
+
+%<pres%>: K;
 
 LEXICON V 
 
-%<v%>: CNJ ;
+%<v%>: V-INFL ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! 
@@ -142,4 +162,5 @@ LEXICON Verbs
 
 réra:réra V ; ! "llamar"
 guata:guata V ; ! "caminar"
-
+ñani:ñani V ; ! "correr"
+ke:ke V ; ! "entrar"
