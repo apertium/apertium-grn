@@ -8,6 +8,14 @@ Multichar_Symbols
 %[+ro%]              ! Prefijo ro- excluyente 1pl
 %[+pe%]              ! Prefijo pe- 2pl
 
+%<sg%>               ! Sungular
+%<p1%>               ! 1 Persona
+%<p2%>               ! 2 Persona
+%<p3%>               ! 3 Persona
+%<pl%>               ! Plural
+%<incl%>             ! incluyente
+%<excl%>             ! excluyente 
+%<prn%>              ! Pronome
 
 %<n%>                ! Nombre
 %<np%>               ! Nombre proprio
@@ -25,6 +33,9 @@ Multichar_Symbols
 %'
 %+
 
+
+
+
 LEXICON Root 
 
 Conjunctions ;
@@ -32,7 +43,6 @@ Postpositions ;
 Nouns ; 
 ProperNouns ; 
 Verbs ; 
-Prefixes ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! 
@@ -41,21 +51,13 @@ Prefixes ;
 LEXICON CASE
 
 %+pe%<post%>:%>pe # ;
-!%+gua%<post%>:%>gua # ;
-!%+guý%<post%>:%>guý # ;
-!%+a%<post%>:%>a # ;
-!%+ari%<post%>:%>ari # ;
-!%+re%<post%>:%>re # ;
-!# ; 
-
-LEXICON PREFIX
-%[+a%]:a%< Verbs ;
-!%[+re%]              
-!%[+o%]               
-!%[+ja%]             
-!%[+ña%]             
-!%[+ro%]              
-!%[+pe%] 
+%+gua%<post%>:%>gua # ;
+%+guý%<post%>:%>guý # ;
+%+a%<post%>:%>a # ;
+%+ari%<post%>:%>ari # ;
+%+re%<post%>:%>re # ;
+# ; 
+ 
 
 LEXICON CC
 
@@ -73,9 +75,16 @@ LEXICON NP-TOP
 
 %<np%>%<top%>: CASE ;
 
+!a<prn><p1><sg>+aguata<v><iv><pres><p1><sg>:aguara
+
+LEXICON CNJ !    Conjugation
+
+%<prn%>%<p1%>%<sg%>%+%<v%>: a # ;
+![%+a%]: a%+%<v%> # ;
+
 LEXICON V 
 
-%<v%>: # ;
+%<v%>: CNJ # ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! 
