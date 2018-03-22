@@ -1,10 +1,11 @@
 Alphabet
 
 A B Ã C E Ẽ G G̃ H I Ĩ J K L M N Ñ O Õ P R S T U Ũ V Y Ỹ
-a b ã c e ẽ g g̃ h i ĩ j k l m n ñ o õ p r s t u ũ v y ỹ
+a b ã c e ẽ g g̃ h i ĩ j k l m n ñ o õ p r s t u ũ v y ỹ '
 
 
 %{J%}:j %{J%}:ñ
+%{P%}:' %{P%}:0
 
 %>:0 
 % 
@@ -32,4 +33,6 @@ Rules
 %{J%}:ñ <=> _ a: CNAS: ;
                     where CNAS in Nas ;
 
-
+"Insert glottal stop ['] if next morpheme starts with a vowel"
+%{P%}:' <=> _ Vow: ;
+                 where Vow in Vows ;
