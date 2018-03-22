@@ -38,7 +38,7 @@ Multichar_Symbols
 
 !!!!!!!!!!!!!!Archiphonemes!!!!!!!!!!!
 %{J%}              ! Archiphoneme for [j] or [ñ] in prefix ja, ña
-
+%{P%}              ! Archiphoneme for glottal stop (puso) [']
 
 
 LEXICON Root 
@@ -85,14 +85,14 @@ LEXICON NP-TOP
 
 LEXICON Prefixes         !    Conjugation
 
-%<prn%>%<p1%>%<sg%>%+:a Verbs ;
-%<prn%>%<p2%>%<sg%>%+:re Verbs ;
-%<prn%>%<p3%>%<sg%>%+:o Verbs ;
+%<prn%>%<p1%>%<sg%>%+:a%{P%} Verbs ;
+%<prn%>%<p2%>%<sg%>%+:re%{P%} Verbs ;
+%<prn%>%<p3%>%<sg%>%+:o%{P%} Verbs ;
 
-%<prn%>%<p1%>%<pl%>%<incl%>%+:%{J%}a Verbs ;
-%<prn%>%<p1%>%<pl%>%<excl%>%+:ro Verbs ;
+%<prn%>%<p1%>%<pl%>%<incl%>%+:%{J%}a%{P%} Verbs ;
+%<prn%>%<p1%>%<pl%>%<excl%>%+:ro%{P%} Verbs ;
 
-%<prn%>%<p2%>%<pl%>%+:pe Verbs ;
+%<prn%>%<p2%>%<pl%>%+:pe%{P%} Verbs ;
 
 LEXICON K
 
@@ -104,7 +104,7 @@ LEXICON V-INFL
 
 LEXICON V 
 
-%<v%>: V-INFL ;
+%<v%>%<iv%>: V-INFL ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! 
@@ -160,6 +160,7 @@ Chile:Chile NP-TOP ; ! "Chile"
 
 LEXICON Verbs 
 
+japo: japo V ; ! "hacer"
 réra:réra V ; ! "llamar"
 guata:guata V ; ! "caminar"
 ñani:ñani V ; ! "correr"
