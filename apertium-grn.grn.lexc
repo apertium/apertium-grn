@@ -19,7 +19,7 @@ Multichar_Symbols
 
 %<n%>                ! Nombre
 %<np%>               ! Nombre proprio
-%<vblex%>                ! Verbo
+%<v%>                ! Verbo
 %<post%>             ! Posposición
 %<cnjcoo%>           ! Conjunción coordinada
 
@@ -85,14 +85,14 @@ LEXICON NP-TOP
 
 LEXICON Prefixes         !    Conjugation
 
-+a%<prn%>%<p1%>%<sg%>%+:a%{P%} Verbs ;
-+re%<prn%>%<p2%>%<sg%>%+:re%{P%} Verbs ;
-+o%<prn%>%<p3%>%<sg%>%+:o%{P%} Verbs ;
+a%<prn%>%<p1%>%<sg%>%+:a%{P%} Verbs ;
+re%<prn%>%<p2%>%<sg%>%+:re%{P%} Verbs ;
+o%<prn%>%<p3%>%<sg%>%+:o%{P%} Verbs ;
 
-+a%<prn%>%<p1%>%<pl%>%<incl%>%+:%{J%}a%{P%} Verbs ;
-+ro%<prn%>%<p1%>%<pl%>%<excl%>%+:ro%{P%} Verbs ;
+a%<prn%>%<p1%>%<pl%>%<incl%>%+:%{J%}a%{P%} Verbs ;
+ro%<prn%>%<p1%>%<pl%>%<excl%>%+:ro%{P%} Verbs ;
 
-+pe%<prn%>%<p2%>%<pl%>%+:pe%{P%} Verbs ;
+pe%<prn%>%<p2%>%<pl%>%+:pe%{P%} Verbs ;
 
 LEXICON K
 
@@ -104,7 +104,7 @@ LEXICON V-INFL
 
 LEXICON V 
 
-%<vblex%>: V-INFL ;
+%<v%>%<iv%>: V-INFL ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! 
