@@ -30,6 +30,11 @@ Multichar_Symbols
 
 %<are%>              ! Verbos areales
 %<aire%>             ! Verbos aireales con [i] despues de prefijo
+%<pers%>             ! Personal Pronouns
+%<subs%>             ! Substantivante 
+%<pos%>              ! Possesive
+
+
 
 %>                   ! Frontera de morfema
 % 
@@ -49,6 +54,7 @@ Nouns ;
 ProperNouns ; 
 Verbs ; 
 Prefixes ;
+PersonalPronouns ;
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -64,7 +70,12 @@ LEXICON CASE
 %+ari%<post%>:%>ari # ;
 %+re%<post%>:%>re # ;
 # ; 
- 
+
+LEXICON SUBS
+%+ha%<post%>%<subs%>:%>ha # ;
+
+LEXICON POS ! Possesives
+%+i%<pos%>%<p1%>%<sg%>:%>i Verbs;
 
 LEXICON CC
 
@@ -97,6 +108,7 @@ pe%<prn%>%<p2%>%<pl%>%+:pe%{P%} Verbs ;
 LEXICON K
 
 # ;
+SUBS ;
 
 LEXICON V-INFL 
 
@@ -106,6 +118,14 @@ LEXICON V
 
 %<v%>%<iv%>: V-INFL ;
 
+
+LEXICON PP
+%<pers%>: PERS ;
+
+LEXICON PERS
+%<p1%>%<sg%>: K ;
+!%<p2%>%<sg%>: K ;
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -113,6 +133,10 @@ LEXICON V
 LEXICON Conjunctions 
 
 ha:ha CC ; ! "y"
+
+LEXICON PersonalPronouns
+
+che:che  PP ; ! "yo"
 
 LEXICON Postpositions
 
@@ -125,6 +149,8 @@ ykere:ykere POST ; ! "al lado de"
 pype:pype POST ; ! "dentro"
 hyepype:hyepype POST ; ! "adentro"
 apytepe:apytepe POST ; ! "en medio de"
+
+ha:ha POST-V ; ! "sustantivante verbal que/donde"
 
 LEXICON Nouns
 
@@ -147,6 +173,7 @@ aravo:aravo N ; ! "hora"
 tata:tata N ; ! "fuego"
 táva:táva N ; ! "ciudad"
 ysyry:ysyry N ; ! "río"
+sy:sy N ; ! "madre"
 
 LEXICON ProperNouns 
 
@@ -165,3 +192,8 @@ réra:réra V ; ! "llamar"
 guata:guata V ; ! "caminar"
 ñani:ñani V ; ! "correr"
 ke:ke V ; ! "entrar"
+ko:ko V ; ! "vivir"
+
+LEXICON Adjectives
+
+porã:porã ; ! "bonito"
