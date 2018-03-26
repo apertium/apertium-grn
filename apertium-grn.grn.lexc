@@ -33,6 +33,7 @@ Multichar_Symbols
 %<pers%>             ! Personal Pronouns
 %<subs%>             ! Substantivante 
 %<pos%>              ! Possesive
+%<det%>              ! Determiner
 
 
 
@@ -74,8 +75,8 @@ LEXICON CASE
 LEXICON SUBS
 %+ha%<post%>%<subs%>:%>ha # ;
 
-LEXICON POS ! Possesives
-%+i%<pos%>%<p1%>%<sg%>:%>i Verbs;
+LEXICON DET 
+%i%<det%>%<pos%>%<p3%>%<sg%>%+:%>i Verbs ;
 
 LEXICON CC
 
@@ -94,11 +95,11 @@ LEXICON NP-TOP
 %<np%>%<top%>: CASE ;
 
 
-LEXICON Prefixes         !    Conjugation
+LEXICON Prefixes   
 
 a%<prn%>%<p1%>%<sg%>%+:a%{P%} Verbs ;
 re%<prn%>%<p2%>%<sg%>%+:re%{P%} Verbs ;
-o%<prn%>%<p3%>%<sg%>%+:o%{P%} Verbs ;
+o%<prn%>%<p3%>%<sg%>%+:o%{P%} DET ;
 
 a%<prn%>%<p1%>%<pl%>%<incl%>%+:%{J%}a%{P%} Verbs ;
 ro%<prn%>%<p1%>%<pl%>%<excl%>%+:ro%{P%} Verbs ;
@@ -124,7 +125,6 @@ LEXICON PP
 
 LEXICON PERS
 %<p1%>%<sg%>: K ;
-!%<p2%>%<sg%>: K ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! 
