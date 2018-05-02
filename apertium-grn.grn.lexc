@@ -56,6 +56,7 @@ ProperNouns ;
 Verbs ; 
 Prefixes ;
 PersonalPronouns ;
+PossessivePronouns ;
 Biformes ;
 
 
@@ -137,6 +138,16 @@ ha'e%<prn%>%<pers%>%<p3%>%<sg%>:ha'e K ; ! "él, ella"
 ore%<prn%>%<pers%>%<p1%>%<excl%>%<pl%>:ore K ;
 peẽ%<prn%>%<pers%>%<p2%>%<pl%>:peẽ K ;
 ha'ekuéra%<prn%>%<pers%>%<p3%>%<pl%>:ha'ekuéra K ;
+
+LEXICON PossessivePronouns
+
+che%<prn%>%<pos%>%<p1%>%<sg%>:che K ;
+nde%<prn%>%<pos%>%<p2%>%<sg%>:nde K ; !ne 
+ñande%<prn%>%<pos%>%<p1%>%<incl%>%<pl%>:ñande K ; ! ñane 
+ore%<prn%>%<pos%>%<p1%>%<excl%>%<pl%>:ore K ;
+pende%<prn%>%<pos%>%<p2%>%<pl%>:pende K ; ! pene 
+
+
 
 LEXICON Postpositions
 
