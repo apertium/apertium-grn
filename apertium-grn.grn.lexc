@@ -175,6 +175,19 @@ apytepe:apytepe POST ; ! "en medio de"
 
 ha:ha POST-V ; ! "sustantivante verbal que/donde"
 
+LEXICON BIR 
+! Raices Biformes 
+
+rai:rai N ; ! "abuelo"
+raitagua:raitagua N ; ! "bisabuelo"
+remiari:remiari N ; ! "nieto"
+rova:rova N ; ! "cuñado"
+ru:ru N ; ! "padre"
+ryké:ryké N ; ! hermana mayor
+rembire:rembire N ; ! "esposa"
+ryke'ý:ryke'ý  N ; !"hermano mayor"
+ryvý:ryvý N ; ! "hermano menor"
+
 LEXICON Biformes 
 
 taita:taita N ; ! "abuelo"
