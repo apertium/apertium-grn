@@ -8,17 +8,18 @@ a b ã c e ẽ g g̃ h i ĩ j k l m n ñ o õ p r s t u ũ v y ỹ á é í ó �
 %{P%}:' %{P%}:0
 %{I%}:0 %{I%}:j %{I%}:ñ 
 %{H%}:0 %{H%}:h
+%{K%}:k %{K%}:ng
 
 %>:0 
 % 
 %'
-
+%+
 ;
 
 Sets
 
-Nas = m n ñ ã ẽ ĩ õ ỹ 
-      M N Ñ Ã Ẽ Ĩ Õ Ỹ ;
+Nas = m n ñ ã ẽ ĩ õ ỹ ũ
+      M N Ñ Ã Ẽ Ĩ Õ Ỹ Ũ ;
 
 Cns = B C D F G H J K L M N P Q R S T V W X Z G̃ Ñ 
       b c d f g h j k l m n p q r s t v w x z g̃ ñ ;
@@ -47,6 +48,10 @@ Rules
 "Insert glottal stop ['] if next morpheme starts with a vowel"
 %{P%}:' <=> _ Vow: ;
                  where Vow in Vows ;
+
+
+"Surface [ng] in pl nouns after nasals"
+%{K%}:ng <=> Nas:  _ ;
 
 "Remove CONS in 3p possessive prefixes"
 %{I%}:0 <=> _ CnsNorm: ;

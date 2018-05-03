@@ -47,6 +47,8 @@ Multichar_Symbols
 %{P%}              ! Archiphoneme for glottal stop (puso) [']
 %{I%}              ! Archiphoneme for possessive prefixes [i]
 %{H%}              ! Archiphoneme for possessive prefix [hi]
+%{K%}              ! Archiphoneme for [g] and [k] in nouns pl 
+%{N%}              ! Archiphoneme for [n] in nouns pl
 
 
 LEXICON Root 
@@ -61,6 +63,7 @@ PersonalPronouns ;
 PossessivePronouns ;
 PossessivePrefixes ;
 Biformes ;
+BIR ;
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -79,6 +82,10 @@ LEXICON CASE
 
 # ; 
 
+LEXICON N-PL 
+
+%+kuéra%<pl%>:%>%{K%}uéra # ;
+
 LEXICON SUBS
 %+ha%<post%>%<subs%>:%>ha # ;
 
@@ -96,6 +103,7 @@ LEXICON POST
 LEXICON N
 
 %<n%>: CASE ;
+%<n%>: N-PL ;
 
 
 LEXICON NP-TOP
@@ -175,18 +183,21 @@ apytepe:apytepe POST ; ! "en medio de"
 
 ha:ha POST-V ; ! "sustantivante verbal que/donde"
 
-LEXICON BIR 
-! Raices Biformes 
+LEXICON BI-END ! Biforms ending 
 
-rai:rai N ; ! "abuelo"
-raitagua:raitagua N ; ! "bisabuelo"
-remiari:remiari N ; ! "nieto"
-rova:rova N ; ! "cuñado"
+%<n%>: # ;
+
+LEXICON BIR  ! Raices Biformes 
+
+rai:rai BI-END ; ! "abuelo"
+raitagua:raitagua BI-END ; ! "bisabuelo"
+remiari:remiari BI-END ; ! "nieto"
+rova:rova BI-END ; ! "cuñado"
 ru:ru N ; ! "padre"
-ryké:ryké N ; ! hermana mayor
-rembire:rembire N ; ! "esposa"
-ryke'ý:ryke'ý  N ; !"hermano mayor"
-ryvý:ryvý N ; ! "hermano menor"
+ryké:ryké BI-END ; ! hermana mayor
+rembire:rembire BI-END ; ! "esposa"
+ryke'ý:ryke'ý  BI-END ; !"hermano mayor"
+ryvý:ryvý BI-END ; ! "hermano menor"
 
 LEXICON Biformes 
 
@@ -384,6 +395,7 @@ imbohapýva:imbohapýva N ; ! "terna"
 imboriahuetéva:imboriahuetéva N ; ! "indigente"
 inimbo:inimbo N ; ! "hilo"
 ipu'akavéva:ipu'akavéva N ; ! "campeón"
+irũ:irũ N ; ! amigo
 ita:ita N ; ! "piedra"
 itahai:itahai N ; ! "tiza"
 itaju:itaju N ; ! "oro"
