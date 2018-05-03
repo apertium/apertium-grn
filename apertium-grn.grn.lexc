@@ -45,6 +45,8 @@ Multichar_Symbols
 !!!!!!!!!!!!!!Archiphonemes!!!!!!!!!!!
 %{J%}              ! Archiphoneme for [j] or [ñ] in prefix ja, ña
 %{P%}              ! Archiphoneme for glottal stop (puso) [']
+%{I%}              ! Archiphoneme for possessive prefixes [i]
+%{H%}              ! Archiphoneme for possessive prefix [hi]
 
 
 LEXICON Root 
@@ -57,6 +59,7 @@ Verbs ;
 Prefixes ;
 PersonalPronouns ;
 PossessivePronouns ;
+PossessivePrefixes ;
 Biformes ;
 
 
@@ -110,6 +113,15 @@ a%<prn%>%<p1%>%<pl%>%<incl%>%+:%{J%}a%{P%} Verbs ;
 ro%<prn%>%<p1%>%<pl%>%<excl%>%+:ro%{P%} Verbs ;
 
 pe%<prn%>%<p2%>%<pl%>%+:pe%{P%} Verbs ;
+
+LEXICON PossessivePrefixes 
+
+i%<prn%>%<pos%>%<p3%>%<sg%>%+:i%{I%} Nouns ; 
+o%<prn%>%<pos%>%<p3%>%<sg%>%+:o%{P%} Nouns ;
+!hi%<prn%>%<pos%>%<p3%>%<sg%>%+:%{H%}hi{P%} Nouns ; !!! Uresolved 
+
+
+
 
 LEXICON K
 
