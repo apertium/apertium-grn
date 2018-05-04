@@ -88,3 +88,12 @@ V:0 <=> %{p%}: %{T%}: [ Vows: | Cns: ]+ _ # ;
 "Remove consonant before final vowel in possessive biforms"
 C:0 <=> %{p%}: %{T%}: [ Vows: | Cns: ]+ _ Vows: # ;
        where C in Cns ;
+
+"Change ú to u at the end of the word"
+ú:u <=> %{p%}: %{T%}: [ Vows: | Cns: ]+ _ Cns: Vows: # ;
+
+"Change é to u at the end of the word"
+é:e <=> %{p%}: %{T%}: [ Vows: | Cns: ]+ _ Cns: Vows: # ;
+
+"Change ý to y at the end of the word"
+ý:y <=> %{p%}: %{T%}: [ Vows: | Cns: ]+ _ Cns: Vows: # ;
