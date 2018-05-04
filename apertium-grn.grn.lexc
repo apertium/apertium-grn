@@ -65,7 +65,6 @@ VerbalPrefixes ;
 PersonalPronouns ;
 PossessiveDeterminers ;
 Biformes ;
-BIR ;
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -190,21 +189,6 @@ apytepe:apytepe POST ; ! "en medio de"
 
 ha:ha POST-V ; ! "sustantivante verbal que/donde"
 
-LEXICON BI-END ! Biforms ending 
-
-%<n%>: # ;
-
-LEXICON BIR  ! Raices Biformes 
-
-rai:rai BI-END ; ! "abuelo"
-raitagua:raitagua BI-END ; ! "bisabuelo"
-remiari:remiari BI-END ; ! "nieto"
-rova:rova BI-END ; ! "cuñado"
-ru:ru N ; ! "padre"
-ryké:ryké BI-END ; ! hermana mayor
-rembire:rembire BI-END ; ! "esposa"
-ryke'ý:ryke'ý  BI-END ; !"hermano mayor"
-ryvý:ryvý BI-END ; ! "hermano menor"
 
 LEXICON Biformes 
 
