@@ -10,6 +10,8 @@ a b ã c e ẽ g g̃ h i ĩ j k l m n ñ o õ p r s t u ũ v y ỹ á é í ó �
 %{H%}:0 %{H%}:h
 %{K%}:k %{K%}:ng
 %{D%}:d %{D%}:0 
+%{T%}:0
+%{p%}:0 %{p%}:r
 
 %>:0 
 % 
@@ -51,8 +53,9 @@ Rules
                  where Vow in Vows ;
 
 
-"Surface [ng] in pl nouns after nasals"
-%{K%}:ng <=> Nas:  _ ;
+"Surface [ng] in pl nouns after nasals" ! Does not work. Why?
+%{K%}:ng <=> N:  _ ;
+            where N in Nas ;
 
 "Remove CONS in 3p possessive prefixes"
 %{I%}:0 <=> _ CnsNorm: ;
@@ -70,4 +73,18 @@ Rules
 %{D%}:0 <=> _ e: [CnsNorm: | VowsAton: |VowsTon: ]+ Nas: ;
 
 "Possessive {H} before VowsTon"          !!! Unresolved
-%{H%}:h <=> _ i %{I%}: VowsTon: ;
+%{H%}:h <=> _ i: %{I%}: VowsTon: ;
+
+"Change t in biform nouns after possessive"
+%{p%}:r <=> _ %{T%}: ;
+
+"Remove t in biforms after possessive"
+t:0 <=> %{p%}: %{T%}: _ ;
+
+"Remove final vowel in possessive biforms"
+V:0 <=> %{p%}: %{T%}: [ Vows: | Cns: ]+ _ # ;
+       where V in Vows ;
+
+"Remove consonant before final vowel in possessive biforms"
+C:0 <=> %{p%}: %{T%}: [ Vows: | Cns: ]+ _ Vows: # ;
+       where C in Cns ;
