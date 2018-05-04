@@ -12,6 +12,7 @@ a b ã c e ẽ g g̃ h i ĩ j k l m n ñ o õ p r s t u ũ v y ỹ á é í ó �
 %{D%}:d %{D%}:0 
 %{T%}:0
 %{p%}:0 %{p%}:r
+%{E%}:i %{E%}:e
 
 %>:0 
 % 
@@ -39,6 +40,12 @@ VowsTon = Á É Í Ó Ú Ý
 VowsAton = A E I O U Y 
            a e i o u y ;
 
+VowsStrong = A Ã E Ẽ O Õ Á É Ó
+             a ã e ẽ o õ á é ó
+
+VowsWeak = I Ĩ U Ũ Y Ỹ Í Ú Ý
+           i ĩ u ũ y ỹ í ú ý
+
 Rules
 
 "Remove morpheme boundary"
@@ -54,11 +61,10 @@ Rules
 
 
 "Surface [ng] in pl nouns after nasals" ! Does not work. Why?
-%{K%}:ng <=> N:  _ ;
-            where N in Nas ;
+%{K%}:ng <=> Nas:  _ ;
 
 "Remove CONS in 3p possessive prefixes"
-%{I%}:0 <=> _ CnsNorm: ;
+%{I%}:0 <=> %{H%}: i: _ %{p%}: CnsNorm: ; ! FIX all cases of i in possessives 
 
 "Possessive {I} as j before VowsAton" 
 %{I%}:j <=> _ VowsAton: ;
@@ -97,3 +103,6 @@ C:0 <=> %{p%}: %{T%}: [ Vows: | Cns: ]+ _ Vows: # ;
 
 "Change ý to y at the end of the word"
 ý:y <=> %{p%}: %{T%}: [ Vows: | Cns: ]+ _ Cns: Vows: # ;
+
+"Surface [e] after weak vowels in quantifiers" 
+%{E%}:e <=> VowsWeak: _ ;

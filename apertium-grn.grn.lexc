@@ -34,6 +34,7 @@ Multichar_Symbols
 %<subs%>             ! Substantivante 
 %<pos%>              ! Possessive
 %<det%>              ! Determiner
+%<qnt%>              ! Quantifier
 
 
 
@@ -52,6 +53,7 @@ Multichar_Symbols
 %{N%}              ! Archiphoneme for [n] in nouns pl
 %{T%}              ! Archiphoneme [t] for biform nouns
 %{p%}              ! Archiphoneme for change in possessive biform nouns
+%{E%}              ! Archiphoneme for [e] in quantifiers 
 
 
 LEXICON Root 
@@ -83,6 +85,9 @@ LEXICON CASE
 
 # ; 
 
+LEXICON QNT 
+%+ita%<qnt%>:%>%{E%}ta # ;
+
 LEXICON N-PL 
 
 %+kuéra%<pl%>:%>%{K%}uéra # ;
@@ -103,6 +108,7 @@ LEXICON N
 
 %<n%>: CASE ;
 %<n%>: N-PL ;
+%<n%>: QNT ;
 
 
 LEXICON NP-TOP
