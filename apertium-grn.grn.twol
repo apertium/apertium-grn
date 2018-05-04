@@ -9,6 +9,7 @@ a b ã c e ẽ g g̃ h i ĩ j k l m n ñ o õ p r s t u ũ v y ỹ á é í ó �
 %{I%}:0 %{I%}:j %{I%}:ñ 
 %{H%}:0 %{H%}:h
 %{K%}:k %{K%}:ng
+%{D%}:d %{D%}:0 
 
 %>:0 
 % 
@@ -65,5 +66,8 @@ Rules
 "Possessive %{I%} as ñ in nasal nouns starting with VowsAton"
 %{I%}:ñ <=> _ VowsAton:[CnsNorm: | VowsAton: |VowsTon: ]+ Nas: ;
 
-!"Possessive {H} before VowsTon"          !!! Unresolved
-!%{H%}:h <=> _ i: %{P%}: VowsTon: ;
+"Remove [d] in possessive prefixes" 
+%{D%}:0 <=> _ e: [CnsNorm: | VowsAton: |VowsTon: ]+ Nas: ;
+
+"Possessive {H} before VowsTon"          !!! Unresolved
+%{H%}:h <=> _ i %{I%}: VowsTon: ;

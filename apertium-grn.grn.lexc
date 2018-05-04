@@ -47,6 +47,7 @@ Multichar_Symbols
 %{P%}              ! Archiphoneme for glottal stop (puso) [']
 %{I%}              ! Archiphoneme for possessive prefixes [i]
 %{H%}              ! Archiphoneme for possessive prefix [hi]
+%{D%}              ! Archiphoneme for [d] in possessive prefixes 
 %{K%}              ! Archiphoneme for [g] and [k] in nouns pl 
 %{N%}              ! Archiphoneme for [n] in nouns pl
 
@@ -58,10 +59,9 @@ Postpositions ;
 Nouns ; 
 ProperNouns ; 
 Verbs ; 
-Prefixes ;
+VerbalPrefixes ;
 PersonalPronouns ;
-PossessivePronouns ;
-PossessivePrefixes ;
+PossessiveDeterminers ;
 Biformes ;
 BIR ;
 
@@ -86,11 +86,9 @@ LEXICON N-PL
 
 %+kuéra%<pl%>:%>%{K%}uéra # ;
 
-LEXICON SUBS
-%+ha%<post%>%<subs%>:%>ha # ;
 
 LEXICON DET 
-%i%<det%>%<pos%>%<p3%>%<sg%>%+:%>i Verbs ;
+%i%<det%>%<pos%>%<p3%>%<sg%>%+:%>i Verbs ; !! oikoha "lo"
 
 LEXICON CC
 
@@ -111,7 +109,7 @@ LEXICON NP-TOP
 %<np%>%<top%>: CASE ;
 
 
-LEXICON Prefixes   
+LEXICON VerbalPrefixes   
 
 a%<prn%>%<p1%>%<sg%>%+:a%{P%} Verbs ;
 re%<prn%>%<p2%>%<sg%>%+:re%{P%} Verbs ;
@@ -122,9 +120,15 @@ ro%<prn%>%<p1%>%<pl%>%<excl%>%+:ro%{P%} Verbs ;
 
 pe%<prn%>%<p2%>%<pl%>%+:pe%{P%} Verbs ;
 
-LEXICON PossessivePrefixes 
+LEXICON PossessiveDeterminers 
 
-i%<prn%>%<pos%>%<p3%>%<sg%>%+:i%{I%} Nouns ; 
+che%<prn%>%<pos%>%<p1%>%<sg%>%+:che Nouns ;
+nde%<prn%>%<pos%>%<p2%>%<sg%>%+:n%{D%}e Nouns ; !ne 
+ñande%<prn%>%<pos%>%<p1%>%<incl%>%<pl%>%+:ñan%{D%}e Nouns ; ! ñane 
+ore%<prn%>%<pos%>%<p1%>%<excl%>%<pl%>%+:ore Nouns ;
+pende%<prn%>%<pos%>%<p2%>%<pl%>%+:pen%{D%}e Nouns ; ! pene 
+
+i%<prn%>%<pos%>%<p3%>%<sg%>%+:%{H%}i%{I%} Nouns ; 
 o%<prn%>%<pos%>%<p3%>%<sg%>%+:o%{P%} Nouns ;
 !hi%<prn%>%<pos%>%<p3%>%<sg%>%+:%{H%}hi{P%} Nouns ; !!! Uresolved 
 
@@ -134,7 +138,6 @@ o%<prn%>%<pos%>%<p3%>%<sg%>%+:o%{P%} Nouns ;
 LEXICON K
 
 # ;
-SUBS ;
 
 LEXICON V-INFL 
 
@@ -151,21 +154,13 @@ ha:ha CC ; ! "y"
 
 LEXICON PersonalPronouns
 
-che%<prn%>%<pers%>%<p1%>%<sg%>:che K ; ! "yo"
-nde%<prn%>%<pers%>%<p2%>%<sg%>:nde K ; ! tú
+ché%<prn%>%<pers%>%<p1%>%<sg%>:ché K ; ! "yo"
+ndé%<prn%>%<pers%>%<p2%>%<sg%>:ndé K ; ! tú
 ha'e%<prn%>%<pers%>%<p3%>%<sg%>:ha'e K ; ! "él, ella"
-ñande%<prn%>%<pers%>%<p1%>%<incl%>%<pl%>:ñande K ;
-ore%<prn%>%<pers%>%<p1%>%<excl%>%<pl%>:ore K ;
+ñandé%<prn%>%<pers%>%<p1%>%<incl%>%<pl%>:ñandé K ;
+oré%<prn%>%<pers%>%<p1%>%<excl%>%<pl%>:oré K ;
 peẽ%<prn%>%<pers%>%<p2%>%<pl%>:peẽ K ;
 ha'ekuéra%<prn%>%<pers%>%<p3%>%<pl%>:ha'ekuéra K ;
-
-LEXICON PossessivePronouns
-
-che%<prn%>%<pos%>%<p1%>%<sg%>:che K ;
-nde%<prn%>%<pos%>%<p2%>%<sg%>:nde K ; !ne 
-ñande%<prn%>%<pos%>%<p1%>%<incl%>%<pl%>:ñande K ; ! ñane 
-ore%<prn%>%<pos%>%<p1%>%<excl%>%<pl%>:ore K ;
-pende%<prn%>%<pos%>%<p2%>%<pl%>:pende K ; ! pene 
 
 
 
@@ -322,6 +317,7 @@ atyapy:atyapy N ; ! "trío"
 atyporavopyre:atyporavopyre N ; ! "equipo"
 atyvore:atyvore N ; ! "muestra"
 atãngue:atãngue N ; ! "solidez"
+áva:áva N ; ! cabello
 ava:ava N ; ! "gente"
 avajokoha:avajokoha N ; ! "hebilla"
 avapaje:avapaje N ; ! "mago"
