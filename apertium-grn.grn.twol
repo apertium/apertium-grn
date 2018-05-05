@@ -66,26 +66,25 @@ Rules
 "Surface [g] in pl nouns after nasals" 
 %{K%}:g <=> Nas: %>: %{N%}: _ ;
 
-
+"Possessive {H} before VowsTon"          !!! Unresolved
+%{H%}:h <=> _ i: %{I%}: %{p%}: VowsTon: ;
 
 
 "Remove CONS in 3p possessive prefixes"
-%{I%}:0 <=> %{H%}: i: _ %{p%}: CnsNorm: ; ! FIX all cases of i in possessives 
+%{I%}:0 <=> i: _ %{p%}: CnsNorm: ; ! FIX all cases of i in possessives 
 
 "Possessive {I} as j before VowsAton" 
-%{I%}:j <=> _ VowsAton: ;
+%{I%}:j <=> _ %{p%}: VowsAton: ;
             except 
-            _ VowsAton:[CnsNorm: | VowsAton: |VowsTon: ]+ Nas: ; 
+            _ %{p%}: VowsAton:[CnsNorm: | VowsAton: |VowsTon: ]+ Nas: ; 
 
 
 "Possessive %{I%} as ñ in nasal nouns starting with VowsAton"
-%{I%}:ñ <=> _ VowsAton:[CnsNorm: | VowsAton: |VowsTon: ]+ Nas: ;
+%{I%}:ñ <=> _ %{p%}: VowsAton:[CnsNorm: | VowsAton: |VowsTon: ]+ Nas: ;
 
 "Remove [d] in possessive prefixes" 
 %{D%}:0 <=> _ e: [CnsNorm: | VowsAton: |VowsTon: ]+ Nas: ;
 
-"Possessive {H} before VowsTon"          !!! Unresolved
-%{H%}:h <=> _ i: %{I%}: VowsTon: ;
 
 "Change t in biform nouns after possessive"
 %{p%}:r <=> _ %{T%}: ;
