@@ -8,7 +8,8 @@ a b ã c e ẽ g g̃ h i ĩ j k l m n ñ o õ p r s t u ũ v y ỹ á é í ó �
 %{P%}:' %{P%}:0
 %{I%}:0 %{I%}:j %{I%}:ñ 
 %{H%}:0 %{H%}:h
-%{K%}:k %{K%}:ng
+%{K%}:k %{K%}:g 
+%{N%}:0 %{N%}:n 
 %{D%}:d %{D%}:0 
 %{T%}:0
 %{p%}:0 %{p%}:r
@@ -41,10 +42,10 @@ VowsAton = A E I O U Y
            a e i o u y ;
 
 VowsStrong = A Ã E Ẽ O Õ Á É Ó
-             a ã e ẽ o õ á é ó
+             a ã e ẽ o õ á é ó ;
 
 VowsWeak = I Ĩ U Ũ Y Ỹ Í Ú Ý
-           i ĩ u ũ y ỹ í ú ý
+           i ĩ u ũ y ỹ í ú ý ;
 
 Rules
 
@@ -59,9 +60,14 @@ Rules
 %{P%}:' <=> _ Vow: ;
                  where Vow in Vows ;
 
+"Surface [n] in plural nouns" 
+%{N%}:n <=> Nas: %>: _ ;
 
-"Surface [ng] in pl nouns after nasals" ! Does not work. Why?
-%{K%}:ng <=> Nas:  _ ;
+"Surface [g] in pl nouns after nasals" 
+%{K%}:g <=> Nas: %>: %{N%}: _ ;
+
+
+
 
 "Remove CONS in 3p possessive prefixes"
 %{I%}:0 <=> %{H%}: i: _ %{p%}: CnsNorm: ; ! FIX all cases of i in possessives 
@@ -105,4 +111,4 @@ C:0 <=> %{p%}: %{T%}: [ Vows: | Cns: ]+ _ Vows: # ;
 ý:y <=> %{p%}: %{T%}: [ Vows: | Cns: ]+ _ Cns: Vows: # ;
 
 "Surface [e] after weak vowels in quantifiers" 
-%{E%}:e <=> VowsWeak: _ ;
+%{E%}:e <=> VowsWeak: %>: _ ;
