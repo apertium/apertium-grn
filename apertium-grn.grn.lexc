@@ -1,12 +1,5 @@
 Multichar_Symbols
 
-%[+a%]               ! Prefijo a- 1sg
-%[+re%]              ! Prefijo re- 2sg
-%[+o%]               ! Prefijo 0- 3sg / 3pl
-%[+ja%]              ! Prefijo ja- incluyente 1pl
-%[+ña%]              ! Prefijo ña- incluyente 1pl
-%[+ro%]              ! Prefijo ro- excluyente 1pl
-%[+pe%]              ! Prefijo pe- 2pl
 
 %<sg%>               ! Sungular
 %<p1%>               ! 1 Persona
@@ -233,7 +226,6 @@ tyke'ýra:%{T%}tyke'ýra  N ; !"hermano mayor"
 tyvýra:%{T%}tyvýra N ; ! "hermano menor"
 
 LEXICON Nouns
-
 Tupãremimbou:Tupãremimbou N ; !"ángel"
 achegety:achegety N ; !"abecedario"
 aguara:aguara N ; !"zorro"
@@ -243,18 +235,26 @@ aho'iha:aho'iha N ; !"carpa"
 ahy'o:ahy'o N ; !"garganta"
 ahy'orasy:ahy'orasy N ; !"angina"
 ai:ai N ; !"lesión"
+ai:ai N ; !"llaga" !Dir/LR
 ajaka:ajaka N ; !"canasto"
+ajaka:ajaka N ; !"cesto" !Dir/LR
 aju'y:aju'y N ; !"laurel"
 ajúra:ajúra N ; !"cuello"
 akatúa:akatúa N ; !"derecha"
 aky:aky N ; !"verde"
 akytã:akytã N ; !"nudo"
+akytã:akytã N ; !"tumor" !Dir/LR
 akã:akã N ; !"cabeza"
 akãguapy:akãguapy N ; !"juicio"
-akãhatã:akãhatã N ; !"pícaro"
+akãguapy:akãguapy N ; !"prudencia" !Dir/LR
+akãguapy:akãguapy N ; !"cordura" !Dir/LR
+akãhatã:akãhatã N ; !"terquedad"
+akãhatã:akãhatã N ; !"pícaro" !Dir/LR
 akãhoja:akãhoja N ; !"manto"
 akãndu:akãndu N ; !"hematoma"
+akãndu:akãndu N ; !"chichón" !Dir/LR
 akãngao:akãngao N ; !"sombrero"
+akãngao:akãngao N ; !"gorra" !Dir/LR
 akãngatu:akãngatu N ; !"memoria"
 akãnga'u:akãnga'u N ; !"vértigo"
 akãngua:akãngua N ; !"mente"
@@ -264,6 +264,7 @@ akão'atã:akão'atã N ; !"casco"
 akãporã:akãporã N ; !"intelectual"
 akãraku:akãraku N ; !"fervor"
 akãrapu'ã:akãrapu'ã N ; !"mejoría"
+akãrapu'ã:akãrapu'ã N ; !"desarrollo" !Dir/LR
 akãreko:akãreko N ; !"mentalidad"
 akãvai:akãvai N ; !"locura"
 ama:ama N ; !"lluvia"
@@ -271,16 +272,22 @@ amaguasu:amaguasu N ; !"diluvio"
 amambái:amambái N ; !"helecho"
 amandaivi:amandaivi N ; !"llovizna"
 amandaje:amandaje N ; !"asamblea"
+amandaje:amandaje N ; !"congreso" !Dir/LR
 amandáu:amandáu N ; !"granizo"
 amasapy'a:amasapy'a N ; !"chaparrón"
 ambere:ambere N ; !"lagartija"
 anambusukue:anambusukue N ; !"grosor"
 andu:andu N ; !"sentido"
 anduavy:anduavy N ; !"ilusión"
-angekói:angekói N ; !"malestar"
+angekói:angekói N ; !"tormento"
+angekói:angekói N ; !"malestar" !Dir/LR
 anguja:anguja N ; !"rata"
+anguja:anguja N ; !"ratón" !Dir/LR
 ao:ao N ; !"ropa"
-!ao jyva:ao jyva N ; !"manga"
+ao:ao N ; !"lienzo" !Dir/LR
+ao:ao N ; !"vestimenta" !Dir/LR
+ao:ao N ; !"indumentaria" !Dir/LR
+ao% jyva:ao% jyva N ; !"manga"
 aoaku:aoaku N ; !"abrigo"
 aoanambusu:aoanambusu N ; !"lona"
 aoaty:aoaty N ; !"vestuario"
@@ -290,28 +297,39 @@ aosorokue:aosorokue N ; !"harapo"
 ao'apohára:ao'apohára N ; !"modista"
 apañuãi:apañuãi N ; !"problema"
 ape:ape N ; !"faz"
+ape:ape N ; !"lomo" !Dir/LR
+ape:ape N ; !"caparazón" !Dir/LR
+ape:ape N ; !"superficie" !Dir/LR
 apegua:apegua N ; !"local"
-apesã:apesã N ; !"racimo"
+apesã:apesã N ; !"ramo"
+apesã:apesã N ; !"manojo" !Dir/LR
+apesã:apesã N ; !"racimo" !Dir/LR
+apesã:apesã N ; !"lote" !Dir/LR
 apiru'a:apiru'a N ; !"ampolla"
 apo:apo N ; !"fabricación"
+apo:apo N ; !"ejecución" !Dir/LR
 apoha:apoha N ; !"profesión"
+apoha:apoha N ; !"generador" !Dir/LR
 apohare:apohare N ; !"autor"
 apohatee:apohatee N ; !"protagonista"
 apohára:apohára N ; !"agente"
 apokuaaha:apokuaaha N ; !"ingeniero"
 aponde'a:aponde'a N ; !"plan"
 apopyre:apopyre N ; !"hecho"
+apopyre:apopyre N ; !"industrial" !Dir/LR
 apopyrã:apopyrã N ; !"agenda"
 aporeko:aporeko N ; !"técnica"
 apose:apose N ; !"intención"
 apu'a:apu'a N ; !"perímetro"
 apy:apy N ; !"remate"
+apy:apy N ; !"fin" !Dir/LR
 apyka:apyka N ; !"silla"
 apykaguasu:apykaguasu N ; !"sillón"
 apykahai:apykahai N ; !"pupitre"
 apykapuku:apykapuku N ; !"banco"
 apysa:apysa N ; !"oído"
 apýra:apýra N ; !"término"
+apýra:apýra N ; !"tope" !Dir/LR
 araapy:araapy N ; !"martes"
 aragua:aragua N ; !"temporal"
 arai:arai N ; !"nube"
@@ -320,6 +338,8 @@ aramboha:aramboha N ; !"almohada"
 aramboty:aramboty N ; !"cumpleaños"
 aramirõ:aramirõ N ; !"almidón"
 arandu:arandu N ; !"inteligencia"
+arandu:arandu N ; !"sabio" !Dir/LR
+arandu:arandu N ; !"culto" !Dir/LR
 aranduchauka:aranduchauka N ; !"examen"
 aranduka:aranduka N ; !"libro"
 arandukarenda:arandukarenda N ; !"librería"
@@ -329,7 +349,10 @@ arapo:arapo N ; !"jueves"
 arapokõi:arapokõi N ; !"sábado"
 arapoty:arapoty N ; !"primavera"
 arapy:arapy N ; !"universo"
+arapy:arapy N ; !"mundo" !Dir/LR
 arapytu:arapytu N ; !"clima"
+arapytu:arapytu N ; !"oxígeno" !Dir/LR
+arapytu:arapytu N ; !"temperatura" !Dir/LR
 arapytu'u:arapytu'u N ; !"vacación"
 ararechaukaha:ararechaukaha N ; !"almanaque"
 arareñoihague:arareñoihague N ; !"natalicio"
@@ -342,30 +365,40 @@ aravai:aravai N ; !"tempestad"
 aravo:aravo N ; !"hora"
 aravopapaha:aravopapaha N ; !"reloj"
 ara'aty:ara'aty N ; !"época"
+ara'aty:ara'aty N ; !"período" !Dir/LR
 arete:arete N ; !"fiesta"
 aripaka:aripaka N ; !"mesa"
 asaje:asaje N ; !"mediodía"
+asaje:asaje N ; !"siesta" !Dir/LR
 atuakãndu:atuakãndu N ; !"joroba"
 aty:aty N ; !"reunión"
+aty:aty N ; !"grupo" !Dir/LR
+aty:aty N ; !"tanda" !Dir/LR
 atyapy:atyapy N ; !"trío"
 atyporavopyre:atyporavopyre N ; !"equipo"
 atyvore:atyvore N ; !"muestra"
 atãngue:atãngue N ; !"solidez"
 ava:ava N ; !"raza"
+ava:ava N ; !"gente" !Dir/LR
 avajokoha:avajokoha N ; !"hebilla"
 avapaje:avapaje N ; !"mago"
 ava'aty:ava'aty N ; !"sociedad"
 ayvu:ayvu N ; !"alboroto"
+ayvu:ayvu N ; !"murmullo" !Dir/LR
+ayvu:ayvu N ; !"rumor" !Dir/LR
 ayvuguasu:ayvuguasu N ; !"tumulto"
 aña:aña N ; !"malicia"
+aña:aña N ; !"diablo" !Dir/LR
 añaretã:añaretã N ; !"infierno"
 añete:añete N ; !"seguro"
 añetegua:añetegua N ; !"realidad"
+añetegua:añetegua N ; !"verdad" !Dir/LR
 año:año N ; !"singular"
 añopegua:añopegua N ; !"intimidad"
 changui:changui N ; !"ventaja"
 chavurro:chavurro N ; !"burro"
-!chiváto guasu:chiváto guasu N ; !"acacia"
+chavurro:chavurro N ; !"asno" !Dir/LR
+chiváto% guasu:chiváto% guasu N ; !"acacia"
 chocokue:chocokue N ; !"labriego"
 chokokue:chokokue N ; !"agricultor"
 chororo:chororo N ; !"chorro"
@@ -377,9 +410,11 @@ guapyha:guapyha N ; !"butaca"
 guarara:guarara N ; !"estruendo"
 guarimbe:guarimbe N ; !"ganso"
 guaripóla:guaripóla N ; !"licor"
+guaripóla:guaripóla N ; !"caña" !Dir/LR
 guariñemuha:guariñemuha N ; !"cantina"
 guasu:guasu N ; !"venado"
 guataha:guataha N ; !"vereda"
+guataha:guataha N ; !"peatón" !Dir/LR
 gua'a:gua'a N ; !"guacamayo"
 gua'úva:gua'úva N ; !"ficción"
 guyra:guyra N ; !"pájaro"
@@ -392,6 +427,7 @@ haingatu:haingatu N ; !"ortografía"
 haipyre:haipyre N ; !"texto"
 haipyvo:haipyvo N ; !"estrofa"
 hasaha:hasaha N ; !"pasaje"
+hasaha:hasaha N ; !"pasadizo" !Dir/LR
 hatã:hatã N ; !"macizo"
 havõ:havõ N ; !"jabón"
 hayhuha:hayhuha N ; !"amante"
@@ -416,12 +452,14 @@ he'iséva:he'iséva N ; !"concepto"
 hi'arekue:hi'arekue N ; !"duración"
 hi'upy:hi'upy N ; !"vianda"
 hi'upyrã:hi'upyrã N ; !"menú"
+hi'upyrã:hi'upyrã N ; !"provisión" !Dir/LR
 hi'upyrãrenda:hi'upyrãrenda N ; !"abasto"
 ho:ho N ; !"ida"
 hoko:hoko N ; !"garza"
-!hova mokõiva:hova mokõiva N ; !"hipócrita"
+hova% mokõiva:hova% mokõiva N ; !"hipócrita"
 huguykõi:huguykõi N ; !"mestizo"
-hupiha:hupiha N ; !"elevador"
+hupiha:hupiha N ; !"grúa"
+hupiha:hupiha N ; !"elevador" !Dir/LR
 hupytykue:hupytykue N ; !"alcance"
 hu'u:hu'u N ; !"tos"
 hu'y:hu'y N ; !"flecha"
@@ -435,11 +473,14 @@ inimbo:inimbo N ; !"hilo"
 ipu'akavéva:ipu'akavéva N ; !"campeón"
 irundyha:irundyha N ; !"cuarto"
 ita:ita N ; !"piedra"
+ita:ita N ; !"roca" !Dir/LR
 itahai:itahai N ; !"tiza"
 itaju:itaju N ; !"oro"
 itajuaty:itajuaty N ; !"tesoro"
 itakaru:itakaru N ; !"imán"
-itakua:itakua N ; !"gruta"
+itakua:itakua N ; !"caverna"
+itakua:itakua N ; !"cueva" !Dir/LR
+itakua:itakua N ; !"gruta" !Dir/LR
 itaku'ijy:itaku'ijy N ; !"cemento"
 itape:itape N ; !"losa"
 itapoty:itapoty N ; !"musgo"
@@ -451,12 +492,14 @@ ityarõva:ityarõva N ; !"adulto"
 iviruhetáva:iviruhetáva N ; !"magnate"
 ja:ja N ; !"ocasión"
 jagua:jagua N ; !"perro"
-!jagua ñarõ:jagua ñarõ N ; !"ladrido"
+jagua% ñarõ:jagua% ñarõ N ; !"ladrido"
 jaguarete:jaguarete N ; !"leopardo"
+jaguarete:jaguarete N ; !"tigre" !Dir/LR
 jaguarete'i:jaguarete'i N ; !"lince"
 jaguaru:jaguaru N ; !"lobo"
 jahechaha:jahechaha N ; !"espejo"
 jahéi:jahéi N ; !"impaciencia"
+jahéi:jahéi N ; !"maltrato" !Dir/LR
 jajái:jajái N ; !"esplendor"
 jakare:jakare N ; !"caimán"
 japepo:japepo N ; !"olla"
@@ -468,6 +511,7 @@ japu:japu N ; !"engaño"
 jari'i:jari'i N ; !"acné"
 jarýi:jarýi N ; !"abuela"
 jasy:jasy N ; !"luna"
+jasy:jasy N ; !"mes" !Dir/LR
 jasyapy:jasyapy N ; !"marzo"
 jasykõi:jasykõi N ; !"febrero"
 jasypa:jasypa N ; !"octubre"
@@ -477,22 +521,25 @@ jasyporundy:jasyporundy N ; !"septiembre"
 javegua:javegua N ; !"colega"
 javorái:javorái N ; !"maleza"
 jegua:jegua N ; !"lujo"
+jegua:jegua N ; !"encaje" !Dir/LR
 jeguaka:jeguaka N ; !"joya"
 jeguakarenda:jeguakarenda N ; !"joyería"
 jeguaka'apoha:jeguaka'apoha N ; !"joyero"
 jeguata:jeguata N ; !"marcha"
 jehai:jehai N ; !"raya"
-!jehai po pegua:jehai po pegua N ; !"manuscrito"
+jehai% po:jehai% po N ; !"manuscrito"
 jehapereka:jehapereka N ; !"investigación"
 jehasa:jehasa N ; !"transcurso"
-!jehasa asyeterei:jehasa asyeterei N ; !"martirio"
+jehasa% asyeterei:jehasa% asyeterei N ; !"martirio"
 jehasapyre:jehasapyre N ; !"vivencia"
 jehasarepy:jehasarepy N ; !"peaje"
 jehasa'asy:jehasa'asy N ; !"escasez"
 jehechauka:jehechauka N ; !"señalización"
 jehechavai:jehechavai N ; !"trance"
 jehejarei:jehejarei N ; !"inacción"
+jehejarei:jehejarei N ; !"impunidad" !Dir/LR
 jeheka:jeheka N ; !"pesquisa"
+jeheka:jeheka N ; !"búsqueda" !Dir/LR
 jehe'a:jehe'a N ; !"fusión"
 jeho:jeho N ; !"viaje"
 jehukue:jehukue N ; !"suceso"
@@ -501,17 +548,21 @@ jehupyrehai:jehupyrehai N ; !"parte"
 jehupyty:jehupyty N ; !"obtención"
 jehurei:jehurei N ; !"ocurrencia"
 jeike:jeike N ; !"ingreso"
-jeikeha:jeikeha N ; !"entrada"
+jeikeha:jeikeha N ; !"acceso"
+jeikeha:jeikeha N ; !"entrada" !Dir/LR
 jeikoporã:jeikoporã N ; !"bienestar"
 jeipe'a:jeipe'a N ; !"abolición"
 jeisyryku:jeisyryku N ; !"succión"
 jeitykuaa:jeitykuaa N ; !"paracaidismo"
-jejavy:jejavy N ; !"error"
-!jejavy guasu:jejavy guasu N ; !"aberración"
+jejavy:jejavy N ; !"infracción"
+jejavy:jejavy N ; !"error" !Dir/LR
+jejavy% guasu:jejavy% guasu N ; !"aberración"
 jejokoha:jejokoha N ; !"muleta"
 jejopy:jejopy N ; !"presión"
+jejopy:jejopy N ; !"opresión" !Dir/LR
 jejuka:jejuka N ; !"matanza"
-!jejuka heta:jejuka heta N ; !"masacre"
+jejuka:jejuka N ; !"homicidio" !Dir/LR
+jejuka% heta:jejuka% heta N ; !"masacre"
 jejuruhéi:jejuruhéi N ; !"gárgara"
 jekarukuaa:jekarukuaa N ; !"dieta"
 jekeha:jekeha N ; !"pensión"
@@ -519,20 +570,29 @@ jekuaaukaha:jekuaaukaha N ; !"identificador"
 jekuaruha:jekuaruha N ; !"retrete"
 jeoko:jeoko N ; !"represión"
 jepapa:jepapa N ; !"censo"
+jepapa:jepapa N ; !"balance" !Dir/LR
 jepe'a:jepe'a N ; !"raja"
+jepe'a:jepe'a N ; !"leña" !Dir/LR
+jepe'a:jepe'a N ; !"apertura" !Dir/LR
 jepichy:jepichy N ; !"masaje"
 jepoko:jepoko N ; !"toque"
 jepokuaa:jepokuaa N ; !"rutina"
+jepokuaa:jepokuaa N ; !"maña" !Dir/LR
+jepokuaa:jepokuaa N ; !"hábito" !Dir/LR
 jepopete:jepopete N ; !"ovación"
 jeporavo:jeporavo N ; !"selección"
+jeporavo:jeporavo N ; !"voto" !Dir/LR
 jeporavorape:jeporavorape N ; !"sistema"
 jepytaha:jepytaha N ; !"mesón"
 jepy'amongeta:jepy'amongeta N ; !"meditación"
 jere:jere N ; !"vuelta"
+jere:jere N ; !"entorno" !Dir/LR
+jere:jere N ; !"periferia" !Dir/LR
 jereregua:jereregua N ; !"vecindad"
 jererova:jererova N ; !"mudanza"
 jeroky:jeroky N ; !"danza"
-jerovia:jerovia N ; !"fe"
+jerovia:jerovia N ; !"prestigio"
+jerovia:jerovia N ; !"fe" !Dir/LR
 jeroviapy:jeroviapy N ; !"lealtad"
 jeroviauka:jeroviauka N ; !"garantía"
 jerure:jerure N ; !"petición"
@@ -551,15 +611,23 @@ joguaha:joguaha N ; !"semejanza"
 joguapyahu:joguapyahu N ; !"adquisición"
 joheipyre:joheipyre N ; !"moral"
 joja:joja N ; !"igualdad"
+joja:joja N ; !"recta" !Dir/LR
+joja:joja N ; !"homólogo" !Dir/LR
 jojaha:jojaha N ; !"proporción"
 jojajovái:jojajovái N ; !"paralelo"
-jokoha:jokoha N ; !"pedestal"
+jokoha:jokoha N ; !"obstáculo"
+jokoha:jokoha N ; !"retén" !Dir/LR
+jokoha:jokoha N ; !"viga" !Dir/LR
+jokoha:jokoha N ; !"pedestal" !Dir/LR
 jokuaa:jokuaa N ; !"relación"
 jokuaha:jokuaha N ; !"venda"
 jopara:jopara N ; !"variedad"
 jopy:jopy N ; !"avaro"
 jopyha:jopyha N ; !"opresor"
 jopói:jopói N ; !"obsequio"
+jopói:jopói N ; !"premio" !Dir/LR
+jopói:jopói N ; !"propina" !Dir/LR
+jopói:jopói N ; !"regalo" !Dir/LR
 joyke'y:joyke'y N ; !"hermano"
 joyvy:joyvy N ; !"dúo"
 jo'oha:jo'oha N ; !"pala"
@@ -569,8 +637,11 @@ juhupyre:juhupyre N ; !"hallazgo"
 jukeri:jukeri N ; !"zarza"
 juku'a:juku'a N ; !"agitación"
 juky:juky N ; !"sal"
+juky:juky N ; !"gracia" !Dir/LR
 jukysy:jukysy N ; !"sopa"
+jukysy:jukysy N ; !"caldo" !Dir/LR
 jupiha:jupiha N ; !"ascensor"
+jupiha:jupiha N ; !"escalera" !Dir/LR
 juraha:juraha N ; !"lazo"
 juru:juru N ; !"abertura"
 juruhe:juruhe N ; !"apetito"
@@ -581,6 +652,8 @@ jyva:jyva N ; !"brazo"
 jyvaguy:jyvaguy N ; !"axila"
 jyvanga:jyvanga N ; !"codo"
 jára:jára N ; !"poseedor"
+jára:jára N ; !"dueña" !Dir/LR
+jára:jára N ; !"patrón" !Dir/LR
 kachape:kachape N ; !"carro"
 kagua:kagua N ; !"vaso"
 kaguy:kaguy N ; !"vino"
@@ -589,7 +662,7 @@ kambu:kambu N ; !"lactancia"
 kambuchi:kambuchi N ; !"cántaro"
 kambuchijegua:kambuchijegua N ; !"jarrón"
 kamby:kamby N ; !"leche"
-!kamby kyrakue:kamby kyrakue N ; !"manteca"
+kamby% kyrakue:kamby% kyrakue N ; !"manteca"
 kamisa:kamisa N ; !"camisa"
 kane'õ:kane'õ N ; !"fatiga"
 kangue'aty:kangue'aty N ; !"osario"
@@ -597,6 +670,7 @@ kangy:kangy N ; !"débil"
 kangyreko:kangyreko N ; !"debilidad"
 kapi'iguasu:kapi'iguasu N ; !"paja"
 kapi'ipe:kapi'ipe N ; !"césped"
+kapi'ipe:kapi'ipe N ; !"pasto" !Dir/LR
 karai:karai N ; !"señor"
 karaja:karaja N ; !"gorila"
 karanda'y:karanda'y N ; !"palmera"
@@ -612,7 +686,11 @@ kasõ:kasõ N ; !"calzón"
 kasõmbuku:kasõmbuku N ; !"pantalón"
 katuete:katuete N ; !"absoluto"
 katupy:katupy N ; !"validez"
-katupyry:katupyry N ; !"astucia"
+katupy:katupy N ; !"posibilidad" !Dir/LR
+katupyry:katupyry N ; !"talento"
+katupyry:katupyry N ; !"eficiencia" !Dir/LR
+katupyry:katupyry N ; !"destreza" !Dir/LR
+katupyry:katupyry N ; !"astucia" !Dir/LR
 katupyrykue:katupyrykue N ; !"habilidad"
 kavaju:kavaju N ; !"caballo"
 kavajura'y:kavajura'y N ; !"potro"
@@ -623,10 +701,12 @@ ka'aguyreko:ka'aguyreko N ; !"salvaje"
 ka'aru:ka'aru N ; !"tarde"
 ka'aruete:ka'aruete N ; !"atardecer"
 ka'avo:ka'avo N ; !"vegetal"
+ka'avo:ka'avo N ; !"lechuga" !Dir/LR
 ka'avo'uha:ka'avo'uha N ; !"herbívoro"
 ka'ay:ka'ay N ; !"mate"
 ka'i:ka'i N ; !"simio"
 ka'irãi:ka'irãi N ; !"presidio"
+ka'irãi:ka'irãi N ; !"cárcel" !Dir/LR
 ka'u:ka'u N ; !"borracho"
 kerasy:kerasy N ; !"insomnio"
 kesu:kesu N ; !"queso"
@@ -634,25 +714,36 @@ kochõ:kochõ N ; !"colchón"
 kogaty:kogaty N ; !"huerta"
 kopiha:kopiha N ; !"machete"
 kora:kora N ; !"valla"
+kora:kora N ; !"cercado" !Dir/LR
 korapy:korapy N ; !"patio"
 koty:koty N ; !"pieza"
+koty:koty N ; !"habitación" !Dir/LR
 kotyguasu:kotyguasu N ; !"salón"
+kotyguasu:kotyguasu N ; !"sala" !Dir/LR
 kotykeha:kotykeha N ; !"alcoba"
 kotymba'apoha:kotymba'apoha N ; !"oficina"
 kua:kua N ; !"hoyo"
+kua:kua N ; !"agujero" !Dir/LR
+kua:kua N ; !"orificio" !Dir/LR
+kua:kua N ; !"boquete" !Dir/LR
 kuaa:kuaa N ; !"saber"
 kuaaha'ãrã:kuaaha'ãrã N ; !"laboratorio"
 kuaara'ã:kuaara'ã N ; !"teoría"
+kuaara'ã:kuaara'ã N ; !"pronóstico" !Dir/LR
+kuaara'ã:kuaara'ã N ; !"acertijo" !Dir/LR
 kuarahy:kuarahy N ; !"sol"
 kuarahyreike:kuarahyreike N ; !"oeste"
+kuarahyreike:kuarahyreike N ; !"ocaso" !Dir/LR
 kuarahy'ã:kuarahy'ã N ; !"sombra"
 kuarapuku:kuarapuku N ; !"tubo"
-kuarepoti:kuarepoti N ; !"metal"
+kuarepoti:kuarepoti N ; !"hierro"
+kuarepoti:kuarepoti N ; !"metal" !Dir/LR
 kuarepotiete:kuarepotiete N ; !"acero"
 kuaru:kuaru N ; !"micción"
 kuatia:kuatia N ; !"papel"
-!kuatia apesã:kuatia apesã N ; !"legajo"
-!kuatia atã:kuatia atã N ; !"cartón"
+kuatia:kuatia N ; !"documento" !Dir/LR
+kuatia% apesã:kuatia% apesã N ; !"legajo"
+kuatia% atã:kuatia% atã N ; !"cartón"
 kuatiaapopyrã:kuatiaapopyrã N ; !"libreto"
 kuatiachauka'i:kuatiachauka'i N ; !"carné"
 kuatiahai:kuatiahai N ; !"cuaderno"
@@ -664,43 +755,58 @@ kuatiamaranduha:kuatiamaranduha N ; !"gaceta"
 kuatiaporupy:kuatiaporupy N ; !"vale"
 kuatiañemu:kuatiañemu N ; !"factura"
 kuatia'atã:kuatia'atã N ; !"diploma"
+kuatia'atã:kuatia'atã N ; !"pergamino" !Dir/LR
 kuatia'atã'i:kuatia'atã'i N ; !"esquela"
+kuatia'atã'i:kuatia'atã'i N ; !"tarjeta" !Dir/LR
 kuerái:kuerái N ; !"hastío"
-kuimba'e:kuimba'e N ; !"macho"
+kuimba'e:kuimba'e N ; !"varón"
+kuimba'e:kuimba'e N ; !"macho" !Dir/LR
+kuimba'e:kuimba'e N ; !"hombre" !Dir/LR
 kuimba'ete:kuimba'ete N ; !"caballero"
 kupy:kupy N ; !"canilla"
+kupy:kupy N ; !"pierna" !Dir/LR
+kupy:kupy N ; !"pantorrilla" !Dir/LR
 kupyju:kupyju N ; !"gallo"
 kupylia:kupylia N ; !"zancadilla"
 kure:kure N ; !"cerdo"
-!kure ka'aguy:kure ka'aguy N ; !"jabalí"
+kure% ka'aguy:kure% ka'aguy N ; !"jabalí"
 kurekyrakue:kurekyrakue N ; !"tocino"
 kurera'y:kurera'y N ; !"lechón"
 kururu:kururu N ; !"sapo"
 kurusu:kurusu N ; !"cruz"
 kuruvai:kuruvai N ; !"lepra"
 kutuha:kutuha N ; !"punzón"
+kutuha:kutuha N ; !"jeringa" !Dir/LR
+kutuha:kutuha N ; !"tenedor" !Dir/LR
 kuãguasu:kuãguasu N ; !"pulgar"
 kuña:kuña N ; !"mujer"
+kuña:kuña N ; !"hembra" !Dir/LR
 kuñarekokuaa:kuñarekokuaa N ; !"ginecología"
 ku'a:ku'a N ; !"cintura"
+ku'a:ku'a N ; !"mitad" !Dir/LR
 ku'imi:ku'imi N ; !"pizca"
 ky:ky N ; !"piojo"
 kygua:kygua N ; !"peine"
 kyguái:kyguái N ; !"coma"
 kyha:kyha N ; !"hamaca"
 kyhyje:kyhyje N ; !"temor"
+kyhyje:kyhyje N ; !"miedo" !Dir/LR
+kyhyje:kyhyje N ; !"horror" !Dir/LR
 kyhyjeha:kyhyjeha N ; !"peligro"
 kyhyjerasa:kyhyjerasa N ; !"pavor"
+kyhyjerasa:kyhyjerasa N ; !"terror" !Dir/LR
 kyja:kyja N ; !"nutria"
 kyju:kyju N ; !"grillo"
 kyra:kyra N ; !"cebo"
 kyse:kyse N ; !"cuchillo"
-kysepuku:kysepuku N ; !"sable"
+kysepuku:kysepuku N ; !"espada"
+kysepuku:kysepuku N ; !"sable" !Dir/LR
 kyse'akua:kyse'akua N ; !"puñal"
 kyta:kyta N ; !"punto"
 kytã:kytã N ; !"verruga"
 ky'a:ky'a N ; !"impureza"
 káva:káva N ; !"avispa"
+káva:káva N ; !"abeja" !Dir/LR
 kõi:kõi N ; !"doble"
 kõingue:kõingue N ; !"gemelo"
 leõ:leõ N ; !"león"
@@ -711,26 +817,39 @@ mandu'apy:mandu'apy N ; !"memorando"
 mandyju:mandyju N ; !"algodón"
 manga:manga N ; !"pelota"
 mano:mano N ; !"muerte"
+mano:mano N ; !"deceso" !Dir/LR
 manombota:manombota N ; !"agonía"
 marandu:marandu N ; !"noticia"
+marandu:marandu N ; !"informe" !Dir/LR
+marandu:marandu N ; !"manifiesto" !Dir/LR
 marandurenda:marandurenda N ; !"prensa"
 marangatu:marangatu N ; !"mansedumbre"
+marangatu:marangatu N ; !"noble" !Dir/LR
 marã:marã N ; !"mancha"
 marãngatu:marãngatu N ; !"santo"
+marãngatu:marãngatu N ; !"santidad" !Dir/LR
 mañaha:mañaha N ; !"observatorio"
 mbaraka:mbaraka N ; !"guitarra"
 mbarakaja:mbarakaja N ; !"gato"
-!mbarakaja kuña:mbarakaja kuña N ; !"gata"
+mbarakaja% kuña:mbarakaja% kuña N ; !"gata"
 mbarete:mbarete N ; !"energía"
+mbarete:mbarete N ; !"fuerte" !Dir/LR
 mba'apoha:mba'apoha N ; !"taller"
+mba'apoha:mba'apoha N ; !"empresa" !Dir/LR
 mba'apohára:mba'apohára N ; !"peón"
-!mba'apohára aty:mba'apohára aty N ; !"sindicato"
+mba'apohára:mba'apohára N ; !"obrero" !Dir/LR
+mba'apohára:mba'apohára N ; !"operario" !Dir/LR
+mba'apohára% aty:mba'apohára% aty N ; !"sindicato"
 mba'apokuaa:mba'apokuaa N ; !"arte"
+mba'apokuaa:mba'apokuaa N ; !"técnico" !Dir/LR
 mba'aporepy:mba'aporepy N ; !"jornal"
 mba'apo'ára:mba'apo'ára N ; !"jornada"
 mba'asy:mba'asy N ; !"enfermedad"
+mba'asy:mba'asy N ; !"plaga" !Dir/LR
+mba'asy:mba'asy N ; !"infección" !Dir/LR
 mba'asyguasu:mba'asyguasu N ; !"epidemia"
 mba'asypo'i:mba'asypo'i N ; !"tuberculosis"
+mba'asypo'i:mba'asypo'i N ; !"tisis" !Dir/LR
 mba'e:mba'e N ; !"objeto"
 mba'eapokuaa:mba'eapokuaa N ; !"ingeniería"
 mba'ejere:mba'ejere N ; !"orbe"
@@ -741,8 +860,9 @@ mba'embyasy:mba'embyasy N ; !"melancolía"
 mba'eopu'i:mba'eopu'i N ; !"timbre"
 mba'epohýi:mba'epohýi N ; !"carga"
 mba'eporurã:mba'eporurã N ; !"infraestructura"
+mba'eporurã:mba'eporurã N ; !"kit" !Dir/LR
 mba'epu:mba'epu N ; !"sonido"
-!mba'epu porã:mba'epu porã N ; !"melodía"
+mba'epu% porã:mba'epu% porã N ; !"melodía"
 mba'epuku:mba'epuku N ; !"barra"
 mba'epyahu:mba'epyahu N ; !"innovación"
 mba'era'ã:mba'era'ã N ; !"prueba"
@@ -758,7 +878,10 @@ mba'e'apo:mba'e'apo N ; !"manufactura"
 mba'e'apoha:mba'e'apoha N ; !"fábrica"
 mba'e'apopy:mba'e'apopy N ; !"industria"
 mba'yru:mba'yru N ; !"mochila"
+mba'yru:mba'yru N ; !"maleta" !Dir/LR
+mba'yru:mba'yru N ; !"caja" !Dir/LR
 mba'yrumýi:mba'yrumýi N ; !"autobús"
+mba'yrumýi:mba'yrumýi N ; !"camión" !Dir/LR
 mba'yrurã'i:mba'yrurã'i N ; !"urna"
 mba'yruveve:mba'yruveve N ; !"avión"
 mba'yruñongatuha:mba'yruñongatuha N ; !"garaje"
@@ -774,55 +897,77 @@ mbogueha:mbogueha N ; !"borrador"
 mbohapeha:mbohapeha N ; !"jefatura"
 mbohapehára:mbohapehára N ; !"jefe"
 mbohuparenda:mbohuparenda N ; !"hotel"
+mbohuparenda:mbohuparenda N ; !"hospedaje" !Dir/LR
 mboja'opy:mboja'opy N ; !"partido"
 mboje'eavýva:mboje'eavýva N ; !"paradoja"
 mbojoguáva:mbojoguáva N ; !"metáfora"
 mbojojaha:mbojojaha N ; !"regla"
+mbojojaha:mbojojaha N ; !"norma" !Dir/LR
 mbojoporuka:mbojoporuka N ; !"intercambio"
 mbojovake:mbojovake N ; !"careo"
 mbokaguasu:mbokaguasu N ; !"fusil"
 mbokapu:mbokapu N ; !"disparo"
+mbokapu:mbokapu N ; !"tiro" !Dir/LR
+mbokapu:mbokapu N ; !"petardo" !Dir/LR
 mboka'i:mboka'i N ; !"revólver"
+mboka'i:mboka'i N ; !"pistola" !Dir/LR
 mbokuaha:mbokuaha N ; !"torno"
 mbopiguasu:mbopiguasu N ; !"vampiro"
 mbopuha'aty:mbopuha'aty N ; !"orquesta"
 mbopukahára:mbopukahára N ; !"payaso"
 mbopya'eha:mbopya'eha N ; !"acelerador"
 mborayhu:mborayhu N ; !"amor"
+mborayhu:mborayhu N ; !"cariño" !Dir/LR
 mborevi:mborevi N ; !"tapir"
 mbosa'yha:mbosa'yha N ; !"tintura"
+mbosa'yha:mbosa'yha N ; !"pincel" !Dir/LR
 mbotaha:mbotaha N ; !"martillo"
 mbotuicháva:mbotuicháva N ; !"hipérbole"
 mbotyha:mbotyha N ; !"candado"
+mbotyha:mbotyha N ; !"cierre" !Dir/LR
+mbotyha:mbotyha N ; !"cerrojo" !Dir/LR
+mbotyha:mbotyha N ; !"tapón" !Dir/LR
+mbotyha:mbotyha N ; !"tapa" !Dir/LR
+mbotyha:mbotyha N ; !"llave" !Dir/LR
 mboveverã:mboveverã N ; !"hélice"
 mboyvegua:mboyvegua N ; !"prefijo"
 mbo'ehao:mbo'ehao N ; !"colegio"
+mbo'ehao:mbo'ehao N ; !"escuela" !Dir/LR
 mbo'ehaogua:mbo'ehaogua N ; !"escolar"
 mbo'ehavete:mbo'ehavete N ; !"facultad"
 mbo'ehára:mbo'ehára N ; !"profesor"
+mbo'ehára:mbo'ehára N ; !"maestra" !Dir/LR
 mbo'ekuaahára:mbo'ekuaahára N ; !"licenciado"
 mbo'epy:mbo'epy N ; !"lección"
-mbo'esyry:mbo'esyry N ; !"curso"
+mbo'esyry:mbo'esyry N ; !"grado"
+mbo'esyry:mbo'esyry N ; !"curso" !Dir/LR
 mbo'y:mbo'y N ; !"collar"
 mbujape:mbujape N ; !"pan"
-!mbujape karai:mbujape karai N ; !"hostia"
+mbujape:mbujape N ; !"galleta" !Dir/LR
+mbujape% karai:mbujape% karai N ; !"hostia"
 mburika:mburika N ; !"mula"
 mburuvicha:mburuvicha N ; !"autoridad"
-!mburuvicha guasu:mburuvicha guasu N ; !"general"
-!mburuvicha róga:mburuvicha róga N ; !"palacio"
-!mburuvichavete renda:mburuvichavete renda N ; !"presidencia"
+mburuvicha:mburuvicha N ; !"capitán" !Dir/LR
+mburuvicha:mburuvicha N ; !"presidente" !Dir/LR
+mburuvicha:mburuvicha N ; !"ejecutivo" !Dir/LR
+mburuvicha% guasu:mburuvicha% guasu N ; !"general"
+mburuvicha% róga:mburuvicha% róga N ; !"palacio"
+mburuvichavete% renda:mburuvichavete% renda N ; !"presidencia"
 mbusia:mbusia N ; !"morcilla"
 mbusu:mbusu N ; !"anguila"
 mbyaipa:mbyaipa N ; !"destrucción"
 mbyja:mbyja N ; !"astro"
+mbyja:mbyja N ; !"estrella" !Dir/LR
 mbyja'aty:mbyja'aty N ; !"galaxia"
 mbyju'i:mbyju'i N ; !"golondrina"
 mbyry'ái:mbyry'ái N ; !"calor"
-mbyte:mbyte N ; !"centro"
+mbyte:mbyte N ; !"medio"
+mbyte:mbyte N ; !"centro" !Dir/LR
 mbytegua:mbytegua N ; !"central"
 mbytere:mbytere N ; !"núcleo"
 mbói:mbói N ; !"víbora"
-!mbói chini:mbói chini N ; !"cascabel"
+mbói:mbói N ; !"serpiente" !Dir/LR
+mbói% chini:mbói% chini N ; !"cascabel"
 memby:memby N ; !"hijo"
 membykua:membykua N ; !"aborto"
 membyryru:membyryru N ; !"útero"
@@ -832,17 +977,24 @@ memby'anga:memby'anga N ; !"hijastro"
 menarã:menarã N ; !"novio"
 menasy:menasy N ; !"suegra"
 menda:menda N ; !"boda"
+menda:menda N ; !"matrimonio" !Dir/LR
 mendasako'i:mendasako'i N ; !"noviazgo"
 merõ:merõ N ; !"melón"
 mesa'ao:mesa'ao N ; !"mantel"
 meña:meña N ; !"sexo"
+meña:meña N ; !"género" !Dir/LR
 mimbi:mimbi N ; !"flauta"
+mimbi:mimbi N ; !"lustre" !Dir/LR
 mitarã:mitarã N ; !"feto"
 mitã:mitã N ; !"niño"
+mitã:mitã N ; !"infante" !Dir/LR
+mitã:mitã N ; !"joven" !Dir/LR
+mitã:mitã N ; !"criatura" !Dir/LR
 mitãkuña:mitãkuña N ; !"niña"
 mitãnguéra:mitãnguéra N ; !"niñez"
 mitãpohanohára:mitãpohanohára N ; !"pediatra"
-mitãra'y:mitãra'y N ; !"bebé"
+mitãra'y:mitãra'y N ; !"neonato"
+mitãra'y:mitãra'y N ; !"bebé" !Dir/LR
 mitãra'ãnga:mitãra'ãnga N ; !"muñeca"
 mitãreko:mitãreko N ; !"infancia"
 mitãrekokuaapy:mitãrekokuaapy N ; !"pediatría"
@@ -854,14 +1006,18 @@ moakãhára:moakãhára N ; !"director"
 moambue:moambue N ; !"cambio"
 mokõiha:mokõiha N ; !"segundo"
 momarandu:momarandu N ; !"información"
+momarandu:momarandu N ; !"publicidad" !Dir/LR
 momaranduha:momaranduha N ; !"noticiario"
 mombe'ugua'u:mombe'ugua'u N ; !"mito"
 mombe'ugua'ukuaa:mombe'ugua'ukuaa N ; !"mitología"
 mombe'urã:mombe'urã N ; !"cuento"
+mombe'urã:mombe'urã N ; !"leyenda" !Dir/LR
 mombykypy:mombykypy N ; !"resumen"
 mombyryha:mombyryha N ; !"lejanía"
 mombytaha:mombytaha N ; !"freno"
 mondaha:mondaha N ; !"ratero"
+mondaha:mondaha N ; !"ladrón" !Dir/LR
+mondaha:mondaha N ; !"delincuente" !Dir/LR
 mongarukuaahára:mongarukuaahára N ; !"nutricionista"
 mongoraha:mongoraha N ; !"muralla"
 mongu'iha:mongu'iha N ; !"molino"
@@ -872,6 +1028,7 @@ moñái:moñái N ; !"bandido"
 mo'ãha:mo'ãha N ; !"toldo"
 mo'ãhára:mo'ãhára N ; !"abogado"
 muanduhe:muanduhe N ; !"acento"
+muanduhe:muanduhe N ; !"tilde" !Dir/LR
 muã:muã N ; !"luciérnaga"
 myandyha:myandyha N ; !"fósforo"
 myasãi:myasãi N ; !"difusión"
@@ -880,6 +1037,9 @@ mymbapy:mymbapy N ; !"pata"
 mymbara'y:mymbara'y N ; !"pichón"
 mymbarekokuaapy:mymbarekokuaapy N ; !"zoología"
 mymbarenda:mymbarenda N ; !"hacienda"
+mymbarenda:mymbarenda N ; !"granja" !Dir/LR
+mymbarenda:mymbarenda N ; !"zoológico" !Dir/LR
+mymbarenda:mymbarenda N ; !"estancia" !Dir/LR
 mymbarerekua:mymbarerekua N ; !"pastor"
 mymbarokái:mymbarokái N ; !"jaula"
 mymbavai:mymbavai N ; !"bestia"
@@ -887,16 +1047,21 @@ mymbañarõ:mymbañarõ N ; !"fiera"
 mymba'aty:mymba'aty N ; !"rebaño"
 máva:máva N ; !"ser"
 ména:ména N ; !"marido"
+ména:ména N ; !"esposo" !Dir/LR
 nambi:nambi N ; !"oreja"
 nandi:nandi N ; !"hueco"
+nandi:nandi N ; !"vacío" !Dir/LR
+nandi:nandi N ; !"vacante" !Dir/LR
 narã:narã N ; !"naranja"
 nupãha:nupãha N ; !"mazo"
 ogaguasu:ogaguasu N ; !"mansión"
 ogaguy:ogaguy N ; !"zaguán"
+ogaguy:ogaguy N ; !"galería" !Dir/LR
 ogahoja:ogahoja N ; !"techo"
 ogapy:ogapy N ; !"hogar"
 ogarova:ogarova N ; !"fachada"
 ogaygua:ogaygua N ; !"familia"
+ogaygua:ogaygua N ; !"pariente" !Dir/LR
 ogaykegua:ogaykegua N ; !"vecino"
 ohasa'asýva:ohasa'asýva N ; !"víctima"
 oikekuaáva:oikekuaáva N ; !"transversal"
@@ -909,6 +1074,7 @@ ojehechakuaáva:ojehechakuaáva N ; !"visual"
 ojeroviáva:ojeroviáva N ; !"optimista"
 oka:oka N ; !"exterior"
 okambúva:okambúva N ; !"lactante"
+okambúva:okambúva N ; !"mamífero" !Dir/LR
 okaraygua:okaraygua N ; !"campesino"
 okañýva:okañýva N ; !"prófugo"
 okára:okára N ; !"campaña"
@@ -929,6 +1095,7 @@ ovetã'i:ovetã'i N ; !"ventanilla"
 oñembo'ýva:oñembo'ýva N ; !"parado"
 paaryjere:paaryjere N ; !"década"
 pahague:pahague N ; !"extremo"
+pahague:pahague N ; !"final" !Dir/LR
 paje:paje N ; !"hechicería"
 pakova:pakova N ; !"banana"
 panambi:panambi N ; !"mariposa"
@@ -939,8 +1106,11 @@ paraguaigua:paraguaigua N ; !"paraguayo"
 paraguasu:paraguasu N ; !"océano"
 paray:paray N ; !"mar"
 pa'i:pa'i N ; !"sacerdote"
+pa'i:pa'i N ; !"cura" !Dir/LR
 pa'ã:pa'ã N ; !"obstrucción"
 pejuha:pejuha N ; !"pantalla"
+pejuha:pejuha N ; !"ventilador" !Dir/LR
+pejuha:pejuha N ; !"abanico" !Dir/LR
 pekue:pekue N ; !"anchura"
 pepo:pepo N ; !"ala"
 pete:pete N ; !"golpe"
@@ -952,19 +1122,28 @@ pirakutu:pirakutu N ; !"pesca"
 pirapire:pirapire N ; !"moneda"
 pira'i:pira'i N ; !"sardina"
 pire:pire N ; !"cáscara"
+pire:pire N ; !"corteza" !Dir/LR
+pire:pire N ; !"piel" !Dir/LR
 pire'ape:pire'ape N ; !"escama"
 piri:piri N ; !"junco"
 pitarã:pitarã N ; !"cigarrillo"
 po:po N ; !"mano"
-!po arajere:po arajere N ; !"lustro"
-!po moporãha:po moporãha N ; !"manicura"
-pochy:pochy N ; !"enojo"
+po% arajere:po% arajere N ; !"lustro"
+po% moporãha:po% moporãha N ; !"manicura"
+pochy:pochy N ; !"rabioso"
+pochy:pochy N ; !"enojo" !Dir/LR
+pochy:pochy N ; !"ira" !Dir/LR
+pochy:pochy N ; !"indignación" !Dir/LR
 poguasu:poguasu N ; !"grueso"
 poguy:poguy N ; !"mando"
+poguy:poguy N ; !"jurisdicción" !Dir/LR
+poguy:poguy N ; !"dominio" !Dir/LR
 poguypópe:poguypópe N ; !"yugo"
 pohanohára:pohanohára N ; !"doctor"
 pohyikue:pohyikue N ; !"kilo"
-pohã:pohã N ; !"remedio"
+pohyikue:pohyikue N ; !"onza" !Dir/LR
+pohã:pohã N ; !"medicina"
+pohã:pohã N ; !"remedio" !Dir/LR
 pohãnohára:pohãnohára N ; !"médica"
 pokatu:pokatu N ; !"potestad"
 poko:poko N ; !"tacto"
@@ -974,9 +1153,12 @@ poranduhaipy:poranduhaipy N ; !"cuestionario"
 poravo:poravo N ; !"elección"
 poravokuaa:poravokuaa N ; !"opción"
 pore:pore N ; !"marca"
+pore:pore N ; !"vestigio" !Dir/LR
+pore:pore N ; !"rastro" !Dir/LR
 poreno:poreno N ; !"coito"
 poriahuvereko:poriahuvereko N ; !"piedad"
 porojukáva:porojukáva N ; !"criminal"
+porojukáva:porojukáva N ; !"mortal" !Dir/LR
 poruhára:poruhára N ; !"usuario"
 poruvai:poruvai N ; !"abuso"
 poryru:poryru N ; !"guante"
@@ -985,8 +1167,11 @@ pota:pota N ; !"pasión"
 poty:poty N ; !"rosa"
 potykuru:potykuru N ; !"capullo"
 poyvi:poyvi N ; !"bandera"
-!poyvi guerahaha:poyvi guerahaha N ; !"abanderado"
+poyvi:poyvi N ; !"tela" !Dir/LR
+poyvi:poyvi N ; !"pabellón" !Dir/LR
+poyvi% guerahaha:poyvi% guerahaha N ; !"abanderado"
 po'a:po'a N ; !"suerte"
+po'a:po'a N ; !"fortuna" !Dir/LR
 po'ara'ã:po'ara'ã N ; !"lotería"
 po'ikue:po'ikue N ; !"estrechez"
 puapy:puapy N ; !"triptongo"
@@ -1001,18 +1186,25 @@ pumbyry:pumbyry N ; !"teléfono"
 pupu:pupu N ; !"hervor"
 puraheihára:puraheihára N ; !"músico"
 purahéi:purahéi N ; !"música"
+purahéi:purahéi N ; !"canción" !Dir/LR
 pureko:pureko N ; !"tono"
+pureko:pureko N ; !"tonada" !Dir/LR
 puru'ã:puru'ã N ; !"ombligo"
 purãngatu:purãngatu N ; !"prosodia"
 pu'ae:pu'ae N ; !"vocal"
 pu'aka:pu'aka N ; !"poder"
+pu'aka:pu'aka N ; !"influencia" !Dir/LR
+pu'aka:pu'aka N ; !"fuerza" !Dir/LR
 pu'ã:pu'ã N ; !"reacción"
 py:py N ; !"pie"
 pyaha:pyaha N ; !"trama"
 pyahu:pyahu N ; !"recluta"
 pyao:pyao N ; !"media"
 pya'e:pya'e N ; !"rapidez"
+pya'e:pya'e N ; !"pronto" !Dir/LR
+pya'e:pya'e N ; !"ligereza" !Dir/LR
 pya'ekue:pya'ekue N ; !"celeridad"
+pya'ekue:pya'ekue N ; !"velocidad" !Dir/LR
 pyenda:pyenda N ; !"base"
 pyhare:pyhare N ; !"noche"
 pyharepyte:pyharepyte N ; !"medianoche"
@@ -1031,18 +1223,31 @@ pytaha:pytaha N ; !"paradero"
 pyti'a:pyti'a N ; !"pecho"
 pyti'achiã:pyti'achiã N ; !"asma"
 pytu'u:pytu'u N ; !"tregua"
+pytu'u:pytu'u N ; !"recreo" !Dir/LR
+pytu'u:pytu'u N ; !"quietud" !Dir/LR
+pytu'u:pytu'u N ; !"calma" !Dir/LR
+pytu'u:pytu'u N ; !"receso" !Dir/LR
 pytyvõ:pytyvõ N ; !"favor"
 pytyvõhára:pytyvõhára N ; !"mediador"
+pytyvõhára:pytyvõhára N ; !"secretario" !Dir/LR
+pytyvõhára:pytyvõhára N ; !"asesor" !Dir/LR
+pytyvõhára:pytyvõhára N ; !"auxiliar" !Dir/LR
 pytã:pytã N ; !"rojo"
+pytã:pytã N ; !"púrpura" !Dir/LR
 pyñuã:pyñuã N ; !"tobillo"
 py'a:py'a N ; !"estómago"
-!py'a atõi:py'a atõi N ; !"impresión"
-py'aguapy:py'aguapy N ; !"paz"
+py'a% atõi:py'a% atõi N ; !"impresión"
+py'aguapy:py'aguapy N ; !"paciencia"
+py'aguapy:py'aguapy N ; !"paz" !Dir/LR
 py'aguasu:py'aguasu N ; !"fortaleza"
+py'aguasu:py'aguasu N ; !"coraje" !Dir/LR
+py'aguasu:py'aguasu N ; !"osadía" !Dir/LR
+py'aguasu:py'aguasu N ; !"valentía" !Dir/LR
 py'ajere:py'ajere N ; !"náusea"
 py'ajokorã:py'ajokorã N ; !"merienda"
 py'ara'ã:py'ara'ã N ; !"deseo"
 py'aro:py'aro N ; !"odio"
+py'aro:py'aro N ; !"rencor" !Dir/LR
 py'arory:py'arory N ; !"ventura"
 py'avai:py'avai N ; !"indigestión"
 pýra:pýra N ; !"crudo"
@@ -1054,6 +1259,7 @@ ratykue:ratykue N ; !"pulpa"
 rei:rei N ; !"vano"
 rekotee:rekotee N ; !"identidad"
 riregua:riregua N ; !"sucesor"
+riregua:riregua N ; !"sufijo" !Dir/LR
 rokái:rokái N ; !"paréntesis"
 rosã:rosã N ; !"aguante"
 ro'y:ro'y N ; !"frío"
@@ -1074,7 +1280,8 @@ sarambi:sarambi N ; !"desorden"
 savana:savana N ; !"sábana"
 sa'ary:sa'ary N ; !"siglo"
 sa'y:sa'y N ; !"color"
-sa'yry:sa'yry N ; !"pintura"
+sa'yry:sa'yry N ; !"tinta"
+sa'yry:sa'yry N ; !"pintura" !Dir/LR
 sevoiry:sevoiry N ; !"ajo"
 sevo'i:sevo'i N ; !"lombriz"
 sevói:sevói N ; !"cebolla"
@@ -1082,14 +1289,20 @@ so'o:so'o N ; !"carne"
 so'o'uha:so'o'uha N ; !"carnívoro"
 sunu:sunu N ; !"trueno"
 sy:sy N ; !"madre"
+sy:sy N ; !"mamá" !Dir/LR
 syry:syry N ; !"caudal"
+syry:syry N ; !"torrente" !Dir/LR
 syryry:syryry N ; !"fluidez"
 sái:sái N ; !"falda"
 sã:sã N ; !"soga"
 sãso:sãso N ; !"permiso"
+sãso:sãso N ; !"independencia" !Dir/LR
 taguato:taguato N ; !"gavilán"
+taguato:taguato N ; !"halcón" !Dir/LR
 tague:tague N ; !"pelo"
+tague:tague N ; !"pluma" !Dir/LR
 tahachi:tahachi N ; !"policía"
+tahachi:tahachi N ; !"soldado" !Dir/LR
 tahýi:tahýi N ; !"hormiga"
 tai:tai N ; !"letra"
 taiky:taiky N ; !"guión"
@@ -1101,6 +1314,7 @@ tajygue:tajygue N ; !"nervio"
 tajyguekuaapy:tajyguekuaapy N ; !"neurología"
 tajyjgue:tajyjgue N ; !"tendón"
 takamby:takamby N ; !"entrepierna"
+takamby:takamby N ; !"ángulo" !Dir/LR
 takambyapy:takambyapy N ; !"triángulo"
 takuvo:takuvo N ; !"ardor"
 takuára:takuára N ; !"bambú"
@@ -1108,60 +1322,93 @@ takã:takã N ; !"rama"
 tamói:tamói N ; !"chamán"
 tanimbu:tanimbu N ; !"ceniza"
 tape:tape N ; !"conducto"
+tape:tape N ; !"rumbo" !Dir/LR
+tape:tape N ; !"camino" !Dir/LR
+tape:tape N ; !"calle" !Dir/LR
+tape:tape N ; !"órbita" !Dir/LR
+tape:tape N ; !"trayecto" !Dir/LR
 tapejere:tapejere N ; !"circuito"
 tapembyky:tapembyky N ; !"atajo"
 tapepo'i:tapepo'i N ; !"sendero"
+tapepo'i:tapepo'i N ; !"senda" !Dir/LR
 tapepuku:tapepuku N ; !"ruta"
 tapere:tapere N ; !"ruina"
 tapereko:tapereko N ; !"vial"
 tapiagua:tapiagua N ; !"habitual"
+tapiagua:tapiagua N ; !"común" !Dir/LR
 tapicha:tapicha N ; !"persona"
-tapiti:tapiti N ; !"liebre"
+tapicha:tapicha N ; !"prójimo" !Dir/LR
+tapiti:tapiti N ; !"conejo"
+tapiti:tapiti N ; !"liebre" !Dir/LR
 tapo:tapo N ; !"raíz"
-tapykuegua:tapykuegua N ; !"trasero"
+tapykuegua:tapykuegua N ; !"secuencia"
+tapykuegua:tapykuegua N ; !"trasero" !Dir/LR
 tapykuere:tapykuere N ; !"pasada"
 tasy:tasy N ; !"dolor"
 tasykatu:tasykatu N ; !"indisposición"
 tasyo:tasyo N ; !"hospital"
 tata:tata N ; !"fuego"
+tata:tata N ; !"brasa" !Dir/LR
 tataindy:tataindy N ; !"vela"
+tataindy:tataindy N ; !"luminaria" !Dir/LR
 tatakua:tatakua N ; !"horno"
 tatambogueha:tatambogueha N ; !"extintor"
 tatapiriri:tatapiriri N ; !"chispa"
 tatarendy:tatarendy N ; !"fogata"
 tatatina:tatatina N ; !"niebla"
+tatatina:tatatina N ; !"neblina" !Dir/LR
 tataypy:tataypy N ; !"cocina"
 tatãrayhuha:tatãrayhuha N ; !"patriota"
 taupéicha:taupéicha N ; !"amén"
 tavaguasu:tavaguasu N ; !"capital"
+tavaguasu:tavaguasu N ; !"urbe" !Dir/LR
 tavao:tavao N ; !"municipalidad"
 tava'i:tava'i N ; !"barrio"
+tava'i:tava'i N ; !"distrito" !Dir/LR
 taviju:taviju N ; !"vello"
-tavy:tavy N ; !"demente"
+tavy:tavy N ; !"cretino"
+tavy:tavy N ; !"demente" !Dir/LR
 tañykã:tañykã N ; !"mentón"
+tañykã:tañykã N ; !"quijada" !Dir/LR
 ta'angagua'u:ta'angagua'u N ; !"caricatura"
 ta'angarenda:ta'angarenda N ; !"cuadro"
 ta'angaryru:ta'angaryru N ; !"álbum"
 ta'ã:ta'ã N ; !"medida"
 ta'ãha:ta'ãha N ; !"medidor"
-ta'ãnga:ta'ãnga N ; !"estampa"
+ta'ãnga:ta'ãnga N ; !"fotografía"
+ta'ãnga:ta'ãnga N ; !"figura" !Dir/LR
+ta'ãnga:ta'ãnga N ; !"imagen" !Dir/LR
+ta'ãnga:ta'ãnga N ; !"estampa" !Dir/LR
 ta'ãngambyry:ta'ãngambyry N ; !"televisión"
 ta'ãnga'i:ta'ãnga'i N ; !"maqueta"
 ta'ýra:ta'ýra N ; !"vástago"
 techahára:techahára N ; !"público"
 techapyrã:techapyrã N ; !"ejemplo"
 techaukaha:techaukaha N ; !"síntoma"
+techaukaha:techaukaha N ; !"índice" !Dir/LR
+techaukaha:techaukaha N ; !"señal" !Dir/LR
+techaukaha:techaukaha N ; !"signo" !Dir/LR
 techaukarã:techaukarã N ; !"pauta"
 teju:teju N ; !"lagarto"
 teko:teko N ; !"modo"
+teko:teko N ; !"personalidad" !Dir/LR
+teko:teko N ; !"estilo" !Dir/LR
+teko:teko N ; !"carácter" !Dir/LR
+teko:teko N ; !"tino" !Dir/LR
+teko:teko N ; !"rango" !Dir/LR
+teko:teko N ; !"temple" !Dir/LR
 tekoaguyje:tekoaguyje N ; !"perfección"
 tekoanduha:tekoanduha N ; !"conciencia"
 tekoasy:tekoasy N ; !"flagelo"
 tekoayhu:tekoayhu N ; !"amistad"
 tekoañete:tekoañete N ; !"seriedad"
 tekoha:tekoha N ; !"hábitat"
+tekoha:tekoha N ; !"ambiente" !Dir/LR
+tekoha:tekoha N ; !"naturaleza" !Dir/LR
 tekohaguasu:tekohaguasu N ; !"colonia"
 tekojoja:tekojoja N ; !"justicia"
+tekojoja:tekojoja N ; !"democracia" !Dir/LR
+tekojoja:tekojoja N ; !"equidad" !Dir/LR
 tekojojaharenda:tekojojaharenda N ; !"magistratura"
 tekokuaa:tekokuaa N ; !"razón"
 tekokyra:tekokyra N ; !"obesidad"
@@ -1175,7 +1422,9 @@ tekora'ã:tekora'ã N ; !"parodia"
 tekosãso:tekosãso N ; !"libertad"
 tekovai:tekovai N ; !"lacra"
 tekove:tekove N ; !"individuo"
-!tekove arandu:tekove arandu N ; !"genio"
+tekove:tekove N ; !"sujeto" !Dir/LR
+tekove:tekove N ; !"vida" !Dir/LR
+tekove% arandu:tekove% arandu N ; !"genio"
 tekoveaña:tekoveaña N ; !"tirano"
 tekovehai:tekovehai N ; !"biografía"
 tekovekuaaty:tekovekuaaty N ; !"biología"
@@ -1185,17 +1434,26 @@ tekovia:tekovia N ; !"relevo"
 tekoyma:tekoyma N ; !"tradición"
 tembe:tembe N ; !"labio"
 temberague:temberague N ; !"bigote"
-tembe'y:tembe'y N ; !"borde"
-!tembe'y rechaukaha:tembe'y rechaukaha N ; !"mojón"
+tembe'y:tembe'y N ; !"ribera"
+tembe'y:tembe'y N ; !"costa" !Dir/LR
+tembe'y:tembe'y N ; !"litoral" !Dir/LR
+tembe'y:tembe'y N ; !"borde" !Dir/LR
+tembe'y:tembe'y N ; !"margen" !Dir/LR
+tembe'y:tembe'y N ; !"orilla" !Dir/LR
+tembe'y% rechaukaha:tembe'y% rechaukaha N ; !"mojón"
 tembiapo:tembiapo N ; !"faena"
-!tembiapo guasu:tembiapo guasu N ; !"hazaña"
+tembiapo:tembiapo N ; !"labor" !Dir/LR
+tembiapo:tembiapo N ; !"obra" !Dir/LR
+tembiapo% guasu:tembiapo% guasu N ; !"hazaña"
 tembiapoha:tembiapoha N ; !"agencia"
 tembiapokuaa:tembiapokuaa N ; !"oficio"
-!tembiapokue jehecha:tembiapokue jehecha N ; !"interventor"
+tembiapokue% jehecha:tembiapokue% jehecha N ; !"interventor"
 tembiaporape:tembiaporape N ; !"gestión"
 tembiaporaperã:tembiaporaperã N ; !"estrategia"
 tembiaporepy:tembiaporepy N ; !"salario"
+tembiaporepy:tembiaporepy N ; !"sueldo" !Dir/LR
 tembiaporã:tembiaporã N ; !"tarea"
+tembiaporã:tembiaporã N ; !"obligación" !Dir/LR
 tembiapoukapy:tembiapoukapy N ; !"mandato"
 tembiasagua'u:tembiasagua'u N ; !"novela"
 tembiasakue:tembiasakue N ; !"historia"
@@ -1204,25 +1462,44 @@ tembiasyeta:tembiasyeta N ; !"tragedia"
 tembiechapy:tembiechapy N ; !"maravilla"
 tembiechauka:tembiechauka N ; !"exposición"
 tembiguái:tembiguái N ; !"lacayo"
+tembiguái:tembiguái N ; !"sirviente" !Dir/LR
+tembiguái:tembiguái N ; !"siervo" !Dir/LR
+tembiguái:tembiguái N ; !"esclava" !Dir/LR
+tembiguái:tembiguái N ; !"vasallo" !Dir/LR
 tembijerure:tembijerure N ; !"solicitud"
 tembikuaa:tembikuaa N ; !"ciencia"
 tembikuaahára:tembikuaahára N ; !"científico"
 tembiporu:tembiporu N ; !"vajilla"
-!tembiporu renda:tembiporu renda N ; !"alacena"
-tembipota:tembipota N ; !"propósito"
+tembiporu:tembiporu N ; !"instrumento" !Dir/LR
+tembiporu:tembiporu N ; !"utensilio" !Dir/LR
+tembiporu% renda:tembiporu% renda N ; !"alacena"
+tembipota:tembipota N ; !"misión"
+tembipota:tembipota N ; !"propósito" !Dir/LR
 tembipotarei:tembipotarei N ; !"capricho"
+tembipotarei:tembipotarei N ; !"antojo" !Dir/LR
 tembireko:tembireko N ; !"esposa"
 tembi'u:tembi'u N ; !"sustento"
 tembi'upyhare:tembi'upyhare N ; !"cena"
 tembyre:tembyre N ; !"saldo"
+tembyre:tembyre N ; !"residuo" !Dir/LR
+tembyre:tembyre N ; !"remanente" !Dir/LR
+tembyre:tembyre N ; !"resto" !Dir/LR
 temiandu:temiandu N ; !"sentimiento"
 temiarirõ:temiarirõ N ; !"nieto"
 temimbo'e:temimbo'e N ; !"alumno"
 temimo'ã:temimo'ã N ; !"pensamiento"
+temimo'ã:temimo'ã N ; !"opinión" !Dir/LR
+temimo'ã:temimo'ã N ; !"objetivo" !Dir/LR
+temimo'ã:temimo'ã N ; !"idea" !Dir/LR
 tenda:tenda N ; !"paraje"
+tenda:tenda N ; !"sede" !Dir/LR
+tenda:tenda N ; !"localidad" !Dir/LR
+tenda:tenda N ; !"lugar" !Dir/LR
+tenda:tenda N ; !"sitio" !Dir/LR
 tendaréra:tendaréra N ; !"toponimia"
 tendota:tendota N ; !"líder"
 tendy:tendy N ; !"llama"
+tendy:tendy N ; !"saliva" !Dir/LR
 tendyry:tendyry N ; !"electricidad"
 tendysyry:tendysyry N ; !"baba"
 tendyva:tendyva N ; !"barba"
@@ -1231,23 +1508,32 @@ tenonderã:tenonderã N ; !"futuro"
 tenonderãgua:tenonderãgua N ; !"porvenir"
 tenondeterã:tenondeterã N ; !"prioridad"
 tenypy'ã:tenypy'ã N ; !"rodilla"
-tepoti:tepoti N ; !"mierda"
+tepoti:tepoti N ; !"excremento"
+tepoti:tepoti N ; !"mierda" !Dir/LR
 tepy:tepy N ; !"valor"
+tepy:tepy N ; !"precio" !Dir/LR
 tepyno:tepyno N ; !"pedo"
 teraguapy:teraguapy N ; !"firma"
 terajoapy:terajoapy N ; !"apellido"
 terakuatiáre:terakuatiáre N ; !"membrete"
 terakuã:terakuã N ; !"celebridad"
+terakuã:terakuã N ; !"fama" !Dir/LR
+terakuã:terakuã N ; !"renombre" !Dir/LR
+terakuã:terakuã N ; !"notable" !Dir/LR
 terakuãporã:terakuãporã N ; !"honor"
 terarangue:terarangue N ; !"pronombre"
 terara'ãnga:terara'ãnga N ; !"logotipo"
 terarenda:terarenda N ; !"rótulo"
 terarysýi:terarysýi N ; !"matrícula"
+terarysýi:terarysýi N ; !"nómina" !Dir/LR
+terarysýi:terarysýi N ; !"padrón" !Dir/LR
 terekua:terekua N ; !"cuidador"
 tesa:tesa N ; !"ojo"
 tesakuare:tesakuare N ; !"ojera"
 tesape:tesape N ; !"luz"
-tesapeha:tesapeha N ; !"velador"
+tesape:tesape N ; !"iluminación" !Dir/LR
+tesapeha:tesapeha N ; !"lámpara"
+tesapeha:tesapeha N ; !"velador" !Dir/LR
 tesapeharã:tesapeharã N ; !"faro"
 tesarekohára:tesarekohára N ; !"óptico"
 tesarekokuaahára:tesarekokuaahára N ; !"oculista"
@@ -1255,16 +1541,22 @@ tesarekokuaapy:tesarekokuaapy N ; !"oftalmología"
 tesarái:tesarái N ; !"olvido"
 tesay:tesay N ; !"lágrima"
 tesãi:tesãi N ; !"salud"
-teta:teta N ; !"multitud"
+teta:teta N ; !"abundancia"
+teta:teta N ; !"multitud" !Dir/LR
 tete:tete N ; !"cuerpo"
 teteku'e:teteku'e N ; !"gimnasia"
+teteku'e:teteku'e N ; !"ejercicio" !Dir/LR
 tetepyecha:tetepyecha N ; !"ecografía"
 tetera'ãnga:tetera'ãnga N ; !"molde"
 tetera'ãngahai:tetera'ãngahai N ; !"tomografía"
 teteñeñangareko:teteñeñangareko N ; !"inmunización"
 tetymakangue:tetymakangue N ; !"tibia"
-tetã:tetã N ; !"patria"
+tetymakangue:tetymakangue N ; !"peroné" !Dir/LR
+tetã:tetã N ; !"nación"
+tetã:tetã N ; !"país" !Dir/LR
+tetã:tetã N ; !"patria" !Dir/LR
 tetãgua:tetãgua N ; !"civil"
+tetãgua:tetãgua N ; !"nativo" !Dir/LR
 tetãmba'éva:tetãmba'éva N ; !"oficial"
 tetãpysokue:tetãpysokue N ; !"territorio"
 tetãreko:tetãreko N ; !"nacionalidad"
@@ -1272,15 +1564,21 @@ tetãygua:tetãygua N ; !"compatriota"
 tevi:tevi N ; !"ano"
 teñoiha:teñoiha N ; !"yacimiento"
 teñói:teñói N ; !"nacimiento"
+teñói:teñói N ; !"germen" !Dir/LR
 te'õngue:te'õngue N ; !"cadáver"
 te'õreko:te'õreko N ; !"humedad"
 tiri:tiri N ; !"grieta"
 titi:titi N ; !"mama"
 togue:togue N ; !"página"
+togue:togue N ; !"hoja" !Dir/LR
 tope:tope N ; !"pétalo"
 topea:topea N ; !"pestaña"
 torora'y:torora'y N ; !"novillo"
-tory:tory N ; !"humor"
+tory:tory N ; !"felicidad"
+tory:tory N ; !"alegría" !Dir/LR
+tory:tory N ; !"humor" !Dir/LR
+tory:tory N ; !"gozo" !Dir/LR
+tory:tory N ; !"simpatía" !Dir/LR
 toryja:toryja N ; !"hazmerreír"
 tova:tova N ; !"cara"
 tovaja:tovaja N ; !"cuñado"
@@ -1290,27 +1588,36 @@ tovayke:tovayke N ; !"mejilla"
 tove:tove N ; !"negación"
 to'ysã:to'ysã N ; !"fresco"
 tugua:tugua N ; !"fondo"
+tugua:tugua N ; !"rincón" !Dir/LR
 tuguy:tuguy N ; !"sangre"
 tuguykangy:tuguykangy N ; !"anemia"
 tuguy'uha:tuguy'uha N ; !"parásito"
 tuichakue:tuichakue N ; !"magnitud"
+tuichakue:tuichakue N ; !"tamaño" !Dir/LR
 tujakue:tujakue N ; !"vejez"
 tujarekokuaa:tujarekokuaa N ; !"geriatría"
 tuju:tuju N ; !"barro"
+tuju:tuju N ; !"lodo" !Dir/LR
+tuju:tuju N ; !"charco" !Dir/LR
 tuku:tuku N ; !"langosta"
+tuku:tuku N ; !"saltamontes" !Dir/LR
 tukumbo:tukumbo N ; !"látigo"
 tukã:tukã N ; !"tucán"
 tumby:tumby N ; !"cadera"
-tupa:tupa N ; !"cama"
+tumby:tumby N ; !"muslo" !Dir/LR
+tupa:tupa N ; !"lecho"
+tupa:tupa N ; !"cama" !Dir/LR
 tupahoja:tupahoja N ; !"colcha"
 tupã:tupã N ; !"dios"
 tupãmba'e:tupãmba'e N ; !"limosna"
 tupãmba'ejára:tupãmba'ejára N ; !"mendigo"
 tupão:tupão N ; !"templo"
+tupão:tupão N ; !"iglesia" !Dir/LR
 tupãoguasu:tupãoguasu N ; !"catedral"
 tupão'i:tupão'i N ; !"capilla"
 tupãrayhu:tupãrayhu N ; !"devoción"
 tupãreko:tupãreko N ; !"religión"
+tupãreko:tupãreko N ; !"divinidad" !Dir/LR
 tupãrekokuaa:tupãrekokuaa N ; !"teología"
 tuvajukaha:tuvajukaha N ; !"parricida"
 tuvanga:tuvanga N ; !"padrastro"
@@ -1318,37 +1625,54 @@ tuã:tuã N ; !"cumbre"
 tu'ã:tu'ã N ; !"cima"
 ty:ty N ; !"orina"
 tyakuã:tyakuã N ; !"aroma"
+tyakuã:tyakuã N ; !"olor" !Dir/LR
 tyapu:tyapu N ; !"ruido"
 tye:tye N ; !"colitis"
+tye:tye N ; !"barriga" !Dir/LR
+tye:tye N ; !"diarrea" !Dir/LR
+tye:tye N ; !"abdomen" !Dir/LR
+tye:tye N ; !"panza" !Dir/LR
 tyeguasu:tyeguasu N ; !"gestación"
 tyekue:tyekue N ; !"mondongo"
+tyekue:tyekue N ; !"tripa" !Dir/LR
+tyekue:tyekue N ; !"entraña" !Dir/LR
 tyjúi:tyjúi N ; !"espuma"
 tykuaha:tykuaha N ; !"embudo"
 tykue:tykue N ; !"jugo"
+tykue:tykue N ; !"zumo" !Dir/LR
 tyky:tyky N ; !"gota"
-tymba:tymba N ; !"animal"
-!tymba aty:tymba aty N ; !"ganadería"
+tymba:tymba N ; !"ganado"
+tymba:tymba N ; !"animal" !Dir/LR
+tymba% aty:tymba% aty N ; !"ganadería"
 tymbajára:tymbajára N ; !"ganadero"
 typycha:typycha N ; !"escoba"
 tyru:tyru N ; !"vaina"
 tyryru:tyryru N ; !"vejiga"
-tysýi:tysýi N ; !"listado"
+tysýi:tysýi N ; !"serie"
+tysýi:tysýi N ; !"fila" !Dir/LR
+tysýi:tysýi N ; !"listado" !Dir/LR
+tysýi:tysýi N ; !"lista" !Dir/LR
 tytýi:tytýi N ; !"latido"
 tyvyta:tyvyta N ; !"ceja"
 ty'ãi:ty'ãi N ; !"gancho"
 táva:táva N ; !"comunidad"
-!táva rehegua:táva rehegua N ; !"urbano"
+táva:táva N ; !"municipio" !Dir/LR
+táva% rehegua:táva% rehegua N ; !"urbano"
 tãi:tãi N ; !"diente"
+tãi:tãi N ; !"muela" !Dir/LR
 tãinguéra:tãinguéra N ; !"dentadura"
 tãipohanohára:tãipohanohára N ; !"dentista"
 tãirekokuaa:tãirekokuaa N ; !"odontología"
 tãi'ai:tãi'ai N ; !"caries"
 téra:téra N ; !"nombre"
 túva:túva N ; !"padre"
+túva:túva N ; !"papá" !Dir/LR
+túva:túva N ; !"progenitor" !Dir/LR
 uru:uru N ; !"capataz"
 vai:vai N ; !"feo"
 vaka:vaka N ; !"vaca"
 vakapi:vakapi N ; !"cuero"
+vakapi:vakapi N ; !"suela" !Dir/LR
 vava:vava N ; !"vaivén"
 verapy:verapy N ; !"gloria"
 virumono'õ:virumono'õ N ; !"lucro"
@@ -1356,13 +1680,17 @@ viruporu:viruporu N ; !"crédito"
 viruporukuaa:viruporukuaa N ; !"inversión"
 virureko:virureko N ; !"economía"
 voko:voko N ; !"saco"
-vore:vore N ; !"segmento"
+vore:vore N ; !"capítulo"
+vore:vore N ; !"segmento" !Dir/LR
 votõkua:votõkua N ; !"ojal"
 vyrorei:vyrorei N ; !"tontería"
 vyroreko:vyroreko N ; !"necedad"
-vy'a:vy'a N ; !"placer"
+vy'a:vy'a N ; !"júbilo"
+vy'a:vy'a N ; !"placer" !Dir/LR
 yatã:yatã N ; !"hielo"
 yga:yga N ; !"nave"
+yga:yga N ; !"bote" !Dir/LR
+yga:yga N ; !"navío" !Dir/LR
 ygajára:ygajára N ; !"naviero"
 ygakororõ:ygakororõ N ; !"lancha"
 ygape:ygape N ; !"balsa"
@@ -1372,6 +1700,7 @@ ygary:ygary N ; !"cedro"
 yga'aty:yga'aty N ; !"flota"
 ygua:ygua N ; !"infusión"
 ygue:ygue N ; !"espiga"
+ygue:ygue N ; !"mástil" !Dir/LR
 yke:yke N ; !"lado"
 ykuarembe:ykuarembe N ; !"brocal"
 ykuayvu:ykuayvu N ; !"manantial"
@@ -1384,11 +1713,19 @@ ypa:ypa N ; !"lago"
 ype:ype N ; !"pato"
 ypu'ã:ypu'ã N ; !"ola"
 ypy:ypy N ; !"linde"
-ypykue:ypykue N ; !"antepasado"
+ypy:ypy N ; !"principio" !Dir/LR
+ypykue:ypykue N ; !"linaje"
+ypykue:ypykue N ; !"génesis" !Dir/LR
+ypykue:ypykue N ; !"original" !Dir/LR
+ypykue:ypykue N ; !"indígena" !Dir/LR
+ypykue:ypykue N ; !"antepasado" !Dir/LR
+ypykue:ypykue N ; !"aborigen" !Dir/LR
 ypykue'aty:ypykue'aty N ; !"tribu"
-yryvu:yryvu N ; !"cuervo"
+yryvu:yryvu N ; !"buitre"
+yryvu:yryvu N ; !"cuervo" !Dir/LR
 ysapy:ysapy N ; !"rocío"
 yso:yso N ; !"gusano"
+yso:yso N ; !"oruga" !Dir/LR
 ysope:ysope N ; !"sanguijuela"
 ysy:ysy N ; !"goma"
 ysypo:ysypo N ; !"liana"
@@ -1397,31 +1734,41 @@ ysyryguasu:ysyryguasu N ; !"río"
 ytororõ:ytororõ N ; !"cascada"
 yuhéi:yuhéi N ; !"sed"
 yva:yva N ; !"fruta"
+yva:yva N ; !"manzana" !Dir/LR
 yvasa'i:yvasa'i N ; !"mora"
 yvate:yvate N ; !"norte"
+yvate:yvate N ; !"altura" !Dir/LR
 yvatejoja:yvatejoja N ; !"nivel"
 yvatete:yvatete N ; !"cúspide"
 yvoty:yvoty N ; !"flor"
 yvotyry:yvotyry N ; !"néctar"
 yvotyty:yvotyty N ; !"jardín"
 yvy:yvy N ; !"propiedad"
+yvy:yvy N ; !"predio" !Dir/LR
+yvy:yvy N ; !"tierra" !Dir/LR
+yvy:yvy N ; !"suelo" !Dir/LR
+yvy:yvy N ; !"terreno" !Dir/LR
 yvyapekuaa:yvyapekuaa N ; !"geografía"
 yvyatã:yvyatã N ; !"piso"
 yvyguasu:yvyguasu N ; !"latifundio"
 yvyja:yvyja N ; !"culebra"
 yvyjygue:yvyjygue N ; !"ladrillo"
 yvykua:yvykua N ; !"pozo"
-!yvykua pypuku:yvykua pypuku N ; !"abismo"
+yvykua:yvykua N ; !"zanja" !Dir/LR
+yvykua% pypuku:yvykua% pypuku N ; !"abismo"
 yvykuapuku:yvykuapuku N ; !"túnel"
 yvykuapypuku:yvykuapypuku N ; !"precipicio"
 yvyku'i:yvyku'i N ; !"arena"
 yvymoporãha:yvymoporãha N ; !"abono"
 yvype:yvype N ; !"llanura"
+yvype:yvype N ; !"meseta" !Dir/LR
 yvypóra:yvypóra N ; !"humano"
-!yvypóra reko:yvypóra reko N ; !"humanidad"
+yvypóra% reko:yvypóra% reko N ; !"humanidad"
 yvyra:yvyra N ; !"árbol"
+yvyra:yvyra N ; !"madera" !Dir/LR
 yvyraku'i:yvyraku'i N ; !"astilla"
 yvyrapuku:yvyrapuku N ; !"palo"
+yvyrapuku:yvyrapuku N ; !"columna" !Dir/LR
 yvyrarakã:yvyrarakã N ; !"tallo"
 yvyrarykue:yvyrarykue N ; !"savia"
 yvyrañembo'y:yvyrañembo'y N ; !"poste"
@@ -1429,6 +1776,7 @@ yvyra'akua:yvyra'akua N ; !"estaca"
 yvyra'ãnga:yvyra'ãnga N ; !"mapa"
 yvyra'ãngahai:yvyra'ãngahai N ; !"topografía"
 yvyrei:yvyrei N ; !"inmueble"
+yvyrei:yvyrei N ; !"terraplén" !Dir/LR
 yvyrekokuaa:yvyrekokuaa N ; !"geología"
 yvytu:yvytu N ; !"aire"
 yvytujere:yvytujere N ; !"torbellino"
@@ -1436,28 +1784,36 @@ yvytujokoha:yvytujokoha N ; !"parabrisas"
 yvytukangy:yvytukangy N ; !"brisa"
 yvytupochy:yvytupochy N ; !"tormenta"
 yvytu'atã:yvytu'atã N ; !"ciclón"
+yvytu'atã:yvytu'atã N ; !"vendaval" !Dir/LR
 yvyty:yvyty N ; !"montaña"
+yvyty:yvyty N ; !"cerro" !Dir/LR
 yvytymi:yvytymi N ; !"loma"
 yvytyty:yvytyty N ; !"serranía"
 yvyvore:yvyvore N ; !"hemisferio"
 yvy'a:yvy'a N ; !"tubérculo"
 yvy'apu'a:yvy'apu'a N ; !"planeta"
-yvága:yvága N ; !"cielo"
+yvága:yvága N ; !"paraíso"
+yvága:yvága N ; !"cielo" !Dir/LR
 y'uha:y'uha N ; !"jarro"
 ánga:ánga N ; !"alma"
 ára:ára N ; !"tiempo"
+ára:ára N ; !"día" !Dir/LR
 ã:ã N ; !"espíritu"
 ãngaipa:ãngaipa N ; !"pecado"
 ãngakuaa:ãngakuaa N ; !"psicología"
-ãngue:ãngue N ; !"ánima"
+ãngue:ãngue N ; !"fantasma"
+ãngue:ãngue N ; !"ánima" !Dir/LR
 ñamichãi:ñamichãi N ; !"aro"
 ñana:ñana N ; !"hierba"
 ñanavai:ñanavai N ; !"droga"
 ñandu:ñandu N ; !"avestruz"
 ñanduti:ñanduti N ; !"telaraña"
 ñandy:ñandy N ; !"grasa"
+ñandy:ñandy N ; !"sebo" !Dir/LR
 ñandyry:ñandyry N ; !"aceite"
-ñangarekoha:ñangarekoha N ; !"casero"
+ñandyry:ñandyry N ; !"óleo" !Dir/LR
+ñangarekoha:ñangarekoha N ; !"guardia"
+ñangarekoha:ñangarekoha N ; !"casero" !Dir/LR
 ñangarekohára:ñangarekohára N ; !"guarda"
 ñangarekorã:ñangarekorã N ; !"patrulla"
 ñaña:ñaña N ; !"villano"
@@ -1471,16 +1827,22 @@ y'uha:y'uha N ; !"jarro"
 ñekundaha:ñekundaha N ; !"turismo"
 ñemba'eporandu:ñemba'eporandu N ; !"encuesta"
 ñembohasa:ñembohasa N ; !"tráfico"
-ñembohovái:ñembohovái N ; !"respuesta"
+ñembohovái:ñembohovái N ; !"protesta"
+ñembohovái:ñembohovái N ; !"respuesta" !Dir/LR
+ñembohovái:ñembohovái N ; !"oposición" !Dir/LR
 ñemboja'o:ñemboja'o N ; !"división"
 ñembokaria'y:ñembokaria'y N ; !"alarde"
 ñembosaraiha:ñembosaraiha N ; !"juguete"
 ñembosarái:ñembosarái N ; !"torneo"
+ñembosarái:ñembosarái N ; !"juego" !Dir/LR
 ñembotavy:ñembotavy N ; !"pretexto"
 ñembotuicha:ñembotuicha N ; !"orgullo"
 ñembo'e:ñembo'e N ; !"oración"
+ñembo'e:ñembo'e N ; !"plegaria" !Dir/LR
+ñembo'e:ñembo'e N ; !"ruego" !Dir/LR
 ñembo'erysýi:ñembo'erysýi N ; !"rosario"
 ñembyasy:ñembyasy N ; !"lástima"
+ñembyasy:ñembyasy N ; !"tristeza" !Dir/LR
 ñembyaty:ñembyaty N ; !"aglomeración"
 ñemi:ñemi N ; !"secreto"
 ñemoambue:ñemoambue N ; !"transición"
@@ -1501,14 +1863,16 @@ y'uha:y'uha N ; !"jarro"
 ñemongetajovái:ñemongetajovái N ; !"panel"
 ñemoñare:ñemoñare N ; !"generación"
 ñemu:ñemu N ; !"venta"
+ñemu:ñemu N ; !"negocio" !Dir/LR
 ñemuha:ñemuha N ; !"tienda"
 ñemuha'i:ñemuha'i N ; !"quiosco"
 ñemurenda:ñemurenda N ; !"mercado"
 ñemyasãi:ñemyasãi N ; !"expansión"
 ñemyengovia:ñemyengovia N ; !"trueque"
-ñemyrõ:ñemyrõ N ; !"agravio"
+ñemyrõ:ñemyrõ N ; !"ofensa"
+ñemyrõ:ñemyrõ N ; !"agravio" !Dir/LR
 ñenupã:ñenupã N ; !"tortura"
-!ñenupã tukumbópe:ñenupã tukumbópe N ; !"latigazo"
+ñenupã% tukumbópe:ñenupã% tukumbópe N ; !"latigazo"
 ñepia'ã:ñepia'ã N ; !"tesón"
 ñepohano:ñepohano N ; !"maleficio"
 ñepohãno:ñepohãno N ; !"medicación"
@@ -1525,16 +1889,27 @@ y'uha:y'uha N ; !"jarro"
 ñomongeta:ñomongeta N ; !"charla"
 ñomongetaha:ñomongetaha N ; !"locutorio"
 ñongatuha:ñongatuha N ; !"archivo"
-ñorairõ:ñorairõ N ; !"pelea"
+ñongatuha:ñongatuha N ; !"depósito" !Dir/LR
+ñorairõ:ñorairõ N ; !"guerra"
+ñorairõ:ñorairõ N ; !"pleito" !Dir/LR
+ñorairõ:ñorairõ N ; !"riña" !Dir/LR
+ñorairõ:ñorairõ N ; !"trifulca" !Dir/LR
+ñorairõ:ñorairõ N ; !"violencia" !Dir/LR
+ñorairõ:ñorairõ N ; !"pelea" !Dir/LR
 ñu:ñu N ; !"valle"
 ñuguasu:ñuguasu N ; !"pampa"
 ñuhã:ñuhã N ; !"trampa"
 ñupyso:ñupyso N ; !"paisaje"
 ñuãha:ñuãha N ; !"velo"
 ñyrõ:ñyrõ N ; !"perdón"
+ñyrõ:ñyrõ N ; !"indulgencia" !Dir/LR
+ñyrõ:ñyrõ N ; !"amnistía" !Dir/LR
 óga:óga N ; !"casa"
-!óga okára:óga okára N ; !"cabaña"
+óga:óga N ; !"domicilio" !Dir/LR
+óga% okára:óga% okára N ; !"cabaña"
 ýva:ýva N ; !"empuñadura"
+ýva:ýva N ; !"mango" !Dir/LR
+ýva:ýva N ; !"asta" !Dir/LR
 
 
 LEXICON ProperNouns 
