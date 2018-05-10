@@ -2029,13 +2029,13 @@ akã:akã V ; !"testa"
 akãguapy:akãguapy V ; !"moderado"
 akãkarãi:akãkarãi V ; !"peinar"
 akãnga'u:akãnga'u V ; !"desvanecer"
-akãnga'u:akãnga'u V ; !"marear" !Dir/LR
+akãnga'u:akãnga'u V ; !"marear"
 akãngeta:akãngeta V ; !"calcular"
 akão'atã:akão'atã V ; !"casco"
 akãrapu'ã:akãrapu'ã V ; !"desarrollo"
 akãtavy:akãtavy V ; !"caducar"
 akã'o:akã'o V ; !"decapitar"
-akã'o:akã'o V ; !"descabezar" !Dir/LR
+akã'o:akã'o V ; !"descabezar"
 amandáu:amandáu V ; !"granizo"
 ambu:ambu V ; !"jadear"
 andu:andu V ; !"sentido"
@@ -2061,118 +2061,118 @@ añuã:añuã V ; !"abrazar"
 chi'õ:chi'õ V ; !"chillar"
 chumbe:chumbe V ; !"faja"
 e:e V ; !"pronunciar"
-e:e V ; !"decir" !Dir/LR
+e:e V ; !"decir"
 guapy:guapy V ; !"posar"
 guata:guata V ; !"caminar"
-guata:guata V ; !"andar" !Dir/LR
-guata:guata V ; !"transitar" !Dir/LR
-guata:guata V ; !"pasear" !Dir/LR
-guata:guata V ; !"marchar" !Dir/LR
+guata:guata V ; !"andar"
+guata:guata V ; !"transitar"
+guata:guata V ; !"pasear"
+guata:guata V ; !"marchar"
 guatarei:guatarei V ; !"deambular"
 guejy:guejy V ; !"aterrizar"
-guejy:guejy V ; !"declinar" !Dir/LR
+guejy:guejy V ; !"declinar"
 gueraha:gueraha V ; !"trasportar"
-gueraha:gueraha V ; !"llevar" !Dir/LR
+gueraha:gueraha V ; !"llevar"
 guerahauka:guerahauka V ; !"enviar"
-guerahauka:guerahauka V ; !"exportar" !Dir/LR
+guerahauka:guerahauka V ; !"exportar"
 guereko:guereko V ; !"poseer"
 guerekose:guerekose V ; !"pretender"
 gueroja:gueroja V ; !"transportar"
 gueropu'aka:gueropu'aka V ; !"aguantar"
 guerova:guerova V ; !"trasplantar"
-guerova:guerova V ; !"trasladar" !Dir/LR
-guerova:guerova V ; !"mudar" !Dir/LR
+guerova:guerova V ; !"trasladar"
+guerova:guerova V ; !"mudar"
 gueru:gueru V ; !"traer"
 guevi:guevi V ; !"retroceder"
-guevi:guevi V ; !"recular" !Dir/LR
+guevi:guevi V ; !"recular"
 guyrajuru:guyrajuru V ; !"pico"
 ha:ha V ; !"ir"
 haguino:haguino V ; !"fermentar"
 hai:hai V ; !"rayar"
-hai:hai V ; !"escribir" !Dir/LR
-hai:hai V ; !"trazar" !Dir/LR
-hai:hai V ; !"redactar" !Dir/LR
-hai:hai V ; !"copiar" !Dir/LR
+hai:hai V ; !"escribir"
+hai:hai V ; !"trazar"
+hai:hai V ; !"redactar"
+hai:hai V ; !"copiar"
 haiguy:haiguy V ; !"subrayar"
 haimbe'e:haimbe'e V ; !"afilar"
-haimbe'e:haimbe'e V ; !"limar" !Dir/LR
+haimbe'e:haimbe'e V ; !"limar"
 haimbe'eha:haimbe'eha V ; !"lima"
 haitypo:haitypo V ; !"anidar"
 haku:haku V ; !"caliente"
 hapereka:hapereka V ; !"investigar"
 hapo'o:hapo'o V ; !"extirpar"
 hapy:hapy V ; !"quemar"
-hapy:hapy V ; !"calcinar" !Dir/LR
+hapy:hapy V ; !"calcinar"
 haru:haru V ; !"malograr"
 hasa:hasa V ; !"pasar"
-hasa:hasa V ; !"exceder" !Dir/LR
-hasa:hasa V ; !"cruzar" !Dir/LR
-hasa:hasa V ; !"rebasar" !Dir/LR
-hasa:hasa V ; !"traspasar" !Dir/LR
-hasa:hasa V ; !"transcurrir" !Dir/LR
-hasa:hasa V ; !"atravesar" !Dir/LR
+hasa:hasa V ; !"exceder"
+hasa:hasa V ; !"cruzar"
+hasa:hasa V ; !"rebasar"
+hasa:hasa V ; !"traspasar"
+hasa:hasa V ; !"transcurrir"
+hasa:hasa V ; !"atravesar"
 hasa'asy:hasa'asy V ; !"sufrir"
 hasy:hasy V ; !"doler"
 havere:havere V ; !"rozar"
 havira:havira V ; !"flagelar"
 hayhu:hayhu V ; !"querer"
-hayhu:hayhu V ; !"amar" !Dir/LR
+hayhu:hayhu V ; !"amar"
 ha'arõ:ha'arõ V ; !"aguardar"
-ha'arõ:ha'arõ V ; !"esperar" !Dir/LR
+ha'arõ:ha'arõ V ; !"esperar"
 ha'ã:ha'ã V ; !"probar"
-ha'ã:ha'ã V ; !"sopesar" !Dir/LR
-ha'ã:ha'ã V ; !"jugar" !Dir/LR
-ha'ã:ha'ã V ; !"intentar" !Dir/LR
-ha'ã:ha'ã V ; !"simular" !Dir/LR
-ha'ã:ha'ã V ; !"apostar" !Dir/LR
-ha'ã:ha'ã V ; !"medir" !Dir/LR
-ha'ã:ha'ã V ; !"emular" !Dir/LR
-ha'ã:ha'ã V ; !"tantear" !Dir/LR
-ha'ã:ha'ã V ; !"experimentar" !Dir/LR
-ha'ã:ha'ã V ; !"tentar" !Dir/LR
-ha'ã:ha'ã V ; !"gustar" !Dir/LR
+ha'ã:ha'ã V ; !"sopesar"
+ha'ã:ha'ã V ; !"jugar"
+ha'ã:ha'ã V ; !"intentar"
+ha'ã:ha'ã V ; !"simular"
+ha'ã:ha'ã V ; !"apostar"
+ha'ã:ha'ã V ; !"medir"
+ha'ã:ha'ã V ; !"emular"
+ha'ã:ha'ã V ; !"tantear"
+ha'ã:ha'ã V ; !"experimentar"
+ha'ã:ha'ã V ; !"tentar"
+ha'ã:ha'ã V ; !"gustar"
 ha'ãha:ha'ãha V ; !"vara"
 ha'ãnga:ha'ãnga V ; !"remedar"
-ha'ãnga:ha'ãnga V ; !"imitar" !Dir/LR
+ha'ãnga:ha'ãnga V ; !"imitar"
 hecha:hecha V ; !"presenciar"
-hecha:hecha V ; !"divisar" !Dir/LR
-hecha:hecha V ; !"ver" !Dir/LR
-hecha:hecha V ; !"prevenir" !Dir/LR
-hecha:hecha V ; !"observar" !Dir/LR
-hecha:hecha V ; !"avistar" !Dir/LR
-hecha:hecha V ; !"fiscalizar" !Dir/LR
+hecha:hecha V ; !"divisar"
+hecha:hecha V ; !"ver"
+hecha:hecha V ; !"prevenir"
+hecha:hecha V ; !"observar"
+hecha:hecha V ; !"avistar"
+hecha:hecha V ; !"fiscalizar"
 hechajey:hechajey V ; !"verificar"
-hechajey:hechajey V ; !"revisar" !Dir/LR
-hechajey:hechajey V ; !"repasar" !Dir/LR
+hechajey:hechajey V ; !"revisar"
+hechajey:hechajey V ; !"repasar"
 hechakuaa:hechakuaa V ; !"considerar"
-hechakuaa:hechakuaa V ; !"tolerar" !Dir/LR
+hechakuaa:hechakuaa V ; !"tolerar"
 hecharamo:hecharamo V ; !"maravillar"
 hechauka:hechauka V ; !"revelar"
-hechauka:hechauka V ; !"indicar" !Dir/LR
-hechauka:hechauka V ; !"presentar" !Dir/LR
-hechauka:hechauka V ; !"señalar" !Dir/LR
+hechauka:hechauka V ; !"indicar"
+hechauka:hechauka V ; !"presentar"
+hechauka:hechauka V ; !"señalar"
 hechaukaha:hechaukaha V ; !"guía"
 hechavoi:hechavoi V ; !"prever"
 heja:heja V ; !"obviar"
-heja:heja V ; !"permitir" !Dir/LR
-heja:heja V ; !"omitir" !Dir/LR
-heja:heja V ; !"sucumbir" !Dir/LR
-heja:heja V ; !"desistir" !Dir/LR
-heja:heja V ; !"dejar" !Dir/LR
+heja:heja V ; !"permitir"
+heja:heja V ; !"omitir"
+heja:heja V ; !"sucumbir"
+heja:heja V ; !"desistir"
+heja:heja V ; !"dejar"
 heka:heka V ; !"buscar"
-heka:heka V ; !"inquirir" !Dir/LR
+heka:heka V ; !"inquirir"
 hekombo'e:hekombo'e V ; !"legislar"
-hekombo'e:hekombo'e V ; !"enseñar" !Dir/LR
+hekombo'e:hekombo'e V ; !"enseñar"
 hekope'a:hekope'a V ; !"aniquilar"
 hekoporãmbo'e:hekoporãmbo'e V ; !"moralizar"
 hekoreíva:hekoreíva V ; !"vago"
 hekue:hekue V ; !"gusto"
 hendu:hendu V ; !"oír"
-hendu:hendu V ; !"escuchar" !Dir/LR
+hendu:hendu V ; !"escuchar"
 hendy:hendy V ; !"arder"
 henói:henói V ; !"convocar"
-henói:henói V ; !"invocar" !Dir/LR
-henói:henói V ; !"llamar" !Dir/LR
+henói:henói V ; !"invocar"
+henói:henói V ; !"llamar"
 hepyguejy:hepyguejy V ; !"abaratar"
 hepykue:hepykue V ; !"tarifa"
 hepyra'ã:hepyra'ã V ; !"tasar"
@@ -2181,10 +2181,10 @@ heréi:heréi V ; !"lamer"
 hesakã:hesakã V ; !"obvio"
 hesakãva:hesakãva V ; !"transparente"
 hesape:hesape V ; !"alumbrar"
-hesape:hesape V ; !"iluminar" !Dir/LR
+hesape:hesape V ; !"iluminar"
 heñoihague:heñoihague V ; !"nacido"
 ho:ho V ; !"viajar"
-ho:ho V ; !"ida" !Dir/LR
+ho:ho V ; !"ida"
 hoky:hoky V ; !"brotar"
 hory:hory V ; !"alegre"
 hovaigua:hovaigua V ; !"opuesto"
@@ -2192,17 +2192,17 @@ hovapete:hovapete V ; !"abofetear"
 ho'a:ho'a V ; !"caer"
 hunga:hunga V ; !"lacerar"
 hupi:hupi V ; !"cargar"
-hupi:hupi V ; !"alzar" !Dir/LR
+hupi:hupi V ; !"alzar"
 hupyty:hupyty V ; !"lograr"
-hupyty:hupyty V ; !"obtener" !Dir/LR
-hupyty:hupyty V ; !"alcanzar" !Dir/LR
-hupyty:hupyty V ; !"conseguir" !Dir/LR
+hupyty:hupyty V ; !"obtener"
+hupyty:hupyty V ; !"alcanzar"
+hupyty:hupyty V ; !"conseguir"
 hupytyka:hupytyka V ; !"abastecer"
 hupytykue:hupytykue V ; !"alcance"
 hu'u:hu'u V ; !"toser"
 hykue'o:hykue'o V ; !"exprimir"
 hypýi:hypýi V ; !"salpicar"
-hypýi:hypýi V ; !"rociar" !Dir/LR
+hypýi:hypýi V ; !"rociar"
 hyru:hyru V ; !"envase"
 hyvykói:hyvykói V ; !"arar"
 ijurujáiva:ijurujáiva V ; !"abobado"
@@ -2216,45 +2216,45 @@ itaperéva:itaperéva V ; !"abandonado"
 iñarandúva:iñarandúva V ; !"leído"
 jahe'o:jahe'o V ; !"sollozar"
 jaho'i:jaho'i V ; !"revestir"
-jaho'i:jaho'i V ; !"cobijar" !Dir/LR
-jaho'i:jaho'i V ; !"cubrir" !Dir/LR
-jaho'i:jaho'i V ; !"abrigar" !Dir/LR
+jaho'i:jaho'i V ; !"cobijar"
+jaho'i:jaho'i V ; !"cubrir"
+jaho'i:jaho'i V ; !"abrigar"
 jahu:jahu V ; !"bañar"
-jahu:jahu V ; !"ducharse" !Dir/LR
+jahu:jahu V ; !"ducharse"
 jahéi:jahéi V ; !"maltrato"
 japajeréi:japajeréi V ; !"rodar"
 japi:japi V ; !"lapidar"
 japo:japo V ; !"formar"
-japo:japo V ; !"confeccionar" !Dir/LR
-japo:japo V ; !"proceder" !Dir/LR
-japo:japo V ; !"ocasionar" !Dir/LR
-japo:japo V ; !"plasmar" !Dir/LR
-japo:japo V ; !"inferir" !Dir/LR
-japo:japo V ; !"obrar" !Dir/LR
-japo:japo V ; !"elaborar" !Dir/LR
-japo:japo V ; !"hacer" !Dir/LR
-japo:japo V ; !"ejecutar" !Dir/LR
+japo:japo V ; !"confeccionar"
+japo:japo V ; !"proceder"
+japo:japo V ; !"ocasionar"
+japo:japo V ; !"plasmar"
+japo:japo V ; !"inferir"
+japo:japo V ; !"obrar"
+japo:japo V ; !"elaborar"
+japo:japo V ; !"hacer"
+japo:japo V ; !"ejecutar"
 japojey:japojey V ; !"rehacer"
 japopa:japopa V ; !"rematar"
-japopa:japopa V ; !"culminar" !Dir/LR
-japopa:japopa V ; !"acabar" !Dir/LR
-japopa:japopa V ; !"producir" !Dir/LR
+japopa:japopa V ; !"culminar"
+japopa:japopa V ; !"acabar"
+japopa:japopa V ; !"producir"
 japopyrã:japopyrã V ; !"programa"
 japose:japose V ; !"proyectar"
 japouka:japouka V ; !"prescribir"
-japouka:japouka V ; !"mandar" !Dir/LR
+japouka:japouka V ; !"mandar"
 japove:japove V ; !"proseguir"
 japu:japu V ; !"engaño"
 japyhy:japyhy V ; !"cautivar"
 jarareko:jarareko V ; !"pertenecer"
 jatapy:jatapy V ; !"intrigar"
 javy:javy V ; !"errar"
-javy:javy V ; !"fallar" !Dir/LR
+javy:javy V ; !"fallar"
 javyky:javyky V ; !"manosear"
 ja'o:ja'o V ; !"retar"
-ja'o:ja'o V ; !"regañar" !Dir/LR
-ja'o:ja'o V ; !"reprender" !Dir/LR
-ja'o:ja'o V ; !"increpar" !Dir/LR
+ja'o:ja'o V ; !"regañar"
+ja'o:ja'o V ; !"reprender"
+ja'o:ja'o V ; !"increpar"
 jechauka:jechauka V ; !"aparecer"
 jegua:jegua V ; !"encaje"
 jeguata:jeguata V ; !"marcha"
@@ -2265,12 +2265,12 @@ jeheka:jeheka V ; !"recabar"
 jehekýi:jehekýi V ; !"eludir"
 jeho:jeho V ; !"viaje"
 jehu:jehu V ; !"ocurrir"
-jehu:jehu V ; !"acaecer" !Dir/LR
+jehu:jehu V ; !"acaecer"
 jehupyrehai:jehupyrehai V ; !"parte"
 jeike:jeike V ; !"ingreso"
 jeikeha:jeikeha V ; !"entrada"
 jeiko:jeiko V ; !"vivir"
-jeiko:jeiko V ; !"residir" !Dir/LR
+jeiko:jeiko V ; !"residir"
 jeikovai:jeikovai V ; !"disputar"
 jeikove:jeikove V ; !"sobrevivir"
 jeipeju:jeipeju V ; !"abanicar"
@@ -2289,108 +2289,108 @@ jepokói:jepokói V ; !"asir"
 jepopete:jepopete V ; !"aplaudir"
 jeporavo:jeporavo V ; !"voto"
 jepytaso:jepytaso V ; !"obstinado"
-jepytaso:jepytaso V ; !"resistir" !Dir/LR
+jepytaso:jepytaso V ; !"resistir"
 jere:jere V ; !"vuelta"
-jere:jere V ; !"entorno" !Dir/LR
-jere:jere V ; !"rondar" !Dir/LR
-jere:jere V ; !"tornar" !Dir/LR
-jere:jere V ; !"girar" !Dir/LR
+jere:jere V ; !"entorno"
+jere:jere V ; !"rondar"
+jere:jere V ; !"tornar"
+jere:jere V ; !"girar"
 jeroky:jeroky V ; !"danza"
-jeroky:jeroky V ; !"bailar" !Dir/LR
+jeroky:jeroky V ; !"bailar"
 jerovia:jerovia V ; !"confiar"
 jeroviauka:jeroviauka V ; !"recomendar"
 jerure:jerure V ; !"solicitar"
-jerure:jerure V ; !"requerir" !Dir/LR
-jerure:jerure V ; !"reclamar" !Dir/LR
-jerure:jerure V ; !"proponer" !Dir/LR
-jerure:jerure V ; !"pedir" !Dir/LR
+jerure:jerure V ; !"requerir"
+jerure:jerure V ; !"reclamar"
+jerure:jerure V ; !"proponer"
+jerure:jerure V ; !"pedir"
 jerure% mávare:jerure% mávare V ; !"abogar"
 jerurejey:jerurejey V ; !"instar"
 jerurepohýi:jerurepohýi V ; !"exigir"
 jerure'asy:jerure'asy V ; !"suplicar"
-jerure'asy:jerure'asy V ; !"implorar" !Dir/LR
-jerure'asy:jerure'asy V ; !"rogar" !Dir/LR
+jerure'asy:jerure'asy V ; !"implorar"
+jerure'asy:jerure'asy V ; !"rogar"
 jeso:jeso V ; !"quiebra"
 jetu'u:jetu'u V ; !"recalcar"
 jevy:jevy V ; !"regresar"
-jevy:jevy V ; !"retornar" !Dir/LR
+jevy:jevy V ; !"retornar"
 je'ajey:je'ajey V ; !"recaer"
 je'ejey:je'ejey V ; !"reiterar"
-je'ejey:je'ejey V ; !"repetir" !Dir/LR
+je'ejey:je'ejey V ; !"repetir"
 joavy:joavy V ; !"disentir"
 jogapo:jogapo V ; !"edificar"
 jogua:jogua V ; !"adquirir"
-jogua:jogua V ; !"comprar" !Dir/LR
+jogua:jogua V ; !"comprar"
 johéi:johéi V ; !"lavar"
 joju:joju V ; !"intimar"
 joka:joka V ; !"romper"
 jokatiri:jokatiri V ; !"agrietar"
 joko:joko V ; !"impedir"
-joko:joko V ; !"atajar" !Dir/LR
-joko:joko V ; !"embargar" !Dir/LR
-joko:joko V ; !"sujetar" !Dir/LR
-joko:joko V ; !"suspender" !Dir/LR
+joko:joko V ; !"atajar"
+joko:joko V ; !"embargar"
+joko:joko V ; !"sujetar"
+joko:joko V ; !"suspender"
 jokoha:jokoha V ; !"retén"
 jokosapy'a:jokosapy'a V ; !"interrumpir"
 jokua:jokua V ; !"vendar"
-jokua:jokua V ; !"uncir" !Dir/LR
+jokua:jokua V ; !"uncir"
 jokuaha:jokuaha V ; !"venda"
 jokuái:jokuái V ; !"ocupar"
 jope:jope V ; !"refractar"
 jopi:jopi V ; !"picar"
 jopy:jopy V ; !"agobiar"
-jopy:jopy V ; !"oprimir" !Dir/LR
-jopy:jopy V ; !"prensar" !Dir/LR
-jopy:jopy V ; !"restringir" !Dir/LR
+jopy:jopy V ; !"oprimir"
+jopy:jopy V ; !"prensar"
+jopy:jopy V ; !"restringir"
 jopói:jopói V ; !"obsequio"
-jopói:jopói V ; !"premio" !Dir/LR
-jopói:jopói V ; !"propina" !Dir/LR
-jopói:jopói V ; !"regalo" !Dir/LR
+jopói:jopói V ; !"premio"
+jopói:jopói V ; !"propina"
+jopói:jopói V ; !"regalo"
 jora:jora V ; !"absolver"
-jora:jora V ; !"desatar" !Dir/LR
+jora:jora V ; !"desatar"
 joso:joso V ; !"machacar"
-joso:joso V ; !"machucar" !Dir/LR
+joso:joso V ; !"machucar"
 joyke'y:joyke'y V ; !"hermano"
 jo'o:jo'o V ; !"cavar"
-jo'o:jo'o V ; !"excavar" !Dir/LR
+jo'o:jo'o V ; !"excavar"
 juhu:juhu V ; !"topar"
-juhu:juhu V ; !"localizar" !Dir/LR
-juhu:juhu V ; !"hallar" !Dir/LR
-juhu:juhu V ; !"detectar" !Dir/LR
-juhu:juhu V ; !"encontrar" !Dir/LR
+juhu:juhu V ; !"localizar"
+juhu:juhu V ; !"hallar"
+juhu:juhu V ; !"detectar"
+juhu:juhu V ; !"encontrar"
 jujey:jujey V ; !"volver"
 juka:juka V ; !"matar"
-juka:juka V ; !"eliminar" !Dir/LR
-juka:juka V ; !"sacrificar" !Dir/LR
+juka:juka V ; !"eliminar"
+juka:juka V ; !"sacrificar"
 jukapa:jukapa V ; !"exterminar"
 juky:juky V ; !"sal"
 jupi:jupi V ; !"trepar"
-jupi:jupi V ; !"despegar" !Dir/LR
-jupi:jupi V ; !"escalar" !Dir/LR
-jupi:jupi V ; !"subir" !Dir/LR
+jupi:jupi V ; !"despegar"
+jupi:jupi V ; !"escalar"
+jupi:jupi V ; !"subir"
 jura:jura V ; !"obligar"
 jurujái:jurujái V ; !"embelesar"
 juvy:juvy V ; !"estrangular"
-juvy:juvy V ; !"ahorcar" !Dir/LR
+juvy:juvy V ; !"ahorcar"
 jykýi:jykýi V ; !"trillar"
 kaguai:kaguai V ; !"difamar"
-kaguai:kaguai V ; !"reprochar" !Dir/LR
+kaguai:kaguai V ; !"reprochar"
 kaguy:kaguy V ; !"vino"
 kaigue:kaigue V ; !"aburrido"
 kakuaa:kakuaa V ; !"crecer"
-kakuaa:kakuaa V ; !"prosperar" !Dir/LR
+kakuaa:kakuaa V ; !"prosperar"
 kamambu:kamambu V ; !"trago"
 kambu:kambu V ; !"sorber"
-kambu:kambu V ; !"mamar" !Dir/LR
+kambu:kambu V ; !"mamar"
 kandu:kandu V ; !"abultado"
 kane'õ:kane'õ V ; !"fatiga"
 kangy:kangy V ; !"abatido"
 karu:karu V ; !"comer"
-karu:karu V ; !"almuerzo" !Dir/LR
+karu:karu V ; !"almuerzo"
 karupyhare:karupyhare V ; !"cenar"
 karãi:karãi V ; !"rascar"
-karãi:karãi V ; !"raspar" !Dir/LR
-karãi:karãi V ; !"arañar" !Dir/LR
+karãi:karãi V ; !"raspar"
+karãi:karãi V ; !"arañar"
 kavaju% ári:kavaju% ári V ; !"cabalgar"
 kañy:kañy V ; !"oculto"
 ka'aguy:ka'aguy V ; !"monte"
@@ -2399,41 +2399,41 @@ ka'aruete:ka'aruete V ; !"atardecer"
 ka'avo:ka'avo V ; !"mata"
 ka'ay:ka'ay V ; !"mate"
 ke:ke V ; !"entrar"
-ke:ke V ; !"caber" !Dir/LR
-ke:ke V ; !"dormir" !Dir/LR
+ke:ke V ; !"caber"
+ke:ke V ; !"dormir"
 kerambi:kerambi V ; !"dormitar"
 kerape'a:kerape'a V ; !"desvelar"
 ko:ko V ; !"morar"
 konikoni:konikoni V ; !"ondear"
 kora:kora V ; !"valla"
-kora:kora V ; !"ruedo" !Dir/LR
-kora:kora V ; !"cercado" !Dir/LR
+kora:kora V ; !"ruedo"
+kora:kora V ; !"cercado"
 kororõ:kororõ V ; !"roncar"
-kororõ:kororõ V ; !"rugir" !Dir/LR
+kororõ:kororõ V ; !"rugir"
 kotyguasu:kotyguasu V ; !"sala"
 ko'õ:ko'õ V ; !"irritar"
 kuaa:kuaa V ; !"conocer"
-kuaa:kuaa V ; !"saber" !Dir/LR
+kuaa:kuaa V ; !"saber"
 kuaauka:kuaauka V ; !"enterar"
-kuaauka:kuaauka V ; !"alegar" !Dir/LR
-kuaauka:kuaauka V ; !"acusar" !Dir/LR
-kuaauka:kuaauka V ; !"identificar" !Dir/LR
+kuaauka:kuaauka V ; !"alegar"
+kuaauka:kuaauka V ; !"acusar"
+kuaauka:kuaauka V ; !"identificar"
 kuaaukavy:kuaaukavy V ; !"insinuar"
 kuarepoti:kuarepoti V ; !"hierro"
 kuaru:kuaru V ; !"orinar"
-kuaru:kuaru V ; !"mear" !Dir/LR
+kuaru:kuaru V ; !"mear"
 kuatia:kuatia V ; !"documento"
 kuatiahavara:kuatiahavara V ; !"lija"
 kuatiaporupy:kuatiaporupy V ; !"vale"
 kuatiañemu:kuatiañemu V ; !"factura"
 kuatia'atã:kuatia'atã V ; !"diploma"
 kundaha:kundaha V ; !"vagabundear"
-kundaha:kundaha V ; !"recorrer" !Dir/LR
-kundaha:kundaha V ; !"vagar" !Dir/LR
+kundaha:kundaha V ; !"recorrer"
+kundaha:kundaha V ; !"vagar"
 kutu:kutu V ; !"clavar"
-kutu:kutu V ; !"hincar" !Dir/LR
-kutu:kutu V ; !"apuñalar" !Dir/LR
-kutu:kutu V ; !"fijar" !Dir/LR
+kutu:kutu V ; !"hincar"
+kutu:kutu V ; !"apuñalar"
+kutu:kutu V ; !"fijar"
 kutuha:kutuha V ; !"jeringa"
 kuñarekóva:kuñarekóva V ; !"afeminado"
 ky:ky V ; !"llover"
@@ -2443,29 +2443,29 @@ kyhyje:kyhyje V ; !"temer"
 kyhyjeha:kyhyjeha V ; !"peligro"
 kyra:kyra V ; !"cebo"
 kyty:kyty V ; !"frotar"
-kyty:kyty V ; !"fregar" !Dir/LR
-kyty:kyty V ; !"restregar" !Dir/LR
-kyty:kyty V ; !"cepillar" !Dir/LR
+kyty:kyty V ; !"fregar"
+kyty:kyty V ; !"restregar"
+kyty:kyty V ; !"cepillar"
 kóga:kóga V ; !"siembra"
 kõi:kõi V ; !"doble"
 maimbe:maimbe V ; !"tostar"
 maitei:maitei V ; !"saludo"
 mandu'a:mandu'a V ; !"evocar"
 mano:mano V ; !"fallecer"
-mano:mano V ; !"morir" !Dir/LR
+mano:mano V ; !"morir"
 manombota:manombota V ; !"agonizar"
 marandu:marandu V ; !"informe"
-marandu:marandu V ; !"manifiesto" !Dir/LR
+marandu:marandu V ; !"manifiesto"
 marandurenda:marandurenda V ; !"prensa"
 marã:marã V ; !"mancha"
 mañañemi:mañañemi V ; !"espiar"
 mbarakaja% guahu:mbarakaja% guahu V ; !"maullar"
 mba'apo:mba'apo V ; !"trabajar"
-mba'apo:mba'apo V ; !"labrar" !Dir/LR
+mba'apo:mba'apo V ; !"labrar"
 mba'e:mba'e V ; !"objeto"
 mba'eapo:mba'eapo V ; !"construir"
-mba'eapo:mba'eapo V ; !"generar" !Dir/LR
-mba'eapo:mba'eapo V ; !"fabricar" !Dir/LR
+mba'eapo:mba'eapo V ; !"generar"
+mba'eapo:mba'eapo V ; !"fabricar"
 mba'ejára:mba'ejára V ; !"titular"
 mba'eopu'i:mba'eopu'i V ; !"timbre"
 mba'epohýi:mba'epohýi V ; !"carga"
@@ -2475,7 +2475,7 @@ mba'era'ã:mba'era'ã V ; !"prueba"
 mba'eve:mba'eve V ; !"nada"
 mba'e'apo:mba'e'apo V ; !"manufactura"
 mboaguara:mboaguara V ; !"adular"
-mboaguara:mboaguara V ; !"halagar" !Dir/LR
+mboaguara:mboaguara V ; !"halagar"
 mboai:mboai V ; !"llagar"
 mboajaka:mboajaka V ; !"encestar"
 mboaju:mboaju V ; !"madurar"
@@ -2485,281 +2485,281 @@ mboape:mboape V ; !"embalar"
 mboapeha:mboapeha V ; !"forro"
 mboapýra:mboapýra V ; !"limitar"
 mboare:mboare V ; !"perpetuar"
-mboare:mboare V ; !"prorrogar" !Dir/LR
+mboare:mboare V ; !"prorrogar"
 mboarete:mboarete V ; !"festejar"
 mboava:mboava V ; !"personificar"
 mbochuchu:mbochuchu V ; !"intimidar"
 mbochyryry:mbochyryry V ; !"freír"
 mbogua:mbogua V ; !"filtrar"
-mbogua:mbogua V ; !"colar" !Dir/LR
+mbogua:mbogua V ; !"colar"
 mboguaha:mboguaha V ; !"filtro"
 mboguapy:mboguapy V ; !"sentar"
 mboguata:mboguata V ; !"dirigir"
-mboguata:mboguata V ; !"guiar" !Dir/LR
-mboguata:mboguata V ; !"manejar" !Dir/LR
-mboguata:mboguata V ; !"impulsar" !Dir/LR
+mboguata:mboguata V ; !"guiar"
+mboguata:mboguata V ; !"manejar"
+mboguata:mboguata V ; !"impulsar"
 mbogue:mbogue V ; !"extinguir"
-mbogue:mbogue V ; !"sofocar" !Dir/LR
-mbogue:mbogue V ; !"borrar" !Dir/LR
-mbogue:mbogue V ; !"apagar" !Dir/LR
+mbogue:mbogue V ; !"sofocar"
+mbogue:mbogue V ; !"borrar"
+mbogue:mbogue V ; !"apagar"
 mboguejy:mboguejy V ; !"arriar"
-mboguejy:mboguejy V ; !"rebajar" !Dir/LR
-mboguejy:mboguejy V ; !"bajar" !Dir/LR
+mboguejy:mboguejy V ; !"rebajar"
+mboguejy:mboguejy V ; !"bajar"
 mbohakuvevúi:mbohakuvevúi V ; !"entibiar"
 mbohape:mbohape V ; !"surcar"
-mbohape:mbohape V ; !"facilitar" !Dir/LR
+mbohape:mbohape V ; !"facilitar"
 mbohasa:mbohasa V ; !"traducir"
-mbohasa:mbohasa V ; !"transferir" !Dir/LR
-mbohasa:mbohasa V ; !"traficar" !Dir/LR
+mbohasa:mbohasa V ; !"transferir"
+mbohasa:mbohasa V ; !"traficar"
 mbohasa'asy:mbohasa'asy V ; !"mortificar"
 mbohasy:mbohasy V ; !"complicar"
-mbohasy:mbohasy V ; !"enfermar" !Dir/LR
-mbohasy:mbohasy V ; !"infestar" !Dir/LR
+mbohasy:mbohasy V ; !"enfermar"
+mbohasy:mbohasy V ; !"infestar"
 mboheko:mboheko V ; !"moderar"
 mbohepy:mbohepy V ; !"cotizar"
-mbohepy:mbohepy V ; !"evaluar" !Dir/LR
-mbohepy:mbohepy V ; !"sancionar" !Dir/LR
+mbohepy:mbohepy V ; !"evaluar"
+mbohepy:mbohepy V ; !"sancionar"
 mboheraguapy:mboheraguapy V ; !"firmar"
 mbohesape'a:mbohesape'a V ; !"instruir"
 mbohetarei:mbohetarei V ; !"redundar"
 mbohetave:mbohetave V ; !"multiplicar"
-mbohetave:mbohetave V ; !"redoblar" !Dir/LR
-mbohetave:mbohetave V ; !"aumentar" !Dir/LR
+mbohetave:mbohetave V ; !"redoblar"
+mbohetave:mbohetave V ; !"aumentar"
 mbohory:mbohory V ; !"agradar"
 mbohovái:mbohovái V ; !"responder"
-mbohovái:mbohovái V ; !"reaccionar" !Dir/LR
-mbohovái:mbohovái V ; !"replicar" !Dir/LR
-mbohovái:mbohovái V ; !"polemizar" !Dir/LR
-mbohovái:mbohovái V ; !"contestar" !Dir/LR
-mbohovái:mbohovái V ; !"oponer" !Dir/LR
+mbohovái:mbohovái V ; !"reaccionar"
+mbohovái:mbohovái V ; !"replicar"
+mbohovái:mbohovái V ; !"polemizar"
+mbohovái:mbohovái V ; !"contestar"
+mbohovái:mbohovái V ; !"oponer"
 mbohuguy:mbohuguy V ; !"sangrar"
 mbohupa:mbohupa V ; !"albergar"
 mbohykue:mbohykue V ; !"mojar"
-mbohykue:mbohykue V ; !"empapar" !Dir/LR
+mbohykue:mbohykue V ; !"empapar"
 mbohypa:mbohypa V ; !"agotar"
 mbohypy'a:mbohypy'a V ; !"cuajar"
 mbohyru:mbohyru V ; !"envasar"
-mbohyru:mbohyru V ; !"encajar" !Dir/LR
-mbohyru:mbohyru V ; !"envolver" !Dir/LR
+mbohyru:mbohyru V ; !"encajar"
+mbohyru:mbohyru V ; !"envolver"
 mbohysýi:mbohysýi V ; !"clasificar"
 mbohéra:mbohéra V ; !"marcar"
-mbohéra:mbohéra V ; !"etiquetar" !Dir/LR
-mbohéra:mbohéra V ; !"nombrar" !Dir/LR
-mbohéra:mbohéra V ; !"nominar" !Dir/LR
+mbohéra:mbohéra V ; !"etiquetar"
+mbohéra:mbohéra V ; !"nombrar"
+mbohéra:mbohéra V ; !"nominar"
 mboi:mboi V ; !"desnudar"
 mboja:mboja V ; !"adherir"
-mboja:mboja V ; !"pegar" !Dir/LR
-mboja:mboja V ; !"incriminar" !Dir/LR
-mboja:mboja V ; !"imputar" !Dir/LR
-mboja:mboja V ; !"culpar" !Dir/LR
-mboja:mboja V ; !"tildar" !Dir/LR
-mboja:mboja V ; !"implicar" !Dir/LR
-mboja:mboja V ; !"aproximar" !Dir/LR
-mboja:mboja V ; !"incubar" !Dir/LR
-mboja:mboja V ; !"soldar" !Dir/LR
+mboja:mboja V ; !"pegar"
+mboja:mboja V ; !"incriminar"
+mboja:mboja V ; !"imputar"
+mboja:mboja V ; !"culpar"
+mboja:mboja V ; !"tildar"
+mboja:mboja V ; !"implicar"
+mboja:mboja V ; !"aproximar"
+mboja:mboja V ; !"incubar"
+mboja:mboja V ; !"soldar"
 mbojaite:mbojaite V ; !"lacrar"
 mbojaru:mbojaru V ; !"bromear"
 mbojayvy:mbojayvy V ; !"agachar"
-mbojayvy:mbojayvy V ; !"inclinar" !Dir/LR
+mbojayvy:mbojayvy V ; !"inclinar"
 mboja'o:mboja'o V ; !"dividir"
-mboja'o:mboja'o V ; !"partir" !Dir/LR
-mboja'o:mboja'o V ; !"compartir" !Dir/LR
+mboja'o:mboja'o V ; !"partir"
+mboja'o:mboja'o V ; !"compartir"
 mboja'opy:mboja'opy V ; !"partido"
 mbojegua:mbojegua V ; !"adornar"
-mbojegua:mbojegua V ; !"ornamentar" !Dir/LR
+mbojegua:mbojegua V ; !"ornamentar"
 mbojehe'a:mbojehe'a V ; !"batir"
-mbojehe'a:mbojehe'a V ; !"mezclar" !Dir/LR
-mbojehe'a:mbojehe'a V ; !"combinar" !Dir/LR
-mbojehe'a:mbojehe'a V ; !"fusionar" !Dir/LR
-mbojehe'a:mbojehe'a V ; !"licuar" !Dir/LR
+mbojehe'a:mbojehe'a V ; !"mezclar"
+mbojehe'a:mbojehe'a V ; !"combinar"
+mbojehe'a:mbojehe'a V ; !"fusionar"
+mbojehe'a:mbojehe'a V ; !"licuar"
 mbojehu:mbojehu V ; !"causar"
-mbojehu:mbojehu V ; !"provocar" !Dir/LR
+mbojehu:mbojehu V ; !"provocar"
 mbojeko:mbojeko V ; !"reclinar"
 mbojekuaave:mbojekuaave V ; !"resaltar"
 mbojepokuaa:mbojepokuaa V ; !"habituar"
 mbojere:mbojere V ; !"invertir"
-mbojere:mbojere V ; !"rodear" !Dir/LR
-mbojere:mbojere V ; !"volcar" !Dir/LR
+mbojere:mbojere V ; !"rodear"
+mbojere:mbojere V ; !"volcar"
 mbojerovia:mbojerovia V ; !"avalar"
 mbojevy:mbojevy V ; !"revertir"
-mbojevy:mbojevy V ; !"rebotar" !Dir/LR
+mbojevy:mbojevy V ; !"rebotar"
 mboje'o:mboje'o V ; !"anular"
-mboje'o:mboje'o V ; !"tachar" !Dir/LR
+mboje'o:mboje'o V ; !"tachar"
 mbojoaju:mbojoaju V ; !"unir"
-mbojoaju:mbojoaju V ; !"vincular" !Dir/LR
+mbojoaju:mbojoaju V ; !"vincular"
 mbojoapy:mbojoapy V ; !"anexar"
-mbojoapy:mbojoapy V ; !"agregar" !Dir/LR
+mbojoapy:mbojoapy V ; !"agregar"
 mbojoavy:mbojoavy V ; !"diferenciar"
 mbojoja:mbojoja V ; !"nivelar"
-mbojoja:mbojoja V ; !"emparejar" !Dir/LR
-mbojoja:mbojoja V ; !"empatar" !Dir/LR
-mbojoja:mbojoja V ; !"igualar" !Dir/LR
-mbojoja:mbojoja V ; !"homologar" !Dir/LR
-mbojoja:mbojoja V ; !"comparar" !Dir/LR
-mbojoja:mbojoja V ; !"equilibrar" !Dir/LR
+mbojoja:mbojoja V ; !"emparejar"
+mbojoja:mbojoja V ; !"empatar"
+mbojoja:mbojoja V ; !"igualar"
+mbojoja:mbojoja V ; !"homologar"
+mbojoja:mbojoja V ; !"comparar"
+mbojoja:mbojoja V ; !"equilibrar"
 mbojojaha:mbojojaha V ; !"regla"
 mbojoporuka:mbojoporuka V ; !"intercambio"
 mbojopyru:mbojopyru V ; !"alternar"
 mbojopói:mbojopói V ; !"incentivar"
-mbojopói:mbojopói V ; !"obsequiar" !Dir/LR
-mbojopói:mbojopói V ; !"regalar" !Dir/LR
+mbojopói:mbojopói V ; !"obsequiar"
+mbojopói:mbojopói V ; !"regalar"
 mbojovi:mbojovi V ; !"rebosar"
 mbojo'a:mbojo'a V ; !"encimar"
-mbojo'a:mbojo'a V ; !"superponer" !Dir/LR
-mbojo'a:mbojo'a V ; !"amontonar" !Dir/LR
+mbojo'a:mbojo'a V ; !"superponer"
+mbojo'a:mbojo'a V ; !"amontonar"
 mbojuaju:mbojuaju V ; !"ligar"
 mbojuapy:mbojuapy V ; !"plegar"
 mbojurujái:mbojurujái V ; !"sorprender"
-mbojurujái:mbojurujái V ; !"abobar" !Dir/LR
+mbojurujái:mbojurujái V ; !"abobar"
 mbokacha:mbokacha V ; !"agitar"
 mbokaigue:mbokaigue V ; !"aburrir"
 mbokapu:mbokapu V ; !"disparo"
-mbokapu:mbokapu V ; !"disparar" !Dir/LR
-mbokapu:mbokapu V ; !"tiro" !Dir/LR
-mbokapu:mbokapu V ; !"detonar" !Dir/LR
-mbokapu:mbokapu V ; !"tirotear" !Dir/LR
-mbokapu:mbokapu V ; !"explotar" !Dir/LR
+mbokapu:mbokapu V ; !"disparar"
+mbokapu:mbokapu V ; !"tiro"
+mbokapu:mbokapu V ; !"detonar"
+mbokapu:mbokapu V ; !"tirotear"
+mbokapu:mbokapu V ; !"explotar"
 mbokapusoro:mbokapusoro V ; !"estallar"
 mbokatu:mbokatu V ; !"licenciar"
 mbokatupyry:mbokatupyry V ; !"adiestrar"
 mbokerayvoty:mbokerayvoty V ; !"soñar"
 mbokua:mbokua V ; !"agujerear"
-mbokua:mbokua V ; !"taladrar" !Dir/LR
-mbokua:mbokua V ; !"perforar" !Dir/LR
+mbokua:mbokua V ; !"taladrar"
+mbokua:mbokua V ; !"perforar"
 mbokuaha:mbokuaha V ; !"torno"
 mbokuatiañemu:mbokuatiañemu V ; !"facturar"
 mbopaha:mbopaha V ; !"cancelar"
-mbopaha:mbopaha V ; !"terminar" !Dir/LR
+mbopaha:mbopaha V ; !"terminar"
 mbopaje:mbopaje V ; !"embrujar"
-mbopaje:mbopaje V ; !"hechizar" !Dir/LR
+mbopaje:mbopaje V ; !"hechizar"
 mbopapa:mbopapa V ; !"numerar"
 mbope:mbope V ; !"aplastar"
 mbopiro'y:mbopiro'y V ; !"refrescar"
 mbopiru:mbopiru V ; !"adelgazar"
-mbopiru:mbopiru V ; !"marchitar" !Dir/LR
+mbopiru:mbopiru V ; !"marchitar"
 mbopochy:mbopochy V ; !"enojar"
-mbopochy:mbopochy V ; !"disgustar" !Dir/LR
-mbopochy:mbopochy V ; !"impacientar" !Dir/LR
-mbopochy:mbopochy V ; !"enfadar" !Dir/LR
+mbopochy:mbopochy V ; !"disgustar"
+mbopochy:mbopochy V ; !"impacientar"
+mbopochy:mbopochy V ; !"enfadar"
 mbopoguy:mbopoguy V ; !"subordinar"
 mbopohýi:mbopohýi V ; !"agravar"
 mbopu:mbopu V ; !"pulsar"
-mbopu:mbopu V ; !"pitar" !Dir/LR
-mbopu:mbopu V ; !"sonar" !Dir/LR
+mbopu:mbopu V ; !"pitar"
+mbopu:mbopu V ; !"sonar"
 mbopuha'aty:mbopuha'aty V ; !"orquesta"
 mbopuku:mbopuku V ; !"aplazar"
-mbopuku:mbopuku V ; !"dilatar" !Dir/LR
-mbopuku:mbopuku V ; !"alargar" !Dir/LR
+mbopuku:mbopuku V ; !"dilatar"
+mbopuku:mbopuku V ; !"alargar"
 mbopukuve:mbopukuve V ; !"prolongar"
 mbopupu:mbopupu V ; !"hervir"
 mbopyahu:mbopyahu V ; !"renovar"
-mbopyahu:mbopyahu V ; !"innovar" !Dir/LR
+mbopyahu:mbopyahu V ; !"innovar"
 mbopya'e:mbopya'e V ; !"acelerar"
-mbopya'e:mbopya'e V ; !"precipitar" !Dir/LR
-mbopya'e:mbopya'e V ; !"apresurar" !Dir/LR
-mbopya'e:mbopya'e V ; !"apurar" !Dir/LR
+mbopya'e:mbopya'e V ; !"precipitar"
+mbopya'e:mbopya'e V ; !"apresurar"
+mbopya'e:mbopya'e V ; !"apurar"
 mbopygua:mbopygua V ; !"abollar"
 mbopypuku:mbopypuku V ; !"ahondar"
 mbopyve:mbopyve V ; !"ensanchar"
 mbopy'aguapy:mbopy'aguapy V ; !"calmar"
-mbopy'aguapy:mbopy'aguapy V ; !"apaciguar" !Dir/LR
+mbopy'aguapy:mbopy'aguapy V ; !"apaciguar"
 mbopy'ajuka:mbopy'ajuka V ; !"martirizar"
 mbopy'apy:mbopy'apy V ; !"preocupar"
 mbopy'atarova:mbopy'atarova V ; !"alborotar"
 mboro:mboro V ; !"amargar"
 mboruru:mboruru V ; !"hinchar"
-mboruru:mboruru V ; !"inflamar" !Dir/LR
+mboruru:mboruru V ; !"inflamar"
 mbosapatu:mbosapatu V ; !"calzar"
 mbosa'i:mbosa'i V ; !"desmenuzar"
 mbosa'isa'i:mbosa'isa'i V ; !"detallar"
 mbosa'y:mbosa'y V ; !"colorar"
-mbosa'y:mbosa'y V ; !"pintar" !Dir/LR
+mbosa'y:mbosa'y V ; !"pintar"
 mbota:mbota V ; !"chocar"
 mbotapykue:mbotapykue V ; !"posponer"
-mbotapykue:mbotapykue V ; !"retrasar" !Dir/LR
+mbotapykue:mbotapykue V ; !"retrasar"
 mbotavy:mbotavy V ; !"mentir"
-mbotavy:mbotavy V ; !"distraer" !Dir/LR
-mbotavy:mbotavy V ; !"burlar" !Dir/LR
-mbotavy:mbotavy V ; !"embaucar" !Dir/LR
-mbotavy:mbotavy V ; !"joder" !Dir/LR
-mbotavy:mbotavy V ; !"engañar" !Dir/LR
+mbotavy:mbotavy V ; !"distraer"
+mbotavy:mbotavy V ; !"burlar"
+mbotavy:mbotavy V ; !"embaucar"
+mbotavy:mbotavy V ; !"joder"
+mbotavy:mbotavy V ; !"engañar"
 mbotiri:mbotiri V ; !"resquebrajar"
 mbotove:mbotove V ; !"negar"
-mbotove:mbotove V ; !"impugnar" !Dir/LR
-mbotove:mbotove V ; !"rechazar" !Dir/LR
-mbotove:mbotove V ; !"reprobar" !Dir/LR
-mbotove:mbotove V ; !"prohibir" !Dir/LR
-mbotove:mbotove V ; !"repudiar" !Dir/LR
+mbotove:mbotove V ; !"impugnar"
+mbotove:mbotove V ; !"rechazar"
+mbotove:mbotove V ; !"reprobar"
+mbotove:mbotove V ; !"prohibir"
+mbotove:mbotove V ; !"repudiar"
 mbotuicha:mbotuicha V ; !"enaltecer"
-mbotuicha:mbotuicha V ; !"honrar" !Dir/LR
-mbotuicha:mbotuicha V ; !"magnificar" !Dir/LR
-mbotuicha:mbotuicha V ; !"ampliar" !Dir/LR
-mbotuicha:mbotuicha V ; !"exagerar" !Dir/LR
-mbotuicha:mbotuicha V ; !"agrandar" !Dir/LR
+mbotuicha:mbotuicha V ; !"honrar"
+mbotuicha:mbotuicha V ; !"magnificar"
+mbotuicha:mbotuicha V ; !"ampliar"
+mbotuicha:mbotuicha V ; !"exagerar"
+mbotuicha:mbotuicha V ; !"agrandar"
 mbotuichave:mbotuichave V ; !"incrementar"
 mbotuju:mbotuju V ; !"pudrir"
 mboty:mboty V ; !"tapar"
-mboty:mboty V ; !"abrochar" !Dir/LR
-mboty:mboty V ; !"cerrar" !Dir/LR
-mboty:mboty V ; !"cumplir" !Dir/LR
-mboty:mboty V ; !"recluir" !Dir/LR
+mboty:mboty V ; !"abrochar"
+mboty:mboty V ; !"cerrar"
+mboty:mboty V ; !"cumplir"
+mboty:mboty V ; !"recluir"
 mbotyai:mbotyai V ; !"perturbar"
 mbotyha:mbotyha V ; !"candado"
-mbotyha:mbotyha V ; !"cierre" !Dir/LR
-mbotyha:mbotyha V ; !"tapa" !Dir/LR
+mbotyha:mbotyha V ; !"cierre"
+mbotyha:mbotyha V ; !"tapa"
 mbotyryry:mbotyryry V ; !"arrastrar"
-mbotyryry:mbotyryry V ; !"remolcar" !Dir/LR
+mbotyryry:mbotyryry V ; !"remolcar"
 mbova:mbova V ; !"contagiar"
 mbovai:mbovai V ; !"condenar"
 mbovava:mbovava V ; !"menear"
-mbovava:mbovava V ; !"tambalear" !Dir/LR
-mbovava:mbovava V ; !"balancear" !Dir/LR
+mbovava:mbovava V ; !"tambalear"
+mbovava:mbovava V ; !"balancear"
 mbovera:mbovera V ; !"lustrar"
 mbovevúi:mbovevúi V ; !"mitigar"
-mbovevúi:mbovevúi V ; !"paliar" !Dir/LR
+mbovevúi:mbovevúi V ; !"paliar"
 mbovo:mbovo V ; !"operar"
-mbovo:mbovo V ; !"rebanar" !Dir/LR
+mbovo:mbovo V ; !"rebanar"
 mbovu:mbovu V ; !"inflar"
 mbovyvy:mbovyvy V ; !"zurcir"
-mbovyvy:mbovyvy V ; !"coser" !Dir/LR
+mbovyvy:mbovyvy V ; !"coser"
 mbovyvyjegua:mbovyvyjegua V ; !"bordar"
 mbovy'a:mbovy'a V ; !"divertir"
-mbovy'a:mbovy'a V ; !"deleitar" !Dir/LR
-mbovy'a:mbovy'a V ; !"encantar" !Dir/LR
-mbovy'a:mbovy'a V ; !"alegrar" !Dir/LR
-mbovy'a:mbovy'a V ; !"satisfacer" !Dir/LR
+mbovy'a:mbovy'a V ; !"deleitar"
+mbovy'a:mbovy'a V ; !"encantar"
+mbovy'a:mbovy'a V ; !"alegrar"
+mbovy'a:mbovy'a V ; !"satisfacer"
 mboyga:mboyga V ; !"navegar"
 mboyke:mboyke V ; !"prescindir"
-mboyke:mboyke V ; !"excluir" !Dir/LR
-mboyke:mboyke V ; !"inhibir" !Dir/LR
-mboyke:mboyke V ; !"ladear" !Dir/LR
+mboyke:mboyke V ; !"excluir"
+mboyke:mboyke V ; !"inhibir"
+mboyke:mboyke V ; !"ladear"
 mboyku:mboyku V ; !"diluir"
-mboyku:mboyku V ; !"disolver" !Dir/LR
-mboyku:mboyku V ; !"derretir" !Dir/LR
+mboyku:mboyku V ; !"disolver"
+mboyku:mboyku V ; !"derretir"
 mboypy:mboypy V ; !"originar"
 mboyvegua:mboyvegua V ; !"prefijo"
 mboyvytu:mboyvytu V ; !"ventilar"
-mboyvytu:mboyvytu V ; !"airear" !Dir/LR
+mboyvytu:mboyvytu V ; !"airear"
 mboy'u:mboy'u V ; !"abrevar"
 mbo'e:mbo'e V ; !"orientar"
-mbo'e:mbo'e V ; !"ilustrar" !Dir/LR
-mbo'e:mbo'e V ; !"educar" !Dir/LR
+mbo'e:mbo'e V ; !"ilustrar"
+mbo'e:mbo'e V ; !"educar"
 mbo'ehavete:mbo'ehavete V ; !"facultad"
 mbo'ekuaahára:mbo'ekuaahára V ; !"licenciado"
 mbo'esyry:mbo'esyry V ; !"curso"
 mbo'y:mbo'y V ; !"aguar"
-mbo'y:mbo'y V ; !"hidratar" !Dir/LR
+mbo'y:mbo'y V ; !"hidratar"
 mbo'yguy:mbo'yguy V ; !"ahogar"
 mburea:mburea V ; !"mugir"
 mbyai:mbyai V ; !"dañar"
-mbyai:mbyai V ; !"desarreglar" !Dir/LR
-mbyai:mbyai V ; !"perjudicar" !Dir/LR
-mbyai:mbyai V ; !"lesionar" !Dir/LR
-mbyai:mbyai V ; !"estropear" !Dir/LR
-mbyai:mbyai V ; !"destruir" !Dir/LR
-mbyai:mbyai V ; !"averiar" !Dir/LR
-mbyai:mbyai V ; !"trastornar" !Dir/LR
-mbyai:mbyai V ; !"descomponer" !Dir/LR
+mbyai:mbyai V ; !"desarreglar"
+mbyai:mbyai V ; !"perjudicar"
+mbyai:mbyai V ; !"lesionar"
+mbyai:mbyai V ; !"estropear"
+mbyai:mbyai V ; !"destruir"
+mbyai:mbyai V ; !"averiar"
+mbyai:mbyai V ; !"trastornar"
+mbyai:mbyai V ; !"descomponer"
 mbyaipaite:mbyaipaite V ; !"devastar"
 mbyaku:mbyaku V ; !"calentar"
 mbyape:mbyape V ; !"forrar"
@@ -2770,75 +2770,75 @@ mbyja:mbyja V ; !"estrella"
 mbyky:mbyky V ; !"corto"
 mbyry'ái:mbyry'ái V ; !"acalorado"
 mbyte:mbyte V ; !"medio"
-mbyte:mbyte V ; !"centro" !Dir/LR
+mbyte:mbyte V ; !"centro"
 me:me V ; !"existir"
 membykua:membykua V ; !"abortar"
-membykua:membykua V ; !"aborto" !Dir/LR
+membykua:membykua V ; !"aborto"
 membyrã:membyrã V ; !"parto"
 mimbi:mimbi V ; !"resplandecer"
-mimbi:mimbi V ; !"brillar" !Dir/LR
-mimbi:mimbi V ; !"lustre" !Dir/LR
+mimbi:mimbi V ; !"brillar"
+mimbi:mimbi V ; !"lustre"
 moakãperõ:moakãperõ V ; !"pelar"
 moakãraku:moakãraku V ; !"enamorar"
-moakãraku:moakãraku V ; !"incitar" !Dir/LR
+moakãraku:moakãraku V ; !"incitar"
 moambue:moambue V ; !"modificar"
-moambue:moambue V ; !"cambiar" !Dir/LR
-moambue:moambue V ; !"variar" !Dir/LR
-moambue:moambue V ; !"reformar" !Dir/LR
-moambue:moambue V ; !"transformar" !Dir/LR
-moambue:moambue V ; !"convertir" !Dir/LR
-moambue:moambue V ; !"cambio" !Dir/LR
+moambue:moambue V ; !"cambiar"
+moambue:moambue V ; !"variar"
+moambue:moambue V ; !"reformar"
+moambue:moambue V ; !"transformar"
+moambue:moambue V ; !"convertir"
+moambue:moambue V ; !"cambio"
 moatã:moatã V ; !"congelar"
 moañete:moañete V ; !"confirmar"
-moañete:moañete V ; !"afirmar" !Dir/LR
-moañete:moañete V ; !"certificar" !Dir/LR
+moañete:moañete V ; !"afirmar"
+moañete:moañete V ; !"certificar"
 mohakã:mohakã V ; !"ramificar"
 mohatã:mohatã V ; !"tensar"
-mohatã:mohatã V ; !"endurecer" !Dir/LR
+mohatã:mohatã V ; !"endurecer"
 mohavõ:mohavõ V ; !"jabonar"
 moha'eño:moha'eño V ; !"apartar"
-moha'eño:moha'eño V ; !"incomunicar" !Dir/LR
-moha'eño:moha'eño V ; !"aislar" !Dir/LR
+moha'eño:moha'eño V ; !"incomunicar"
+moha'eño:moha'eño V ; !"aislar"
 moha'ãnga:moha'ãnga V ; !"moldear"
-moha'ãnga:moha'ãnga V ; !"dibujar" !Dir/LR
-moha'ãnga:moha'ãnga V ; !"fotografiar" !Dir/LR
-moha'ãnga:moha'ãnga V ; !"reproducir" !Dir/LR
-moha'ãnga:moha'ãnga V ; !"representar" !Dir/LR
-moha'ãnga:moha'ãnga V ; !"esculpir" !Dir/LR
-moha'ãnga:moha'ãnga V ; !"modelar" !Dir/LR
+moha'ãnga:moha'ãnga V ; !"dibujar"
+moha'ãnga:moha'ãnga V ; !"fotografiar"
+moha'ãnga:moha'ãnga V ; !"reproducir"
+moha'ãnga:moha'ãnga V ; !"representar"
+moha'ãnga:moha'ãnga V ; !"esculpir"
+moha'ãnga:moha'ãnga V ; !"modelar"
 mohembe'y:mohembe'y V ; !"orillar"
-mohembe'y:mohembe'y V ; !"marginar" !Dir/LR
+mohembe'y:mohembe'y V ; !"marginar"
 mohembiporu:mohembiporu V ; !"amueblar"
 mohemby:mohemby V ; !"sobrar"
 mohenda:mohenda V ; !"regular"
-mohenda:mohenda V ; !"instalar" !Dir/LR
-mohenda:mohenda V ; !"situar" !Dir/LR
-mohenda:mohenda V ; !"organizar" !Dir/LR
-mohenda:mohenda V ; !"juzgar" !Dir/LR
-mohenda:mohenda V ; !"colocar" !Dir/LR
-mohenda:mohenda V ; !"acomodar" !Dir/LR
-mohenda:mohenda V ; !"radicar" !Dir/LR
+mohenda:mohenda V ; !"instalar"
+mohenda:mohenda V ; !"situar"
+mohenda:mohenda V ; !"organizar"
+mohenda:mohenda V ; !"juzgar"
+mohenda:mohenda V ; !"colocar"
+mohenda:mohenda V ; !"acomodar"
+mohenda:mohenda V ; !"radicar"
 mohendaporã:mohendaporã V ; !"ajustar"
 moherakuã:moherakuã V ; !"publicar"
-moherakuã:moherakuã V ; !"divulgar" !Dir/LR
-moherakuã:moherakuã V ; !"proclamar" !Dir/LR
+moherakuã:moherakuã V ; !"divulgar"
+moherakuã:moherakuã V ; !"proclamar"
 moherakuãvai:moherakuãvai V ; !"desprestigiar"
 mohesakã:mohesakã V ; !"explicar"
-mohesakã:mohesakã V ; !"aclarar" !Dir/LR
-mohesakã:mohesakã V ; !"esclarecer" !Dir/LR
+mohesakã:mohesakã V ; !"aclarar"
+mohesakã:mohesakã V ; !"esclarecer"
 mohesãi:mohesãi V ; !"sanear"
 mohetã:mohetã V ; !"nacionalizar"
 moheñói:moheñói V ; !"crear"
-moheñói:moheñói V ; !"germinar" !Dir/LR
+moheñói:moheñói V ; !"germinar"
 mohe'õ:mohe'õ V ; !"humedecer"
-mohe'õ:mohe'õ V ; !"regar" !Dir/LR
+mohe'õ:mohe'õ V ; !"regar"
 moho'ysã:moho'ysã V ; !"refrigerar"
 mohu'ã:mohu'ã V ; !"concluir"
-mohu'ã:mohu'ã V ; !"egresar" !Dir/LR
+mohu'ã:mohu'ã V ; !"egresar"
 mohyakuã:mohyakuã V ; !"perfumar"
 mohyguatã:mohyguatã V ; !"hartar"
 moinge:moinge V ; !"adoptar"
-moinge:moinge V ; !"admitir" !Dir/LR
+moinge:moinge V ; !"admitir"
 moingojey:moingojey V ; !"recuperar"
 moingoporã:moingoporã V ; !"conciliar"
 moingovejevy:moingovejevy V ; !"reanimar"
@@ -2846,152 +2846,152 @@ moingovejey:moingovejey V ; !"resucitar"
 mojehe'a:mojehe'a V ; !"enredar"
 mokambu:mokambu V ; !"amamantar"
 mokane'õ:mokane'õ V ; !"jorobar"
-mokane'õ:mokane'õ V ; !"cansar" !Dir/LR
-mokane'õ:mokane'õ V ; !"fatigar" !Dir/LR
+mokane'õ:mokane'õ V ; !"cansar"
+mokane'õ:mokane'õ V ; !"fatigar"
 mokañy:mokañy V ; !"raptar"
-mokañy:mokañy V ; !"extraviar" !Dir/LR
-mokañy:mokañy V ; !"esconder" !Dir/LR
-mokañy:mokañy V ; !"perder" !Dir/LR
-mokañy:mokañy V ; !"secuestrar" !Dir/LR
+mokañy:mokañy V ; !"extraviar"
+mokañy:mokañy V ; !"esconder"
+mokañy:mokañy V ; !"perder"
+mokañy:mokañy V ; !"secuestrar"
 moka'irãi:moka'irãi V ; !"encarcelar"
 mokã:mokã V ; !"secar"
 mokô:mokô V ; !"tragar"
 mokõ:mokõ V ; !"ingerir"
-mokõ:mokõ V ; !"devorar" !Dir/LR
+mokõ:mokõ V ; !"devorar"
 momaitei:momaitei V ; !"saludar"
 momandu'a:momandu'a V ; !"mencionar"
-momandu'a:momandu'a V ; !"acordar" !Dir/LR
+momandu'a:momandu'a V ; !"acordar"
 momarandu:momarandu V ; !"avisar"
-momarandu:momarandu V ; !"anunciar" !Dir/LR
-momarandu:momarandu V ; !"comunicar" !Dir/LR
-momarandu:momarandu V ; !"participar" !Dir/LR
-momarandu:momarandu V ; !"informar" !Dir/LR
-momarandu:momarandu V ; !"notificar" !Dir/LR
+momarandu:momarandu V ; !"anunciar"
+momarandu:momarandu V ; !"comunicar"
+momarandu:momarandu V ; !"participar"
+momarandu:momarandu V ; !"informar"
+momarandu:momarandu V ; !"notificar"
 momarangatu:momarangatu V ; !"dignificar"
 momarã:momarã V ; !"profanar"
 momarãngatu:momarãngatu V ; !"justificar"
-momarãngatu:momarãngatu V ; !"santificar" !Dir/LR
+momarãngatu:momarãngatu V ; !"santificar"
 momba:momba V ; !"eyacular"
 mombareteve:mombareteve V ; !"reforzar"
 momba'apo:momba'apo V ; !"ejercitar"
-momba'apo:momba'apo V ; !"fomentar" !Dir/LR
+momba'apo:momba'apo V ; !"fomentar"
 momba'apo% asy:momba'apo% asy V ; !"abrumar"
 momba'e:momba'e V ; !"respetar"
-momba'e:momba'e V ; !"apreciar" !Dir/LR
-momba'e:momba'e V ; !"valorar" !Dir/LR
-momba'e:momba'e V ; !"alabar" !Dir/LR
+momba'e:momba'e V ; !"apreciar"
+momba'e:momba'e V ; !"valorar"
+momba'e:momba'e V ; !"alabar"
 momba'eguasu:momba'eguasu V ; !"ensalzar"
-momba'eguasu:momba'eguasu V ; !"venerar" !Dir/LR
+momba'eguasu:momba'eguasu V ; !"venerar"
 mombegue:mombegue V ; !"retardar"
 mombe'u:mombe'u V ; !"narrar"
-mombe'u:mombe'u V ; !"expresar" !Dir/LR
-mombe'u:mombe'u V ; !"exponer" !Dir/LR
-mombe'u:mombe'u V ; !"declarar" !Dir/LR
-mombe'u:mombe'u V ; !"confesar" !Dir/LR
-mombe'u:mombe'u V ; !"relatar" !Dir/LR
-mombe'u:mombe'u V ; !"denunciar" !Dir/LR
+mombe'u:mombe'u V ; !"expresar"
+mombe'u:mombe'u V ; !"exponer"
+mombe'u:mombe'u V ; !"declarar"
+mombe'u:mombe'u V ; !"confesar"
+mombe'u:mombe'u V ; !"relatar"
+mombe'u:mombe'u V ; !"denunciar"
 mombe'urã:mombe'urã V ; !"cuento"
 mombe'uvoi:mombe'uvoi V ; !"predecir"
 mombia:mombia V ; !"desviar"
 mombo:mombo V ; !"lanzar"
-mombo:mombo V ; !"tirar" !Dir/LR
-mombo:mombo V ; !"desechar" !Dir/LR
-mombo:mombo V ; !"arrojar" !Dir/LR
+mombo:mombo V ; !"tirar"
+mombo:mombo V ; !"desechar"
+mombo:mombo V ; !"arrojar"
 momborei:momborei V ; !"malgastar"
 momboriahu:momboriahu V ; !"empobrecer"
 mombovy:mombovy V ; !"restar"
 mombo'a:mombo'a V ; !"fecundar"
 mombo'o:mombo'o V ; !"destetar"
 mombyky:mombyky V ; !"acortar"
-mombyky:mombyky V ; !"resumir" !Dir/LR
-mombyky:mombyky V ; !"recortar" !Dir/LR
-mombyky:mombyky V ; !"truncar" !Dir/LR
+mombyky:mombyky V ; !"resumir"
+mombyky:mombyky V ; !"recortar"
+mombyky:mombyky V ; !"truncar"
 mombykypy:mombykypy V ; !"abreviar"
-mombykypy:mombykypy V ; !"resumen" !Dir/LR
+mombykypy:mombykypy V ; !"resumen"
 mombyta:mombyta V ; !"estacionar"
-mombyta:mombyta V ; !"estancar" !Dir/LR
+mombyta:mombyta V ; !"estancar"
 mombytaha:mombytaha V ; !"freno"
 mombyte:mombyte V ; !"mediar"
-mombyte:mombyte V ; !"intercalar" !Dir/LR
-mombyte:mombyte V ; !"centrar" !Dir/LR
+mombyte:mombyte V ; !"intercalar"
+mombyte:mombyte V ; !"centrar"
 momeme:momeme V ; !"continuar"
 momenda:momenda V ; !"casar"
 momimói:momimói V ; !"guisar"
 momokõi:momokõi V ; !"duplicar"
 momombyry:momombyry V ; !"alejar"
 momorã:momorã V ; !"admirar"
-momorã:momorã V ; !"elogiar" !Dir/LR
+momorã:momorã V ; !"elogiar"
 momýi:momýi V ; !"hojear"
 mona:mona V ; !"untar"
 monandi:monandi V ; !"evacuar"
-monandi:monandi V ; !"vaciar" !Dir/LR
+monandi:monandi V ; !"vaciar"
 monda:monda V ; !"saquear"
-monda:monda V ; !"asaltar" !Dir/LR
-monda:monda V ; !"hurtar" !Dir/LR
-monda:monda V ; !"rapiñar" !Dir/LR
-monda:monda V ; !"robar" !Dir/LR
-monda:monda V ; !"estafar" !Dir/LR
+monda:monda V ; !"asaltar"
+monda:monda V ; !"hurtar"
+monda:monda V ; !"rapiñar"
+monda:monda V ; !"robar"
+monda:monda V ; !"estafar"
 monde:monde V ; !"vestir"
 mondo:mondo V ; !"remitir"
 mondoho:mondoho V ; !"soltar"
 mondoro:mondoro V ; !"rasgar"
-mondoro:mondoro V ; !"arrancar" !Dir/LR
+mondoro:mondoro V ; !"arrancar"
 mondýi:mondýi V ; !"espantar"
-mondýi:mondýi V ; !"ahuyentar" !Dir/LR
-mondýi:mondýi V ; !"asustar" !Dir/LR
+mondýi:mondýi V ; !"ahuyentar"
+mondýi:mondýi V ; !"asustar"
 mongakuaa:mongakuaa V ; !"criar"
 mongarai:mongarai V ; !"consagrar"
 mongaru:mongaru V ; !"nutrir"
 mongaráu:mongaráu V ; !"dislocar"
 monga'u:monga'u V ; !"embriagar"
 monge:monge V ; !"sedar"
-monge:monge V ; !"adormecer" !Dir/LR
+monge:monge V ; !"adormecer"
 mongeta:mongeta V ; !"entrevistar"
 mongora:mongora V ; !"tapiar"
-mongora:mongora V ; !"sitiar" !Dir/LR
-mongora:mongora V ; !"cercar" !Dir/LR
+mongora:mongora V ; !"sitiar"
+mongora:mongora V ; !"cercar"
 monguera:monguera V ; !"curar"
 monguerái:monguerái V ; !"saturar"
 mongu'ejey:mongu'ejey V ; !"reactivar"
 mongu'i:mongu'i V ; !"triturar"
-mongu'i:mongu'i V ; !"moler" !Dir/LR
+mongu'i:mongu'i V ; !"moler"
 mongu'ipyre:mongu'ipyre V ; !"molido"
 mongyhyje:mongyhyje V ; !"aterrar"
 mongyra:mongyra V ; !"cebar"
-mongyra:mongyra V ; !"engordar" !Dir/LR
+mongyra:mongyra V ; !"engordar"
 mongy'a:mongy'a V ; !"ensuciar"
-mongy'a:mongy'a V ; !"manchar" !Dir/LR
+mongy'a:mongy'a V ; !"manchar"
 mongúi:mongúi V ; !"derrocar"
-mongúi:mongúi V ; !"destituir" !Dir/LR
+mongúi:mongúi V ; !"destituir"
 mono'õ:mono'õ V ; !"juntar"
-mono'õ:mono'õ V ; !"recoger" !Dir/LR
-mono'õ:mono'õ V ; !"cosechar" !Dir/LR
+mono'õ:mono'õ V ; !"recoger"
+mono'õ:mono'õ V ; !"cosechar"
 mono'õno'õ:mono'õno'õ V ; !"agrupar"
 mopa'ã:mopa'ã V ; !"dificultar"
-mopa'ã:mopa'ã V ; !"obstaculizar" !Dir/LR
-mopa'ã:mopa'ã V ; !"trabar" !Dir/LR
-mopa'ã:mopa'ã V ; !"obstruir" !Dir/LR
-mopa'ã:mopa'ã V ; !"atascar" !Dir/LR
+mopa'ã:mopa'ã V ; !"obstaculizar"
+mopa'ã:mopa'ã V ; !"trabar"
+mopa'ã:mopa'ã V ; !"obstruir"
+mopa'ã:mopa'ã V ; !"atascar"
 moperõ:moperõ V ; !"arrasar"
 moporã:moporã V ; !"embellecer"
 moporãve:moporãve V ; !"perfeccionar"
 mopunga:mopunga V ; !"empachar"
 mopu'ã:mopu'ã V ; !"levantar"
-mopu'ã:mopu'ã V ; !"erguir" !Dir/LR
-mopu'ã:mopu'ã V ; !"elevar" !Dir/LR
+mopu'ã:mopu'ã V ; !"erguir"
+mopu'ã:mopu'ã V ; !"elevar"
 moryvatã:moryvatã V ; !"saciar"
 mosarambi:mosarambi V ; !"difundir"
-mosarambi:mosarambi V ; !"esparcir" !Dir/LR
+mosarambi:mosarambi V ; !"esparcir"
 mosã:mosã V ; !"amarrar"
 mosãingo:mosãingo V ; !"colgar"
 mosãso:mosãso V ; !"liberar"
 motanimbu:motanimbu V ; !"incinerar"
 motenonde:motenonde V ; !"adelantar"
-motenonde:motenonde V ; !"anteponer" !Dir/LR
-motenonde:motenonde V ; !"destacar" !Dir/LR
-motenonde:motenonde V ; !"promover" !Dir/LR
-motenonde:motenonde V ; !"puntear" !Dir/LR
-motenonde:motenonde V ; !"avanzar" !Dir/LR
+motenonde:motenonde V ; !"anteponer"
+motenonde:motenonde V ; !"destacar"
+motenonde:motenonde V ; !"promover"
+motenonde:motenonde V ; !"puntear"
+motenonde:motenonde V ; !"avanzar"
 motimbo:motimbo V ; !"humear"
 motindy:motindy V ; !"abatir"
 motyarõ:motyarõ V ; !"sazonar"
@@ -3000,59 +3000,59 @@ moñanduavy:moñanduavy V ; !"ilusionar"
 moñandy:moñandy V ; !"aceitar"
 moñapymi:moñapymi V ; !"sumergir"
 moñeko'õi:moñeko'õi V ; !"ofender"
-moñeko'õi:moñeko'õi V ; !"fastidiar" !Dir/LR
+moñeko'õi:moñeko'õi V ; !"fastidiar"
 moñemoña:moñemoña V ; !"procrear"
-moñemoña:moñemoña V ; !"engendrar" !Dir/LR
+moñemoña:moñemoña V ; !"engendrar"
 moñemyrõ:moñemyrõ V ; !"agraviar"
 moñondive:moñondive V ; !"relacionar"
 moñyrõ:moñyrõ V ; !"perdonar"
 mo'ã:mo'ã V ; !"suponer"
-mo'ã:mo'ã V ; !"ocultar" !Dir/LR
-mo'ã:mo'ã V ; !"guarecer" !Dir/LR
-mo'ã:mo'ã V ; !"sombrear" !Dir/LR
-mo'ã:mo'ã V ; !"eclipsar" !Dir/LR
+mo'ã:mo'ã V ; !"ocultar"
+mo'ã:mo'ã V ; !"guarecer"
+mo'ã:mo'ã V ; !"sombrear"
+mo'ã:mo'ã V ; !"eclipsar"
 mo'ãhára:mo'ãhára V ; !"abogado"
 mo'ãrei:mo'ãrei V ; !"imaginar"
 muanduhe:muanduhe V ; !"tilde"
 muña:muña V ; !"seguir"
-muña:muña V ; !"perseguir" !Dir/LR
+muña:muña V ; !"perseguir"
 myakã:myakã V ; !"gobernar"
 myangekói:myangekói V ; !"alarmar"
-myangekói:myangekói V ; !"incomodar" !Dir/LR
-myangekói:myangekói V ; !"inquietar" !Dir/LR
-myangekói:myangekói V ; !"molestar" !Dir/LR
-myangekói:myangekói V ; !"alterar" !Dir/LR
+myangekói:myangekói V ; !"incomodar"
+myangekói:myangekói V ; !"inquietar"
+myangekói:myangekói V ; !"molestar"
+myangekói:myangekói V ; !"alterar"
 myasãi:myasãi V ; !"propagar"
 myatyrõ:myatyrõ V ; !"remediar"
-myatyrõ:myatyrõ V ; !"subsanar" !Dir/LR
-myatyrõ:myatyrõ V ; !"componer" !Dir/LR
-myatyrõ:myatyrõ V ; !"corregir" !Dir/LR
-myatyrõ:myatyrõ V ; !"reparar" !Dir/LR
-myatyrõ:myatyrõ V ; !"remendar" !Dir/LR
+myatyrõ:myatyrõ V ; !"subsanar"
+myatyrõ:myatyrõ V ; !"componer"
+myatyrõ:myatyrõ V ; !"corregir"
+myatyrõ:myatyrõ V ; !"reparar"
+myatyrõ:myatyrõ V ; !"remendar"
 myatã:myatã V ; !"tramar"
 myaña:myaña V ; !"forzar"
-myaña:myaña V ; !"empujar" !Dir/LR
+myaña:myaña V ; !"empujar"
 myendy:myendy V ; !"prender"
 myengovia:myengovia V ; !"trocar"
-myengovia:myengovia V ; !"indemnizar" !Dir/LR
-myengovia:myengovia V ; !"sustituir" !Dir/LR
-myengovia:myengovia V ; !"relevar" !Dir/LR
-myengovia:myengovia V ; !"reponer" !Dir/LR
-myengovia:myengovia V ; !"reemplazar" !Dir/LR
+myengovia:myengovia V ; !"indemnizar"
+myengovia:myengovia V ; !"sustituir"
+myengovia:myengovia V ; !"relevar"
+myengovia:myengovia V ; !"reponer"
+myengovia:myengovia V ; !"reemplazar"
 myesakã:myesakã V ; !"traslucir"
 mymbajuka:mymbajuka V ; !"cazar"
 ména:ména V ; !"esposo"
 nandi:nandi V ; !"vacío"
 ndyvu:ndyvu V ; !"escupir"
-ndyvu:ndyvu V ; !"salivar" !Dir/LR
+ndyvu:ndyvu V ; !"salivar"
 ngururu:ngururu V ; !"gruñir"
 nupã:nupã V ; !"torturar"
-nupã:nupã V ; !"maltratar" !Dir/LR
-nupã:nupã V ; !"azotar" !Dir/LR
-nupã:nupã V ; !"castigar" !Dir/LR
-nupã:nupã V ; !"vapulear" !Dir/LR
-nupã:nupã V ; !"golpear" !Dir/LR
-nupã:nupã V ; !"apalear" !Dir/LR
+nupã:nupã V ; !"maltratar"
+nupã:nupã V ; !"azotar"
+nupã:nupã V ; !"castigar"
+nupã:nupã V ; !"vapulear"
+nupã:nupã V ; !"golpear"
+nupã:nupã V ; !"apalear"
 oikuaáva:oikuaáva V ; !"informado"
 ojayvýva:ojayvýva V ; !"agachado"
 ojeguerohorýva:ojeguerohorýva V ; !"agasajado"
@@ -3067,26 +3067,26 @@ opámava:opámava V ; !"listo"
 oñembo'ýva:oñembo'ýva V ; !"parado"
 pahague:pahague V ; !"extremo"
 papa:papa V ; !"enumerar"
-papa:papa V ; !"sumar" !Dir/LR
-papa:papa V ; !"contar" !Dir/LR
+papa:papa V ; !"sumar"
+papa:papa V ; !"contar"
 para% rehegua:para% rehegua V ; !"marino"
 pa'i:pa'i V ; !"cura"
 peju:peju V ; !"soplar"
 pejuha:pejuha V ; !"abanico"
 perere:perere V ; !"vibrar"
 pe'a:pe'a V ; !"librar"
-pe'a:pe'a V ; !"despojar" !Dir/LR
-pe'a:pe'a V ; !"sacar" !Dir/LR
-pe'a:pe'a V ; !"destapar" !Dir/LR
-pe'a:pe'a V ; !"abrir" !Dir/LR
-pe'a:pe'a V ; !"separar" !Dir/LR
-pe'a:pe'a V ; !"sustraer" !Dir/LR
-pe'a:pe'a V ; !"quitar" !Dir/LR
-pe'a:pe'a V ; !"derogar" !Dir/LR
-pe'a:pe'a V ; !"segregar" !Dir/LR
-pe'a:pe'a V ; !"abolir" !Dir/LR
-pe'a:pe'a V ; !"suprimir" !Dir/LR
-pe'a:pe'a V ; !"privar" !Dir/LR
+pe'a:pe'a V ; !"despojar"
+pe'a:pe'a V ; !"sacar"
+pe'a:pe'a V ; !"destapar"
+pe'a:pe'a V ; !"abrir"
+pe'a:pe'a V ; !"separar"
+pe'a:pe'a V ; !"sustraer"
+pe'a:pe'a V ; !"quitar"
+pe'a:pe'a V ; !"derogar"
+pe'a:pe'a V ; !"segregar"
+pe'a:pe'a V ; !"abolir"
+pe'a:pe'a V ; !"suprimir"
+pe'a:pe'a V ; !"privar"
 pe'ajey:pe'ajey V ; !"reabrir"
 pi:pi V ; !"escampar"
 pichy:pichy V ; !"refregar"
@@ -3096,7 +3096,7 @@ pire'ape:pire'ape V ; !"escama"
 pita:pita V ; !"fumar"
 piã:piã V ; !"huir"
 po:po V ; !"saltar"
-po:po V ; !"mano" !Dir/LR
+po:po V ; !"mano"
 po% arajere:po% arajere V ; !"lustro"
 pochy:pochy V ; !"enojo"
 pochyrei:pochyrei V ; !"renegar"
@@ -3108,38 +3108,38 @@ pohã:pohã V ; !"remedio"
 pohýi:pohýi V ; !"pesado"
 poka:poka V ; !"torcer"
 poko:poko V ; !"tocar"
-poko:poko V ; !"palpar" !Dir/LR
+poko:poko V ; !"palpar"
 pokua:pokua V ; !"maniatar"
 popo:popo V ; !"trotar"
-popo:popo V ; !"brincar" !Dir/LR
+popo:popo V ; !"brincar"
 porandu:porandu V ; !"consultar"
-porandu:porandu V ; !"interrogar" !Dir/LR
-porandu:porandu V ; !"averiguar" !Dir/LR
-porandu:porandu V ; !"preguntar" !Dir/LR
+porandu:porandu V ; !"interrogar"
+porandu:porandu V ; !"averiguar"
+porandu:porandu V ; !"preguntar"
 poravo:poravo V ; !"optar"
-poravo:poravo V ; !"preferir" !Dir/LR
-poravo:poravo V ; !"seleccionar" !Dir/LR
-poravo:poravo V ; !"elegir" !Dir/LR
+poravo:poravo V ; !"preferir"
+poravo:poravo V ; !"seleccionar"
+poravo:poravo V ; !"elegir"
 pore:pore V ; !"marca"
 porojokua:porojokua V ; !"comprometer"
 porojukavai% atýpe:porojukavai% atýpe V ; !"linchar"
 porombopochy:porombopochy V ; !"indignar"
 poru:poru V ; !"usar"
-poru:poru V ; !"utilizar" !Dir/LR
+poru:poru V ; !"utilizar"
 poruka:poruka V ; !"prestar"
-poruka:poruka V ; !"arrendar" !Dir/LR
-poruka:poruka V ; !"alquilar" !Dir/LR
+poruka:poruka V ; !"arrendar"
+poruka:poruka V ; !"alquilar"
 poruporã:poruporã V ; !"aprovechar"
 poruramo:poruramo V ; !"estrenar"
 porurãjey:porurãjey V ; !"reciclar"
 poruvai:poruvai V ; !"malversar"
-poruvai:poruvai V ; !"abusar" !Dir/LR
-poruvai:poruvai V ; !"abuso" !Dir/LR
+poruvai:poruvai V ; !"abusar"
+poruvai:poruvai V ; !"abuso"
 porã:porã V ; !"lindo"
 pota:pota V ; !"ambicionar"
-pota:pota V ; !"codiciar" !Dir/LR
-pota:pota V ; !"postular" !Dir/LR
-pota:pota V ; !"desear" !Dir/LR
+pota:pota V ; !"codiciar"
+pota:pota V ; !"postular"
+pota:pota V ; !"desear"
 potaiterei:potaiterei V ; !"ansiar"
 poti:poti V ; !"cagar"
 povyvy:povyvy V ; !"hurgar"
@@ -3148,7 +3148,7 @@ poyvi% guerahaha:poyvi% guerahaha V ; !"abanderado"
 poñy:poñy V ; !"gatear"
 po'i:po'i V ; !"fino"
 puatarara:puatarara V ; !"acelerado"
-puatarara:puatarara V ; !"inquieto" !Dir/LR
+puatarara:puatarara V ; !"inquieto"
 puhoe:puhoe V ; !"radio"
 puka:puka V ; !"reír"
 pukavy:pukavy V ; !"sonreír"
@@ -3156,50 +3156,50 @@ purahéi:purahéi V ; !"cantar"
 puru:puru V ; !"gastar"
 purupyre:purupyre V ; !"gastado"
 pu'aka:pu'aka V ; !"prevalecer"
-pu'aka:pu'aka V ; !"influencia" !Dir/LR
-pu'aka:pu'aka V ; !"triunfar" !Dir/LR
-pu'aka:pu'aka V ; !"fuerza" !Dir/LR
-pu'aka:pu'aka V ; !"vencer" !Dir/LR
-pu'aka:pu'aka V ; !"derrotar" !Dir/LR
+pu'aka:pu'aka V ; !"influencia"
+pu'aka:pu'aka V ; !"triunfar"
+pu'aka:pu'aka V ; !"fuerza"
+pu'aka:pu'aka V ; !"vencer"
+pu'aka:pu'aka V ; !"derrotar"
 pu'akave:pu'akave V ; !"superar"
 pu'ã:pu'ã V ; !"progresar"
-pu'ã:pu'ã V ; !"surgir" !Dir/LR
+pu'ã:pu'ã V ; !"surgir"
 pu'ãjey:pu'ãjey V ; !"resurgir"
 pu'ãvoi:pu'ãvoi V ; !"madrugar"
 pyaha:pyaha V ; !"tejer"
-pyaha:pyaha V ; !"trama" !Dir/LR
+pyaha:pyaha V ; !"trama"
 pyahu:pyahu V ; !"recluta"
 pyao:pyao V ; !"media"
 pyenda:pyenda V ; !"base"
 pyhy:pyhy V ; !"captar"
-pyhy:pyhy V ; !"recibir" !Dir/LR
-pyhy:pyhy V ; !"coger" !Dir/LR
+pyhy:pyhy V ; !"recibir"
+pyhy:pyhy V ; !"coger"
 pype:pype V ; !"adentro"
 pyporereka:pyporereka V ; !"rastrear"
 pyru:pyru V ; !"suceder"
 pyso:pyso V ; !"enderezar"
-pyso:pyso V ; !"tender" !Dir/LR
-pyso:pyso V ; !"expandir" !Dir/LR
-pyso:pyso V ; !"estirar" !Dir/LR
+pyso:pyso V ; !"tender"
+pyso:pyso V ; !"expandir"
+pyso:pyso V ; !"estirar"
 pysyry:pysyry V ; !"patinar"
 pysyrõ:pysyrõ V ; !"salvar"
-pysyrõ:pysyrõ V ; !"defender" !Dir/LR
+pysyrõ:pysyrõ V ; !"defender"
 pysãnga:pysãnga V ; !"tropezar"
 pyta:pyta V ; !"permanecer"
-pyta:pyta V ; !"acampar" !Dir/LR
-pyta:pyta V ; !"quedar" !Dir/LR
-pyta:pyta V ; !"parar" !Dir/LR
+pyta:pyta V ; !"acampar"
+pyta:pyta V ; !"quedar"
+pyta:pyta V ; !"parar"
 pyte:pyte V ; !"chupar"
 pytupa:pytupa V ; !"expirar"
 pytu'u:pytu'u V ; !"reposar"
-pytu'u:pytu'u V ; !"recreo" !Dir/LR
-pytu'u:pytu'u V ; !"calma" !Dir/LR
+pytu'u:pytu'u V ; !"recreo"
+pytu'u:pytu'u V ; !"calma"
 pytyvõ:pytyvõ V ; !"propiciar"
-pytyvõ:pytyvõ V ; !"respaldar" !Dir/LR
-pytyvõ:pytyvõ V ; !"cooperar" !Dir/LR
-pytyvõ:pytyvõ V ; !"asistir" !Dir/LR
-pytyvõ:pytyvõ V ; !"servir" !Dir/LR
-pytyvõ:pytyvõ V ; !"ayudar" !Dir/LR
+pytyvõ:pytyvõ V ; !"respaldar"
+pytyvõ:pytyvõ V ; !"cooperar"
+pytyvõ:pytyvõ V ; !"asistir"
+pytyvõ:pytyvõ V ; !"servir"
+pytyvõ:pytyvõ V ; !"ayudar"
 pytyvõhára:pytyvõhára V ; !"auxiliar"
 pyvu:pyvu V ; !"revolver"
 py'ajoko:py'ajoko V ; !"merendar"
@@ -3207,43 +3207,43 @@ py'ajokorã:py'ajokorã V ; !"merienda"
 py'akõi:py'akõi V ; !"titubear"
 py'amokõi:py'amokõi V ; !"dudar"
 py'amongeta:py'amongeta V ; !"pensar"
-py'amongeta:py'amongeta V ; !"razonar" !Dir/LR
+py'amongeta:py'amongeta V ; !"razonar"
 py'apy:py'apy V ; !"angustiar"
 py'ara'ã:py'ara'ã V ; !"deseo"
 py'aro:py'aro V ; !"detestar"
-py'aro:py'aro V ; !"odio" !Dir/LR
-py'aro:py'aro V ; !"odiar" !Dir/LR
+py'aro:py'aro V ; !"odio"
+py'aro:py'aro V ; !"odiar"
 rairõ:rairõ V ; !"agredir"
-rairõ:rairõ V ; !"atacar" !Dir/LR
+rairõ:rairõ V ; !"atacar"
 rakykuere:rakykuere V ; !"pasado"
 rambosa:rambosa V ; !"desayuno"
 rapo:rapo V ; !"arraigar"
 reko:reko V ; !"tener"
-reko:reko V ; !"portar" !Dir/LR
-reko:reko V ; !"mantener" !Dir/LR
+reko:reko V ; !"portar"
+reko:reko V ; !"mantener"
 rerohory:rerohory V ; !"celebrar"
 ro:ro V ; !"amargo"
 rohory:rohory V ; !"felicitar"
-rohory:rohory V ; !"agasajar" !Dir/LR
+rohory:rohory V ; !"agasajar"
 roja:roja V ; !"acarrear"
 rosã:rosã V ; !"aguante"
 rovia:rovia V ; !"creer"
 roviauka:roviauka V ; !"convencer"
-roviauka:roviauka V ; !"argumentar" !Dir/LR
-roviauka:roviauka V ; !"persuadir" !Dir/LR
+roviauka:roviauka V ; !"argumentar"
+roviauka:roviauka V ; !"persuadir"
 ro'y:ro'y V ; !"frío"
 ryrýi:ryrýi V ; !"temblar"
 saipuku:saipuku V ; !"vestido"
 sako'i:sako'i V ; !"planear"
-sako'i:sako'i V ; !"preparar" !Dir/LR
+sako'i:sako'i V ; !"preparar"
 sapatupuku:sapatupuku V ; !"bota"
 sapukái:sapukái V ; !"gritar"
 sa'yry:sa'yry V ; !"tinta"
 sova:sova V ; !"amasar"
 sunu:sunu V ; !"tronar"
 su'u:su'u V ; !"mascar"
-su'u:su'u V ; !"masticar" !Dir/LR
-su'u:su'u V ; !"morder" !Dir/LR
+su'u:su'u V ; !"masticar"
+su'u:su'u V ; !"morder"
 syry:syry V ; !"manar"
 sysýi:sysýi V ; !"palpitar"
 tague:tague V ; !"pelo"
@@ -3251,7 +3251,7 @@ tague'o:tague'o V ; !"desplumar"
 tahachi:tahachi V ; !"soldado"
 takã'o:takã'o V ; !"podar"
 tape:tape V ; !"camino"
-tape:tape V ; !"calle" !Dir/LR
+tape:tape V ; !"calle"
 tapembyky:tapembyky V ; !"atajo"
 tapepo'i:tapepo'i V ; !"picada"
 tapiagua:tapiagua V ; !"frecuente"
@@ -3265,13 +3265,13 @@ tavamoporã:tavamoporã V ; !"urbanizar"
 ta'angarenda:ta'angarenda V ; !"cuadro"
 ta'ã:ta'ã V ; !"medida"
 ta'ãnga:ta'ãnga V ; !"fotografía"
-ta'ãnga:ta'ãnga V ; !"figura" !Dir/LR
-ta'ãnga:ta'ãnga V ; !"estampa" !Dir/LR
+ta'ãnga:ta'ãnga V ; !"figura"
+ta'ãnga:ta'ãnga V ; !"estampa"
 ta'ãnga'i:ta'ãnga'i V ; !"maqueta"
 techa:techa V ; !"visitar"
 techaga'u:techaga'u V ; !"extrañar"
 teko:teko V ; !"estilo"
-teko:teko V ; !"temple" !Dir/LR
+teko:teko V ; !"temple"
 tekoanduha:tekoanduha V ; !"conciencia"
 tekoasy:tekoasy V ; !"flagelo"
 tekoha:tekoha V ; !"ambiente"
@@ -3283,9 +3283,9 @@ tekove:tekove V ; !"sujeto"
 tekovehai:tekovehai V ; !"biografía"
 tekovia:tekovia V ; !"relevo"
 tembe'y:tembe'y V ; !"borde"
-tembe'y:tembe'y V ; !"orilla" !Dir/LR
+tembe'y:tembe'y V ; !"orilla"
 tembiapo:tembiapo V ; !"faena"
-tembiapo:tembiapo V ; !"obra" !Dir/LR
+tembiapo:tembiapo V ; !"obra"
 tembiapoha:tembiapoha V ; !"agencia"
 tembiapokuaa:tembiapokuaa V ; !"oficio"
 tembiapovai:tembiapovai V ; !"perpetrar"
@@ -3299,13 +3299,13 @@ tembi'u:tembi'u V ; !"sustento"
 tembi'uapo:tembi'uapo V ; !"cocinar"
 tembi'upyhare:tembi'upyhare V ; !"cena"
 tembyre:tembyre V ; !"saldo"
-tembyre:tembyre V ; !"resto" !Dir/LR
+tembyre:tembyre V ; !"resto"
 temimo'ã:temimo'ã V ; !"objetivo"
-temimo'ã:temimo'ã V ; !"idea" !Dir/LR
+temimo'ã:temimo'ã V ; !"idea"
 tenda:tenda V ; !"sede"
-tenda:tenda V ; !"sitio" !Dir/LR
+tenda:tenda V ; !"sitio"
 tendy:tendy V ; !"llama"
-tendy:tendy V ; !"saliva" !Dir/LR
+tendy:tendy V ; !"saliva"
 tendyva'o:tendyva'o V ; !"afeitar"
 tepoti:tepoti V ; !"excremento"
 teraguapy:teraguapy V ; !"firma"
@@ -3314,7 +3314,7 @@ terajoapy:terajoapy V ; !"apellido"
 terakuã:terakuã V ; !"renombre"
 tesaite'o:tesaite'o V ; !"domar"
 tesarái:tesarái V ; !"olvidar"
-tesarái:tesarái V ; !"olvido" !Dir/LR
+tesarái:tesarái V ; !"olvido"
 tesãijey:tesãijey V ; !"restablecer"
 tetemokangy:tetemokangy V ; !"relajar"
 teñói:teñói V ; !"nacer"
@@ -3322,31 +3322,31 @@ tipa'ã:tipa'ã V ; !"resfrío"
 titi:titi V ; !"mama"
 topeta:topeta V ; !"embestir"
 tory:tory V ; !"dicha"
-tory:tory V ; !"gozo" !Dir/LR
+tory:tory V ; !"gozo"
 tovaja:tovaja V ; !"cuñado"
 tovamokõi:tovamokõi V ; !"fingir"
-tovamokõi:tovamokõi V ; !"falsear" !Dir/LR
+tovamokõi:tovamokõi V ; !"falsear"
 tuguy:tuguy V ; !"sangre"
 tuja:tuja V ; !"envejecer"
 tuju:tuju V ; !"barro"
 tupãmba'ejára:tupãmba'ejára V ; !"mendigo"
 tupão:tupão V ; !"templo"
 ty:ty V ; !"orina"
-ty:ty V ; !"echar" !Dir/LR
-ty:ty V ; !"demoler" !Dir/LR
-ty:ty V ; !"derribar" !Dir/LR
+ty:ty V ; !"echar"
+ty:ty V ; !"demoler"
+ty:ty V ; !"derribar"
 tyekue:tyekue V ; !"entraña"
 tyjúi:tyjúi V ; !"espuma"
 tykue:tykue V ; !"sumo"
 tymba:tymba V ; !"ganado"
 typei:typei V ; !"barrer"
 typeka:typeka V ; !"escarbar"
-typeka:typeka V ; !"rebuscar" !Dir/LR
+typeka:typeka V ; !"rebuscar"
 tysýi:tysýi V ; !"serie"
-tysýi:tysýi V ; !"listado" !Dir/LR
-tysýi:tysýi V ; !"lista" !Dir/LR
+tysýi:tysýi V ; !"listado"
+tysýi:tysýi V ; !"lista"
 tytýi:tytýi V ; !"latido"
-tytýi:tytýi V ; !"latir" !Dir/LR
+tytýi:tytýi V ; !"latir"
 tyvyro:tyvyro V ; !"sacudir"
 ty'ái:ty'ái V ; !"sudar"
 tãi:tãi V ; !"muela"
@@ -3355,10 +3355,10 @@ vai:vai V ; !"grave"
 vaka% reheguáva:vaka% reheguáva V ; !"vacuno"
 vakapi:vakapi V ; !"suela"
 vava:vava V ; !"vacilar"
-vava:vava V ; !"oscilar" !Dir/LR
+vava:vava V ; !"oscilar"
 vera:vera V ; !"relucir"
 veve:veve V ; !"volar"
-veve:veve V ; !"flamear" !Dir/LR
+veve:veve V ; !"flamear"
 virumono'õ:virumono'õ V ; !"lucro"
 voko:voko V ; !"saco"
 vore:vore V ; !"segmento"
@@ -3401,27 +3401,27 @@ y'u:y'u V ; !"tomar"
 ñamindu'u:ñamindu'u V ; !"analizar"
 ñanavai:ñanavai V ; !"droga"
 ñandu:ñandu V ; !"padecer"
-ñandu:ñandu V ; !"percibir" !Dir/LR
-ñandu:ñandu V ; !"sentir" !Dir/LR
+ñandu:ñandu V ; !"percibir"
+ñandu:ñandu V ; !"sentir"
 ñanduka:ñanduka V ; !"impresionar"
 ñandyry:ñandyry V ; !"aceite"
 ñangareko:ñangareko V ; !"administrar"
-ñangareko:ñangareko V ; !"resguardar" !Dir/LR
-ñangareko:ñangareko V ; !"custodiar" !Dir/LR
-ñangareko:ñangareko V ; !"preservar" !Dir/LR
-ñangareko:ñangareko V ; !"atender" !Dir/LR
+ñangareko:ñangareko V ; !"resguardar"
+ñangareko:ñangareko V ; !"custodiar"
+ñangareko:ñangareko V ; !"preservar"
+ñangareko:ñangareko V ; !"atender"
 ñangarekohára:ñangarekohára V ; !"guarda"
 ñangarekorã:ñangarekorã V ; !"patrulla"
 ñapymi:ñapymi V ; !"zambullir"
-ñapymi:ñapymi V ; !"zozobrar" !Dir/LR
+ñapymi:ñapymi V ; !"zozobrar"
 ñarõ:ñarõ V ; !"ladrar"
 ñatõi:ñatõi V ; !"advertir"
 ñañuã:ñañuã V ; !"abarcar"
 ñeha'arõ:ñeha'arõ V ; !"espera"
 ñeha'ã:ñeha'ã V ; !"esforzar"
-ñeha'ã:ñeha'ã V ; !"esmerar" !Dir/LR
-ñeha'ã:ñeha'ã V ; !"procurar" !Dir/LR
-ñeha'ã:ñeha'ã V ; !"pujar" !Dir/LR
+ñeha'ã:ñeha'ã V ; !"esmerar"
+ñeha'ã:ñeha'ã V ; !"procurar"
+ñeha'ã:ñeha'ã V ; !"pujar"
 ñeha'ãpaha:ñeha'ãpaha V ; !"sentencia"
 ñeimo'ã:ñeimo'ã V ; !"opinar"
 ñemba'eporandu:ñemba'eporandu V ; !"encuesta"
@@ -3433,25 +3433,25 @@ y'u:y'u V ; !"tomar"
 ñemboki:ñemboki V ; !"coquetear"
 ñembosarái:ñembosarái V ; !"juego"
 ñembotavy:ñembotavy V ; !"transigir"
-ñembotavy:ñembotavy V ; !"ignorar" !Dir/LR
+ñembotavy:ñembotavy V ; !"ignorar"
 ñembotytu'u:ñembotytu'u V ; !"sellar"
 ñembo'e:ñembo'e V ; !"orar"
-ñembo'e:ñembo'e V ; !"rezar" !Dir/LR
-ñembo'e:ñembo'e V ; !"ruego" !Dir/LR
+ñembo'e:ñembo'e V ; !"rezar"
+ñembo'e:ñembo'e V ; !"ruego"
 ñemoarandu:ñemoarandu V ; !"estudiar"
 ñemokangy:ñemokangy V ; !"decaer"
 ñemomba'e:ñemomba'e V ; !"usurpar"
-ñemomba'e:ñemomba'e V ; !"adueñarse" !Dir/LR
+ñemomba'e:ñemomba'e V ; !"adueñarse"
 ñemombyte:ñemombyte V ; !"interceder"
 ñemomombyry:ñemomombyry V ; !"distanciarse"
 ñemonda:ñemonda V ; !"estafa"
 ñemondo:ñemondo V ; !"transmitir"
 ñemongeta:ñemongeta V ; !"parlamento"
-ñemongeta:ñemongeta V ; !"conversar" !Dir/LR
+ñemongeta:ñemongeta V ; !"conversar"
 ñemongetahai:ñemongetahai V ; !"chatear"
 ñemu:ñemu V ; !"negocio"
-ñemu:ñemu V ; !"vender" !Dir/LR
-ñemu:ñemu V ; !"negociar" !Dir/LR
+ñemu:ñemu V ; !"vender"
+ñemu:ñemu V ; !"negociar"
 ñemuha:ñemuha V ; !"tienda"
 ñemumba:ñemumba V ; !"liquidar"
 ñemurenda:ñemurenda V ; !"mercado"
@@ -3461,36 +3461,108 @@ y'u:y'u V ; !"tomar"
 ñeñanduvai:ñeñanduvai V ; !"indispuesto"
 ñeñýi:ñeñýi V ; !"encoger"
 ñombohovái:ñombohovái V ; !"discutir"
-ñombohovái:ñombohovái V ; !"litigar" !Dir/LR
+ñombohovái:ñombohovái V ; !"litigar"
 ñomi:ñomi V ; !"encubrir"
 ñomongeta:ñomongeta V ; !"dialogar"
-ñomongeta:ñomongeta V ; !"parlamentar" !Dir/LR
-ñomongeta:ñomongeta V ; !"charla" !Dir/LR
+ñomongeta:ñomongeta V ; !"parlamentar"
+ñomongeta:ñomongeta V ; !"charla"
 ñongatu:ñongatu V ; !"guardar"
-ñongatu:ñongatu V ; !"reservar" !Dir/LR
-ñongatu:ñongatu V ; !"depositar" !Dir/LR
-ñongatu:ñongatu V ; !"archivar" !Dir/LR
-ñongatu:ñongatu V ; !"ahorrar" !Dir/LR
-ñongatu:ñongatu V ; !"almacenar" !Dir/LR
-ñongatu:ñongatu V ; !"conservar" !Dir/LR
-ñongatu:ñongatu V ; !"retener" !Dir/LR
+ñongatu:ñongatu V ; !"reservar"
+ñongatu:ñongatu V ; !"depositar"
+ñongatu:ñongatu V ; !"archivar"
+ñongatu:ñongatu V ; !"ahorrar"
+ñongatu:ñongatu V ; !"almacenar"
+ñongatu:ñongatu V ; !"conservar"
+ñongatu:ñongatu V ; !"retener"
 ñongatuha:ñongatuha V ; !"archivo"
 ñongatupyre:ñongatupyre V ; !"ahorrado"
 ñorairõ:ñorairõ V ; !"pugnar"
-ñorairõ:ñorairõ V ; !"riña" !Dir/LR
-ñorairõ:ñorairõ V ; !"luchar" !Dir/LR
-ñorairõ:ñorairõ V ; !"pelea" !Dir/LR
+ñorairõ:ñorairõ V ; !"riña"
+ñorairõ:ñorairõ V ; !"luchar"
+ñorairõ:ñorairõ V ; !"pelea"
 ñoty:ñoty V ; !"sembrar"
 ñu:ñu V ; !"valle"
 ñuãha:ñuãha V ; !"velo"
 ñyrõ:ñyrõ V ; !"indulgencia"
-ñyrõ:ñyrõ V ; !"redimir" !Dir/LR
-ñyrõ:ñyrõ V ; !"disculpar" !Dir/LR
+ñyrõ:ñyrõ V ; !"redimir"
+ñyrõ:ñyrõ V ; !"disculpar"
 ñyñýi:ñyñýi V ; !"decrecer"
 óga:óga V ; !"casa"
-óga:óga V ; !"domicilio" !Dir/LR
+óga:óga V ; !"domicilio"
 ýva:ýva V ; !"mango"
 'u:'u V ; !"consumir"
+kirirĩ:kirirĩ V ; !"callar"
+kirirï:kirirï V ; !"callar" !Dir/LR
+kiriri:kiriri V ; !"callar" !Dir/LR
+kirirĩ:kirirĩ V ; !"silencio"
+kirirï:kirirï V ; !"silencio" !Dir/LR
+kiriri:kiriri V ; !"silencio" !Dir/LR
+moinge:moinge V ; !"hundir"
+moĩnge:moĩnge V ; !"hundir" !Dir/LR
+moinge:moinge V ; !"meter"
+moĩnge:moĩnge V ; !"meter" !Dir/LR
+moĩporã:moĩporã V ; !"mejorar"
+mo% porã:mo% porã V ; !"mejorar" !Dir/LR
+moĩporã:moĩporã V ; !"graduar"
+mo% porã:mo% porã V ; !"graduar" !Dir/LR
+moaguĩ:moaguĩ V ; !"arrimar"
+moaguí:moaguí V ; !"arrimar" !Dir/LR
+moagui:moagui V ; !"arrimar" !Dir/LR
+moapopẽ:moapopẽ V ; !"ondular"
+mochichĩ:mochichĩ V ; !"acariciar"
+moguahẽ:moguahẽ V ; !"refugiar"
+moguahë:moguahë V ; !"refugiar" !Dir/LR
+moguahẽ:moguahẽ V ; !"hospedar"
+moguahë:moguahë V ; !"hospedar" !Dir/LR
+mohavẽ:mohavẽ V ; !"oxidar"
+mokara:mokara V ; !"doblar"
+mokara:mokara V ; !"curvar"
+mokirirĩ:mokirirĩ V ; !"acallar"
+mokirirï:mokirirï V ; !"acallar" !Dir/LR
+mokirirĩ:mokirirĩ V ; !"silenciar"
+mokirirï:mokirirï V ; !"silenciar" !Dir/LR
+momichĩ:momichĩ V ; !"achicar"
+momichi:momichi V ; !"achicar" !Dir/LR
+momichĩ:momichĩ V ; !"menoscabar"
+momichi:momichi V ; !"menoscabar" !Dir/LR
+momichĩ:momichĩ V ; !"reducir"
+momichi:momichi V ; !"reducir" !Dir/LR
+mopeteĩ:mopeteĩ V ; !"simplificar"
+mopotĩ:mopotĩ V ; !"limpiar"
+mopotï:mopotï V ; !"limpiar" !Dir/LR
+mopotĩ:mopotĩ V ; !"depurar"
+mopotï:mopotï V ; !"depurar" !Dir/LR
+mopotĩ:mopotĩ V ; !"purificar"
+mopotï:mopotï V ; !"purificar" !Dir/LR
+mopotĩ:mopotĩ V ; !"purgar"
+mopotï:mopotï V ; !"purgar" !Dir/LR
+motindy:motindy V ; !"humillar"
+moypytũ:moypytũ V ; !"opacar"
+pepirũ:pepirũ V ; !"invitar"
+pepire:pepire V ; !"invitar" !Dir/LR
+pokarẽ:pokarẽ V ; !"intriga"
+pytuhẽ:pytuhẽ V ; !"inspirar"
+pytuho:pytuho V ; !"inspirar" !Dir/LR
+pytuhẽ:pytuhẽ V ; !"respirar"
+pytuho:pytuho V ; !"respirar" !Dir/LR
+pytãhũ:pytãhũ V ; !"morado"
+pytãho:pytãho V ; !"morado" !Dir/LR
+temitỹngue:temitỹngue V ; !"cosecha"
+temityngue:temityngue V ; !"cosecha" !Dir/LR
+tupãitũ:tupãitũ V ; !"adorar"
+yvyrakytĩ:yvyrakytĩ V ; !"aserrar"
+yvyrakytĩ:yvyrakytĩ V ; !"talar"
+ñapytu:ñapytu V ; !"liar"
+ñapyti:ñapyti V ; !"liar" !Dir/LR
+ñapytĩ:ñapytĩ V ; !"liar" !Dir/LR
+ñemopotĩha:ñemopotĩha V ; !"baño"
+ñepyrũjey:ñepyrũjey V ; !"reanudar"
+ñesẽha:ñesẽha V ; !"salida"
+ñomoirũ:ñomoirũ V ; !"socializar"
+ñomoir¤:ñomoir¤ V ; !"socializar" !Dir/LR
+ñomoirü:ñomoirü V ; !"socializar" !Dir/LR
+ñuguaitĩ:ñuguaitĩ V ; !"encuentro"
+ñypytü:ñypytü V ; !"oscurecer"
 
 LEXICON Adjectives
 
