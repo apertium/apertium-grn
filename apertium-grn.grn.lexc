@@ -3570,15 +3570,15 @@ agãgua:agãgua ADJ ; !"moderno"
 aju:aju ADJ ; !"maduro"
 akatúa:akatúa ADJ ; !"derecha"
 akuã:akuã ADJ ; !"veloz"
-akuã:akuã ADJ ; !"ágil" !Dir/LR
+akuã:akuã ADJ ; !"ágil"
 aky:aky ADJ ; !"verde"
 akytã:akytã ADJ ; !"nudo"
 akãguapy:akãguapy ADJ ; !"cuerdo"
-akãguapy:akãguapy ADJ ; !"moderado" !Dir/LR
+akãguapy:akãguapy ADJ ; !"moderado"
 akãhatã:akãhatã ADJ ; !"pícaro"
-akãhatã:akãhatã ADJ ; !"tozudo" !Dir/LR
-akãhatã:akãhatã ADJ ; !"travieso" !Dir/LR
-akãhatã:akãhatã ADJ ; !"terco" !Dir/LR
+akãhatã:akãhatã ADJ ; !"tozudo"
+akãhatã:akãhatã ADJ ; !"travieso"
+akãhatã:akãhatã ADJ ; !"terco"
 akãporã:akãporã ADJ ; !"intelectual"
 ambue:ambue ADJ ; !"otro"
 angapypegua:angapypegua ADJ ; !"lírico"
@@ -3590,10 +3590,10 @@ apopyre:apopyre ADJ ; !"industrial"
 aporeko:aporeko ADJ ; !"técnica"
 apu'a:apu'a ADJ ; !"redondo"
 aragua:aragua ADJ ; !"temporal"
-aragua:aragua ADJ ; !"diurno" !Dir/LR
+aragua:aragua ADJ ; !"diurno"
 aramboyve:aramboyve ADJ ; !"precoz"
 arandu:arandu ADJ ; !"sabio"
-arandu:arandu ADJ ; !"culto" !Dir/LR
+arandu:arandu ADJ ; !"culto"
 arapy% tuichakue:arapy% tuichakue ADJ ; !"mundial"
 aravoitépe:aravoitépe ADJ ; !"puntual"
 asu:asu ADJ ; !"izquierdo"
@@ -3602,13 +3602,13 @@ avasa'yju:avasa'yju ADJ ; !"rubio"
 avei:avei ADJ ; !"incluso"
 añaretãgua:añaretãgua ADJ ; !"infernal"
 añete:añete ADJ ; !"real"
-añete:añete ADJ ; !"seguro" !Dir/LR
-añete:añete ADJ ; !"indudable" !Dir/LR
+añete:añete ADJ ; !"seguro"
+añete:añete ADJ ; !"indudable"
 añetegua:añetegua ADJ ; !"sincero"
-añetegua:añetegua ADJ ; !"veraz" !Dir/LR
+añetegua:añetegua ADJ ; !"veraz"
 añeteguaite:añeteguaite ADJ ; !"indiscutible"
 año:año ADJ ; !"único"
-año:año ADJ ; !"singular" !Dir/LR
+año:año ADJ ; !"singular"
 añogua:añogua ADJ ; !"soltero"
 guyve:guyve ADJ ; !"inferior"
 haku:haku ADJ ; !"caliente"
@@ -3616,16 +3616,16 @@ hakua:hakua ADJ ; !"agudo"
 hakuvy:hakuvy ADJ ; !"tibio"
 hasy:hasy ADJ ; !"difícil"
 hatã:hatã ADJ ; !"macizo"
-hatã:hatã ADJ ; !"recio" !Dir/LR
+hatã:hatã ADJ ; !"recio"
 havara:havara ADJ ; !"áspero"
-havara:havara ADJ ; !"tosco" !Dir/LR
+havara:havara ADJ ; !"tosco"
 hayhuha:hayhuha ADJ ; !"amante"
 ha'enteséva:ha'enteséva ADJ ; !"egoísta"
 ha'etéva:ha'etéva ADJ ; !"legítima"
 ha'eve:ha'eve ADJ ; !"eficaz"
-ha'eve:ha'eve ADJ ; !"ligero" !Dir/LR
+ha'eve:ha'eve ADJ ; !"ligero"
 ha'evéva:ha'evéva ADJ ; !"hábil"
-ha'evéva:ha'evéva ADJ ; !"competente" !Dir/LR
+ha'evéva:ha'evéva ADJ ; !"competente"
 ha'eñóva:ha'eñóva ADJ ; !"solitario"
 ha'ãhára:ha'ãhára ADJ ; !"jugador"
 he:he ADJ ; !"rico"
@@ -3633,7 +3633,7 @@ hechapyrã:hechapyrã ADJ ; !"sensacional"
 heko% marangatúva:heko% marangatúva ADJ ; !"gentil"
 hekomanóva:hekomanóva ADJ ; !"inerte"
 hekopegua:hekopegua ADJ ; !"legal"
-hekopegua:hekopegua ADJ ; !"lícito" !Dir/LR
+hekopegua:hekopegua ADJ ; !"lícito"
 hekoreíva:hekoreíva ADJ ; !"vago"
 hekosãsóva:hekosãsóva ADJ ; !"independiente"
 heko'asyvéva:heko'asyvéva ADJ ; !"vulnerable"
@@ -3642,26 +3642,26 @@ henduhára:henduhára ADJ ; !"oyente"
 hendýva:hendýva ADJ ; !"luminoso"
 hepýva:hepýva ADJ ; !"valioso"
 herakuãva:herakuãva ADJ ; !"célebre"
-herakuãva:herakuãva ADJ ; !"popular" !Dir/LR
-herakuãva:herakuãva ADJ ; !"afamado" !Dir/LR
+herakuãva:herakuãva ADJ ; !"popular"
+herakuãva:herakuãva ADJ ; !"afamado"
 hesakã:hesakã ADJ ; !"obvio"
 hesakãva:hesakãva ADJ ; !"transparente"
 heta:heta ADJ ; !"mucho"
 hetaitereíva:hetaitereíva ADJ ; !"innumerable"
 heterei:heterei ADJ ; !"delicioso"
 heñoihague:heñoihague ADJ ; !"natal"
-heñoihague:heñoihague ADJ ; !"nacido" !Dir/LR
+heñoihague:heñoihague ADJ ; !"nacido"
 heñóiva:heñóiva ADJ ; !"naciente"
 he'iseháicha:he'iseháicha ADJ ; !"literal"
 he'õ:he'õ ADJ ; !"húmedo"
 hi'upy:hi'upy ADJ ; !"comestible"
 hi'yhetáva:hi'yhetáva ADJ ; !"caudaloso"
 hory:hory ADJ ; !"amable"
-hory:hory ADJ ; !"jovial" !Dir/LR
-hory:hory ADJ ; !"alegre" !Dir/LR
-hory:hory ADJ ; !"grata" !Dir/LR
+hory:hory ADJ ; !"jovial"
+hory:hory ADJ ; !"alegre"
+hory:hory ADJ ; !"grata"
 horýva:horýva ADJ ; !"plácido"
-horýva:horýva ADJ ; !"afable" !Dir/LR
+horýva:horýva ADJ ; !"afable"
 hova% mokõiva:hova% mokõiva ADJ ; !"hipócrita"
 hovaigua:hovaigua ADJ ; !"opuesto"
 hovasapyre:hovasapyre ADJ ; !"bendito"
@@ -3680,7 +3680,7 @@ imomorãmby:imomorãmby ADJ ; !"venerable"
 inimborã:inimborã ADJ ; !"textil"
 ipepóva:ipepóva ADJ ; !"alado"
 iporãma:iporãma ADJ ; !"suficiente"
-iporãma:iporãma ADJ ; !"basta" !Dir/LR
+iporãma:iporãma ADJ ; !"basta"
 ipy'aguapýva:ipy'aguapýva ADJ ; !"pacífico"
 irundyha:irundyha ADJ ; !"cuarto"
 ityarõva:ityarõva ADJ ; !"adulto"
@@ -3702,7 +3702,7 @@ jey'uha:jey'uha ADJ ; !"bebedero"
 joapy:joapy ADJ ; !"accesorio"
 joheipyre:joheipyre ADJ ; !"moral"
 joja:joja ADJ ; !"recta"
-joja:joja ADJ ; !"homólogo" !Dir/LR
+joja:joja ADJ ; !"homólogo"
 jojajovái:jojajovái ADJ ; !"paralelo"
 jopara:jopara ADJ ; !"mixta"
 jopy:jopy ADJ ; !"avaro"
@@ -3724,9 +3724,9 @@ karia'yporã:karia'yporã ADJ ; !"galán"
 katuete:katuete ADJ ; !"absoluto"
 katuetegua:katuetegua ADJ ; !"obligatorio"
 katupyry:katupyry ADJ ; !"capaz"
-katupyry:katupyry ADJ ; !"idóneo" !Dir/LR
+katupyry:katupyry ADJ ; !"idóneo"
 kañy:kañy ADJ ; !"ilegal"
-kañy:kañy ADJ ; !"oculto" !Dir/LR
+kañy:kañy ADJ ; !"oculto"
 ka'aguygua:ka'aguygua ADJ ; !"silvestre"
 ka'aguyreko:ka'aguyreko ADJ ; !"salvaje"
 ka'avo:ka'avo ADJ ; !"vegetal"
@@ -3744,16 +3744,16 @@ kuñarekóva:kuñarekóva ADJ ; !"afeminado"
 kyra:kyra ADJ ; !"adiposo"
 kytomi:kytomi ADJ ; !"diminuto"
 ky'a:ky'a ADJ ; !"sucio"
-ky'a:ky'a ADJ ; !"impuro" !Dir/LR
+ky'a:ky'a ADJ ; !"impuro"
 kõi:kõi ADJ ; !"doble"
 kõingue:kõingue ADJ ; !"gemelo"
 kýto:kýto ADJ ; !"ínfimo"
 mandu'arã:mandu'arã ADJ ; !"memorable"
 marandu:marandu ADJ ; !"manifiesto"
 marangatu:marangatu ADJ ; !"noble"
-marangatu:marangatu ADJ ; !"piadoso" !Dir/LR
+marangatu:marangatu ADJ ; !"piadoso"
 marãngatu:marãngatu ADJ ; !"santo"
-marãngatu:marãngatu ADJ ; !"justo" !Dir/LR
+marãngatu:marãngatu ADJ ; !"justo"
 mbarete:mbarete ADJ ; !"fuerte"
 mba'apo% rehegua:mba'apo% rehegua ADJ ; !"laboral"
 mba'apohára:mba'apohára ADJ ; !"obrero"
@@ -3780,11 +3780,11 @@ mbo'ekuaahára:mbo'ekuaahára ADJ ; !"licenciado"
 mburuvicha:mburuvicha ADJ ; !"ejecutivo"
 mburuvicha% guasu:mburuvicha% guasu ADJ ; !"general"
 mbyky:mbyky ADJ ; !"conciso"
-mbyky:mbyky ADJ ; !"corto" !Dir/LR
+mbyky:mbyky ADJ ; !"corto"
 mbyte:mbyte ADJ ; !"medio"
 mbytegua:mbytegua ADJ ; !"mediano"
-mbytegua:mbytegua ADJ ; !"central" !Dir/LR
-mbytegua:mbytegua ADJ ; !"neutral" !Dir/LR
+mbytegua:mbytegua ADJ ; !"central"
+mbytegua:mbytegua ADJ ; !"neutral"
 mbytepegua:mbytepegua ADJ ; !"neutro"
 memegua:memegua ADJ ; !"perenne"
 meña% rehegua:meña% rehegua ADJ ; !"sexual"
@@ -3792,7 +3792,7 @@ mie:mie ADJ ; !"más"
 mitã:mitã ADJ ; !"joven"
 mitãra'y:mitãra'y ADJ ; !"neonato"
 mitãrusu:mitãrusu ADJ ; !"juvenil"
-mitãrusu:mitãrusu ADJ ; !"adolescente" !Dir/LR
+mitãrusu:mitãrusu ADJ ; !"adolescente"
 mohenda:mohenda ADJ ; !"regular"
 mokõiha:mokõiha ADJ ; !"segundo"
 mombyry:mombyry ADJ ; !"distante"
@@ -3803,7 +3803,7 @@ mongarúva:mongarúva ADJ ; !"nutritivo"
 moñandýva:moñandýva ADJ ; !"lubricante"
 mymbañarõ:mymbañarõ ADJ ; !"fiera"
 nandi:nandi ADJ ; !"vacío"
-nandi:nandi ADJ ; !"vacante" !Dir/LR
+nandi:nandi ADJ ; !"vacante"
 narã:narã ADJ ; !"naranja"
 ndahasýi:ndahasýi ADJ ; !"simple"
 ndahepýi:ndahepýi ADJ ; !"barato"
@@ -3828,12 +3828,12 @@ ojeroviáva:ojeroviáva ADJ ; !"optimista"
 ojojoguáva:ojojoguáva ADJ ; !"similar"
 ojoykére:ojoykére ADJ ; !"junto"
 ojuehegua:ojuehegua ADJ ; !"recíproco"
-ojuehegua:ojuehegua ADJ ; !"mutua" !Dir/LR
+ojuehegua:ojuehegua ADJ ; !"mutua"
 oka:oka ADJ ; !"exterior"
 okambúva:okambúva ADJ ; !"lactante"
-okambúva:okambúva ADJ ; !"mamífero" !Dir/LR
+okambúva:okambúva ADJ ; !"mamífero"
 okaraygua:okaraygua ADJ ; !"campesino"
-okaraygua:okaraygua ADJ ; !"rural" !Dir/LR
+okaraygua:okaraygua ADJ ; !"rural"
 omanóva:omanóva ADJ ; !"muerto"
 omba'aposéva:omba'aposéva ADJ ; !"laborioso"
 opaichagua:opaichagua ADJ ; !"múltiple"
@@ -3843,15 +3843,15 @@ oporomongyhyjéva:oporomongyhyjéva ADJ ; !"tenebroso"
 opáma:opáma ADJ ; !"acabado"
 opámava:opámava ADJ ; !"listo"
 opáva:opáva ADJ ; !"perecedero"
-opáva:opáva ADJ ; !"total" !Dir/LR
+opáva:opáva ADJ ; !"total"
 ovameméva:ovameméva ADJ ; !"nómada"
 oñemboja'okuaáva:oñemboja'okuaáva ADJ ; !"divisible"
 oñondivéva:oñondivéva ADJ ; !"grupal"
 paha:paha ADJ ; !"décima"
-paha:paha ADJ ; !"último" !Dir/LR
+paha:paha ADJ ; !"último"
 paha% mboyvegua:paha% mboyvegua ADJ ; !"penúltimo"
 pahague:pahague ADJ ; !"extremo"
-pahague:pahague ADJ ; !"final" !Dir/LR
+pahague:pahague ADJ ; !"final"
 paite:paite ADJ ; !"global"
 papapykuaa:papapykuaa ADJ ; !"matemática"
 papára:papára ADJ ; !"numeral"
@@ -3862,15 +3862,15 @@ pirejy:pirejy ADJ ; !"insensible"
 pirevai:pirevai ADJ ; !"malhumorado"
 pire'andu:pire'andu ADJ ; !"táctil"
 piru:piru ADJ ; !"delgado"
-piru:piru ADJ ; !"flaco" !Dir/LR
-piru:piru ADJ ; !"ajado" !Dir/LR
-piru:piru ADJ ; !"magro" !Dir/LR
+piru:piru ADJ ; !"flaco"
+piru:piru ADJ ; !"ajado"
+piru:piru ADJ ; !"magro"
 pituva:pituva ADJ ; !"incapaz"
-pituva:pituva ADJ ; !"torpe" !Dir/LR
-pituva:pituva ADJ ; !"inhábil" !Dir/LR
+pituva:pituva ADJ ; !"torpe"
+pituva:pituva ADJ ; !"inhábil"
 poapyha:poapyha ADJ ; !"octavo"
 pochy:pochy ADJ ; !"rabioso"
-pochy:pochy ADJ ; !"terrible" !Dir/LR
+pochy:pochy ADJ ; !"terrible"
 pochyreíva:pochyreíva ADJ ; !"nervioso"
 poguasu:poguasu ADJ ; !"grueso"
 poguyguáva:poguyguáva ADJ ; !"subalterno"
@@ -3882,69 +3882,69 @@ pokõiha:pokõiha ADJ ; !"séptimo"
 popegua:popegua ADJ ; !"manual"
 poravopyre:poravopyre ADJ ; !"especial"
 porojukáva:porojukáva ADJ ; !"criminal"
-porojukáva:porojukáva ADJ ; !"mortal" !Dir/LR
+porojukáva:porojukáva ADJ ; !"mortal"
 porombyaíva:porombyaíva ADJ ; !"nocivo"
 poruhára:poruhára ADJ ; !"usuario"
 porundyha:porundyha ADJ ; !"noveno"
 porupyrã:porupyrã ADJ ; !"útil"
 porã:porã ADJ ; !"hermoso"
-porã:porã ADJ ; !"guapo" !Dir/LR
-porã:porã ADJ ; !"lindo" !Dir/LR
-porã:porã ADJ ; !"bello" !Dir/LR
+porã:porã ADJ ; !"guapo"
+porã:porã ADJ ; !"lindo"
+porã:porã ADJ ; !"bello"
 porãite:porãite ADJ ; !"precioso"
 porãpy:porãpy ADJ ; !"ideal"
 porãve:porãve ADJ ; !"mejor"
-porãve:porãve ADJ ; !"selecto" !Dir/LR
+porãve:porãve ADJ ; !"selecto"
 poty:poty ADJ ; !"rosa"
 poyvi% guerahaha:poyvi% guerahaha ADJ ; !"abanderado"
 po'i:po'i ADJ ; !"fino"
-po'i:po'i ADJ ; !"angosto" !Dir/LR
+po'i:po'i ADJ ; !"angosto"
 puatarara:puatarara ADJ ; !"acelerado"
-puatarara:puatarara ADJ ; !"inquieto" !Dir/LR
+puatarara:puatarara ADJ ; !"inquieto"
 pumbyrymýi:pumbyrymýi ADJ ; !"celular"
 pu'ae:pu'ae ADJ ; !"vocal"
 pu'akapáva:pu'akapáva ADJ ; !"omnipotente"
 pyahu:pyahu ADJ ; !"nuevo"
-pyahu:pyahu ADJ ; !"neófito" !Dir/LR
+pyahu:pyahu ADJ ; !"neófito"
 pyao:pyao ADJ ; !"media"
 pya'e:pya'e ADJ ; !"rápido"
-pya'e:pya'e ADJ ; !"pronto" !Dir/LR
-pya'e:pya'e ADJ ; !"fugaz" !Dir/LR
+pya'e:pya'e ADJ ; !"pronto"
+pya'e:pya'e ADJ ; !"fugaz"
 pyharevegua:pyharevegua ADJ ; !"matinal"
 pypuku:pypuku ADJ ; !"hondo"
 pytagua:pytagua ADJ ; !"extranjero"
 pytyvõhára:pytyvõhára ADJ ; !"mediador"
-pytyvõhára:pytyvõhára ADJ ; !"asesor" !Dir/LR
-pytyvõhára:pytyvõhára ADJ ; !"auxiliar" !Dir/LR
+pytyvõhára:pytyvõhára ADJ ; !"asesor"
+pytyvõhára:pytyvõhára ADJ ; !"auxiliar"
 pytã:pytã ADJ ; !"rojo"
-pytã:pytã ADJ ; !"púrpura" !Dir/LR
+pytã:pytã ADJ ; !"púrpura"
 py'aguapy:py'aguapy ADJ ; !"tranquilo"
-py'aguapy:py'aguapy ADJ ; !"sensato" !Dir/LR
+py'aguapy:py'aguapy ADJ ; !"sensato"
 py'ahatã:py'ahatã ADJ ; !"severo"
-py'ahatã:py'ahatã ADJ ; !"rudo" !Dir/LR
-py'ahatã:py'ahatã ADJ ; !"cruel" !Dir/LR
+py'ahatã:py'ahatã ADJ ; !"rudo"
+py'ahatã:py'ahatã ADJ ; !"cruel"
 py'ambyaiha:py'ambyaiha ADJ ; !"tóxico"
 pýra:pýra ADJ ; !"crudo"
 rakykuere:rakykuere ADJ ; !"pasado"
 rei:rei ADJ ; !"vano"
 reigua:reigua ADJ ; !"gratuito"
 riregua:riregua ADJ ; !"sucesor"
-riregua:riregua ADJ ; !"siguiente" !Dir/LR
+riregua:riregua ADJ ; !"siguiente"
 ro:ro ADJ ; !"amargo"
 ro'y:ro'y ADJ ; !"frío"
 sakã:sakã ADJ ; !"nítido"
-sakã:sakã ADJ ; !"evidente" !Dir/LR
-sakã:sakã ADJ ; !"tenue" !Dir/LR
+sakã:sakã ADJ ; !"evidente"
+sakã:sakã ADJ ; !"tenue"
 sapy'agua:sapy'agua ADJ ; !"pasajero"
-sapy'agua:sapy'agua ADJ ; !"interino" !Dir/LR
-sapy'agua:sapy'agua ADJ ; !"ocasional" !Dir/LR
-sapy'agua:sapy'agua ADJ ; !"casual" !Dir/LR
-sapy'agua:sapy'agua ADJ ; !"súbito" !Dir/LR
-sapy'agua:sapy'agua ADJ ; !"instantáneo" !Dir/LR
+sapy'agua:sapy'agua ADJ ; !"interino"
+sapy'agua:sapy'agua ADJ ; !"ocasional"
+sapy'agua:sapy'agua ADJ ; !"casual"
+sapy'agua:sapy'agua ADJ ; !"súbito"
+sapy'agua:sapy'agua ADJ ; !"instantáneo"
 sa'i:sa'i ADJ ; !"menudo"
 sa'yju:sa'yju ADJ ; !"pálido"
-sa'yju:sa'yju ADJ ; !"amarillo" !Dir/LR
-sa'yju:sa'yju ADJ ; !"lívido" !Dir/LR
+sa'yju:sa'yju ADJ ; !"amarillo"
+sa'yju:sa'yju ADJ ; !"lívido"
 sa'yry:sa'yry ADJ ; !"tinta"
 so'o'uha:so'o'uha ADJ ; !"carnívoro"
 sy:sy ADJ ; !"madre"
@@ -3954,50 +3954,50 @@ sãsorayhúha:sãsorayhúha ADJ ; !"liberal"
 tahachi:tahachi ADJ ; !"policía"
 tapereko:tapereko ADJ ; !"vial"
 tapiagua:tapiagua ADJ ; !"permanente"
-tapiagua:tapiagua ADJ ; !"perpetuo" !Dir/LR
-tapiagua:tapiagua ADJ ; !"habitual" !Dir/LR
-tapiagua:tapiagua ADJ ; !"común" !Dir/LR
-tapiagua:tapiagua ADJ ; !"frecuente" !Dir/LR
+tapiagua:tapiagua ADJ ; !"perpetuo"
+tapiagua:tapiagua ADJ ; !"habitual"
+tapiagua:tapiagua ADJ ; !"común"
+tapiagua:tapiagua ADJ ; !"frecuente"
 tapykuegua:tapykuegua ADJ ; !"trasero"
 tapykuere:tapykuere ADJ ; !"pasada"
 tarova:tarova ADJ ; !"insensato"
-tarova:tarova ADJ ; !"loco" !Dir/LR
+tarova:tarova ADJ ; !"loco"
 tatãrayhuha:tatãrayhuha ADJ ; !"patriota"
 tavaguasu:tavaguasu ADJ ; !"capital"
 tavy:tavy ADJ ; !"ignorante"
-tavy:tavy ADJ ; !"cretino" !Dir/LR
-tavy:tavy ADJ ; !"demente" !Dir/LR
-tavy:tavy ADJ ; !"analfabeto" !Dir/LR
+tavy:tavy ADJ ; !"cretino"
+tavy:tavy ADJ ; !"demente"
+tavy:tavy ADJ ; !"analfabeto"
 techahára:techahára ADJ ; !"público"
 tee:tee ADJ ; !"típico"
-tee:tee ADJ ; !"propio" !Dir/LR
+tee:tee ADJ ; !"propio"
 tekoha:tekoha ADJ ; !"ambiente"
 tekohagua:tekohagua ADJ ; !"regional"
 tekoporã:tekoporã ADJ ; !"cabal"
-tekoporã:tekoporã ADJ ; !"ética" !Dir/LR
+tekoporã:tekoporã ADJ ; !"ética"
 tekove:tekove ADJ ; !"sujeto"
 tekove% rehegua:tekove% rehegua ADJ ; !"orgánico"
 temberegua:temberegua ADJ ; !"labial"
 tembetãigua:tembetãigua ADJ ; !"labiodental"
 tembe'y:tembe'y ADJ ; !"litoral"
-tembe'y:tembe'y ADJ ; !"borde" !Dir/LR
+tembe'y:tembe'y ADJ ; !"borde"
 tembe'ygua:tembe'ygua ADJ ; !"marginal"
-tembe'ygua:tembe'ygua ADJ ; !"limítrofe" !Dir/LR
+tembe'ygua:tembe'ygua ADJ ; !"limítrofe"
 tembiguaireko:tembiguaireko ADJ ; !"servil"
 tembiguái:tembiguái ADJ ; !"lacayo"
-tembiguái:tembiguái ADJ ; !"esclava" !Dir/LR
+tembiguái:tembiguái ADJ ; !"esclava"
 tembikuaahára:tembikuaahára ADJ ; !"científico"
 temimo'ã:temimo'ã ADJ ; !"objetivo"
 tendota:tendota ADJ ; !"líder"
 tenondegua:tenondegua ADJ ; !"anterior"
-tenondegua:tenondegua ADJ ; !"precedente" !Dir/LR
+tenondegua:tenondegua ADJ ; !"precedente"
 tenonderã:tenonderã ADJ ; !"futuro"
 teragua'u:teragua'u ADJ ; !"seudónimo"
 terakuã:terakuã ADJ ; !"notable"
 tesarekohára:tesarekohára ADJ ; !"óptico"
 tetymakangue:tetymakangue ADJ ; !"tibia"
 tetãgua:tetãgua ADJ ; !"civil"
-tetãgua:tetãgua ADJ ; !"nativo" !Dir/LR
+tetãgua:tetãgua ADJ ; !"nativo"
 tetãmba'éva:tetãmba'éva ADJ ; !"oficial"
 tetãygua:tetãygua ADJ ; !"nacional"
 tory:tory ADJ ; !"dicha"
@@ -4006,10 +4006,10 @@ tova% rehegua:tova% rehegua ADJ ; !"facial"
 to'ysã:to'ysã ADJ ; !"fresco"
 tuguy'uha:tuguy'uha ADJ ; !"parásito"
 tuicha:tuicha ADJ ; !"espacioso"
-tuicha:tuicha ADJ ; !"grande" !Dir/LR
-tuicha:tuicha ADJ ; !"gran" !Dir/LR
+tuicha:tuicha ADJ ; !"grande"
+tuicha:tuicha ADJ ; !"gran"
 tuichaiterei:tuichaiterei ADJ ; !"magno"
-tuichaiterei:tuichaiterei ADJ ; !"enorme" !Dir/LR
+tuichaiterei:tuichaiterei ADJ ; !"enorme"
 tuichaitevéva:tuichaitevéva ADJ ; !"máxima"
 tuicháva:tuicháva ADJ ; !"feroz"
 tuja:tuja ADJ ; !"viejo"
@@ -4020,25 +4020,25 @@ tykue:tykue ADJ ; !"sumo"
 tymba:tymba ADJ ; !"animal"
 tymbajára:tymbajára ADJ ; !"ganadero"
 tysýi:tysýi ADJ ; !"listado"
-tysýi:tysýi ADJ ; !"lista" !Dir/LR
+tysýi:tysýi ADJ ; !"lista"
 táva% rehegua:táva% rehegua ADJ ; !"urbano"
 tãiguasu:tãiguasu ADJ ; !"molar"
 téra% rehegua:téra% rehegua ADJ ; !"nominal"
-téra% rehegua:téra% rehegua ADJ ; !"onomástico" !Dir/LR
+téra% rehegua:téra% rehegua ADJ ; !"onomástico"
 vai:vai ADJ ; !"feo"
-vai:vai ADJ ; !"grave" !Dir/LR
+vai:vai ADJ ; !"grave"
 vairasa:vairasa ADJ ; !"pésimo"
 vaive:vaive ADJ ; !"peor"
 vaka% reheguáva:vaka% reheguáva ADJ ; !"vacuno"
 vevúi:vevúi ADJ ; !"leve"
-vevúi:vevúi ADJ ; !"sutil" !Dir/LR
-vevúi:vevúi ADJ ; !"liviano" !Dir/LR
+vevúi:vevúi ADJ ; !"sutil"
+vevúi:vevúi ADJ ; !"liviano"
 voi:voi ADJ ; !"temprano"
 ygagua:ygagua ADJ ; !"naval"
 ymaguare:ymaguare ADJ ; !"legendario"
 ypykue:ypykue ADJ ; !"original"
-ypykue:ypykue ADJ ; !"indígena" !Dir/LR
-ypykue:ypykue ADJ ; !"primitivo" !Dir/LR
+ypykue:ypykue ADJ ; !"indígena"
+ypykue:ypykue ADJ ; !"primitivo"
 yregua:yregua ADJ ; !"fluvial"
 ysapy:ysapy ADJ ; !"sereno"
 yvasa'i:yvasa'i ADJ ; !"mora"
@@ -4055,10 +4055,39 @@ yvysa'y:yvysa'y ADJ ; !"marrón"
 ñangarekoha:ñangarekoha ADJ ; !"casero"
 ñarõ:ñarõ ADJ ; !"bravo"
 ñaña:ñaña ADJ ; !"malo"
-ñaña:ñaña ADJ ; !"villano" !Dir/LR
-ñaña:ñaña ADJ ; !"perverso" !Dir/LR
+ñaña:ñaña ADJ ; !"villano"
+ñaña:ñaña ADJ ; !"perverso"
 ñembohovái:ñembohovái ADJ ; !"justa"
 ñembosarái:ñembosarái ADJ ; !"lúdico"
 ñembo'e% porundy:ñembo'e% porundy ADJ ; !"novena"
 ñemi:ñemi ADJ ; !"secreto"
 ñemombe'u% rehegua:ñemombe'u% rehegua ADJ ; !"narrativo"
+amyrỹi:amyrỹi ADJ ; !"difunto"
+g̃uaig̃ui:g̃uaig̃ui ADJ ; !"vieja"
+hũngy:hũngy ADJ ; !"gris"
+hungy:hungy ADJ ; !"gris" !Dir/LR
+hangy:hangy ADJ ; !"gris" !Dir/LR
+kuarahyresẽgua:kuarahyresẽgua ADJ ; !"oriental"
+michĩve:michĩve ADJ ; !"menor"
+mopotĩha:mopotĩha ADJ ; !"limpiador"
+morotĩ:morotĩ ADJ ; !"blanco"
+morotï:morotï ADJ ; !"blanco" !Dir/LR
+moroti:moroti ADJ ; !"blanco" !Dir/LR
+oiypýva:oiypýva ADJ ; !"natural"
+peteĩcha:peteĩcha ADJ ; !"idéntico"
+peteĩcha:peteĩcha ADJ ; !"igual"
+peteĩchagua:peteĩchagua ADJ ; !"uniforme"
+peteĩteĩme:peteĩteĩme ADJ ; !"individual"
+poteĩha:poteĩha ADJ ; !"sexto"
+poteïha:poteïha ADJ ; !"sexto" !Dir/LR
+pytãhũ:pytãhũ ADJ ; !"morado"
+pytãho:pytãho ADJ ; !"morado" !Dir/LR
+tekotevẽtéva:tekotevẽtéva ADJ ; !"vital"
+tekotevẽtéva:tekotevẽtéva ADJ ; !"indispensable"
+ñeikotevẽva:ñeikotevẽva ADJ ; !"necesaria"
+ñeikotevëva:ñeikotevëva ADJ ; !"necesaria" !Dir/LR
+ñemitỹhára:ñemitỹhára ADJ ; !"labrador"
+ñemoiha:ñemoiha ADJ ; !"rival"
+ñemoĩha:ñemoĩha ADJ ; !"rival" !Dir/LR
+ñepyrũmby:ñepyrũmby ADJ ; !"primario"
+ñepyrumby:ñepyrumby ADJ ; !"primario" !Dir/LR
