@@ -95648,7 +95648,7 @@ n ^pohã/pohã<n>
 v ^pohã/pohã<v>
 x ^ha/ha<cnjcoo>
 v ^ha/ha<v>
-v  ^A/a<v>
+v ^A/a<v>
 x ^ha/ha<cnjcoo>
 v ^ha/ha<v>
 x ^ha/ha<cnjcoo>
@@ -106397,9 +106397,9 @@ v ^ha/ha<v>
 n ^Tekoha/tekoha<n>
 a ^Tekoha/tekoha<adj>
 v ^Tekoha/tekoha<v>
-n  "^Tekoha/tekoha<n>
-a  "^Tekoha/tekoha<adj>
-v  "^Tekoha/tekoha<v>
+n "^Tekoha/tekoha<n>
+a "^Tekoha/tekoha<adj>
+v "^Tekoha/tekoha<v>
 n ^tekoha/tekoha<n>
 a ^tekoha/tekoha<adj>
 v ^tekoha/tekoha<v>
@@ -106855,8 +106855,8 @@ x ^ha/ha<cnjcoo>
 v ^ha/ha<v>
 x ^ha/ha<cnjcoo>
 v ^ha/ha<v>
-x  ^Ko/ko<det><dem><pre><sg>
-v  ^Ko/ko<v>
+x ^Ko/ko<det><dem><pre><sg>
+v ^Ko/ko<v>
 n ^téra/téra<n>
 v ^téra/téra<v>
 x ^ha/ha<cnjcoo>
@@ -109449,8 +109449,8 @@ v ^mba/e<v>
 x ^sỹi/*sỹi$ ^ha
 x ^sỹi/ha<cnjcoo>
 v ^sỹi/ha<v>
-x  ^mba/*mba$ʼ^e
-v  ^mba/e<v>
+x ^mba/*mba$ʼ^e
+v ^mba/e<v>
 v ^ári/ári<v>
 v ^mboja/mboja<v>
 v ^mboja/mboja<v>
