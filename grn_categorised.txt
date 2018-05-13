@@ -2,8 +2,8 @@ n ^Ayvu/ayvu<n>
 v ^Ayvu/ayvu<v>
 n ^Ayvu/ayvu<n>
 v ^Ayvu/ayvu<v>
-n "^Ayvu/ayvu<n>
-v "^Ayvu/ayvu<v>
+n ^Ayvu/ayvu<n>
+v ^Ayvu/ayvu<v>
 n ^ayvu/ayvu<n>
 v ^ayvu/ayvu<v>
 v ^oikuaa/o<prn><p3><sg>+i<det><pos><p3><sg>+kuaa<v>
@@ -38,7 +38,7 @@ v ^a/a<v>
 v ^a/a<v>
 v ^a/a<v>
 v ^a/a<v>
-v (^a/a<v>
+v ^a/a<v>
 v ^e/e<v>
 v ^A/a<v>
 v ^A/a<v>
@@ -75,7 +75,6 @@ v ^ko/ko<v>
 x ^ha/ha<cnjcoo>
 v ^ha/ha<v>
 x ^ha/ha<cnjcoo>
-x ^ha/
 v ^ha/ha<v><iv><pres>$ʼ^e
 v ^ha/e<v>
 x ^ha/ha<cnjcoo>

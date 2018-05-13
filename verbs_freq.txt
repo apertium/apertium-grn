@@ -326,6 +326,7 @@ f^uer/a<v>
 ^ñembokatupyry/ñembokatupyry<v>
 ^apu/a<prn><p1><sg>+popo<v>
 ^Pepo/pe<prn><p2><pl>+po<v>
+^Ayvu/ayvu<v>
 ^ipya/e<v>
 ^japu/japu<v>
 ^pyte/pyte<v>
@@ -347,8 +348,6 @@ F^e/e<v>
 ^tuju/tuju<v>
 5^ha/ha<v>
 ^Apu/a<v>
-^Ayvu/ayvu<v>
-(^a/a<v>
 ^pytyvõhára/pytyvõhára<v>
 ^Me/me<v>
 ^pyta/pyta<v>
@@ -391,6 +390,7 @@ F^e/e<v>
 ^momba/momba<v>
 ^ahecha/a<prn><p1><sg>+hecha<v>
 ^mboyvegua/mboyvegua<v>
+(^a/a<v>
 ^jajavy/a<prn><p1><pl><incl>+javy<v>
 ^jerure/jerure<v>
 ^kóga/kóga<v>
@@ -826,7 +826,6 @@ W^a/a<v>
 ^Jaména/a<prn><p1><pl><incl>+ména<v>
 161^ha/ha<v>
 ^oisyry/o<prn><p3><sg>+i<det><pos><p3><sg>+syry<v>
-"^Ayvu/ayvu<v>
 ^Argentina/me<v>
 ^Inglatera/ygua<v>
 ^añomi/a<prn><p1><sg>+ñomi<v>
@@ -2257,6 +2256,7 @@ F^uer/a<v>
 ^Británica/ygua<v>
 ^Li/e<v>
 “W^e/e<v>
+"^Ayvu/ayvu<v>
 ^Ko/ko<v><iv><pres>$´^a
 1821-^me/me<v>
 “^Peipe/a<v>
