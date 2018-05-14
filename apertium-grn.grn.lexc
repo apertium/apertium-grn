@@ -157,6 +157,30 @@ ro%<prn%>%<p1%>%<pl%>%<excl%>%+:ro%{P%} Verbs ;
 
 pe%<prn%>%<p2%>%<pl%>%+:pe%{P%} Verbs ;
 
+LEXICON IrrVerbs
+ha'e%<v%>%<iv%>%<p1%>%<sg%>%<pres%>:ha'e # ; ! digo 
+ere%<v%>%<iv%>%<p2%>%<sg%>%<pres%>:ere # ; ! dices
+he'i%<v%>%<iv%>%<p3%>%<sg%>%<pres%>:he'i # ; ! dice 
+ja'e%<v%>%<iv%>%<p1%>%<pl%>%<pres%>:ja'e # ; ! decimos 
+ro'e%<v%>%<iv%>%<p1%>%<pl%>%<pres%>:ro'e # ; ! decimos 
+peje%<v%>%<iv%>%<p2%>%<pl%>%<pres%>:peje # ; ! decis 
+he'i%<v%>%<iv%>%<p3%>%<pl%>%<pres%>:he'i # ; ! dicen 
+
+aju%<v%>%<iv%>%<p1%>%<sg%>%<pres%>:aju # ; ! vengo
+reju%<v%>%<iv%>%<p2%>%<sg%>%<pres%>:reju # ; ! vienes 
+ou%<v%>%<iv%>%<p2%>%<sg%>%<pres%>:ou # ; ! viene 
+jaju%<v%>%<iv%>%<p1%>%<pl%>%<pres%>:jaju # ; ! venimos 
+roju%<v%>%<iv%>%<p1%>%<pl%>%<pres%>:roju # ; ! venimos 
+peju%<v%>%<iv%>%<p2%>%<pl%>%<pres%>:peju # ; ! venis 
+ou%<v%>%<iv%>%<p3%>%<pl%>%<pres%>:ou # ; ! vienen
+
+aha%<v%>%<iv%>%<p1%>%<sg%>%<pres%>:aha # ; ! voy 
+reho%<v%>%<iv%>%<p2%>%<sg%>%<pres%>:reho # ; ! vas 
+oho%<v%>%<iv%>%<p3%>%<sg%>%<pres%>:oho # ; ! va
+jaha%<v%>%<iv%>%<p1%>%<pl%>%<pres%>:jaha # ; ! vamos 
+roho%<v%>%<iv%>%<p1%>%<pl%>%<pres%>:roho # ; ! vamos 
+peho%<v%>%<iv%>%<p2%>%<pl%>%<pres%>:peho # ; ! vais 
+
 LEXICON PossessiveDeterminers 
 
 che%<prn%>%<pos%>%<p1%>%<sg%>%+:che%{p%} Nouns ;
