@@ -14,6 +14,7 @@ a b ã c e ẽ g g̃ h i ĩ j k l m n ñ o õ p r s t u ũ v w x y z ỹ á é �
 %{T%}:0
 %{p%}:0 %{p%}:r
 %{E%}:i %{E%}:e
+%{d%}:d %{d%}:0 
 
 %>:0 
 % 
@@ -111,3 +112,6 @@ C:0 <=> %{p%}: %{T%}: [ Vows: | Cns: ]+ _ Vows: # ;
 
 "Surface [e] after weak vowels in quantifiers" 
 %{E%}:e <=> VowsWeak: %>: _ ;
+
+"Remove [d] in negative verbs before nasals"
+%{d%}:0 <=> _ [CnsNorm: | Vows:]+  Nas: ;
