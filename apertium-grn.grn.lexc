@@ -20,6 +20,7 @@ Multichar_Symbols
 
 %<tv%>               ! Transitivo
 %<iv%>               ! Intransitivo
+%<neg%>              ! Negativo
 
 %<top%>              ! Toponimo
 
@@ -62,6 +63,7 @@ Multichar_Symbols
 %{T%}              ! Archiphoneme [t] for biform nouns
 %{p%}              ! Archiphoneme for change in possessive biform nouns
 %{E%}              ! Archiphoneme for [e] in quantifiers 
+%{d%}              ! Archiphoneme for [d] in negative verbs 
 
 
 LEXICON Root 
@@ -80,6 +82,7 @@ DemDeterminers ;
 Adjectives ;
 Punctuation ;
 Connectors ;
+
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -105,9 +108,6 @@ LEXICON N-PL
 
 %+kuéra%<pl%>:%>%{N%}%{K%}uéra # ;
 
-
-LEXICON DET 
-%i%<det%>%<pos%>%<p3%>%<sg%>%+:%>i Verbs ; !! oikoha "lo"
 
 LEXICON CC
 
@@ -145,16 +145,24 @@ aipo%<det%>%<dem%>%<abs%>%<sg%>:aipo # ; ! "aquel, aquella"
 ako%<det%>%<dem%>%<abs%>%<sg%>:ako # ; ! "aquel, aquella"
 umi%<det%>%<dem%>%<abs%>%<pl%>:umi # ; ! "esos, esas, aquellos, aquellas"
 
+!!!!!!!!!!!!! VERBAL LEXICONS !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+LEXICON DET 
+%i%<det%>%<pos%>%<p3%>%<sg%>%+:%>i Verbs ; !! oikoha "lo"
 
+LEXICON VerbNegPref
+nd%<neg%>%+:nd VerbalPrefixes ; 
 
+LEXICON VerbsNegSuf
+%+i%<neg%>:%>%i # ;
+%+ri%<neg%>:%>%ri # ;
 
 LEXICON VerbalPrefixes   
 
 a%<prn%>%<p1%>%<sg%>%+:a%{P%} Verbs ;
 re%<prn%>%<p2%>%<sg%>%+:re%{P%} Verbs ;
 o%<prn%>%<p3%>%<sg%>%+:o%{P%} DET ;
-
+o%<prn%>%<p3%>%<sg%>%+:o%{P%} Verbs ;
 a%<prn%>%<p1%>%<pl%>%<incl%>%+:%{J%}a%{P%} Verbs ;
 ro%<prn%>%<p1%>%<pl%>%<excl%>%+:ro%{P%} Verbs ;
 
@@ -229,18 +237,15 @@ i%<prn%>%<pos%>%<p3%>%<sg%>%+:%{H%}i%{I%}%{p%} Nouns ;
 o%<prn%>%<pos%>%<p3%>%<sg%>%+:o%{P%}%{p%} Nouns ;
 
 
-
-LEXICON K
-
-# ;
-
 LEXICON V-INFL 
 
-%<pres%>: K;
+%<pres%>: # ;
+%<pres%>: VerbsNegSuf;
 
 LEXICON V 
 
 %<v%>%<iv%>: V-INFL ;
+%<v%>%<tv%>: # ;
 
 
 LEXICON Conjunctions 
@@ -249,13 +254,13 @@ ha:ha CC ; ! "y"
 
 LEXICON PersonalPronouns
 
-ché%<prn%>%<pers%>%<p1%>%<sg%>:ché K ; ! "yo"
-ndé%<prn%>%<pers%>%<p2%>%<sg%>:ndé K ; ! tú
-haʼe%<prn%>%<pers%>%<p3%>%<sg%>:haʼe K ; ! "él, ella"
-ñandé%<prn%>%<pers%>%<p1%>%<incl%>%<pl%>:ñandé K ;
-oré%<prn%>%<pers%>%<p1%>%<excl%>%<pl%>:oré K ;
-peẽ%<prn%>%<pers%>%<p2%>%<pl%>:peẽ K ;
-haʼekuéra%<prn%>%<pers%>%<p3%>%<pl%>:haʼekuéra K ;
+ché%<prn%>%<pers%>%<p1%>%<sg%>:ché # ; ! "yo"
+ndé%<prn%>%<pers%>%<p2%>%<sg%>:ndé # ; ! tú
+haʼe%<prn%>%<pers%>%<p3%>%<sg%>:haʼe # ; ! "él, ella"
+ñandé%<prn%>%<pers%>%<p1%>%<incl%>%<pl%>:ñandé # ;
+oré%<prn%>%<pers%>%<p1%>%<excl%>%<pl%>:oré # ;
+peẽ%<prn%>%<pers%>%<p2%>%<pl%>:peẽ # ;
+haʼekuéra%<prn%>%<pers%>%<p3%>%<pl%>:haʼekuéra # ;
 
 
 
@@ -2082,6 +2087,9 @@ Chile:Chile NP-TOP ; ! "Chile"
 
 LEXICON Verbs 
 
+ĩ:ĩ V ; ! "estar"
+se:se V ; ! "salir" 
+pu:pu V ; ! "sonar, tocar"
 a:a V ; !"fructificar"
 ai:ai V ; !"llaga"
 aju:aju V ; !"maduro"
