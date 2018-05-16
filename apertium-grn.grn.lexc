@@ -162,14 +162,19 @@ LEXICON VerbsNegSuf
 
 LEXICON VerbalPrefixes   
 
-a%<prn%>%<p1%>%<sg%>%+:a%{P%} Verbs ;
-re%<prn%>%<p2%>%<sg%>%+:re%{P%} Verbs ;
-o%<prn%>%<p3%>%<sg%>%+:o%{P%} DET ;
-o%<prn%>%<p3%>%<sg%>%+:o%{P%} Verbs ;
-a%<prn%>%<p1%>%<pl%>%<incl%>%+:%{J%}a%{P%} Verbs ;
-ro%<prn%>%<p1%>%<pl%>%<excl%>%+:ro%{P%} Verbs ;
+VerbNegPref ;
+PersonAgr ;
 
-pe%<prn%>%<p2%>%<pl%>%+:pe%{P%} Verbs ;
+LEXICON PersonAgr
+
+a%<prn%>%<p1%>%<sg%>%+:%>a%{P%} Verbs ;
+re%<prn%>%<p2%>%<sg%>%+:%>re%{P%} Verbs ;
+o%<prn%>%<p3%>%<sg%>%+:%>o%{P%} DET ;
+o%<prn%>%<p3%>%<sg%>%+:%>o%{P%} Verbs ;
+a%<prn%>%<p1%>%<pl%>%<incl%>%+:%>%{J%}a%{P%} Verbs ;
+ro%<prn%>%<p1%>%<pl%>%<excl%>%+:%>ro%{P%} Verbs ;
+
+pe%<prn%>%<p2%>%<pl%>%+:%>pe%{P%} Verbs ;
 
 LEXICON IrrVerbs
 ha'e%<v%>%<iv%>%<p1%>%<sg%>%<pres%>:ha'e # ; ! digo 
