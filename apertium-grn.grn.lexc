@@ -83,6 +83,8 @@ DemDeterminers ;
 Adjectives ;
 Punctuation ;
 Connectors ;
+Numerals ;
+VerbNegPref ;
 
 
 
@@ -152,7 +154,7 @@ LEXICON DET
 %i%<det%>%<pos%>%<p3%>%<sg%>%+:%>i Verbs ; !! oikoha "lo"
 
 LEXICON VerbNegPref
-nd%<neg%>%+:nd Verbs ; 
+nd%<neg%>%+:nd VerbalPrefixes ; 
 
 LEXICON VerbsNegSuf
 %+i%<neg%>:%>%{r%}i # ;
@@ -279,6 +281,17 @@ apytepe:apytepe POST ; ! "en medio de"
 
 ha:ha POST-V ; ! "sustantivante verbal que/donde"
 
+LEXICON Numerals
+peteĩ%<num%>:peteĩ # ; ! "uno"
+mokõi%<num%>:mokõi # ; ! "dos"
+mbohapy%<num%>:mbohapy # ; ! "tres"
+irundy%<num%>:irundy # ; !"cuatro"
+po%<num%>:po # ; ! "cinco"
+poteĩ%<num%>:poteĩ # ; ! "seis"
+pokõi%<num%>:pokõi # ; ! "siete"
+poapy%<num%>:poapy # ; ! "ocho"
+porundy%<num%>:porundy # ; ! "nueve"
+pa%<num%>:pa # ; ! "diez"
 
 LEXICON Biformes 
 
