@@ -14,6 +14,7 @@ Multichar_Symbols
 %<num%>              ! Número
 %<np%>               ! Nombre proprio
 %<v%>                ! Verbo
+%<vbser%>            ! Verbo ser
 %<post%>             ! Posposición
 %<cnjcoo%>           ! Conjunción coordinada
 
@@ -78,6 +79,7 @@ Biformes ;
 DemDeterminers ;
 Adjectives ;
 Punctuation ;
+Connectors ;
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -181,6 +183,28 @@ oho%<v%>%<iv%>%<p3%>%<sg%>%<pres%>:oho # ; ! va
 jaha%<v%>%<iv%>%<p1%>%<pl%>%<pres%>:jaha # ; ! vamos 
 roho%<v%>%<iv%>%<p1%>%<pl%>%<pres%>:roho # ; ! vamos 
 peho%<v%>%<iv%>%<p2%>%<pl%>%<pres%>:peho # ; ! vais 
+
+ha'u%<v%>%<tv%>%<p1%>%<sg%>%<pres%>:ha'u # ; ! como 
+re'u%<v%>%<tv%>%<p2%>%<sg%>%<pres%>:re'u # ; ! comes 
+ho'u%<v%>%<tv%>%<p3%>%<sg%>%<pres%>:ho'u # ; ! come 
+ja'u%<v%>%<tv%>%<p1%>%<pl%>%<pres%>:ja'u # ; ! comemos 
+ro'u%<v%>%<tv%>%<p1%>%<pl%>%<pres%>:ro'u # ; ! comemos
+pe'u%<v%>%<tv%>%<p2%>%<pl%>%<pres%>:pe'u # ; ! comeis 
+
+hay'u%<v%>%<tv%>%<p1%>%<sg%>%<pres%>:hay'u # ; ! bebe 
+rey'u%<v%>%<tv%>%<p2%>%<sg%>%<pres%>:rey'u # ; ! bebes 
+hoy'u%<v%>%<tv%>%<p3%>%<sg%>%<pres%>:hoy'u # ; ! bebe 
+jay'u%<v%>%<tv%>%<p1%>%<pl%>%<pres%>:jay'u # ; ! bebemos 
+roy'u%<v%>%<tv%>%<p1%>%<pl%>%<pres%>:roy'u # ; ! bebemos
+pey'u%<v%>%<tv%>%<p2%>%<pl%>%<pres%>:pey'u # ; ! bebeis  
+
+
+
+LEXICON Connectors
+ha'e%<vbser%>%<iv%>%<p1%>%<sg%>%<pres%>:ha'e # ; ! ser
+ikatu%<v%>%<iv%>%<p1%>%<sg%>%<pres%>:ikatu # ; ! poder 
+hi'ã%<v%>%<iv%>%<p1%>%<sg%>%<pres%>:hi'ã # ; ! parecer, desear
+
 
 LEXICON PossessiveDeterminers 
 
