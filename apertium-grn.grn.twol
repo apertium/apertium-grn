@@ -15,6 +15,7 @@ a b ã c e ẽ g g̃ h i ĩ j k l m n ñ o õ p r s t u ũ v w x y z ỹ á é �
 %{p%}:0 %{p%}:r
 %{E%}:i %{E%}:e
 %{d%}:d %{d%}:0 
+%{r%}:0 %{r%}:r
 
 %>:0 
 % 
@@ -113,5 +114,12 @@ C:0 <=> %{p%}: %{T%}: [ Vows: | Cns: ]+ _ Vows: # ;
 "Surface [e] after weak vowels in quantifiers" 
 %{E%}:e <=> VowsWeak: %>: _ ;
 
-"Remove [d] in negative verbs before nasals"
-%{d%}:0 <=> _ [CnsNorm: | Vows:]+  Nas: ;
+!"Remove [d] in negative verbs before nasals"
+!%{d%}:0 <=> _ [CnsNorm: | Vows:]+  Nas: ;
+
+"%{r%} as r in negative verbs ending with i"
+%{r%}:r <=> i: %>: _ ;
+
+"Change i to í before negative suffix ri"
+Va:Vt <=> [Cns: | VowsAton: | Nas: ]+ _ %>: %{r%}: ;
+          where Va in VowsAton Vt in VowsTon matched ;

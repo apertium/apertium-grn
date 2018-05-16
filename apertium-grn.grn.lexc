@@ -64,6 +64,7 @@ Multichar_Symbols
 %{p%}              ! Archiphoneme for change in possessive biform nouns
 %{E%}              ! Archiphoneme for [e] in quantifiers 
 %{d%}              ! Archiphoneme for [d] in negative verbs 
+%{r%}              ! Archiphoneme for [r] in negative verbs
 
 
 LEXICON Root 
@@ -82,7 +83,6 @@ DemDeterminers ;
 Adjectives ;
 Punctuation ;
 Connectors ;
-VerbNegPref ;
 
 
 
@@ -152,11 +152,11 @@ LEXICON DET
 %i%<det%>%<pos%>%<p3%>%<sg%>%+:%>i Verbs ; !! oikoha "lo"
 
 LEXICON VerbNegPref
-nd%<neg%>%+:nd VerbalPrefixes ; 
+nd%<neg%>%+:nd Verbs ; 
 
 LEXICON VerbsNegSuf
-%+i%<neg%>:%>%i # ;
-%+ri%<neg%>:%>%ri # ;
+%+i%<neg%>:%>%{r%}i # ;
+
 
 LEXICON VerbalPrefixes   
 
