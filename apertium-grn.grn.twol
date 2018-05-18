@@ -59,7 +59,7 @@ Rules
 •:0 <=> _ ;
 
 "Remove tonal vowel if tonal in affix"
-Vt:Va <=> •: _ [ Cns: | %>: | Nas: | VowsAton: ]+ _ VowsTon: ;
+Vt:Va <=> •: _ [ Cns: | %>: | Nas: | VowsAton: ]+ VowsTon: ;
            where Vt in VowsTon Va in VowsAton matched ; 
 
 "Add nasal prefix [ñ] in present 1pl incl"
