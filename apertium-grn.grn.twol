@@ -16,6 +16,7 @@ a b ã c d e ẽ g g̃ h i ĩ j k l m n ñ o õ p r s t u ũ v w x y z ỹ á é
 %{E%}:i %{E%}:e
 %{d%}:d %{d%}:0 
 %{r%}:0 %{r%}:r
+•:0
 
 %>:0 
 % 
@@ -53,6 +54,13 @@ Rules
 
 "Remove morpheme boundary"
 %>:0 <=> _ ; 
+
+"Remove stress marker"
+•:0 <=> _ ;
+
+"Remove tonal vowel if tonal in affix"
+Vt:Va <=> •: _ [ Cns: | %>: | Nas: | VowsAton: ]+ _ VowsTon: ;
+           where Vt in VowsTon Va in VowsAton matched ; 
 
 "Add nasal prefix [ñ] in present 1pl incl"
 %{J%}:ñ <=> _ a: CNAS: ;
@@ -114,8 +122,8 @@ C:0 <=> %{p%}: %{T%}: [ Vows: | Cns: ]+ _ Vows: # ;
 "Surface [e] after weak vowels in quantifiers" 
 %{E%}:e <=> VowsWeak: %>: _ ;
 
-!"Remove [d] in negative verbs before nasals"
-!%{d%}:0 <=> _ [CnsNorm: | Vows:]+  Nas: ;
+"Remove [d] in negative verbs before nasals"
+%{d%}:0 <=> _ %>: [CnsNorm: | VowsAton: |VowsTon: ]+ Nas: ;
 
 "%{r%} as r in negative verbs ending with i"
 %{r%}:r <=> i: %>: _ ;
