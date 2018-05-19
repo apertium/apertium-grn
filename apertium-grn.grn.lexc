@@ -17,6 +17,7 @@ Multichar_Symbols
 %<vbser%>            ! Verbo ser
 %<post%>             ! Posposición
 %<cnjcoo%>           ! Conjunción coordinada
+%<ind%>              ! Indefinido
 
 %<tv%>               ! Transitivo
 %<iv%>               ! Intransitivo
@@ -85,6 +86,7 @@ Punctuation ;
 Connectors ;
 Numerals ;
 VerbNegPref ;
+AdjIndef ;
 
 
 
@@ -285,6 +287,19 @@ hyepype:hyepype POST ; ! "adentro"
 apytepe:apytepe POST ; ! "en medio de"
 
 !ha:ha POST-V ; ! "sustantivante verbal que/donde"
+
+!!!!!!!!!!!!!ADJECTIVES!!!!!!!!!!!!!!
+
+LEXICON AdjIndef
+heta%<adj%>%<ind%>:heta # ; ! "mucho"
+mbovy%<adj%>%<ind%>:mbovy # ; ! "poco"
+avave%<adj%>%<ind%>:avave # ; ! "ningún"
+oimeraẽva%<adj%>%<ind%>:oimeraẽva # ; ! "cualquier" 
+ambue%<adj%>%<ind%>:ambue # ; ! "otro" 
+opa%<adj%>%<ind%>:opa # ; ! "todos"
+opavave%<adj%>%<ind%>:opavave # ; ! "todos"
+mayma%<adj%>%<ind%>:mayma # ; ! "cada, todos"
+maymáva%<adj%>%<ind%>:maymáva # ; ! "cada, todos"
 
 LEXICON ADJ-DIS 
 %+ve%<adj%>%<dist%>:ve # ;
