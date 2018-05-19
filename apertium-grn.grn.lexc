@@ -287,6 +287,7 @@ apytepe:apytepe POST ; ! "en medio de"
 !ha:ha POST-V ; ! "sustantivante verbal que/donde"
 
 LEXICON Numerals
+
 peteĩ%<num%>:peteĩ # ; ! "uno"
 mokõi%<num%>:mokõi # ; ! "dos"
 mbohapy%<num%>:mbohapy # ; ! "tres"
@@ -307,8 +308,8 @@ papokõi%<num%>:papokõi # ; ! "diecisiete"
 papoapy%<num%>:papoapy # ; ! "dieciocho"
 paporundy%<num%>:paporundy # ; ! "diecinueve"
 mokõipa%<num%>:mokõipa # ; ! "veinte"
-mokõipa %petẽi%<num%>:mokõipa %petẽi # ; ! "veiniuno"
-mokõipa %mokõi%<num%>:mokõipa %mokõi # ; ! "veintidos"
+mokõipa% petẽi%<num%>:mokõipa% petẽi # ; ! "veiniuno"
+mokõipa% mokõi%<num%>:mokõipa% mokõi # ; ! "veintidos"
 mbohapypa%<num%>:mbohapypa # ; ! "trenta"
 irundypa%<num%>:irundypa # ; ! "cuarenta"
 popa:popa # ; ! "cincuenta"
@@ -328,7 +329,7 @@ ramói:ramói N ; ! "abuelo, cnamán"
 remiarirõ:remiarirõ N ; ! "nieto"
 rovaja:rovaja N ; ! "cuñado"
 ru:ru N ; ! "padre"
-ryvy:ryvy ; ! "hermano"
+ryvy:ryvy N ; ! "hermano"
 rykéra:rtykéra N ; ! "hermana mayor"
 ra’y:ra’y N ; ! "hijo" 
 rajy:rajy N ; ! "hija"
@@ -3083,7 +3084,4 @@ LEXICON Punctuation
 ! Temporary numeral lexicon
 <[%0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9]+>  DIGITLEX ; ! Use/Circ
 
-LEXICON DIGITLEX
-
-%<num%>: # ;
 
