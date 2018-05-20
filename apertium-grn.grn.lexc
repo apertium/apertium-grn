@@ -9,6 +9,8 @@ Multichar_Symbols
 %<incl%>             ! incluyente
 %<excl%>             ! excluyente 
 %<prn%>              ! Pronombre
+%<pro%>              ! Proclitico
+%<ref%>              ! Reflexivo
 
 %<n%>                ! Nombre
 %<num%>              ! Número
@@ -128,8 +130,6 @@ LEXICON N
 %<n%>: N-PL ;
 %<n%>: QNT ;
 
-LEXICON ADJ
-%<adj%>: # ;
 
 LEXICON NP-TOP
 
@@ -223,6 +223,11 @@ ha'e%<vbser%>%<iv%>%<p1%>%<sg%>%<pres%>:ha'e # ; ! ser
 ikatu%<v%>%<iv%>%<p1%>%<sg%>%<pres%>:ikatu # ; ! poder 
 hi'ã%<v%>%<iv%>%<p1%>%<sg%>%<pres%>:hi'ã # ; ! parecer, desear
 
+!!!!!! PRONOUNS !!!!!!!!!!!!!!!!!
+
+!LEXICON PRO-REF 
+
+
 
 LEXICON PossessiveDeterminers 
 
@@ -289,6 +294,9 @@ apytepe:apytepe POST ; ! "en medio de"
 !ha:ha POST-V ; ! "sustantivante verbal que/donde"
 
 !!!!!!!!!!!!!ADJECTIVES!!!!!!!!!!!!!!
+
+LEXICON ADJ
+%<adj%>: # ;
 
 LEXICON AdjIndef
 heta%<adj%>%<ind%>:heta # ; ! "mucho"
