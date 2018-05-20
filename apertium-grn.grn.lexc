@@ -35,8 +35,9 @@ Multichar_Symbols
 %<det%>              ! Determiner
 %<qnt%>              ! Quantifier
 %<dem%>              ! Demonstrative 
-%<pre%>              ! Presence determiners 
-%<abs%>              ! Absence determiners 
+
+%<acc%>              ! Accusative 
+
 
 
 %<percent%>          ! Percent
@@ -89,6 +90,7 @@ Connectors ;
 Numerals ;
 VerbNegPref ;
 AdjIndef ;
+
 
 
 
@@ -152,8 +154,16 @@ umi%<det%>%<dem%>%<abs%>%<pl%>:umi # ; ! "esos, esas, aquellos, aquellas"
 
 !!!!!!!!!!!!! VERBAL LEXICONS !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-LEXICON DET 
-%i%<det%>%<pos%>%<p3%>%<sg%>%+:%>i Verbs ; !! oikoha "lo"
+LEXICON V-INFL 
+
+%<pres%>: # ;
+%<pres%>: VerbsNegSuf;
+
+LEXICON V 
+
+%<v%>%<iv%>: V-INFL ;
+%<v%>%<tv%>: # ;
+
 
 LEXICON VerbNegPref
 nd%<neg%>%+:nd VerbalPrefixes ; 
@@ -177,6 +187,23 @@ a%<prn%>%<p1%>%<pl%>%<incl%>%+:%>%{J%}a%{P%} Verbs ;
 ro%<prn%>%<p1%>%<pl%>%<excl%>%+:%>ro%{P%} Verbs ;
 
 pe%<prn%>%<p2%>%<pl%>%+:%>pe%{P%} Verbs ;
+
+LEXICON PRO-CASE
+
+che%<acc%>%<p1%>%<sg%>%+:%>che PRO ;
+nde%<acc%>%<p2%>%<sg%>%+:%>nde PRO ;
+chupe%<acc%>%<p3%>%<sg%>%+:%>chupe PRO ;
+ichupe%<acc%>%<p3%>%<sg%>%+:%>ichupe PRO  ;
+ñande%<acc%>%<p1%>%<pl%>%+:%>ñande PRO ;
+ore%<acc%>%<p1%>%<pl%>%+:%>ore PRO ;
+pende%<acc%>%<p2%>%<pl%>%+:%>pende PRO ;
+pende%<acc%>%<p2%>%<pl%>%+:%>pende PRO ;
+
+
+LEXICON PRO
+%<pro%>: Verbs ;
+
+che%<prn%>%<pos%>%<p1%>%<sg%>%+:che%{p%} Nouns ;
 
 LEXICON IrrVerbs
 ha'e%<v%>%<iv%>%<p1%>%<sg%>%<pres%>:ha'e # ; ! digo 
@@ -223,11 +250,6 @@ ha'e%<vbser%>%<iv%>%<p1%>%<sg%>%<pres%>:ha'e # ; ! ser
 ikatu%<v%>%<iv%>%<p1%>%<sg%>%<pres%>:ikatu # ; ! poder 
 hi'ã%<v%>%<iv%>%<p1%>%<sg%>%<pres%>:hi'ã # ; ! parecer, desear
 
-!!!!!! PRONOUNS !!!!!!!!!!!!!!!!!
-
-!LEXICON PRO-REF 
-
-
 
 LEXICON PossessiveDeterminers 
 
@@ -250,17 +272,6 @@ pende%<prn%>%<pos%>%<p2%>%<pl%>%+:pen%{D%}e%{p%} Biformes ;
 
 i%<prn%>%<pos%>%<p3%>%<sg%>%+:%{H%}i%{I%}%{p%} Nouns ; 
 o%<prn%>%<pos%>%<p3%>%<sg%>%+:o%{P%}%{p%} Nouns ;
-
-
-LEXICON V-INFL 
-
-%<pres%>: # ;
-%<pres%>: VerbsNegSuf;
-
-LEXICON V 
-
-%<v%>%<iv%>: V-INFL ;
-%<v%>%<tv%>: # ;
 
 
 LEXICON Conjunctions 
