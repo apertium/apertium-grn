@@ -38,6 +38,8 @@ Multichar_Symbols
 %<pre%>              ! Presence determiners 
 %<abs%>              ! Absence determiners 
 
+%<pres%>             ! Presente
+
 
 %<percent%>          ! Percent
 %<sent%>             ! Sentence marker
@@ -87,7 +89,6 @@ Adjectives ;
 Punctuation ;
 Connectors ;
 Numerals ;
-VerbNegPref ;
 AdjIndef ;
 
 
@@ -156,7 +157,9 @@ LEXICON DET
 %i%<det%>%<pos%>%<p3%>%<sg%>%+:%>i Verbs ; !! oikoha "lo"
 
 LEXICON VerbNegPref
-nd%<neg%>%+:nd VerbalPrefixes ; 
+
+nd%<neg%>%+:nd PersonAgr ; 
+nd%<neg%>%+:nd Verbs ; 
 
 LEXICON VerbsNegSuf
 %+i%<neg%>:%>%{r%}i # ;
@@ -3111,4 +3114,6 @@ LEXICON Punctuation
 ! Temporary numeral lexicon
 <[%0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9]+>  DIGITLEX ; ! Use/Circ
 
+LEXICON DIGITLEX
 
+%<num%>: # ;
