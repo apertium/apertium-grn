@@ -90,6 +90,7 @@ Connectors ;
 Numerals ;
 VerbNegPref ;
 AdjIndef ;
+PRO-CASE ;
 
 
 
@@ -203,8 +204,6 @@ pende%<acc%>%<p2%>%<pl%>%+:%>pende PRO ;
 
 LEXICON PRO
 %<pro%>: Verbs ;
-
-che%<prn%>%<pos%>%<p1%>%<sg%>%+:che%{p%} Nouns ;
 
 LEXICON IrrVerbs
 ha'e%<v%>%<iv%>%<p1%>%<sg%>%<pres%>:ha'e # ; ! digo 
@@ -3118,7 +3117,7 @@ LEXICON Punctuation
 …%<sent%>:… # ;
 
 LEXICON DIGITLEX
-+%<num%>: # ;
+%<num%>: # ;
 
 ! %ʼ%<apos%>:%ʼ # ;
 
