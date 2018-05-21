@@ -162,7 +162,7 @@ LEXICON V-INFL
 LEXICON V 
 
 %<v%>%<iv%>: V-INFL ;
-%<v%>%<tv%>: # ;
+!%<v%>%<tv%>: # ;
 
 
 LEXICON VerbNegPref
@@ -182,7 +182,7 @@ LEXICON PersonAgr
 
 a%<prn%>%<p1%>%<sg%>%+:%>a%{P%} Verbs ;
 re%<prn%>%<p2%>%<sg%>%+:%>re%{P%} Verbs ;
-o%<prn%>%<p3%>%<sg%>%+:%>o%{P%} DET ;
+!o%<prn%>%<p3%>%<sg%>%+:%>o%{P%} DET ;
 o%<prn%>%<p3%>%<sg%>%+:%>o%{P%} Verbs ;
 a%<prn%>%<p1%>%<pl%>%<incl%>%+:%>%{J%}a%{P%} Verbs ;
 ro%<prn%>%<p1%>%<pl%>%<excl%>%+:%>ro%{P%} Verbs ;
@@ -3116,6 +3116,9 @@ LEXICON Punctuation
 \%<sent%>:\ # ;
 /%<sent%>:/ # ;
 …%<sent%>:… # ;
+
+LEXICON DIGITLEX
++%<num%>: # ;
 
 ! %ʼ%<apos%>:%ʼ # ;
 
