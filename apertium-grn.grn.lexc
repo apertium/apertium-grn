@@ -166,6 +166,7 @@ LEXICON VerbalPrefixes
 
 VerbNegPref ;
 PersonAgr ;
+Verbs ; 
 
 LEXICON PersonAgr
 
