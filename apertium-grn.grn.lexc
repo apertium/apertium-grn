@@ -6,8 +6,6 @@ Multichar_Symbols
 %<p2%>               ! 2 Persona
 %<p3%>               ! 3 Persona
 %<pl%>               ! Plural
-%<incl%>             ! incluyente
-%<excl%>             ! excluyente 
 %<prn%>              ! Pronombre
 %<pro%>              ! Proclitico
 %<ref%>              ! Reflexivo
@@ -188,25 +186,25 @@ a%<prn%>%<p1%>%<sg%>%+:%>a%{P%} Verbs ;
 re%<prn%>%<p2%>%<sg%>%+:%>re%{P%} Verbs ;
 !o%<prn%>%<p3%>%<sg%>%+:%>o%{P%} DET ;
 o%<prn%>%<p3%>%<sg%>%+:%>o%{P%} Verbs ;
-a%<prn%>%<p1%>%<pl%>%<incl%>%+:%>%{J%}a%{P%} Verbs ;
-ro%<prn%>%<p1%>%<pl%>%<excl%>%+:%>ro%{P%} Verbs ;
+a%<prn%>%<p1%>%<pl%>%+:%>%{J%}a%{P%} Verbs ;
+ro%<prn%>%<p1%>%<pl%>%+:%>ro%{P%} Verbs ;
 
 pe%<prn%>%<p2%>%<pl%>%+:%>pe%{P%} Verbs ;
 
 LEXICON PRO-CASE
 
-che%<acc%>%<p1%>%<sg%>%+:%>che PRO ;
-nde%<acc%>%<p2%>%<sg%>%+:%>nde PRO ;
-chupe%<acc%>%<p3%>%<sg%>%+:%>chupe PRO ;
-ichupe%<acc%>%<p3%>%<sg%>%+:%>ichupe PRO  ;
-ñande%<acc%>%<p1%>%<pl%>%+:%>ñande PRO ;
-ore%<acc%>%<p1%>%<pl%>%+:%>ore PRO ;
-pende%<acc%>%<p2%>%<pl%>%+:%>pende PRO ;
-pende%<acc%>%<p2%>%<pl%>%+:%>pende PRO ;
+che%<acc%>%<p1%>%<sg%>:%>che PRO ;
+nde%<acc%>%<p2%>%<sg%>:%>nde PRO ;
+chupe%<acc%>%<p3%>%<sg%>:%>chupe PRO ;
+ichupe%<acc%>%<p3%>%<sg%>:%>ichupe PRO  ;
+ñande%<acc%>%<p1%>%<pl%>:%>ñande PRO ;
+ore%<acc%>%<p1%>%<pl%>:%>ore PRO ;
+pende%<acc%>%<p2%>%<pl%>:%>pende PRO ;
+pende%<acc%>%<p2%>%<pl%>:%>pende PRO ;
 
 
 LEXICON PRO
-%<pro%>: Verbs ;
+%<pro%>%+: Verbs ;
 
 LEXICON IrrVerbs
 ha'e%<v%>%<iv%>%<p1%>%<sg%>%<pres%>:ha'e # ; ! digo 
@@ -258,8 +256,8 @@ LEXICON PossessiveDeterminers
 
 che%<prn%>%<pos%>%<p1%>%<sg%>%+:che%{p%} Nouns ;
 nde%<prn%>%<pos%>%<p2%>%<sg%>%+:n%{D%}e%{p%} Nouns ; 
-ñande%<prn%>%<pos%>%<p1%>%<incl%>%<pl%>%+:ñan%{D%}e%{p%} Nouns ; 
-ore%<prn%>%<pos%>%<p1%>%<excl%>%<pl%>%+:ore%{p%} Nouns ;
+ñande%<prn%>%<pos%>%<p1%>%<pl%>%+:ñan%{D%}e%{p%} Nouns ; 
+ore%<prn%>%<pos%>%<p1%>%<pl%>%+:ore%{p%} Nouns ;
 pende%<prn%>%<pos%>%<p2%>%<pl%>%+:pen%{D%}e%{p%} Nouns ;  
 
 i%<prn%>%<pos%>%<p3%>%<sg%>%+:%{H%}i%{I%}%{p%} Nouns ; 
@@ -269,8 +267,8 @@ o%<prn%>%<pos%>%<p3%>%<sg%>%+:o%{P%}%{p%} Nouns ;
 
 che%<prn%>%<pos%>%<p1%>%<sg%>%+:che%{p%} Biformes ;
 nde%<prn%>%<pos%>%<p2%>%<sg%>%+:n%{D%}e%{p%} Biformes ; 
-ñande%<prn%>%<pos%>%<p1%>%<incl%>%<pl%>%+:ñan%{D%}e%{p%} Biformes ; 
-ore%<prn%>%<pos%>%<p1%>%<excl%>%<pl%>%+:ore%{p%} Biformes ;
+ñande%<prn%>%<pos%>%<p1%>%<pl%>%+:ñan%{D%}e%{p%} Biformes ; 
+ore%<prn%>%<pos%>%<p1%>%<pl%>%+:ore%{p%} Biformes ;
 pende%<prn%>%<pos%>%<p2%>%<pl%>%+:pen%{D%}e%{p%} Biformes ;  
 
 i%<prn%>%<pos%>%<p3%>%<sg%>%+:%{H%}i%{I%}%{p%} Nouns ; 
@@ -286,8 +284,8 @@ LEXICON PersonalPronouns
 ché%<prn%>%<pers%>%<p1%>%<sg%>:ché # ; ! "yo"
 ndé%<prn%>%<pers%>%<p2%>%<sg%>:ndé # ; ! tú
 haʼe%<prn%>%<pers%>%<p3%>%<sg%>:haʼe # ; ! "él, ella"
-ñandé%<prn%>%<pers%>%<p1%>%<incl%>%<pl%>:ñandé # ;
-oré%<prn%>%<pers%>%<p1%>%<excl%>%<pl%>:oré # ;
+ñandé%<prn%>%<pers%>%<p1%>%<pl%>:ñandé # ;
+oré%<prn%>%<pers%>%<p1%>%<pl%>:oré # ;
 peẽ%<prn%>%<pers%>%<p2%>%<pl%>:peẽ # ;
 haʼekuéra%<prn%>%<pers%>%<p3%>%<pl%>:haʼekuéra # ;
 
@@ -304,8 +302,6 @@ ykere:ykere POST ; ! "al lado de"
 pype:pype POST ; ! "dentro"
 hyepype:hyepype POST ; ! "adentro"
 apytepe:apytepe POST ; ! "en medio de"
-
-!ha:ha POST-V ; ! "sustantivante verbal que/donde"
 
 !!!!!!!!!!!!!ADJECTIVES!!!!!!!!!!!!!!
 
@@ -3118,9 +3114,6 @@ LEXICON Punctuation
 \%<sent%>:\ # ;
 /%<sent%>:/ # ;
 …%<sent%>:… # ;
-
-LEXICON DIGITLEX
-%<num%>: # ;
 
 ! %ʼ%<apos%>:%ʼ # ;
 
