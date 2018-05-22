@@ -195,16 +195,15 @@ LEXICON PRO-CASE
 
 %<acc%>%+: Verbs ;
 
-!ichupe%<p3%>%<sg%>%<acc%>:%>ichupe%{p%} PRO  ;
-!ñande%<p1%>%<pl%>%<acc%>:%>ñan%{D%}e%{p%} PRO ;
-!ore%<p1%>%<pl%>%<acc%>:%>ore%{p%} PRO ;
-!pende%<p2%>%<pl%>%<acc%>:%>pen%{D%}e%{p%} PRO ;
-
 
 LEXICON PRO
 che%<prn%>%<pro%>%<p1%>%<sg%>:%>che{p%} PRO-CASE ;
-nde%<prn%>%<pro%>%<p2%>%<sg%>:%>nde{p%} PRO-CASE ;
+ñande%<prn%>%<pro%>%<p2%>%<sg%>:%>ñan%{D%}e{p%} PRO-CASE ;
 chupe%<prn%>%<pro%>%<p3%>%<sg%>:%>chupe{p%} PRO-CASE ;
+ichupe%<prn%>%<pro%>%<p3%>%<sg%>:%>ichupe{p%} PRO-CASE ;
+ore%<prn%>%<pro%>%<p1%>%<pl%>:%>ore{p%} PRO-CASE ;
+pende%<prn%>%<pro%>%<p2%>%<pl%>:%>pen%{D%}e{p%} PRO-CASE ;
+
 
 LEXICON IrrVerbs
 ha'e%<v%>%<iv%>%<p1%>%<sg%>%<pres%>:ha'e # ; ! digo 
