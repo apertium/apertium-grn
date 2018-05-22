@@ -198,10 +198,11 @@ LEXICON PRO-CASE
 
 LEXICON PRO
 che%<prn%>%<pro%>%<p1%>%<sg%>:%>che{p%} PRO-CASE ;
-ñande%<prn%>%<pro%>%<p2%>%<sg%>:%>ñan%{D%}e{p%} PRO-CASE ;
+nde%<prn%>%<pro%>%<p2%>%<sg%>:%>n%{D%}e{p%} PRO-CASE ;
 chupe%<prn%>%<pro%>%<p3%>%<sg%>:%>chupe{p%} PRO-CASE ;
 ichupe%<prn%>%<pro%>%<p3%>%<sg%>:%>ichupe{p%} PRO-CASE ;
 ore%<prn%>%<pro%>%<p1%>%<pl%>:%>ore{p%} PRO-CASE ;
+ñande%<prn%>%<pro%>%<p1%>%<pl%>:%>ñan%{D%}e{p%} PRO-CASE ;
 pende%<prn%>%<pro%>%<p2%>%<pl%>:%>pen%{D%}e{p%} PRO-CASE ;
 
 
