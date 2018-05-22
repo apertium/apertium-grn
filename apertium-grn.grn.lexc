@@ -91,6 +91,7 @@ Connectors ;
 Numerals ;
 AdjIndef ;
 PRO ;
+PossesivePronouns ;
 
 
 
@@ -303,7 +304,15 @@ oréve%<prn%>%<pers%>%<p1%>%<pl%>%<dat%>:oréve # ;
 ñandéve%<prn%>%<pers%>%<p1%>%<pl%>%<dat%>:ñandéve #;
 peẽme%<prn%>%<pers%>%<p2%>%<pl%>%<dat%>:peẽme # ;
 
+LEXICON PossesivePronouns
 
+chemba'e%<prn%>%<pos%>%<p1%>%<sg%>:chemba'e # ;
+nemba'e%<prn%>%<pos%>%<p2%>%<sg%>:nemba'e # ;
+imba'e%<prn%>%<pos%>%<p3%>%<sg%>:imba'e # ;
+ñanemba'e%<prn%>%<pos%>%<p1%>%<pl%>:ñanemba'e # ;
+oremba'e%<prn%>%<pos%>%<p1%>%<pl%>:oremba'e # ;
+penemba'e%<prn%>%<pos%>%<p2%>%<pl%>:penemba'e # ;
+imba'ekuéra%<prn%>%<pos%>%<p3%>%<pl%>:imba'ekuéra # ;
 
 LEXICON Postpositions
 
