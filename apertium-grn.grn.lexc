@@ -89,7 +89,7 @@ Punctuation ;
 Connectors ;
 Numerals ;
 AdjIndef ;
-PRO-CASE ;
+PRO ;
 
 
 
@@ -193,17 +193,18 @@ pe%<prn%>%<p2%>%<pl%>%+:%>pe%{P%} Verbs ;
 
 LEXICON PRO-CASE
 
-che%<acc%>%<p1%>%<sg%>:%>che{p%} PRO ;
-nde%<acc%>%<p2%>%<sg%>:%>nde%{p%} PRO ;
-chupe%<acc%>%<p3%>%<sg%>:%>chupe%{p%} PRO ;
-ichupe%<acc%>%<p3%>%<sg%>:%>ichupe%{p%} PRO  ;
-ñande%<acc%>%<p1%>%<pl%>:%>ñan%{D%}e%{p%} PRO ;
-ore%<acc%>%<p1%>%<pl%>:%>ore%{p%} PRO ;
-pende%<acc%>%<p2%>%<pl%>:%>pen%{D%}e%{p%} PRO ;
+%<acc%>%+: Verbs ;
+
+!ichupe%<p3%>%<sg%>%<acc%>:%>ichupe%{p%} PRO  ;
+!ñande%<p1%>%<pl%>%<acc%>:%>ñan%{D%}e%{p%} PRO ;
+!ore%<p1%>%<pl%>%<acc%>:%>ore%{p%} PRO ;
+!pende%<p2%>%<pl%>%<acc%>:%>pen%{D%}e%{p%} PRO ;
 
 
 LEXICON PRO
-%<pro%>%+: Verbs ;
+che%<prn%>%<pro%>%<p1%>%<sg%>:%>che{p%} PRO-CASE ;
+nde%<prn%>%<pro%>%<p2%>%<sg%>:%>nde{p%} PRO-CASE ;
+chupe%<prn%>%<pro%>%<p3%>%<sg%>:%>chupe{p%} PRO-CASE ;
 
 LEXICON IrrVerbs
 ha'e%<v%>%<iv%>%<p1%>%<sg%>%<pres%>:ha'e # ; ! digo 
