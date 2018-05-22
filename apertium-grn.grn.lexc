@@ -200,7 +200,6 @@ ichupe%<acc%>%<p3%>%<sg%>:%>ichupe PRO  ;
 ñande%<acc%>%<p1%>%<pl%>:%>ñande PRO ;
 ore%<acc%>%<p1%>%<pl%>:%>ore PRO ;
 pende%<acc%>%<p2%>%<pl%>:%>pende PRO ;
-pende%<acc%>%<p2%>%<pl%>:%>pende PRO ;
 
 
 LEXICON PRO
@@ -361,12 +360,12 @@ sua%<num%>:sua ADJ-DIS ; ! "milión"
 
 LEXICON Biformes 
 
-ramói:ramói N ; ! "abuelo, cnamán"
+ramói:ramói N ; ! "abuelo, chamán"
 remiarirõ:remiarirõ N ; ! "nieto"
 rovaja:rovaja N ; ! "cuñado"
 ru:ru N ; ! "padre"
 ryvy:ryvy N ; ! "hermano"
-rykéra:rtykéra N ; ! "hermana mayor"
+rykéra:rykéra N ; ! "hermana mayor"
 ra’y:ra’y N ; ! "hijo" 
 rajy:rajy N ; ! "hija"
 rembireko:rembireko N ; ! "esposa"
