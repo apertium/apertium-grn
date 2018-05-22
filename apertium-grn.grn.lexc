@@ -193,13 +193,13 @@ pe%<prn%>%<p2%>%<pl%>%+:%>pe%{P%} Verbs ;
 
 LEXICON PRO-CASE
 
-che%<acc%>%<p1%>%<sg%>:%>che PRO ;
-nde%<acc%>%<p2%>%<sg%>:%>nde PRO ;
-chupe%<acc%>%<p3%>%<sg%>:%>chupe PRO ;
-ichupe%<acc%>%<p3%>%<sg%>:%>ichupe PRO  ;
-ñande%<acc%>%<p1%>%<pl%>:%>ñande PRO ;
-ore%<acc%>%<p1%>%<pl%>:%>ore PRO ;
-pende%<acc%>%<p2%>%<pl%>:%>pende PRO ;
+che%<acc%>%<p1%>%<sg%>:%>che{p%} PRO ;
+nde%<acc%>%<p2%>%<sg%>:%>nde%{p%} PRO ;
+chupe%<acc%>%<p3%>%<sg%>:%>chupe%{p%} PRO ;
+ichupe%<acc%>%<p3%>%<sg%>:%>ichupe%{p%} PRO  ;
+ñande%<acc%>%<p1%>%<pl%>:%>ñan%{D%}e%{p%} PRO ;
+ore%<acc%>%<p1%>%<pl%>:%>ore%{p%} PRO ;
+pende%<acc%>%<p2%>%<pl%>:%>pen%{D%}e%{p%} PRO ;
 
 
 LEXICON PRO
