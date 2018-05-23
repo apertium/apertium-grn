@@ -1813,6 +1813,11 @@ Peru:Peru NP-TOP ; ! "Peru"
 Chile:Chile NP-TOP ; ! "Chile"
 
 LEXICON Verbs 
+me:me V ; ! "estar"
+aime:aime V ; ! "estar" ! Dir/LR
+ĩ:ĩ V ; ! "estar" 
+aĩ:aĩ V ; ! "estar" ! Dir/LR
+ñaimo’ã:ñaimo’ã V ; ! "parecer"
 a:a V ; ! "fructificar"
 ai:ai V ; ! "llaga"
 aju:aju V ; ! "maduro"
@@ -2055,6 +2060,7 @@ ke:ke V ; ! "entrar, caber, dormir"
 kerambi:kerambi V ; ! "dormitar"
 kerape'a:kerape'a V ; ! "desvelar"
 ko:ko V ; ! "morar"
+aiko:aiko V ; ! "morar, vivir, andar" ! Dir/LR
 konikoni:konikoni V ; ! "ondear"
 kora:kora V ; ! "valla, ruedo, cercado"
 kororõ:kororõ V ; ! "roncar, rugir"
