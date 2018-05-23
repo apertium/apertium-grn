@@ -52,6 +52,8 @@ Multichar_Symbols
 %<lpar%>             ! Parenthetical marker (left hand side)
 
 
+%<adv%>              ! Adverbio 
+
 %>                   ! Frontera de morfema
 % 
 %ʼ
@@ -92,6 +94,7 @@ Numerals ;
 AdjIndef ;
 PRO ;
 PossesivePronouns ;
+Adverbs ;
 
 
 
@@ -286,6 +289,11 @@ o%<prn%>%<pos%>%<p3%>%<sg%>%+:o%{P%}%{p%} Nouns ;
 LEXICON Conjunctions 
 
 ha:ha CC ; ! "y"
+
+!!!!!!!!!!!!!!!!!!! Adverbs !!!!!!!!!!!!
+
+LEXICON AD 
+%<adv%>: # ;
 
 LEXICON PersonalPronouns
 
@@ -1487,6 +1495,7 @@ tupãrekokuaa:tupãrekokuaa N ; ! "teología"
 tuvajukaha:tuvajukaha N ; ! "parricida"
 tuvanga:tuvanga N ; ! "padrastro"
 tuã:tuã N ; ! "cumbre"
+tuvicha:tuvicha N ; ! "jefe, grandeza"
 tu'ã:tu'ã N ; ! "cima"
 ty:ty N ; ! "orina"
 tyakuã:tyakuã N ; ! "aroma, olor"
@@ -3115,6 +3124,48 @@ yvysa'y:yvysa'y ADJ ; ! "marrón"
 ñembo'e% porundy:ñembo'e% porundy ADJ ; ! "novena"
 ñemi:ñemi ADJ ; ! "secreto"
 ñemombe'u% rehegua:ñemombe'u% rehegua ADJ ; ! "narrativo"
+
+LEXICON Adverbs 
+
+ag̃ui:ag̃ui AD ; ! "cerca"
+agãite:agãite AD ; ! "enseguida"
+angepyhare:angepyhare AD ; ! "anoche"
+arakaʼe:arakaʼe AD ; ! "cuándo"
+arakaʼeve:arakaʼeve AD ; ! "jamás"
+avei:avei AD ; ! "incluso, también, además"
+añete:añete AD ; ! "seguro"
+gueteri:gueteri AD ; ! "todavía"
+heta:heta AD ; ! "mucho"
+hákatu:h•ákatu AD ; ! "pero"
+hẽe:hẽe AD ; ! "sí"
+jave:jave AD ; ! "mientras"
+katui:katui AD ; ! "siempre"
+kaʼaru:kaʼaru AD ; ! "tarde"
+koʼãga:koʼãga AD ; ! "ahora"
+koʼága:koʼ•ága AD ; ! "ahora" ! Dir/LR
+koʼápe:koʼ•ápe AD ; ! "acá, aquí"
+mbaʼevai:mbaʼevai AD ; ! "mal"
+mbaʼeve:mbaʼeve AD ; ! "nada"
+mbegue:mbegue AD ; ! "lentamente, despacio"
+mbovyve:mbovyve AD ; ! "menos"
+mboy:mboy AD ; ! "cuanto"
+mie:mie AD ; ! "más"
+mombyry:mombyry AD ; ! "lejos"
+máramo:m•áramo AD ; ! "nunca"
+ojaposetégui:ojaposet•égui AD ; ! "adrede"
+okápe:ok•ápe AD ; ! "fuera, afuera"
+porãve:porãve AD ; ! "mejor"',
+pyaʼe:pyaʼe AD ; ! "pronto"
+pyhareve:pyhareve AD ; ! "mañana"
+pype:pype AD ; ! "adentro"
+ramo:ramo AD ; ! "recién"
+rire:rire AD ; ! "después"
+tapykuépe:tapyku•épe AD ; ! "detrás, atrás"
+vaive:vaive AD ; ! "peor"
+voi:voi AD ; ! "temprano"
+vokói:vok•ói AD ; ! "luego"
+ágã:•ágã AD ; ! "hoy"
+ári:•ári AD ; ! "encima"ñahániri:ñahániri AD ; ! "tampoco"
 
 LEXICON Punctuation
 
