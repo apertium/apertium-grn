@@ -86,7 +86,7 @@ PersonalPronouns ;
 IrrVerbs ;
 PossessiveDeterminers ;
 Biformes ;
-DemDeterminers ;
+DemAdjectives ;
 Adjectives ;
 Punctuation ;
 Connectors ;
@@ -140,20 +140,28 @@ LEXICON NP-TOP
 
 %<np%>%<top%>: CASE ;
 
-LEXICON DemDeterminers
+LEXICON DemAdjectives
 
-ko%<det%>%<dem%>%<pre%>%<sg%>:ko # ; ! "este, esta"
-pe%<det%>%<dem%>%<pre%>%<sg%>:pe # ; ! "ese, esa" 
-amo%<det%>%<dem%>%<pre%>%<sg%>:amo # ; ! "aquel, aquella"
-ã%<det%>%<dem%>%<pre%>%<pl%>:ã # ; ! "estos, estas" 
-koʼã%<det%>%<dem%>%<pre%>%<pl%>:koʼã # ; ! "estos, estas"
-umi%<det%>%<dem%>%<pre%>%<pl%>:umi # ; ! "aquellos, aquellas"
+ko%<adj%>%<dem%>%<sg%>:ko DEM-PRN-SG ; ! "este, esta"
+pe%<adj%>%<dem%>%<sg%>:pe DEM-PRN-SG ; ! "ese, esa" 
+amo%<adj%>%<dem%>%<sg%>:amo DEM-PRN-SG ; ! "aquel, aquella"
+ã%<adj%>%<dem%>%<pl%>:ã DEM-PRN-PL ; ! "estos, estas" 
+koʼã%<adj%>%<dem%>%<pl%>:koʼã DEM-PRN-PL ; ! "estos, estas"
+umi%<adj%>%<dem%>%<pl%>:umi DEM-PRN-PL ; ! "aquellos, aquellas"
 
-ku%<det%>%<dem%>%<abs%>%<sg%>:ku # ; ! "ese, esa"
-upe%<det%>%<dem%>%<abs%>%<sg%>:upe # ;  ! "ese, esa"
-aipo%<det%>%<dem%>%<abs%>%<sg%>:aipo # ; ! "aquel, aquella"
-ako%<det%>%<dem%>%<abs%>%<sg%>:ako # ; ! "aquel, aquella"
-umi%<det%>%<dem%>%<abs%>%<pl%>:umi # ; ! "esos, esas, aquellos, aquellas"
+ku%<adj%>%<dem%>%<sg%>:ku DEM-PRN-SG ; ! "ese, esa"
+upe%<adj%>%<dem%>%<sg%>:upe DEM-PRN-SG ;  ! "ese, esa"
+aipo%<adj%>%<dem%>%<sg%>:aipo DEM-PRN-SG ; ! "aquel, aquella"
+ako%<adj%>%<dem%>%<sg%>:ako DEM-PRN-SG ; ! "aquel, aquella"
+umi%<adj%>%<dem%>%<pl%>:umi DEM-PRN-SG ; ! "esos, esas, aquellos, aquellas"
+
+LEXICON DEM-PRN-SG 
+
+%+va%<prn%>%<dem%>:%>va # ;
+%+a%<prn%>%<dem%>:%>a # ;
+
+LEXICON DEM-PRN-PL
+%+va%<prn%>%<dem%>:%>va # ;
 
 !!!!!!!!!!!!! VERBAL LEXICONS !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
