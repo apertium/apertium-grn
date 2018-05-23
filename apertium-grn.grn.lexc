@@ -72,6 +72,7 @@ Multichar_Symbols
 %{E%}              ! Archiphoneme for [e] in quantifiers 
 %{d%}              ! Archiphoneme for [d] in negative verbs 
 %{r%}              ! Archiphoneme for [r] in negative verbs
+%{o%}              ! Archiphoneme for changing tonal vowels
 
 
 LEXICON Root 
@@ -142,26 +143,26 @@ LEXICON NP-TOP
 
 LEXICON DemAdjectives
 
-ko%<adj%>%<dem%>%<sg%>:ko DEM-PRN-SG ; ! "este, esta"
-pe%<adj%>%<dem%>%<sg%>:pe DEM-PRN-SG ; ! "ese, esa" 
-amo%<adj%>%<dem%>%<sg%>:amo DEM-PRN-SG ; ! "aquel, aquella"
+ko%<adj%>%<dem%>%<sg%>:ko%{o%} DEM-PRN-SG ; ! "este, esta"
+pe%<adj%>%<dem%>%<sg%>:pe%{o%} DEM-PRN-SG ; ! "ese, esa" 
+amo%<adj%>%<dem%>%<sg%>:amo%{o%} DEM-PRN-SG ; ! "aquel, aquella"
 ã%<adj%>%<dem%>%<pl%>:ã DEM-PRN-PL ; ! "estos, estas" 
 koʼã%<adj%>%<dem%>%<pl%>:koʼã DEM-PRN-PL ; ! "estos, estas"
 umi%<adj%>%<dem%>%<pl%>:umi DEM-PRN-PL ; ! "aquellos, aquellas"
 
-ku%<adj%>%<dem%>%<sg%>:ku DEM-PRN-SG ; ! "ese, esa"
-upe%<adj%>%<dem%>%<sg%>:upe DEM-PRN-SG ;  ! "ese, esa"
-aipo%<adj%>%<dem%>%<sg%>:aipo DEM-PRN-SG ; ! "aquel, aquella"
-ako%<adj%>%<dem%>%<sg%>:ako DEM-PRN-SG ; ! "aquel, aquella"
-umi%<adj%>%<dem%>%<pl%>:umi DEM-PRN-SG ; ! "esos, esas, aquellos, aquellas"
+ku%<adj%>%<dem%>%<sg%>:ku%{o%} DEM-PRN-SG ; ! "ese, esa"
+upe%<adj%>%<dem%>%<sg%>:upe%{o%} DEM-PRN-SG ;  ! "ese, esa"
+aipo%<adj%>%<dem%>%<sg%>:aipo%{o%} DEM-PRN-SG ; ! "aquel, aquella"
+ako%<adj%>%<dem%>%<sg%>:ako%{o%} DEM-PRN-SG ; ! "aquel, aquella"
+umi%<adj%>%<dem%>%<pl%>:umi%{o%} DEM-PRN-SG ; ! "esos, esas, aquellos, aquellas"
 
 LEXICON DEM-PRN-SG 
 
-%+va%<prn%>%<dem%>:%>va # ;
-%+a%<prn%>%<dem%>:%>a # ;
+%+va%<subst%>%<dem%>:%>va # ;
+%+a%<subst%>%<dem%>:%>a # ;
 
 LEXICON DEM-PRN-PL
-%+va%<prn%>%<dem%>:%>va # ;
+%+va%<subst%>%<dem%>:%>va # ;
 
 !!!!!!!!!!!!! VERBAL LEXICONS !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -297,6 +298,8 @@ o%<prn%>%<pos%>%<p3%>%<sg%>%+:o%{P%}%{p%} Nouns ;
 LEXICON Conjunctions 
 
 ha:ha CC ; ! "y"
+térã:térã CC ; ! "o"
+
 
 !!!!!!!!!!!!!!!!!!! Adverbs !!!!!!!!!!!!
 
@@ -333,6 +336,7 @@ imba'ekuéra%<prn%>%<pos%>%<p3%>%<pl%>:imba'ekuéra # ;
 LEXICON Postpositions
 
 hagua:hagua POST ; ! "para"
+hag̃ua:hag̃ua POST ; ! "para" ! Dir/LR
 ndive:ndive POST ; ! "con"
 pegua:pegua POST ; ! "de"
 kupe:kupe POST ; ! "detras de"
@@ -343,6 +347,8 @@ hyepype:hyepype POST ; ! "adentro"
 apytepe:apytepe POST ; ! "en medio de"
 guarã:guarã POST ; ! "para" 
 haguére:haguére POST ; ! "por" 
+rupi:rupi POST ; ! "por" 
+gotyo:gotyo POST ; ! "de" 
 
 !!!!!!!!!!!!!ADJECTIVES!!!!!!!!!!!!!!
 
@@ -420,7 +426,7 @@ rykeʼýra:rykeʼýra  N ; !"hermano mayor"
 ryvýra:ryvýra N ; ! "hermano menor"
 
 LEXICON Nouns
-
+ary:ary N ; ! "año"
 tembirekorã:tembirekorã N ; ! "novia formal"
 teindyra:teindyra N ; ! "hermana menor"
 tajýra:tajýra N ; ! "hija"
@@ -2807,7 +2813,6 @@ hepýva:hep•ýva ADJ ; ! "valioso"
 herakuãva:herakuãva ADJ ; ! "célebre, popular, afamado"
 hesakã:hesakã ADJ ; ! "obvio"
 hesakãva:hesakãva ADJ ; ! "transparente"
-heta:heta ADJ ; ! "mucho"
 hetaitereíva:hetaitere•íva ADJ ; ! "innumerable"
 heterei:heterei ADJ ; ! "delicioso"
 heñoihague:heñoihague ADJ ; ! "natal, nacido"

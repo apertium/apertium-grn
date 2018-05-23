@@ -17,6 +17,7 @@ a b ã c d e ẽ g g̃ h i ĩ j k l m n ñ o õ p r s t u ũ v w x y z ỹ á é
 %{d%}:d %{d%}:0 
 %{r%}:0 %{r%}:r
 •:0
+%{o%}:0
 
 %>:0 
 % 
@@ -58,6 +59,10 @@ Rules
 "Remove stress marker"
 •:0 <=> _ ;
 
+"Change vowel before -va(a) suffix"
+Va:Vt <=> _ %{o%}: [v: | a:] ;
+            where Va in VowsAton Vt in VowsTon matched ;
+
 "Remove tonal vowel if tonal in affix"
 Vt:Va <=> •: _ [ Cns: | %>: | Nas: | VowsAton: ]+ VowsTon: ;
            where Vt in VowsTon Va in VowsAton matched ; 
@@ -67,7 +72,7 @@ Vt:Va <=> •: _ [ Cns: | %>: | Nas: | VowsAton: ]+ VowsTon: ;
                     where CNAS in Nas ;
 
 "Insert glottal stop ['] if next morpheme starts with a vowel"
-%{P%}:' <=> _ Vow: ;
+%{P%}:' <=> _ [ Vow: | •: Vow:] ;
                  where Vow in Vows ;
 
 "Surface [n] in plural nouns" 
