@@ -143,8 +143,8 @@ LEXICON NP-TOP
 
 %<np%>%<top%>: CASE ;
 
-LEXICON NP
-%<np%>: # ;
+LEXICON NP-ANT
+%<np%>%<ant%>: # ;
 
 LEXICON ProperNouns 
 
@@ -155,8 +155,8 @@ Vrasil:Vrasil NP-TOP ; ! "Vrasil"
 Argentina:Argentina NP-TOP ; ! "Argentina"
 Peru:Peru NP-TOP ; ! "Peru"
 Chile:Chile NP-TOP ; ! "Chile"
-José:José NP ;
-Juan:Juan NP ;
+José:José NP-ANT ;
+Juan:Juan NP-ANT ;
 
 LEXICON DemAdjectives
 
@@ -2566,6 +2566,7 @@ sako'i:sako'i V ; ! "planear, preparar"
 sapatupuku:sapatupuku V ; ! "bota"
 sapukái:sapuk•ái V ; ! "gritar"
 sa'yry:sa'yry V ; ! "tinta"
+sẽ:sẽ V ; ! "salir" 
 sova:sova V ; ! "amasar"
 sunu:sunu V ; ! "tronar"
 su'u:su'u V ; ! "mascar, masticar, morder"
