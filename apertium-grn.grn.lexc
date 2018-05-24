@@ -96,6 +96,7 @@ AdjIndef ;
 PRO ;
 PossesivePronouns ;
 Adverbs ;
+IndefinitePronouns ;
 
 
 
@@ -332,6 +333,14 @@ imba'e%<prn%>%<pos%>%<p3%>%<sg%>:imba'e # ;
 oremba'e%<prn%>%<pos%>%<p1%>%<pl%>:oremba'e # ;
 penemba'e%<prn%>%<pos%>%<p2%>%<pl%>:penemba'e # ;
 imba'ekuéra%<prn%>%<pos%>%<p3%>%<pl%>:imba'ekuéra # ;
+
+LEXICON IndefinitePronouns
+opavave%<prn%>%<ind%>:opavave # ; ! "todos"
+avave%<prn%>%<ind%>:avave # ; ! "nadie"
+oimeraẽva%<prn%>%<ind%>:oimeraẽva # ; ! "cualquier"
+peteĩ%<prn%>%<ind%>:peteĩ # ; ! "uno, una"
+ambuéva%<prn%>%<ind%>:ambuéva # ; ! "otro, otra"
+mbaʼeve%<prn%>%<ind%>:mbaʼeve # ; ! "nada"
 
 LEXICON Postpositions
 
