@@ -11,6 +11,7 @@ Multichar_Symbols
 %<ref%>              ! Reflexivo
 
 %<n%>                ! Nombre
+%<np%>               ! Nombre propio
 %<num%>              ! Número
 %<np%>               ! Nombre proprio
 %<v%>                ! Verbo
@@ -141,6 +142,21 @@ LEXICON N
 LEXICON NP-TOP
 
 %<np%>%<top%>: CASE ;
+
+LEXICON NP
+%<np%>: # ;
+
+LEXICON ProperNouns 
+
+Paraguái:Paragu•ái NP-TOP ; ! "Paraguay"
+Paraguái:Paraguay NP-TOP ; ! "Paraguay" ! Dir/LR
+Volívia:Vol•ívia NP-TOP ; ! "Bolivia"
+Vrasil:Vrasil NP-TOP ; ! "Vrasil"
+Argentina:Argentina NP-TOP ; ! "Argentina"
+Peru:Peru NP-TOP ; ! "Peru"
+Chile:Chile NP-TOP ; ! "Chile"
+José:José NP ;
+Juan:Juan NP ;
 
 LEXICON DemAdjectives
 
@@ -300,6 +316,9 @@ LEXICON Conjunctions
 
 ha:ha CC ; ! "y"
 térã:térã CC ; ! "o"
+katu:katu CC ; ! "pero"
+rupive:rupive CC ; ! "por causa de"
+mba'e:mba'e CC ; ! "que"
 
 
 !!!!!!!!!!!!!!!!!!! Adverbs !!!!!!!!!!!!
@@ -352,12 +371,16 @@ kupe:kupe POST ; ! "detras de"
 tenonde:tenonde POST ; ! "delante"
 ykere:ykere POST ; ! "al lado de"
 pype:pype POST ; ! "dentro"
+ipype:ipype POST ; ! "por dentro"
 hyepype:hyepype POST ; ! "adentro"
 apytepe:apytepe POST ; ! "en medio de"
 guarã:guarã POST ; ! "para" 
 haguére:haguére POST ; ! "por" 
 rupi:rupi POST ; ! "por" 
 gotyo:gotyo POST ; ! "de" 
+rehe:rehe POST ; ! "mediante, por"
+peve:peve POST ; ! "hasta"
+retãme:retãme POST ; ! "de"
 
 !!!!!!!!!!!!!ADJECTIVES!!!!!!!!!!!!!!
 
@@ -418,6 +441,7 @@ poteĩsa%<num%>:poteĩsa ADJ-DIS ; ! "seiscientos"
 su%<num%>:su ADJ-DIS ; ! "mil"
 sua%<num%>:sua ADJ-DIS ; ! "milión"
 
+
 LEXICON Biformes 
 
 ramói:ramói N ; ! "abuelo, chamán"
@@ -435,6 +459,7 @@ rykeʼýra:rykeʼýra  N ; !"hermano mayor"
 ryvýra:ryvýra N ; ! "hermano menor"
 
 LEXICON Nouns
+Guarani:Guarani N ; ! "guaranis"
 ary:ary N ; ! "año"
 tembirekorã:tembirekorã N ; ! "novia formal"
 teindyra:teindyra N ; ! "hermana menor"
@@ -846,6 +871,7 @@ ka'irãi:ka'irãi N ; ! "presidio, cárcel"
 ka'u:ka'u N ; ! "borracho"
 kerasy:kerasy N ; ! "insomnio"
 kesu:kesu N ; ! "queso"
+km:km N ; ! "kilómetro"
 kochõ:kochõ N ; ! "colchón"
 kogaty:kogaty N ; ! "huerta"
 kopiha:kopiha N ; ! "machete"
@@ -1107,6 +1133,7 @@ nambi:nambi N ; ! "oreja"
 nandi:nandi N ; ! "hueco, vacío, vacante"
 narã:narã N ; ! "naranja"
 nupãha:nupãha N ; ! "mazo"
+ñeʼẽ:ñeʼẽ N ; ! "lenguaje, palabra"
 ogaguasu:ogaguasu N ; ! "mansión"
 ogaguy:ogaguy N ; ! "zaguán, galería"
 ogahoja:ogahoja N ; ! "techo"
@@ -1475,6 +1502,7 @@ tetã:tetã N ; ! "nación, país, patria"
 tetãpysokue:tetãpysokue N ; ! "territorio"
 tetãreko:tetãreko N ; ! "nacionalidad"
 tetãygua:tetãygua N ; ! "compatriota"
+tetãvore:tetãvore N ; ! "província"
 tevi:tevi N ; ! "ano"
 teñoiha:teñoiha N ; ! "yacimiento"
 teñói:teñ•ói N ; ! "nacimiento, germen"
@@ -1824,16 +1852,7 @@ ygaguahẽha:ygaguahẽha N ; ! "puerto"
 ñuatĩ:ñuatĩ N ; ! "espina"
 ñuati:ñuati N ; ! "espina" ! Dir/LR
 ñuguaitĩ:ñuguaitĩ N ; ! "encuentro"
-
-LEXICON ProperNouns 
-
-Paraguái:Paragu•ái NP-TOP ; ! "Paraguay"
-Paraguái:Paraguay NP-TOP ; ! "Paraguay" ! Dir/LR
-Volívia:Vol•ívia NP-TOP ; ! "Bolivia"
-Vrasil:Vrasil NP-TOP ; ! "Vrasil"
-Argentina:Argentina NP-TOP ; ! "Argentina"
-Peru:Peru NP-TOP ; ! "Peru"
-Chile:Chile NP-TOP ; ! "Chile"
+ 
 
 LEXICON Verbs 
 me:me V ; ! "estar"
@@ -2429,6 +2448,7 @@ mymbajuka:mymbajuka V ; ! "cazar"
 ndyvu:ndyvu V ; ! "escupir, salivar"
 ngururu:ngururu V ; ! "gruñir"
 nupã:nupã V ; ! "torturar, maltratar, azotar, castigar, vapulear, golpear, apalear"
+ñeʼẽ:ñeʼẽ V ; ! "hablar" 
 oikuaáva:oikua•áva V ; ! "informado"
 ojayvýva:ojayv•ýva V ; ! "agachado"
 ojeguerohorýva:ojeguerohor•ýva V ; ! "agasajado"
@@ -2725,7 +2745,7 @@ yvyrakytĩ:yvyrakytĩ V ; ! "aserrar, talar"
 ñapyti:ñapyti V ; ! "liar" ! Dir/LR
 ñapytĩ:ñapytĩ V ; ! "liar" ! Dir/LR
 ñepyrũjey:ñepyrũjey V ; ! "reanudar"
-ñesẽha:ñesẽha V ; ! "salida"
+ñepyrũ:ñepyrũ V ; ! "comenzar"
 ñomoirũ:ñomoirũ V ; ! "socializar"
 ñomoirü:ñomoirü V ; ! "socializar" ! Dir/LR
 ñuguaitĩ:ñuguaitĩ V ; ! "encuentro"
@@ -3196,10 +3216,12 @@ vaive:vaive AD ; ! "peor"
 voi:voi AD ; ! "temprano"
 vokói:vok•ói AD ; ! "luego"
 ágã:•ágã AD ; ! "hoy"
-ári:•ári AD ; ! "encima"ñahániri:ñahániri AD ; ! "tampoco"
+ári:•ári AD ; ! "encima"
+ñahániri:ñahániri AD ; ! "tampoco"
 upépe:up•épe AD ; ! "allí"
 guive:guive AD ; ! "desde" 
 oguahẽ:oguahẽ AD ; ! "arriba"
+péicha:p•éicha AD ; ! "así"
 
 LEXICON Punctuation
 
