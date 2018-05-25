@@ -82,7 +82,6 @@
 	","cm @punct
 "<Ha>"
 	"ha" cnjcoo
-	"ha" v iv pres
 "<oiko haʼe>"
 	"*oiko haʼe"
 "<heʼi>"
@@ -1015,24 +1014,20 @@
 # text = Ha Tupã ojapo yvypóra, haʼéicha, ojoguáva chupe ojapo, kuimbaʼe ha kuñáva ojapo.  
 # text[spa] = Dios creó al hombre a imagen Suya, a imagen de Dios lo creó; varón y hembra los creó. 
 "<Ha>"
-	"ha" cnjcoo
-	"ha" v iv pres
+	"ha" cnjcoo @cc
 "<Tupã>"
-	"tupã" n
+	"tupã" n @nsubj
 "<ojapo>"
-	"o" prn p3 sg
-		"japo" v iv pres
-	"o" prn pos p3 sg
-		"japo" n
+	"o" prn p3 sg @expl
+		"japo" v iv pres @root
 "<yvypóra>"
-	"yvypóra" adj
-	"yvypóra" n
+	"yvypóra" n @obj
 "<,>"
-	","cm @punct
+	"," cm @punct
 "<haʼéicha>"
 	"*haʼéicha"
 "<,>"
-	","cm @punct
+	"," cm @punct
 "<ojoguáva>"
 	"*ojoguáva"
 "<chupe>"
@@ -1041,25 +1036,19 @@
 "<ojapo>"
 	"o" prn p3 sg
 		"japo" v iv pres
-	"o" prn pos p3 sg
-		"japo" n
 "<,>"
-	","cm @punct
+	"," cm @punct
 "<kuimbaʼe>"
-	"*kuimbaʼe"
+	"kuimbaʼe" n @obj
 "<ha>"
-	"ha" cnjcoo
-	"ha" v iv pres
+	"ha" cnjcoo @cc
 "<kuñáva>"
-	"*kuñáva"
+	"*kuñáva" @conj
 "<ojapo>"
-	"o" prn p3 sg
-		"japo" v iv pres
-	"o" prn pos p3 sg
-		"japo" n
+	"o" prn p3 sg @nsubj
+		"japo" v iv pres @parataxis
 "<.>"
-	"."sent @punct
-  
+	"." sent @punct
 
 # sent_id = GEN.1.28
 # text = Ha Tupã ohovasa chupe kuéra ha heʼi:  “Pende raʼy kena taheta, ta isarambi yvy tuichakue ha toguereko ipoguýpe pira, guyra, tymba kuéra ha opaichagua yvýre otyryrýva.”  
