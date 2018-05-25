@@ -152,11 +152,20 @@ Paraguái:Paragu•ái NP-TOP ; ! "Paraguay"
 Paraguái:Paraguay NP-TOP ; ! "Paraguay" ! Dir/LR
 Volívia:Vol•ívia NP-TOP ; ! "Bolivia"
 Vrasil:Vrasil NP-TOP ; ! "Vrasil"
+Brasil:Brasil NP-TOP ; ! "Brasil"
 Argentina:Argentina NP-TOP ; ! "Argentina"
 Peru:Peru NP-TOP ; ! "Peru"
 Chile:Chile NP-TOP ; ! "Chile"
+Rio:Rio NP-TOP ;
+Rio% Grande: Rio% Grande NP-TOP ;
+España:España NP-TOP ;
+Pindorama:Pindorama NP-TOP ;
+Asunción:Asunción NP-TOP ;
 José:José NP-ANT ;
 Juan:Juan NP-ANT ;
+López:López NP-ANT ;
+Carlos:Carlos NP-ANT ;
+Pedro:Pedro NP-ANT ;
 
 LEXICON DemAdjectives
 
@@ -225,7 +234,8 @@ LEXICON PRO-CASE
 
 %<acc%>: # ;
 %<dat%>: # ; 
-
+%<acc%>: N-PL ;
+%<dat%>: N-PL ;
 
 LEXICON PRO
 
@@ -400,6 +410,7 @@ opa%<adj%>%<ind%>:opa # ; ! "todos"
 opavave%<adj%>%<ind%>:opavave # ; ! "todos"
 mayma%<adj%>%<ind%>:mayma # ; ! "cada, todos"
 maymáva%<adj%>%<ind%>:maymáva # ; ! "cada, todos"
+opaite%<adj%>%<ind%>:opaite # ; ! "todos"
 
 LEXICON ADJ-DIS 
 %+ve%<adj%>%<dist%>:ve # ;
@@ -441,6 +452,7 @@ poteĩsa%<num%>:poteĩsa ADJ-DIS ; ! "seiscientos"
 su%<num%>:su ADJ-DIS ; ! "mil"
 sua%<num%>:sua ADJ-DIS ; ! "milión"
 
+peteĩha%<num%>:peteĩha # ; ! "primero"
 
 LEXICON Biformes 
 
@@ -459,6 +471,8 @@ rykeʼýra:rykeʼýra  N ; !"hermano mayor"
 ryvýra:ryvýra N ; ! "hermano menor"
 
 LEXICON Nouns
+
+tembiʼu:tembiʼu N ; ! "comida" 
 Guarani:Guarani N ; ! "guaranis"
 ary:ary N ; ! "año"
 tembirekorã:tembirekorã N ; ! "novia formal"
@@ -825,6 +839,7 @@ jára:j•ára N ; ! "poseedor, dueña, patrón"
 kachape:kachape N ; ! "carro"
 kagua:kagua N ; ! "vaso"
 kaguy:kaguy N ; ! "vino"
+kaʼaguy:kaʼaguy N ; ! "bosque"
 kamambu:kamambu N ; ! "trago"
 kambu:kambu N ; ! "lactancia"
 kambuchi:kambuchi N ; ! "cántaro"
@@ -3181,6 +3196,7 @@ LEXICON Adverbs
 ag̃ui:ag̃ui AD ; ! "cerca"
 agãite:agãite AD ; ! "enseguida"
 angepyhare:angepyhare AD ; ! "anoche"
+aja:aja AD ; ! "durante, cuando"
 arakaʼe:arakaʼe AD ; ! "cuándo"
 arakaʼeve:arakaʼeve AD ; ! "jamás"
 avei:avei AD ; ! "incluso, también, además"
@@ -3196,6 +3212,7 @@ kaʼaru:kaʼaru AD ; ! "tarde"
 koʼãga:koʼãga AD ; ! "ahora"
 koʼága:koʼ•ága AD ; ! "ahora" ! Dir/LR
 koʼápe:koʼ•ápe AD ; ! "acá, aquí"
+mbaʼasy:mbaʼasy AD ; ! "como"
 mbaʼevai:mbaʼevai AD ; ! "mal"
 mbaʼeve:mbaʼeve AD ; ! "nada"
 mbegue:mbegue AD ; ! "lentamente, despacio"
@@ -3223,6 +3240,8 @@ upépe:up•épe AD ; ! "allí"
 guive:guive AD ; ! "desde" 
 oguahẽ:oguahẽ AD ; ! "arriba"
 péicha:p•éicha AD ; ! "así"
+upéicha:up•éicha AD ; ! "así"
+upéi:upéi AD ; ! "después"
 
 LEXICON Punctuation
 
