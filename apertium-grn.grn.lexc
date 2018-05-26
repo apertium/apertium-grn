@@ -98,8 +98,17 @@ PRO ;
 PossesivePronouns ;
 Adverbs ;
 IndefinitePronouns ;
+SpaAdjectives ;
 
 
+!!!!!!!!!!!!!!!!!!!! LEXICON SPANISH !!!!!!!!!!
+LEXICON ADJ-ES 
+%<adj%>: # ;
+
+LEXICON SpaAdjectives
+paraguayo:paraguayo ADJ-ES ;
+nacional:nacional ADJ-ES ;
+santo:santo ADJ-ES ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! 
@@ -159,10 +168,12 @@ Chile:Chile NP-TOP ; ! "Chile"
 Rio:Rio NP-TOP ;
 Rio% Grande: Rio% Grande NP-TOP ;
 España:España NP-TOP ;
+Amérika:Amérika NP-TOP ;
 Pindorama:Pindorama NP-TOP ;
 Asunción:Asunción NP-TOP ;
 Buenos% Aires:Buenos% Aires NP-TOP ;
 San% Francisco:San% Francisco NP-TOP ;
+Gran% Chaco:Gran% Chaco NP-TOP ;
 
 José:José NP-ANT ;
 Juan:Juan NP-ANT ;
@@ -171,6 +182,8 @@ Carlos:Carlos NP-ANT ;
 Pedro:Pedro NP-ANT ;
 Francisco:Francisco NP-ANT ;
 María:María NP-ANT ;
+Antonio:Antonio NP-ANT ;
+Luis:Luis NP-ANT ;
 
 LEXICON DemAdjectives
 
@@ -331,6 +344,7 @@ LEXICON Conjunctions
 
 ha:ha CC ; ! "y"
 térã:térã CC ; ! "o"
+terã:terã CC ; ! "o" ! Dir\LR 
 katu:katu CC ; ! "pero"
 rupive:rupive CC ; ! "por causa de"
 mba'e:mba'e CC ; ! "que"
@@ -391,6 +405,7 @@ ipype:ipype POST ; ! "por dentro"
 hyepype:hyepype POST ; ! "adentro"
 apytepe:apytepe POST ; ! "en medio de"
 guarã:guarã POST ; ! "para" 
+g̃uarã:g̃uarã POST ; ! "para" ! Dir\LR 
 haguére:haguére POST ; ! "por" 
 rupi:rupi POST ; ! "por" 
 gotyo:gotyo POST ; ! "de" 
@@ -490,6 +505,7 @@ uke’i:uke’i N ; ! "cuñada"
 kyvy:kyvy N ; ! "hermano"
 kypy’y:ypy’y N ; ! "hermana menor"
 pehenguekuéra:pehenguekuéra N ; ! "familia"
+pehẽngue:pehẽngue N ; ! "módulo, sección, parcela, fragmento, parte, pedazo"
 rayhuha:rayhuha N ; ! "amante"
 tuti:tuti N ; ! "tio, tia"
 tyvýra:tyvýra N ; ! "hermano menor"
@@ -907,7 +923,6 @@ kotyguasu:kotyguasu N ; ! "salón, sala"
 kotykeha:kotykeha N ; ! "alcoba"
 kotymba'apoha:kotymba'apoha N ; ! "oficina"
 kua:kua N ; ! "hoyo, agujero, orificio, boquete"
-kuaa:kuaa N ; ! "saber"
 kuaaha'ãrã:kuaaha'ãrã N ; ! "laboratorio"
 kuaara'ã:kuaara'ã N ; ! "teoría, pronóstico, acertijo"
 kuarahy:kuarahy N ; ! "sol"
@@ -1036,6 +1051,7 @@ mbiru'a:mbiru'a N ; ! "viruela"
 mbiru'atavy:mbiru'atavy N ; ! "varicela"
 mboavevoha:mboavevoha N ; ! "levadura"
 mbochyryryha:mbochyryryha N ; ! "sartén"
+mboʼehao:mboʼehao N ; ! "educación"
 mboguaha:mboguaha N ; ! "filtro"
 mbogueha:mbogueha N ; ! "borrador"
 mbohapeha:mbohapeha N ; ! "jefatura"
@@ -1119,7 +1135,6 @@ mitã'ao:mitã'ao N ; ! "pañal"
 mitã'i:mitã'i N ; ! "nene"
 moakãhára:moakãh•ára N ; ! "director"
 moambue:moambue N ; ! "cambio"
-mokõiha:mokõiha N ; ! "segundo"
 momarandu:momarandu N ; ! "información, publicidad"
 momaranduha:momaranduha N ; ! "noticiario"
 mombe'ugua'u:mombe'ugua'u N ; ! "mito"
@@ -1396,6 +1411,7 @@ taupéicha:taup•éicha N ; ! "amén"
 tavaguasu:tavaguasu N ; ! "capital, urbe"
 tavao:tavao N ; ! "municipalidad"
 tava'i:tava'i N ; ! "barrio, distrito"
+tavusu:tavusu N ; ! "capital" ! Dir\LR 
 taviju:taviju N ; ! "vello"
 tavy:tavy N ; ! "cretino, demente"
 tañykã:tañykã N ; ! "mentón, quijada"
@@ -2471,6 +2487,7 @@ myendy:myendy V ; ! "prender"
 myengovia:myengovia V ; ! "trocar, indemnizar, sustituir, relevar, reponer, reemplazar"
 myesakã:myesakã V ; ! "traslucir"
 mymbajuka:mymbajuka V ; ! "cazar"
+ñemoĩ:ñemoĩ V ; ! "ponerse"
 ndyvu:ndyvu V ; ! "escupir, salivar"
 ngururu:ngururu V ; ! "gruñir"
 nupã:nupã V ; ! "torturar, maltratar, azotar, castigar, vapulear, golpear, apalear"
@@ -2884,6 +2901,7 @@ hovaigua:hovaigua ADJ ; ! "opuesto"
 hovasapyre:hovasapyre ADJ ; ! "bendito"
 hovy:hovy ADJ ; ! "azul"
 hovyngy:hovyngy ADJ ; ! "celeste"
+hũ:hũ ADJ ; ! "negro"
 hupiha:hupiha ADJ ; ! "elevador"
 hyapúva:hyap•úva ADJ ; ! "sonoro"
 hykue:hykue ADJ ; ! "jugoso"
@@ -2898,7 +2916,6 @@ inimborã:inimborã ADJ ; ! "textil"
 ipepóva:ipepóva ADJ ; ! "alado"
 iporãma:iporãma ADJ ; ! "suficiente, basta"
 ipy'aguapýva:ipy'aguap•ýva ADJ ; ! "pacífico"
-irundyha:irundyha ADJ ; ! "cuarto"
 ityarõva:ityarõva ADJ ; ! "adulto"
 ivare'arekóva:ivare'arek•óva ADJ ; ! "voraz"
 ivevýiva:ivev•ýiva ADJ ; ! "volátil"
@@ -3024,6 +3041,7 @@ oikoreíva:oikore•íva ADJ ; ! "ocioso"
 oikuaaséva:oikuaas•éva ADJ ; ! "curioso"
 oipotapáva:oipotap•áva ADJ ; ! "ambicioso"
 ojapoporãva:ojapoporãva ADJ ; ! "prolijo"
+ojapóva:ojapóva ADJ ; ! "ejecutante"
 ojasurúva:ojasur•úva ADJ ; ! "invasor"
 ojehechakuaáva:ojehechakua•áva ADJ ; ! "visual"
 ojehecháva:ojehech•áva ADJ ; ! "visible"
@@ -3225,6 +3243,7 @@ kaʼaru:kaʼaru AD ; ! "tarde"
 koʼãga:koʼãga AD ; ! "ahora"
 koʼága:koʼ•ága AD ; ! "ahora" ! Dir/LR
 koʼápe:koʼ•ápe AD ; ! "acá, aquí"
+mante:mante AD ; ! "solamente, únicamente"
 mbaʼasy:mbaʼasy AD ; ! "como"
 mbaʼevai:mbaʼevai AD ; ! "mal"
 mbaʼeve:mbaʼeve AD ; ! "nada"
@@ -3236,6 +3255,7 @@ mombyry:mombyry AD ; ! "lejos"
 mbaʼéichapa:mbaʼéichapa AD ; ! "como"
 máramo:m•áramo AD ; ! "nunca"
 ojaposetégui:ojaposet•égui AD ; ! "adrede"
+yma:yma AD ; ! "otrora"
 okápe:ok•ápe AD ; ! "fuera, afuera"
 porãve:porãve AD ; ! "mejor"'
 pyaʼe:pyaʼe AD ; ! "pronto"
