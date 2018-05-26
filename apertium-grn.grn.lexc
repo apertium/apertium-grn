@@ -161,11 +161,16 @@ Rio% Grande: Rio% Grande NP-TOP ;
 España:España NP-TOP ;
 Pindorama:Pindorama NP-TOP ;
 Asunción:Asunción NP-TOP ;
+Buenos% Aires:Buenos% Aires NP-TOP ;
+San% Francisco:San% Francisco NP-TOP ;
+
 José:José NP-ANT ;
 Juan:Juan NP-ANT ;
 López:López NP-ANT ;
 Carlos:Carlos NP-ANT ;
 Pedro:Pedro NP-ANT ;
+Francisco:Francisco NP-ANT ;
+María:María NP-ANT ;
 
 LEXICON DemAdjectives
 
@@ -329,6 +334,7 @@ térã:térã CC ; ! "o"
 katu:katu CC ; ! "pero"
 rupive:rupive CC ; ! "por causa de"
 mba'e:mba'e CC ; ! "que"
+jepe:jepe CC ; ! "aunque, pero"
 
 
 !!!!!!!!!!!!!!!!!!! Adverbs !!!!!!!!!!!!
@@ -729,6 +735,8 @@ jasypa:jasypa N ; ! "octubre"
 jasypoapy:jasypoapy N ; ! "agosto"
 jasypokõi:jasypokõi N ; ! "julio"
 jasyporundy:jasyporundy N ; ! "septiembre"
+jasypo:jasypo N ; ! "maio"
+jasyrundy:jasyrundy N ; ! "abril"
 javegua:javegua N ; ! "colega"
 javorái:javor•ái N ; ! "maleza"
 jegua:jegua N ; ! "lujo, encaje"
@@ -755,6 +763,7 @@ jehupi:jehupi N ; ! "montaje"
 jehupyrehai:jehupyrehai N ; ! "parte"
 jehupyty:jehupyty N ; ! "obtención"
 jehurei:jehurei N ; ! "ocurrencia"
+jehecha:jehecha N ; ! "óptica"
 jeike:jeike N ; ! "ingreso"
 jeikeha:jeikeha N ; ! "acceso, entrada"
 jeikoporã:jeikoporã N ; ! "bienestar"
@@ -820,6 +829,7 @@ joyvy:joyvy N ; ! "dúo"
 jo'oha:jo'oha N ; ! "pala"
 ju:ju N ; ! "aguja"
 juaju:juaju N ; ! "nexo"
+juehegua:juehegua N ; ! "especie"
 juhupyre:juhupyre N ; ! "hallazgo"
 jukeri:jukeri N ; ! "zarza"
 juku'a:juku'a N ; ! "agitación"
@@ -1056,7 +1066,7 @@ mboyvegua:mboyvegua N ; ! "prefijo"
 mbo'ehao:mbo'ehao N ; ! "colegio, escuela"
 mbo'ehaogua:mbo'ehaogua N ; ! "escolar"
 mbo'ehavete:mbo'ehavete N ; ! "facultad"
-mbo'ehára:mbo'eh•ára N ; ! "profesor, maestra"
+mboʼehára:mboʼeh•ára N ; ! "profesor, maestra"
 mbo'ekuaahára:mbo'ekuaah•ára N ; ! "licenciado"
 mbo'epy:mbo'epy N ; ! "lección"
 mbo'esyry:mbo'esyry N ; ! "grado, curso"
@@ -2342,6 +2352,7 @@ mohesakã:mohesakã V ; ! "explicar, aclarar, esclarecer"
 mohesãi:mohesãi V ; ! "sanear"
 mohetã:mohetã V ; ! "nacionalizar"
 moheñói:moheñ•ói V ; ! "crear, germinar"
+heñói:heñ•ói V ; ! "crear, germinar" ! Dir/LR
 mohe'õ:mohe'õ V ; ! "humedecer, regar"
 moho'ysã:moho'ysã V ; ! "refrigerar"
 mohu'ã:mohu'ã V ; ! "concluir, egresar"
@@ -2776,7 +2787,7 @@ hũngy:hũngy ADJ ; ! "gris"
 hungy:hungy ADJ ; ! "gris" ! Dir/LR
 hangy:hangy ADJ ; ! "gris" ! Dir/LR
 kuarahyresẽgua:kuarahyresẽgua ADJ ; ! "oriental"
-michĩve:michĩve ADJ ; ! "menor"
+michĩ:michĩ ADJ ; ! "pequeño"
 mopotĩha:mopotĩha ADJ ; ! "limpiador"
 morotĩ:morotĩ ADJ ; ! "blanco"
 morotï:morotï ADJ ; ! "blanco" ! Dir/LR
@@ -3020,6 +3031,7 @@ ojei:ojei ADJ ; ! "abierto"
 ojejapokuaáva:ojejapokua•áva ADJ ; ! "factible"
 ojeroviáva:ojerovi•áva ADJ ; ! "optimista"
 ojojoguáva:ojojogu•áva ADJ ; ! "similar"
+ojejapóva:ojejap•óva ADJ ; ! "engreído"
 ojoykére:ojoykére ADJ ; ! "junto"
 ojuehegua:ojuehegua ADJ ; ! "recíproco, mutua"
 oka:oka ADJ ; ! "exterior"
@@ -3035,6 +3047,7 @@ opáma:op•áma ADJ ; ! "acabado"
 opámava:op•ámava ADJ ; ! "listo"
 opáva:op•áva ADJ ; ! "perecedero, total"
 oñemboja'okuaáva:oñemboja'okua•áva ADJ ; ! "divisible"
+opytáva:opyt•áva ADJ ; ! "permanente, quieto, parado"
 oñondivéva:oñondiv•éva ADJ ; ! "grupal"
 paha:paha ADJ ; ! "décima, último"
 paha% mboyvegua:paha% mboyvegua ADJ ; ! "penúltimo"
@@ -3220,10 +3233,11 @@ mbovyve:mbovyve AD ; ! "menos"
 mboy:mboy AD ; ! "cuanto"
 mie:mie AD ; ! "más"
 mombyry:mombyry AD ; ! "lejos"
+mbaʼéichapa:mbaʼéichapa AD ; ! "como"
 máramo:m•áramo AD ; ! "nunca"
 ojaposetégui:ojaposet•égui AD ; ! "adrede"
 okápe:ok•ápe AD ; ! "fuera, afuera"
-porãve:porãve AD ; ! "mejor"',
+porãve:porãve AD ; ! "mejor"'
 pyaʼe:pyaʼe AD ; ! "pronto"
 pyhareve:pyhareve AD ; ! "mañana"
 pype:pype AD ; ! "adentro"
