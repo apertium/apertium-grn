@@ -129,6 +129,8 @@ LEXICON CASE
 
 # ; 
 
+LEXICON SUBST 
++kue%<subs%>:%>kue # ;
 
 
 LEXICON N-PL 
@@ -450,6 +452,7 @@ piko:piko POST ; ! "interrogación"
 LEXICON ADJ
 %<adj%>: # ;
 %<adj%>: AD-SUF ;
+%<adj%>: SUBST ;
 
 LEXICON SUF-PL  
 %+ita%<adj%>%<ind%>%<pl%>:%>%{E%}ta # ;
