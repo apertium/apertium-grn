@@ -1,11 +1,11 @@
 Alphabet
 
 A B Ã C D E Ẽ G G̃ H I Ĩ J K L M N Ñ O Õ P R S T U Ũ V W X Y Z Ỹ Á É Í Ó Ú Ý 
-a b ã c d e ẽ g g̃ h i ĩ j k l m n ñ o õ p r s t u ũ v w x y z ỹ á é í ó ú ý '
+a b ã c d e ẽ g g̃ h i ĩ j k l m n ñ o õ p r s t u ũ v w x y z ỹ á é í ó ú ý ʼ
 
 
 %{J%}:j %{J%}:ñ
-%{P%}:' %{P%}:0
+%{P%}:ʼ %{P%}:0
 %{I%}:0 %{I%}:j %{I%}:ñ 
 %{H%}:0 %{H%}:h
 %{K%}:k %{K%}:g 
@@ -63,11 +63,8 @@ Rules
 Va:Vt <=> _ %{o%}: [v: | a:] ;
             where Va in VowsAton Vt in VowsTon matched ;
 
-"Chane vowel before atonal suffixes"
-Va:Vt <=> _ %>: [Cns: | VowsAton:]+ ;
-            except 
-            _ %>: g: u: a: ;
-            VowsTon: _ ;
+"Chane vowel before atonal suffixes in adverbs"
+Va:Vt <=> _ %>: [m: a: | n: t: e:] ;
             where Va in VowsAton Vt in VowsTon matched ;
 
 
@@ -80,7 +77,7 @@ Vt:Va <=> •: _ [ Cns: | %>: | Nas: | VowsAton: ]+ VowsTon: ;
                     where CNAS in Nas ;
 
 "Insert glottal stop ['] if next morpheme starts with a vowel"
-%{P%}:' <=> _ [ VowsTon: | •: VowsAton:] ;
+%{P%}:ʼ <=> _ [ VowsTon: | •: VowsAton:] ;
 
 "Surface [n] in plural nouns" 
 %{N%}:n <=> Nas: %>: _ ;

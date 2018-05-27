@@ -21,12 +21,14 @@ Multichar_Symbols
 %<ind%>              ! Indefinido
 %<itg%>              ! Interrogativo
 %<adj%>              ! Adjetivo
+%<dist%>             ! Distributivo
 
 %<tv%>               ! Transitivo
 %<iv%>               ! Intransitivo
 %<neg%>              ! Negativo
 
 %<top%>              ! Toponimo
+%<ant%>              ! Antroponimo
 
 %<are%>              ! Verbos areales
 %<aire%>             ! Verbos aireales con [i] despues de prefijo
@@ -161,6 +163,8 @@ LEXICON NP-TOP
 
 LEXICON NP-ANT
 %<np%>%<ant%>: # ;
+
+# ;
 
 LEXICON ProperNouns 
 
@@ -373,7 +377,8 @@ LEXICON AD
 
 LEXICON AD-ITG 
 
-%<adv%>: ITG-SUF ;
+%<adv%>%<itg%>: ITG-SUF ;
+%<adv%>%<itg%>: # ;
 
 LEXICON AD-NEG 
 %<adv%>%<neg%>: # ;
@@ -390,6 +395,11 @@ ava%<prn%>%<itg%>:ava ITG-SUF ; ! "quién"
 máva%<prn%>%<itg%>:máva ITG-SUF ; ! "quién"
 mbaʼe%<prn%>%<itg%>:mbaʼe ITG-SUF ; ! "qué"
 mbaʼépa%<prn%>%<itg%>:mbaʼ•épa ITG-SUF ; ! "qué"
+
+ava%<prn%>%<itg%>:ava # ; ! "quién"
+máva%<prn%>%<itg%>:máva # ; ! "quién"
+mbaʼe%<prn%>%<itg%>:mbaʼe # ; ! "qué"
+mbaʼépa%<prn%>%<itg%>:mbaʼ•épa # ; ! "qué"
 
 
 
@@ -476,6 +486,7 @@ opaite%<adj%>%<ind%>:opaite # ; ! "todos"
 
 LEXICON ADJ-DIS 
 %+ve%<adj%>%<dist%>:ve # ;
+# ;
 
 LEXICON Numerals
 
