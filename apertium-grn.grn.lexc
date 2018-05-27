@@ -111,6 +111,7 @@ LEXICON SpaAdjectives
 paraguayo:paraguayo ADJ-ES ;
 nacional:nacional ADJ-ES ;
 santo:santo ADJ-ES ;
+general:general ADJ-ES ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! 
@@ -176,6 +177,9 @@ Asunción:Asunción NP-TOP ;
 Buenos% Aires:Buenos% Aires NP-TOP ;
 San% Francisco:San% Francisco NP-TOP ;
 Gran% Chaco:Gran% Chaco NP-TOP ;
+Francia:Francia NP-TOP ;
+Europa:Europa NP-TOP ;
+Asia:Asia NP-TOP ;
 
 José:José NP-ANT ;
 Juan:Juan NP-ANT ;
@@ -186,6 +190,9 @@ Francisco:Francisco NP-ANT ;
 María:María NP-ANT ;
 Antonio:Antonio NP-ANT ;
 Luis:Luis NP-ANT ;
+Hesu:Hesu NP-ANT ; 
+Félix:Félix NP-ANT ;
+Manuel:Manuel NP-ANT ;
 
 LEXICON DemAdjectives
 
@@ -361,6 +368,13 @@ LEXICON AD-ITG
 
 %<adv%>: ITG-SUF ;
 
+LEXICON AD-NEG 
+%<adv%>%<neg%>: # ;
+
+LEXICON AD-SUF 
++nte%<adv%>:%>nte # ; ! "sólo"
++ma%<adv%>:%>ma # ; ! "ya" 
+
 LEXICON ITG-SUF
 +po%<itg%>:%>po # ;
 
@@ -368,6 +382,7 @@ LEXICON ItgPronouns
 ava%<prn%>%<itg%>:ava ITG-SUF ; ! "quién"
 máva%<prn%>%<itg%>:máva ITG-SUF ; ! "quién"
 mbaʼe%<prn%>%<itg%>:mbaʼe ITG-SUF ; ! "qué"
+mbaʼépa%<prn%>%<itg%>:mbaʼ•épa ITG-SUF ; ! "qué"
 
 
 
@@ -455,6 +470,7 @@ LEXICON ADJ-DIS
 LEXICON Numerals
 
 peteĩ%<num%>:peteĩ ADJ-DIS ; ! "uno"
+peteï%<num%>:peteï ADJ-DIS ; ! "uno" ! Dir\LR 
 mokõi%<num%>:mokõi ADJ-DIS ; ! "dos"
 mbohapy%<num%>:mbohapy ADJ-DIS ; ! "tres"
 irundy%<num%>:irundy ADJ-DIS ; !"cuatro"
@@ -509,6 +525,7 @@ ryvýra:ryvýra N ; ! "hermano menor"
 
 LEXICON Nouns
 
+tenda:tenda N ; ! "morada, lugar"
 tembiʼu:tembiʼu N ; ! "comida" 
 Guarani:Guarani N ; ! "guaranis"
 ary:ary N ; ! "año"
@@ -974,6 +991,7 @@ kure:kure N ; ! "cerdo"
 kure% kaʼaguy:kure% kaʼaguy N ; ! "jabalí"
 kurekyrakue:kurekyrakue N ; ! "tocino"
 kureraʼy:kureraʼy N ; ! "lechón"
+kuri:kuri N ; ! "araucaria"
 kururu:kururu N ; ! "sapo"
 kurusu:kurusu N ; ! "cruz"
 kuruvai:kuruvai N ; ! "lepra"
@@ -1859,7 +1877,6 @@ kuruchï:kuruchï N ; ! "calambre"
 kuruchĩ:kuruchĩ N ; ! "calambre" ! Dir/LR
 kuãirũ:kuãirũ N ; ! "anillo"
 kuãiru:kuãiru N ; ! "anillo" ! Dir/LR
-michĩve:michĩve N ; ! "menor"
 michĩvéva:michĩv•éva N ; ! "inferioridad"
 michïvéva:michïv•éva N ; ! "inferioridad" ! Dir/LR
 moïjey:moïjey N ; ! "implante"
@@ -2936,6 +2953,7 @@ ityarõva:ityarõva ADJ ; ! "adulto"
 ivareʼarekóva:ivareʼarek•óva ADJ ; ! "voraz"
 ivevýiva:ivev•ýiva ADJ ; ! "volátil"
 jagua% rehegua:jagua% rehegua ADJ ; ! "canina"
+jare:jare ADJ ; ! "grasiento"
 jakuaaha:jakuaaha ADJ ; ! "accesible"
 japi:japi ADJ ; ! "balear"
 japokuaáva:japokua•áva ADJ ; ! "viable"
@@ -3248,12 +3266,10 @@ angepyhare:angepyhare AD ; ! "anoche"
 aja:aja AD ; ! "durante, cuando"
 arakaʼeve:arakaʼeve AD ; ! "jamás"
 árupi:árupi AD ; ! "por aquí"
-avei:avei AD ; ! "incluso, también, además"
 añete:añete AD ; ! "seguro"
 gueteri:gueteri AD ; ! "todavía"
 heta:heta AD ; ! "mucho"
 hákatu:h•ákatu AD ; ! "pero"
-hẽe:hẽe AD ; ! "sí"
 ikatu:ikatu AD ; ! "tal vez"
 jave:jave AD ; ! "mientras"
 jepe:jepe AD ; ! "aun, sin embargo"
@@ -3324,6 +3340,18 @@ mbaʼerã:mbaʼerã AD-ITG ; ! "para qué"
 mbaʼére:mbaʼére AD-ITG ; ! "por qué"
 mbaʼéicha:mbaʼéicha AD-ITG ; ! "cómo"
 mbaʼégui:mbaʼégui AD-ITG ; ! "por qué"
+
+hẽe:hẽe AD ; ! "sí"
+avei:avei AD ; ! "incluso, también, además"
+neĩ:neĩ AD ; ! "bueno"
+
+
+nahániri:nahániri AD-NEG ; ! "no"
+ani:ani AD-NEG ; ! "no"
+anichéne:anich•éne AD-NEG ; ! "no"
+tove:tove AD-NEG ; ! "no"
+neʼĩra:neʼĩra AD-NEG ; ! "no todavia, no aún" 
+
 
 LEXICON Punctuation
 
