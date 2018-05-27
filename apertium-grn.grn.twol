@@ -76,8 +76,7 @@ Vt:Va <=> •: _ [ Cns: | %>: | Nas: | VowsAton: ]+ VowsTon: ;
                     where CNAS in Nas ;
 
 "Insert glottal stop ['] if next morpheme starts with a vowel"
-%{P%}:' <=> _ [ Vow: | •: Vow:] ;
-                 where Vow in Vows ;
+%{P%}:' <=> _ [ VowsTon: | •: VowsAton:] ;
 
 "Surface [n] in plural nouns" 
 %{N%}:n <=> Nas: %>: _ ;
