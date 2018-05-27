@@ -60,7 +60,6 @@
 "<.>"
 	"."sent @punct
  
-
 # sent_id = GEN.1.3
 # text = Tupã heʼi: “Tahesakã!” , Ha oiko haʼe heʼi haguéicha.  
 # text[spa] = Entonces dijo Dios: "Sea la luz." Y hubo luz. 
@@ -82,15 +81,18 @@
 	","cm @punct
 "<Ha>"
 	"ha" cnjcoo
-"<oiko haʼe>"
-	"*oiko haʼe"
+"<oiko>"
+	"*oiko"
+"<haʼe>"
+	"haʼe" prn pers p3 sg
+	"haʼe" v iv p1 sg pres
+	"haʼe" vbser iv p1 sg pres
 "<heʼi>"
 	"*heʼi"
 "<haguéicha>"
 	"*haguéicha"
 "<.>"
 	"."sent @punct
-  
 
 # sent_id = GEN.1.4
 # text = Tupã omaʼẽvo hembiapokuére ojuhu iporãha. Ha oipeʼa hesakãha pytũhágui. 
@@ -119,7 +121,6 @@
 	"*pytũhágui"
 "<.>"
 	"."sent @punct
- 
 
 # sent_id = GEN.1.5.a
 # text = Hesakãva ombohéra “ára” ha pytũha “pyhare”. 
@@ -166,7 +167,6 @@
 	"*peteĩha"
 "<.>"
 	"."sent @punct
-  
 
 # sent_id = GEN.1.6
 # text = Upéi Tupã heʼi: “Toiko y aty guasu paʼũme arapy ha tombojaʼo mokõi hendápe upe y aty guasu”. Ha oiko haʼe heʼi haguéicha. 
@@ -222,15 +222,18 @@
 "<Ha>"
 	"ha" cnjcoo
 	"ha" v iv pres
-"<oiko haʼe>"
-	"*oiko haʼe"
+"<oiko>"
+	"*oiko"
+"<haʼe>"
+	"haʼe" prn pers p3 sg
+	"haʼe" v iv p1 sg pres
+	"haʼe" vbser iv p1 sg pres
 "<heʼi>"
 	"*heʼi"
 "<haguéicha>"
 	"*haguéicha"
 "<.>"
 	"."sent @punct
- 
 
 # sent_id = GEN.1.7
 # text = Tupã ojapo peteĩ arapy ha upéva oipeʼa ojuehegui y aty guasu oĩva iguýpe pe hiʼári oĩvagui. 
@@ -275,14 +278,12 @@
 	"*oĩvagui"
 "<.>"
 	"."sent @punct
- 
 
-# sent_id = GEN.1.8
+# sent_id = GEN.1.8.a
 # text = Ha Tupã ombohéra “yvága”  upe arapy. Ha upéicha ohasa ára mokõiha.  
 # text[spa] = Y Dios llamó a la expansión cielos. Y fue la tarde y fue la mañana: el segundo día.  
 "<Ha>"
 	"ha" cnjcoo
-	"ha" v iv pres
 "<Tupã>"
 	"tupã" n
 "<ombohéra>"
@@ -300,24 +301,25 @@
 	"arapy" n
 "<.>"
 	"."sent @punct
+
+# sent_id = GEN.1.8.b
+# text =  Ha upéicha ohasa ára mokõiha.  
+# text[spa] = Y fue la tarde y fue la mañana: el segundo día.  
 "<Ha>"
 	"ha" cnjcoo
-	"ha" v iv pres
 "<upéicha>"
-	"*upéicha"
+	"upéicha" adv
 "<ohasa>"
 	"o" prn p3 sg
 		"hasa" v iv pres
 "<ára>"
 	"ára" n
 "<mokõiha>"
-	"mokõiha" adj
-	"mokõiha" n
+	"mokõiha" adj ord
 "<.>"
 	"."sent @punct
-  
 
-# sent_id = GEN.1.9
+# sent_id = GEN.1.9.a
 # text = Upérõ Tupã heʼi: “Taijaty peteĩ hendápe y oĩva yvága guýpe ha tojekuaa iñapekãha”. Ha oiko haʼe heʼi haguéicha. 
 # text[spa] = Entonces dijo Dios: "Júntense en un lugar las aguas  que están  debajo de los cielos, y que aparezca lo seco." Y así fue. 
 "<Upérõ>"
@@ -355,20 +357,26 @@
 	"”" rquot @punct
 "<.>"
 	"."sent @punct
+
+# sent_id = GEN.1.9.b
+# text = Ha oiko haʼe heʼi haguéicha. 
+# text[spa] = Y así fue. 
 "<Ha>"
 	"ha" cnjcoo
-	"ha" v iv pres
-"<oiko haʼe>"
-	"*oiko haʼe"
+"<oiko>"
+	"*oiko"
+"<haʼe>"
+	"haʼe" prn pers p3 sg
+	"haʼe" v iv p1 sg pres
+	"haʼe" vbser iv p1 sg pres
 "<heʼi>"
 	"*heʼi"
 "<haguéicha>"
 	"*haguéicha"
 "<.>"
 	"."sent @punct
- 
 
-# sent_id = GEN.1.10
+# sent_id = GEN.1.10.a
 # text = Tupã ombohéra “yvy” pe iñapekãha, ha “yguasu” pe y aty guasu. Ha omaʼẽvo hembiapokuére, ohecha iporãha.  
 # text[spa] = Dios llamó a lo seco "tierra," y al conjunto de las aguas llamó "mares." Y Dios vio que  era  bueno. 
 "<Tupã>"
@@ -411,6 +419,10 @@
 	"guasu" n
 "<.>"
 	"."sent @punct
+
+# sent_id = GEN.1.10.b
+# text = Ha omaʼẽvo hembiapokuére, ohecha iporãha.  
+# text[spa] = Y Dios vio que  era  bueno. 
 "<Ha>"
 	"ha" cnjcoo
 	"ha" v iv pres
@@ -427,7 +439,6 @@
 	"*iporãha"
 "<.>"
 	"."sent @punct
-  
 
 # sent_id = GEN.1.11
 # text = Heʼi Tupã: “Taheñói yvýgui kaʼavo haʼỹiva ha yvyra hiʼáva, hyepýpe haʼỹiva, heñói ha hiʼa haguã yvy tuichakue.” Ha oiko haʼe heʼi haguéicha. 
@@ -485,15 +496,18 @@
 "<Ha>"
 	"ha" cnjcoo
 	"ha" v iv pres
-"<oiko haʼe>"
-	"*oiko haʼe"
+"<oiko>"
+	"*oiko"
+"<haʼe>"
+	"haʼe" prn pers p3 sg
+	"haʼe" v iv p1 sg pres
+	"haʼe" vbser iv p1 sg pres
 "<heʼi>"
 	"*heʼi"
 "<haguéicha>"
 	"*haguéicha"
 "<.>"
 	"."sent @punct
- 
 
 # sent_id = GEN.1.12
 # text = Ha upéicha, yvýgui heñói opaichagua kaʼavo ha yvyra, ha Tupã omaʼẽvo hembiapokuére ohecha iporãha. 
@@ -536,27 +550,25 @@
 	"*iporãha"
 "<.>"
 	"."sent @punct
- 
 
 # sent_id = GEN.1.13
 # text = Upéicha ohasa ára mbohapyha.  
 # text[spa] = Y fue la tarde y fue la mañana: el tercer día.  
 "<Upéicha>"
-	"*Upéicha"
+	"upéicha" adv @advmod #1->3
 "<ohasa>"
-	"o" prn p3 sg
-		"hasa" v iv pres
+	"o" prn p3 sg @expl #2->3
+		"hasa" v iv pres @root #3->0
 "<ára>"
-	"ára" n
+	"ára" n @nsubj #4->3
 "<mbohapyha>"
-	"mbohapyha" adj
+	"mbohapyha" adj ord @amod #5->3
 "<.>"
-	"."sent @punct
-  
+	"."sent @punct #6->3
 
-# sent_id = GEN.1.16
-# text = Tupã ojapo mokõi mbaʼe rendy guasu: upe tuichavéva, kuarahy, ohesape haguã arakue, ha upe michĩvéva, jasy, ohesape haguã pyharekue. Ojapo avei mbyja kuéra. 
-# text[spa] = Dios hizo las dos grandes lumbreras, la lumbrera mayor para dominio del día y la lumbrera menor para dominio de la noche.  Hizo  también las estrellas. 
+# sent_id = GEN.1.16.a
+# text = Tupã ojapo mokõi mbaʼe rendy guasu: upe tuichavéva, kuarahy, ohesape haguã arakue, ha upe michĩvéva, jasy, ohesape haguã pyharekue. 
+# text[spa] = Dios hizo las dos grandes lumbreras, la lumbrera mayor para dominio del día y la lumbrera menor para dominio de la noche.  
 "<Tupã>"
 	"tupã" n
 "<ojapo>"
@@ -616,38 +628,36 @@
 	"*pyharekue"
 "<.>"
 	"."sent @punct
+
+# sent_id = GEN.1.16.b
+# text = Ojapo avei mbyja kuéra. 
+# text[spa] = Hizo  también las estrellas. 
 "<Ojapo>"
-	"o" prn p3 sg
-		"japo" v iv pres
-	"o" prn pos p3 sg
-		"japo" n
+	"o" prn p3 sg @expl #1->2
+		"japo" v iv pres @root #2->0
 "<avei>"
-	"avei" adv
+	"avei" adv @advmod #3->2
 "<mbyja>"
-	"mbyja" n
-	"mbyja" v iv pres
+	"mbyja" n @obj #4->2
 "<kuéra>"
-	"*kuéra"
+	"kuéra" det pl @det #5->4
 "<.>"
-	"."sent @punct
- 
+	"."sent @punct #6->2
 
 # sent_id = GEN.1.19
 # text = Upéicha ohasa ára irundyha.  
 # text[spa] = Y fue la tarde y fue la mañana: el cuarto día.  
 "<Upéicha>"
-	"*Upéicha"
+	"upéicha" adv @advmod #1->3
 "<ohasa>"
-	"o" prn p3 sg
-		"hasa" v iv pres
+	"o" prn p3 sg @expl #2->3
+		"hasa" v iv pres @root #3->0
 "<ára>"
-	"ára" n
+	"ára" n @nsubj #4->3
 "<irundyha>"
-	"irundyha" adj
-	"irundyha" n
+	"irundyha" adj ord @amod #5->4
 "<.>"
-	"."sent @punct
-  
+	"."sent @punct #6->3
 
 # sent_id = GEN.1.20
 # text = Upéi Tupã heʼi: “Y tahenyhẽ opaichagua mbaʼe oikovévagui ha toveve guyra árare.” Ha oiko haʼe heʼi haguéicha. 
@@ -689,17 +699,20 @@
 "<Ha>"
 	"ha" cnjcoo
 	"ha" v iv pres
-"<oiko haʼe>"
-	"*oiko haʼe"
+"<oiko>"
+	"*oiko"
+"<haʼe>"
+	"haʼe" prn pers p3 sg
+	"haʼe" v iv p1 sg pres
+	"haʼe" vbser iv p1 sg pres
 "<heʼi>"
 	"*heʼi"
 "<haguéicha>"
 	"*haguéicha"
 "<.>"
 	"."sent @punct
- 
 
-# sent_id = GEN.1.21
+# sent_id = GEN.1.21.a
 # text = Tupã ojapo umi tymba ñarõ ha hetave mbaʼe hoʼytáva ipype ha opaichagua guyra. Ha omaʼẽvo hembiapokuére ohecha iporãha. 
 # text[spa] = Y Dios creó los grandes monstruos marinos y todo ser viviente que se mueve, de los cuales, según su especie, están llenas las aguas, y toda ave según su especie. Y Dios vio que  era  bueno. 
 "<Tupã>"
@@ -707,19 +720,14 @@
 "<ojapo>"
 	"o" prn p3 sg
 		"japo" v iv pres
-	"o" prn pos p3 sg
-		"japo" n
 "<umi>"
-	"*umi"
+	"umi" adj dem pl
 "<tymba>"
-	"tymba" adj
 	"tymba" n
 "<ñarõ>"
 	"ñarõ" adj
-	"ñarõ" v iv pres
 "<ha>"
 	"ha" cnjcoo
-	"ha" v iv pres
 "<hetave>"
 	"*hetave"
 "<mbaʼe>"
@@ -740,9 +748,12 @@
 	"guyra" n
 "<.>"
 	"."sent @punct
+
+# sent_id = GEN.1.21.b
+# text = Ha omaʼẽvo hembiapokuére ohecha iporãha. 
+# text[spa] = Y Dios vio que  era  bueno. 
 "<Ha>"
 	"ha" cnjcoo
-	"ha" v iv pres
 "<omaʼẽvo>"
 	"*omaʼẽvo"
 "<hembiapokuére>"
@@ -754,7 +765,6 @@
 	"*iporãha"
 "<.>"
 	"."sent @punct
- 
 
 # sent_id = GEN.1.22
 # text = Ohovasa chupe kuéra heʼívo: “Peñemuña ha pemyenyhẽ y aty guasu.” Heʼi avei guyra kuérape oñemboheta haguã. 
@@ -805,25 +815,23 @@
 	"*haguã"
 "<.>"
 	"."sent @punct
- 
 
 # sent_id = GEN.1.23
 # text = Upéicha ohasa ára 5ha.  
 # text[spa] = Y fue la tarde y fue la mañana: el quinto día.  
 "<Upéicha>"
-	"*Upéicha"
+	"upéicha" 
 "<ohasa>"
 	"o" prn p3 sg
 		"hasa" v iv pres
 "<ára>"
 	"ára" n
 "<5ha>"
-	"*5ha"
+	"5ha" adj ord
 "<.>"
 	"."sent @punct
-  
 
-# sent_id = GEN.1.24
+# sent_id = GEN.1.24.a
 # text = Tupã heʼi: “Toñemuña yvy apére opaichagua tymba: mymbáva, hyére otyryrýva ha hesaitéva, michĩva ha tuicháva.” Ha oiko haʼe heʼi haguéicha. 
 # text[spa] = Entonces dijo Dios: "Produzca la tierra seres vivientes según su especie: ganados, reptiles y animales de la tierra según su especie." Y así fue. 
 "<Tupã>"
@@ -854,7 +862,7 @@
 "<,>"
 	","cm @punct
 "<hyére>"
-	"*hyére"
+	"hyére" n
 "<otyryrýva>"
 	"otyryrýva" n
 "<ha>"
@@ -875,18 +883,25 @@
 	"."sent @punct
 "<”>"
 	"”" rquot @punct
+
+# sent_id = GEN.1.24.b
+# text = Ha oiko haʼe heʼi haguéicha. 
+# text[spa] = Y así fue. 
 "<Ha>"
 	"ha" cnjcoo
 	"ha" v iv pres
-"<oiko haʼe>"
-	"*oiko haʼe"
+"<oiko>"
+	"*oiko"
+"<haʼe>"
+	"haʼe" prn pers p3 sg
+	"haʼe" v iv p1 sg pres
+	"haʼe" vbser iv p1 sg pres
 "<heʼi>"
 	"*heʼi"
 "<haguéicha>"
 	"*haguéicha"
 "<.>"
 	"."sent @punct
- 
 
 # sent_id = GEN.1.25
 # text = Tupã omaʼẽ hembiapokuére ha ojuhu iporãha.  
@@ -907,7 +922,6 @@
 	"*iporãha"
 "<.>"
 	"."sent @punct
-  
 
 # sent_id = GEN.1.26
 # text = Tupã heʼi: “Jajapo koʼágã yvypóra ñandéicha, ta ñande jogua  ha toguereko ipoguýpe pira ypegua, guyra árare ovevéva ha opaichagua tymba: mymbáva, hyére otyryrýva ha hesaitéva, michĩva ha tuicháva opaichagua.” Ha oiko haʼe heʼi haguéicha.  
@@ -974,7 +988,7 @@
 "<,>"
 	","cm @punct
 "<hyére>"
-	"*hyére"
+	"hyére" n
 "<otyryrýva>"
 	"otyryrýva" n
 "<ha>"
@@ -1000,8 +1014,12 @@
 "<Ha>"
 	"ha" cnjcoo
 	"ha" v iv pres
-"<oiko haʼe>"
-	"*oiko haʼe"
+"<oiko>"
+	"*oiko"
+"<haʼe>"
+	"haʼe" prn pers p3 sg
+	"haʼe" v iv p1 sg pres
+	"haʼe" vbser iv p1 sg pres
 "<heʼi>"
 	"*heʼi"
 "<haguéicha>"
@@ -1009,7 +1027,6 @@
 "<.>"
 	"."sent @punct
   
-
 # sent_id = GEN.1.27
 # text = Ha Tupã ojapo yvypóra, haʼéicha, ojoguáva chupe ojapo, kuimbaʼe ha kuñáva ojapo.  
 # text[spa] = Dios creó al hombre a imagen Suya, a imagen de Dios lo creó; varón y hembra los creó. 
@@ -1128,9 +1145,6 @@
 	"."sent @punct
 "<”>"
 	"”" rquot @punct
-"<.>"
-	"."sent @punct
-  
 
 # sent_id = GEN.1.29
 # text = Upéi heʼi chupe kuéra: “Yvy ári amoĩ opaichagua mbaʼe raʼỹi ha yva peʼu haguã. 
@@ -1173,7 +1187,6 @@
 	"*haguã"
 "<.>"
 	"."sent @punct
- 
 
 # sent_id = GEN.1.30
 # text = Opa tymba, guyra ha hyére otyryrývape ameʼẽ hembiʼurã kaʼavo rovyũ”. Ha oiko haʼe heʼi haguéicha. 
@@ -1181,7 +1194,6 @@
 "<Opa>"
 	"opa" adj ind
 "<tymba>"
-	"tymba" adj
 	"tymba" n
 "<,>"
 	","cm @punct
@@ -1189,9 +1201,8 @@
 	"guyra" n
 "<ha>"
 	"ha" cnjcoo
-	"ha" v iv pres
 "<hyére>"
-	"*hyére"
+	"hyére" n
 "<otyryrývape>"
 	"otyryrýva" n
 		"pe" post
@@ -1210,8 +1221,12 @@
 "<Ha>"
 	"ha" cnjcoo
 	"ha" v iv pres
-"<oiko haʼe>"
-	"*oiko haʼe"
+"<oiko>"
+	"*oiko"
+"<haʼe>"
+	"haʼe" prn pers p3 sg
+	"haʼe" v iv p1 sg pres
+	"haʼe" vbser iv p1 sg pres
 "<heʼi>"
 	"*heʼi"
 "<haguéicha>"

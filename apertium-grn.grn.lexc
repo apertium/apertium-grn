@@ -20,6 +20,7 @@ Multichar_Symbols
 %<cnjcoo%>           ! Conjunción coordinada
 %<ind%>              ! Indefinido
 %<itg%>              ! Interrogativo
+%<adj%>              ! Adjetivo
 
 %<tv%>               ! Transitivo
 %<iv%>               ! Intransitivo
@@ -375,11 +376,11 @@ LEXICON AD-NEG
 %<adv%>%<neg%>: # ;
 
 LEXICON AD-SUF 
-+nte%<adv%>:%>nte # ; ! "sólo"
-+ma%<adv%>:%>ma # ; ! "ya" 
+%+nte%<adv%>:%>nte # ; ! "sólo"
+%+ma%<adv%>:%>ma # ; ! "ya" 
 
 LEXICON ITG-SUF
-+po%<itg%>:%>po # ;
+%+po%<itg%>:%>po # ;
 
 LEXICON ItgPronouns 
 ava%<prn%>%<itg%>:ava ITG-SUF ; ! "quién"
@@ -392,6 +393,7 @@ mbaʼépa%<prn%>%<itg%>:mbaʼ•épa ITG-SUF ; ! "qué"
 LEXICON PersonalPronouns
 
 ché%<prn%>%<pers%>%<p1%>%<sg%>:ché # ; ! "yo"
+ché%<prn%>%<pers%>%<p1%>%<sg%>:che # ; ! "yo" ! Dir/LR ! Err/Orth
 ndé%<prn%>%<pers%>%<p2%>%<sg%>:ndé # ; ! tú
 haʼe%<prn%>%<pers%>%<p3%>%<sg%>:haʼe # ; ! "él, ella"
 ñandé%<prn%>%<pers%>%<p1%>%<pl%>:ñandé # ;
