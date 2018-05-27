@@ -223,6 +223,7 @@ LEXICON V-INFL
 
 %<pres%>: # ;
 %<pres%>: VerbsNegSuf;
+%<pres%>: AD-SUF ;
 
 LEXICON V 
 
@@ -448,6 +449,7 @@ piko:piko POST ; ! "interrogación"
 
 LEXICON ADJ
 %<adj%>: # ;
+%<adj%>: AD-SUF ;
 
 LEXICON SUF-PL  
 %+ita%<adj%>%<ind%>%<pl%>:%>%{E%}ta # ;
