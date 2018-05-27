@@ -146,6 +146,7 @@ LEXICON CC
 LEXICON POST
 
 %<post%>: # ;
+%<post%>: CASE ;
 
 LEXICON N
 
@@ -214,11 +215,13 @@ umi%<adj%>%<dem%>%<pl%>:umi%{o%} DEM-PRN-SG ; ! "esos, esas, aquellos, aquellas"
 
 LEXICON DEM-PRN-SG 
 
-%+va%<subst%>%<dem%>:%>va # ;
-%+a%<subst%>%<dem%>:%>a # ;
+%+va%<subs%>%<dem%>:%>va # ;
+%+a%<subs%>%<dem%>:%>a # ;
+# ;
 
 LEXICON DEM-PRN-PL
 %+va%<subst%>%<dem%>:%>va # ;
+# ;
 
 !!!!!!!!!!!!! VERBAL LEXICONS !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
