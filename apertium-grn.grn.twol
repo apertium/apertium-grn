@@ -63,9 +63,13 @@ Rules
 Va:Vt <=> _ %{o%}: [v: | a:] ;
             where Va in VowsAton Vt in VowsTon matched ;
 
-"Chane vowel before antonal suffixes"
+"Chane vowel before atonal suffixes"
 Va:Vt <=> _ %>: [Cns: | VowsAton:]+ ;
+            except 
+            _ %>: g: u: a: ;
+            VowsTon: _ ;
             where Va in VowsAton Vt in VowsTon matched ;
+
 
 "Remove tonal vowel if tonal in affix"
 Vt:Va <=> •: _ [ Cns: | %>: | Nas: | VowsAton: ]+ VowsTon: ;
