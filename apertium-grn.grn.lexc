@@ -163,7 +163,7 @@ nde%<sup%>%+:%>n%{D%}e Adjectives ;
 LEXICON N-PL 
 
 %+kuéra%<pl%>:%>%{N%}%{K%}uéra # ;
-
+%+kuéra%<pl%>:%>%{N%}%{K%}uéra COMP ;
 
 LEXICON CC
 
@@ -180,6 +180,7 @@ LEXICON N
 %<n%>: N-PL ;
 %<n%>: SUF-PL ;
 %<n%>: COMP ;
+%<n%>: V ;
 
 LEXICON NP-TOP
 
@@ -259,6 +260,7 @@ LEXICON V-INFL
 %<pres%>: VerbsNegSuf;
 %<pres%>: AD-SUF ;
 %<pres%>: COMP ;
+%<pres%>: Adverbs ;
 
 LEXICON V 
 
@@ -400,6 +402,7 @@ mbaʼe:mbaʼe CC ; ! "que"
 LEXICON AD 
 %<adv%>: # ;
 %<adv%>: COMP ;
+%<adv%>: VerbsNegSuf ;
 
 LEXICON AD-ITG 
 
