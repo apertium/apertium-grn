@@ -142,10 +142,19 @@ LEXICON COMP
 +ve%<comp%>:%>ve # ; ! "superioridad!
 +ive%<comp%>:%>ive # ; ! "inferioridad" 
 
+LEXICON SUP-REL 
+
++ve%<comp%>:%>ve # ; ! "superioridad!
++ve%<comp%>:%>ve DEM-PRN-PL ; ! "superioridad!
+
 LEXICON SUP 
 +ete%<sup%>:%>%{E%}te # ; ! "muy" 
 +eterei%<sup%>:%>%{E%}terei # ; ! "sumamente"
 +rei%<sup%>:%>rei # ; ! "muy, sumamente"
+
++ete%<sup%>:%>%{E%}te SUP-REL ; ! "muy" 
++eterei%<sup%>:%>%{E%}terei SUP-REL ; ! "sumamente"
++rei%<sup%>:%>rei SUP-REL ; ! "muy, sumamente"
 
 LEXICON GRD-PREF 
 
@@ -239,7 +248,7 @@ LEXICON DEM-PRN-SG
 # ;
 
 LEXICON DEM-PRN-PL
-%+va%<subst%>%<dem%>:%>va # ;
+%+va%<subs%>%<dem%>:%>va # ;
 # ;
 
 !!!!!!!!!!!!! VERBAL LEXICONS !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
