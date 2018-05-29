@@ -22,6 +22,7 @@ Multichar_Symbols
 %<itg%>              ! Interrogativo
 %<adj%>              ! Adjetivo
 %<dist%>             ! Distributivo
+%<comp%>             ! Comparativo 
 
 %<tv%>               ! Transitivo
 %<iv%>               ! Intransitivo
@@ -72,8 +73,6 @@ Multichar_Symbols
 %{D%}              ! Archiphoneme for [d] in possessive prefixes 
 %{K%}              ! Archiphoneme for [g] and [k] in nouns pl 
 %{N%}              ! Archiphoneme for [n] in nouns pl
-%{T%}              ! Archiphoneme [t] for biform nouns
-%{p%}              ! Archiphoneme for change in possessive biform nouns
 %{E%}              ! Archiphoneme for [e] in quantifiers 
 %{d%}              ! Archiphoneme for [d] in negative verbs 
 %{r%}              ! Archiphoneme for [r] in negative verbs
@@ -135,6 +134,9 @@ LEXICON CASE
 LEXICON SUBST 
 +kue%<subs%>:%>kue # ;
 
+LEXICON COMP 
++icha%<comp%>:%>icha # ;
+
 
 LEXICON N-PL 
 
@@ -154,8 +156,8 @@ LEXICON N
 
 %<n%>: CASE ;
 %<n%>: N-PL ;
-%<n%>: SUF-PL  ;
-
+%<n%>: SUF-PL ;
+%<n%>: COMP ;
 
 LEXICON NP-TOP
 
@@ -234,6 +236,7 @@ LEXICON V-INFL
 %<pres%>: # ;
 %<pres%>: VerbsNegSuf;
 %<pres%>: AD-SUF ;
+%<pres%>: COMP ;
 
 LEXICON V 
 
@@ -374,6 +377,7 @@ mbaʼe:mbaʼe CC ; ! "que"
 
 LEXICON AD 
 %<adv%>: # ;
+%<adv%>: COMP ;
 
 LEXICON AD-ITG 
 
@@ -468,6 +472,7 @@ LEXICON ADJ
 %<adj%>: # ;
 %<adj%>: AD-SUF ;
 %<adj%>: SUBST ;
+%<adj%>: COMP ;
 
 LEXICON SUF-PL  
 %+ita%<adj%>%<ind%>%<pl%>:%>%{E%}ta # ;
@@ -1608,6 +1613,7 @@ teʼõreko:teʼõreko N ; ! "humedad"
 tiri:tiri N ; ! "grieta"
 titi:titi N ; ! "mama"
 togue:togue N ; ! "página, hoja"
+tomáte:tom•áte N ; ! "tomáte" 
 tope:tope N ; ! "pétalo"
 topea:topea N ; ! "pestaña"
 tororaʼy:tororaʼy N ; ! "novillo"
@@ -3361,7 +3367,7 @@ mamo:mamo AD-ITG ; ! "dónde"
 arakaʼe:arakaʼe AD-ITG ; ! "cuándo"
 mbaʼerã:mbaʼerã AD-ITG ; ! "para qué"
 mbaʼére:mbaʼére AD-ITG ; ! "por qué"
-mbaʼéicha:mbaʼéicha AD-ITG ; ! "cómo"
+mbaʼémbaʼéicha AD-ITG ; ! "cómo"
 mbaʼégui:mbaʼégui AD-ITG ; ! "por qué"
 
 hẽe:hẽe AD ; ! "sí"
