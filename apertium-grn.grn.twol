@@ -63,10 +63,21 @@ Rules
 Va:Vt <=> _ %{o%}: [v: | a:] ;
             where Va in VowsAton Vt in VowsTon matched ;
 
-"Chane vowel before atonal suffixes in adverbs"
-Va:Vt <=> _ %>: [m: a: | n: t: e:] ;
-            where Va in VowsAton Vt in VowsTon matched ;
+"Chane vowel before atonal suffixes"
+Va:Vt <=> _ %>: [m: a: | n: t: e: | i: c: h: a:] ;
+            [Cns: | VowsAton: | Nas: ]+ _ %>: %{r%}: ;
+            except
+            [VowsTon: | Cns: | VowsAton:]+ _ %>: [m: a: | n: t: e: | i: c: h: a:] ;
+            where Va in (a e o u y) Vt in (á é ó ú ý) matched ;
 
+
+"Change [i] to tonal before atonal suffixes"
+i:í <=> _ %>: [m: a: | n: t: e:] ;
+            except
+            [VowsTon: | Cns: | VowsAton:]+ _ %>: [m: a: | n: t: e:] ;
+
+"Delete ending [i] before comparative -icha" 
+i:0 <=> _ %>: [i: c: h: a:] ;
 
 "Remove tonal vowel if tonal in affix"
 Vt:Va <=> •: _ [ Cns: | %>: | Nas: | VowsAton: ]+ VowsTon: ;
@@ -108,27 +119,7 @@ Vt:Va <=> •: _ [ Cns: | %>: | Nas: | VowsAton: ]+ VowsTon: ;
 "Change t in biform nouns after possessive"
 %{p%}:r <=> _ %{T%}: ;
 
-"Remove t in biforms after possessive"
-t:0 <=> %{p%}: %{T%}: _ ;
-
-"Remove final vowel in possessive biforms"
-V:0 <=> %{p%}: %{T%}: [ Vows: | Cns: ]+ _ # ;
-       where V in Vows ;
-
-"Remove consonant before final vowel in possessive biforms"
-C:0 <=> %{p%}: %{T%}: [ Vows: | Cns: ]+ _ Vows: # ;
-       where C in Cns ;
-
-"Change ú to u at the end of the word"
-ú:u <=> %{p%}: %{T%}: [ Vows: | Cns: ]+ _ Cns: Vows: # ;
-
-"Change é to u at the end of the word"
-é:e <=> %{p%}: %{T%}: [ Vows: | Cns: ]+ _ Cns: Vows: # ;
-
-"Change ý to y at the end of the word"
-ý:y <=> %{p%}: %{T%}: [ Vows: | Cns: ]+ _ Cns: Vows: # ;
-
-"Surface [e] after weak vowels in quantifiers" 
+"Surface [e] after weak vowels in indefinite adjectives" 
 %{E%}:e <=> VowsWeak: %>: _ ;
 
 "Remove [d] in negative verbs before nasals"
@@ -137,6 +128,3 @@ C:0 <=> %{p%}: %{T%}: [ Vows: | Cns: ]+ _ Vows: # ;
 "%{r%} as r in negative verbs ending with i"
 %{r%}:r <=> i: %>: _ ;
 
-"Change i to í before negative suffix ri"
-Va:Vt <=> [Cns: | VowsAton: | Nas: ]+ _ %>: %{r%}: ;
-          where Va in VowsAton Vt in VowsTon matched ;
