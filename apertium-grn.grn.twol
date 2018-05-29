@@ -68,11 +68,6 @@ Va:Vt <=> _ %>: [m: a: | n: t: e: | i: c: h: a:] ;
             where Va in VowsAton Vt in VowsTon matched ;
 
 
-!"Change [i] to tonal before atonal suffixes"
-!i:í <=> _ %>: [m: a: | n: t: e:] ;
-!            except
-!            [VowsTon: | Cns: | VowsAton:]+ _ %>: [m: a: | n: t: e:] ;
-
 "Delete ending [i] before comparative -icha" 
 i:0 <=> _ %>: [i: c: h: a:] ;
 
