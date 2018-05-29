@@ -78,6 +78,7 @@ Multichar_Symbols
 %{d%}              ! Archiphoneme for [d] in negative verbs 
 %{r%}              ! Archiphoneme for [r] in negative verbs
 %{o%}              ! Archiphoneme for changing tonal vowels
+%{p%}              ! Archiphoneme for r in after possessive prefixes
 
 
 LEXICON Root 
@@ -104,6 +105,7 @@ Adverbs ;
 IndefinitePronouns ;
 SpaAdjectives ;
 ItgPronouns ;
+GRD-PREF ;
 
 
 !!!!!!!!!!!!!!!!!!!! LEXICON SPANISH !!!!!!!!!!
@@ -144,6 +146,10 @@ LEXICON SUP
 +ete%<sup%>:%>%{E%}te # ; ! "muy" 
 +eterei%<sup%>:%>%{E%}terei # ; ! "sumamente"
 +rei%<sup%>:%>rei # ; ! "muy, sumamente"
+
+LEXICON GRD-PREF 
+
+nde%<sup%>%+:%>n%{D%}e Adjectives ;
 
 LEXICON N-PL 
 
@@ -360,11 +366,11 @@ o%<prn%>%<pos%>%<p3%>%<sg%>%+:o%{P%}%{p%} Nouns ;
 
 ! Add same possessives to biform nouns 
 
-che%<prn%>%<pos%>%<p1%>%<sg%>%+:che%{p%} Biformes ;
-nde%<prn%>%<pos%>%<p2%>%<sg%>%+:n%{D%}e%{p%} Biformes ; 
-ñande%<prn%>%<pos%>%<p1%>%<pl%>%+:ñan%{D%}e%{p%} Biformes ; 
-ore%<prn%>%<pos%>%<p1%>%<pl%>%+:ore%{p%} Biformes ;
-pende%<prn%>%<pos%>%<p2%>%<pl%>%+:pen%{D%}e%{p%} Biformes ;  
+che%<prn%>%<pos%>%<p1%>%<sg%>%+:che Biformes ;
+nde%<prn%>%<pos%>%<p2%>%<sg%>%+:n%{D%}e Biformes ; 
+ñande%<prn%>%<pos%>%<p1%>%<pl%>%+:ñan%{D%}e Biformes ; 
+ore%<prn%>%<pos%>%<p1%>%<pl%>%+:ore Biformes ;
+pende%<prn%>%<pos%>%<p2%>%<pl%>%+:pen%{D%}e Biformes ;  
 
 i%<prn%>%<pos%>%<p3%>%<sg%>%+:%{H%}i%{I%}%{p%} Nouns ; 
 o%<prn%>%<pos%>%<p3%>%<sg%>%+:o%{P%}%{p%} Nouns ;
