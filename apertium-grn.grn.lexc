@@ -22,7 +22,8 @@ Multichar_Symbols
 %<itg%>              ! Interrogativo
 %<adj%>              ! Adjetivo
 %<dist%>             ! Distributivo
-%<comp%>             ! Comparativo 
+%<comp%>             ! Comparativo
+%<sup%>              ! Superlativo  
 
 %<tv%>               ! Transitivo
 %<iv%>               ! Intransitivo
@@ -73,7 +74,7 @@ Multichar_Symbols
 %{D%}              ! Archiphoneme for [d] in possessive prefixes 
 %{K%}              ! Archiphoneme for [g] and [k] in nouns pl 
 %{N%}              ! Archiphoneme for [n] in nouns pl
-%{E%}              ! Archiphoneme for [e] in quantifiers 
+%{E%}              ! Archiphoneme for [e] weak vs. strong vowels 
 %{d%}              ! Archiphoneme for [d] in negative verbs 
 %{r%}              ! Archiphoneme for [r] in negative verbs
 %{o%}              ! Archiphoneme for changing tonal vowels
@@ -135,8 +136,14 @@ LEXICON SUBST
 +kue%<subs%>:%>kue # ;
 
 LEXICON COMP 
-+icha%<comp%>:%>icha # ;
++icha%<comp%>:%>icha # ; ! "igualidad" 
++ve%<comp%>:%>ve # ; ! "superioridad!
++ive%<comp%>:%>ive # ; ! "inferioridad" 
 
+LEXICON SUP 
++ete%<sup%>:%>%{E%}te # ; ! "muy" 
++eterei%<sup%>:%>%{E%}terei # ; ! "sumamente"
++rei%<sup%>:%>rei # ; ! "muy, sumamente"
 
 LEXICON N-PL 
 
@@ -473,6 +480,7 @@ LEXICON ADJ
 %<adj%>: AD-SUF ;
 %<adj%>: SUBST ;
 %<adj%>: COMP ;
+%<adj%>: SUP ;
 
 LEXICON SUF-PL  
 %+ita%<adj%>%<ind%>%<pl%>:%>%{E%}ta # ;
@@ -3259,6 +3267,7 @@ vairasa:vairasa ADJ ; ! "pésimo"
 vaive:vaive ADJ ; ! "peor"
 vaka% reheguáva:vaka% rehegu•áva ADJ ; ! "vacuno"
 vevúi:vev•úi ADJ ; ! "leve, sutil, liviano"
+výro:v•ýro ADJ ; ! "tonto" 
 ygagua:ygagua ADJ ; ! "naval"
 ymaguare:ymaguare ADJ ; ! "legendario"
 ypykue:ypykue ADJ ; ! "original, indígena, primitivo"

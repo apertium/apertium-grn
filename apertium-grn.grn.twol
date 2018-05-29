@@ -64,7 +64,7 @@ Va:Vt <=> _ %>: [m: a: | n: t: e: | i: c: h: a:] ;
             [Cns: | VowsAton: | Nas: ]+ _ %>: %{r%}: ;
             _ %{o%}: [v: | a:] ;
             except
-            [VowsTon: | Cns: | VowsAton:]+ _ %>: [m: a: | n: t: e: | i: c: h: a:] ;
+            [VowsTon: | Cns: | VowsAton:]+ _ %>: [m: a: | n: t: e: | i: c: h: a:|v: | a:] ;
             where Va in VowsAton Vt in VowsTon matched ;
 
 
@@ -73,6 +73,7 @@ i:0 <=> _ %>: [i: c: h: a:] ;
 
 "Remove tonal vowel if tonal in affix"
 Vt:Va <=> •: _ [ Cns: | %>: | Nas: | VowsAton: ]+ VowsTon: ;
+          •: _ [ Cns: | %>: | Nas: | VowsAton: ]+ %{E%}: ;
            where Vt in VowsTon Va in VowsAton matched ; 
 
 "Add nasal prefix [ñ] in present 1pl incl"
