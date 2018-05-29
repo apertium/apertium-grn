@@ -59,22 +59,19 @@ Rules
 "Remove stress marker"
 •:0 <=> _ ;
 
-"Change vowel before -va(a) suffix"
-Va:Vt <=> _ %{o%}: [v: | a:] ;
-            where Va in VowsAton Vt in VowsTon matched ;
-
 "Chane vowel before atonal suffixes"
 Va:Vt <=> _ %>: [m: a: | n: t: e: | i: c: h: a:] ;
             [Cns: | VowsAton: | Nas: ]+ _ %>: %{r%}: ;
+            _ %{o%}: [v: | a:] ;
             except
             [VowsTon: | Cns: | VowsAton:]+ _ %>: [m: a: | n: t: e: | i: c: h: a:] ;
-            where Va in (a e o u y) Vt in (á é ó ú ý) matched ;
+            where Va in VowsAton Vt in VowsTon matched ;
 
 
-"Change [i] to tonal before atonal suffixes"
-i:í <=> _ %>: [m: a: | n: t: e:] ;
-            except
-            [VowsTon: | Cns: | VowsAton:]+ _ %>: [m: a: | n: t: e:] ;
+!"Change [i] to tonal before atonal suffixes"
+!i:í <=> _ %>: [m: a: | n: t: e:] ;
+!            except
+!            [VowsTon: | Cns: | VowsAton:]+ _ %>: [m: a: | n: t: e:] ;
 
 "Delete ending [i] before comparative -icha" 
 i:0 <=> _ %>: [i: c: h: a:] ;
