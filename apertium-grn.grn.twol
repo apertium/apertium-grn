@@ -71,7 +71,7 @@ Va:Vt <=> _ %>: [m: a: | n: t: e: | i: c: h: a:] ;
 "Delete ending [i] before comparative -icha" 
 i:0 <=> _ %>: [i: c: h: a:] ;
 
-"Remove tonal vowel if tonal in affix"
+"Change tonal vowel to atonal if tonal in affix"
 Vt:Va <=> •: _ [ Cns: | %>: | Nas: | VowsAton: ]+ VowsTon: ;
           •: _ [ Cns: | %>: | Nas: | VowsAton: ]+ %{E%}: ;
            where Vt in VowsTon Va in VowsAton matched ; 
