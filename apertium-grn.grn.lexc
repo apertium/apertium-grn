@@ -106,6 +106,7 @@ IndefinitePronouns ;
 SpaAdjectives ;
 ItgPronouns ;
 GRD-PREF ;
+SpaNouns ;
 
 
 !!!!!!!!!!!!!!!!!!!! LEXICON SPANISH !!!!!!!!!!
@@ -117,6 +118,25 @@ paraguayo:paraguayo ADJ-ES ;
 nacional:nacional ADJ-ES ;
 santo:santo ADJ-ES ;
 general:general ADJ-ES ;
+nuevo:nuevo ADJ-ES ;
+
+LEXICON N-ES
+
+%<n%>: # ; 
+
+LEXICON SpaNouns 
+
+departamento:departamento N-ES ;
+ciudad:ciudad N-ES ;
+gobierno:gobierno N-ES ;
+colegio:colegio N-ES ;
+arte:arte N-ES ;
+alianza:alianza N-ES ;
+turismo:turismo N-ES ;
+presidente:presidente N-ES ;
+metro:metro N-ES ;
+escuela:escuela N-ES ;
+música:música N-ES ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! 
@@ -195,6 +215,7 @@ LEXICON ProperNouns
 
 Paraguái:Paragu•ái NP-TOP ; ! "Paraguay"
 Paraguái:Paraguay NP-TOP ; ! "Paraguay" ! Dir/LR
+Uruguái:Urugu•ái NP-TOP ; 
 Volívia:Vol•ívia NP-TOP ; ! "Bolivia"
 Vrasil:Vrasil NP-TOP ; ! "Vrasil"
 Brasil:Brasil NP-TOP ; ! "Brasil"
@@ -202,9 +223,9 @@ Argentina:Argentina NP-TOP ; ! "Argentina"
 Peru:Peru NP-TOP ; ! "Peru"
 Chile:Chile NP-TOP ; ! "Chile"
 Rio:Rio NP-TOP ;
-Rio% Grande: Rio% Grande NP-TOP ;
+Rio% Grande:Rio% Grande NP-TOP ;
 España:España NP-TOP ;
-Amérika:Amérika NP-TOP ;
+Amérika:Am•érika NP-TOP ;
 Pindorama:Pindorama NP-TOP ;
 Asunción:Asunción NP-TOP ;
 Buenos% Aires:Buenos% Aires NP-TOP ;
@@ -212,7 +233,17 @@ San% Francisco:San% Francisco NP-TOP ;
 Gran% Chaco:Gran% Chaco NP-TOP ;
 Francia:Francia NP-TOP ;
 Europa:Europa NP-TOP ;
+Európa:Eur•ópa NP-TOP ; ! Dir/LR
 Asia:Asia NP-TOP ;
+Ayala:Ayala NP-TOP ;
+Estados% Unidos:Estados% Unidos NP-TOP ;
+Concepción:Concepci•ón NP-TOP ;
+Paraná:Paran•á NP-TOP ;
+São% Paulo:São% Paulo NP-TOP ;
+Santiago:Santiago NP-TOP ;
+Atlántiko:Atl•ántiko NP-TOP ;
+Hyãsia:Hyãsia NP-TOP ; ! "Francia"
+Parana:Parana NP-TOP ;
 
 José:José NP-ANT ;
 Juan:Juan NP-ANT ;
@@ -226,6 +257,15 @@ Luis:Luis NP-ANT ;
 Hesu:Hesu NP-ANT ; 
 Félix:Félix NP-ANT ;
 Manuel:Manuel NP-ANT ;
+González:González NP-ANT ;
+Ayala:Ayala NP-ANT ;
+Kirito:Kirito NP-ANT ;
+Santiago:Santiago NP-ANT ;
+Fernando:Fernando NP-ANT ;
+Estigarribia:Estigarribia NP-ANT ;
+Rodríguez:Rodríguez NP-ANT ;
+Miguel:Miguel NP-ANT ;
+Cardozo:Cardozo NP-ANT ;
 
 LEXICON DemAdjectives
 
@@ -261,6 +301,7 @@ LEXICON V-INFL
 %<pres%>: AD-SUF ;
 %<pres%>: COMP ;
 %<pres%>: Adverbs ;
+%<pres%>: DEM-PRN-PL ;
 
 LEXICON V 
 
@@ -612,6 +653,7 @@ akatúa:akat•úa N ; ! "derecha"
 aky:aky N ; ! "verde"
 akytã:akytã N ; ! "nudo, tumor"
 akã:akã N ; ! "cabeza"
+ã:ã N ; ! "espirito"
 akãguapy:akãguapy N ; ! "juicio, prudencia, cordura"
 akãhatã:akãhatã N ; ! "terquedad, pícaro"
 akãhoja:akãhoja N ; ! "manto"
@@ -714,6 +756,7 @@ atyporavopyre:atyporavopyre N ; ! "equipo"
 atyvore:atyvore N ; ! "muestra"
 atãngue:atãngue N ; ! "solidez"
 ava:ava N ; ! "raza, gente"
+áva:áva N ; ! "cabellero"
 avajokoha:avajokoha N ; ! "hebilla"
 avapaje:avapaje N ; ! "mago"
 avaʼaty:avaʼaty N ; ! "sociedad"
@@ -833,6 +876,7 @@ jasy:jasy N ; ! "luna, mes"
 jasyapy:jasyapy N ; ! "marzo"
 jasykõi:jasykõi N ; ! "febrero"
 jasypa:jasypa N ; ! "octubre"
+jasypakõi:jasypakõi N ; ! "diciembre"
 jasypoapy:jasypoapy N ; ! "agosto"
 jasypokõi:jasypokõi N ; ! "julio"
 jasyporundy:jasyporundy N ; ! "septiembre"
@@ -1261,6 +1305,7 @@ nandi:nandi N ; ! "hueco, vacío, vacante"
 narã:narã N ; ! "naranja"
 nupãha:nupãha N ; ! "mazo"
 ñeʼẽ:ñeʼẽ N ; ! "lenguaje, palabra"
+ñembohéra:ñemboh•éra N ; ! "designación"
 ogaguasu:ogaguasu N ; ! "mansión"
 ogaguy:ogaguy N ; ! "zaguán, galería"
 ogahoja:ogahoja N ; ! "techo"
@@ -2576,7 +2621,7 @@ myendy:myendy V ; ! "prender"
 myengovia:myengovia V ; ! "trocar, indemnizar, sustituir, relevar, reponer, reemplazar"
 myesakã:myesakã V ; ! "traslucir"
 mymbajuka:mymbajuka V ; ! "cazar"
-ñemoĩ:ñemoĩ V ; ! "ponerse"
+moĩ:moĩ V ; ! "poner, colocar"
 ndyvu:ndyvu V ; ! "escupir, salivar"
 ngururu:ngururu V ; ! "gruñir"
 nupã:nupã V ; ! "torturar, maltratar, azotar, castigar, vapulear, golpear, apalear"
@@ -2646,7 +2691,7 @@ puhoe:puhoe V ; ! "radio"
 puka:puka V ; ! "reír"
 pukavy:pukavy V ; ! "sonreír"
 purahéi:purah•éi V ; ! "cantar"
-puru:puru V ; ! "gastar"
+puru:puru V ; ! "gastar, utilizar"
 purupyre:purupyre V ; ! "gastado"
 puʼaka:puʼaka V ; ! "prevalecer, influencia, triunfar, fuerza, vencer, derrotar"
 puʼakave:puʼakave V ; ! "superar"
@@ -3353,6 +3398,7 @@ mie:mie AD ; ! "más"
 michĩ:michĩ AD ; ! "poco" 
 mombyry:mombyry AD ; ! "lejos"
 máramo:m•áramo AD ; ! "nunca"
+nunga:nunga AD ; ! "semi" 
 ojaposetégui:ojaposet•égui AD ; ! "adrede"
 yma:yma AD ; ! "otrora"
 yvate:yvate AD ; ! "arriba"
