@@ -66,12 +66,15 @@ Va:Vt <=> _ %>: [m: a: | n: t: e: | i: c: h: a: | p: e:] ;
             _ %{o%}: [v: | a:] ;
             except
             [VowsTon: | Cns: | VowsAton:]+ _ %>: [m: a: | n: t: e: | i: c: h: a:|v: | a:] ;
-            where Va in VowsAton Vt in VowsTon matched ;
+            where Va in ( a e o u y ) 
+                  Vt in ( á é ó ú ý ) matched ;
 
 
-"Delete ending [i] before comparative -icha" 
-V:0 <=> _ %>: [i: c: h: a: | i:] ;
-            where V in (ĩ, i, í) ;
+"Delete ending -[i] before comparative -icha" 
+Vx:0 <=> _ %>: [ i: c: h: a: | %{r%}: i: ] ;
+            where Vx in ( ĩ i í ) ;
+
+!@ n:n {d}:d >:0 a:a {P}:0 m:m o:o m:m i:i c:c h:h ĩ:0 >:0 {r}:0 i:i
 
 "Change tonal vowel to atonal if tonal in affix"
 Vt:Va <=> •: _ [ Cns: | %>: | Nas: | VowsAton: ]+ VowsTon: ;
