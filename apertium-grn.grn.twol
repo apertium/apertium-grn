@@ -60,7 +60,7 @@ Rules
 "Remove stress marker"
 •:0 <=> _ ;
 
-"Chane vowel before atonal suffixes"
+"Change vowel before atonal suffixes"
 Va:Vt <=> _ %>: [m: a: | n: t: e: | i: c: h: a: | p: e:] ;
             [Cns: | VowsAton: | Nas: ]+ _ %>: %{r%}: ;
             _ %{o%}: [v: | a:] ;
@@ -69,14 +69,14 @@ Va:Vt <=> _ %>: [m: a: | n: t: e: | i: c: h: a: | p: e:] ;
             where Va in VowsAton Vt in VowsTon matched ;
 
 
-"Delete ending [i] before comparative -icha" 
-V:0 <=> _ %>: [i: c: h: a: | i:] ;
-            where V in (ĩ, i, í) ;
+!"Delete ending [i] before comparative -icha" 
+!V:0 <=> _ %>: [i: c: h: a: | i:] ;
+!            where V in (ĩ, i, í) ;
 
-"Change tonal vowel to atonal if tonal in affix"
-Vt:Va <=> •: _ [ Cns: | %>: | Nas: | VowsAton: ]+ VowsTon: ;
-          •: _ [ Cns: | %>: | Nas: | VowsAton: ]+ %{E%}: ;
-           where Vt in VowsTon Va in VowsAton matched ; 
+!"Change tonal vowel to atonal if tonal in affix"
+!Vt:Va <=> •: _ [ Cns: | %>: | Nas: | VowsAton: ]+ VowsTon: ;
+!          •: _ [ Cns: | %>: | Nas: | VowsAton: ]+ %{E%}: ;
+!           where Vt in VowsTon Va in VowsAton matched ; 
 
 "Add nasal prefix [ñ] in present 1pl incl"
 %{J%}:ñ <=> _ a: CNAS: ;
