@@ -18,6 +18,7 @@ a b ã c d e ẽ g g̃ h i ĩ j k l m n ñ o õ p r s t u ũ v w x y z ỹ á é
 %{r%}:0 %{r%}:r
 •:0
 %{o%}:0
+%{e%}:e %{e%}:a %{e%}:o 
 
 %>:0 
 % 
@@ -69,7 +70,8 @@ Va:Vt <=> _ %>: [m: a: | n: t: e: | i: c: h: a: | p: e:] ;
 
 
 "Delete ending [i] before comparative -icha" 
-i:0 <=> _ %>: [i: c: h: a:] ;
+V:0 <=> _ %>: [i: c: h: a:] ;
+      where V in (ĩ, i, í) ;
 
 "Change tonal vowel to atonal if tonal in affix"
 Vt:Va <=> •: _ [ Cns: | %>: | Nas: | VowsAton: ]+ VowsTon: ;
