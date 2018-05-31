@@ -34,6 +34,8 @@ Nas = m n ñ ã ẽ ĩ õ ỹ ũ
 Cns = B C D F G H J K L M N P Q R S T V W X Z G̃ Ñ 
       b c d f g h j k l m n p q r s t v w x z g̃ ñ ;
 
+ArchiCns = %{N%} %{K%} ;
+
 CnsNorm = B C D F G H J K L P Q R S T V W X Z
           b c d f g h j k l p q r s t v w x z ;
 
@@ -60,7 +62,7 @@ Rules
 "Remove stress marker"
 •:0 <=> _ ;
 
-"Chane vowel before atonal suffixes"
+"Change vowel before atonal suffixes"
 Va:Vt <=> _ %>: [m: a: | n: t: e: | i: c: h: a: | p: e:] ;
             [Cns: | VowsAton: | Nas: ]+ _ %>: %{r%}: ;
             _ %{o%}: [v: | a:] ;
@@ -69,6 +71,7 @@ Va:Vt <=> _ %>: [m: a: | n: t: e: | i: c: h: a: | p: e:] ;
             where Va in ( a e o u y ) 
                   Vt in ( á é ó ú ý ) matched ;
 
+! NOTE: The i--í is taken care of by another rule, to avoid conflict with i:0
 
 "Delete ending -[i] before comparative -icha" 
 Vx:0 <=> _ %>: [ i: c: h: a: | %{r%}: i: ] ;
@@ -77,9 +80,11 @@ Vx:0 <=> _ %>: [ i: c: h: a: | %{r%}: i: ] ;
 !@ n:n {d}:d >:0 a:a {P}:0 m:m o:o m:m i:i c:c h:h ĩ:0 >:0 {r}:0 i:i
 
 "Change tonal vowel to atonal if tonal in affix"
-Vt:Va <=> •: _ [ Cns: | %>: | Nas: | VowsAton: ]+ VowsTon: ;
-          •: _ [ Cns: | %>: | Nas: | VowsAton: ]+ %{E%}: ;
+Vt:Va <=> •: _ [ Cns: | %>: | ArchiCns: | Nas: | VowsAton: ]+ VowsTon: ;
+          •: _ [ Cns: | %>: | ArchiCns: | Nas: | VowsAton: ]+ %{E%}: ;
            where Vt in VowsTon Va in VowsAton matched ; 
+
+!@ •:0 ó:o g:g a:a >:0 {N}:0 {K}:k u:u é:é r:r a:a 
 
 "Add nasal prefix [ñ] in present 1pl incl"
 %{J%}:ñ <=> _ a: CNAS: ;
