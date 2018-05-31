@@ -119,6 +119,10 @@ nacional:nacional ADJ-ES ;
 santo:santo ADJ-ES ;
 general:general ADJ-ES ;
 nuevo:nuevo ADJ-ES ;
+internacional:internacional ADJ-ES ;
+alegre:alegre ADJ-ES ;
+español:español ADJ-ES ;
+
 
 LEXICON N-ES
 
@@ -137,6 +141,16 @@ presidente:presidente N-ES ;
 metro:metro N-ES ;
 escuela:escuela N-ES ;
 música:música N-ES ;
+cultura:cultura N-ES ;
+política:política N-ES ;
+dirección:dirección N-ES ;
+cm:cm N-ES ;
+plata:plata N-ES ;
+río:río N-ES ;
+instituto:instituto N-ES ;
+estado:estado N-ES ;
+demografía:demografía N-ES ;
+centro:centro N-ES ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! 
@@ -156,6 +170,7 @@ LEXICON CASE
 
 LEXICON SUBST 
 +kue%<subs%>:%>kue # ;
++kue%<subs%>:%>kue CASE ;
 
 LEXICON COMP 
 +icha%<comp%>:%>icha # ; ! "igualidad" 
@@ -217,6 +232,7 @@ Paraguái:Paragu•ái NP-TOP ; ! "Paraguay"
 Paraguái:Paraguay NP-TOP ; ! "Paraguay" ! Dir/LR
 Uruguái:Urugu•ái NP-TOP ; 
 Volívia:Vol•ívia NP-TOP ; ! "Bolivia"
+Bolivia:Bolivia NP-TOP ;
 Vrasil:Vrasil NP-TOP ; ! "Vrasil"
 Brasil:Brasil NP-TOP ; ! "Brasil"
 Argentina:Argentina NP-TOP ; ! "Argentina"
@@ -243,7 +259,16 @@ São% Paulo:São% Paulo NP-TOP ;
 Santiago:Santiago NP-TOP ;
 Atlántiko:Atl•ántiko NP-TOP ;
 Hyãsia:Hyãsia NP-TOP ; ! "Francia"
+Poytuga:Poytuga NP-TOP ;
 Parana:Parana NP-TOP ;
+Villarrica:Villarrica NP-TOP ;
+Puerto% Rico:Puerto% Rico NP-TOP ;
+Méhiko:Méhiko NP-TOP ;
+Salvador:Salvador NP-TOP ;
+Flores:Flores NP-TOP ;
+Áfrika:Áfrika NP-TOP ;
+Italia:Italia NP-TOP ;
+
 
 José:José NP-ANT ;
 Juan:Juan NP-ANT ;
@@ -266,6 +291,10 @@ Estigarribia:Estigarribia NP-ANT ;
 Rodríguez:Rodríguez NP-ANT ;
 Miguel:Miguel NP-ANT ;
 Cardozo:Cardozo NP-ANT ;
+Lorenzo:Lorenzo NP-ANT ;
+Tupãsy:Tupãsy NP-ANT ; ! "virgen María"
+Pérez:Pérez NP-ANT ;
+Martínez:Martínez NP-ANT ;
 
 LEXICON DemAdjectives
 
@@ -302,6 +331,7 @@ LEXICON V-INFL
 %<pres%>: COMP ;
 %<pres%>: Adverbs ;
 %<pres%>: DEM-PRN-PL ;
+%<pres%>: SUBST ;
 
 LEXICON V 
 
@@ -311,8 +341,10 @@ LEXICON V
 
 LEXICON VerbNegPref
 
-nd%<neg%>%+:nd PersonAgr ; 
-nd%<neg%>%+:nd Verbs ; 
+nd%<neg%>%+:n%{d%} PersonAgr ; 
+nd%<neg%>%+:n%{d%} Verbs ; 
+nd%<neg%>%+:n%{d%} Connectors ;
+nd%<neg%>%+:n%{d%} IrrVerbs ;
 
 LEXICON VerbsNegSuf
 %+i%<neg%>:%>%{r%}i # ;
@@ -368,6 +400,14 @@ roʼe%<v%>%<iv%>%<p1%>%<pl%>%<pres%>:roʼe # ; ! decimos
 peje%<v%>%<iv%>%<p2%>%<pl%>%<pres%>:peje # ; ! decis 
 heʼi%<v%>%<iv%>%<p3%>%<pl%>%<pres%>:heʼi # ; ! dicen 
 
+haʼe%<v%>%<iv%>%<p1%>%<sg%>%<pres%>:haʼe VerbsNegSuf ; ! digo 
+ere%<v%>%<iv%>%<p2%>%<sg%>%<pres%>:ere VerbsNegSuf ; ! dices
+heʼi%<v%>%<iv%>%<p3%>%<sg%>%<pres%>:heʼi VerbsNegSuf ; ! dice 
+jaʼe%<v%>%<iv%>%<p1%>%<pl%>%<pres%>:jaʼe VerbsNegSuf ; ! decimos 
+roʼe%<v%>%<iv%>%<p1%>%<pl%>%<pres%>:roʼe VerbsNegSuf ; ! decimos 
+peje%<v%>%<iv%>%<p2%>%<pl%>%<pres%>:peje VerbsNegSuf ; ! decis 
+heʼi%<v%>%<iv%>%<p3%>%<pl%>%<pres%>:heʼi VerbsNegSuf ; ! dicen
+
 aju%<v%>%<iv%>%<p1%>%<sg%>%<pres%>:aju # ; ! vengo
 reju%<v%>%<iv%>%<p2%>%<sg%>%<pres%>:reju # ; ! vienes 
 ou%<v%>%<iv%>%<p2%>%<sg%>%<pres%>:ou # ; ! viene 
@@ -400,10 +440,13 @@ peyʼu%<v%>%<tv%>%<p2%>%<pl%>%<pres%>:peyʼu # ; ! bebeis
 
 
 LEXICON Connectors
+haʼe%<vbser%>%<iv%>%<p1%>%<sg%>%<pres%>:haʼe VerbsNegSuf ; ! ser
+ikatu%<v%>%<iv%>%<p1%>%<sg%>%<pres%>:ikatu VerbsNegSuf ; ! poder 
+hiʼã%<v%>%<iv%>%<p1%>%<sg%>%<pres%>:hiʼã VerbsNegSuf ; ! parecer, desear
+
 haʼe%<vbser%>%<iv%>%<p1%>%<sg%>%<pres%>:haʼe # ; ! ser
 ikatu%<v%>%<iv%>%<p1%>%<sg%>%<pres%>:ikatu # ; ! poder 
 hiʼã%<v%>%<iv%>%<p1%>%<sg%>%<pres%>:hiʼã # ; ! parecer, desear
-
 
 LEXICON PossessiveDeterminers 
 
@@ -771,6 +814,7 @@ añopegua:añopegua N ; ! "intimidad"
 changui:changui N ; ! "ventaja"
 chavurro:chavurro N ; ! "burro, asno"
 chiváto% guasu:chiváto% guasu N ; ! "acacia"
+chipa:chipa N ; ! "pan de queso"
 chocokue:chocokue N ; ! "labriego"
 chokokue:chokokue N ; ! "agricultor"
 chororo:chororo N ; ! "chorro"
@@ -1338,6 +1382,7 @@ paaryjere:paaryjere N ; ! "década"
 pahague:pahague N ; ! "extremo, final"
 paje:paje N ; ! "hechicería"
 pakova:pakova N ; ! "banana"
+paʼũ:paʼũ N ; ! "ranura, trecho"
 panambi:panambi N ; ! "mariposa"
 papapy:papapy N ; ! "número"
 papapykuaa:papapykuaa N ; ! "matemática"
@@ -1467,6 +1512,7 @@ roʼy:roʼy N ; ! "frío"
 ruru:ruru N ; ! "hinchazón"
 ryguasu:ryguasu N ; ! "gallina"
 ryrýi:ryr•ýi N ; ! "temblor"
+yrembe’y:yrembe’y N ; ! "margen" 
 saipuku:saipuku N ; ! "vestido"
 sambo:sambo N ; ! "zancada"
 sandia:sandia N ; ! "sandía"
@@ -1581,6 +1627,7 @@ tekopy:tekopy N ; ! "estructura"
 tekopyahu:tekopyahu N ; ! "juventud"
 tekoraʼã:tekoraʼã N ; ! "parodia"
 tekosãso:tekosãso N ; ! "libertad"
+tekotevẽ:tekotevẽ N ; ! "necesidad"
 tekovai:tekovai N ; ! "lacra"
 tekove:tekove N ; ! "individuo, sujeto, vida"
 tekove% arandu:tekove% arandu N ; ! "genio"
@@ -1958,6 +2005,7 @@ arapeha:arapeha N ; ! "etapa" ! Dir/LR
 arapehẽ:arapehẽ N ; ! "etapa" ! Dir/LR
 arateĩ:arateĩ N ; ! "domingo"
 arateé:arate•é N ; ! "domingo" ! Dir/LR
+avati:avati N ; ! "maíz"
 avatimirĩ:avatimirĩ N ; ! "trigo"
 jasypoteĩ:jasypoteĩ N ; ! "junio"
 jasypoteï:jasypoteï N ; ! "junio" ! Dir/LR
@@ -2086,6 +2134,7 @@ guerova:guerova V ; ! "trasplantar, trasladar, mudar"
 gueru:gueru V ; ! "traer"
 guevi:guevi V ; ! "retroceder, recular"
 guyrajuru:guyrajuru V ; ! "pico"
+g̃uahẽ:g̃uahẽ V ; ! "llegar"
 ha:ha V ; ! "ir"
 haguino:haguino V ; ! "fermentar"
 hai:hai V ; ! "rayar, escribir, trazar, redactar, copiar"
@@ -2127,7 +2176,6 @@ henói:hen•ói V ; ! "convocar, invocar, llamar"
 hepyguejy:hepyguejy V ; ! "abaratar"
 hepykue:hepykue V ; ! "tarifa"
 hepyraʼã:hepyraʼã V ; ! "tasar"
-hero:hero V ; ! "apodo"
 heréi:her•éi V ; ! "lamer"
 hesakã:hesakã V ; ! "obvio"
 hesakãva:hesakãva V ; ! "transparente"
@@ -2313,7 +2361,6 @@ marã:marã V ; ! "mancha"
 mañañemi:mañañemi V ; ! "espiar"
 mbarakaja% guahu:mbarakaja% guahu V ; ! "maullar"
 mbaʼapo:mbaʼapo V ; ! "trabajar, labrar"
-mbaʼe:mbaʼe V ; ! "objeto"
 mbaʼeapo:mbaʼeapo V ; ! "construir, generar, fabricar"
 mbaʼejára:mbaʼej•ára V ; ! "titular"
 mbaʼeopuʼi:mbaʼeopuʼi V ; ! "timbre"
@@ -2797,7 +2844,6 @@ veve:veve V ; ! "volar, flamear"
 virumonoʼõ:virumonoʼõ V ; ! "lucro"
 voko:voko V ; ! "saco"
 vore:vore V ; ! "segmento"
-vyʼa:vyʼa V ; ! "placer"
 yatã:yatã V ; ! "hielo"
 yga:yga V ; ! "bote"
 ygapaʼã:ygapaʼã V ; ! "varar"
@@ -3243,6 +3289,7 @@ puatarara:puatarara ADJ ; ! "acelerado, inquieto"
 pumbyrymýi:pumbyrym•ýi ADJ ; ! "celular"
 puʼae:puʼae ADJ ; ! "vocal"
 puʼakapáva:puʼakap•áva ADJ ; ! "omnipotente"
+puku:puku ADJ ; ! "largo, comprido"
 pyahu:pyahu ADJ ; ! "nuevo, neófito"
 pyao:pyao ADJ ; ! "media"
 pyaʼe:pyaʼe ADJ ; ! "rápido, pronto, fugaz"
@@ -3371,6 +3418,7 @@ añete:añete AD ; ! "seguro"
 gueteri:gueteri AD ; ! "todavía"
 heta:heta AD ; ! "mucho"
 hákatu:h•ákatu AD ; ! "pero"
+haimete:haimete AD ; ! "apenas"
 ikatu:ikatu AD ; ! "tal vez"
 jave:jave AD ; ! "mientras"
 jepe:jepe AD ; ! "aun, sin embargo"
