@@ -82,7 +82,7 @@ Multichar_Symbols
 %{d%}              ! Archiphoneme for [d] in negative verbs 
 %{r%}              ! Archiphoneme for [r] in negative verbs
 %{o%}              ! Archiphoneme for changing tonal vowels
-%{p%}              ! Archiphoneme for r in after possessive prefixes
+%{p%}              ! Archiphoneme for r after possessive prefixes
 %{e%}              ! Archiphoneme for euphonic vowels 
 
 
@@ -152,7 +152,6 @@ música:música N-ES ;
 cultura:cultura N-ES ;
 política:política N-ES ;
 dirección:dirección N-ES ;
-cm:cm N-ES ;
 plata:plata N-ES ;
 río:río N-ES ;
 instituto:instituto N-ES ;
@@ -267,8 +266,8 @@ Bolivia:Bolivia NP-TOP ;
 Vrasil:Vrasil NP-TOP ; ! "Vrasil"
 Brasil:Brasil NP-TOP ; ! "Brasil"
 Argentina:Argentina NP-TOP ; ! "Argentina"
-Peru:Peru NP-TOP ; ! "Peru"
-Perũ:Perũ NP-TOP ; ! ""       ! FIXME: Prova qual é a ortografia normativa (Peru o Perũ)
+Peru:Peru NP-TOP ; ! "Peru" ! Dir/LR ! Err/Orth
+Perũ:Perũ NP-TOP ; ! "Peru"    
 Chile:Chile NP-TOP ; ! "Chile"
 Rio:Rio NP-TOP ;
 Rio% Grande:Rio% Grande NP-TOP ;
@@ -518,11 +517,12 @@ LEXICON PRO
 
 ! Accusative
 
-che%<prn%>%<pro%>%<p1%>%<sg%>%<acc%>%+:%>che{p%} Verbs ;
-nde%<prn%>%<pro%>%<p2%>%<sg%>%<acc%>%+:%>n%{D%}e{p%} Verbs ;
-ore%<prn%>%<pro%>%<p1%>%<pl%>%<acc%>%+:%>ore{p%} Verbs ;
-ñande%<prn%>%<pro%>%<p1%>%<pl%>%<acc%>%+:%>ñan%{D%}e{p%} Verbs ;
-pende%<prn%>%<pro%>%<p2%>%<pl%>%<acc%>%+:%>pen%{D%}e{p%} Verbs ;
+che%<prn%>%<pro%>%<p1%>%<sg%>%<acc%>%+:%>che%{P%} Verbs ;
+nde%<prn%>%<pro%>%<p2%>%<sg%>%<acc%>%+:%>n%{D%}e{P%} Verbs ;
+ore%<prn%>%<pro%>%<p1%>%<pl%>%<acc%>%+:%>ore{P%} Verbs ;
+ñande%<prn%>%<pro%>%<p1%>%<pl%>%<acc%>%+:%>ñan%{D%}e{P%} Verbs ;
+pende%<prn%>%<pro%>%<p2%>%<pl%>%<acc%>%+:%>pen%{D%}e{P%} Verbs ;
+po%<prn%>%<pro%>%<p2%>%<pl%>%<acc%>%+:%>po%{P%} Verbs ;
 
 chupe%<prn%>%<pers%>%<p3%>%<sg%>:%>chupe PRO-CASE ;
 ichupe%<prn%>%<pers%>%<p3%>%<sg%>:%>ichupe PRO-CASE ;
@@ -3695,6 +3695,7 @@ Dr%.:Dr ABBR-PUNTO ;
 aC:aC ABBR ; 
 km:km ABBR ; 
 km²:km² ABBR ; 
+cm:cm ABBR ;
 
 N°:N° ABBR ; 
 °C:°C ABBR ;
