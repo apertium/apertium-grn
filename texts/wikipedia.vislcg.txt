@@ -1,12 +1,12 @@
 # sent_id = wikipedia:Poyvi_Paraguái:11
 # text = Poyvi peteĩha ñane retãmegua niko ojepuru’ypýkuri 15 jasypo guive 16 jasypoteĩ meve ary 1811-pe.
-# text[spa] = Bandera uno nuestro de-de _ _ 15 maio desde 16 junio hasta año 1811-en.
+# text[spa] = Bandera uno nosotros de-de _ _ 15 maio desde 16 junio hasta año 1811-en.
 "<Poyvi>"
 	"poyvi" n
 "<peteĩha>"
 	"peteĩha" num
 "<ñane>"
-	"*ñane"
+	"ñandé" prn pers p1 incl pl
 "<retãmegua>"
 	"retãme" post
 		"gua" post

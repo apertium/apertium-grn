@@ -86,6 +86,10 @@ Vt:Va <=> •: _ [ Cns: | %>: | ArchiCns: | Nas: | VowsAton: ]+ VowsTon: ;
 
 !@ •:0 ó:o g:g a:a >:0 {N}:0 {K}:k u:u é:é r:r a:a 
 
+!@ •:0 ó:ó g:g a:a >:0 p:p e:e
+
+!@ •:0 ó:o g:g a:a >:0 g:g u:u a:a
+
 "Add nasal prefix [ñ] in present 1pl incl"
 %{J%}:ñ <=> _ a: CNAS: ;
                     where CNAS in Nas ;

@@ -648,8 +648,10 @@ ché%<prn%>%<pers%>%<p1%>%<sg%>:ché # ; ! "yo"
 ché%<prn%>%<pers%>%<p1%>%<sg%>:che # ; ! "yo" ! Dir/LR ! Err/Orth
 ndé%<prn%>%<pers%>%<p2%>%<sg%>:ndé # ; ! tú
 haʼe%<prn%>%<pers%>%<p3%>%<sg%>:haʼe # ; ! "él, ella"
-ñandé%<prn%>%<pers%>%<p1%>%<pl%>:ñandé # ;
-oré%<prn%>%<pers%>%<p1%>%<pl%>:oré # ;
+ñandé%<prn%>%<pers%>%<p1%>%<incl%>%<pl%>:ñandé # ;
+ñandé%<prn%>%<pers%>%<p1%>%<incl%>%<pl%>:ñané # ; ! Dir/LR ! Ref/p.57
+ñandé%<prn%>%<pers%>%<p1%>%<incl%>%<pl%>:ñane # ; ! Dir/LR ! Ref/p.57
+oré%<prn%>%<pers%>%<p1%>%<excl%>%<pl%>:oré # ;
 peẽ%<prn%>%<pers%>%<p2%>%<pl%>:peẽ # ;
 haʼekuéra%<prn%>%<pers%>%<p3%>%<pl%>:haʼekuéra # ;
 
