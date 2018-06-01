@@ -229,7 +229,7 @@ LEXICON N
 %<n%>: N-PL ;
 %<n%>: SUF-PL ;
 %<n%>: COMP ;
-%<n%>: V ;
+%<n%>: V ;          ! FIXME: O que é isso ?? ^pehenguekuéra/pehenguekuéra<n>/pehenguekuéra<n><v><iv><pres>$
 
 LEXICON NP-TOP
 
