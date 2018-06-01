@@ -83,6 +83,7 @@ Multichar_Symbols
 %{r%}              ! Archiphoneme for [r] in negative verbs
 %{o%}              ! Archiphoneme for changing tonal vowels
 %{p%}              ! Archiphoneme for r in after possessive prefixes
+%{e%}              ! Archiphoneme for euphonic vowels 
 
 
 LEXICON Root 
@@ -471,6 +472,7 @@ nd%<neg%>%+:n%{d%} PersonAgr ;
 nd%<neg%>%+:n%{d%} Verbs ; 
 nd%<neg%>%+:n%{d%} Connectors ;
 nd%<neg%>%+:n%{d%} IrrVerbs ;
+nd%<neg%>%+:n%{d%} PersonAgrCol ; 
 
 LEXICON VerbsNegSuf
 %+i%<neg%>:%>%{r%}i # ;
@@ -480,19 +482,30 @@ LEXICON VerbalPrefixes
 
 VerbNegPref ;
 PersonAgr ;
+PersonAgrCol ;
 Verbs ; 
 
 LEXICON PersonAgr
 
 a%<prn%>%<p1%>%<sg%>%+:%>a%{P%} Verbs ;
 re%<prn%>%<p2%>%<sg%>%+:%>re%{P%} Verbs ;
-!o%<prn%>%<p3%>%<sg%>%+:%>o%{P%} DET ;
 o%<prn%>%<p3%>%<sg%>%+:%>o%{P%} Verbs ;
-a%<prn%>%<p1%>%<pl%>%+:%>%{J%}a%{P%} Verbs ;
+o%<prn%>%<p3%>%<pl%>%+:%>o%{P%} Verbs ;
+ja%<prn%>%<p1%>%<pl%>%+:%>%{J%}a%{P%} Verbs ;
 ro%<prn%>%<p1%>%<pl%>%+:%>ro%{P%} Verbs ;
 
 pe%<prn%>%<p2%>%<pl%>%+:%>pe%{P%} Verbs ;
 
+PersonAgrCol
+
+a%<prn%>%<p1%>%<sg%>%+: Verbs ;
+re%<prn%>%<p2%>%<sg%>%+: Verbs ;
+i%<prn%>%<p3%>%<sg%>%+:%>i%{P%} Verbs ;
+i%<prn%>%<p3%>%<pl%>%+:%>i%{P%} Verbs ;
+ñande%<prn%>%<p1%>%<pl%>%+:%>ñan%{D%}e%{P%} Verbs ;
+ore%<prn%>%<p1%>%<pl%>%+:%>ore%{P%} Verbs ;
+
+pende%<prn%>%<p2%>%<pl%>%+:%>pen%{D%}e%{P%} Verbs 
 
 LEXICON PRO-CASE
 
