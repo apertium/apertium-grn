@@ -229,7 +229,7 @@ LEXICON N
 %<n%>: N-PL ;
 %<n%>: SUF-PL ;
 %<n%>: COMP ;
-%<n%>: V ;          ! FIXME: O que é isso ?? ^pehenguekuéra/pehenguekuéra<n>/pehenguekuéra<n><v><iv><pres>$
+!%<n%>: V ;          ! FIXME: O que é isso ?? ^pehenguekuéra/pehenguekuéra<n>/pehenguekuéra<n><v><iv><pres>$
 
 LEXICON NP-TOP
 
@@ -684,6 +684,7 @@ hagua:hagua POST ; ! "para"
 hag̃ua:hag̃ua POST ; ! "para" ! Dir/LR
 ndive:ndive POST ; ! "con"
 pegua:pegua POST ; ! "de"
+guive:guive POST ; ! "desde"
 kupe:kupe POST ; ! "detras de"
 tenonde:tenonde POST ; ! "delante"
 ykere:ykere POST ; ! "al lado de"
@@ -692,12 +693,13 @@ ipype:ipype POST ; ! "por dentro"
 hyepype:hyepype POST ; ! "adentro"
 apytepe:apytepe POST ; ! "en medio de"
 guarã:guarã POST ; ! "para" 
-g̃uarã:g̃uarã POST ; ! "para" ! Dir\LR 
+guarã:g̃uarã POST ; ! "para" ! Dir/LR 
 haguére:haguére POST ; ! "por" 
 rupi:rupi POST ; ! "por" 
 gotyo:gotyo POST ; ! "de" 
 rehe:rehe POST ; ! "mediante, por"
 peve:peve POST ; ! "hasta"
+peve:meve POST ; ! "hasta" ! Ref/p.131
 retãme:retãme POST ; ! "de"
 piko:piko POST ; ! "interrogación"
 
@@ -3669,6 +3671,7 @@ la:la BARB ;
 los:los BARB ; 
 el:el BARB ; 
 las:las BARB ; 
+por:por BARB ; 
 
 LEXICON Abbreviações
 
@@ -3676,6 +3679,7 @@ Dr%.:Dr ABBR-PUNTO ;
 
 aC:aC ABBR ; 
 km:km ABBR ; 
+km²:km² ABBR ; 
 
 N°:N° ABBR ; 
 °C:°C ABBR ;
