@@ -1,6 +1,5 @@
 Multichar_Symbols
 
-•                    ! Accentuation mark 
 %<sg%>               ! Sungular
 %<p1%>               ! 1 Persona
 %<p2%>               ! 2 Persona
@@ -47,6 +46,10 @@ Multichar_Symbols
 
 %<pres%>             ! Presente
 
+%<barb%>             ! Barbarisme
+%<abbr%>             ! Abbreviação
+%<sym%>              ! Símbolo
+
 
 %<percent%>          ! Percent
 %<sent%>             ! Sentence marker
@@ -65,6 +68,7 @@ Multichar_Symbols
 % 
 %ʼ
 %+
+•                    ! Accentuation mark 
 
 !!!!!!!!!!!!!!Archiphonemes!!!!!!!!!!!
 %{J%}              ! Archiphoneme for [j] or [ñ] in prefix ja, ña
@@ -108,6 +112,9 @@ SpaAdjectives ;
 ItgPronouns ;
 GRD-PREF ;
 SpaNouns ;
+Barbarismes ;
+Abbreviações ;
+Symbols ;
 
 
 !!!!!!!!!!!!!!!!!!!! LEXICON SPANISH !!!!!!!!!!
@@ -157,7 +164,9 @@ centro:centro N-ES ;
 !! 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-LEXICON CASE
+
+
+LEXICON CASE-NONOM
 
 %+pe%<post%>:%>pe # ; ! a, en
 %+gua%<post%>:%>gua # ;
@@ -166,6 +175,11 @@ LEXICON CASE
 %+ari%<post%>:%>ari # ;
 %+re%<post%>:%>re # ;
 %+rehe%<post%>:%>rehe # ; !por
+
+
+LEXICON CASE
+
+CASE-NONOM ;
 
 # ; 
 
@@ -216,21 +230,37 @@ LEXICON N
 %<n%>: N-PL ;
 %<n%>: SUF-PL ;
 %<n%>: COMP ;
-%<n%>: V ;
+!%<n%>: V ;          ! FIXME: O que é isso ?? ^pehenguekuéra/pehenguekuéra<n>/pehenguekuéra<n><v><iv><pres>$
 
 LEXICON NP-TOP
 
 %<np%>%<top%>: CASE ;
 
 LEXICON NP-ANT
-%<np%>%<ant%>: # ;
+%<np%>%<ant%>: CASE ;
 
-# ;
+LEXICON BARB 
+
+%<barb%>: # ; 
+
+LEXICON ABBR-PUNTO
+
+%<abbr%>:%. # ; 
+%<abbr%>: # ;  ! Dir/LR 
+
+LEXICON ABBR
+
+%<abbr%>: # ;  
+
+LEXICON SYM
+
+%<sym%>: # ; 
+
 
 LEXICON ProperNouns 
 
 Paraguái:Paragu•ái NP-TOP ; ! "Paraguay"
-Paraguái:Paraguay NP-TOP ; ! "Paraguay" ! Dir/LR
+Paraguái:Paraguay NP-TOP ; ! "Paraguay" ! Dir/LR ! Err/Orth
 Uruguái:Urugu•ái NP-TOP ; 
 Volívia:Vol•ívia NP-TOP ; ! "Bolivia"
 Bolivia:Bolivia NP-TOP ;
@@ -238,11 +268,13 @@ Vrasil:Vrasil NP-TOP ; ! "Vrasil"
 Brasil:Brasil NP-TOP ; ! "Brasil"
 Argentina:Argentina NP-TOP ; ! "Argentina"
 Peru:Peru NP-TOP ; ! "Peru"
+Perũ:Perũ NP-TOP ; ! ""       ! FIXME: Prova qual é a ortografia normativa (Peru o Perũ)
 Chile:Chile NP-TOP ; ! "Chile"
 Rio:Rio NP-TOP ;
 Rio% Grande:Rio% Grande NP-TOP ;
 España:España NP-TOP ;
 Amérika:Am•érika NP-TOP ;
+Amérika:Am•érica NP-TOP ; ! Dir/LR ! Err/Orth
 Pindorama:Pindorama NP-TOP ;
 Asunción:Asunción NP-TOP ;
 Buenos% Aires:Buenos% Aires NP-TOP ;
@@ -270,6 +302,100 @@ Flores:Flores NP-TOP ;
 Áfrika:Áfrika NP-TOP ;
 Italia:Italia NP-TOP ;
 
+Suasilándia:Suasil•ándia NP-TOP ; 
+Venesuéla:Venesu•éla NP-TOP ; 
+
+Alaska:Alaska NP-TOP ; ! ""
+Alberta:Alberta NP-TOP ; ! ""
+Albuquerque:Albuquerque NP-TOP ; ! ""
+Alepo:Alepo NP-TOP ; ! ""
+Andorra:Andorra NP-TOP ; ! ""
+Angola:Angola NP-TOP ; ! ""
+Antártida:Ant•ártida NP-TOP ; ! ""
+Aragón:Arag•ón NP-TOP ; ! ""
+Arizona:Arizona NP-TOP ; ! ""
+Arkansas:Arkansas NP-TOP ; ! ""
+Asturias:Asturias NP-TOP ; ! ""
+Atena:Atena NP-TOP ; ! ""
+Banjul:Banjul NP-TOP ; ! ""
+Barcelona:Barcelona NP-TOP ; ! ""
+Baviera:Baviera NP-TOP ; ! ""
+Beirut:Beirut NP-TOP ; ! ""
+Birmingham:Birmingham NP-TOP ; ! ""
+Bogotá:Bogot•á NP-TOP ; ! ""
+Brandeburgo:Brandeburgo NP-TOP ; ! ""
+Brazzaville:Brazzaville NP-TOP ; ! ""
+Budapest:Budapest NP-TOP ; ! ""
+California:California NP-TOP ; ! ""
+Caracas:Caracas NP-TOP ; ! ""
+Casablanca:Casablanca NP-TOP ; ! ""
+Connecticut:Connecticut NP-TOP ; ! ""
+Doha:Doha NP-TOP ; ! ""
+Etiopía:Etiop•ía NP-TOP ; ! ""
+Extremadura:Extremadura NP-TOP ; ! ""
+Filadelfia:Filadelfia NP-TOP ; ! ""
+Florida:Florida NP-TOP ; ! ""
+Galicia:Galicia NP-TOP ; ! ""
+Georgia:Georgia NP-TOP ; ! ""
+Ginebra:Ginebra NP-TOP ; ! ""
+Hamburgo:Hamburgo NP-TOP ; ! ""
+Illinois:Illinois NP-TOP ; ! ""
+Indiana:Indiana NP-TOP ; ! ""
+Indochina:Indochina NP-TOP ; ! ""
+Kansas:Kansas NP-TOP ; ! ""
+Kingston:Kingston NP-TOP ; ! ""
+Kosovo:Kosovo NP-TOP ; ! ""
+Libreville:Libreville NP-TOP ; ! ""
+Lima:Lima NP-TOP ; ! ""
+Luisiana:Luisiana NP-TOP ; ! ""
+Luxemburgo:Luxemburgo NP-TOP ; ! ""
+Madrid:Madrid NP-TOP ; ! ""
+Maine:Maine NP-TOP ; ! ""
+Malabo:Malabo NP-TOP ; ! ""
+Male:Male NP-TOP ; ! ""
+Maryland:Maryland NP-TOP ; ! ""
+Maseru:Maseru NP-TOP ; ! ""
+Massachusetts:Massachusetts NP-TOP ; ! ""
+Michigan:Michigan NP-TOP ; ! ""
+Minnesota:Minnesota NP-TOP ; ! ""
+Misisipi:Misisipi NP-TOP ; ! ""
+Misuri:Misuri NP-TOP ; ! ""
+Monrovia:Monrovia NP-TOP ; ! ""
+Montevideo:Montevideo NP-TOP ; ! ""
+Montreal:Montreal NP-TOP ; ! ""
+Monzón:Monzón NP-TOP ; ! ""
+Moroni:Moroni NP-TOP ; ! ""
+Múnich:M•únich NP-TOP ; ! ""
+Nepal:Nepal NP-TOP ; ! ""
+Nilo:Nilo NP-TOP ; ! ""
+Noruega:Noruega NP-TOP ; ! ""
+Oaxaca:Oaxaca NP-TOP ; ! ""
+Ohio:Ohio NP-TOP ; ! ""
+Oklahoma:Oklahoma NP-TOP ; ! ""
+Ottawa:Ottawa NP-TOP ; ! ""
+Oxford:Oxford NP-TOP ; ! ""
+Pakistán:Pakist•án NP-TOP ; ! ""
+Pensilvania:Pensilvania NP-TOP ; ! ""
+Pira:Pira NP-TOP ; ! ""
+Praga:Praga NP-TOP ; ! ""
+Praia:Praia NP-TOP ; ! ""
+Quito:Quito NP-TOP ; ! ""
+Rabat:Rabat NP-TOP ; ! ""
+Salvador:Salvador NP-TOP ; ! ""
+Seúl:Se•úl NP-TOP ; ! ""
+Sucre:Sucre NP-TOP ; ! ""
+Suva:Suva NP-TOP ; ! ""
+Tailandia:Tailandia NP-TOP ; ! ""
+Tarragona:Tarragona NP-TOP ; ! ""
+Texas:Texas NP-TOP ; ! ""
+Toronto:Toronto NP-TOP ; ! ""
+Utah:Utah NP-TOP ; ! ""
+Vaduz:Vaduz NP-TOP ; ! ""
+Vigo:Vigo NP-TOP ; ! ""
+Virginia:Virginia NP-TOP ; ! ""
+Washington:Washington NP-TOP ; ! ""
+Wisconsin:Wisconsin NP-TOP ; ! ""
+Wyoming:Wyoming NP-TOP ; ! ""
 
 José:José NP-ANT ;
 Juan:Juan NP-ANT ;
@@ -523,8 +649,10 @@ ché%<prn%>%<pers%>%<p1%>%<sg%>:ché # ; ! "yo"
 ché%<prn%>%<pers%>%<p1%>%<sg%>:che # ; ! "yo" ! Dir/LR ! Err/Orth
 ndé%<prn%>%<pers%>%<p2%>%<sg%>:ndé # ; ! tú
 haʼe%<prn%>%<pers%>%<p3%>%<sg%>:haʼe # ; ! "él, ella"
-ñandé%<prn%>%<pers%>%<p1%>%<pl%>:ñandé # ;
-oré%<prn%>%<pers%>%<p1%>%<pl%>:oré # ;
+ñandé%<prn%>%<pers%>%<p1%>%<incl%>%<pl%>:ñandé # ;
+ñandé%<prn%>%<pers%>%<p1%>%<incl%>%<pl%>:ñané # ; ! Dir/LR ! Ref/p.57
+ñandé%<prn%>%<pers%>%<p1%>%<incl%>%<pl%>:ñane # ; ! Dir/LR ! Ref/p.57
+oré%<prn%>%<pers%>%<p1%>%<excl%>%<pl%>:oré # ;
 peẽ%<prn%>%<pers%>%<p2%>%<pl%>:peẽ # ;
 haʼekuéra%<prn%>%<pers%>%<p3%>%<pl%>:haʼekuéra # ;
 
@@ -559,6 +687,7 @@ hagua:hagua POST ; ! "para"
 hag̃ua:hag̃ua POST ; ! "para" ! Dir/LR
 ndive:ndive POST ; ! "con"
 pegua:pegua POST ; ! "de"
+guive:guive POST ; ! "desde"
 kupe:kupe POST ; ! "detras de"
 tenonde:tenonde POST ; ! "delante"
 ykere:ykere POST ; ! "al lado de"
@@ -567,12 +696,13 @@ ipype:ipype POST ; ! "por dentro"
 hyepype:hyepype POST ; ! "adentro"
 apytepe:apytepe POST ; ! "en medio de"
 guarã:guarã POST ; ! "para" 
-g̃uarã:g̃uarã POST ; ! "para" ! Dir\LR 
+guarã:g̃uarã POST ; ! "para" ! Dir/LR 
 haguére:haguére POST ; ! "por" 
 rupi:rupi POST ; ! "por" 
 gotyo:gotyo POST ; ! "de" 
 rehe:rehe POST ; ! "mediante, por"
 peve:peve POST ; ! "hasta"
+peve:meve POST ; ! "hasta" ! Ref/p.131
 retãme:retãme POST ; ! "de"
 piko:piko POST ; ! "interrogación"
 
@@ -603,6 +733,10 @@ opaite%<adj%>%<ind%>:opaite # ; ! "todos"
 LEXICON ADJ-DIS 
 %+ve%<adj%>%<dist%>:ve # ;
 # ;
+
+LEXICON NUM-ROMAN
+
+%<num%>%<ord%>: # ; 
 
 LEXICON Numerals
 
@@ -643,6 +777,34 @@ su%<num%>:su ADJ-DIS ; ! "mil"
 sua%<num%>:sua ADJ-DIS ; ! "milión"
 
 peteĩha%<num%>:peteĩha # ; ! "primero"
+
+C:C NUM-ROMAN ; ! "" 
+D:D NUM-ROMAN ; ! "" 
+DC:DC NUM-ROMAN ; ! "" 
+I:I NUM-ROMAN ; ! "" 
+II:II NUM-ROMAN ; ! "" 
+III:III NUM-ROMAN ; ! "" 
+IV:IV NUM-ROMAN ; ! "" 
+V:V NUM-ROMAN ; ! "" 
+VI:VI NUM-ROMAN ; ! "" 
+VII:VII NUM-ROMAN ; ! "" 
+VIII:VIII NUM-ROMAN ; ! "" 
+IX:IX NUM-ROMAN ; ! "" 
+L:L NUM-ROMAN ; ! "" 
+M:M NUM-ROMAN ; ! "" 
+X:X NUM-ROMAN ; ! "" 
+XI:XI NUM-ROMAN ; ! "" 
+XII:XII NUM-ROMAN ; ! "" 
+XIII:XIII NUM-ROMAN ; ! "" 
+XIV:XIV NUM-ROMAN ; ! "" 
+XV:XV NUM-ROMAN ; ! "" 
+XVI:XVI NUM-ROMAN ; ! "" 
+XVII:XVII NUM-ROMAN ; ! "" 
+XVIII:XVIII NUM-ROMAN ; ! "" 
+XIX:XIX NUM-ROMAN ; ! "" 
+XX:XX NUM-ROMAN ; ! "" 
+XXI:XXI NUM-ROMAN ; ! "" 
+
 
 LEXICON Biformes 
 
@@ -3503,6 +3665,32 @@ anichéne:anich•éne AD-NEG ; ! "no"
 tove:tove AD-NEG ; ! "no"
 neʼĩra:neʼĩra AD-NEG ; ! "no todavia, no aún" 
 
+LEXICON Barbarismes
+
+del:del BARB ; 
+de:de BARB ; 
+y:y BARB ;                ! FIXME: Prova que não é também uma conjunção, p.ex. "Perũ yvate gotyo yvypóra ymaguare ha heta ypykue oñepysyry avei y apeno rupive."
+la:la BARB ; 
+los:los BARB ; 
+el:el BARB ; 
+las:las BARB ; 
+por:por BARB ; 
+
+LEXICON Abbreviações
+
+Dr%.:Dr ABBR-PUNTO ; 
+
+aC:aC ABBR ; 
+km:km ABBR ; 
+km²:km² ABBR ; 
+
+N°:N° ABBR ; 
+°C:°C ABBR ;
+
+LEXICON Symbols 
+
+<[ £ | € | ¥ | © | § | × ]>  SYM ; 
+
 
 LEXICON Punctuation
 
@@ -3516,15 +3704,18 @@ LEXICON Punctuation
 %—%<guio%>:%— # ;
 ,%<cm%>:, # ;
 %?%<sent%>:%? # ; 
+%¿%<lquest%>:%¿ # ; 
 %"%<sent%>:%" # ;
 %«%<lquot%>:%« # ;
 %»%<rquot%>:%» # ;
 %”%<rquot%>:%” # ;
 %“%<lquot%>:%“ # ;
 %(%<lpar%>:%( # ;
+（%<lpar%>:（ # ;
 %]%<rpar%>:%] # ;
 %[%<lpar%>:%[ # ;
 %)%<rpar%>:%) # ;
+）%<rpar%>:） # ;
 \%<sent%>:\ # ;
 /%<sent%>:/ # ;
 …%<sent%>:… # ;
@@ -3532,8 +3723,9 @@ LEXICON Punctuation
 ! %ʼ%<apos%>:%ʼ # ;
 
 ! Temporary numeral lexicon
-<[%0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9]+>  DIGITLEX ; ! Use/Circ
+<[%0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 ]+>  DIGITLEX ; ! Use/Circ
 
 LEXICON DIGITLEX
 
 %<num%>: # ;
+%<num%>:%- CASE-NONOM  ;
