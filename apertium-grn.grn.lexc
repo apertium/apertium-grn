@@ -625,6 +625,7 @@ terã:terã CC ; ! "o" ! Dir\LR
 katu:katu CC ; ! "pero"
 rupive:rupive CC ; ! "por causa de"
 mbaʼe:mbaʼe CC ; ! "que"
+y:y CC ; ! ""
 
 
 !!!!!!!!!!!!!!!!!!! Adverbs !!!!!!!!!!!!
@@ -3687,7 +3688,6 @@ LEXICON Barbarismes
 
 del:del BARB ; 
 de:de BARB ; 
-y:y BARB ;                ! FIXME: Prova que não é também uma conjunção, p.ex. "Perũ yvate gotyo yvypóra ymaguare ha heta ypykue oñepysyry avei y apeno rupive."
 la:la BARB ; 
 los:los BARB ; 
 el:el BARB ; 
