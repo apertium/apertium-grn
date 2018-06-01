@@ -27,6 +27,7 @@ Multichar_Symbols
 %<tv%>               ! Transitivo
 %<iv%>               ! Intransitivo
 %<neg%>              ! Negativo
+%<imp%>              ! Imperativo
 
 %<top%>              ! Toponimo
 %<ant%>              ! Antroponimo
@@ -115,6 +116,7 @@ SpaNouns ;
 Barbarismes ;
 Abbreviações ;
 Symbols ;
+Imperative ;
 
 
 !!!!!!!!!!!!!!!!!!!! LEXICON SPANISH !!!!!!!!!!
@@ -448,6 +450,11 @@ LEXICON DEM-PRN-PL
 # ;
 
 !!!!!!!!!!!!! VERBAL LEXICONS !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON Imperative
+
+e%<imp%>%<p2%>%<sg%>%+:%>e%{P%} Verbs ;
+pe%<imp%>%<p2%>%<pl%>%+:%>pe%{P%} Verbs ;
 
 LEXICON V-INFL 
 
@@ -2260,7 +2267,6 @@ aĩ:aĩ V ; ! "estar" ! Dir/LR
 ñaimo’ã:ñaimo’ã V ; ! "parecer"
 a:a V ; ! "fructificar"
 ai:ai V ; ! "llaga"
-aju:aju V ; ! "maduro"
 ajuraroʼo:ajuraroʼo V ; ! "papada"
 akã:akã V ; ! "testa"
 akãguapy:akãguapy V ; ! "moderado"
