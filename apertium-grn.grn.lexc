@@ -496,7 +496,7 @@ ro%<prn%>%<p1%>%<pl%>%+:%>ro%{P%} Verbs ;
 
 pe%<prn%>%<p2%>%<pl%>%+:%>pe%{P%} Verbs ;
 
-PersonAgrCol
+LEXICON PersonAgrCol
 
 a%<prn%>%<p1%>%<sg%>%+: Verbs ;
 re%<prn%>%<p2%>%<sg%>%+: Verbs ;
@@ -505,7 +505,7 @@ i%<prn%>%<p3%>%<pl%>%+:%>i%{P%} Verbs ;
 ñande%<prn%>%<p1%>%<pl%>%+:%>ñan%{D%}e%{P%} Verbs ;
 ore%<prn%>%<p1%>%<pl%>%+:%>ore%{P%} Verbs ;
 
-pende%<prn%>%<p2%>%<pl%>%+:%>pen%{D%}e%{P%} Verbs 
+pende%<prn%>%<p2%>%<pl%>%+:%>pen%{D%}e%{P%} Verbs  ;
 
 LEXICON PRO-CASE
 
