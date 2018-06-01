@@ -79,6 +79,7 @@ Multichar_Symbols
 %{r%}              ! Archiphoneme for [r] in negative verbs
 %{o%}              ! Archiphoneme for changing tonal vowels
 %{p%}              ! Archiphoneme for r in after possessive prefixes
+%{e%}              ! Archiphoneme for euphonic vowels 
 
 
 LEXICON Root 
