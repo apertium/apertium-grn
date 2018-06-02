@@ -185,6 +185,39 @@ CASE-NONOM ;
 
 # ; 
 
+
+LEXICON Postpositions
+hagua:hagua POST ; ! "para"
+hag̃ua:hag̃ua POST ; ! "para" ! Dir/LR
+ndive:ndive POST ; ! "con"
+pegua:pegua POST ; ! "de"
+guive:guive POST ; ! "desde"
+kupe:kupe POST ; ! "detras de"
+tenonde:tenonde POST ; ! "delante"
+ykere:ykere POST ; ! "al lado de"
+pype:pype POST ; ! "dentro"
+ipype:ipype POST ; ! "por dentro"
+hyepype:hyepype POST ; ! "adentro"
+apytepe:apytepe POST ; ! "en medio de"
+guarã:guarã POST ; ! "para" 
+guarã:g̃uarã POST ; ! "para" ! Dir/LR 
+haguére:haguére POST ; ! "por" 
+rupi:rupi POST ; ! "por" 
+gotyo:gotyo POST ; ! "de" 
+rehe:rehe POST ; ! "mediante, por"
+peve:peve POST ; ! "hasta"
+peve:meve POST ; ! "hasta" ! Ref/p.131
+retã:retã POST ; ! "de"
+piko:piko POST ; ! "interrogación"
+guare:guare POST ; ! "de" ! Adjetivante ?
+
+
+LEXICON POST
+
+%<post%>: # ;
+%<post%>: CASE ;
+
+
 LEXICON SUBST 
 +kue%<subs%>:%>kue # ;
 +kue%<subs%>:%>kue CASE ;
@@ -221,10 +254,6 @@ LEXICON CC
 
 %<cnjcoo%>: # ;
 
-LEXICON POST
-
-%<post%>: # ;
-%<post%>: CASE ;
 
 LEXICON N
 
@@ -703,30 +732,6 @@ peteĩ%<prn%>%<ind%>:peteĩ # ; ! "uno, una"
 ambuéva%<prn%>%<ind%>:ambuéva # ; ! "otro, otra"
 mbaʼeve%<prn%>%<ind%>:mbaʼeve # ; ! "nada"
 
-LEXICON Postpositions
-
-hagua:hagua POST ; ! "para"
-hag̃ua:hag̃ua POST ; ! "para" ! Dir/LR
-ndive:ndive POST ; ! "con"
-pegua:pegua POST ; ! "de"
-guive:guive POST ; ! "desde"
-kupe:kupe POST ; ! "detras de"
-tenonde:tenonde POST ; ! "delante"
-ykere:ykere POST ; ! "al lado de"
-pype:pype POST ; ! "dentro"
-ipype:ipype POST ; ! "por dentro"
-hyepype:hyepype POST ; ! "adentro"
-apytepe:apytepe POST ; ! "en medio de"
-guarã:guarã POST ; ! "para" 
-guarã:g̃uarã POST ; ! "para" ! Dir/LR 
-haguére:haguére POST ; ! "por" 
-rupi:rupi POST ; ! "por" 
-gotyo:gotyo POST ; ! "de" 
-rehe:rehe POST ; ! "mediante, por"
-peve:peve POST ; ! "hasta"
-peve:meve POST ; ! "hasta" ! Ref/p.131
-retãme:retãme POST ; ! "de"
-piko:piko POST ; ! "interrogación"
 
 !!!!!!!!!!!!!ADJECTIVES!!!!!!!!!!!!!!
 
