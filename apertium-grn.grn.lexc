@@ -169,13 +169,14 @@ centro:centro N-ES ;
 
 LEXICON CASE-NONOM
 
-%+pe%<post%>:%>pe # ; ! a, en
+%+pe%<post%>:%>pe # ; ! "a, en"
+%+me%<post%>:%>me # ; ! "en"
 %+gua%<post%>:%>gua # ;
 %+guý%<post%>:%>guý # ;
 %+a%<post%>:%>a # ;
 %+ari%<post%>:%>ari # ;
 %+re%<post%>:%>re # ;
-%+rehe%<post%>:%>rehe # ; !por
+%+rehe%<post%>:%>rehe # ; ! "por:
 
 
 LEXICON CASE
@@ -626,6 +627,7 @@ katu:katu CC ; ! "pero"
 rupive:rupive CC ; ! "por causa de"
 mbaʼe:mbaʼe CC ; ! "que"
 y:y CC ; ! ""
+ajeve:ajeve CC ; ! "por eso"
 
 
 !!!!!!!!!!!!!!!!!!! Adverbs !!!!!!!!!!!!
