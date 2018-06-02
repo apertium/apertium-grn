@@ -85,6 +85,8 @@ Multichar_Symbols
 %{o%}              ! Archiphoneme for changing tonal vowels
 %{p%}              ! Archiphoneme for r after possessive prefixes
 %{e%}              ! Archiphoneme for euphonic vowels 
+%{Y%}              ! Archiphoneme for [y] in postpositions 
+%{m%}              ! Archiphoneme for m in case 
 
 
 LEXICON Root 
@@ -169,14 +171,17 @@ centro:centro N-ES ;
 
 LEXICON CASE-NONOM
 
-%+pe%<post%>:%>pe # ; ! "a, en"
-%+me%<post%>:%>me # ; ! "en"
-%+gua%<post%>:%>gua # ;
+%+pe%<post%>:%>%{m%}e # ; ! "a, en"
+%+gua%<post%>:%>%{Y%}gua # ;
 %+guý%<post%>:%>guý # ;
 %+a%<post%>:%>a # ;
 %+ari%<post%>:%>ari # ;
 %+re%<post%>:%>re # ;
-%+rehe%<post%>:%>rehe # ; ! "por:
+%+rehe%<post%>:%>rehe # ; ! "por"
+%+gui%<post%>:%>gui # ; ! "de"
+%+guio%<post%>:%>guio # ; ! "desde"
+%+kue%<post%>:%>kue # ; ! "durante"
+%+rõ%<post%>:%>rõ # ; ! "si"
 
 
 LEXICON CASE
@@ -188,28 +193,49 @@ CASE-NONOM ;
 
 LEXICON Postpositions
 hagua:hagua POST ; ! "para"
-hag̃ua:hag̃ua POST ; ! "para" ! Dir/LR
+hagua:hag̃ua POST ; ! "para" ! Dir/LR
+hague:hague POST ; ! "que, donde"
+haguéicha:haguéicha POST ; ! ""
+hag̃uáicha:hag̃uáicha POST ; ! ""  
 ndive:ndive POST ; ! "con"
+ndive:ndie POST ; ! "con" ! Dir/LR 
 pegua:pegua POST ; ! "de"
 guive:guive POST ; ! "desde"
+guýpe:guýpe POST ; ! ""
 kupe:kupe POST ; ! "detras de"
 tenonde:tenonde POST ; ! "delante"
 ykere:ykere POST ; ! "al lado de"
 pype:pype POST ; ! "dentro"
+pýpe:pýpe POST ; ! ""
 ipype:ipype POST ; ! "por dentro"
 hyepype:hyepype POST ; ! "adentro"
-apytepe:apytepe POST ; ! "en medio de"
+apytépe:apytépe POST ; ! "en medio de"
 guarã:guarã POST ; ! "para" 
 guarã:g̃uarã POST ; ! "para" ! Dir/LR 
 haguére:haguére POST ; ! "por" 
 rupi:rupi POST ; ! "por" 
-gotyo:gotyo POST ; ! "de" 
+gotyo:gotyo POST ; ! "hacia"
+ngotyo:ngotyo POST ; ! "hacia" ! Dir/LR 
 rehe:rehe POST ; ! "mediante, por"
 peve:peve POST ; ! "hasta"
 peve:meve POST ; ! "hasta" ! Ref/p.131
 retã:retã POST ; ! "de"
 piko:piko POST ; ! "interrogación"
-guare:guare POST ; ! "de" ! Adjetivante ?
+guare:guare POST ; ! "de"
+kuévo:kuévo POST ; ! "simultaneamente" 
+kupépe:kupépe POST ; ! "detrás de"
+pópe:pópe POST ; ! ""
+rangue:rangue POST ; ! ""
+rapykuéri:rapykuéri POST ; ! ""
+reheʼỹ:reheʼỹ POST ; ! "sin"
+rekávo:rekávo POST ; ! ""
+rendápe:rendápe POST ; ! "junto a"
+renondépe:renondépe POST ; ! "delante de" 
+rovake:rovake POST ; ! "delante de"
+vaʼekue:vaʼekue POST ; ! ""
+vaʼerã:vaʼerã POST ; ! ""
+
+
 
 
 LEXICON POST
@@ -221,6 +247,10 @@ LEXICON POST
 LEXICON SUBST 
 +kue%<subs%>:%>kue # ;
 +kue%<subs%>:%>kue CASE ;
+
+LEXICON SUBST-V 
++ha%<subs%>:%>ha # ;
++ha%<subs%>:%>ha COMP ;
 
 LEXICON COMP 
 +icha%<comp%>:%>icha # ; ! "igualidad" 
@@ -495,6 +525,7 @@ LEXICON V-INFL
 %<pres%>: Adverbs ;
 %<pres%>: DEM-PRN-PL ;
 %<pres%>: SUBST ;
+%<pres%>: SUBST-V ;
 
 LEXICON V 
 
@@ -677,6 +708,7 @@ LEXICON AD-NEG
 LEXICON AD-SUF 
 %+nte%<adv%>:%>nte # ; ! "sólo"
 %+ma%<adv%>:%>ma # ; ! "ya" 
+%+vo%<adv%>:%>vo # ; ! "simultanedad"
 
 LEXICON ITG-SUF
 %+po%<itg%>:%>po # ;
@@ -3610,6 +3642,7 @@ hákatu:h•ákatu AD ; ! "pero"
 haimete:haimete AD ; ! "apenas"
 ikatu:ikatu AD ; ! "tal vez"
 jave:jave AD ; ! "mientras"
+javeve:javeve AD ; ! "mientras"
 jepe:jepe AD ; ! "aun, sin embargo"
 katui:katui AD ; ! "siempre"
 kaʼaru:kaʼaru AD ; ! "tarde"
@@ -3628,6 +3661,8 @@ mbaʼasy:mbaʼasy AD ; ! "como"
 mbaʼevai:mbaʼevai AD ; ! "mal"
 mbaʼeve:mbaʼeve AD ; ! "nada"
 mbegue:mbegue AD ; ! "lentamente, despacio"
+mboypýri:mboyp•ýri AD ; ! "más allá"
+mbytépe:mbyt•épe AD ; ! "en medio de"
 mbovyve:mbovyve AD ; ! "menos"
 mboy:mboy AD ; ! "cuanto"
 mboyve:mboyve AD ; ! "antes" 
@@ -3650,6 +3685,7 @@ pype:pype AD ; ! "adentro"
 rasa:rasa AD ; ! "muy" 
 raẽ:rãe AD ; ! "antes" 
 ramo:ramo AD ; ! "reciéntemente"
+ramo% jepe:ramo% jepe AD ; ! ""
 rire:rire AD ; ! "después"
 sapyʼa:sapyʼa AD ; ! "súbitamente"
 tapykuépe:tapyku•épe AD ; ! "detrás, atrás"

@@ -19,6 +19,8 @@ a b ã c d e ẽ g g̃ h i ĩ j k l m n ñ o õ p r s t u ũ v w x y z ỹ á é
 •:0
 %{o%}:0
 %{e%}:e %{e%}:a %{e%}:o 
+%{Y%}:0 %{Y%}:y 
+%{m%}:m %{m%}:p
 
 %>:0 
 % 
@@ -63,7 +65,7 @@ Rules
 •:0 <=> _ ;
 
 "Change vowel before atonal suffixes"
-Va:Vt <=> _ %>: [m: a: | n: t: e: | i: c: h: a: | p: e: | m: e:] ;
+Va:Vt <=> _ %>: [m: a: | n: t: e: | i: c: h: a: | %{m%}: e: | g: u: i: | r: e:] ;
             [Cns: | VowsAton: | Nas: ]+ _ %>: %{r%}: ;
             _ %{o%}: [v: | a:] ;
             except
@@ -135,3 +137,8 @@ Vt:Va <=> •: _ [ Cns: | %>: | ArchiCns: | Nas: | VowsAton: ]+ VowsTon: ;
 "%{r%} as r in negative verbs ending with i"
 %{r%}:r <=> i: %>: _ ;
 
+"Surface [y] in postpositions"
+%{Y%}:y <=> g: u: a: %>: _ g: u: a: ;
+
+"Surface [m] in postpositions after nasals"
+%{m%}:m <=> [VowsTon: |VowsAton:| CnsNorm:]+ [Nas:]+ [VowsTon: |VowsAton:| CnsNorm:]+ %>: _ ;
