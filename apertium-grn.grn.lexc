@@ -234,6 +234,7 @@ renondépe:renondépe POST ; ! "delante de"
 rovake:rovake POST ; ! "delante de"
 vaʼekue:vaʼekue POST ; ! ""
 vaʼerã:vaʼerã POST ; ! ""
+vove:vove POST ; ! ""
 
 
 
@@ -708,7 +709,7 @@ LEXICON AD-NEG
 LEXICON AD-SUF 
 %+nte%<adv%>:%>nte # ; ! "sólo"
 %+ma%<adv%>:%>ma # ; ! "ya" 
-%+vo%<adv%>:%>vo # ; ! "simultanedad"
+%+vo%<adv%>:%>vo # ; ! "simultaneidad"
 
 LEXICON ITG-SUF
 %+po%<itg%>:%>po # ;
