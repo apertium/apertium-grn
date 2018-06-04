@@ -87,6 +87,7 @@ Multichar_Symbols
 %{e%}              ! Archiphoneme for euphonic vowels 
 %{Y%}              ! Archiphoneme for [y] in postpositions 
 %{m%}              ! Archiphoneme for m in case 
+%{t%}              ! Archiphoneme for surface [t] in triformes 
 
 
 LEXICON Root 
@@ -99,8 +100,8 @@ Verbs ;
 VerbalPrefixes ;
 PersonalPronouns ;
 IrrVerbs ;
-PossessiveDeterminers ;
-Biformes ;
+PossessivePrefixes ;
+BiformesPaentesco ;
 DemAdjectives ;
 Adjectives ;
 Punctuation ;
@@ -119,6 +120,8 @@ Barbarismes ;
 Abbreviações ;
 Symbols ;
 Imperative ;
+DetBiformes ;
+DetTriformes ;
 
 
 !!!!!!!!!!!!!!!!!!!! LEXICON SPANISH !!!!!!!!!!
@@ -656,7 +659,7 @@ haʼe%<vbser%>%<iv%>%<p1%>%<sg%>%<pres%>:haʼe # ; ! ser
 ikatu%<v%>%<iv%>%<p1%>%<sg%>%<pres%>:ikatu # ; ! poder 
 hiʼã%<v%>%<iv%>%<p1%>%<sg%>%<pres%>:hiʼã # ; ! parecer, desear
 
-LEXICON PossessiveDeterminers 
+LEXICON PossessivePrefixes
 
 che%<prn%>%<pos%>%<p1%>%<sg%>%+:che Nouns ;
 nde%<prn%>%<pos%>%<p2%>%<sg%>%+:n%{D%}e Nouns ; 
@@ -667,13 +670,13 @@ pende%<prn%>%<pos%>%<p2%>%<pl%>%+:pen%{D%}e Nouns ;
 i%<prn%>%<pos%>%<p3%>%<sg%>%+:%{H%}i%{I%} Nouns ; 
 o%<prn%>%<pos%>%<p3%>%<sg%>%+:o%{P%} Nouns ;
 
-! Add same possessives to biform nouns 
+! Add same possessives to biform nouns of kinship 
 
-che%<prn%>%<pos%>%<p1%>%<sg%>%+:che Biformes ;
-nde%<prn%>%<pos%>%<p2%>%<sg%>%+:n%{D%}e Biformes ; 
-ñande%<prn%>%<pos%>%<p1%>%<pl%>%+:ñan%{D%}e Biformes ; 
-ore%<prn%>%<pos%>%<p1%>%<pl%>%+:ore Biformes ;
-pende%<prn%>%<pos%>%<p2%>%<pl%>%+:pen%{D%}e Biformes ;  
+che%<prn%>%<pos%>%<p1%>%<sg%>%+:che BiformesPaentesco ;
+nde%<prn%>%<pos%>%<p2%>%<sg%>%+:n%{D%}e BiformesPaentesco ; 
+ñande%<prn%>%<pos%>%<p1%>%<pl%>%+:ñan%{D%}e BiformesPaentesco ; 
+ore%<prn%>%<pos%>%<p1%>%<pl%>%+:ore BiformesPaentesco ;
+pende%<prn%>%<pos%>%<p2%>%<pl%>%+:pen%{D%}e BiformesPaentesco ;  
 
 i%<prn%>%<pos%>%<p3%>%<sg%>%+:%{H%}i%{I%} Nouns ; 
 o%<prn%>%<pos%>%<p3%>%<sg%>%+:o%{P%} Nouns ;
@@ -865,8 +868,14 @@ XIX:XIX NUM-ROMAN ; ! ""
 XX:XX NUM-ROMAN ; ! "" 
 XXI:XXI NUM-ROMAN ; ! "" 
 
+LEXICON DetBiformes
+r%<det%>%+:r Biformes ;
+h%<prn%>%<pos%>%<p3%>%+:h Biformes ;
 
 LEXICON Biformes 
+óga:•óga N ; ! "casa"
+
+LEXICON BiformesPaentesco 
 
 ramói:ramói N ; ! "abuelo, chamán"
 remiarirõ:remiarirõ N ; ! "nieto"
@@ -881,6 +890,22 @@ reindy:reindy N ; ! "hermana menor"
 rembirekorã:rembirekorã N ; ! "novia formal" 
 rykeʼýra:rykeʼýra  N ; !"hermano mayor"
 ryvýra:ryvýra N ; ! "hermano menor"
+
+LEXICON DetTriformes
+r%<det%>%+:r%{t%} Triformes ;
+h%<prn%>%<pos%>%<p3%>%+:h%{t%} Triformes ;
+
+LEXICON Triformes 
+tape:tape N ; ! "camino" 
+takã:takã N ; ! "rama"
+tupa:tupa N ; ! "cama" 
+téra:t•éra N ; ! "nombre"
+tembiapo:tembiapo N ; ! "faena, labor, obra"
+tekove:tekove N ; ! "individuo, sujeto, vida"
+tembeʼy:tembeʼy N ; ! "ribera, costa, litoral, borde, margen, orilla"
+terakuã:terakuã N ; ! "celebridad, fama, renombre, notable"
+tetãygua:tetãygua N ; ! "compatriota"
+
 
 LEXICON Nouns
 

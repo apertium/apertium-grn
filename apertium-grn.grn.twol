@@ -21,6 +21,7 @@ a b ã c d e ẽ g g̃ h i ĩ j k l m n ñ o õ p r s t u ũ v w x y z ỹ á é
 %{e%}:e %{e%}:a %{e%}:o 
 %{Y%}:0 %{Y%}:y 
 %{m%}:m %{m%}:p
+%{t%}:0
 
 %>:0 
 % 
@@ -113,7 +114,7 @@ Vt:Va <=> •: _ [ Cns: | %>: | ArchiCns: | Nas: | VowsAton: ]+ VowsTon: ;
 %{H%}:h <=> _ i: %{I%}: VowsTon: ;
 
 
-"Remove CONS in 3p possessive prefixes"
+"Remove underlying [i] in 3p possessive prefixes"
 %{I%}:0 <=>  _ CnsNorm: ;
 
 "Surface ʼ in possessive prefix i"
@@ -145,3 +146,6 @@ Vt:Va <=> •: _ [ Cns: | %>: | ArchiCns: | Nas: | VowsAton: ]+ VowsTon: ;
 
 "Surface [m] in postpositions after nasals"
 %{m%}:m <=> [VowsTon: |VowsAton:| CnsNorm:]+ [Nas:]+ [VowsTon: |VowsAton:| CnsNorm:]+ %>: _ ;
+
+"Remove surface [t] in Triformes"
+t:0 <=> %{t%}: _ ;
