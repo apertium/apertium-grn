@@ -122,6 +122,7 @@ Symbols ;
 Imperative ;
 DetBiformes ;
 DetTriformes ;
+PosTriform ;
 
 
 !!!!!!!!!!!!!!!!!!!! LEXICON SPANISH !!!!!!!!!!
@@ -193,6 +194,12 @@ CASE-NONOM ;
 
 # ; 
 
+LEXICON POST-Triformes
+
+renonde:renonde POST ; ! "delante de" 
+
+LEXICON PosTriform
+h%<prn%>%<pos%>%+:h%{t%} POST-Triformes ;
 
 LEXICON Postpositions
 hagua:hagua POST ; ! "para"
@@ -206,7 +213,6 @@ pegua:pegua POST ; ! "de"
 guive:guive POST ; ! "desde"
 guýpe:guýpe POST ; ! ""
 kupe:kupe POST ; ! "detras de"
-tenonde:tenonde POST ; ! "delante"
 ykere:ykere POST ; ! "al lado de"
 pype:pype POST ; ! "dentro"
 pýpe:pýpe POST ; ! ""
@@ -233,7 +239,6 @@ rapykuéri:rapykuéri POST ; ! ""
 reheʼỹ:reheʼỹ POST ; ! "sin"
 rekávo:rekávo POST ; ! ""
 rendápe:rendápe POST ; ! "junto a"
-renondépe:renondépe POST ; ! "delante de" 
 rovake:rovake POST ; ! "delante de"
 vaʼekue:vaʼekue POST ; ! ""
 vaʼerã:vaʼerã POST ; ! ""
@@ -3716,6 +3721,7 @@ rire:rire AD ; ! "después"
 sapyʼa:sapyʼa AD ; ! "súbitamente"
 tapykuépe:tapyku•épe AD ; ! "detrás, atrás"
 tuicha:tuicha AD ; ! "mucho"
+tenondépe:tenond•épe AD ; ! "delante" 
 vai:vai AD ; ! "mal"
 voi:voi AD ; ! "rapido, pronto"
 vokói:vok•ói AD ; ! "luego"

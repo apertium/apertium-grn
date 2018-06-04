@@ -145,7 +145,8 @@ Vt:Va <=> •: _ [ Cns: | %>: | ArchiCns: | Nas: | VowsAton: ]+ VowsTon: ;
 %{Y%}:y <=> g: u: a: %>: _ g: u: a: ;
 
 "Surface [m] in postpositions after nasals"
-%{m%}:m <=> [VowsTon: |VowsAton:| CnsNorm:]+ [Nas:]+ [VowsTon: |VowsAton:| CnsNorm:]+ %>: _ ;
+%{m%}:m <=> [Nas:]+ Vows: %>: _ ; ! FIX me affix 
 
-"Remove surface [t] in Triformes"
-t:0 <=> %{t%}: _ ;
+"Remove surface [t] or [r] in Triformes"
+Cx:0 <=> %{t%}: _ ;
+         where Cx in Cns;
