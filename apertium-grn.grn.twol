@@ -6,7 +6,7 @@ a b ã c d e ẽ g g̃ h i ĩ j k l m n ñ o õ p r s t u ũ v w x y z ỹ á é
 
 %{J%}:j %{J%}:ñ
 %{P%}:ʼ %{P%}:0
-%{I%}:0 %{I%}:j %{I%}:ñ 
+%{I%}:0 %{I%}:j %{I%}:ñ %{I%}:ʼ
 %{H%}:0 %{H%}:h
 %{K%}:k %{K%}:g 
 %{N%}:0 %{N%}:n 
@@ -109,21 +109,24 @@ Vt:Va <=> •: _ [ Cns: | %>: | ArchiCns: | Nas: | VowsAton: ]+ VowsTon: ;
 "Surface [g] in pl nouns after nasals" 
 %{K%}:g <=> Nas: %>: %{N%}: _ ;
 
-"Possessive {H} before VowsTon"          !!! Unresolved
-%{H%}:h <=> _ i: %{I%}: %{p%}: VowsTon: ;
+"Possessive {H} before VowsTon"
+%{H%}:h <=> _ i: %{I%}: VowsTon: ;
 
 
 "Remove CONS in 3p possessive prefixes"
-%{I%}:0 <=> i: _ %{p%}: CnsNorm: ; ! FIX all cases of i in possessives 
+%{I%}:0 <=>  _ CnsNorm: ;
+
+"Surface ʼ in possessive prefix i"
+%{I%}:ʼ <=> _ VowsTon: ;
 
 "Possessive {I} as j before VowsAton" 
-%{I%}:j <=> _ %{p%}: VowsAton: ;
+%{I%}:j <=> _ VowsAton: ;
             except 
-            _ %{p%}: VowsAton:[CnsNorm: | VowsAton: |VowsTon: ]+ Nas: ; 
+            _ VowsAton:[CnsNorm: | VowsAton: |VowsTon: ]+ Nas: ; 
 
 
 "Possessive %{I%} as ñ in nasal nouns starting with VowsAton"
-%{I%}:ñ <=> _ %{p%}: VowsAton:[CnsNorm: | VowsAton: |VowsTon: ]+ Nas: ;
+%{I%}:ñ <=> _ VowsAton:[CnsNorm: | VowsAton: |VowsTon: ]+ Nas: ;
 
 "Remove [d] in possessive prefixes" 
 %{D%}:0 <=> _ e: [CnsNorm: | VowsAton: |VowsTon: ]+ Nas: ;
