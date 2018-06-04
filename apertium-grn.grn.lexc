@@ -123,6 +123,7 @@ Imperative ;
 DetBiformes ;
 DetTriformes ;
 PosTriform ;
+VerbsIv ;
 
 
 !!!!!!!!!!!!!!!!!!!! LEXICON SPANISH !!!!!!!!!!
@@ -536,10 +537,13 @@ LEXICON V-INFL
 %<pres%>: SUBST ;
 %<pres%>: SUBST-V ;
 
-LEXICON V 
+LEXICON V-IV
 
 %<v%>%<iv%>: V-INFL ;
-!%<v%>%<tv%>: # ;
+
+LEXICON V 
+
+%<v%>%<tv%>: V-INFL ;
 
 
 LEXICON VerbNegPref
@@ -2328,6 +2332,19 @@ ygaguahẽha:ygaguahẽha N ; ! "puerto"
 ñuguaitĩ:ñuguaitĩ N ; ! "encuentro"
  
 
+LEXICON VerbsIv 
+
+guata:guata V-IV ; ! "caminar, andar, transitar, pasear, marchar"
+ñani:ñani V-IV ; ! "correr" 
+puka:puka V-IV ; ! "reír"
+sẽ:sẽ V-IV ; ! "salir" 
+ha:ha V-IV ; ! "ir"
+mboaju:mboaju V-IV ; ! "madurar"
+jupi:jupi V-IV ; ! "trepar, despegar, escalar, subir"
+hasẽ:hasẽ V-IV ; ! "ulular" 
+
+
+
 LEXICON Verbs 
 
 ou:ou V ; ! "venir"
@@ -2373,7 +2390,6 @@ chiʼõ:chiʼõ V ; ! "chillar"
 chumbe:chumbe V ; ! "faja"
 e:e V ; ! "pronunciar, decir"
 guapy:guapy V ; ! "posar"
-guata:guata V ; ! "caminar, andar, transitar, pasear, marchar"
 guatarei:guatarei V ; ! "deambular"
 guejy:guejy V ; ! "aterrizar, declinar"
 gueraha:gueraha V ; ! "trasportar, llevar"
@@ -2387,7 +2403,6 @@ gueru:gueru V ; ! "traer"
 guevi:guevi V ; ! "retroceder, recular"
 guyrajuru:guyrajuru V ; ! "pico"
 g̃uahẽ:g̃uahẽ V ; ! "llegar"
-ha:ha V ; ! "ir"
 haguino:haguino V ; ! "fermentar"
 hai:hai V ; ! "rayar, escribir, trazar, redactar, copiar"
 haiguy:haiguy V ; ! "subrayar"
@@ -2549,7 +2564,6 @@ jujey:jujey V ; ! "volver"
 juka:juka V ; ! "matar, eliminar, sacrificar"
 jukapa:jukapa V ; ! "exterminar"
 juky:juky V ; ! "sal"
-jupi:jupi V ; ! "trepar, despegar, escalar, subir"
 jura:jura V ; ! "obligar"
 jurujái:juruj•ái V ; ! "embelesar"
 juvy:juvy V ; ! "estrangular, ahorcar"
@@ -2625,7 +2639,6 @@ mbaʼeʼapo:mbaʼeʼapo V ; ! "manufactura"
 mboaguara:mboaguara V ; ! "adular, halagar"
 mboai:mboai V ; ! "llagar"
 mboajaka:mboajaka V ; ! "encestar"
-mboaju:mboaju V ; ! "madurar"
 mboapa:mboapa V ; ! "paralizar"
 mboapakua:mboapakua V ; ! "arrollar"
 mboape:mboape V ; ! "embalar"
@@ -2987,7 +3000,6 @@ poñy:poñy V ; ! "gatear"
 poʼi:poʼi V ; ! "fino"
 puatarara:puatarara V ; ! "acelerado, inquieto"
 puhoe:puhoe V ; ! "radio"
-puka:puka V ; ! "reír"
 pukavy:pukavy V ; ! "sonreír"
 purahéi:purah•éi V ; ! "cantar"
 puru:puru V ; ! "gastar, utilizar"
@@ -3042,7 +3054,6 @@ sakoʼi:sakoʼi V ; ! "planear, preparar"
 sapatupuku:sapatupuku V ; ! "bota"
 sapukái:sapuk•ái V ; ! "gritar"
 saʼyry:saʼyry V ; ! "tinta"
-sẽ:sẽ V ; ! "salir" 
 sova:sova V ; ! "amasar"
 sunu:sunu V ; ! "tronar"
 suʼu:suʼu V ; ! "mascar, masticar, morder"
