@@ -301,7 +301,6 @@ LEXICON N
 %<n%>: N-PL ;
 %<n%>: SUF-PL ;
 %<n%>: COMP ;
-!%<n%>: V ;          ! FIXME: O que é isso ?? ^pehenguekuéra/pehenguekuéra<n>/pehenguekuéra<n><v><iv><pres>$
 
 LEXICON NP-TOP
 
@@ -576,6 +575,15 @@ ro%<prn%>%<p1%>%<pl%>%+:%>ro%{P%} Verbs ;
 
 pe%<prn%>%<p2%>%<pl%>%+:%>pe%{P%} Verbs ;
 
+a%<prn%>%<p1%>%<sg%>%+:%>a%{P%} VerbsIv ;
+re%<prn%>%<p2%>%<sg%>%+:%>re%{P%} VerbsIv ;
+o%<prn%>%<p3%>%<sg%>%+:%>o%{P%} VerbsIv ;
+o%<prn%>%<p3%>%<pl%>%+:%>o%{P%} VerbsIv ;
+ja%<prn%>%<p1%>%<pl%>%+:%>%{J%}a%{P%} VerbsIv ;
+ro%<prn%>%<p1%>%<pl%>%+:%>ro%{P%} VerbsIv ;
+
+pe%<prn%>%<p2%>%<pl%>%+:%>pe%{P%} VerbsIv ;
+
 LEXICON PersonAgrCol
 
 a%<prn%>%<p1%>%<sg%>%+: Verbs ;
@@ -586,6 +594,16 @@ i%<prn%>%<p3%>%<pl%>%+:%>i%{P%} Verbs ;
 ore%<prn%>%<p1%>%<pl%>%+:%>ore%{P%} Verbs ;
 
 pende%<prn%>%<p2%>%<pl%>%+:%>pen%{D%}e%{P%} Verbs  ;
+
+
+a%<prn%>%<p1%>%<sg%>%+: VerbsIv ;
+re%<prn%>%<p2%>%<sg%>%+: VerbsIv ;
+i%<prn%>%<p3%>%<sg%>%+:%>i%{P%} VerbsIv ;
+i%<prn%>%<p3%>%<pl%>%+:%>i%{P%} VerbsIv ;
+ñande%<prn%>%<p1%>%<pl%>%+:%>ñan%{D%}e%{P%} VerbsIv ;
+ore%<prn%>%<p1%>%<pl%>%+:%>ore%{P%} VerbsIv ;
+
+pende%<prn%>%<p2%>%<pl%>%+:%>pen%{D%}e%{P%} VerbsIv  ;
 
 LEXICON PRO-CASE
 
