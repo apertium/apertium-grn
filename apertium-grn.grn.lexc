@@ -32,8 +32,8 @@ Multichar_Symbols
 %<top%>              ! Toponimo
 %<ant%>              ! Antroponimo
 
-%<are%>              ! Verbos areales
-%<aire%>             ! Verbos aireales con [i] despues de prefijo
+%<a%>                ! Verbos areales
+%<ai%>               ! Verbos aireales con [i] despues de prefijo
 %<pers%>             ! Personal Pronouns
 %<subs%>             ! Substantivante 
 %<pos%>              ! Possessive
@@ -564,6 +564,11 @@ PersonAgr ;
 PersonAgrCol ;
 Verbs ; 
 
+LEXICON Aireales 
+
+i%<ai%>%+:%>i Verbs ;
+i%<ai%>%+:%>i VerbsIv ;
+
 LEXICON PersonAgr
 
 a%<prn%>%<p1%>%<sg%>%+:%>a%{P%} Verbs ;
@@ -583,6 +588,15 @@ ja%<prn%>%<p1%>%<pl%>%+:%>%{J%}a%{P%} VerbsIv ;
 ro%<prn%>%<p1%>%<pl%>%+:%>ro%{P%} VerbsIv ;
 
 pe%<prn%>%<p2%>%<pl%>%+:%>pe%{P%} VerbsIv ;
+
+a%<prn%>%<p1%>%<sg%>%+:%>a Aireales ;
+re%<prn%>%<p2%>%<sg%>%+:%>re Aireales ;
+o%<prn%>%<p3%>%<sg%>%+:%>o Aireales ;
+o%<prn%>%<p3%>%<pl%>%+:%>o Aireales ;
+ja%<prn%>%<p1%>%<pl%>%+:%>%{J%}a Aireales ;
+ro%<prn%>%<p1%>%<pl%>%+:%>ro Aireales ;
+
+pe%<prn%>%<p2%>%<pl%>%+:%>pe Aireales ;
 
 LEXICON PersonAgrCol
 
