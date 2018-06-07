@@ -564,6 +564,9 @@ PersonAgr ;
 PersonAgrCol ;
 Verbs ; 
 
+LEXICON AirealesTv
+i%<ai%>%+:%>i Verbs ;
+
 LEXICON Aireales 
 
 i%<ai%>%+:%>i Verbs ;
@@ -641,6 +644,7 @@ LEXICON PRO
 
 che%<prn%>%<pro%>%<p1%>%<sg%>%<acc%>%+:%>che%{p%} Verbs ;
 nde%<prn%>%<pro%>%<p2%>%<sg%>%<acc%>%+:%>n%{D%}e{p%} Verbs ;
+ro%<prn%>%<pro%>%<p2%>%<sg%>%<acc%>%+:%>ro{p%} Verbs ;
 ore%<prn%>%<pro%>%<p1%>%<pl%>%<acc%>%+:%>ore{p%} Verbs ;
 ñande%<prn%>%<pro%>%<p1%>%<pl%>%<acc%>%+:%>ñan%{D%}e{p%} Verbs ;
 pende%<prn%>%<pro%>%<p2%>%<pl%>%<acc%>%+:%>pen%{D%}e{p%} Verbs ;
@@ -649,7 +653,8 @@ po%<prn%>%<pro%>%<p2%>%<pl%>%<acc%>%+:%>po Verbs ;
 chupe%<prn%>%<pers%>%<p3%>%<sg%>:%>chupe PRO-CASE ;
 ichupe%<prn%>%<pers%>%<p3%>%<sg%>:%>ichupe PRO-CASE ;
 
-
+ro%<prn%>%<pro%>%<p2%>%<sg%>%<acc%>%+:%>ro AirealesTv ;
+po%<prn%>%<pro%>%<p2%>%<pl%>%<acc%>%+:%>po AirealesTv ;
 
 
 LEXICON IrrVerbs

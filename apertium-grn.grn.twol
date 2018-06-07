@@ -130,8 +130,11 @@ Vt:Va <=> •: _ [ Cns: | ArchiCns: | Nas: | VowsAton: |  %>: ]+  VowsTon: ;
 "Possessive %{I%} as ñ in nasal nouns starting with VowsAton"
 %{I%}:ñ <=> _ VowsAton:[CnsNorm: | VowsAton: |VowsTon: ]+ Nas: ;
 
+"Insert [r] before vowels after possessive prefixes"
+%{p%}:r <=> _ Vows: ;
+
 "Remove [d] in possessive prefixes" 
-%{D%}:0 <=> _ e: [CnsNorm: | VowsAton: |VowsTon: ]+ Nas: ;
+%{D%}:0 <=> _ e: %{p%}: [CnsNorm: | VowsAton: |VowsTon: | Nas: ]+ Nas: ;
 
 "Surface [e] after weak vowels in indefinite adjectives" 
 %{E%}:e <=> VowsWeak: %>: _ ;
