@@ -66,11 +66,11 @@ Rules
 •:0 <=> _ ;
 
 "Change vowel before atonal suffixes"
-Va:Vt <=> _ %>: [m: a: | n: t: e: | i: c: h: a: | %{m%}: e: | g: u: i: | r: e: | p: e:] ;
+Va:Vt <=> _ %>: [m: a: | n: t: e: | i: c: h: a: | %{m%}: e: | g: u: i: | r: e:] ;
             [Cns: | VowsAton: | Nas: ]+ _ %>: %{r%}: ;
             _ %{o%}: [v: | a:] ;
             except
-            [VowsTon:] [ Cns: | VowsAton: |Nas:]+ _ %>: [m: a: | n: t: e: | i: c: h: a:|v: | a: |p: e:] ;
+            [VowsTon:] [ Cns: | VowsAton: |Nas:]+ _ %>: [m: a: | n: t: e: | i: c: h: a:|v: | a: | %{m%}: e:] ;
             where Va in ( a e o u y ) 
                   Vt in ( á é ó ú ý ) matched ;
 
@@ -89,6 +89,7 @@ Vx:0 <=> _ %>: [ i: c: h: a: | %{r%}: i: ] ;
 "Change tonal vowel to atonal if tonal in affix"
 Vt:Va <=> •: _ [ Cns: | ArchiCns: | Nas: | VowsAton: |  %>: ]+  VowsTon: ;
           •: _ [ Cns: | %>: | ArchiCns: | Nas: | VowsAton: ]+ %{E%}: ;
+          •: _ [ Cns: | %>: | ArchiCns: | Nas: | VowsAton: ]+ [%{Y%}: g: u: a:] ;
            where Vt in VowsTon Va in VowsAton matched ; 
 
 !@ •:0 ó:o g:g a:a >:0 {N}:0 {K}:k u:u é:é r:r a:a 
