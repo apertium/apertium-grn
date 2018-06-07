@@ -41,6 +41,8 @@ Multichar_Symbols
 %<qnt%>              ! Quantifier
 %<dem%>              ! Demonstrative 
 
+%<incp%>             ! Incorporation
+
 %<acc%>              ! Accusative
 %<dat%>              ! Dative  
 
@@ -122,6 +124,8 @@ Symbols ;
 Imperative ;
 DetBiformes ;
 DetTriformes ;
+Triformes ;
+Biformes;
 PosTriform ;
 VerbsIv ;
 
@@ -301,6 +305,7 @@ LEXICON N
 %<n%>: N-PL ;
 %<n%>: SUF-PL ;
 %<n%>: COMP ;
+%<n%>: INCP ;
 
 LEXICON NP-TOP
 
@@ -572,25 +577,26 @@ LEXICON Aireales
 i%<ai%>%+:%>i Verbs ;
 i%<ai%>%+:%>i VerbsIv ;
 
+LEXICON INCP
+
+%<incp%>%+:  VerbsAgr ;
+
+LEXICON VerbsAgr
+Verbs ;
+VerbsIv ;
+Nouns ;
+
+
+
 LEXICON PersonAgr
 
-a%<prn%>%<p1%>%<sg%>%+:%>a%{P%} Verbs ;
-re%<prn%>%<p2%>%<sg%>%+:%>re%{P%} Verbs ;
-o%<prn%>%<p3%>%<sg%>%+:%>o%{P%} Verbs ;
-o%<prn%>%<p3%>%<pl%>%+:%>o%{P%} Verbs ;
-ja%<prn%>%<p1%>%<pl%>%+:%>%{J%}a%{P%} Verbs ;
-ro%<prn%>%<p1%>%<pl%>%+:%>ro%{P%} Verbs ;
-
-pe%<prn%>%<p2%>%<pl%>%+:%>pe%{P%} Verbs ;
-
-a%<prn%>%<p1%>%<sg%>%+:%>a%{P%} VerbsIv ;
-re%<prn%>%<p2%>%<sg%>%+:%>re%{P%} VerbsIv ;
-o%<prn%>%<p3%>%<sg%>%+:%>o%{P%} VerbsIv ;
-o%<prn%>%<p3%>%<pl%>%+:%>o%{P%} VerbsIv ;
-ja%<prn%>%<p1%>%<pl%>%+:%>%{J%}a%{P%} VerbsIv ;
-ro%<prn%>%<p1%>%<pl%>%+:%>ro%{P%} VerbsIv ;
-
-pe%<prn%>%<p2%>%<pl%>%+:%>pe%{P%} VerbsIv ;
+a%<prn%>%<p1%>%<sg%>%+:%>a%{P%} VerbsAgr ;
+re%<prn%>%<p2%>%<sg%>%+:%>re%{P%} VerbsAgr ;
+o%<prn%>%<p3%>%<sg%>%+:%>o%{P%} VerbsAgr ;
+o%<prn%>%<p3%>%<pl%>%+:%>o%{P%} VerbsAgr ;
+ja%<prn%>%<p1%>%<pl%>%+:%>%{J%}a%{P%} VerbsAgr ;
+ro%<prn%>%<p1%>%<pl%>%+:%>ro%{P%} VerbsAgr ;
+pe%<prn%>%<p2%>%<pl%>%+:%>pe%{P%} VerbsAgr ;
 
 a%<prn%>%<p1%>%<sg%>%+:%>a Aireales ;
 re%<prn%>%<p2%>%<sg%>%+:%>re Aireales ;
@@ -598,7 +604,6 @@ o%<prn%>%<p3%>%<sg%>%+:%>o Aireales ;
 o%<prn%>%<p3%>%<pl%>%+:%>o Aireales ;
 ja%<prn%>%<p1%>%<pl%>%+:%>%{J%}a Aireales ;
 ro%<prn%>%<p1%>%<pl%>%+:%>ro Aireales ;
-
 pe%<prn%>%<p2%>%<pl%>%+:%>pe Aireales ;
 
 LEXICON PersonAgrCol
@@ -649,6 +654,8 @@ ore%<prn%>%<pro%>%<p1%>%<pl%>%<acc%>%+:%>ore{p%} Verbs ;
 ñande%<prn%>%<pro%>%<p1%>%<pl%>%<acc%>%+:%>ñan%{D%}e{p%} Verbs ;
 pende%<prn%>%<pro%>%<p2%>%<pl%>%<acc%>%+:%>pen%{D%}e{p%} Verbs ;
 po%<prn%>%<pro%>%<p2%>%<pl%>%<acc%>%+:%>po Verbs ;
+i%<prn%>%<pro%>%<p3%>%<sg%>%<acc%>%+:%>i Verbs ;
+i%<prn%>%<pro%>%<p3%>%<pl%>%<acc%>%+:%>i Verbs ;
 
 chupe%<prn%>%<pers%>%<p3%>%<sg%>:%>chupe PRO-CASE ;
 ichupe%<prn%>%<pers%>%<p3%>%<sg%>:%>ichupe PRO-CASE ;
@@ -960,7 +967,6 @@ tekove:tekove N ; ! "individuo, sujeto, vida"
 tembeʼy:tembeʼy N ; ! "ribera, costa, litoral, borde, margen, orilla"
 terakuã:terakuã N ; ! "celebridad, fama, renombre, notable"
 tetãygua:tetãygua N ; ! "compatriota"
-
 
 LEXICON Nouns
 
@@ -2404,7 +2410,6 @@ falta:falta V-IV ; ! "faltar"
 guahu:guahu V-IV ; ! "aullir"
 guapy:guapy V-IV ; ! "sentarse"
 guari:guari V-IV ; ! "huir"
-guata:guata V-IV ; ! "funcionar,viajar,caminar"
 gue:gue V-IV ; ! "apagarse"
 guejy:guejy V-IV ; ! "bajarse,bajar"
 guevi:guevi V-IV ; ! "retroceder,recular"
