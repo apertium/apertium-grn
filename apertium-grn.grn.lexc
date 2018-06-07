@@ -619,6 +619,15 @@ ore%<prn%>%<p1%>%<pl%>%+:%>ore%{P%} VerbsIv ;
 
 pende%<prn%>%<p2%>%<pl%>%+:%>pen%{D%}e%{P%} VerbsIv  ;
 
+a%<prn%>%<p1%>%<sg%>%+: Aireales ;
+re%<prn%>%<p2%>%<sg%>%+: Aireales ;
+i%<prn%>%<p3%>%<sg%>%+:%>i Aireales ;
+i%<prn%>%<p3%>%<pl%>%+:%>i Aireales ;
+ñande%<prn%>%<p1%>%<pl%>%+:%>ñan%{D%}e Aireales ;
+ore%<prn%>%<p1%>%<pl%>%+:%>ore Aireales ;
+
+pende%<prn%>%<p2%>%<pl%>%+:%>pen%{D%}e Aireales ;
+
 LEXICON PRO-CASE
 
 %<acc%>: # ;
@@ -911,7 +920,7 @@ XXI:XXI NUM-ROMAN ; ! ""
 
 LEXICON DetBiformes
 r%<det%>%+:r Biformes ;
-h%<prn%>%<pos%>%<p3%>%+:h Biformes ;
+h%<prn%>%<pos%>%<p3%>%<sg%>%+:h Biformes ;
 
 LEXICON Biformes 
 óga:•óga N ; ! "casa"
@@ -934,7 +943,7 @@ ryvýra:ryvýra N ; ! "hermano menor"
 
 LEXICON DetTriformes
 r%<det%>%+:r%{t%} Triformes ;
-h%<prn%>%<pos%>%<p3%>%+:h%{t%} Triformes ;
+h%<prn%>%<pos%>%<p3%>%<sg%>%+:h%{t%} Triformes ;
 
 LEXICON Triformes 
 tape:tape N ; ! "camino" 

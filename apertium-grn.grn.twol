@@ -137,7 +137,7 @@ Vt:Va <=> •: _ [ Cns: | ArchiCns: | Nas: | VowsAton: |  %>: ]+  VowsTon: ;
 %{E%}:e <=> VowsWeak: %>: _ ;
 
 "Remove [d] in negative verbs before nasals"
-%{d%}:0 <=> _ %>: [CnsNorm: | VowsAton: |VowsTon: ]+ Nas: ;
+%{d%}:0 <=> _ [CnsNorm: | VowsAton: |VowsTon: ]+ [Nas:]+ ;
 
 "%{r%} as r in negative verbs ending with i"
 %{r%}:r <=> i: %>: _ ;
