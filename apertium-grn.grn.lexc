@@ -28,6 +28,7 @@ Multichar_Symbols
 %<iv%>               ! Intransitivo
 %<neg%>              ! Negativo
 %<imp%>              ! Imperativo
+%<opt%>              ! Optativo 
 
 %<top%>              ! Toponimo
 %<ant%>              ! Antroponimo
@@ -573,6 +574,7 @@ PersonAgr ;
 PersonAgrCol ;
 PersonAgrDefSg ;
 PersonAgrDefPl ;
+Optatives ;
 
 LEXICON AirealesTv
 i%<ai%>%+:%>i Verbs ;
@@ -671,6 +673,25 @@ LEXICON PRO-CASE
 %<dat%>: # ; 
 %<acc%>: N-PL ;
 %<dat%>: N-PL ;
+
+LEXICON Optatives
+
+ta%<opt%>%<p1%>%<sg%>%+:%>ta%{P%} VerbsAgr ;
+tere%<opt%>%<p2%>%<sg%>%+:%>tere%{P%} VerbsAgr ;
+to%<opt%>%<p3%>%<sg%>%+:%>to%{P%} VerbsAgr ;
+to%<opt%>%<p3%>%<pl%>%+:%>to%{P%} VerbsAgr ;
+taja%<opt%>%<p1%>%<pl%>%+:%>ta%{J%}a%{P%} VerbsAgr ;
+toro%<opt%>%<p1%>%<pl%>%+:%>toro%{P%} VerbsAgr ;
+tape%<opt%>%<p2%>%<pl%>%+:%>tape%{P%} VerbsAgr ;
+
+ta%<opt%>%<p1%>%<sg%>%+:%>ta Aireales ;
+tere%<opt%>%<p2%>%<sg%>%+:%>tere Aireales ;
+to%<opt%>%<p3%>%<sg%>%+:%>to Aireales ;
+to%<opt%>%<p3%>%<pl%>%+:%>to Aireales  ;
+taja%<opt%>%<p1%>%<pl%>%+:%>ta%{J%}a Aireales ;
+toro%<opt%>%<p1%>%<pl%>%+:%>toro Aireales ;
+tape%<opt%>%<p2%>%<pl%>%+:%>tape Aireales ;
+
 
 LEXICON PRO
 
