@@ -619,16 +619,16 @@ pe%<prn%>%<p2%>%<pl%>%+:%>pe Aireales ;
 
 LEXICON PersonAgrCol
 
-a%<prn%>%<p1%>%<sg%>%+: VerbsAgr ;
-re%<prn%>%<p2%>%<sg%>%+: VerbsAgr ;
+a%<prn%>%<p1%>%<sg%>%+: VerbsAgr "weight: 1.0" ;
+re%<prn%>%<p2%>%<sg%>%+: VerbsAgr "weight: 1.0" ;
 i%<prn%>%<p3%>%<sg%>%+:%>i%{P%} VerbsAgr ;
 i%<prn%>%<p3%>%<pl%>%+:%>i%{P%} VerbsAgr ;
 ñande%<prn%>%<p1%>%<pl%>%+:%>ñan%{D%}e%{P%} VerbsAgr ;
 ore%<prn%>%<p1%>%<pl%>%+:%>ore%{P%} VerbsAgr ;
 pende%<prn%>%<p2%>%<pl%>%+:%>pen%{D%}e%{P%} VerbsAgr  ;
 
-a%<prn%>%<p1%>%<sg%>%+: Nouns ;
-re%<prn%>%<p2%>%<sg%>%+: Nouns ;
+a%<prn%>%<p1%>%<sg%>%+: Nouns "weight: 1.0" ;
+re%<prn%>%<p2%>%<sg%>%+: Nouns "weight: 1.0";
 i%<prn%>%<p3%>%<sg%>%+:%>i%{P%} Nouns ;
 i%<prn%>%<p3%>%<pl%>%+:%>i%{P%} Nouns ;
 ñande%<prn%>%<p1%>%<pl%>%+:%>ñan%{D%}e%{P%} Nouns ;
