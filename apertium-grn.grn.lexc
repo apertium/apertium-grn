@@ -128,6 +128,8 @@ Triformes ;
 Biformes;
 PosTriform ;
 VerbsIv ;
+VerbsDefSg ;
+VerbsDefPl ;
 
 
 !!!!!!!!!!!!!!!!!!!! LEXICON SPANISH !!!!!!!!!!
@@ -553,10 +555,11 @@ LEXICON V
 LEXICON VerbNegPref
 
 nd%<neg%>%+:n%{d%} PersonAgr ; 
-nd%<neg%>%+:n%{d%} Verbs ; 
 nd%<neg%>%+:n%{d%} Connectors ;
 nd%<neg%>%+:n%{d%} IrrVerbs ;
 nd%<neg%>%+:n%{d%} PersonAgrCol ; 
+nd%<neg%>%+:n%{d%} PersonAgrDefSg ;
+nd%<neg%>%+:n%{d%} PersonAgrDefPl ;
 
 LEXICON VerbsNegSuf
 %+i%<neg%>:%>%{r%}i # ;
@@ -567,14 +570,15 @@ LEXICON VerbalPrefixes
 VerbNegPref ;
 PersonAgr ;
 PersonAgrCol ;
+PersonAgrDefSg ;
+PersonAgrDefPl ;
 
 LEXICON AirealesTv
 i%<ai%>%+:%>i Verbs ;
 
 LEXICON Aireales 
 
-i%<ai%>%+:%>i Verbs ;
-i%<ai%>%+:%>i VerbsIv ;
+i%<ai%>%+:%>i VerbsAgr ;
 
 LEXICON INCP
 
@@ -638,6 +642,27 @@ i%<prn%>%<p3%>%<pl%>%+:%>i Aireales ;
 ore%<prn%>%<p1%>%<pl%>%+:%>ore Aireales ;
 
 pende%<prn%>%<p2%>%<pl%>%+:%>pen%{D%}e Aireales ;
+
+LEXICON PersonAgrDefSg
+o%<prn%>%<p3%>%<sg%>%+:%>o%{P%} VerbsDefSg ;
+
+LEXICON PersonAgrDefPl 
+
+o%<prn%>%<p3%>%<pl%>%+:%>o%{P%} VerbsDefPl ;
+ja%<prn%>%<p1%>%<pl%>%+:%>%{J%}a%{P%} VerbsDefPl ;
+ro%<prn%>%<p1%>%<pl%>%+:%>ro%{P%} VerbsDefPl ;
+
+
+LEXICON VerbsDefSg
+ky:ky V-IV ; ! "llover"
+sunu:sunu V-IV ; ! "tronar"
+
+LEXICON VerbsDefPl
+koʼi:koʼi V-IV ; ! "acudir,concurrir"
+jeoʼi:jeoʼi V-IV ; ! "irse" 
+huaʼĩ:huaʼĩ V-IV ; ! "acudir"
+
+
 
 LEXICON PRO-CASE
 
@@ -2429,7 +2454,6 @@ heñói:heñói V-IV ; ! "crecer"
 hiʼa:hiʼa V-IV ; ! "fruta,da"
 hiʼã:hiʼã V-IV ; ! "parece"
 huʼu:huʼu V-IV ; ! "toser"
-huaʼĩ:huaʼĩ V-IV ; ! "acudir"
 ja:ja V-IV ; ! "caber"
 jaheʼo:jaheʼo V-IV ; ! "lamentar"
 jahu:jahu V-IV ; ! "bañarse"
@@ -2512,7 +2536,6 @@ ke:ke V-IV ; ! "entrar,penetrar"
 kerai:kerai V-IV ; ! "soñar"
 kirirĩ:kirirĩ V-IV ; ! "callarse"
 ko:ko V-IV ; ! "cuidar de"
-koʼi:koʼi V-IV ; ! "acudir,concurrir"
 koʼẽ:koʼẽ V-IV ; ! "amanecer"
 kokore:kokore V-IV ; ! "cacarear"
 kororõ:kororõ V-IV ; ! "rugir"
@@ -2616,7 +2639,6 @@ sapymi:sapymi V-IV ; ! "morir,entornar los ojos"
 so:so V-IV ; ! "no tener lo necesario,romperse,carecer de todo"
 soro:soro V-IV ; ! "romperse,estallar"
 suʼu:suʼu V-IV ; ! "morder,masticar"
-sunu:sunu V-IV ; ! "tronar"
 sururu:sururu V-IV ; ! "allanar"
 susũ:susũ V-IV ; ! "temblar,dar sacudidas"
 syry:syry V-IV ; ! "fluir"
@@ -2988,7 +3010,6 @@ kundaha:kundaha V ; ! "vagabundear, recorrer, vagar"
 kutu:kutu V ; ! "clavar, hincar, apuñalar, fijar"
 kutuha:kutuha V ; ! "jeringa"
 kuñarekóva:kuñarek•óva V ; ! "afeminado"
-ky:ky V ; ! "llover"
 kygua:kygua V ; ! "peine"
 kyguái:kygu•ái V ; ! "coma"
 kyhyje:kyhyje V ; ! "temer"
