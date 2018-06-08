@@ -584,7 +584,6 @@ LEXICON INCP
 LEXICON VerbsAgr
 Verbs ;
 VerbsIv ;
-Nouns ;
 
 
 
@@ -597,6 +596,14 @@ o%<prn%>%<p3%>%<pl%>%+:%>o%{P%} VerbsAgr ;
 ja%<prn%>%<p1%>%<pl%>%+:%>%{J%}a%{P%} VerbsAgr ;
 ro%<prn%>%<p1%>%<pl%>%+:%>ro%{P%} VerbsAgr ;
 pe%<prn%>%<p2%>%<pl%>%+:%>pe%{P%} VerbsAgr ;
+
+a%<prn%>%<p1%>%<sg%>%+:%>a%{P%} Nouns ;
+re%<prn%>%<p2%>%<sg%>%+:%>re%{P%} Nouns ;
+o%<prn%>%<p3%>%<sg%>%+:%>o%{P%} Nouns ;
+o%<prn%>%<p3%>%<pl%>%+:%>o%{P%} Nouns ;
+ja%<prn%>%<p1%>%<pl%>%+:%>%{J%}a%{P%} Nouns ;
+ro%<prn%>%<p1%>%<pl%>%+:%>ro%{P%} Nouns ;
+pe%<prn%>%<p2%>%<pl%>%+:%>pe%{P%} Nouns ;
 
 a%<prn%>%<p1%>%<sg%>%+:%>a Aireales ;
 re%<prn%>%<p2%>%<sg%>%+:%>re Aireales ;
