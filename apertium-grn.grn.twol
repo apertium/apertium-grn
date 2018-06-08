@@ -22,6 +22,7 @@ a b ã c d e ẽ g g̃ h i ĩ j k l m n ñ o õ p r s t u ũ v w x y z ỹ á é
 %{Y%}:0 %{Y%}:y 
 %{m%}:m %{m%}:p
 %{t%}:0
+%{a%}:0 %{a%}:a 
 
 %>:0 
 % 
@@ -67,7 +68,7 @@ Rules
 
 "Change vowel before atonal suffixes"
 Va:Vt <=> _ %>: [m: a: | n: t: e: | i: c: h: a: | %{m%}: e: | g: u: i: | r: e:] ;
-            [Cns: | VowsAton: | Nas: ]+ _ %>: %{r%}: ;
+            [Cns: | VowsAton: | Nas: | ʼ: ]+ _ %>: %{r%}: ;
             _ %{o%}: [v: | a:] ;
             except
             [VowsTon:] [ Cns: | VowsAton: |Nas:]+ _ %>: [m: a: | n: t: e: | i: c: h: a:|v: | a: | %{m%}: e:] ;
@@ -154,3 +155,6 @@ Vt:Va <=> •: _ [ Cns: | ArchiCns: | Nas: | VowsAton: |  %>: ]+  VowsTon: ;
 "Remove surface [t] or [r] in Triformes"
 Cx:0 <=> %{t%}: _ ;
          where Cx in Cns;
+
+"Surface [a] in negative connectors"
+%{a%}:a <=> _ Cns: ;

@@ -90,6 +90,7 @@ Multichar_Symbols
 %{Y%}              ! Archiphoneme for [y] in postpositions 
 %{m%}              ! Archiphoneme for m in case 
 %{t%}              ! Archiphoneme for surface [t] in triformes 
+%{a%}              ! Archiphoneme for surface [a] in negative connectors 
 
 
 LEXICON Root 
@@ -555,7 +556,7 @@ LEXICON V
 LEXICON VerbNegPref
 
 nd%<neg%>%+:n%{d%} PersonAgr ; 
-nd%<neg%>%+:n%{d%} Connectors ;
+nd%<neg%>%+:nd%{a%} Connectors ;
 nd%<neg%>%+:n%{d%} IrrVerbs ;
 nd%<neg%>%+:n%{d%} PersonAgrCol ; 
 nd%<neg%>%+:n%{d%} PersonAgrDefSg ;
