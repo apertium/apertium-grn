@@ -6,6 +6,10 @@ SETS
 
 LIST N = n ;
 
+LIST Incp = incp ;
+
 SECTION
 
-SELECT N ;
+REMOVE Incp ;
+
+REMOVE SUB:1 Incp ;
