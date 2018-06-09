@@ -49,6 +49,7 @@ Multichar_Symbols
 
 
 %<pres%>             ! Presente
+%<ifi%>              ! Pretérito Perfecto 
 
 %<barb%>             ! Barbarisme
 %<abbr%>             ! Abbreviação
@@ -531,11 +532,10 @@ LEXICON DEM-PRN-PL
 
 LEXICON Imperative
 
-e%<imp%>%<p2%>%<sg%>%+:%>e%{P%} Verbs ;
-pe%<imp%>%<p2%>%<pl%>%+:%>pe%{P%} Verbs ;
+e%<imp%>%<p2%>%<sg%>%+:%>e%{P%} VerbsAgr ;
+pe%<imp%>%<p2%>%<pl%>%+:%>pe%{P%} VerbsAgr ;
 
-LEXICON V-INFL 
-
+LEXICON PRES 
 %<pres%>: # ;
 %<pres%>: VerbsNegSuf;
 %<pres%>: AD-SUF ;
@@ -544,6 +544,14 @@ LEXICON V-INFL
 %<pres%>: DEM-PRN-PL ;
 %<pres%>: SUBST ;
 %<pres%>: SUBST-V ;
+
+LEXICON PAST
+%+akue%<ifi%>:%{P%}akue #;
+
+LEXICON V-INFL 
+PRES ;
+PAST ;
+
 
 LEXICON V-IV
 

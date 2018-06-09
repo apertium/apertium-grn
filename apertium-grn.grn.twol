@@ -105,6 +105,7 @@ Vt:Va <=> •: _ [ Cns: | ArchiCns: | Nas: | VowsAton: |  %>: ]+  VowsTon: ;
 
 "Insert glottal stop ['] if next morpheme starts with a vowel"
 %{P%}:ʼ <=> _ [ VowsTon: | •: VowsAton:] ;
+            Vows: _ [a: k: u: e:] ;
 
 "Surface [n] in plural nouns" 
 %{N%}:n <=> Nas: %>: _ ;
