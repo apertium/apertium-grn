@@ -50,6 +50,10 @@ Multichar_Symbols
 
 %<pres%>             ! Presente
 %<ifi%>              ! Pretérito Perfecto 
+%<pii%>              ! Pretérito Imperfecto 
+%<past%>             ! Pasado reciente 
+%<pmp%>              ! Plusquamperfect
+%<fti%>              ! Futuro indicativo 
 
 %<barb%>             ! Barbarisme
 %<abbr%>             ! Abbreviação
@@ -547,11 +551,17 @@ LEXICON PRES
 
 LEXICON PAST
 %+akue%<ifi%>:%{P%}akue #;
+%+mi%<pii%>:%>mi # ;
+%+kuri%<past%>:%>kuri # ;
+!%+vaʼekue%<pmp%>:%>vaʼekue # ; 
+
+LEXICON FUT 
+%+ta%<fti%>:%>ta # ; 
 
 LEXICON V-INFL 
 PRES ;
 PAST ;
-
+FUT ;
 
 LEXICON V-IV
 
