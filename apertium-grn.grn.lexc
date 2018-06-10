@@ -4245,6 +4245,7 @@ LEXICON Punctuation
 %!%<sent%>:%! # ;
 %-%<guio%>:%- # ;
 %—%<guio%>:%— # ;
+%–%<guio%>:%– # ;
 ,%<cm%>:, # ;
 %?%<sent%>:%? # ; 
 %¿%<lquest%>:%¿ # ; 

@@ -59,7 +59,7 @@
 	"ári" adv
 "<.>"
 	"."sent @punct
- 
+
 # sent_id = GEN.1.3
 # text = Tupã heʼi: “Tahesakã!” , Ha oiko haʼe heʼi haguéicha.  
 # text[spa] = Entonces dijo Dios: "Sea la luz." Y hubo luz. 
@@ -1026,7 +1026,7 @@
 	"*haguéicha"
 "<.>"
 	"."sent @punct
-  
+
 # sent_id = GEN.1.27
 # text = Ha Tupã ojapo yvypóra, haʼéicha, ojoguáva chupe ojapo, kuimbaʼe ha kuñáva ojapo.  
 # text[spa] = Dios creó al hombre a imagen Suya, a imagen de Dios lo creó; varón y hembra los creó. 
@@ -1233,7 +1233,6 @@
 	"*haguéicha"
 "<.>"
 	"."sent @punct
- 
 
 # sent_id = GEN.1.31
 # text = Tupã omaʼẽ opa mbaʼe ojapo vaekuére ha ojuhu iporã etereiha. Upéicha ohasa ára 6ha.
@@ -1276,5 +1275,4 @@
 	"*6ha"
 "<.>"
 	"."sent @punct
-
 
