@@ -1,4 +1,4 @@
-"<Avañe'ẽ>"
+"<Avañeʼẽ>"
 	"ava" n incp
 		"ñeʼẽ" v tv pres
 	"ava" n incp
@@ -8,7 +8,7 @@
 	"ha" v iv pres
 "<Guarani>"
 	"Guarani" n
-"<ñe'ẽ>"
+"<ñeʼẽ>"
 	"ñeʼẽ" n
 	"ñeʼẽ" v tv pres
 	"ñeʼẽ" v iv pres
@@ -36,7 +36,7 @@
 
 "<Guarani>"
 	"Guarani" n
-"<ha'e>"
+"<haʼe>"
 	"haʼe" prn pers p3 sg
 	"haʼe" v iv p1 sg pres
 	"haʼe" vbser iv p1 sg pres
@@ -57,7 +57,7 @@
 	"-" guio
 "<gua>"
 	"*gua"
-"<ñe'ẽnguéra>"
+"<ñeʼẽnguéra>"
 	"ñeʼẽ" n
 		"kuéra" pl
 "<apytépe>"
@@ -115,7 +115,7 @@
 	"*eñoite"
 "<ojehechakuaáva>"
 	"ojehechakuaáva" adj
-"<ñe'ẽ>"
+"<ñeʼẽ>"
 	"ñeʼẽ" n
 	"ñeʼẽ" v tv pres
 	"ñeʼẽ" v iv pres
@@ -145,7 +145,7 @@
 	"ha" v iv pres
 "<guarani>"
 	"*guarani"
-"<ñe'ẽ>"
+"<ñeʼẽ>"
 	"ñeʼẽ" n
 	"ñeʼẽ" v tv pres
 	"ñeʼẽ" v iv pres
@@ -162,7 +162,7 @@
 	"*oguereko"
 "<hetáichagua>"
 	"*hetáichagua"
-"<ñe'ẽnunga>"
+"<ñeʼẽnunga>"
 	"ñeʼẽ" v tv pres nungaadv
 	"ñeʼẽ" v iv pres nungaadv
 "<,>"
@@ -183,12 +183,12 @@
 "<heta>"
 	"heta" adv
 	"heta" adj ind
-"<mba'épe>"
+"<mbaʼépe>"
 	"mbaʼe" n
 		"pe" post
 "<ojojogua>"
 	"*ojojogua"
-"<ko'ã>"
+"<koʼã>"
 	"koʼã" adj dem pl
 "<ñe>"
 	"*ñe"
@@ -199,7 +199,7 @@
 	".." sent
 
 
-"<Avañe'ẽ>"
+"<Avañeʼẽ>"
 	"ava" n incp
 		"ñeʼẽ" v tv pres
 	"ava" n incp
@@ -207,12 +207,12 @@
 "<ha>"
 	"ha" cnjcoo
 	"ha" v iv pres
-"<karaiñe'ẽ>"
+"<karaiñeʼẽ>"
 	"karai" n incp
 		"ñeʼẽ" v tv pres
 	"karai" n incp
 		"ñeʼẽ" v iv pres
-"<ha'e>"
+"<haʼe>"
 	"haʼe" prn pers p3 sg
 	"haʼe" v iv p1 sg pres
 	"haʼe" vbser iv p1 sg pres
@@ -220,7 +220,7 @@
 	"Paraguái" np top
 "<retaãme>"
 	"*retaãme"
-"<ñe'ẽ>"
+"<ñeʼẽ>"
 	"ñeʼẽ" n
 	"ñeʼẽ" v tv pres
 	"ñeʼẽ" v iv pres
@@ -243,13 +243,13 @@
 "<guive>"
 	"guive" adv
 	"guive" post
-"<ha'e>"
+"<haʼe>"
 	"haʼe" prn pers p3 sg
 	"haʼe" v iv p1 sg pres
 	"haʼe" vbser iv p1 sg pres
 "<avei>"
 	"avei" adv
-"<ñe'ẽ>"
+"<ñeʼẽ>"
 	"ñeʼẽ" n
 	"ñeʼẽ" v tv pres
 	"ñeʼẽ" v iv pres
@@ -264,7 +264,7 @@
 	"pe" adj dem sg
 "<,>"
 	"," cm
-"<karaiñe'ẽ>"
+"<karaiñeʼẽ>"
 	"karai" n incp
 		"ñeʼẽ" v tv pres
 	"karai" n incp
@@ -284,7 +284,7 @@
 	".." sent
  
 
-"<Avañe'ẽ>"
+"<Avañeʼẽ>"
 	"ava" n incp
 		"ñeʼẽ" v tv pres
 	"ava" n incp
@@ -313,11 +313,11 @@
 "<pe>"
 	"pe" adj
 	"pe" adj dem sg
-"<ñe'ẽ>"
+"<ñeʼẽ>"
 	"ñeʼẽ" n
 	"ñeʼẽ" v tv pres
 	"ñeʼẽ" v iv pres
-"<ha'ekuéra>"
+"<haʼekuéra>"
 	"haʼekuéra" prn pers p3 pl
 "<oipurúva>"
 	"*oipurúva"
@@ -386,7 +386,7 @@
 	"tapicha" v tv pres
 "<,>"
 	"," cm
-"<kuimba'e>"
+"<kuimbaʼe>"
 	"kuimbaʼe" n
 "<térã>"
 	"térã" cnjcoo
@@ -418,7 +418,7 @@
 	";" sent
 "<">"
 	""" sent
-"<ñe'ẽ>"
+"<ñeʼẽ>"
 	"ñeʼẽ" n
 	"ñeʼẽ" v tv pres
 	"ñeʼẽ" v iv pres
@@ -439,7 +439,7 @@
 	"ñemongeta" n
 	"ñemongeta" v tv pres
 	"ñemongeta" v iv pres
-"<ahy'o>"
+"<ahyʼo>"
 	"ahyʼo" n
 "<pu>"
 	"pu" v iv pres
@@ -488,7 +488,7 @@
 "<.>"
 	"." sent
 
-"<Ñe'ẽ>"
+"<Ñeʼẽ>"
 	"ñeʼẽ" n
 	"ñeʼẽ" v tv pres
 	"ñeʼẽ" v iv pres
@@ -550,15 +550,14 @@
 ’
 "<éva>"
 	"*éva"
-"<avañe'ẽ>"
+"<avañeʼẽ>"
 	"ava" n incp
 		"ñeʼẽ" v tv pres
 	"ava" n incp
 		"ñeʼẽ" v iv pres
-"<.>"
-	"." sent
-
-
+"<..>"
+	".." sent
+ 
 
 "<Opaite>"
 	"opaite" adj ind
@@ -640,7 +639,7 @@
 	"*Jaikuaaháicha"
 "<,>"
 	"," cm
-"<ha'e>"
+"<haʼe>"
 	"haʼe" prn pers p3 sg
 	"haʼe" v iv p1 sg pres
 	"haʼe" vbser iv p1 sg pres
@@ -697,7 +696,7 @@
 
     
 
-"<Ñe'ẽnguéra>"
+"<Ñeʼẽnguéra>"
 	"ñeʼẽ" n
 		"kuéra" pl
 "<iñe>"
@@ -719,7 +718,7 @@
 	")" rpar
 "<,>"
 	"," cm
-"<ko'ãva>"
+"<koʼãva>"
 	"koʼã" adj dem pl
 		"va" subs dem
 "<apytépe>"
@@ -756,7 +755,7 @@ F
 
     
 
-"<Ñe'ẽnguéra>"
+"<Ñeʼẽnguéra>"
 	"ñeʼẽ" n
 		"kuéra" pl
 "<iñe>"
@@ -816,9 +815,9 @@ f
 
 "<Iporã>"
 	"*Iporã"
-"<ja'e>"
+"<jaʼe>"
 	"jaʼe" v iv p1 pl pres
-"<avañe'ẽ>"
+"<avañeʼẽ>"
 	"ava" n incp
 		"ñeʼẽ" v tv pres
 	"ava" n incp
@@ -829,7 +828,7 @@ f
 			"ha" v iv pres
 "<avei>"
 	"avei" adv
-"<ko'ãva>"
+"<koʼãva>"
 	"koʼã" adj dem pl
 		"va" subs dem
 "<apytépe>"
@@ -879,7 +878,7 @@ f
 
     
 
-"<Ñe'ẽnguéra>"
+"<Ñeʼẽnguéra>"
 	"ñeʼẽ" n
 		"kuéra" pl
 "<iñe>"
@@ -925,7 +924,7 @@ f
 	"*ãvape"
 "<,>"
 	"," cm
-"<ñe'ẽ>"
+"<ñeʼẽ>"
 	"ñeʼẽ" n
 	"ñeʼẽ" v tv pres
 	"ñeʼẽ" v iv pres
@@ -1030,7 +1029,7 @@ f
 	"ko" v tv pres
 	"ko" v iv pres
 	"ko" adj dem sg
-"<mba'e>"
+"<mbaʼe>"
 	"mbaʼe" cnjcoo
 	"mbaʼe" n
 	"mbaʼe" prn itg
@@ -1053,7 +1052,7 @@ f
 "<ha>"
 	"ha" cnjcoo
 	"ha" v iv pres
-"<ko'ága>"
+"<koʼága>"
 	"koʼága" adv
 "<->"
 	"-" guio
@@ -1070,7 +1069,7 @@ f
 '
 "<ỹijo>"
 	"*ỹijo"
-"<avañe’ẽ>"
+"<avañeʼẽ>"
 	"ava" n incp
 		"ñeʼẽ" v tv pres
 	"ava" n incp
@@ -1102,7 +1101,7 @@ f
 	"*oipuruséva"
 "<Guarani>"
 	"Guarani" n
-"<ñe’ẽre>"
+"<ñeʼẽre>"
 	"ñeʼẽ" n
 		"re" post
 "<Castellano>"
@@ -1114,6 +1113,6 @@ f
 	"*ẽtekuaa"
 "<..>"
 	".." sent
-
+ 
 
 
