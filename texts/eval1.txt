@@ -423,6 +423,7 @@
 	"peteĩ" prn ind
 ;	"pete" n incp REMOVE:13
 ;		"ĩ" v tv pres
+
 "<avanoʼõme>"
 	"avanoʼõ" n 
 		"pe" post 
@@ -430,7 +431,7 @@
 "<(>"
 	"(" lpar
 "<sociedad>"
-	"*sociedad"
+	"sociedad" barb 
 "<)>"
 	")" rpar
 "<;>"
@@ -446,12 +447,8 @@
 "<ikatu>"
 	"ikatu" adv
 	"ikatu" v iv p1 sg pres
-"<he>"
-	"he" adj
-	"he" n
-'
-"<ise>"
-	"*ise"
+"<heʼise>"
+	"heʼise" v tv pres
 "<">"
 	""" sent
 "<ñemongeta>"
@@ -476,13 +473,12 @@
 	"." sent
 
 "<Péva>"
-	"*Péva"
-"<ha>"
-	"ha" cnjcoo
-	"ha" v iv pres
-'
-"<ehína>"
-	"*ehína"
+	"Pe" adj dem sg 
+		"va" subs dem 
+
+"<haʼehína>"
+	"haʼe" v tv pres 
+		"hína" post
 "<pe>"
 	"pe" adj
 	"pe" adj dem sg
@@ -491,19 +487,26 @@
 "<guasu>"
 	"guasu" n
 "<guarani>"
-	"*guarani"
+	"guarani" n 
 "<kuéra>"
-	"*kuéra"
+	"kuéra" pl
+
 "<oipurúva>"
-	"*oipurúva"
+	"o" prn p3 sg 
+		"i" ai 
+			"puru" v tv pres 
+				"va" subs dem
+
 "<ojokupyty>"
-	"*ojokupyty"
+	"o" prn p3 sg 
+		"jokupyty" v tv pres 
 "<hag̃ua>"
 	"hagua" post
 "<,>"
 	"," cm
 "<ojoapytépe>"
-	"*ojoapytépe"
+	"ojo" n 
+		"apytépe" adv 
 "<.>"
 	"." sent
 
@@ -512,23 +515,29 @@
 	"ñeʼẽ" v tv pres
 	"ñeʼẽ" v iv pres
 "<niko>"
-	"*niko"
+	"niko" v iv pres 
 "<omopeteĩ>"
-	"*omopeteĩ"
+	"o" prn p3 sg 
+		"mopeteĩ" v tv pres 
 "<chupekuéra>"
-	"*chupekuéra"
+	"chupe" prn pers p3 sg 
+		"kuéra" pl 
 "<ha>"
 	"ha" cnjcoo
 	"ha" v iv pres
 "<ohechauka>"
-	"*ohechauka"
+	"o" prn p3 sg 
+		"hechauka" v tv pres 
 "<avei>"
 	"avei" adv
 "<avakuéra>"
 	"ava" n
 		"kuéra" pl
 "<oikoha>"
-	"*oikoha"
+	"o" prn p3 sg 
+		"i" ai 
+			"ko" v iv pres 
+				"ha" subs 
 "<peteĩ>"
 	"peteĩ" num
 	"peteĩ" prn ind
@@ -550,25 +559,24 @@
 	"tetã" n incp
 		"me" v iv pres
 "<ojepuruha>"
-	"*ojepuruha"
+	"o" prn p3 sg 
+		"jepuru" v tv pres 
+			"ha" subs 
 "<peteĩ>"
 	"peteĩ" num
 	"peteĩ" prn ind
 ;	"pete" n incp REMOVE:13
 ;		"ĩ" v tv pres
-"<ñe>"
-	"*ñe"
-'
-"<ẽte>"
-	"*ẽte"
+"<neʼẽte>"
+	"neʼẽ" v tv pres 
+		"te" post 
+
 "<,>"
 	"," cm
-"<ha>"
-	"ha" cnjcoo
-	"ha" v iv pres
-’
-"<éva>"
-	"*éva"
+"<ha’éva>"
+	"ha’e" v tv pres 
+		"va" subs dem 
+
 "<avañeʼẽ>"
 	"ava" n incp
 		"ñeʼẽ" v tv pres
@@ -580,11 +588,9 @@
 
 "<Opaite>"
 	"opaite" adj ind
-"<ñe>"
-	"*ñe"
-'
-"<ẽte>"
-	"*ẽte"
+"<neʼẽte>"
+	"neʼẽ" v tv pres 
+		"te" post 
 "<oĩva>"
 	"oĩ" v iv pres
 		"va" subs dem
@@ -595,22 +601,20 @@
 "<ape>"
 	"ape" n
 "<ári>"
-	"*ári"
+	"ári" post 
 "<niko>"
-	"*niko"
+	"niko" v iv pres 
 "<oñemohendakuaa>"
 	"o" prn pos p3 sg
 		"ñemohenda" n incp
 			"kuaa" v tv pres
-"<ñe>"
-	"*ñe"
-'
-"<ẽkuaaty>"
-	"*ẽkuaaty"
+"<neʼẽkuaaty>"
+	"neʼẽkuaaty" n 
+
 "<(>"
 	"(" lpar
 "<lingüística>"
-	"*lingüística"
+	"lingüística" barb 
 "<)>"
 	")" rpar
 "<rupive>"
@@ -625,20 +629,20 @@
 	"ha" cnjcoo
 	"ha" v iv pres
 "<upevarã>"
-	"*upevarã"
+	"upe" adj dem sg 
+		"va" subs dem 
+			"rã" post 
 "<tekotevẽ>"
 	"tekotevẽ" n
 	"tekotevẽ" v iv pres
 "<ñanemandu>"
-	"*ñanemandu"
-'
-"<a>"
-	"a" v tv pres
-	"a" v iv pres
+	"ñande" prn pro p1 pl acc 
+		"manduʼa" n 
+
 "<Augusto>"
-	"*Augusto"
+	"Augusto" barb 
 "<Schleicher>"
-	"*Schleicher"
+	"Schleicher" np ant 
 "<(>"
 	"(" lpar
 "<1821>"
@@ -650,12 +654,13 @@
 "<)>"
 	")" rpar
 "<rembiapokuére>"
-	"*rembiapokuére"
+	"r" det 
+		"tembiapokuére" n 
 "<.>"
 	"." sent
 
 "<Jaikuaaháicha>"
-	"*Jaikuaaháicha"
+	"Jaikuaaháicha" cnjcoo 
 "<,>"
 	"," cm
 "<haʼe>"
@@ -669,37 +674,37 @@
 "<avei>"
 	"avei" adv
 "<hapykuere>"
-	"*hapykuere"
-"<ñe>"
-	"*ñe"
-'
-"<ẽkuaaty>"
-	"*ẽkuaaty"
+	"h" prn pos p3 sg 
+		"tapykuere" n 
+
+"<neʼẽkuaaty>"
+	"neʼẽkuaaty" n
+
 "<rembiasápe>"
-	"*rembiasápe"
+	"r" det 
+		"tembiasa" n 
+			"pe" post 
 "<.>"
 	"." sent
 
 "<Schleicher>"
-	"*Schleicher"
-"<he>"
-	"he" adj
-	"he" n
-'
-"<íkuri>"
-	"*íkuri"
-"<ñe>"
-	"*ñe"
-'
-"<ẽte>"
-	"*ẽte"
+	"Schleicher" np ant 
+"<heʼíkuri>"
+	"heʼi" v tv pres 
+		"kuri" past 
+
+"<neʼẽte>"
+	"neʼẽ" v tv pres 
+		"te" post
 "<ikatuha>"
-	"*ikatuha"
+	"ikatu" v iv p1 sg pres 
+		"ha" subs 
 "<oñemohenda>"
 	"o" prn pos p3 sg
 		"ñemohenda" n
 "<mbohapýpe>"
-	"*mbohapýpe"
+	"mbohapy" num 
+		"pe" post 
 "<,>"
 	"," cm
 "<kóicha>"
@@ -718,21 +723,20 @@
 "<Ñeʼẽnguéra>"
 	"ñeʼẽ" n
 		"kuéra" pl
-"<iñe>"
-	"*iñe"
-'
-"<ẽpehẽteĩva>"
-	"*ẽpehẽteĩva"
+"<iñe'ẽpehẽteĩva>"
+	"i" prn pos p3 sg 
+		"ñe'ẽpehẽteĩ" v tv pres 
+			"va" subs dem 
 "<(>"
 	"(" lpar
 "<lenguas>"
-	"*lenguas"
+	"lenguas" barb 
 "<aislantes>"
-	"*aislantes"
+	"aislantes" barb 
 "<o>"
-	"*o"
+	"o" barb 
 "<monosilábicas>"
-	"*monosilábicas"
+	"monosilábicas" barb 
 "<)>"
 	")" rpar
 "<,>"
@@ -744,29 +748,27 @@
 	"apytépe" post
 "<oĩ>"
 	"oĩ" v iv pres
-"<chinañe>"
-	"*chinañe"
-'
-"<ẽ>"
-	"*ẽ"
+"<chinañeʼẽ >"
+	"chinañeʼẽ " n 
+
 "<,>"
 	"," cm
-"<iñe>"
-	"*iñe"
-'
-"<ẽpehẽteĩteĩva>"
-	"*ẽpehẽteĩteĩva"
+
+"<iñe'ẽpehẽteĩva>"
+	"i" prn pos p3 sg 
+		"ñe'ẽpehẽteĩ" v tv pres 
+			"va" subs dem 
 "<(>"
 	"(" lpar
-F
+
 "<u>"
-	"*u"
+	"u" barb 
  – 
 "<Man>"
-	"*Man"
+	"Man" barb 
  – 
 "<Chu>"
-	"*Chu"
+	"Chu" barb 
 "<)>"
 	")" rpar
 "<.>"
@@ -777,63 +779,58 @@ F
 "<Ñeʼẽnguéra>"
 	"ñeʼẽ" n
 		"kuéra" pl
-"<iñe>"
-	"*iñe"
-'
-"<ẽjoapykuaáva>"
-	"*ẽjoapykuaáva"
+"<iñe'ẽpehẽteĩva>"
+	"i" prn pos p3 sg 
+		"ñe'ẽpehẽteĩ" v tv pres 
+			"va" subs dem 
 "<(>"
 	"(" lpar
 "<lenguas>"
-	"*lenguas"
+	"lenguas" barb 
 "<aglutinantes>"
-	"*aglutinantes"
+	"aglutinantes" barb 
 "<)>"
 	")" rpar
 "<,>"
 	"," cm
-"<tuykiañe>"
-	"*tuykiañe"
-'
-"<ẽ>"
-	"*ẽ"
+"<tuykiañeʼẽ>"
+	"tuykiañeʼẽ" n 
+
 "<guaicha>"
-	"*guaicha"
+	"gua" post 
+		"icha" comp 
 "<,>"
 	"," cm
 "<ombojoajúva>"
-	"*ombojoajúva"
-"<ñe>"
-	"*ñe"
-'
-"<ẽpehẽtai>"
-	"*ẽpehẽtai"
+	"ombojoajúva" adj 
+"<ñeʼẽpehẽtai>" n 
+
 "<(>"
 	"(" lpar
 "<a>"
 	"a" v tv pres
 	"a" v iv pres
-f
-"<ijo>"
-	"*ijo"
+
+"<fijo>"
+	"fijo" barb 
 "<)>"
 	")" rpar
-"<ñe>"
-	"*ñe"
-'
-"<ẽrapóre>"
-	"*ẽrapóre"
+"<ñeʼẽrapóre>"
+	"ñeʼẽrapo" n 
+		"re" post 
+	"
 "<(>"
 	"(" lpar
 "<raíz>"
-	"*raíz"
+	"raíz" barb 
 "<)>"
 	")" rpar
 "<.>"
 	"." sent
 
 "<Iporã>"
-	"*Iporã"
+	"Iporã" adj 
+	"Iporã" adv 
 "<jaʼe>"
 	"jaʼe" v iv p1 pl pres
 "<avañeʼẽ>"
@@ -855,7 +852,7 @@ f
 "<(>"
 	"(" lpar
 "<n>"
-	"*n"
+	"*n"  
 "<->"
 	"-" guio
 "<a>"
@@ -900,37 +897,35 @@ f
 "<Ñeʼẽnguéra>"
 	"ñeʼẽ" n
 		"kuéra" pl
-"<iñe>"
-	"*iñe"
-'
-"<ẽrapoambuéva>"
-	"*ẽrapoambuéva"
+"<iñeʼẽrapoambuéva>"
+	"iñeʼẽrapoambue" n 
+		"va" subs dem 
+
 "<(>"
 	"(" lpar
 "<lenguas>"
-	"*lenguas"
+	"lenguas" barb 
 "<de>"
 	"de" barb
- f
-"<lexión>"
-	"*lexión"
+
+"<flexión>"
+	"flexión" barb 
 "<)>"
 	")" rpar
 "<,>"
 	"," cm
 "<umi>"
 	"umi" adj dem pl
-"<ñe>"
-	"*ñe"
-'
-"<ẽte>"
-	"*ẽte"
+"<ñeʼẽte>"
+	"ñeʼẽ" n 
+		"te" post 
+
 "<indoeuropeo>"
-	"*indoeuropeo"
+	"indoeuropeo" barb 
 "<->"
 	"-" guio
 "<icha>"
-	"*icha"
+	"icha" comp 
 "<.>"
 	"." sent
 
@@ -940,7 +935,8 @@ f
 	"ko" adj dem sg
 '
 "<ãvape>"
-	"*ãvape"
+	"ãva" n 
+		"pe" post 
 "<,>"
 	"," cm
 "<ñeʼẽ>"
@@ -948,7 +944,7 @@ f
 	"ñeʼẽ" v tv pres
 	"ñeʼẽ" v iv pres
 "<iñambue>"
-	"*iñambue"
+	"iñambue" adj ind 
 "<iñe>"
 	"*iñe"
 '
