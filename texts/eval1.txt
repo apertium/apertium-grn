@@ -13,9 +13,10 @@
 	"ñeʼẽ" v tv pres
 	"ñeʼẽ" v iv pres
 "<ombohéra>"
-	"*ombohéra"
+	"o" prn p3 sg 
+		"mbohéra" v tv pres 
 "<hikuái>"
-	"*hikuái"
+	"hikuái" post 
 "<umi>"
 	"umi" adj dem pl
 "<Guaranikuéra>"
@@ -30,7 +31,9 @@
 "<ẽ>"
 	"*ẽ"
 "<teépe>"
-	"*teépe"
+	"tee" adj
+		"pe" post 
+
 "<.>"
 	"." sent
 
@@ -47,16 +50,18 @@
 "<umi>"
 	"umi" adj dem pl
 "<te>"
-	"*te"
+	"te" prn pers p2 sg
 '
 "<yikuéra>"
-	"*yikuéra"
+	"y" n 
+		"i" prn pos p3 sg 
+		 	"kuéra" pl
 "<Amérika>"
 	"Amérika" np top
 "<->"
 	"-" guio
 "<gua>"
-	"*gua"
+	"gua" post 
 "<ñeʼẽnguéra>"
 	"ñeʼẽ" n
 		"kuéra" pl
@@ -66,21 +71,24 @@
 	"heta" adv
 		"ve" comp
 "<iñe>"
-	"*iñe"
+	"iñe" post 
 '
 "<ẽhárava>"
 	"*ẽhárava"
 "<,>"
 	"," cm
 "<oñemohendáva>"
-	"*oñemohendáva"
+	"o" prn p3 sg 
+		"ñemohenda" n 
+			"va" subs dem 
 "<irundy>"
 	"irundy" num
 "<tetãnguéra>"
 	"tetã" n
 		"kuéra" pl
 "<iñambuévape>"
-	"*iñambuévape"
+	"iñambuéva" n 
+		"pe" post 
 "<(>"
 	"(" lpar
 "<Paraguái>"
@@ -112,7 +120,7 @@
 	"ha" v iv pres
 '
 "<eñoite>"
-	"*eñoite"
+	"eñoite" v iv pres 
 "<ojehechakuaáva>"
 	"ojehechakuaáva" adj
 "<ñeʼẽ>"
@@ -120,7 +128,9 @@
 	"ñeʼẽ" v tv pres
 	"ñeʼẽ" v iv pres
 "<teéramo>"
-	"*teéramo"
+	"tee" n 
+		"ramo" post 
+
 "<peteĩ>"
 	"peteĩ" num
 	"peteĩ" prn ind
@@ -129,22 +139,23 @@
 "<tetã>"
 	"tetã" n
 "<Ñembyamérika>"
-	"*Ñembyamérika"
+	"Ñembyamérika" np top 
 "<->"
 	"-" guio
 "<guápe>"
-	"*guápe"
+	"gua" post 
+		"pe" post 
 "<..>"
 	".." sent
 
 
 "<Tupi>"
-	"*Tupi"
+	"Tupi" n
 "<ha>"
 	"ha" cnjcoo
 	"ha" v iv pres
 "<guarani>"
-	"*guarani"
+	"guarani" n 
 "<ñeʼẽ>"
 	"ñeʼẽ" n
 	"ñeʼẽ" v tv pres
@@ -159,24 +170,29 @@
 "<,>"
 	"," cm
 "<oguereko>"
-	"*oguereko"
+	"o" prn p3 sg 
+		"guereko" v tv pres 
 "<hetáichagua>"
-	"*hetáichagua"
+	"hetáichagua" adj 
 "<ñeʼẽnunga>"
 	"ñeʼẽ" v tv pres nungaadv
 	"ñeʼẽ" v iv pres nungaadv
 "<,>"
 	"," cm
 "<upéicharõ>"
-	"*upéicharõ"
+	"upéicha" adv  
+		"rõ" post 
 "<jepe>"
 	"jepe" adv
 "<oĩ>"
 	"oĩ" v iv pres
 "<jekupyty>"
-	"*jekupyty"
+	"jekupyty" v tv pres 
 "<ijapytepekuéra>"
-	"*ijapytepekuéra"
+	"i" prn p3 sg 
+		"japyte" n 
+			"pe" post 
+				"kuéra" pl 
 "<ha>"
 	"ha" cnjcoo
 	"ha" v iv pres
@@ -194,7 +210,8 @@
 	"*ñe"
 '
 "<ẽnungakuéra>"
-	"*ẽnungakuéra"
+	"ẽnunga" n 
+		"kuéra" pl 
 "<..>"
 	".." sent
 
@@ -219,7 +236,8 @@
 "<Paraguái>"
 	"Paraguái" np top
 "<retaãme>"
-	"*retaãme"
+	"retaã" n 
+		"pe" post 
 "<ñeʼẽ>"
 	"ñeʼẽ" n
 	"ñeʼẽ" v tv pres
@@ -237,7 +255,7 @@
 	"." sent
 
 "<Japypateĩ>"
-	"*Japypateĩ"
+	"Japypateĩ" np ant 
 "<2006>"
 	"2006" num
 "<guive>"
@@ -256,7 +274,7 @@
 "<tee>"
 	"tee" adj
 "<Mercosur>"
-	"*Mercosur"
+	"Mercosur" np org  
 "<->"
 	"-" guio
 "<pe>"
@@ -272,11 +290,9 @@
 "<ha>"
 	"ha" cnjcoo
 	"ha" v iv pres
-"<poytugañe>"
-	"*poytugañe"
-'
-"<ẽ>"
-	"*ẽ"
+"<poytugañeʼẽ>"
+	"poytugañeʼẽ" n   
+
 "<ykére>"
 	"yke" n
 		"re" post
@@ -289,27 +305,22 @@
 		"ñeʼẽ" v tv pres
 	"ava" n incp
 		"ñeʼẽ" v iv pres
-"<he>"
-	"he" adj
-	"he" n
-'
-"<ise>"
-	"*ise"
+"<heʼise>"
+	"heʼise" v tv pres 
+
 "<Idioma>"
-	"*Idioma"
+	"Idioma" barb 
 "<Guarani>"
 	"Guarani" n
 "<.>"
 	"." sent
 
 "<Péva>"
-	"*Péva"
-"<ha>"
-	"ha" cnjcoo
-	"ha" v iv pres
-'
-"<ehína>"
-	"*ehína"
+	"Pe" adj dem sg 
+		"va" subs dem 
+"<haʼehína>"
+	"haʼe" v tv pres 
+		"hína" post 
 "<pe>"
 	"pe" adj
 	"pe" adj dem sg
@@ -320,7 +331,10 @@
 "<haʼekuéra>"
 	"haʼekuéra" prn pers p3 pl
 "<oipurúva>"
-	"*oipurúva"
+	"o" prn p3 sg 
+		"i" ai 
+			"puru" v tv pres 
+				"va" subs dem 
 "<oñomongeta>"
 	"o" prn pos p3 sg
 		"ñomongeta" n
@@ -329,24 +343,30 @@
 "<,>"
 	"," cm
 "<ombohasávo>"
-	"*ombohasávo"
+	"o" prn p3 sg 
+		"mbohasa" v tv pres 
+			"vo" adv 
 "<ojupe>"
-	"*ojupe"
+	"ojupe" post 
+
 "<hemiandu>"
-	"*hemiandu"
+	"hemiandu" n 
 "<,>"
 	"," cm
 "<hembikuaa>"
-	"*hembikuaa"
+	"h" prn pos p3 sg 
+		"tembikuaa" n 
 "<,>"
 	"," cm
 "<hembiasa>"
-	"*hembiasa"
+	"h" prn pos p3 sg 
+		"tembiasa" n 
 "<ha>"
 	"ha" cnjcoo
 	"ha" v iv pres
 "<hembipota>"
-	"*hembipota"
+	"h" prn pos p3 sg 
+		"tembipota" n 
 "<.>"
 	"." sent
 
@@ -362,13 +382,11 @@
 "<">"
 	""" sent
 "<niko>"
-	"*niko"
-"<he>"
-	"he" adj
-	"he" n
-'
-"<ise>"
-	"*ise"
+	"niko" v iv pres 
+
+"<heʼise>"
+	"heʼise" v tv pres
+
 "<tekove>"
 	"tekove" adj
 	"tekove" n
@@ -393,9 +411,11 @@
 "<kuña>"
 	"kuña" n
 "<oikóva>"
-	"*oikóva"
+	"o" prn p3 sg 
+		"ko" v iv pres 
+			"va" subs dem 
 "<oñondive>"
-	"*oñondive"
+	"oñondive" post 
 "<,>"
 	"," cm
 "<peteĩ>"
@@ -403,11 +423,10 @@
 	"peteĩ" prn ind
 ;	"pete" n incp REMOVE:13
 ;		"ĩ" v tv pres
-"<avano>"
-	"*avano"
-'
-"<õme>"
-	"*õme"
+"<avanoʼõme>"
+	"avanoʼõ" n 
+		"pe" post 
+
 "<(>"
 	"(" lpar
 "<sociedad>"
