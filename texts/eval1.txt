@@ -25,11 +25,12 @@
 "<pe>"
 	"pe" adj
 	"pe" adj dem sg
-"<iñe>"
-	"*iñe"
-'
-"<ẽ>"
-	"*ẽ"
+
+"<ñeʼẽ>"
+	"ñeʼẽ" n
+	"ñeʼẽ" v tv pres
+	"ñeʼẽ" v iv pres
+
 "<teépe>"
 	"tee" adj
 		"pe" post 
@@ -332,9 +333,8 @@
 	"haʼekuéra" prn pers p3 pl
 "<oipurúva>"
 	"o" prn p3 sg 
-		"i" ai 
-			"puru" v tv pres 
-				"va" subs dem 
+		"puru" v tv pres 
+			"va" subs dem 
 "<oñomongeta>"
 	"o" prn pos p3 sg
 		"ñomongeta" n
@@ -513,7 +513,6 @@
 "<Ñeʼẽ>"
 	"ñeʼẽ" n
 	"ñeʼẽ" v tv pres
-	"ñeʼẽ" v iv pres
 "<niko>"
 	"niko" v iv pres 
 "<omopeteĩ>"
@@ -635,12 +634,12 @@
 "<tekotevẽ>"
 	"tekotevẽ" n
 	"tekotevẽ" v iv pres
-"<ñanemandu>"
-	"ñande" prn pro p1 pl acc 
+"<ñandemanduʼa>"
+	"ñande" prn p1 pl 
 		"manduʼa" n 
 
 "<Augusto>"
-	"Augusto" barb 
+	"Augusto" np ant  
 "<Schleicher>"
 	"Schleicher" np ant 
 "<(>"
@@ -945,30 +944,33 @@
 	"ñeʼẽ" v iv pres
 "<iñambue>"
 	"iñambue" adj ind 
-"<iñe>"
-	"*iñe"
-'
-"<ẽrapópemavoi>"
-	"*ẽrapópemavoi"
-"<karaiñe>"
-	"*karaiñe"
-'
-"<ẽme>"
-	"*ẽme"
+"<iñeʼẽrapópemavoi>"
+	"i" prn p3 sg 
+		"ñeʼẽ" v tv pres 
+			"rapo" incp 
+				"pe" post 
+					"voi" adv 
+
+"<karaiñeʼẽme>"
+	"karai" n 
+		"ñeʼẽ" n 
+			"pe" post 
+
 "<ojehuháicha>"
-	"*ojehuháicha"
+	"*ojehuha" adj 
+		"icha" comp 
 "<(>"
 	"(" lpar
 "<camin>"
-	"*camin"
+	"camin" barb 
 "</>"
 	"/" sent
 "<o>"
-	"*o"
+	"o" barb 
 "<,>"
 	"," cm
 "<as>"
-	"*as"
+	"as" barb  
 "<,>"
 	"," cm
 "<a>"
@@ -977,15 +979,15 @@
 "<,>"
 	"," cm
 "<amos>"
-	"*amos"
+	"amos" barb 
 "<,>"
 	"," cm
 "<áis>"
-	"*áis"
+	"áis" barb 
 "<,>"
 	"," cm
 "<an>"
-	"*an"
+	"an" barb 
 "<)>"
 	")" rpar
 "<..>"
@@ -993,23 +995,23 @@
 
 
 "<Aipórõ>"
-	"*Aipórõ"
+	"Aipórõ" n 
 "<guarani>"
-	"*guarani"
-"<ñe>"
-	"*ñe"
-'
-"<ẽte>"
-	"*ẽte"
+	"guarani" n 
+
+"<ñeʼẽte>"
+	"ñeʼẽ" n 
+		"te" post 
+
 "<ija>"
-	"*ija"
+	"i" prn p3 sg 
+		"ja" v iv pres
 "<umi>"
 	"umi" adj dem pl
-"<iñe>"
-	"*iñe"
-'
-"<ẽjoapykuaáva>"
-	"*ẽjoapykuaáva"
+"<iñeʼẽjoapykuaáva>"
+	"iñeʼẽjoapykuaa" n 
+		"va" subs dem 
+
 "<apytépe>"
 	"apytépe" post
 "<,>"
@@ -1020,21 +1022,23 @@
 "<upépe>"
 	"upépe" adv
 "<ojoavýma>"
-	"*ojoavýma"
-"<karaiñe>"
-	"*karaiñe"
-'
-"<ẽgui>"
-	"*ẽgui"
+	"o" prn p1 sg 
+		"joavy" v iv pres 
+			"ma" adv 
+"<karaiñeʼẽgui>"
+	"karaiñeʼẽ" n 
+		"gui" post 
+
 "<oñemohendáva>"
-	"*oñemohendáva"
+	"o" prn p3 sg 
+		"ñemohenda" v iv pres 
+			"va" subs dem 
 "<umi>"
 	"umi" adj dem pl
-"<iñe>"
-	"*iñe"
-'
-"<ẽrapoambuéva>"
-	"*ẽrapoambuéva"
+ 
+"<iñeʼẽrapoambuéva>"
+	"iñeʼẽrapoambuéva" n
+
 "<apytépe>"
 	"apytépe" post
 "<.>"
@@ -1049,7 +1053,7 @@
 	"mbaʼe" n
 	"mbaʼe" prn itg
 "<iporã>"
-	"*iporã"
+	"iporã" adv 
 "<ñamyesakã>"
 	"*ñamyesakã"
 "<oĩgui>"
@@ -1071,31 +1075,28 @@
 	"koʼága" adv
 "<->"
 	"-" guio
-"<oñeha>"
-	"*oñeha"
-'
-"<ãva>"
-	"ã" adj dem pl
-		"va" subs dem
-;	"ã" n incp REMOVE:13
-;		"va" v iv pres
-"<ohesa>"
-	"*ohesa"
-'
-"<ỹijo>"
-	"*ỹijo"
+"<oñehaʼãva>"
+	"o" prn p3 sg 
+		"ñehaʼã" v iv pres 
+			"va" subs dem 
+"<ohesaʼỹijo>"
+	"o" prn p3 sg 
+		"hesaʼỹijo" v tv pres 
+
+
 "<avañeʼẽ>"
 	"ava" n incp
 		"ñeʼẽ" v tv pres
 	"ava" n incp
 		"ñeʼẽ" v iv pres
 "<Castellano>"
-	"*Castellano"
-"<oñehesa>"
-	"*oñehesa"
-'
-"<ỹijoháicha>"
-	"*ỹijoháicha"
+	"Castellano" barb 
+"<oñehesaʼỹijoháicha>"
+	"o" prn p3 sg 
+		"hesaʼỹijo" v iv pres 
+			"ha" subs 
+				"icha" comp 
+
 "<,>"
 	"," cm
 "<ha>"
@@ -1105,11 +1106,14 @@
 	"*ivaivéva"
 "<->"
 	"-" guio
-"<oikuaaporã>"
-	"*oikuaaporã"
-’
-"<ỹre>"
-	"*ỹre"
+"<oikuaaporã’ỹre>"
+	"o" prn p3 sg 
+		"kuaa" v tv pres 
+			"porã" adv 
+				"ỹ" post 
+					"re" post 
+
+
 "<->"
 	"-" guio
 "<oipuruséva>"
@@ -1120,12 +1124,11 @@
 	"ñeʼẽ" n
 		"re" post
 "<Castellano>"
-	"*Castellano"
-"<ñe>"
-	"*ñe"
-’
-"<ẽtekuaa>"
-	"*ẽtekuaa"
+	"Castellano" barb 
+"<ñe’ẽtekuaa>"
+	"ñe’ẽte" incp 
+		"kuaa" v tv pres 
+
 "<..>"
 	".." sent
  
