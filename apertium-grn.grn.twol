@@ -23,6 +23,7 @@ a b ã c d e ẽ g g̃ h i ĩ j k l m n ñ o õ p r s t u ũ v w x y z ỹ á é
 %{m%}:m %{m%}:p
 %{t%}:0
 %{a%}:0 %{a%}:a 
+%{b%}:p %{b%}:b 
 
 %>:0 
 % 
@@ -68,7 +69,7 @@ Rules
 
 "Change vowel before atonal suffixes"
 Va:Vt <=> _ %>: [m: a: | n: t: e: | i: c: h: a: | %{m%}: e: | g: u: i: | r: e: | m: i:|
-                 k: u: r: i: | t: a:] ;
+                 k: u: r: i: | t: a: | r: a: ʼ: e: | n: e: ] ;
             [Cns: | VowsAton: | Nas: | ʼ: ]+ _ %>: %{r%}: ;
             _ %{o%}: [v: | a:] ;
             except
@@ -107,6 +108,7 @@ Vt:Va <=> •: _ [ Cns: | ArchiCns: | Nas: | VowsAton: |  %>: ]+  VowsTon: ;
 "Insert glottal stop ['] if next morpheme starts with a vowel"
 %{P%}:ʼ <=> _ [ VowsTon: | •: VowsAton:] ;
             Vows: _ [a: k: u: e:] ;
+            Vows: %>: _ ;
 
 "Surface [n] in plural nouns" 
 %{N%}:n <=> Nas: %>: _ ;
@@ -153,6 +155,7 @@ Vt:Va <=> •: _ [ Cns: | ArchiCns: | Nas: | VowsAton: |  %>: ]+  VowsTon: ;
 
 "Surface [m] in postpositions after nasals"
 %{m%}:m <=> [Nas:]+ Vows: %>: _ ; ! FIX me affix 
+            Nas: %>: _ %{b%}: ;
 
 "Remove surface [t] or [r] in Triformes"
 Cx:0 <=> %{t%}: _ ;
@@ -160,3 +163,6 @@ Cx:0 <=> %{t%}: _ ;
 
 "Surface [a] in negative connectors"
 %{a%}:a <=> _ Cns: ;
+
+"Surface [mb] in suffix after nasal verb"
+%{b%}:b <=> Nas: %>: %{m%}: _ ;

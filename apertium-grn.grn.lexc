@@ -54,6 +54,7 @@ Multichar_Symbols
 %<past%>             ! Pasado reciente 
 %<pmp%>              ! Plusquamperfect
 %<fti%>              ! Futuro indicativo 
+%<fts%>              ! Futuro subjuntivo 
 
 %<barb%>             ! Barbarisme
 %<abbr%>             ! Abbreviação
@@ -97,6 +98,7 @@ Multichar_Symbols
 %{m%}              ! Archiphoneme for m in case 
 %{t%}              ! Archiphoneme for surface [t] in triformes 
 %{a%}              ! Archiphoneme for surface [a] in negative connectors 
+%{b%}              ! Archiphoneme for surface [mb] in future tense 
 
 
 LEXICON Root 
@@ -257,7 +259,8 @@ rovake:rovake POST ; ! "delante de"
 vaʼekue:vaʼekue POST ; ! ""
 vaʼerã:vaʼerã POST ; ! ""
 vove:vove POST ; ! ""
-
+vaʼekue:vaʼekue POST ; ! ""
+vaʼerã:vaʼerã POST ; ! ""
 
 
 
@@ -554,9 +557,15 @@ LEXICON PAST
 %+mi%<pii%>:%>mi # ;
 %+kuri%<past%>:%>kuri # ;
 !%+vaʼekue%<pmp%>:%>vaʼekue # ; 
+%+rakaʼe%<past%>:%>rakaʼe # ; 
+%+raʼe%<past%>:%>raʼe # ;
 
 LEXICON FUT 
 %+ta%<fti%>:%>ta # ; 
+%+pota%<fti%>:%>%{m%}%{b%}ota # ; 
+%+ne%<fts%>:%>ne # ; 
+%+aʼrã%<fti%>:%>%{P%}aʼrã # ;
+!%+vaʼerã%<fti%>:%>vaʼerã # ; 
 
 LEXICON V-INFL 
 PRES ;
@@ -2042,6 +2051,7 @@ tembiporu:tembiporu N ; ! "vajilla, instrumento, utensilio"
 tembiporu% renda:tembiporu% renda N ; ! "alacena"
 tembipota:tembipota N ; ! "misión, propósito"
 tembipotarei:tembipotarei N ; ! "capricho, antojo"
+tembipuru:tembipuru N ; ! "herranienta"
 tembireko:tembireko N ; ! "esposa"
 tembiʼu:tembiʼu N ; ! "sustento"
 tembiʼupyhare:tembiʼupyhare N ; ! "cena"
@@ -2493,6 +2503,7 @@ hesapirĩ:hesapirĩ V-IV ; ! "pestañear,parpadear"
 heñói:heñói V-IV ; ! "crecer"
 hiʼa:hiʼa V-IV ; ! "fruta,da"
 hiʼã:hiʼã V-IV ; ! "parece"
+ho:ho V-IV ; ! "viajar, ida"
 huʼu:huʼu V-IV ; ! "toser"
 ja:ja V-IV ; ! "caber"
 jaheʼo:jaheʼo V-IV ; ! "lamentar"
@@ -2623,6 +2634,8 @@ osoro:osoro V-IV ; ! "roto (está)"
 oñemboty:oñemboty V-IV ; ! "cerrado (está)"
 oĩ:oĩ V-IV ; ! "hay,existir,haber"
 oĩma:oĩma V-IV ; ! "listo (está)"
+ou:ou V-IV ; ! "venir"
+oho:oho V-IV ; ! "irse" 
 pa:pa V-IV ; ! "acabarse"
 paʼã:paʼã V-IV ; ! "parar,atascarse,depender"
 pararã:pararã V-IV ; ! "ruido (hacer)"
@@ -2786,7 +2799,6 @@ g̃uahẽ:g̃uahẽ V-IV ; ! "llegar" ! Dir/LR
 
 LEXICON Verbs 
 
-ou:ou V ; ! "venir"
 me:me V ; ! "estar"
 aime:aime V ; ! "estar" ! Dir/LR
 ĩ:ĩ V ; ! "estar" 
@@ -2887,7 +2899,6 @@ hesakã:hesakã V ; ! "obvio"
 hesakãva:hesakãva V ; ! "transparente"
 hesape:hesape V ; ! "alumbrar, iluminar"
 heñoihague:heñoihague V ; ! "nacido"
-ho:ho V ; ! "viajar, ida"
 hoky:hoky V ; ! "brotar"
 hory:hory V ; ! "alegre"
 hovaigua:hovaigua V ; ! "opuesto"
