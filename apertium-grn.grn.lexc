@@ -59,7 +59,11 @@ Multichar_Symbols
 %<recip%>            ! Voz reciproca 
 %<coop%>             ! Voz coactiva 
 %<obj%>              ! Voz objetiva
-%<sub%>             ! Voz subsuntiva  
+%<sub%>              ! Voz subsuntiva  
+%<imp%>              ! Imperfectivo 
+
+%<vol%>              ! Modo volitivo 
+%<nar%>              ! Modo narrativo 
 
 %<barb%>             ! Barbarisme
 %<abbr%>             ! Abbreviação
@@ -557,6 +561,7 @@ LEXICON PRES
 %<pres%>: DEM-PRN-PL ;
 %<pres%>: SUBST ;
 %<pres%>: SUBST-V ;
+%<pres%>: SUP ;
 
 LEXICON PAST
 %+akue%<ifi%>:%{P%}akue #;
@@ -571,12 +576,30 @@ LEXICON FUT
 %+pota%<fti%>:%>%{m%}%{b%}ota # ; 
 %+ne%<fts%>:%>ne # ; 
 %+aʼrã%<fti%>:%>%{P%}aʼrã # ;
-!%+vaʼerã%<fti%>:%>vaʼerã # ; 
+!%+vaʼerã%<fti%>:%>vaʼerã # ;
+
+
+LEXICON IMP 
+%+aína%<prn%>%<p1%>%<sg%>%<imp%>:%>%ína # ;
+%+reína%<prn%>%<p2%>%<sg%>%<imp%>:%>%reína # ;
+%+hína%<prn%>%<p3%>%<sg%>%<imp%>:%>%hína # ;
+%+ñaína%<prn%>%<p1%>%<pl%>%<imp%>:%>%ñaína # ;
+%+roína%<prn%>%<p1%>%<pl%>%<imp%>:%>%roína # ;
+%+peína%<prn%>%<p2%>%<pl%>%<imp%>:%>%peína # ;
+%+hína%<prn%>%<p3%>%<pl%>%<imp%>:%>%hína # ;
+%+hikuái%<prn%>%<p3%>%<pl%>%<imp%>:%>%hikuái # ;
+
+LEXICON MODES 
+%+se%<vol%>:%>%se # ;
+%+se%<vol%>:%>%se COMP ;
+%+niko%<nar%>:%>niko # ;
 
 LEXICON V-INFL 
 PRES ;
 PAST ;
 FUT ;
+IMP ;
+MODES ;
 
 LEXICON V-IV
 

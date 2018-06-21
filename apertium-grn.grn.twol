@@ -69,7 +69,7 @@ Rules
 
 "Change vowel before atonal suffixes"
 Va:Vt <=> _ %>: [m: a: | n: t: e: | i: c: h: a: | %{m%}: e: | g: u: i: | r: e: | m: i:|
-                 k: u: r: i: | t: a: | r: a: ʼ: e: | n: e: ] ;
+                 k: u: r: i: | t: a: | r: a: ʼ: e: | n: e: | n: i: k: o:] ;
             [Cns: | VowsAton: | Nas: | ʼ: ]+ _ %>: %{r%}: ;
             _ %{o%}: [v: | a:] ;
             except
