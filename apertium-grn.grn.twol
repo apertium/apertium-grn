@@ -23,7 +23,7 @@ a b ã c d e ẽ g g̃ h i ĩ j k l m n ñ o õ p r s t u ũ v w x y z ỹ á é
 %{m%}:m %{m%}:p
 %{t%}:0
 %{a%}:0 %{a%}:a 
-%{b%}:p %{b%}:b 
+%{b%}:p %{b%}:b %{b%}:0 
 
 %>:0 
 % 
@@ -109,12 +109,16 @@ Vt:Va <=> •: _ [ Cns: | ArchiCns: | Nas: | VowsAton: |  %>: ]+  VowsTon: ;
 %{P%}:ʼ <=> _ [ VowsTon: | •: VowsAton:] ;
             Vows: _ [a: k: u: e:] ;
             Vows: %>: _ ;
+            %{b%}: [o: | y:] _ Vows: ;
+            r: o: _ Vows: ;
 
 "Surface [n] in plural nouns" 
 %{N%}:n <=> Nas: %>: _ ;
+            _ %{K%}: k: ;
 
 "Surface [g] in pl nouns after nasals" 
 %{K%}:g <=> Nas: %>: %{N%}: _ ;
+            %{N%}: _ k: ;
 
 "Possessive {H} before VowsTon"
 %{H%}:h <=> _ i: %{I%}: VowsTon: ;
@@ -166,3 +170,7 @@ Cx:0 <=> %{t%}: _ ;
 
 "Surface [mb] in suffix after nasal verb"
 %{b%}:b <=> Nas: %>: %{m%}: _ ;
+            %>: m: _ [o: | y:] %{P%}: [CnsNorm: | Vows:] ;
+
+"Remove %{b%} before nasals"
+%{b%}:0 <=> %>: m: _ [o: | y:] %{P%}: Nas: ;

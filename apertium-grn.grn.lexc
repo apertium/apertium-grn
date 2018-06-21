@@ -56,7 +56,10 @@ Multichar_Symbols
 %<fti%>              ! Futuro indicativo 
 %<fts%>              ! Futuro subjuntivo 
 %<pass%>             ! Voz passiva 
-%<rcp%>              ! Voz reciproca 
+%<recip%>            ! Voz reciproca 
+%<coop%>             ! Voz coactiva 
+%<obj%>              ! Voz objetiva
+%<sub%>             ! Voz subsuntiva  
 
 %<barb%>             ! Barbarisme
 %<abbr%>             ! Abbreviação
@@ -605,8 +608,7 @@ PersonAgrCol ;
 PersonAgrDefSg ;
 PersonAgrDefPl ;
 Optatives ;
-PassiveVoice ; 
-RecipVoice ;
+Voices ; 
 
 LEXICON AirealesTv
 i%<ai%>%+:%>i Verbs ;
@@ -622,14 +624,17 @@ LEXICON INCP
 LEXICON VerbsAgr
 Verbs ;
 VerbsIv ;
-PassiveVoice ;
-RecipVoice ;
+Voices ; 
 
-LEXICON PassiveVoice 
+LEXICON Voices 
 je%<pass%>%+:%>%{J%}e%{P%} VerbsAgr ; 
-
-LEXICON RecipVoice
-jo%<rcp%>%+:%>%{J%}o%{P%} VerbsAgr ;
+jo%<recip%>%+:%>%{J%}o%{P%} VerbsAgr ;
+mbo%<coop%>%+:%>m%{b%}o%{P%} VerbsAgr ;
+mby%<coop%>%+:%>m%{b%}y%{P%} VerbsAgr ;
+ro%<obj%>%+:%>ro%{P%} VerbsAgr ;
+guero%<obj%>%+:%>guero%{P%} VerbsAgr ;
+poro%<sub%>%+:%>poro%{P%} VerbsAgr ;
+mbaʼe%<sub%>%+:%>mbaʼe%{P%} VerbsAgr ;
 
 LEXICON PersonAgr
 
@@ -2818,6 +2823,7 @@ aĩ:aĩ V ; ! "estar" ! Dir/LR
 a:a V ; ! "fructificar"
 ai:ai V ; ! "llaga"
 ajuraroʼo:ajuraroʼo V ; ! "papada"
+aty:aty V ; ! "reunir" 
 akã:akã V ; ! "testa"
 akãguapy:akãguapy V ; ! "moderado"
 akãkarãi:akãkarãi V ; ! "peinar"
