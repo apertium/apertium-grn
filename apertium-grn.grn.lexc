@@ -55,6 +55,8 @@ Multichar_Symbols
 %<pmp%>              ! Plusquamperfect
 %<fti%>              ! Futuro indicativo 
 %<fts%>              ! Futuro subjuntivo 
+%<pass%>             ! Voz passiva 
+%<rcp%>              ! Voz reciproca 
 
 %<barb%>             ! Barbarisme
 %<abbr%>             ! Abbreviação
@@ -509,6 +511,7 @@ Lorenzo:Lorenzo NP-ANT ;
 Tupãsy:Tupãsy NP-ANT ; ! "virgen María"
 Pérez:Pérez NP-ANT ;
 Martínez:Martínez NP-ANT ;
+Vito:Vito NP-ANT ;
 
 LEXICON DemAdjectives
 
@@ -602,6 +605,8 @@ PersonAgrCol ;
 PersonAgrDefSg ;
 PersonAgrDefPl ;
 Optatives ;
+PassiveVoice ; 
+RecipVoice ;
 
 LEXICON AirealesTv
 i%<ai%>%+:%>i Verbs ;
@@ -617,8 +622,14 @@ LEXICON INCP
 LEXICON VerbsAgr
 Verbs ;
 VerbsIv ;
+PassiveVoice ;
+RecipVoice ;
 
+LEXICON PassiveVoice 
+je%<pass%>%+:%>%{J%}e%{P%} VerbsAgr ; 
 
+LEXICON RecipVoice
+jo%<rcp%>%+:%>%{J%}o%{P%} VerbsAgr ;
 
 LEXICON PersonAgr
 
