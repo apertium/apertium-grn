@@ -30,7 +30,7 @@
 	"." sent @punct #15->6
 
 # text = Guarani haʼe peteĩva umi teʼyikuéra Amérika-gua ñeʼẽnguéra apytépe hetave iñeʼẽhárava, oñemohendáva irundy tetãnguéra iñambuévape (Paraguái, Argentina, Volívia ha Brasil).
-# text[spa] = 
+# text[spa] = Guaraní es una de las lenguas mas habladas situadas en America, localizadas en cuatro paises siguientes (Paraguay, Argentina, Bolívia y Brasil).
 # labels = 
 "<Guarani>"
 	"Guarani" n
@@ -39,18 +39,13 @@
 	"haʼe" v iv p1 sg pres
 	"haʼe" vbser iv p1 sg pres
 "<peteĩva>"
-	"pete" n incp
-		"ĩ" v tv pres
-			"va" subs dem
+	"peteĩ" num 
+		"va" subs dem
 "<umi>"
 	"umi" adj dem pl
-"<te>"
-	"te" prn pers p2 sg
-'
-"<yikuéra>"
-	"y" n 
-		"i" prn pos p3 sg 
-		 	"kuéra" pl
+"<teʼyikuéra>"
+	"teʼyi" n 
+		"kuéra" pl
 "<Amérika>"
 	"Amérika" np top
 "<->"
@@ -102,17 +97,19 @@
 	")" rpar
 "<.>"
 	"." sent
-
+# text = Avei, haʼe ñoite ojehechakuaáva ñeʼẽ teéramo peteĩ tetã Ñembyamérika-guápe. 
+# text[spa] = Además, es la lengua recoñecida reciéntemente solo en uno pais de America del Sur. 
+# labels = 
 "<Avei>"
 	"avei" adv
 "<,>"
 	"," cm
-"<ha>"
-	"ha" cnjcoo
-	"ha" v iv pres
-'
-"<eñoite>"
-	"eñoite" v iv pres 
+"<haʼe>"
+	"haʼe" prn pers p3 sg
+	"haʼe" v iv p1 sg pres
+	"haʼe" vbser iv p1 sg pres
+"ñoite" 
+	"ñoite" adv 
 "<ojehechakuaáva>"
 	"ojehechakuaáva" adj
 "<ñeʼẽ>"
@@ -126,8 +123,7 @@
 "<peteĩ>"
 	"peteĩ" num
 	"peteĩ" prn ind
-;	"pete" n incp REMOVE:13
-;		"ĩ" v tv pres
+
 "<tetã>"
 	"tetã" n
 "<Ñembyamérika>"
