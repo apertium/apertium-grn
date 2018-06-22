@@ -1,5 +1,6 @@
 # text = Avañeʼẽ ha Guarani ñeʼẽ ombohéra hikuái umi Guaranikuéra pe ñeʼẽ teépe.
 # text[spa] = La lengua avañe'ẽ y la lengua guaraní tienen nombre del pueblo de los guaraní.
+# labels = to_check
 "<Avañeʼẽ>"
 	"avañeʼẽ" n @nsubj #1->6
 "<ha>"
@@ -28,6 +29,9 @@
 "<.>"
 	"." sent @punct #15->6
 
+# text = Guarani haʼe peteĩva umi teʼyikuéra Amérika-gua ñeʼẽnguéra apytépe hetave iñeʼẽhárava, oñemohendáva irundy tetãnguéra iñambuévape (Paraguái, Argentina, Volívia ha Brasil).
+# text[spa] = 
+# labels = 
 "<Guarani>"
 	"Guarani" n
 "<haʼe>"
@@ -63,8 +67,6 @@
 		"ve" comp
 "<iñeʼẽhárava>"
 	"iñeʼẽhárava" adj 
-	
-
 "<,>"
 	"," cm
 "<oñemohendáva>"
@@ -94,7 +96,6 @@
 	"Volívia" np top
 "<ha>"
 	"ha" cnjcoo
-	"ha" v iv pres
 "<Brasil>"
 	"Brasil" np top
 "<)>"
@@ -1073,8 +1074,6 @@
 "<ohesaʼỹijo>"
 	"o" prn p3 sg 
 		"hesaʼỹijo" v tv pres 
-
-
 "<avañeʼẽ>"
 	"ava" n incp
 		"ñeʼẽ" v tv pres
@@ -1087,7 +1086,6 @@
 		"hesaʼỹijo" v iv pres 
 			"ha" subs 
 				"icha" comp 
-
 "<,>"
 	"," cm
 "<ha>"
@@ -1103,8 +1101,6 @@
 			"porã" adv 
 				"ỹ" post 
 					"re" post 
-
-
 "<->"
 	"-" guio
 "<oipuruséva>"
@@ -1123,5 +1119,3 @@
 "<..>"
 	".." sent
  
-
-
