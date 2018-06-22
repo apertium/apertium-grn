@@ -1,3 +1,5 @@
+# text = Avañeʼẽ ha Guarani ñeʼẽ ombohéra hikuái umi Guaranikuéra pe ñeʼẽ teépe.
+# text[spa] = La lengua avañe'ẽ y la lengua guaraní tienen nombre del pueblo de los guaraní.
 "<Avañeʼẽ>"
 	"ava" n incp
 		"ñeʼẽ" v tv pres
@@ -25,16 +27,13 @@
 "<pe>"
 	"pe" adj
 	"pe" adj dem sg
-
 "<ñeʼẽ>"
 	"ñeʼẽ" n
 	"ñeʼẽ" v tv pres
 	"ñeʼẽ" v iv pres
-
 "<teépe>"
 	"tee" adj
 		"pe" post 
-
 "<.>"
 	"." sent
 
