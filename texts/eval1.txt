@@ -1,41 +1,32 @@
 # text = Avañeʼẽ ha Guarani ñeʼẽ ombohéra hikuái umi Guaranikuéra pe ñeʼẽ teépe.
 # text[spa] = La lengua avañe'ẽ y la lengua guaraní tienen nombre del pueblo de los guaraní.
 "<Avañeʼẽ>"
-	"ava" n incp
-		"ñeʼẽ" v tv pres
-	"ava" n incp
-		"ñeʼẽ" v iv pres
+	"avañeʼẽ" n @nsubj #1->6
 "<ha>"
-	"ha" cnjcoo
-	"ha" v iv pres
+	"ha" cnjcoo @cc #2->4
 "<Guarani>"
-	"Guarani" n
+	"guarani" n @compound #3->4
 "<ñeʼẽ>"
-	"ñeʼẽ" n
-	"ñeʼẽ" v tv pres
-	"ñeʼẽ" v iv pres
+	"ñeʼẽ" n @conj #4->1
 "<ombohéra>"
-	"o" prn p3 sg 
-		"mbohéra" v tv pres 
+	"o" prn p3 sg @expl #5->6
+		"mbohéra" v tv pres @root #6->0
 "<hikuái>"
-	"hikuái" post 
+	"hikuái" aux impf p3 pl @aux #7->6
 "<umi>"
-	"umi" adj dem pl
+	"umi" adj dem pl @amod #8->9
 "<Guaranikuéra>"
-	"Guarani" n
-		"kuéra" pl
+	"guarani" n @obl #9->6
+		"kuéra" det pl @det #10->9
 "<pe>"
-	"pe" adj
-	"pe" adj dem sg
+	"pe" post @case #11->9
 "<ñeʼẽ>"
 	"ñeʼẽ" n
-	"ñeʼẽ" v tv pres
-	"ñeʼẽ" v iv pres
 "<teépe>"
-	"tee" adj
-		"pe" post 
+	"tee" n
+		"pe" post @case #14->
 "<.>"
-	"." sent
+	"." sent @punct #15->6
 
 "<Guarani>"
 	"Guarani" n
