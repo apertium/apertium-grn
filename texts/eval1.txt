@@ -97,11 +97,12 @@
 	")" rpar
 "<.>"
 	"." sent
+
 # text = Avei, haʼe ñoite ojehechakuaáva ñeʼẽ teéramo peteĩ tetã Ñembyamérika-guápe. 
-# text[spa] = Además, es la lengua recoñecida reciéntemente solo en uno pais de America del Sur. 
+# text[spa] = Además, es la lengua reconocida recientemente sólo en un país de America del Sur. 
 # labels = 
 "<Avei>"
-	"avei" adv
+	"avei" adv @advmod
 "<,>"
 	"," cm
 "<haʼe>"
@@ -118,12 +119,9 @@
 	"ñeʼẽ" v iv pres
 "<teéramo>"
 	"tee" n 
-		"ramo" post 
-
+		"ramo" post @case
 "<peteĩ>"
-	"peteĩ" num
-	"peteĩ" prn ind
-
+	"peteĩ" num @nummod
 "<tetã>"
 	"tetã" n
 "<Ñembyamérika>"
@@ -131,10 +129,10 @@
 "<->"
 	"-" guio
 "<guápe>"
-	"gua" post 
+	"gua" post @case
 		"pe" post 
 "<..>"
-	".." sent
+	"." sent
 
 
 "<Tupi>"
