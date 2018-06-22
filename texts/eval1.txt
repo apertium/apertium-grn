@@ -21,10 +21,10 @@
 "<pe>"
 	"pe" post @case #11->9
 "<ñeʼẽ>"
-	"ñeʼẽ" n
+	"ñeʼẽ" n @dep #12->6
 "<teépe>"
-	"tee" n
-		"pe" post @case #14->
+	"tee" n @dep #13->12
+		"pe" post @case #14->13
 "<.>"
 	"." sent @punct #15->6
 
