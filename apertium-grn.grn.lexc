@@ -60,7 +60,8 @@ Multichar_Symbols
 %<coop%>             ! Voz coactiva 
 %<obj%>              ! Voz objetiva
 %<sub%>              ! Voz subsuntiva  
-%<imp%>              ! Imperfectivo 
+%<impf%>             ! Imperfectivo 
+%<aux%>              ! Auxiliar 
 
 %<vol%>              ! Modo volitivo 
 %<nar%>              ! Modo narrativo 
@@ -148,6 +149,7 @@ PosTriform ;
 VerbsIv ;
 VerbsDefSg ;
 VerbsDefPl ;
+MODES-AUX ;
 
 
 !!!!!!!!!!!!!!!!!!!! LEXICON SPANISH !!!!!!!!!!
@@ -265,12 +267,7 @@ reheʼỹ:reheʼỹ POST ; ! "sin"
 rekávo:rekávo POST ; ! ""
 rendápe:rendápe POST ; ! "junto a"
 rovake:rovake POST ; ! "delante de"
-vaʼekue:vaʼekue POST ; ! ""
-vaʼerã:vaʼerã POST ; ! ""
 vove:vove POST ; ! ""
-vaʼekue:vaʼekue POST ; ! ""
-vaʼerã:vaʼerã POST ; ! ""
-
 
 
 LEXICON POST
@@ -576,18 +573,22 @@ LEXICON FUT
 %+pota%<fti%>:%>%{m%}%{b%}ota # ; 
 %+ne%<fts%>:%>ne # ; 
 %+aʼrã%<fti%>:%>%{P%}aʼrã # ;
-!%+vaʼerã%<fti%>:%>vaʼerã # ;
 
 
 LEXICON IMP 
-%+aína%<prn%>%<p1%>%<sg%>%<imp%>:%>%ína # ;
-%+reína%<prn%>%<p2%>%<sg%>%<imp%>:%>%reína # ;
-%+hína%<prn%>%<p3%>%<sg%>%<imp%>:%>%hína # ;
-%+ñaína%<prn%>%<p1%>%<pl%>%<imp%>:%>%ñaína # ;
-%+roína%<prn%>%<p1%>%<pl%>%<imp%>:%>%roína # ;
-%+peína%<prn%>%<p2%>%<pl%>%<imp%>:%>%peína # ;
-%+hína%<prn%>%<p3%>%<pl%>%<imp%>:%>%hína # ;
-%+hikuái%<prn%>%<p3%>%<pl%>%<imp%>:%>%hikuái # ;
+%+aína%<prn%>%<p1%>%<sg%>%<impf%>:%>%ína # ;
+%+reína%<prn%>%<p2%>%<sg%>%<impf%>:%>%reína # ;
+%+hína%<prn%>%<p3%>%<sg%>%<impf%>:%>%hína # ;
+%+ñaína%<prn%>%<p1%>%<pl%>%<impf%>:%>%ñaína # ;
+%+roína%<prn%>%<p1%>%<pl%>%<impf%>:%>%roína # ;
+%+peína%<prn%>%<p2%>%<pl%>%<impf%>:%>%peína # ;
+%+hína%<prn%>%<p3%>%<pl%>%<impf%>:%>%hína # ;
+%+hikuái%<prn%>%<p3%>%<pl%>%<impf%>:%>%hikuái # ;
+
+LEXICON MODES-AUX 
+hikuái%<aux%>%<impf%>%<p3%>%<pl%>:hikuái # ;
+vaʼekue%<pmp%>:vaʼekue # ;
+vaʼerã%<fti%>:vaʼerã # ;
 
 LEXICON MODES 
 %+se%<vol%>:%>%se # ;
