@@ -136,7 +136,9 @@
 "<..>"
 	".." sent
 
-
+# text = Tupi ha guarani ñeʼẽ aty guasu rehegua, oguereko hetáichagua ñeʼẽnunga upéicharõ,
+# jepe oĩ jekupyty ijapytepekuéra ha heta mbaʼépe koʼã ñeʼẽnungakuéra. 
+# text[spa] = El grupo linguístico grande  Tupi y guarani, tiene 
 "<Tupi>"
 	"Tupi" n
 "<ha>"
@@ -151,7 +153,7 @@
 "<aty>"
 	"aty" n
 "<guasu>"
-	"guasu" n
+	"guasu" adj 
 "<rehegua>"
 	"rehe" post
 		"gua" post
@@ -163,8 +165,8 @@
 "<hetáichagua>"
 	"hetáichagua" adj 
 "<ñeʼẽnunga>"
-	"ñeʼẽ" v tv pres nungaadv
-	"ñeʼẽ" v iv pres nungaadv
+	"ñeʼẽ" v tv pres 
+	"nunga" adv 
 "<,>"
 	"," cm
 "<upéicharõ>"
