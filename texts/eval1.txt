@@ -97,9 +97,8 @@
 	")" rpar
 "<.>"
 	"." sent
-
-# text = Avei, haʼe ñoite ojehechakuaáva ñeʼẽ teéramo peteĩ tetã Ñembyamérika-guápe. 
-# text[spa] = Además, es la lengua reconocida recientemente sólo en un país de America del Sur. 
+Avei, haʼe ñoite ojehechakuaáva ñeʼẽ teéramo peteĩ tetã Ñembyamérika-guápe. 
+# text[spa] = # text[spa] = Además, es la lengua reconocida recientemente sólo en un país de America del Sur. 
 # labels = 
 "<Avei>"
 	"avei" adv @advmod
@@ -120,8 +119,11 @@
 "<teéramo>"
 	"tee" n 
 		"ramo" post @case
+
 "<peteĩ>"
 	"peteĩ" num @nummod
+	"peteĩ" prn ind
+
 "<tetã>"
 	"tetã" n
 "<Ñembyamérika>"
@@ -129,14 +131,15 @@
 "<->"
 	"-" guio
 "<guápe>"
-	"gua" post @case
+	"gua" post @case 
 		"pe" post 
-"<..>"
+"<.>"
 	"." sent
 
 # text = Tupi ha guarani ñeʼẽ aty guasu rehegua, oguereko hetáichagua ñeʼẽnunga upéicharõ,
 # jepe oĩ jekupyty ijapytepekuéra ha heta mbaʼépe koʼã ñeʼẽnungakuéra. 
-# text[spa] = El grupo linguístico grande  Tupi y guarani, tiene 
+# text[spa] = El grupo linguístico grande  Tupi y guarani, tiene maioría así sin embargo hay 
+# solidaridad
 "<Tupi>"
 	"Tupi" n
 "<ha>"
