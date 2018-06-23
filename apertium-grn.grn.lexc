@@ -4474,7 +4474,9 @@ obras:obras BARB ;
 salud:salud BARB ; 
 
 ! Para los sufijos en español que son particularmente productivos, y _no ambiguos_ en guaraní
-! podemos añadir algunas reglas que adivina la categoría
+! podemos añadir algunas reglas que adivina la categoría.
+! Una idea a más largo plazo sería extraer de un transductor de castellano las formas que no
+! son ambiguas con qualquier forma en guaraní y añadir todas al léxico con la etiqueta <barb>
 <[a | b | c | d | e | f | g | h | i | j | l | m | n | o | p | q | r | s | t | u | v | x | y | z ]+ ( i ó n | i o n e s ) >  BARB-GUESS ; ! Use/Circ
 
 
@@ -4485,6 +4487,7 @@ Dr%.:Dr ABBR-PUNTO ;
 aC:aC ABBR ; 
 km:km ABBR ; 
 km²:km² ABBR ; 
+km²:km2 ABBR ;  ! Dir/LR 
 cm:cm ABBR ;
 
 N°:N° ABBR ; 
