@@ -97,8 +97,9 @@
 	")" rpar
 "<.>"
 	"." sent
-Avei, haʼe ñoite ojehechakuaáva ñeʼẽ teéramo peteĩ tetã Ñembyamérika-guápe. 
-# text[spa] = # text[spa] = Además, es la lengua reconocida recientemente sólo en un país de America del Sur. 
+
+# text = Avei, haʼe ñoite ojehechakuaáva ñeʼẽ teéramo peteĩ tetã Ñembyamérika-guápe. 
+# text[spa] = Además, es la lengua reconocida recientemente sólo en un país de America del Sur. 
 # labels = 
 "<Avei>"
 	"avei" adv @advmod
@@ -119,11 +120,9 @@ Avei, haʼe ñoite ojehechakuaáva ñeʼẽ teéramo peteĩ tetã Ñembyamérika
 "<teéramo>"
 	"tee" n 
 		"ramo" post @case
-
 "<peteĩ>"
 	"peteĩ" num @nummod
 	"peteĩ" prn ind
-
 "<tetã>"
 	"tetã" n
 "<Ñembyamérika>"
@@ -136,10 +135,8 @@ Avei, haʼe ñoite ojehechakuaáva ñeʼẽ teéramo peteĩ tetã Ñembyamérika
 "<.>"
 	"." sent
 
-# text = Tupi ha guarani ñeʼẽ aty guasu rehegua, oguereko hetáichagua ñeʼẽnunga upéicharõ,
-# jepe oĩ jekupyty ijapytepekuéra ha heta mbaʼépe koʼã ñeʼẽnungakuéra. 
-# text[spa] = El grupo linguístico grande  Tupi y guarani, tiene maioría así sin embargo hay 
-# solidaridad
+# text = Tupi ha guarani ñeʼẽ aty guasu rehegua, oguereko hetáichagua ñeʼẽnunga upéicharõ, jepe oĩ jekupyty ijapytepekuéra ha heta mbaʼépe koʼã ñeʼẽnungakuéra. 
+# text[spa] = El grupo linguístico grande Tupi y guarani, tiene mayoría así sin embargo hay solidaridad
 "<Tupi>"
 	"Tupi" n
 "<ha>"
@@ -202,10 +199,12 @@ Avei, haʼe ñoite ojehechakuaáva ñeʼẽ teéramo peteĩ tetã Ñembyamérika
 	"ñeʼẽnunga" n 
 		"kuéra" pl 
 
-"<..>"
-	".." sent
+"<.>"
+	"." sent
 
-
+# text = Avañeʼẽ ha karaiñeʼẽ haʼe Paraguái retaãme ñeʼẽ tee ary 1992 guive.
+# text[spa] = 
+# labels = 
 "<Avañeʼẽ>"
 	"ava" n incp
 		"ñeʼẽ" v tv pres
@@ -244,6 +243,9 @@ Avei, haʼe ñoite ojehechakuaáva ñeʼẽ teéramo peteĩ tetã Ñembyamérika
 "<.>"
 	"." sent
 
+# text = Japypateĩ 2006 guive haʼe avei ñeʼẽ tee Mercosur-pe karaiñeʼẽ ha poytugañeʼẽ ykére.
+# text[spa] = 
+# labels = 
 "<Japypateĩ>"
 	"Japypateĩ" np ant 
 "<2006>"
@@ -286,10 +288,12 @@ Avei, haʼe ñoite ojehechakuaáva ñeʼẽ teéramo peteĩ tetã Ñembyamérika
 "<ykére>"
 	"yke" n
 		"re" post
-"<..>"
-	".." sent
+"<.>"
+	"." sent
  
-
+# text = Avañeʼẽ heʼise Idioma Guarani.
+# text[spa] = 
+# labels = 
 "<Avañeʼẽ>"
 	"ava" n incp
 		"ñeʼẽ" v tv pres
@@ -305,6 +309,9 @@ Avei, haʼe ñoite ojehechakuaáva ñeʼẽ teéramo peteĩ tetã Ñembyamérika
 "<.>"
 	"." sent
 
+# text = Péva haʼehína pe ñeʼẽ haʼekuéra oipurúva oñomongeta hag̃ua, ombohasávo ojupe hemiandu, hembikuaa, hembiasa ha hembipota.
+# text[spa] = 
+# labels = 
 "<Péva>"
 	"Pe" adj dem sg 
 		"va" subs dem 
@@ -413,11 +420,9 @@ Avei, haʼe ñoite ojehechakuaáva ñeʼẽ teéramo peteĩ tetã Ñembyamérika
 	"peteĩ" prn ind
 ;	"pete" n incp REMOVE:13
 ;		"ĩ" v tv pres
-
 "<avanoʼõme>"
 	"avanoʼõ" n 
 		"pe" post 
-
 "<(>"
 	"(" lpar
 "<sociedad>"
@@ -462,10 +467,10 @@ Avei, haʼe ñoite ojehechakuaáva ñeʼẽ teéramo peteĩ tetã Ñembyamérika
 "<.>"
 	"." sent
 
+# text = 
 "<Péva>"
 	"Pe" adj dem sg 
 		"va" subs dem 
-
 "<haʼehína>"
 	"haʼe" v tv pres 
 		"hína" post
@@ -480,13 +485,11 @@ Avei, haʼe ñoite ojehechakuaáva ñeʼẽ teéramo peteĩ tetã Ñembyamérika
 	"guarani" n 
 "<kuéra>"
 	"kuéra" pl
-
 "<oipurúva>"
 	"o" prn p3 sg 
 		"i" ai 
 			"puru" v tv pres 
 				"va" subs dem
-
 "<ojokupyty>"
 	"o" prn p3 sg 
 		"jokupyty" v tv pres 
@@ -500,6 +503,7 @@ Avei, haʼe ñoite ojehechakuaáva ñeʼẽ teéramo peteĩ tetã Ñembyamérika
 "<.>"
 	"." sent
 
+# text = 
 "<Ñeʼẽ>"
 	"ñeʼẽ" n
 	"ñeʼẽ" v tv pres
@@ -559,22 +563,20 @@ Avei, haʼe ñoite ojehechakuaáva ñeʼẽ teéramo peteĩ tetã Ñembyamérika
 "<neʼẽte>"
 	"neʼẽ" v tv pres 
 		"te" post 
-
 "<,>"
 	"," cm
 "<ha’éva>"
 	"ha’e" v tv pres 
 		"va" subs dem 
-
 "<avañeʼẽ>"
 	"ava" n incp
 		"ñeʼẽ" v tv pres
 	"ava" n incp
 		"ñeʼẽ" v iv pres
-"<..>"
-	".." sent
+"<.>"
+	"." sent
  
-
+# text = 
 "<Opaite>"
 	"opaite" adj ind
 "<neʼẽte>"
@@ -627,11 +629,10 @@ Avei, haʼe ñoite ojehechakuaáva ñeʼẽ teéramo peteĩ tetã Ñembyamérika
 "<ñandemanduʼa>"
 	"ñande" prn p1 pl 
 		"manduʼa" n 
-
 "<Augusto>"
 	"Augusto" np ant  
 "<Schleicher>"
-	"Schleicher" np ant 
+	"Schleicher" np ant @flat
 "<(>"
 	"(" lpar
 "<1821>"
@@ -648,8 +649,9 @@ Avei, haʼe ñoite ojehechakuaáva ñeʼẽ teéramo peteĩ tetã Ñembyamérika
 "<.>"
 	"." sent
 
+# text = Jaikuaaháicha, haʼe oheja avei hapykuere neʼẽkuaaty rembiasápe.
 "<Jaikuaaháicha>"
-	"Jaikuaaháicha" cnjcoo 
+	"jaikuaaháicha" cnjcoo 
 "<,>"
 	"," cm
 "<haʼe>"
@@ -665,10 +667,8 @@ Avei, haʼe ñoite ojehechakuaáva ñeʼẽ teéramo peteĩ tetã Ñembyamérika
 "<hapykuere>"
 	"h" prn pos p3 sg 
 		"tapykuere" n 
-
 "<neʼẽkuaaty>"
 	"neʼẽkuaaty" n
-
 "<rembiasápe>"
 	"r" det 
 		"tembiasa" n 
@@ -676,6 +676,7 @@ Avei, haʼe ñoite ojehechakuaáva ñeʼẽ teéramo peteĩ tetã Ñembyamérika
 "<.>"
 	"." sent
 
+# text = 
 "<Schleicher>"
 	"Schleicher" np ant 
 "<heʼíkuri>"
@@ -704,11 +705,8 @@ Avei, haʼe ñoite ojehechakuaáva ñeʼẽ teéramo peteĩ tetã Ñembyamérika
 		"icha" comp
 "<:>"
 	":" sent
-"<.>"
-	"." sent
 
-    
-
+# text = 
 "<Ñeʼẽnguéra>"
 	"ñeʼẽ" n
 		"kuéra" pl
@@ -740,10 +738,8 @@ Avei, haʼe ñoite ojehechakuaáva ñeʼẽ teéramo peteĩ tetã Ñembyamérika
 	"oĩ" v iv pres
 "<chinañeʼẽ >"
 	"chinañeʼẽ " n 
-
 "<,>"
 	"," cm
-
 "<iñe'ẽpehẽteĩva>"
 	"i" prn pos p3 sg 
 		"ñe'ẽpehẽteĩ" v tv pres 
@@ -751,13 +747,14 @@ Avei, haʼe ñoite ojehechakuaáva ñeʼẽ teéramo peteĩ tetã Ñembyamérika
 	"iñe'ẽpehẽteĩva" adj 
 "<(>"
 	"(" lpar
-
-"<u>"
-	"u" barb 
- – 
+"<Fu>"
+	"Fu" barb 
+"<–>"
+	"–" punct` 
 "<Man>"
 	"Man" barb 
- – 
+"<–>"
+	"–" punct` 
 "<Chu>"
 	"Chu" barb 
 "<)>"
@@ -765,16 +762,15 @@ Avei, haʼe ñoite ojehechakuaáva ñeʼẽ teéramo peteĩ tetã Ñembyamérika
 "<.>"
 	"." sent
 
-    
-
+# text = Ñe'ẽnguéra iñe'ẽjoapykuaáva (lenguas aglutinantes), tuykiañe'ẽ guaicha, ombojoajúva ñe'ẽpehẽtai (afijo) ñe'ẽrapóre (raíz). 
 "<Ñeʼẽnguéra>"
 	"ñeʼẽ" n
 		"kuéra" pl
-"<iñe'ẽpehẽteĩva>"
+"<iñeʼẽpehẽteĩva>"
 	"i" prn pos p3 sg 
-		"ñe'ẽpehẽteĩ" v tv pres 
+		"ñeʼẽpehẽteĩ" v tv pres 
 			"va" subs dem 
-	"iñe'ẽpehẽteĩ" adj 		
+	"iñeʼẽpehẽteĩ" adj 		
 "<(>"
 	"(" lpar
 "<lenguas>"
@@ -787,7 +783,6 @@ Avei, haʼe ñoite ojehechakuaáva ñeʼẽ teéramo peteĩ tetã Ñembyamérika
 	"," cm
 "<tuykiañeʼẽ>"
 	"tuykiañeʼẽ" n 
-
 "<guaicha>"
 	"gua" post 
 		"icha" comp 
@@ -796,21 +791,15 @@ Avei, haʼe ñoite ojehechakuaáva ñeʼẽ teéramo peteĩ tetã Ñembyamérika
 "<ombojoajúva>"
 	"ombojoajúva" adj 
 "<ñeʼẽpehẽtai>" n 
-
 "<(>"
 	"(" lpar
-"<a>"
-	"a" v tv pres
-	"a" v iv pres
-
-"<fijo>"
-	"fijo" barb 
+"<afijo>"
+	"afijo" barb 
 "<)>"
 	")" rpar
 "<ñeʼẽrapóre>"
 	"ñeʼẽrapo" n 
 		"re" post 
-	"
 "<(>"
 	"(" lpar
 "<raíz>"
@@ -820,6 +809,7 @@ Avei, haʼe ñoite ojehechakuaáva ñeʼẽ teéramo peteĩ tetã Ñembyamérika
 "<.>"
 	"." sent
 
+# text = 
 "<Iporã>"
 	"Iporã" adj 
 	"Iporã" adv 
@@ -844,61 +834,57 @@ Avei, haʼe ñoite ojehechakuaáva ñeʼẽ teéramo peteĩ tetã Ñembyamérika
 "<(>"
 	"(" lpar
 "<n>"
-	"n"  neg 
+	"n" x 
 "<->"
 	"-" guio
 "<a>"
-	"a" v tv pres
-	"a" v iv pres
+	"a" x
 "<->"
 	"-" guio
-"<mbo>" incp 
-	"mbo"
+"<mbo>"
+	"mbo" x
 "<->"
 	"-" guio
 "<guata>"
-	"guata" v iv pres
+	"guata" x
 "<->"
 	"-" guio
 "<se>"
-	"se" v tv pres 
+	"se" x
 "<->"
 	"-" guio
 "<i>"
-	"i" neg 
+	"i" x 
 "<->"
 	"-" guio
 "<eté>"
-	"eté" adv 
+	"eté" x 
 "<->"
 	"-" guio
 "<pa>"
-	"pa" num
-	"pa" v iv pres
+	"pa" x 
+	"pa" x
 "<->"
 	"-" guio
 "<kuri>"
-	"kuri" n
+	"kuri" x
 "<)>"
 	")" rpar
 "<.>"
 	"." sent
 
-    
-
+# text = Ñe'ẽnguéra iñe'ẽrapoambuéva (lenguas de flexión), umi ñe'ẽte indoeuropeo-icha.  
 "<Ñeʼẽnguéra>"
 	"ñeʼẽ" n
 		"kuéra" pl
 "<iñeʼẽrapoambuéva>"
 	"iñeʼẽrapoambuéva" adj 
-
 "<(>"
 	"(" lpar
 "<lenguas>"
 	"lenguas" barb 
 "<de>"
 	"de" barb
-
 "<flexión>"
 	"flexión" barb 
 "<)>"
@@ -910,7 +896,6 @@ Avei, haʼe ñoite ojehechakuaáva ñeʼẽ teéramo peteĩ tetã Ñembyamérika
 "<ñeʼẽte>"
 	"ñeʼẽ" n 
 		"te" post 
-
 "<indoeuropeo>"
 	"indoeuropeo" barb 
 "<->"
@@ -920,14 +905,9 @@ Avei, haʼe ñoite ojehechakuaáva ñeʼẽ teéramo peteĩ tetã Ñembyamérika
 "<.>"
 	"." sent
 
-"<Ko>"
-	"ko" v tv pres
-	"ko" v iv pres
-	"ko" adj dem sg
-'
-"<ãvape>"
-	"ãva" n 
-		"pe" post 
+# text = Koʼãvape, ñeʼẽ iñambue iñeʼẽrapópemavoi karaiñeʼẽme ojehuháicha (camin/o, as, a, amos, áis, an).
+"<Koʼãvape>"
+	"*koʼãvape"
 "<,>"
 	"," cm
 "<ñeʼẽ>"
@@ -943,7 +923,6 @@ Avei, haʼe ñoite ojehechakuaáva ñeʼẽ teéramo peteĩ tetã Ñembyamérika
 	"karai" n 
 		"ñeʼẽ" n 
 			"pe" post 
-
 "<ojehuháicha>"
 	"ojehuha" adj 
 		"icha" comp 
@@ -962,8 +941,7 @@ Avei, haʼe ñoite ojehechakuaáva ñeʼẽ teéramo peteĩ tetã Ñembyamérika
 "<,>"
 	"," cm
 "<a>"
-	"a" v tv pres
-	"a" v iv pres
+	"a" barb
 "<,>"
 	"," cm
 "<amos>"
@@ -978,19 +956,17 @@ Avei, haʼe ñoite ojehechakuaáva ñeʼẽ teéramo peteĩ tetã Ñembyamérika
 	"an" barb 
 "<)>"
 	")" rpar
-"<..>"
-	".." sent
+"<.>"
+	"." sent
 
-
+# text = 
 "<Aipórõ>"
 	"Aipórõ" n 
 "<guarani>"
 	"guarani" n 
-
 "<ñeʼẽte>"
 	"ñeʼẽ" n 
 		"te" post 
-
 "<ija>"
 	"i" prn p3 sg 
 		"ja" v iv pres
@@ -998,7 +974,6 @@ Avei, haʼe ñoite ojehechakuaáva ñeʼẽ teéramo peteĩ tetã Ñembyamérika
 	"umi" adj dem pl
 "<iñeʼẽjoapykuaáva>"
 	"iñeʼẽjoapykuaava" adj  
-
 "<apytépe>"
 	"apytépe" post
 "<,>"
@@ -1015,7 +990,6 @@ Avei, haʼe ñoite ojehechakuaáva ñeʼẽ teéramo peteĩ tetã Ñembyamérika
 "<karaiñeʼẽgui>"
 	"karaiñeʼẽ" n 
 		"gui" post 
-
 "<oñemohendáva>"
 	"o" prn p3 sg 
 		"ñemohenda" v iv pres 
@@ -1032,6 +1006,7 @@ Avei, haʼe ñoite ojehechakuaáva ñeʼẽ teéramo peteĩ tetã Ñembyamérika
 "<.>"
 	"." sent
 
+# text = 
 "<Ko>"
 	"ko" v tv pres
 	"ko" v iv pres
@@ -1114,7 +1089,6 @@ Avei, haʼe ñoite ojehechakuaáva ñeʼẽ teéramo peteĩ tetã Ñembyamérika
 "<ñe’ẽtekuaa>"
 	"ñe’ẽte" incp 
 		"kuaa" v tv pres 
+"<.>"
+	"." sent
 
-"<..>"
-	".." sent
- 
