@@ -325,6 +325,11 @@ LEXICON N
 %<n%>: COMP ;
 %<n%>: INCP ;
 
+LEXICON NP-COG
+
+%<np%>%<cog%>: CASE ;
+
+
 LEXICON NP-TOP
 
 %<np%>%<top%>: CASE ;
@@ -354,11 +359,13 @@ LEXICON ProperNouns
 
 Paraguái:Paragu•ái NP-TOP ; ! "Paraguay"
 Paraguái:Paraguay NP-TOP ; ! "Paraguay" ! Dir/LR ! Err/Orth
+Paraguái:Paragu•áy NP-TOP ; ! "Paraguay" ! Dir/LR ! Err/Orth
 Uruguái:Urugu•ái NP-TOP ; 
 Volívia:Vol•ívia NP-TOP ; ! "Bolivia"
-Bolivia:Bolivia NP-TOP ;
+Volívia:Bolivia NP-TOP ; ! Dir/LR ! Err/Orth
+Volívia:Volivia NP-TOP ; ! Dir/LR ! Err/Orth
 Vrasil:Vrasil NP-TOP ; ! "Vrasil"
-Brasil:Brasil NP-TOP ; ! "Brasil"
+Vrasil:Brasil NP-TOP ; ! "Brasil" ! Dir/LR ! Err/Orth
 Argentina:Argentina NP-TOP ; ! "Argentina"
 Peru:Peru NP-TOP ; ! "Peru" ! Dir/LR ! Err/Orth
 Perũ:Perũ NP-TOP ; ! "Peru"    
@@ -377,6 +384,7 @@ Francia:Francia NP-TOP ;
 Europa:Europa NP-TOP ;
 Európa:Eur•ópa NP-TOP ; ! Dir/LR
 Asia:Asia NP-TOP ;
+Asia:Ásia NP-TOP ; ! Dir/LR ! Err/Orth
 Ayala:Ayala NP-TOP ;
 Estados% Unidos:Estados% Unidos NP-TOP ;
 Concepción:Concepci•ón NP-TOP ;
@@ -393,10 +401,13 @@ Méhiko:Méhiko NP-TOP ;
 Salvador:Salvador NP-TOP ;
 Flores:Flores NP-TOP ;
 Áfrika:Áfrika NP-TOP ;
+Áfrika:Afrika NP-TOP ; ! Dir/LR ! Err/Orth
 Italia:Italia NP-TOP ;
+Italia:It•ália NP-TOP ; ! Dir/LR ! Err/Orth
 
 Suasilándia:Suasil•ándia NP-TOP ; 
 Venesuéla:Venesu•éla NP-TOP ; 
+Venesuéla:Venezuela NP-TOP ;  ! Dir/LR ! Err/Orth
 
 Alaska:Alaska NP-TOP ; ! ""
 Alberta:Alberta NP-TOP ; ! ""
@@ -516,6 +527,146 @@ Tupãsy:Tupãsy NP-ANT ; ! "virgen María"
 Pérez:Pérez NP-ANT ;
 Martínez:Martínez NP-ANT ;
 Vito:Vito NP-ANT ;
+
+Correa:Correa NP-COG ; ! ""
+García:García NP-COG ; ! ""
+Olivera:Olivera NP-COG ; ! ""
+Ferreira:Ferreira NP-COG ; ! ""
+Bautista:Bautista NP-COG ; ! ""
+Simpson:Simpson NP-COG ; ! ""
+Franco:Franco NP-COG ; ! ""
+Velasco:Velasco NP-COG ; ! ""
+Aquino:Aquino NP-COG ; ! ""
+Guerrero:Guerrero NP-COG ; ! ""
+Bareiro:Bareiro NP-COG ; ! ""
+Alonso:Alonso NP-COG ; ! ""
+Escobar:Escobar NP-COG ; ! ""
+Stroessner:Stroessner NP-COG ; ! ""
+Pastor:Pastor NP-COG ; ! ""
+Rojas:Rojas NP-COG ; ! ""
+Torres:Torres NP-COG ; ! ""
+Cervantes:Cervantes NP-COG ; ! ""
+Hayes:Hayes NP-COG ; ! ""
+Ríos:Ríos NP-COG ; ! ""
+Santos:Santos NP-COG ; ! ""
+Díaz:Díaz NP-COG ; ! ""
+Fernández:Fernández NP-COG ; ! ""
+Gómez:Gómez NP-COG ; ! ""
+Giménez:Giménez NP-COG ; ! ""
+Núñez:Núñez NP-COG ; ! ""
+Benítez:Benítez NP-COG ; ! ""
+Ortiz:Ortiz NP-COG ; ! ""
+Cruz:Cruz NP-COG ; ! ""
+
+Norteamérica:Norteamérica NP-TOP ; ! ""
+Holanda:Holanda NP-TOP ; ! ""
+Korea:Korea NP-TOP ; ! ""
+Gámbia:Gámbia NP-TOP ; ! ""
+Índia:Índia NP-TOP ; ! ""
+Bahía:Bahía NP-TOP ; ! ""
+Alemania:Alemania NP-TOP ; ! ""
+Siria:Siria NP-TOP ; ! ""
+Victoria:Victoria NP-TOP ; ! ""
+Indonésia:Indonésia NP-TOP ; ! ""
+Rrusia:Rrusia NP-TOP ; ! ""
+Rrúsia:Rrúsia NP-TOP ; ! ""
+Yvateamérika:Yvateamérika NP-TOP ; ! ""
+Afrika:Afrika NP-TOP ; ! ""
+Afrika:Afrika NP-TOP ; ! ""
+Yvyafrika:Yvyafrika NP-TOP ; ! ""
+Villarrika:Villarrika NP-TOP ; ! ""
+Alcalá:Alcalá NP-TOP ; ! ""
+Guatemala:Guatemala NP-TOP ; ! ""
+Montana:Montana NP-TOP ; ! ""
+Alemaña:Alemaña NP-TOP ; ! ""
+Epaña:Epaña NP-TOP ; ! ""
+Inglaterra:Inglaterra NP-TOP ; ! ""
+Ingyaterra:Ingyaterra NP-TOP ; ! ""
+Trinidad:Trinidad NP-TOP ; ! ""
+Springfield:Springfield NP-TOP ; ! ""
+Ñembyamérikape:Ñembyamérikape NP-TOP ; ! ""
+Duarte:Duarte NP-TOP ; ! ""
+Mali:Mali NP-TOP ; ! ""
+York:York NP-TOP ; ! ""
+Portugal:Portugal NP-TOP ; ! ""
+Israel:Israel NP-TOP ; ! ""
+León:León NP-TOP ; ! ""
+México:México NP-TOP ; ! ""
+Colorado:Colorado NP-TOP ; ! ""
+Oviedo:Oviedo NP-TOP ; ! ""
+Kongo:Kongo NP-TOP ; ! ""
+Marruéko:Marruéko NP-TOP ; ! ""
+Ekuator:Ekuator NP-TOP ; ! ""
+Londres:Londres NP-TOP ; ! ""
+Cáceres:Cáceres NP-TOP ; ! ""
+Uruguay:Uruguay NP-TOP ; ! ""
+
+
+Miranda:Miranda NP-ANT ; ! ""
+India:India NP-ANT ; ! ""
+Maria:Maria NP-ANT ; ! ""
+Victoria:Victoria NP-ANT ; ! ""
+Ana:Ana NP-ANT ; ! ""
+Marina:Marina NP-ANT ; ! ""
+Lara:Lara NP-ANT ; ! ""
+Elisa:Elisa NP-ANT ; ! ""
+Rosa:Rosa NP-ANT ; ! ""
+David:David NP-ANT ; ! ""
+Jorge:Jorge NP-ANT ; ! ""
+Felipe:Felipe NP-ANT ; ! ""
+Hannah:Hannah NP-ANT ; ! ""
+Rafael:Rafael NP-ANT ; ! ""
+Isabel:Isabel NP-ANT ; ! ""
+Fidel:Fidel NP-ANT ; ! ""
+Gabriel:Gabriel NP-ANT ; ! ""
+Paul:Paul NP-ANT ; ! ""
+William:William NP-ANT ; ! ""
+Julián:Julián NP-ANT ; ! ""
+John:John NP-ANT ; ! ""
+Benjamín:Benjamín NP-ANT ; ! ""
+Martín:Martín NP-ANT ; ! ""
+Agustín:Agustín NP-ANT ; ! ""
+Joaquín:Joaquín NP-ANT ; ! ""
+Encarnación:Encarnación NP-ANT ; ! ""
+Ramón:Ramón NP-ANT ; ! ""
+Nelson:Nelson NP-ANT ; ! ""
+Alfredo:Alfredo NP-ANT ; ! ""
+Guido:Guido NP-ANT ; ! ""
+Ricardo:Ricardo NP-ANT ; ! ""
+Bernardo:Bernardo NP-ANT ; ! ""
+Eduardo:Eduardo NP-ANT ; ! ""
+Adolfo:Adolfo NP-ANT ; ! ""
+Hugo:Hugo NP-ANT ; ! ""
+Eusebio:Eusebio NP-ANT ; ! ""
+Ignacio:Ignacio NP-ANT ; ! ""
+Mauricio:Mauricio NP-ANT ; ! ""
+Fulgencio:Fulgencio NP-ANT ; ! ""
+Emilio:Emilio NP-ANT ; ! ""
+Julio:Julio NP-ANT ; ! ""
+Arsenio:Arsenio NP-ANT ; ! ""
+Silvio:Silvio NP-ANT ; ! ""
+Pablo:Pablo NP-ANT ; ! ""
+Paulo:Paulo NP-ANT ; ! ""
+Galeano:Galeano NP-ANT ; ! ""
+Emiliano:Emiliano NP-ANT ; ! ""
+Mariano:Mariano NP-ANT ; ! ""
+Bernardino:Bernardino NP-ANT ; ! ""
+Hesukirito:Hesukirito NP-ANT ; ! ""
+Alberto:Alberto NP-ANT ; ! ""
+Roberto:Roberto NP-ANT ; ! ""
+Ernesto:Ernesto NP-ANT ; ! ""
+Augusto:Augusto NP-ANT ; ! ""
+Oscar:Oscar NP-ANT ; ! ""
+Pilar:Pilar NP-ANT ; ! ""
+Gaspar:Gaspar NP-ANT ; ! ""
+Víctor:Víctor NP-ANT ; ! ""
+Nicolás:Nicolás NP-ANT ; ! ""
+Tomás:Tomás NP-ANT ; ! ""
+Andrés:Andrés NP-ANT ; ! ""
+Marcos:Marcos NP-ANT ; ! ""
+Jesús:Jesús NP-ANT ; ! ""
+Miley:Miley NP-ANT ; ! ""
+
 
 LEXICON DemAdjectives
 
@@ -4272,6 +4423,24 @@ los:los BARB ;
 el:el BARB ; 
 las:las BARB ; 
 por:por BARB ; 
+
+aeropuerto:aeropuerto BARB ; ! ""
+asociación:asociación BARB ; ! ""
+catedral:catedral BARB ; ! ""
+diccionario:diccionario BARB ; ! ""
+distrito:distrito BARB ; ! ""
+ejecutivo:ejecutivo BARB ; ! ""
+fútbol:fútbol BARB ; ! ""
+hacienda:hacienda BARB ; ! ""
+independencia:independencia BARB ; ! ""
+lengua:lengua BARB ; ! ""
+lengua:lengua BARB ; ! ""
+literatura:literatura BARB ; ! ""
+ministerio:ministerio BARB ; ! ""
+palacio:palacio BARB ; ! ""
+república:república BARB ; ! ""
+the:the BARB ; ! ""
+universidad:universidad BARB ; ! ""
 
 LEXICON Abbreviações
 
