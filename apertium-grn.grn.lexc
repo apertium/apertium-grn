@@ -229,8 +229,9 @@ LEXICON PosTriform
 h%<prn%>%<pos%>%+:h%{t%} POST-Triformes ;
 
 LEXICON Postpositions
-hagua:hagua POST ; ! "para"
-hagua:hag̃ua POST ; ! "para" ! Dir/LR
+haguã:haguã POST ; ! "para"
+haguã:hag̃ua POST ; ! "para" ! Dir/LR
+haguã:hagua POST ; ! "para" ! Dir/LR
 hague:hague POST ; ! "que, donde"
 haguéicha:haguéicha POST ; ! ""
 hag̃uáicha:hag̃uáicha POST ; ! ""  
@@ -268,6 +269,7 @@ rekávo:rekávo POST ; ! ""
 rendápe:rendápe POST ; ! "junto a"
 rovake:rovake POST ; ! "delante de"
 vove:vove POST ; ! ""
+kuéra:kuéra POST ; ! "muchos" 
 
 
 LEXICON POST
@@ -587,8 +589,9 @@ LEXICON IMP
 
 LEXICON MODES-AUX 
 hikuái%<aux%>%<impf%>%<p3%>%<pl%>:hikuái # ;
-vaʼekue%<pmp%>:vaʼekue # ;
-vaʼerã%<fti%>:vaʼerã # ;
+vaʼekue%<aux%>%<pmp%>:vaʼekue # ;
+vaʼerã%<aux%>%<fti%>:vaʼerã # ;
+hína%<aux%>%<impf%>%<p3%>%<sg%>:hína # ;
 
 LEXICON MODES 
 %+se%<vol%>:%>%se # ;
@@ -782,50 +785,53 @@ po%<prn%>%<pro%>%<p2%>%<pl%>%<acc%>%+:%>po AirealesTv ;
 
 
 LEXICON IrrVerbs
-haʼe%<v%>%<iv%>%<p1%>%<sg%>%<pres%>:haʼe # ; ! digo 
-ere%<v%>%<iv%>%<p2%>%<sg%>%<pres%>:ere # ; ! dices
-heʼi%<v%>%<iv%>%<p3%>%<sg%>%<pres%>:heʼi # ; ! dice 
-jaʼe%<v%>%<iv%>%<p1%>%<pl%>%<pres%>:jaʼe # ; ! decimos 
-roʼe%<v%>%<iv%>%<p1%>%<pl%>%<pres%>:roʼe # ; ! decimos 
-peje%<v%>%<iv%>%<p2%>%<pl%>%<pres%>:peje # ; ! decis 
-heʼi%<v%>%<iv%>%<p3%>%<pl%>%<pres%>:heʼi # ; ! dicen 
+haʼe%<v%>%<iv%>%<p1%>%<sg%>%<pres%>:haʼe IRR-INFL ; ! digo 
+ere%<v%>%<iv%>%<p2%>%<sg%>%<pres%>:ere IRR-INFL ; ! dices
+heʼi%<v%>%<iv%>%<p3%>%<sg%>%<pres%>:heʼi IRR-INFL ; ! dice 
+jaʼe%<v%>%<iv%>%<p1%>%<pl%>%<pres%>:jaʼe IRR-INFL ; ! decimos 
+roʼe%<v%>%<iv%>%<p1%>%<pl%>%<pres%>:roʼe IRR-INFL ; ! decimos 
+peje%<v%>%<iv%>%<p2%>%<pl%>%<pres%>:peje IRR-INFL ; ! decis 
+heʼi%<v%>%<iv%>%<p3%>%<pl%>%<pres%>:heʼi IRR-INFL ; ! dicen 
 
-haʼe%<v%>%<iv%>%<p1%>%<sg%>%<pres%>:haʼe VerbsNegSuf ; ! digo 
-ere%<v%>%<iv%>%<p2%>%<sg%>%<pres%>:ere VerbsNegSuf ; ! dices
-heʼi%<v%>%<iv%>%<p3%>%<sg%>%<pres%>:heʼi VerbsNegSuf ; ! dice 
-jaʼe%<v%>%<iv%>%<p1%>%<pl%>%<pres%>:jaʼe VerbsNegSuf ; ! decimos 
-roʼe%<v%>%<iv%>%<p1%>%<pl%>%<pres%>:roʼe VerbsNegSuf ; ! decimos 
-peje%<v%>%<iv%>%<p2%>%<pl%>%<pres%>:peje VerbsNegSuf ; ! decis 
-heʼi%<v%>%<iv%>%<p3%>%<pl%>%<pres%>:heʼi VerbsNegSuf ; ! dicen
+aju%<v%>%<iv%>%<p1%>%<sg%>%<pres%>:aju IRR-INFL ; ! vengo
+reju%<v%>%<iv%>%<p2%>%<sg%>%<pres%>:reju IRR-INFL ; ! vienes 
+ou%<v%>%<iv%>%<p2%>%<sg%>%<pres%>:ou IRR-INFL ; ! viene 
+jaju%<v%>%<iv%>%<p1%>%<pl%>%<pres%>:jaju IRR-INFL ; ! venimos 
+roju%<v%>%<iv%>%<p1%>%<pl%>%<pres%>:roju IRR-INFL ; ! venimos 
+peju%<v%>%<iv%>%<p2%>%<pl%>%<pres%>:peju IRR-INFL ; ! venis 
+ou%<v%>%<iv%>%<p3%>%<pl%>%<pres%>:ou IRR-INFL ; ! vienen
 
-aju%<v%>%<iv%>%<p1%>%<sg%>%<pres%>:aju # ; ! vengo
-reju%<v%>%<iv%>%<p2%>%<sg%>%<pres%>:reju # ; ! vienes 
-ou%<v%>%<iv%>%<p2%>%<sg%>%<pres%>:ou # ; ! viene 
-jaju%<v%>%<iv%>%<p1%>%<pl%>%<pres%>:jaju # ; ! venimos 
-roju%<v%>%<iv%>%<p1%>%<pl%>%<pres%>:roju # ; ! venimos 
-peju%<v%>%<iv%>%<p2%>%<pl%>%<pres%>:peju # ; ! venis 
-ou%<v%>%<iv%>%<p3%>%<pl%>%<pres%>:ou # ; ! vienen
+aha%<v%>%<iv%>%<p1%>%<sg%>%<pres%>:aha IRR-INFL ; ! voy 
+reho%<v%>%<iv%>%<p2%>%<sg%>%<pres%>:reho IRR-INFL ; ! vas 
+oho%<v%>%<iv%>%<p3%>%<sg%>%<pres%>:oho IRR-INFL ; ! va
+jaha%<v%>%<iv%>%<p1%>%<pl%>%<pres%>:jaha IRR-INFL ; ! vamos 
+roho%<v%>%<iv%>%<p1%>%<pl%>%<pres%>:roho IRR-INFL ; ! vamos 
+peho%<v%>%<iv%>%<p2%>%<pl%>%<pres%>:peho IRR-INFL ; ! vais 
 
-aha%<v%>%<iv%>%<p1%>%<sg%>%<pres%>:aha # ; ! voy 
-reho%<v%>%<iv%>%<p2%>%<sg%>%<pres%>:reho # ; ! vas 
-oho%<v%>%<iv%>%<p3%>%<sg%>%<pres%>:oho # ; ! va
-jaha%<v%>%<iv%>%<p1%>%<pl%>%<pres%>:jaha # ; ! vamos 
-roho%<v%>%<iv%>%<p1%>%<pl%>%<pres%>:roho # ; ! vamos 
-peho%<v%>%<iv%>%<p2%>%<pl%>%<pres%>:peho # ; ! vais 
+haʼu%<v%>%<tv%>%<p1%>%<sg%>%<pres%>:haʼu IRR-INFL ; ! como 
+reʼu%<v%>%<tv%>%<p2%>%<sg%>%<pres%>:reʼu IRR-INFL ; ! comes 
+hoʼu%<v%>%<tv%>%<p3%>%<sg%>%<pres%>:hoʼu IRR-INFL ; ! come 
+jaʼu%<v%>%<tv%>%<p1%>%<pl%>%<pres%>:jaʼu IRR-INFL ; ! comemos 
+roʼu%<v%>%<tv%>%<p1%>%<pl%>%<pres%>:roʼu IRR-INFL ; ! comemos
+peʼu%<v%>%<tv%>%<p2%>%<pl%>%<pres%>:peʼu IRR-INFL ; ! comeis 
 
-haʼu%<v%>%<tv%>%<p1%>%<sg%>%<pres%>:haʼu # ; ! como 
-reʼu%<v%>%<tv%>%<p2%>%<sg%>%<pres%>:reʼu # ; ! comes 
-hoʼu%<v%>%<tv%>%<p3%>%<sg%>%<pres%>:hoʼu # ; ! come 
-jaʼu%<v%>%<tv%>%<p1%>%<pl%>%<pres%>:jaʼu # ; ! comemos 
-roʼu%<v%>%<tv%>%<p1%>%<pl%>%<pres%>:roʼu # ; ! comemos
-peʼu%<v%>%<tv%>%<p2%>%<pl%>%<pres%>:peʼu # ; ! comeis 
+hayʼu%<v%>%<tv%>%<p1%>%<sg%>%<pres%>:hayʼu IRR-INFL ; ! bebe 
+reyʼu%<v%>%<tv%>%<p2%>%<sg%>%<pres%>:reyʼu IRR-INFL ; ! bebes 
+hoyʼu%<v%>%<tv%>%<p3%>%<sg%>%<pres%>:hoyʼu IRR-INFL ; ! bebe 
+jayʼu%<v%>%<tv%>%<p1%>%<pl%>%<pres%>:jayʼu IRR-INFL ; ! bebemos 
+royʼu%<v%>%<tv%>%<p1%>%<pl%>%<pres%>:royʼu IRR-INFL ; ! bebemos
+peyʼu%<v%>%<tv%>%<p2%>%<pl%>%<pres%>:peyʼu IRR-INFL ; ! bebeis  
 
-hayʼu%<v%>%<tv%>%<p1%>%<sg%>%<pres%>:hayʼu # ; ! bebe 
-reyʼu%<v%>%<tv%>%<p2%>%<sg%>%<pres%>:reyʼu # ; ! bebes 
-hoyʼu%<v%>%<tv%>%<p3%>%<sg%>%<pres%>:hoyʼu # ; ! bebe 
-jayʼu%<v%>%<tv%>%<p1%>%<pl%>%<pres%>:jayʼu # ; ! bebemos 
-royʼu%<v%>%<tv%>%<p1%>%<pl%>%<pres%>:royʼu # ; ! bebemos
-peyʼu%<v%>%<tv%>%<p2%>%<pl%>%<pres%>:peyʼu # ; ! bebeis  
+LEXICON IRR-INFL 
+
+DEM-PRN-PL ;
+DEM-PRN-SG ;
+VerbsNegSuf ;
+# ;
+PAST ;
+FUT ;
+IMP ;
+MODES ;
 
 
 
