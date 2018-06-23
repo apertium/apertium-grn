@@ -232,7 +232,7 @@ LEXICON Postpositions
 hagua:hagua POST ; ! "para"
 hagua:hag̃ua POST ; ! "para" ! Dir/LR
 hague:hague POST ; ! "que, donde"
-haguéicha:haguéicha POST ; ! ""
+haguéicha:hagu•éicha POST ; ! ""
 hag̃uáicha:hag̃uáicha POST ; ! ""  
 ndive:ndive POST ; ! "con"
 ndive:ndie POST ; ! "con" ! Dir/LR 
@@ -245,10 +245,10 @@ pype:pype POST ; ! "dentro"
 pýpe:pýpe POST ; ! ""
 ipype:ipype POST ; ! "por dentro"
 hyepype:hyepype POST ; ! "adentro"
-apytépe:apytépe POST ; ! "en medio de"
+apytépe:apyt•épe POST ; ! "en medio de"
 guarã:guarã POST ; ! "para" 
 guarã:g̃uarã POST ; ! "para" ! Dir/LR 
-haguére:haguére POST ; ! "por" 
+haguére:hagu•ére POST ; ! "por" 
 rupi:rupi POST ; ! "por" 
 gotyo:gotyo POST ; ! "hacia"
 ngotyo:ngotyo POST ; ! "hacia" ! Dir/LR 
@@ -258,11 +258,11 @@ peve:meve POST ; ! "hasta" ! Ref/p.131
 retã:retã POST ; ! "de"
 piko:piko POST ; ! "interrogación"
 guare:guare POST ; ! "de"
-kuévo:kuévo POST ; ! "simultaneamente" 
-kupépe:kupépe POST ; ! "detrás de"
+kuévo:ku•évo POST ; ! "simultaneamente" 
+kupépe:kup•épe POST ; ! "detrás de"
 pópe:pópe POST ; ! ""
 rangue:rangue POST ; ! ""
-rapykuéri:rapykuéri POST ; ! ""
+rapykuéri:rapyku•éri POST ; ! ""
 reheʼỹ:reheʼỹ POST ; ! "sin"
 rekávo:rekávo POST ; ! ""
 rendápe:rendápe POST ; ! "junto a"
@@ -309,8 +309,8 @@ nde%<sup%>%+:%>n%{D%}e Adjectives ;
 
 LEXICON N-PL 
 
-%+kuéra%<pl%>:%>%{N%}%{K%}uéra # ;
-%+kuéra%<pl%>:%>%{N%}%{K%}uéra COMP ;
+%+kuéra%<pl%>:%>%{N%}%{K%}u•éra # ;
+%+kuéra%<pl%>:%>%{N%}%{K%}u•éra COMP ;
 
 LEXICON CC
 
@@ -371,7 +371,14 @@ Peru:Peru NP-TOP ; ! "Peru" ! Dir/LR ! Err/Orth
 Perũ:Perũ NP-TOP ; ! "Peru"    
 Chile:Chile NP-TOP ; ! "Chile"
 Rio:Rio NP-TOP ;
+Ciudad% del% Este:Ciudad% del% Este NP-TOP ; 
+Misiones:Misiones NP-TOP ;
+Rio% de% Janeiro:Rio% de% Janeiro NP-TOP ; 
+Nueva% York:Nueva% York NP-TOP ;
 Rio% Grande:Rio% Grande NP-TOP ;
+Rio% Grande% do% Sul:Rio% Grande% do% Sul NP-TOP ;
+Rio% Grande% do% Norte:Rio% Grande% do% Norte NP-TOP ;
+Santa% Catarina:Santa% Catarina NP-TOP ;
 España:España NP-TOP ;
 Amérika:Am•érika NP-TOP ;
 Amérika:Am•érica NP-TOP ; ! Dir/LR ! Err/Orth
@@ -397,7 +404,7 @@ Poytuga:Poytuga NP-TOP ;
 Parana:Parana NP-TOP ;
 Villarrica:Villarrica NP-TOP ;
 Puerto% Rico:Puerto% Rico NP-TOP ;
-Méhiko:Méhiko NP-TOP ;
+Méhiko:M•éhiko NP-TOP ;
 Salvador:Salvador NP-TOP ;
 Flores:Flores NP-TOP ;
 Áfrika:Áfrika NP-TOP ;
@@ -501,7 +508,7 @@ Washington:Washington NP-TOP ; ! ""
 Wisconsin:Wisconsin NP-TOP ; ! ""
 Wyoming:Wyoming NP-TOP ; ! ""
 
-José:José NP-ANT ;
+José:Jos•é NP-ANT ;
 Juan:Juan NP-ANT ;
 López:López NP-ANT ;
 Carlos:Carlos NP-ANT ;
@@ -511,7 +518,7 @@ María:María NP-ANT ;
 Antonio:Antonio NP-ANT ;
 Luis:Luis NP-ANT ;
 Hesu:Hesu NP-ANT ; 
-Félix:Félix NP-ANT ;
+Félix:F•élix NP-ANT ;
 Manuel:Manuel NP-ANT ;
 González:González NP-ANT ;
 Ayala:Ayala NP-ANT ;
@@ -524,7 +531,7 @@ Miguel:Miguel NP-ANT ;
 Cardozo:Cardozo NP-ANT ;
 Lorenzo:Lorenzo NP-ANT ;
 Tupãsy:Tupãsy NP-ANT ; ! "virgen María"
-Pérez:Pérez NP-ANT ;
+Pérez:P•érez NP-ANT ;
 Martínez:Martínez NP-ANT ;
 Vito:Vito NP-ANT ;
 
@@ -552,13 +559,13 @@ Santos:Santos NP-COG ; ! ""
 Díaz:Díaz NP-COG ; ! ""
 Fernández:Fernández NP-COG ; ! ""
 Gómez:Gómez NP-COG ; ! ""
-Giménez:Giménez NP-COG ; ! ""
+Giménez:Gim•énez NP-COG ; ! ""
 Núñez:Núñez NP-COG ; ! ""
 Benítez:Benítez NP-COG ; ! ""
 Ortiz:Ortiz NP-COG ; ! ""
 Cruz:Cruz NP-COG ; ! ""
 
-Norteamérica:Norteamérica NP-TOP ; ! ""
+Norteamérica:Norteam•érica NP-TOP ; ! ""
 Holanda:Holanda NP-TOP ; ! ""
 Korea:Korea NP-TOP ; ! ""
 Gámbia:Gámbia NP-TOP ; ! ""
@@ -567,10 +574,10 @@ Bahía:Bahía NP-TOP ; ! ""
 Alemania:Alemania NP-TOP ; ! ""
 Siria:Siria NP-TOP ; ! ""
 Victoria:Victoria NP-TOP ; ! ""
-Indonésia:Indonésia NP-TOP ; ! ""
+Indonésia:Indon•ésia NP-TOP ; ! ""
 Rrusia:Rrusia NP-TOP ; ! ""
 Rrúsia:Rrúsia NP-TOP ; ! ""
-Yvateamérika:Yvateamérika NP-TOP ; ! ""
+Yvateamérika:Yvateam•érika NP-TOP ; ! ""
 Afrika:Afrika NP-TOP ; ! ""
 Afrika:Afrika NP-TOP ; ! ""
 Yvyafrika:Yvyafrika NP-TOP ; ! ""
@@ -584,18 +591,19 @@ Inglaterra:Inglaterra NP-TOP ; ! ""
 Ingyaterra:Ingyaterra NP-TOP ; ! ""
 Trinidad:Trinidad NP-TOP ; ! ""
 Springfield:Springfield NP-TOP ; ! ""
-Ñembyamérikape:Ñembyamérikape NP-TOP ; ! ""
+Ñembyamérika:Ñembyam•érika NP-TOP ; ! ""
+Ñembyamérika:Ñemby% Am•érika NP-TOP ; ! "" ! Dir/LR ! Err/Orth
 Duarte:Duarte NP-TOP ; ! ""
 Mali:Mali NP-TOP ; ! ""
 York:York NP-TOP ; ! ""
 Portugal:Portugal NP-TOP ; ! ""
 Israel:Israel NP-TOP ; ! ""
 León:León NP-TOP ; ! ""
-México:México NP-TOP ; ! ""
+México:M•éxico NP-TOP ; ! ""
 Colorado:Colorado NP-TOP ; ! ""
 Oviedo:Oviedo NP-TOP ; ! ""
 Kongo:Kongo NP-TOP ; ! ""
-Marruéko:Marruéko NP-TOP ; ! ""
+Marruéko:Marru•éko NP-TOP ; ! ""
 Ekuator:Ekuator NP-TOP ; ! ""
 Londres:Londres NP-TOP ; ! ""
 Cáceres:Cáceres NP-TOP ; ! ""
@@ -662,7 +670,7 @@ Gaspar:Gaspar NP-ANT ; ! ""
 Víctor:Víctor NP-ANT ; ! ""
 Nicolás:Nicolás NP-ANT ; ! ""
 Tomás:Tomás NP-ANT ; ! ""
-Andrés:Andrés NP-ANT ; ! ""
+Andrés:Andr•és NP-ANT ; ! ""
 Marcos:Marcos NP-ANT ; ! ""
 Jesús:Jesús NP-ANT ; ! ""
 Miley:Miley NP-ANT ; ! ""
@@ -1015,7 +1023,7 @@ o%<prn%>%<pos%>%<p3%>%<sg%>%+:o%{P%} Nouns ;
 LEXICON Conjunctions 
 
 ha:ha CC ; ! "y"
-térã:térã CC ; ! "o"
+térã:t•érã CC ; ! "o"
 terã:terã CC ; ! "o" ! Dir\LR 
 katu:katu CC ; ! "pero"
 rupive:rupive CC ; ! "por causa de"
@@ -1062,22 +1070,22 @@ mbaʼépa%<prn%>%<itg%>:mbaʼ•épa # ; ! "qué"
 
 LEXICON PersonalPronouns
 
-ché%<prn%>%<pers%>%<p1%>%<sg%>:ché # ; ! "yo"
+ché%<prn%>%<pers%>%<p1%>%<sg%>:ch•é # ; ! "yo"
 ché%<prn%>%<pers%>%<p1%>%<sg%>:che # ; ! "yo" ! Dir/LR ! Err/Orth
-ndé%<prn%>%<pers%>%<p2%>%<sg%>:ndé # ; ! tú
+ndé%<prn%>%<pers%>%<p2%>%<sg%>:nd•é # ; ! tú
 haʼe%<prn%>%<pers%>%<p3%>%<sg%>:haʼe # ; ! "él, ella"
-ñandé%<prn%>%<pers%>%<p1%>%<incl%>%<pl%>:ñandé # ;
-ñandé%<prn%>%<pers%>%<p1%>%<incl%>%<pl%>:ñané # ; ! Dir/LR ! Ref/p.57
+ñandé%<prn%>%<pers%>%<p1%>%<incl%>%<pl%>:ñand•é # ;
+ñandé%<prn%>%<pers%>%<p1%>%<incl%>%<pl%>:ñan•é # ; ! Dir/LR ! Ref/p.57
 ñandé%<prn%>%<pers%>%<p1%>%<incl%>%<pl%>:ñane # ; ! Dir/LR ! Ref/p.57
-oré%<prn%>%<pers%>%<p1%>%<excl%>%<pl%>:oré # ;
+oré%<prn%>%<pers%>%<p1%>%<excl%>%<pl%>:or•é # ;
 peẽ%<prn%>%<pers%>%<p2%>%<pl%>:peẽ # ;
-haʼekuéra%<prn%>%<pers%>%<p3%>%<pl%>:haʼekuéra # ;
+haʼekuéra%<prn%>%<pers%>%<p3%>%<pl%>:haʼeku•éra # ;
 
 ! Dative 
-chéve%<prn%>%<pers%>%<p1%>%<sg%>%<dat%>:chéve # ;
-ndéve%<prn%>%<pers%>%<p2%>%<sg%>%<dat%>:ndéve # ;
-oréve%<prn%>%<pers%>%<p1%>%<pl%>%<dat%>:oréve # ;
-ñandéve%<prn%>%<pers%>%<p1%>%<pl%>%<dat%>:ñandéve #;
+chéve%<prn%>%<pers%>%<p1%>%<sg%>%<dat%>:ch•éve # ;
+ndéve%<prn%>%<pers%>%<p2%>%<sg%>%<dat%>:nd•éve # ;
+oréve%<prn%>%<pers%>%<p1%>%<pl%>%<dat%>:or•éve # ;
+ñandéve%<prn%>%<pers%>%<p1%>%<pl%>%<dat%>:ñand•éve #;
 peẽme%<prn%>%<pers%>%<p2%>%<pl%>%<dat%>:peẽme # ;
 
 LEXICON PossesivePronouns
@@ -1088,14 +1096,14 @@ imbaʼe%<prn%>%<pos%>%<p3%>%<sg%>:imbaʼe # ;
 ñanembaʼe%<prn%>%<pos%>%<p1%>%<pl%>:ñanembaʼe # ;
 orembaʼe%<prn%>%<pos%>%<p1%>%<pl%>:orembaʼe # ;
 penembaʼe%<prn%>%<pos%>%<p2%>%<pl%>:penembaʼe # ;
-imbaʼekuéra%<prn%>%<pos%>%<p3%>%<pl%>:imbaʼekuéra # ;
+imbaʼekuéra%<prn%>%<pos%>%<p3%>%<pl%>:imbaʼeku•éra # ;
 
 LEXICON IndefinitePronouns
 opavave%<prn%>%<ind%>:opavave # ; ! "todos"
 avave%<prn%>%<ind%>:avave # ; ! "nadie"
 oimeraẽva%<prn%>%<ind%>:oimeraẽva # ; ! "cualquier"
 peteĩ%<prn%>%<ind%>:peteĩ # ; ! "uno, una"
-ambuéva%<prn%>%<ind%>:ambuéva # ; ! "otro, otra"
+ambuéva%<prn%>%<ind%>:ambu•éva # ; ! "otro, otra"
 mbaʼeve%<prn%>%<ind%>:mbaʼeve # ; ! "nada"
 
 
@@ -1212,7 +1220,7 @@ remiarirõ:remiarirõ N ; ! "nieto"
 rovaja:rovaja N ; ! "cuñado"
 ru:ru N ; ! "padre"
 ryvy:ryvy N ; ! "hermano"
-rykéra:rykéra N ; ! "hermana mayor"
+rykéra:ryk•éra N ; ! "hermana mayor"
 ra’y:ra’y N ; ! "hijo" 
 rajy:rajy N ; ! "hija"
 rembireko:rembireko N ; ! "esposa"
@@ -1250,13 +1258,13 @@ embyranga:embyranga  N ; ! "hijastro, hijastra"
 uke’i:uke’i N ; ! "cuñada"
 kyvy:kyvy N ; ! "hermano"
 kypy’y:ypy’y N ; ! "hermana menor"
-pehenguekuéra:pehenguekuéra N ; ! "familia"
+pehenguekuéra:pehengueku•éra N ; ! "familia"
 pehẽngue:pehẽngue N ; ! "módulo, sección, parcela, fragmento, parte, pedazo"
 rayhuha:rayhuha N ; ! "amante"
 tuti:tuti N ; ! "tio, tia"
 tyvýra:tyvýra N ; ! "hermano menor"
 tykeʼýra:tykeʼýra  N ; !"hermano mayor"
-tykéra:tykéra N ; ! "hermana mayor"
+tykéra:tyk•éra N ; ! "hermana mayor"
 Tupãremimbou:Tupãremimbou N ; ! "ángel"
 achegety:achegety N ; ! "abecedario"
 aguara:aguara N ; ! "zorro"
@@ -1454,7 +1462,7 @@ huʼy:huʼy N ; ! "flecha"
 hyru:hyru N ; ! "envase"
 ijeheguíva:ijehegu•íva N ; ! "autonomía"
 ikaraietémava:ikaraiet•émava N ; ! "anciano"
-ikarapéva:ikarapéva N ; ! "enano"
+ikarapéva:ikarap•éva N ; ! "enano"
 imbohapýva:imbohap•ýva N ; ! "terna"
 imboriahuetéva:imboriahuet•éva N ; ! "indigente"
 inimbo:inimbo N ; ! "hilo"
@@ -1991,7 +1999,7 @@ po% moporãha:po% moporãha N ; ! "manicura"
 pochy:pochy N ; ! "rabioso, enojo, ira, indignación"
 poguasu:poguasu N ; ! "grueso"
 poguy:poguy N ; ! "mando, jurisdicción, dominio"
-poguyp•ópe:poguyp•ópe N ; ! "yugo"
+poguypópe:poguyp•ópe N ; ! "yugo"
 pohanohára:pohanoh•ára N ; ! "doctor"
 pohyikue:pohyikue N ; ! "kilo, onza"
 pohã:pohã N ; ! "medicina, remedio"
@@ -2374,7 +2382,7 @@ tyʼãi:tyʼãi N ; ! "gancho"
 táva:t•áva N ; ! "comunidad, municipio"
 táva% rehegua:táva% rehegua N ; ! "urbano"
 tãi:tãi N ; ! "diente, muela"
-tãinguéra:tãinguéra N ; ! "dentadura"
+tãinguéra:tãingu•éra N ; ! "dentadura"
 tãipohanohára:tãipohanoh•ára N ; ! "dentista"
 tãirekokuaa:tãirekokuaa N ; ! "odontología"
 tãiʼai:tãiʼai N ; ! "caries"
@@ -2731,7 +2739,7 @@ jekojoja:jekojoja V-IV ; ! "coexistir"
 jekuaa:jekuaa V-IV ; ! "conocerse,ser conocido"
 jepeʼe:jepeʼe V-IV ; ! "calentarse"
 jepoapi:jepoapi V-IV ; ! "confundirse,equivocarse"
-jepohéi:jepohéi V-IV ; ! "lavarse las manos"
+jepohéi:jepoh•éi V-IV ; ! "lavarse las manos"
 jepokuaa:jepokuaa V-IV ; ! "acostumbrarse"
 jeporu:jeporu V-IV ; ! "útil (ser)"
 jepyʼapy:jepyʼapy V-IV ; ! "sufrir,preocuparse"
@@ -4136,13 +4144,13 @@ ojejapokuaáva:ojejapokua•áva ADJ ; ! "factible"
 ojeroviáva:ojerovi•áva ADJ ; ! "optimista"
 ojojoguáva:ojojogu•áva ADJ ; ! "similar"
 ojejapóva:ojejap•óva ADJ ; ! "engreído"
-ojoykére:ojoykére ADJ ; ! "junto"
+ojoykére:ojoyk•ére ADJ ; ! "junto"
 ojuehegua:ojuehegua ADJ ; ! "recíproco, mutua"
 oka:oka ADJ ; ! "exterior"
 okambúva:okamb•úva ADJ ; ! "lactante, mamífero"
 okaraygua:okaraygua ADJ ; ! "campesino, rural"
 omanóva:oman•óva ADJ ; ! "muerto"
-ombaʼaposéva:ombaʼaposéva ADJ ; ! "laborioso"
+ombaʼaposéva:ombaʼapos•éva ADJ ; ! "laborioso"
 opaichagua:opaichagua ADJ ; ! "múltiple"
 oparupigua:oparupigua ADJ ; ! "universal"
 oporojukáva:oporojuk•áva ADJ ; ! "letal"
@@ -4277,7 +4285,7 @@ tymbajára:tymbaj•ára ADJ ; ! "ganadero"
 tysýi:tys•ýi ADJ ; ! "listado, lista"
 táva% rehegua:táva% rehegua ADJ ; ! "urbano"
 tãiguasu:tãiguasu ADJ ; ! "molar"
-téra% rehegua:téra% rehegua ADJ ; ! "nominal, onomástico"
+téra% rehegua:t•éra% rehegua ADJ ; ! "nominal, onomástico"
 vai:vai ADJ ; ! "feo, grave"
 vairasa:vairasa ADJ ; ! "pésimo"
 vaive:vaive ADJ ; ! "peor"
@@ -4338,7 +4346,7 @@ koʼápe:koʼ•ápe AD ; ! "acá, aquí"
 koʼẽrõ:koʼẽrõ AD ; ! "mañana" 
 koʼẽramo:koʼẽramo AD ; ! "mañana" 
 kuehe:kuehe AD ; ! "ayer" 
-kueheambuérõ:kueheambuérõ AD ; ! "antes de ayer"
+kueheambuérõ:kueheambu•érõ AD ; ! "antes de ayer"
 akokuehe:akokuehe AD ; ! "antes de ayer"
 mante:mante AD ; ! "solamente, únicamente"
 marõ:marõ AD ; ! "nunca" 
@@ -4372,7 +4380,7 @@ rasa:rasa AD ; ! "muy"
 raẽ:rãe AD ; ! "antes" 
 ramo:ramo AD ; ! "reciéntemente"
 ramo% jepe:ramo% jepe AD ; ! ""
-rire:rire AD ; ! "después"
+rire:rire AD ; ! "despu•és"
 sapyʼa:sapyʼa AD ; ! "súbitamente"
 tapykuépe:tapyku•épe AD ; ! "detrás, atrás"
 tuicha:tuicha AD ; ! "mucho"
@@ -4393,15 +4401,15 @@ péicha:p•éicha AD ; ! "de ese modo"
 upéicha:up•éicha AD ; ! "así"
 kóicha:k•óicha AD ; ! "así"
 kyvõ:kyvõ AD ; ! "aqui"  
-upéi:upéi AD ; ! "después"
+upéi:up•éi AD ; ! "después"
 
 moõ:moõ AD-ITG ; ! "dónde" 
 mamo:mamo AD-ITG ; ! "dónde"
 arakaʼe:arakaʼe AD-ITG ; ! "cuándo"
 mbaʼerã:mbaʼerã AD-ITG ; ! "para qué"
-mbaʼére:mbaʼére AD-ITG ; ! "por qué"
-mbaʼémbaʼéicha AD-ITG ; ! "cómo"
-mbaʼégui:mbaʼégui AD-ITG ; ! "por qué"
+mbaʼére:mbaʼ•ére AD-ITG ; ! "por qué"
+mbaʼémbaʼ•éicha AD-ITG ; ! "cómo"
+mbaʼégui:mbaʼ•égui AD-ITG ; ! "por qué"
 
 hẽe:hẽe AD ; ! "sí"
 avei:avei AD ; ! "incluso, también, además"
@@ -4418,14 +4426,17 @@ LEXICON Barbarismes
 
 del:del BARB ; 
 de:de BARB ; 
+do:do BARB ; 
 la:la BARB ; 
 los:los BARB ; 
 el:el BARB ; 
 las:las BARB ; 
 por:por BARB ; 
 
+norte:norte BARB ;
+sul:sul BARB ;
+
 aeropuerto:aeropuerto BARB ; ! ""
-asociación:asociación BARB ; ! ""
 catedral:catedral BARB ; ! ""
 diccionario:diccionario BARB ; ! ""
 distrito:distrito BARB ; ! ""
@@ -4434,13 +4445,31 @@ fútbol:fútbol BARB ; ! ""
 hacienda:hacienda BARB ; ! ""
 independencia:independencia BARB ; ! ""
 lengua:lengua BARB ; ! ""
-lengua:lengua BARB ; ! ""
 literatura:literatura BARB ; ! ""
-ministerio:ministerio BARB ; ! ""
 palacio:palacio BARB ; ! ""
 república:república BARB ; ! ""
 the:the BARB ; ! ""
 universidad:universidad BARB ; ! ""
+
+guerra:guerra BARB ; ! ""
+museo:museo BARB ; ! ""
+ministerio:ministerio BARB ;
+educación:educación BARB ; 
+economía:economía BARB ;
+historia:historia BARB ; 
+congreso:congreso BARB ;
+facultad:facultad BARB ;
+derecho:derecho BARB ;
+cultura:cultura BARB ; 
+justicia:justicia BARB ; 
+minas:minas BARB ; 
+obras:obras BARB ; 
+salud:salud BARB ; 
+
+! Para los sufijos en español que son particularmente productivos, y _no ambiguos_ en guaraní
+! podemos añadir algunas reglas que adivina la categoría
+<[a | b | c | d | e | f | g | h | i | j | l | m | n | o | p | q | r | s | t | u | v | x | y | z ]+ ( i ó n | i o n e s ) >  BARB ; ! Use/Circ
+
 
 LEXICON Abbreviações
 
