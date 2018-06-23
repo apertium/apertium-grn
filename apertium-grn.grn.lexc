@@ -66,6 +66,7 @@ Multichar_Symbols
 %<vol%>              ! Modo volitivo 
 %<nar%>              ! Modo narrativo 
 
+%<guess%>            ! Forma adivinada
 %<barb%>             ! Barbarisme
 %<abbr%>             ! Abbreviação
 %<sym%>              ! Símbolo
@@ -336,6 +337,11 @@ LEXICON NP-TOP
 
 LEXICON NP-ANT
 %<np%>%<ant%>: CASE ;
+
+LEXICON BARB-GUESS
+
+%<barb%>%<guess%>: # ; 
+
 
 LEXICON BARB 
 
@@ -4450,6 +4456,7 @@ palacio:palacio BARB ; ! ""
 república:república BARB ; ! ""
 the:the BARB ; ! ""
 universidad:universidad BARB ; ! ""
+ejército:ejército BARB ; ! ""
 
 guerra:guerra BARB ; ! ""
 museo:museo BARB ; ! ""
@@ -4468,7 +4475,7 @@ salud:salud BARB ;
 
 ! Para los sufijos en español que son particularmente productivos, y _no ambiguos_ en guaraní
 ! podemos añadir algunas reglas que adivina la categoría
-<[a | b | c | d | e | f | g | h | i | j | l | m | n | o | p | q | r | s | t | u | v | x | y | z ]+ ( i ó n | i o n e s ) >  BARB ; ! Use/Circ
+<[a | b | c | d | e | f | g | h | i | j | l | m | n | o | p | q | r | s | t | u | v | x | y | z ]+ ( i ó n | i o n e s ) >  BARB-GUESS ; ! Use/Circ
 
 
 LEXICON Abbreviações
