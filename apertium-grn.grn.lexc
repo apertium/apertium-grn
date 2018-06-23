@@ -340,7 +340,10 @@ LEXICON NP-ANT
 
 LEXICON BARB-GUESS
 
-%<barb%>%<guess%>: # ; 
+ión%<barb%>%<guess%>:ión # ; 
+iones%<barb%>%<guess%>:iones # ; 
+idad%<barb%>%<guess%>:idad # ; 
+idades%<barb%>%<guess%>:idades # ; 
 
 
 LEXICON BARB 
@@ -4455,13 +4458,11 @@ literatura:literatura BARB ; ! ""
 palacio:palacio BARB ; ! ""
 república:república BARB ; ! ""
 the:the BARB ; ! ""
-universidad:universidad BARB ; ! ""
 ejército:ejército BARB ; ! ""
 
 guerra:guerra BARB ; ! ""
 museo:museo BARB ; ! ""
 ministerio:ministerio BARB ;
-educación:educación BARB ; 
 economía:economía BARB ;
 historia:historia BARB ; 
 congreso:congreso BARB ;
@@ -4477,7 +4478,7 @@ salud:salud BARB ;
 ! podemos añadir algunas reglas que adivina la categoría.
 ! Una idea a más largo plazo sería extraer de un transductor de castellano las formas que no
 ! son ambiguas con qualquier forma en guaraní y añadir todas al léxico con la etiqueta <barb>
-<[a | b | c | d | e | f | g | h | i | j | l | m | n | o | p | q | r | s | t | u | v | x | y | z ]+ ( i ó n | i o n e s ) >  BARB-GUESS ; ! Use/Circ
+<[a | b | c | d | e | f | g | h | i | j | l | m | n | o | p | q | r | s | t | u | v | x | y | z ]+ >  BARB-GUESS ; ! Use/Circ
 
 
 LEXICON Abbreviações
