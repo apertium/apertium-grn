@@ -888,35 +888,32 @@
 # text[spa] = 
 # labels = incomplete
 "<Ñeʼẽnguéra>"
-	"ñeʼẽ" n
-		"kuéra" pl
+	"ñeʼẽ" n @nsubj #1->
+		"kuéra" det pl @det #2->1
 "<iñeʼẽrapoambuéva>"
-	"iñeʼẽrapoambuéva" adj 
+	"iñeʼẽrapoambuéva" adj @amod #3->1
 "<(>"
-	"(" lpar
+	"(" lpar @punct #4->5
 "<lenguas>"
-	"lenguas" barb 
+	"lenguas" barb @appos #5->1
 "<de>"
-	"de" barb
+	"de" barb @foreign #6->5
 "<flexión>"
-	"flexión" barb 
+	"flexión" barb @foreign #7->5
 "<)>"
-	")" rpar
+	")" rpar @punct #8->5
 "<,>"
-	"," cm
+	"," cm @punct #9->
 "<umi>"
-	"umi" adj dem pl
+	"umi" adj dem pl @amod #10->11
 "<ñeʼẽte>"
 	"ñeʼẽ" n 
-		"te" post 
-"<indoeuropeo>"
+		"te" post @case #12->11
+"<indoeuropeo-icha>"
 	"indoeuropeo" barb 
-"<->"
-	"-" guio
-"<icha>"
-	"icha" comp 
+		"icha" comp 
 "<.>"
-	"." sent
+	"." sent @punct #15->
 
 # text = Koʼãvape, ñeʼẽ iñambue iñeʼẽrapópemavoi karaiñeʼẽme ojehuháicha (camin/o, as, a, amos, áis, an).
 # text[spa] = 
