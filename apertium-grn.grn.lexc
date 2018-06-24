@@ -181,6 +181,7 @@ colegio:colegio N-ES ;
 arte:arte N-ES ;
 alianza:alianza N-ES ;
 turismo:turismo N-ES ;
+rromantisismo:rromantisismo N-ES ; 
 presidente:presidente N-ES ;
 metro:metro N-ES ;
 escuela:escuela N-ES ;
@@ -344,6 +345,7 @@ ión%<barb%>%<guess%>:ión # ;
 iones%<barb%>%<guess%>:iones # ; 
 idad%<barb%>%<guess%>:idad # ; 
 idades%<barb%>%<guess%>:idades # ; 
+ismo%<barb%>%<guess%>:ismo # ; 
 
 
 LEXICON BARB 
@@ -4478,7 +4480,7 @@ salud:salud BARB ;
 ! podemos añadir algunas reglas que adivina la categoría.
 ! Una idea a más largo plazo sería extraer de un transductor de castellano las formas que no
 ! son ambiguas con qualquier forma en guaraní y añadir todas al léxico con la etiqueta <barb>
-<[a | b | c | d | e | f | g | h | i | j | l | m | n | o | p | q | r | s | t | u | v | x | y | z ]+ >  BARB-GUESS ; ! Use/Circ
+<[a | b | c | d | e | f | g | h | i | j | l | m | n | o | p | q | r | s | t | u | ü | v | x | y | z ]+ >  BARB-GUESS ; ! Use/Circ
 
 
 LEXICON Abbreviações
