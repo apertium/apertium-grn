@@ -4507,6 +4507,9 @@ cm:cm ABBR ;
 
 N°:N° ABBR ; 
 °C:°C ABBR ;
+ºC:º% C ABBR ; ! Dir/LR
+ºC:ºC ABBR ;
+
 
 LEXICON Symbols 
 
@@ -4551,3 +4554,5 @@ LEXICON DIGITLEX
 
 %<num%>: # ;
 %<num%>:%- CASE-NONOM  ;
+%<num%>%+pe%<post%>:%-me # ; ! FIXME: Hay que tratar palabras como 1906-me, 1866-me, etc.
+
