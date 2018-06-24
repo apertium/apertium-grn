@@ -274,6 +274,7 @@ rovake:rovake POST ; ! "delante de"
 vove:vove POST ; ! ""
 kuéra:kuéra POST ; ! "muchos" 
 gui:gui POST ; ! "de" 
+gua:gua POST ; ! ""
 
 
 LEXICON POST
@@ -1956,6 +1957,7 @@ narã:narã N ; ! "naranja"
 nupãha:nupãha N ; ! "mazo"
 ñeʼẽ:ñeʼẽ N ; ! "lenguaje, palabra"
 ñembohéra:ñemboh•éra N ; ! "designación"
+ñemby:ñemby N ; ! "districto"
 ogaguasu:ogaguasu N ; ! "mansión"
 ogaguy:ogaguy N ; ! "zaguán, galería"
 ogahoja:ogahoja N ; ! "techo"
@@ -4454,7 +4456,9 @@ la:la BARB ;
 los:los BARB ; 
 el:el BARB ; 
 las:las BARB ; 
-por:por BARB ; 
+por:por BARB ;
+en:en BARB ;
+do:do ;
 
 norte:norte BARB ;
 sul:sul BARB ;
