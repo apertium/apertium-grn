@@ -69,9 +69,9 @@ Rules
 
 "Change vowel before atonal suffixes"
 Va:Vt <=> _ %>: [m: a: | n: t: e: | i: c: h: a: | %{m%}: e: | g: u: i: | r: e: | m: i:|
-                 k: u: r: i: | t: a: | r: a: ʼ: e: | n: e: | n: i: k: o:] ;
+                 k: u: r: i: | t: a: | r: a: ʼ: e: | n: e: | n: i: k: o:| v: a:] ;
             [Cns: | VowsAton: | Nas: | ʼ: ]+ _ %>: %{r%}: ;
-            _ %{o%}: [v: | a:] ;
+            _ %{o%}: %>: [v: | a:] ;
             except
             [VowsTon:] [ Cns: | VowsAton: |Nas:]+ _ %>: [m: a: | n: t: e: | i: c: h: a:|v: | a: | %{m%}: e:] ;
             where Va in ( a e o u y ) 
@@ -79,7 +79,7 @@ Va:Vt <=> _ %>: [m: a: | n: t: e: | i: c: h: a: | %{m%}: e: | g: u: i: | r: e: |
 
 "Change i to tonal before atonal suffixes"
 i:í <=>  _ %>: [m: a: | n: t: e:| p: e:] ;
-        _ %{o%}: [v: | a:] ; 
+        _ %{o%}: %>: [v: | a:] ; 
 
 ! NOTE: The i--í is taken care of by another rule, to avoid conflict with i:0
 

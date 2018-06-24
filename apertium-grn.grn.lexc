@@ -236,7 +236,8 @@ haguã:hag̃ua POST ; ! "para" ! Dir/LR
 haguã:hagua POST ; ! "para" ! Dir/LR
 hague:hague POST ; ! "que, donde"
 haguéicha:hagu•éicha POST ; ! ""
-hag̃uáicha:hag̃uáicha POST ; ! ""  
+hag̃uáicha:hag̃uáicha POST ; ! "" 
+hese:hese POST ; ! "por el, por ella, le" 
 ndive:ndive POST ; ! "con"
 ndive:ndie POST ; ! "con" ! Dir/LR 
 pegua:pegua POST ; ! "de"
@@ -272,6 +273,7 @@ rendápe:rendápe POST ; ! "junto a"
 rovake:rovake POST ; ! "delante de"
 vove:vove POST ; ! ""
 kuéra:kuéra POST ; ! "muchos" 
+gui:gui POST ; ! "de" 
 
 
 LEXICON POST
@@ -762,6 +764,7 @@ hikuái%<aux%>%<impf%>%<p3%>%<pl%>:hikuái # ;
 vaʼekue%<aux%>%<pmp%>:vaʼekue # ;
 vaʼerã%<aux%>%<fti%>:vaʼerã # ;
 hína%<aux%>%<impf%>%<p3%>%<sg%>:hína # ;
+niko%<aux%>%<nar%>:niko # ;
 
 LEXICON MODES 
 %+se%<vol%>:%>%se # ;
@@ -827,8 +830,8 @@ je%<pass%>%+:%>%{J%}e%{P%} VerbsAgr ;
 jo%<recip%>%+:%>%{J%}o%{P%} VerbsAgr ;
 mbo%<coop%>%+:%>m%{b%}o%{P%} VerbsAgr ;
 mby%<coop%>%+:%>m%{b%}y%{P%} VerbsAgr ;
-ro%<obj%>%+:%>ro%{P%} VerbsAgr ;
-guero%<obj%>%+:%>guero%{P%} VerbsAgr ;
+ro%<prn%>%<obj%>%<p3%>%<sg%>%+:%>ro%{P%} VerbsAgr ;
+guero%<prn%>%<obj%>%<p3%>%<sg%>%+:%>guero%{P%} VerbsAgr ;
 poro%<sub%>%+:%>poro%{P%} VerbsAgr ;
 mbaʼe%<sub%>%+:%>mbaʼe%{P%} VerbsAgr ;
 
@@ -1090,10 +1093,11 @@ ché%<prn%>%<pers%>%<p1%>%<sg%>:ch•é # ; ! "yo"
 ché%<prn%>%<pers%>%<p1%>%<sg%>:che # ; ! "yo" ! Dir/LR ! Err/Orth
 ndé%<prn%>%<pers%>%<p2%>%<sg%>:nd•é # ; ! tú
 haʼe%<prn%>%<pers%>%<p3%>%<sg%>:haʼe # ; ! "él, ella"
-ñandé%<prn%>%<pers%>%<p1%>%<incl%>%<pl%>:ñand•é # ;
-ñandé%<prn%>%<pers%>%<p1%>%<incl%>%<pl%>:ñan•é # ; ! Dir/LR ! Ref/p.57
-ñandé%<prn%>%<pers%>%<p1%>%<incl%>%<pl%>:ñane # ; ! Dir/LR ! Ref/p.57
-oré%<prn%>%<pers%>%<p1%>%<excl%>%<pl%>:or•é # ;
+ñandé%<prn%>%<pers%>%<p1%>%<pl%>:ñand•é # ;
+ñandé%<prn%>%<pers%>%<p1%>%<pl%>:ñan•é # ; ! Dir/LR ! Ref/p.57
+ñandé%<prn%>%<pers%>%<p1%>%<pl%>:ñane # ; ! Dir/LR ! Ref/p.57
+oré%<prn%>%<pers%>%<p1%>%<pl%>:or•é # ;
+oré%<prn%>%<pers%>%<p1%>%<pl%>:ore # ; ! Dir/LR
 peẽ%<prn%>%<pers%>%<p2%>%<pl%>:peẽ # ;
 haʼekuéra%<prn%>%<pers%>%<p3%>%<pl%>:haʼeku•éra # ;
 
@@ -2898,6 +2902,7 @@ páy:p•áy V-IV ; ! "despertar"
 pẽ:pẽ V-IV ; ! "romperse (en)"
 rambi:rambi V-IV ; ! "dormitar"
 rambosa:rambosa V-IV ; ! "almorzar,desayunar"
+
 rombyasy:rombyasy V-IV ; ! "sentir,lamentar"
 ropyhare:ropyhare V-IV ; ! "pasar la tarde (hacer)"
 rovia:rovia V-IV ; ! "creer"
@@ -3753,6 +3758,7 @@ tendyvaʼo:tendyvaʼo V ; ! "afeitar"
 terahai:terahai V ; ! "inscribir"
 tesaiteʼo:tesaiteʼo V ; ! "domar"
 tesarái:tesar•ái V ; ! "olvidar, olvido"
+tesarái:hesar•ái V ; ! "olvidar, olvido" ! Dir/LR
 tesãijey:tesãijey V ; ! "restablecer"
 tetemokangy:tetemokangy V ; ! "relajar"
 teñói:teñ•ói V ; ! "nacer"
@@ -4353,6 +4359,7 @@ ikatu:ikatu AD ; ! "tal vez"
 jave:jave AD ; ! "mientras"
 javeve:javeve AD ; ! "mientras"
 jepe:jepe AD ; ! "aun, sin embargo"
+jey:jey AD ; ! "nuevamente" 
 katui:katui AD ; ! "siempre"
 kaʼaru:kaʼaru AD ; ! "tarde"
 koʼárupi:koʼárupi AD ; ! "por aquí"
