@@ -8,8 +8,12 @@ LIST N = n ;
 
 LIST Incp = incp ;
 
+LIST Guess = guess ;
+
 SECTION
 
 REMOVE Incp ;
 
 REMOVE SUB:1 Incp ;
+
+REMOVE Guess ;
