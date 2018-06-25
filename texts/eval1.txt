@@ -125,8 +125,8 @@
 "<.>"
 	"." sent @punct #18->9
 
-# text = Tupi ha guarani ñeʼẽ aty guasu rehegua, oguereko hetáichagua ñeʼẽnunga upéicharõ, jepe oĩ jekupyty ijapytepekuéra ha heta mbaʼépe koʼã ñeʼẽnungakuéra. 
-# text[spa] = El grupo linguístico grande Tupi y guarani, tiene mayoría así sin embargo hay solidaridad
+# text = Tupi ha guarani ñeʼẽ aty guasu rehegua, oguereko hetáichagua ñeʼẽnunga, upéicharõ jepe oĩ jekupyty ijapytepekuéra ha heta mbaʼépe koʼã ñeʼẽnungakuéra. 
+# text[spa] = El grupo de lengua grande Tupi y guarani, tiene más de dialecto, aunque hay 
 "<Tupi>"
 	"Tupi" n
 "<ha>"
@@ -136,8 +136,6 @@
 	"guarani" n 
 "<ñeʼẽ>"
 	"ñeʼẽ" n
-	"ñeʼẽ" v tv pres
-	"ñeʼẽ" v iv pres
 "<aty>"
 	"aty" n
 "<guasu>"
@@ -151,10 +149,11 @@
 	"o" prn p3 sg 
 		"guereko" v tv pres 
 "<hetáichagua>"
-	"hetáichagua" adj 
+	"heta" adj in 
+		"icha" comp 
+			"gua" post 
 "<ñeʼẽnunga>"
-	"ñeʼẽ" v tv pres 
-	"nunga" adv 
+	"ñeʼẽnunga" n 
 "<,>"
 	"," cm
 "<upéicharõ>"
