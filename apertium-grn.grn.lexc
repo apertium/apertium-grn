@@ -536,19 +536,19 @@ Luis:Luis NP-ANT ;
 Hesu:Hesu NP-ANT ; 
 Félix:F•élix NP-ANT ;
 Manuel:Manuel NP-ANT ;
-González:González NP-ANT ;
+González:González NP-COG ;
 Ayala:Ayala NP-ANT ;
 Kirito:Kirito NP-ANT ;
 Santiago:Santiago NP-ANT ;
 Fernando:Fernando NP-ANT ;
 Estigarribia:Estigarribia NP-ANT ;
-Rodríguez:Rodríguez NP-ANT ;
+Rodríguez:Rodríguez NP-COG ;
 Miguel:Miguel NP-ANT ;
 Cardozo:Cardozo NP-ANT ;
 Lorenzo:Lorenzo NP-ANT ;
 Tupãsy:Tupãsy NP-ANT ; ! "virgen María"
-Pérez:P•érez NP-ANT ;
-Martínez:Martínez NP-ANT ;
+Pérez:P•érez NP-COG ;
+Martínez:Martínez NP-COG ; 
 Vito:Vito NP-ANT ;
 
 Correa:Correa NP-COG ; ! ""
