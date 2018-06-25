@@ -94,41 +94,36 @@
 	"." sent @punct #35->3
 
 # text = Avei, haʼe ñoite ojehechakuaáva ñeʼẽ teéramo peteĩ tetã Ñembyamérika-guápe. 
-# text[spa] = Además, es la lengua reconocida recientemente sólo en un país de America del Sur. 
-# labels = incomplete
+# text[spa] = Además, es lengua que está reconocida como patrimonio en un país de America del Sur. 
+# labels = 
 "<Avei>"
-	"avei" adv @advmod
+	"avei" adv @advmod #1->9
 "<,>"
-	"," cm
+	"," cm @punct #2->1
 "<haʼe>"
-	"haʼe" prn pers p3 sg
-	"haʼe" v iv p1 sg pres
-	"haʼe" vbser iv p1 sg pres
-"ñoite" 
-	"ñoite" adv 
+	"haʼe" vbser iv pres @cop #3->9
+"<ñoite>"
+	"ñoite" adv @advmod #4->7
 "<ojehechakuaáva>"
-	"ojehechakuaáva" adj
+	"o" prn p3 sg @dep #5->7
+		"je" pass @aux #6->7
+			"hechakuaa" v tv pres @acl #7->9
+				"va" subs dem @dep #8->7
 "<ñeʼẽ>"
-	"ñeʼẽ" n
-	"ñeʼẽ" v tv pres
-	"ñeʼẽ" v iv pres
+	"ñeʼẽ" n @root #9->0
 "<teéramo>"
-	"tee" n 
-		"ramo" post @case
+	"tee" n @obl #10->7
+		"ramo" post @case #11->10
 "<peteĩ>"
-	"peteĩ" num @nummod
-	"peteĩ" prn ind
+	"peteĩ" num @nummod #12->13
 "<tetã>"
-	"tetã" n
-"<Ñembyamérika>"
-	"Ñembyamérika" np top 
-"<->"
-	"-" guio
-"<guápe>"
-	"gua" post @case 
-		"pe" post 
+	"tetã" n @obl #13->7
+"<Ñembyamérika-guápe>"
+	"Ñembyamérika" np top @nmod #15->13
+		"gua" post @case #16->15
+			"pe" post @case #17->13
 "<.>"
-	"." sent
+	"." sent @punct #18->9
 
 # text = Tupi ha guarani ñeʼẽ aty guasu rehegua, oguereko hetáichagua ñeʼẽnunga upéicharõ, jepe oĩ jekupyty ijapytepekuéra ha heta mbaʼépe koʼã ñeʼẽnungakuéra. 
 # text[spa] = El grupo linguístico grande Tupi y guarani, tiene mayoría así sin embargo hay solidaridad
