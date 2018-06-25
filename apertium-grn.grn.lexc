@@ -3487,11 +3487,11 @@ MODES ;
 
 
 LEXICON Connectors
-haʼe%<vbser%>%<iv%>%<p1%>%<sg%>%<pres%>:haʼe VerbsNegSuf ; ! ser
+haʼe%<vbser%>%<iv%>%<pres%>:haʼe VerbsNegSuf ; ! ser
 ikatu%<v%>%<iv%>%<p1%>%<sg%>%<pres%>:ikatu VerbsNegSuf ; ! poder 
 hiʼã%<v%>%<iv%>%<p1%>%<sg%>%<pres%>:hiʼã VerbsNegSuf ; ! parecer, desear
 
-haʼe%<vbser%>%<iv%>%<p1%>%<sg%>%<pres%>:haʼe # ; ! ser
+haʼe%<vbser%>%<iv%>%<pres%>:haʼe # ; ! ser
 ikatu%<v%>%<iv%>%<p1%>%<sg%>%<pres%>:ikatu # ; ! poder 
 hiʼã%<v%>%<iv%>%<p1%>%<sg%>%<pres%>:hiʼã # ; ! parecer, desear
 
@@ -3747,7 +3747,8 @@ LEXICON Nouns
 
 tenda:tenda N ; ! "morada, lugar"
 tembiʼu:tembiʼu N ; ! "comida" 
-Guarani:Guarani N ; ! "guaranis"
+guarani:guarani N ; ! "guaranis"
+guarani:guaraní N ; ! "guaranis" ! Dir/LR ! Err/Orth ! Dir/LR ! Err/Orth ! Dir/LR ! Err/Orth
 ary:ary N ; ! "año"
 tembirekorã:tembirekorã N ; ! "novia formal"
 teindyra:teindyra N ; ! "hermana menor"

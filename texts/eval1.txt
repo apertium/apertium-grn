@@ -30,73 +30,68 @@
 	"." sent @punct #15->6
 
 # text = Guarani haʼe peteĩva umi teʼyikuéra Amérika-gua ñeʼẽnguéra apytépe hetave iñeʼẽhárava, oñemohendáva irundy tetãnguéra iñambuévape (Paraguái, Argentina, Volívia ha Brasil).
-# text[spa] = Guaraní es una de las lenguas mas habladas situadas en America, localizadas en cuatro paises siguientes (Paraguay, Argentina, Bolívia y Brasil).
+# text[spa] = Guaraní es una entre estas lenguas amerindias más habladas, que está localizada en cuatro paises siguientes (Paraguay, Argentina, Bolívia y Brasil).
 # labels = incomplete
 "<Guarani>"
-	"Guarani" n
+	"guarani" n @nsubj #1->3
 "<haʼe>"
-	"haʼe" prn pers p3 sg
-	"haʼe" v iv p1 sg pres
-	"haʼe" vbser iv p1 sg pres
+	"haʼe" vbser iv pres @cop #2->3
 "<peteĩva>"
-	"peteĩ" num 
-		"va" subs dem
+	"peteĩ" num @root #3->0
+		"va" subs dem @dep #4->3
 "<umi>"
-	"umi" adj dem pl
+	"umi" adj dem pl @amod #5->10
 "<teʼyikuéra>"
-	"teʼyi" n 
-		"kuéra" pl
-"<Amérika>"
-	"Amérika" np top
-"<->"
-	"-" guio
-"<gua>"
-	"gua" post 
+	"teʼyi" n @dep #6->
+		"kuéra" det pl @det #7->6
+"<Amérika-gua>"
+	"Amérika" np top @nmod #8->6
+		"gua" post @case #9->8
 "<ñeʼẽnguéra>"
-	"ñeʼẽ" n
-		"kuéra" pl
+	"ñeʼẽ" n @nmod #10->3
+		"kuéra" det pl @det #11->10
 "<apytépe>"
-	"apytépe" post
+	"apytépe" post @case #12->10
 "<hetave>"
-	"heta" adv
-		"ve" comp
+	"heta" adv @advmod #13->15
+		"ve" comp @advmod #14->13
 "<iñeʼẽhárava>"
-	"iñeʼẽhárava" adj 
+	"iñeʼẽhárava" adj @dep #15->
 "<,>"
-	"," cm
+	"," cm @punct #16->
 "<oñemohendáva>"
-	"o" prn p3 sg 
-		"ñemohenda" n 
-			"va" subs dem 
-	"oñemohendáva" adj 
+	"o" prn p3 sg @dep #17->19
+		"je" pass @aux #18->19
+			"mohenda" v tv pres @acl #19->10
+				"va" subs dem @dep #20->19
 "<irundy>"
-	"irundy" num
+	"irundy" num @nummod #21->22
 "<tetãnguéra>"
-	"tetã" n
-		"kuéra" pl
+	"tetã" n @obl #22->19
+		"kuéra" det pl @det #23->22
 "<iñambuévape>"
-	"iñambuéva" adj  
-		"pe" post 
+	"iñambuéva" adj @amod #24->22
+		"pe" post @case #25->24
 "<(>"
-	"(" lpar
+	"(" lpar @punct #26->27
 "<Paraguái>"
-	"Paraguái" np top
+	"Paraguái" np top @appos #27->22
 "<,>"
-	"," cm
+	"," cm @punct #28->29
 "<Argentina>"
-	"Argentina" np top
+	"Argentina" np top @conj #29->27
 "<,>"
-	"," cm
+	"," cm @punct #30->31
 "<Volívia>"
-	"Volívia" np top
+	"Volívia" np top @conj #31->27
 "<ha>"
-	"ha" cnjcoo
+	"ha" cnjcoo @cc #32->33
 "<Brasil>"
-	"Brasil" np top
+	"Brasil" np top @conj #33->27
 "<)>"
-	")" rpar
+	")" rpar @punct #34->27
 "<.>"
-	"." sent
+	"." sent @punct #35->3
 
 # text = Avei, haʼe ñoite ojehechakuaáva ñeʼẽ teéramo peteĩ tetã Ñembyamérika-guápe. 
 # text[spa] = Además, es la lengua reconocida recientemente sólo en un país de America del Sur. 
