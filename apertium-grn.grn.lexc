@@ -4443,6 +4443,7 @@ inglyesñeʼẽ:inglyesñeʼẽ N ; ! ""
 hyãsiañeʼẽ:hyãsiañeʼẽ N ; ! ""
 holandañeʼẽ:holandañeʼẽ N ; ! ""
 chinañeʼẽ:chinañeʼẽ N ; ! ""
+karaiñeʼẽ:karaiñeʼẽ N ; ! ""
 ñembohéra:ñemboh•éra N ; ! "designación"
 ñemby:ñemby N ; ! "districto"
 ogaguasu:ogaguasu N ; ! "mansión"
@@ -6945,7 +6946,7 @@ el:el BARB ;
 las:las BARB ; 
 por:por BARB ;
 en:en BARB ;
-do:do ;
+do:do BARB ;
 
 norte:norte BARB ;
 sul:sul BARB ;
