@@ -126,18 +126,15 @@
 	"." sent @punct #18->9
 
 # text = Tupi ha guarani ñeʼẽ aty guasu rehegua, oguereko hetáichagua ñeʼẽnunga upéicharõ, jepe oĩ jekupyty ijapytepekuéra ha heta mbaʼépe koʼã ñeʼẽnungakuéra. 
-# text[spa] = El grupo linguístico grande Tupi y guarani, tiene mayoría así sin embargo hay solidaridad
+# text[spa] = El grupo linguístico grande tupi y guaraní, tiene mayoría así sin embargo hay solidaridad
 "<Tupi>"
 	"Tupi" n
 "<ha>"
 	"ha" cnjcoo
-	"ha" v iv pres
 "<guarani>"
 	"guarani" n 
 "<ñeʼẽ>"
 	"ñeʼẽ" n
-	"ñeʼẽ" v tv pres
-	"ñeʼẽ" v iv pres
 "<aty>"
 	"aty" n
 "<guasu>"
@@ -192,45 +189,33 @@
 	"." sent
 
 # text = Avañeʼẽ ha karaiñeʼẽ haʼe Paraguái retaãme ñeʼẽ tee ary 1992 guive.
-# text[spa] = 
+# text[spa] = Guaraní y español son en Paraguay lenguas patrimoniales desde el año 1992.
 # labels = incomplete
 "<Avañeʼẽ>"
-	"ava" n incp
-		"ñeʼẽ" v tv pres
-	"ava" n incp
-		"ñeʼẽ" v iv pres
+	"avañeʼẽ" n @nsubj #1->8
 "<ha>"
-	"ha" cnjcoo
-	"ha" v iv pres
+	"ha" cnjcoo @cc #2->3
 "<karaiñeʼẽ>"
-	"karai" n incp
-		"ñeʼẽ" v tv pres
-	"karai" n incp
-		"ñeʼẽ" v iv pres
+	"karaiñeʼẽ" n @conj #3->1
 "<haʼe>"
-	"haʼe" prn pers p3 sg
-	"haʼe" v iv p1 sg pres
-	"haʼe" vbser iv p1 sg pres
+	"haʼe" vbser iv pres @cop #4->8
 "<Paraguái>"
-	"Paraguái" np top
-"<retaãme>"
-	"retaã" n 
-		"pe" post 
+	"Paraguái" np top @compound #5->6
+"<retãme>"
+	"tetã" n @obl #6->8
+		"pe" post @case #7->6
 "<ñeʼẽ>"
-	"ñeʼẽ" n
-	"ñeʼẽ" v tv pres
-	"ñeʼẽ" v iv pres
+	"ñeʼẽ" n @root #8->0
 "<tee>"
-	"tee" adj
+	"tee" adj @amod #9->8
 "<ary>"
-	"ary" n
+	"ary" n @obl #10->8
 "<1992>"
-	"1992" num
+	"1992" num @nummod #11->10
 "<guive>"
-	"guive" adv
-	"guive" post
+	"guive" post @case #12->10
 "<.>"
-	"." sent
+	"." sent @punct #13->8
 
 # text = Japypateĩ 2006 guive haʼe avei ñeʼẽ tee Mercosur-pe karaiñeʼẽ ha poytugañeʼẽ ykére.
 # text[spa] = 
@@ -254,23 +239,15 @@
 	"ñeʼẽ" v iv pres
 "<tee>"
 	"tee" adj
-"<Mercosur>"
+"<Mercosur-pe>"
 	"Mercosur" np org  
-"<->"
-	"-" guio
-"<pe>"
-	"pe" adj
-	"pe" adj dem sg
+		"pe" case
 "<,>"
 	"," cm
 "<karaiñeʼẽ>"
-	"karai" n incp
-		"ñeʼẽ" v tv pres
-	"karai" n incp
-		"ñeʼẽ" v iv pres
+	"karaiñeʼẽ" n
 "<ha>"
 	"ha" cnjcoo
-	"ha" v iv pres
 "<poytugañeʼẽ>"
 	"poytugañeʼẽ" n   
 "<ykére>"
