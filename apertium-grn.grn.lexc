@@ -237,10 +237,12 @@ LEXICON Miscellaneous
 piko%<qst%>:piko # ; ! "interrogación"
 
 LEXICON Postpositions
+
 haguã:haguã POST ; ! "para"
-haguã:hag̃ua POST ; ! "para" ! Dir/LR
 haguã:hagua POST ; ! "para" ! Dir/LR
+hag̃ua:hag̃ua POST ; ! "para" 
 hague:hague POST ; ! "que, donde"
+
 haguéicha:hagu•éicha POST ; ! ""
 hag̃uáicha:hag̃uáicha POST ; ! "" 
 hese:hese POST ; ! "por el, por ella, le" 
@@ -356,6 +358,7 @@ iones%<barb%>%<guess%>:iones # ;
 idad%<barb%>%<guess%>:idad # ; 
 idades%<barb%>%<guess%>:idades # ; 
 ismo%<barb%>%<guess%>:ismo # ; 
+ista%<barb%>%<guess%>:ista # ; 
 
 
 LEXICON BARB 
@@ -379,8 +382,8 @@ LEXICON SYM
 LEXICON ProperNouns 
 
 Paraguái:Paragu•ái NP-TOP ; ! "Paraguay"
-Paraguái:Paraguay NP-TOP ; ! "Paraguay" ! Dir/LR ! Err/Orth
-Paraguái:Paragu•áy NP-TOP ; ! "Paraguay" ! Dir/LR ! Err/Orth
+Paraguay:Paraguay NP-TOP ; ! "Asunción" ! Dir/LR
+Paraguay:Paragu•áy NP-TOP ; ! "Asunción" ! Dir/LR 
 Uruguái:Urugu•ái NP-TOP ; 
 Volívia:Vol•ívia NP-TOP ; ! "Bolivia"
 Volívia:Bolivia NP-TOP ; ! Dir/LR ! Err/Orth
@@ -3635,6 +3638,9 @@ opavave%<adj%>%<ind%>:opavave # ; ! "todos"
 mayma%<adj%>%<ind%>:mayma # ; ! "cada, todos"
 maymáva%<adj%>%<ind%>:maymáva # ; ! "cada, todos"
 opaite%<adj%>%<ind%>:opaite # ; ! "todos"
+
+meme%<adj%>%<ind%>:meme # ; ! "todos"
+
 
 LEXICON ADJ-DIS 
 %+ve%<adj%>%<dist%>:ve # ;
