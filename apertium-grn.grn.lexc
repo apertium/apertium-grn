@@ -3238,14 +3238,14 @@ LEXICON FUT
 
 
 LEXICON IMP 
-%+aína%<p1%>%<sg%>%<impf%>:%>%ína # ;
-%+reína%<p2%>%<sg%>%<impf%>:%>%reína # ;
-%+hína%<p3%>%<sg%>%<impf%>:%>%hína # ;
-%+ñaína%<p1%>%<pl%>%<impf%>:%>%ñaína # ;
-%+roína%<p1%>%<pl%>%<impf%>:%>%roína # ;
-%+peína%<p2%>%<pl%>%<impf%>:%>%peína # ;
-%+hína<p3%>%<pl%>%<impf%>:%>%hína # ;
-%+hikuái%<p3%>%<pl%>%<impf%>:%>%hikuái # ;
+%+aína%<p1%>%<sg%>%<impf%>:%>ína # ;
+%+reína%<p2%>%<sg%>%<impf%>:%>reína # ;
+%+hína%<p3%>%<sg%>%<impf%>:%>hína # ;
+%+ñaína%<p1%>%<pl%>%<impf%>:%>ñaína # ;
+%+roína%<p1%>%<pl%>%<impf%>:%>roína # ;
+%+peína%<p2%>%<pl%>%<impf%>:%>peína # ;
+%+hína%<p3%>%<pl%>%<impf%>:%>hína # ;
+%+hikuái%<p3%>%<pl%>%<impf%>:%>hikuái # ;
 
 LEXICON MODES-AUX 
 hikuái%<aux%>%<impf%>%<p3%>%<pl%>:hikuái # ;
@@ -5228,7 +5228,7 @@ hepymeʼẽ:hepymeʼẽ V-IV ; ! "pagar"
 hesapirĩ:hesapirĩ V-IV ; ! "pestañear,parpadear"
 heñói:heñói V-IV ; ! "crecer"
 hiʼa:hiʼa V-IV ; ! "fruta,da"
-heʼise:heʼise V-IV ! "significar"
+heʼise:heʼise V-IV ; ! "significar"
 hiʼã:hiʼã V-IV ; ! "parece"
 ho:ho V-IV ; ! "viajar, ida"
 huʼu:huʼu V-IV ; ! "toser"
