@@ -13,6 +13,7 @@ Multichar_Symbols
 %<np%>               ! Nombre propio
 %<num%>              ! Número
 %<np%>               ! Nombre proprio
+%<qst%>              ! Marca de interrogación
 %<v%>                ! Verbo
 %<vbser%>            ! Verbo ser
 %<post%>             ! Posposición
@@ -143,6 +144,7 @@ Abbreviações ;
 Symbols ;
 Imperative ;
 DetBiformes ;
+Miscellaneous ;
 DetTriformes ;
 Triformes ;
 Biformes;
@@ -230,6 +232,10 @@ renonde:renonde POST ; ! "delante de"
 LEXICON PosTriform
 h%<prn%>%<pos%>%+:h%{t%} POST-Triformes ;
 
+LEXICON Miscellaneous
+
+piko%<qst%>:piko # ; ! "interrogación"
+
 LEXICON Postpositions
 haguã:haguã POST ; ! "para"
 haguã:hag̃ua POST ; ! "para" ! Dir/LR
@@ -260,7 +266,6 @@ rehe:rehe POST ; ! "mediante, por"
 peve:peve POST ; ! "hasta"
 peve:meve POST ; ! "hasta" ! Ref/p.131
 retã:retã POST ; ! "de"
-piko:piko POST ; ! "interrogación"
 guare:guare POST ; ! "de"
 kuévo:ku•évo POST ; ! "simultaneamente" 
 kupépe:kup•épe POST ; ! "detrás de"
@@ -3551,7 +3556,8 @@ LEXICON AD-SUF
 %+vo%<adv%>:%>vo # ; ! "simultaneidad"
 
 LEXICON ITG-SUF
-%+po%<itg%>:%>po # ;
+%+po%<qst%>:%>po # ;
+%+pa%<qst%>:%>pa # ; ! Estigarribia p.76
 
 LEXICON ItgPronouns 
 ava%<prn%>%<itg%>:ava ITG-SUF ; ! "quién"
