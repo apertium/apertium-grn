@@ -126,7 +126,8 @@
 	"." sent @punct #18->9
 
 # text = Tupi ha guarani ñeʼẽ aty guasu rehegua, oguereko hetáichagua ñeʼẽnunga, upéicharõ jepe oĩ jekupyty ijapytepekuéra ha heta mbaʼépe koʼã ñeʼẽnungakuéra. 
-# text[spa] = El grupo de lengua grande Tupi y guarani, tiene más de dialecto, aunque hay 
+# text[spa] = 
+El grupo liguistico grande Tupi y gurarani tiene multiplos dialectos, aun se unen en muchos casos y en muchos estos dialectos 
 # labels = incomplete
 "<Tupi>"
 	"Tupi" n
@@ -149,9 +150,8 @@
 	"o" prn p3 sg 
 		"guereko" v tv pres 
 "<hetáichagua>"
-	"heta" adj in 
-		"icha" comp 
-			"gua" post 
+	"hetáichagua" adj 
+
 "<ñeʼẽnunga>"
 	"ñeʼẽnunga" n 
 "<,>"
@@ -220,97 +220,86 @@
 	"." sent @punct #13->8
 
 # text = Japypateĩ 2006 guive haʼe avei ñeʼẽ tee Mercosur-pe karaiñeʼẽ ha poytugañeʼẽ ykére.
-# text[spa] = 
-# labels = incomplete
-"<Japypateĩ>"
-	"Japypateĩ" np ant 
+# text[spa] = Desde 2006 la lengua es también patrimonial de once lenguas en Mercosur a la par con español y portugués.
+# labels = 
+"<Japypateĩ>" 
+	"Japypateĩ" num #1->6
 "<2006>"
-	"2006" num
+	"2006" num @nummod #2->4  
 "<guive>"
-	"guive" adv
-	"guive" post
+	"guive" post @case #3->2  
 "<haʼe>"
-	"haʼe" prn pers p3 sg
-	"haʼe" v iv p1 sg pres
-	"haʼe" vbser iv p1 sg pres
+	"haʼe" vbser iv pres @cop #4->6 
 "<avei>"
-	"avei" adv
+	"avei" adv @advmod #5->4
 "<ñeʼẽ>"
-	"ñeʼẽ" n
-	"ñeʼẽ" v tv pres
-	"ñeʼẽ" v iv pres
+	"ñeʼẽ" n @root #6->0
 "<tee>"
-	"tee" adj
+	"tee" adj @amod #7->6
 "<Mercosur-pe>"
-	"Mercosur" np org  
-		"pe" case
+	"Mercosur" np org  #8->6
+		"pe" case @case #9->8  
 "<,>"
 	"," cm
 "<karaiñeʼẽ>"
-	"karaiñeʼẽ" n
+	"karaiñeʼẽ" n @obl #10->6
 "<ha>"
-	"ha" cnjcoo
+	"ha" cnjcoo @cc #11->12 
 "<poytugañeʼẽ>"
-	"poytugañeʼẽ" n   
+	"poytugañeʼẽ" n  @conj #12->10
 "<ykére>"
-	"yke" n
-		"re" post
+	"ykére" post @case #13->10 
 "<.>"
-	"." sent
+	"." sent @punct #14->6
  
-# text = Avañeʼẽ heʼise Idioma Guarani.
-# text[spa] = 
-# labels = incomplete
 "<Avañeʼẽ>"
-	"ava" n incp
-		"ñeʼẽ" v tv pres
-	"ava" n incp
-		"ñeʼẽ" v iv pres
+  "Avañeʼẽ" n @nsubj #1->2
 "<heʼise>"
-	"heʼise" v tv pres 
+  "heʼise" v tv pres @root #2->0
 "<Idioma>"
-	"Idioma" barb 
+  "Idioma" barb @xcomp #3->2
+  "Idioma" barb @obj #3->2
 "<Guarani>"
-	"Guarani" n
+  "Guarani" n @foreign #4->3
 "<.>"
-	"." sent
+  "." sent @punct #5->2
+
 
 # text = Péva haʼehína pe ñeʼẽ haʼekuéra oipurúva oñomongeta hag̃ua, ombohasávo ojupe hemiandu, hembikuaa, hembiasa ha hembipota.
-# text[spa] = 
+# text[spa] = Esa lengua de ellos era utilizada para conversar, traducir sentido, conocimiento, circunstancia y proposito precisamente. 
 # labels = incomplete
 "<Péva>"
-	"Pe" adj dem sg 
-		"va" subs dem 
+	"Pe" adj dem sg @amod 
+		"va" subs dem @dep
+
 "<haʼehína>"
-	"haʼe" v tv pres 
-		"hína" post 
+	"haʼe" v tv pres @root 
+		"hína" p3 sg impf @aux   
 "<pe>"
-	"pe" adj
-	"pe" adj dem sg
+	"pe" post @obl 
+
 "<ñeʼẽ>"
-	"ñeʼẽ" n
-	"ñeʼẽ" v tv pres
-	"ñeʼẽ" v iv pres
+	"ñeʼẽ" n @nsubj 
+
 "<haʼekuéra>"
 	"haʼekuéra" prn pers p3 pl
 "<oipurúva>"
 	"o" prn p3 sg 
 		"puru" v tv pres 
 			"va" subs dem 
-	"oipurúva" adj 
 "<oñomongeta>"
-	"o" prn pos p3 sg
+	"o" prn pos p3 sg 
 		"ñomongeta" n
 "<hag̃ua>"
 	"hagua" post
 "<,>"
 	"," cm
 "<ombohasávo>"
-	"o" prn p3 sg 
+	"o" prn p3 sg @dep 
 		"mbohasa" v tv pres 
 			"vo" adv 
 "<ojupe>"
-	"ojupe" post 
+	"ojupe" adv  
 "<hemiandu>"
 	"hemiandu" n 
 "<,>"
