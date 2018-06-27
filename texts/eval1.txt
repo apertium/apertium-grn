@@ -264,79 +264,69 @@ El grupo liguistico grande Tupi y gurarani tiene multiplos dialectos, aun se une
 "<.>"
   "." sent @punct #5->2
 
-
 # text = Péva haʼehína pe ñeʼẽ haʼekuéra oipurúva oñomongeta hag̃ua, ombohasávo ojupe hemiandu, hembikuaa, hembiasa ha hembipota.
-# text[spa] = Esa lengua de ellos era utilizada para conversar, traducir sentido, conocimiento, circunstancia y proposito precisamente. 
+# text[spa] = Esa lengua ellos estaban utilizando para conversar, traducir sentido, conocimiento, circunstancia y proposito precisamente.
 # labels = incomplete
 "<Péva>"
-	"Pe" adj dem sg @amod 
-		"va" subs dem @dep
-
+  "Pe" adj dem sg @nsubj #1->6
+    "va" subs dem @dep #2->1
 "<haʼehína>"
-	"haʼe" v tv pres @root 
-		"hína" p3 sg impf @aux   
+  "haʼe" v tv pres @cop #3->6
+    "hína" p3 sg impf @aux #4->3  
 "<pe>"
-	"pe" post @obl 
-
+  "pe" post @dep #5->6 
 "<ñeʼẽ>"
-	"ñeʼẽ" n @nsubj 
-
+  "ñeʼẽ" n @root #6->0
 "<haʼekuéra>"
-	"haʼekuéra" prn pers p3 pl
+  "haʼekuéra" prn pers p3 pl @nsubj #7->9
 "<oipurúva>"
-	"o" prn p3 sg 
-		"puru" v tv pres 
-			"va" subs dem 
+  "o" prn p3 sg @dep #8->9
+    "puru" v tv pres @acl #9->6
+      "va" subs dem @dep #10->9
 "<oñomongeta>"
-	"o" prn pos p3 sg 
-		"ñomongeta" n
+  "o" prn pos p3 sg @dep #11->12
+    "ñomongeta" v tv pres @advcl #12->9
 "<hag̃ua>"
-	"hagua" post
+  "hagua" post @mark #13->12
 "<,>"
-	"," cm
+  "," cm #14->16  
 "<ombohasávo>"
-	"o" prn p3 sg @dep 
-		"mbohasa" v tv pres 
-			"vo" adv 
+  "o" prn p3 sg @dep #15->16  
+    "mbohasa" v tv pres @advcl #16->13    
+      "vo" adv @advmod #17->16 
 "<ojupe>"
-	"ojupe" adv  
+  "ojupe" adv @advmod #18->16    
 "<hemiandu>"
-	"hemiandu" n 
+  "hemiandu" n @obl #19->16  
 "<,>"
-	"," cm
+  "," cm #20->21  
 "<hembikuaa>"
-	"h" prn pos p3 sg 
-		"tembikuaa" n 
+  "h" prn pos p3 sg @dep #20->21
+    "tembikuaa" n @obl #21->16 
 "<,>"
-	"," cm
+  "," cm #22->24
 "<hembiasa>"
-	"h" prn pos p3 sg 
-		"tembiasa" n 
+  "h" prn pos p3 sg @dep #23->24
+    "tembiasa" n @obl #24->16 
 "<ha>"
-	"ha" cnjcoo
-	"ha" v iv pres
+  "ha" cnjcoo @cc #25->27  
 "<hembipota>"
-	"h" prn pos p3 sg 
-		"tembipota" n 
+  "h" prn pos p3 sg @dep #26->27
+    "tembipota" n @obl #27->25 
 "<.>"
-	"." sent
+  "." sent @punct #28->6 
 
 # text = "Ava" niko he'ise tekove, yvypóra, tapicha, kuimba'e térã kuña oikóva oñondive, peteĩ avano'õme (sociedad); "ñe'ẽ" ikatu he'ise "ñemongeta ahy'o pu rupive".
 # text[spa] = 
 # labels = incomplete
-"<">"
-	""" sent
+"<">" 
+	""" sent @punct
 "<Ava>"
-	"ava" n
-	"ava" prn itg
-	"a" v tv pres
-		"va" subs dem
-	"a" v iv pres
-		"va" subs dem
+	"ava" n @root 
 "<">"
-	""" sent
+	""" sent @punct
 "<niko>"
-	"niko" v iv pres 
+	"niko" v iv pres @aux 
 "<heʼise>"
 	"heʼise" v tv pres
 "<tekove>"
