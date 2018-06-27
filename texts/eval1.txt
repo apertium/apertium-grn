@@ -222,7 +222,7 @@
 # text[spa] = Desde 2006 la lengua es también patrimonial de once lenguas en Mercosur a la par con español y portugués.
 # labels = 
 "<Japypateĩ>" 
-	"Japypateĩ" num #1->6
+	"Japypateĩ" num @dep #1->6
 "<2006>"
 	"2006" num @nummod #2->4  
 "<guive>"
@@ -288,7 +288,7 @@
 "<hag̃ua>"
 	"hagua" post @mark #13->12
 "<,>"
-	"," cm #14->16	
+	"," cm @punct #14->16	
 "<ombohasávo>"
 	"o" prn p3 sg @dep #15->16	
 		"mbohasa" v tv pres @advcl #16->13		
@@ -298,12 +298,12 @@
 "<hemiandu>"
 	"hemiandu" n @obj #19->16
 "<,>"
-	"," cm #20->21	
+	"," cm @punct #20->21	
 "<hembikuaa>"
 	"h" prn pos p3 sg @dep #20->21
 		"tembikuaa" n @conj #21->19
 "<,>"
-	"," cm #22->24
+	"," cm @punct #22->24
 "<hembiasa>"
 	"h" prn pos p3 sg @dep #23->24
 		"tembiasa" n @conj #24->19
