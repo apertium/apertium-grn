@@ -126,8 +126,7 @@
 	"." sent @punct #18->9
 
 # text = Tupi ha guarani ñeʼẽ aty guasu rehegua, oguereko hetáichagua ñeʼẽnunga, upéicharõ jepe oĩ jekupyty ijapytepekuéra ha heta mbaʼépe koʼã ñeʼẽnungakuéra. 
-# text[spa] = 
-El grupo liguistico grande Tupi y gurarani tiene multiplos dialectos, aun se unen en muchos casos y en muchos estos dialectos 
+# text[spa] = El grupo liguistico grande Tupi y gurarani tiene multiplos dialectos, aun se unen en muchos casos y en muchos estos dialectos 
 # labels = incomplete
 "<Tupi>"
 	"Tupi" n
@@ -223,13 +222,13 @@ El grupo liguistico grande Tupi y gurarani tiene multiplos dialectos, aun se une
 # text[spa] = Desde 2006 la lengua es también patrimonial de once lenguas en Mercosur a la par con español y portugués.
 # labels = 
 "<Japypateĩ>" 
-	"Japypateĩ" num #1->6
+	"Japypateĩ" num @dep #1->6
 "<2006>"
 	"2006" num @nummod #2->4  
 "<guive>"
 	"guive" post @case #3->2  
 "<haʼe>"
-	"haʼe" vbser iv pres @cop #4->6 
+	"haʼe" vbser iv pres @cop #4->6
 "<avei>"
 	"avei" adv @advmod #5->4
 "<ñeʼẽ>"
@@ -244,11 +243,11 @@ El grupo liguistico grande Tupi y gurarani tiene multiplos dialectos, aun se une
 "<karaiñeʼẽ>"
 	"karaiñeʼẽ" n @obl #10->6
 "<ha>"
-	"ha" cnjcoo @cc #11->12 
+	"ha" cnjcoo @cc #11->12
 "<poytugañeʼẽ>"
 	"poytugañeʼẽ" n  @conj #12->10
 "<ykére>"
-	"ykére" post @case #13->10 
+	"ykére" post @case #13->10
 "<.>"
 	"." sent @punct #14->6
  
@@ -268,53 +267,53 @@ El grupo liguistico grande Tupi y gurarani tiene multiplos dialectos, aun se une
 # text[spa] = Esa lengua ellos estaban utilizando para conversar, traducir sentido, conocimiento, circunstancia y proposito precisamente.
 # labels = 
 "<Péva>"
-  "Pe" adj dem sg @nsubj #1->6
-    "va" subs dem @dep #2->1
+	"Pe" adj dem sg @nsubj #1->6
+		"va" subs dem @dep #2->1
 "<haʼehína>"
-  "haʼe" v tv pres @cop #3->6
-    "hína" p3 sg impf @aux #4->3  
+	"haʼe" v tv pres @cop #3->6
+		"hína" p3 sg impf @aux #4->3
 "<pe>"
-  "pe" post @dep #5->6 
+	"pe" post @dep #5->6
 "<ñeʼẽ>"
-  "ñeʼẽ" n @root #6->0
+	"ñeʼẽ" n @root #6->0
 "<haʼekuéra>"
-  "haʼekuéra" prn pers p3 pl @nsubj #7->9
+	"haʼekuéra" prn pers p3 pl @nsubj #7->9
 "<oipurúva>"
-  "o" prn p3 sg @dep #8->9
-    "puru" v tv pres @acl #9->6
-      "va" subs dem @dep #10->9
+	"o" prn p3 sg @dep #8->9
+		"puru" v tv pres @acl #9->6
+			"va" subs dem @dep #10->9
 "<oñomongeta>"
-  "o" prn pos p3 sg @dep #11->12
-    "ñomongeta" v tv pres @advcl #12->9
+	"o" prn pos p3 sg @dep #11->12
+		"ñomongeta" v tv pres @advcl #12->9
 "<hag̃ua>"
-  "hagua" post @mark #13->12
+	"hagua" post @mark #13->12
 "<,>"
-  "," cm #14->16  
+	"," cm @punct #14->16
 "<ombohasávo>"
-  "o" prn p3 sg @dep #15->16  
-    "mbohasa" v tv pres @advcl #16->13    
-      "vo" adv @advmod #17->16 
+	"o" prn p3 sg @dep #15->16
+		"mbohasa" v tv pres @advcl #16->13		
+			"vo" adv @dep #17->16
 "<ojupe>"
-  "ojupe" adv @advmod #18->16    
+	"ojupe" adv @advmod #18->16
 "<hemiandu>"
-  "hemiandu" n @obl #19->16  
+	"hemiandu" n @obj #19->16
 "<,>"
-  "," cm #20->21  
+	"," cm @punct #20->21
 "<hembikuaa>"
-  "h" prn pos p3 sg @dep #20->21
-    "tembikuaa" n @obl #21->16 
+	"h" prn pos p3 sg @dep #20->21
+		"tembikuaa" n @conj #21->19
 "<,>"
-  "," cm #22->24
+	"," cm @punct #22->24
 "<hembiasa>"
-  "h" prn pos p3 sg @dep #23->24
-    "tembiasa" n @obl #24->16 
+	"h" prn pos p3 sg @dep #23->24
+		"tembiasa" n @conj #24->19
 "<ha>"
-  "ha" cnjcoo @cc #25->27  
+	"ha" cnjcoo @cc #25->27
 "<hembipota>"
-  "h" prn pos p3 sg @dep #26->27
-    "tembipota" n @obl #27->25 
+	"h" prn pos p3 sg @dep #26->27
+		"tembipota" n @conj #27->19
 "<.>"
-  "." sent @punct #28->6 
+	"." sent @punct #28->6
 
 # text = "Ava" niko heʼise tekove, yvypóra, tapicha, kuimba'e térã kuña oikóva oñondive, peteĩ avano'õme (sociedad); "ñe'ẽ" ikatu he'ise "ñemongeta ahyʼo pu rupive".
 # text[spa] = "Ava" significa individuo, humano, persona, hombre y mujer cuidan juntos de la sociedad (sociedad); "ñeʼẽ" puede significar "parlamento que  explota garganta". 
