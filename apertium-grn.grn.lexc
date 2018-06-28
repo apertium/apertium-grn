@@ -3497,7 +3497,7 @@ MODES ;
 
 LEXICON Connectors
 haʼe%<vbser%>%<iv%>%<pres%>:haʼe VerbsNegSuf ; ! ser
-ikatu%<v%>%<iv%>%<p1%>%<sg%>%<pres%>:ikatu VerbsNegSuf ; ! poder 
+ikatu%<v%>%<iv%>%<sg%>%<pres%>:ikatu VerbsNegSuf ; ! poder 
 hiʼã%<v%>%<iv%>%<p1%>%<sg%>%<pres%>:hiʼã VerbsNegSuf ; ! parecer, desear
 
 haʼe%<vbser%>%<iv%>%<pres%>:haʼe # ; ! ser
@@ -3902,6 +3902,7 @@ ava:ava N ; ! "raza, gente"
 avajokoha:avajokoha N ; ! "hebilla"
 avapaje:avapaje N ; ! "mago"
 avaʼaty:avaʼaty N ; ! "sociedad"
+avanoʼõ:avanoʼõ N ; ! "sociedad" 
 ayvu:ayvu N ; ! "alboroto, murmullo, rumor"
 ayvuguasu:ayvuguasu N ; ! "tumulto"
 aña:aña N ; ! "malicia, diablo"
@@ -6902,6 +6903,7 @@ yvate:yvate AD ; ! "arriba"
 yvapo:yvapo AD ; ! "más allá"
 yvýpe:yvýpe AD ; ! "abajo"
 okápe:ok•ápe AD ; ! "fuera, afuera"
+oñondive:oñondive AD ; ! "juntos"
 porã:porã AD ; ! "bien"
 pépe:p•épe AD ; ! "allí"
 pyaʼe:pyaʼe AD ; ! "pronto"
