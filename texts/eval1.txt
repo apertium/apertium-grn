@@ -266,7 +266,7 @@ El grupo liguistico grande Tupi y gurarani tiene multiplos dialectos, aun se une
 
 # text = Péva haʼehína pe ñeʼẽ haʼekuéra oipurúva oñomongeta hag̃ua, ombohasávo ojupe hemiandu, hembikuaa, hembiasa ha hembipota.
 # text[spa] = Esa lengua ellos estaban utilizando para conversar, traducir sentido, conocimiento, circunstancia y proposito precisamente.
-# labels = incomplete
+# labels = 
 "<Péva>"
   "Pe" adj dem sg @nsubj #1->6
     "va" subs dem @dep #2->1
@@ -316,101 +316,83 @@ El grupo liguistico grande Tupi y gurarani tiene multiplos dialectos, aun se une
 "<.>"
   "." sent @punct #28->6 
 
-# text = "Ava" niko he'ise tekove, yvypóra, tapicha, kuimba'e térã kuña oikóva oñondive, peteĩ avano'õme (sociedad); "ñe'ẽ" ikatu he'ise "ñemongeta ahy'o pu rupive".
-# text[spa] = 
+# text = "Ava" niko heʼise tekove, yvypóra, tapicha, kuimba'e térã kuña oikóva oñondive, peteĩ avano'õme (sociedad); "ñe'ẽ" ikatu he'ise "ñemongeta ahyʼo pu rupive".
+# text[spa] = "Ava" significa individuo, humano, persona, hombre y mujer cuidan juntos de la sociedad (sociedad); "ñeʼẽ" puede significar "parlamento que  explota garganta". 
 # labels = incomplete
 "<">" 
-	""" sent @punct
+	""" sent @punct #1->2
 "<Ava>"
-	"ava" n @root 
+	"ava" n @root #2->4
 "<">"
-	""" sent @punct
+	""" sent @punct #3->2
 "<niko>"
-	"niko" v iv pres @aux 
+	"niko" aux nar @aux #4->5
 "<heʼise>"
-	"heʼise" v tv pres
+	"heʼise" v tv pres @acl #5->6
 "<tekove>"
-	"tekove" adj
-	"tekove" n
-	"teko" n
-		"ve" comp
+  "tekove" n @nsubj #6->7
 "<,>"
-	"," cm
+  "," cm @punct #7->8
 "<yvypóra>"
-	"yvypóra" adj
-	"yvypóra" n
+  "yvypóra" n @conj #8->6
 "<,>"
-	"," cm
+  "," cm @punct #9->10  
 "<tapicha>"
-	"tapicha" n
-	"tapicha" v tv pres
+  "tapicha" n @obl #10->6
 "<,>"
-	"," cm
+  "," cm @punct #11->12
 "<kuimbaʼe>"
-	"kuimbaʼe" n
+  "kuimbaʼe" n @conj #12->6
 "<térã>"
-	"térã" cnjcoo
+  "térã" cnjcoo @cc #13->14
 "<kuña>"
-	"kuña" n
+  "kuña" n @conj #14->6
 "<oikóva>"
-	"o" prn p3 sg 
-		"ko" v iv pres 
-			"va" subs dem 
+	"o" prn p3 sg @dep #15->16 
+		"ko" v iv pres @acl #16->14 
+			"va" subs dem @dep #17->16 
 "<oñondive>"
-	"oñondive" post 
+	"oñondive" adv @advmod #17->16  
 "<,>"
-	"," cm
+	"," cm @punct #18->19 
 "<peteĩ>"
-	"peteĩ" num
-	"peteĩ" prn ind
-;	"pete" n incp REMOVE:13
-;		"ĩ" v tv pres
+	"peteĩ" prn ind @obl #19->20 
+
 "<avanoʼõme>"
-	"avanoʼõ" n 
-		"pe" post 
+	"avanoʼõ" adj  @obl #20->16 
+		"pe" post  @case #21->20  
 "<(>"
-	"(" lpar
+	"(" lpar @punct #22->23
 "<sociedad>"
-	"sociedad" barb 
+	"sociedad" barb @obl #23->20
 "<)>"
-	")" rpar
+	")" rpar @punct #24->23
 "<;>"
-	";" sent
+	";" sent @punct #25->23
 "<">"
-	""" sent
+	""" sent @punct #26->27
 "<ñeʼẽ>"
-	"ñeʼẽ" n
-	"ñeʼẽ" v tv pres
-	"ñeʼẽ" v iv pres
+	"ñeʼẽ" n @nsubj #27->29
 "<">"
-	""" sent
+	""" sent @punct #28->27
 "<ikatu>"
-	"ikatu" adv
-	"ikatu" v iv p1 sg pres
+	"ikatu" v iv sg pres @mark #29->30 
 "<heʼise>"
-	"heʼise" v tv pres
+	"heʼise" v tv pres @acl #30->27
 "<">"
-	""" sent
+	""" sent @punct #31->32
 "<ñemongeta>"
-	"ñemongeta" n
-	"ñemongeta" v tv pres
-	"ñemongeta" v iv pres
+	"ñemongeta" n @obl #32->34
 "<ahyʼo>"
-	"ahyʼo" n
+	"ahyʼo" n @obl #33->32 
 "<pu>"
-	"pu" v iv pres
+	"pu" v iv pres @acl #34->33
 "<rupive>"
-	"rupive" cnjcoo
-;	"ru" n incp REMOVE:13
-;		"pi" v tv pres
-;			"ve" comp
-;	"ru" n incp REMOVE:13
-;		"pi" v iv pres
-;			"ve" comp
+	"rupive" cnjcoo @cc #35->32
 "<">"
-	""" sent
+	""" sent @punct  #36->35 
 "<.>"
-	"." sent
+	"." sent @punct #37->27 
 
 # text = Péva ha'ehína pe tembipuru guasu guarani kuéra oipurúva ojokupyty hag̃ua, ojoapytépe.
 # text[spa] = 
