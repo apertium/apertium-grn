@@ -395,10 +395,10 @@
 
 # text = Péva haʼehína pe tembipuru guasu guarani kuéra oipurúva ojokupyty hag̃ua, ojoapytépe.
 # text[spa] = Esa es la herranienta grande de los guaranís que estaban utilizando para comprender, unos a otros. 
-# labels = incomplete
+# labels = 
 "<Péva>"
-	"Pe" adj dem sg @amod #1->6 
-		"va" subs dem @advmod #2->1
+	"Pe" adj dem sg @nsubj #1->6 
+		"va" subs dem @dep #2->1
 "<haʼehína>"
 	"haʼe" v tv pres @cop #3->6
 		"hína" post @aux #4->3
@@ -409,9 +409,9 @@
 "<guasu>"
 	"guasu" n @amod #7->6 
 "<guarani>"
-	"guarani" n @nsubj #8->6 
+	"guarani" n @nsubj #8->11 
 "<kuéra>"
-	"kuéra" pl @advmod #9->8 
+	"kuéra" det pl @det #9->8 
 "<oipurúva>"
 	"o" prn p3 sg @dep #10->11
 		"puru" v tv pres @acl #11->8 
@@ -429,65 +429,51 @@
 "<.>"
 	"." sent @punct #19->6  
 
-# text = Ñe'ẽ niko omopeteĩ chupekuéra ha ohechauka avei avakuéra oikoha peteĩ tetãme ha upe tetãme ojepuruha peteĩ ñe'ẽte, ha’éva avañe'ẽ. 
-# text[spa] = 
+# text = Ñeʼẽ niko omopeteĩ chupekuéra ha ohechauka avei avakuéra oikoha peteĩ tetãme ha upe tetãme ojepuruha peteĩ ñeʼẽte, ha’éva avañeʼẽ. 
+# text[spa] = Ellos simplifican la lengua y también indican los guaranís que viven en uno país y la lengua que es untilizada en ese país, es guarani  
 # labels = incomplete
 "<Ñeʼẽ>"
-	"ñeʼẽ" n
-	"ñeʼẽ" v tv pres
+	"ñeʼẽ" n @obl 
 "<niko>"
-	"niko" v iv pres 
+	"niko" aux nar @aux  
 "<omopeteĩ>"
-	"o" prn p3 sg 
-		"mopeteĩ" v tv pres 
+	"o" prn p3 sg @dep 
+		"mopeteĩ" v tv pres @acl
 "<chupekuéra>"
-	"chupe" prn pers p3 sg 
-		"kuéra" pl 
+	"chupe" prn pers p3 sg @root 
+		"kuéra" det pl @det 
 "<ha>"
-	"ha" cnjcoo
-	"ha" v iv pres
+	"ha" cnjcoo @cc 
 "<ohechauka>"
-	"o" prn p3 sg 
-		"hechauka" v tv pres 
+	"o" prn p3 sg @det 
+		"hechauka" v tv pres @acl 
 "<avei>"
-	"avei" adv
+	"avei" adv @advmod
 "<avakuéra>"
-	"ava" n
-		"kuéra" pl
+	"ava" n @obl 
+		"kuéra" det pl @det 
 "<oikoha>"
-	"o" prn p3 sg 
-		"i" ai 
-			"ko" v iv pres 
-				"ha" subs 
+	"o" prn p3 sg @det 
+		"ko" v iv pres @acl 
+			"ha" subs @det
 "<peteĩ>"
-	"peteĩ" num
-	"peteĩ" prn ind
-;	"pete" n incp REMOVE:13
-;		"ĩ" v tv pres
+	"peteĩ" prn ind @amod 
 "<tetãme>"
-	"tetã" n incp
-		"me" v tv pres
-	"tetã" n incp
-		"me" v iv pres
+	"tetã" n @obl 
+		"pe" post @case 
 "<ha>"
-	"ha" cnjcoo
-	"ha" v iv pres
+	"ha" cnjcoo @cc 
 "<upe>"
-	"upe" adj dem sg
+	"upe" adj dem sg @amod
 "<tetãme>"
-	"tetã" n incp
-		"me" v tv pres
-	"tetã" n incp
-		"me" v iv pres
+	"tetã" n @obl 
+		"pe" post @case 
 "<ojepuruha>"
-	"o" prn p3 sg 
-		"jepuru" v tv pres 
-			"ha" subs 
+	"o" prn p3 sg @dep 
+		"jepuru" v tv pres @acl 
+			"ha" subs @dep 
 "<peteĩ>"
-	"peteĩ" num
-	"peteĩ" prn ind
-;	"pete" n incp REMOVE:13
-;		"ĩ" v tv pres
+	"peteĩ" prn ind @amod 
 "<neʼẽte>"
 	"neʼẽ" v tv pres 
 		"te" post 
