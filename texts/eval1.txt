@@ -393,43 +393,41 @@
 "<.>"
 	"." sent @punct #37->27 
 
-# text = Péva ha'ehína pe tembipuru guasu guarani kuéra oipurúva ojokupyty hag̃ua, ojoapytépe.
-# text[spa] = 
+# text = Péva haʼehína pe tembipuru guasu guarani kuéra oipurúva ojokupyty hag̃ua, ojoapytépe.
+# text[spa] = Esa la herranienta grande de los guaranís que estaban utilizando para comprender, unos a otros. 
 # labels = incomplete
 "<Péva>"
-	"Pe" adj dem sg 
-		"va" subs dem 
+	"Pe" adj dem sg @amod #1
+		"va" subs dem @advmod #2
 "<haʼehína>"
-	"haʼe" v tv pres 
-		"hína" post
+	"haʼe" v tv pres @cop #3
+		"hína" post @aux #4
 "<pe>"
-	"pe" adj
-	"pe" adj dem sg
+	"pe" adj dem sg @amod #5
 "<tembipuru>"
-	"tembipuru" n 
+	"tembipuru" n @root #6 
 "<guasu>"
-	"guasu" n
+	"guasu" n @amod #7
 "<guarani>"
-	"guarani" n 
+	"guarani" n @nsubj #8
 "<kuéra>"
-	"kuéra" pl
+	"kuéra" pl @advmod #9
 "<oipurúva>"
-	"o" prn p3 sg 
-		"i" ai 
-			"puru" v tv pres 
-				"va" subs dem
+	"o" prn p3 sg @dep #10
+		"puru" v tv pres @acl #11
+			"va" subs dem @dep #12
 "<ojokupyty>"
-	"o" prn p3 sg 
-		"jokupyty" v tv pres 
+	"o" prn p3 sg @dep #13
+		"jokupyty" v tv pres @advcl #14
 "<hag̃ua>"
-	"hagua" post
+	"hagua" post @mark #15 
 "<,>"
-	"," cm
+	"," cm @punct #16
 "<ojoapytépe>"
-	"ojo" n 
-		"apytépe" adv 
+	"ojo" n @obl #17 
+		"apytépe" adv @advmod #18 
 "<.>"
-	"." sent
+	"." sent @punct #19 
 
 # text = Ñe'ẽ niko omopeteĩ chupekuéra ha ohechauka avei avakuéra oikoha peteĩ tetãme ha upe tetãme ojepuruha peteĩ ñe'ẽte, ha’éva avañe'ẽ. 
 # text[spa] = 
