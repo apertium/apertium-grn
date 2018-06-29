@@ -394,40 +394,40 @@
 	"." sent @punct #37->27 
 
 # text = Péva haʼehína pe tembipuru guasu guarani kuéra oipurúva ojokupyty hag̃ua, ojoapytépe.
-# text[spa] = Esa la herranienta grande de los guaranís que estaban utilizando para comprender, unos a otros. 
+# text[spa] = Esa es la herranienta grande de los guaranís que estaban utilizando para comprender, unos a otros. 
 # labels = incomplete
 "<Péva>"
-	"Pe" adj dem sg @amod #1
-		"va" subs dem @advmod #2
+	"Pe" adj dem sg @amod #1->6 
+		"va" subs dem @advmod #2->1
 "<haʼehína>"
-	"haʼe" v tv pres @cop #3
-		"hína" post @aux #4
+	"haʼe" v tv pres @cop #3->6
+		"hína" post @aux #4->3
 "<pe>"
-	"pe" adj dem sg @amod #5
+	"pe" adj dem sg @amod #5->6 
 "<tembipuru>"
-	"tembipuru" n @root #6 
+	"tembipuru" n @root #6->0  
 "<guasu>"
-	"guasu" n @amod #7
+	"guasu" n @amod #7->6 
 "<guarani>"
-	"guarani" n @nsubj #8
+	"guarani" n @nsubj #8->6 
 "<kuéra>"
-	"kuéra" pl @advmod #9
+	"kuéra" pl @advmod #9->8 
 "<oipurúva>"
-	"o" prn p3 sg @dep #10
-		"puru" v tv pres @acl #11
-			"va" subs dem @dep #12
+	"o" prn p3 sg @dep #10->11
+		"puru" v tv pres @acl #11->8 
+			"va" subs dem @dep #12->11
 "<ojokupyty>"
-	"o" prn p3 sg @dep #13
-		"jokupyty" v tv pres @advcl #14
+	"o" prn p3 sg @dep #13->14 
+		"jokupyty" v tv pres @advcl #14->17 
 "<hag̃ua>"
-	"hagua" post @mark #15 
+	"hagua" post @mark #15->14   
 "<,>"
-	"," cm @punct #16
+	"," cm @punct #16->17 
 "<ojoapytépe>"
-	"ojo" n @obl #17 
-		"apytépe" adv @advmod #18 
+	"ojo" n @obl #17->14  
+		"apytépe" adv @advmod #18->17  
 "<.>"
-	"." sent @punct #19 
+	"." sent @punct #19->6  
 
 # text = Ñe'ẽ niko omopeteĩ chupekuéra ha ohechauka avei avakuéra oikoha peteĩ tetãme ha upe tetãme ojepuruha peteĩ ñe'ẽte, ha’éva avañe'ẽ. 
 # text[spa] = 
