@@ -109,7 +109,7 @@ Multichar_Symbols
 %{Y%}              ! Archiphoneme for [y] in postpositions 
 %{m%}              ! Archiphoneme for m in case 
 %{t%}              ! Archiphoneme for surface [t] in triformes 
-%{a%}              ! Archiphoneme for surface [a] in negative connectors 
+%{a%}              ! Archiphoneme for surface [a, e, o] in negative foms 
 %{b%}              ! Archiphoneme for surface [mb] in future tense 
 
 
@@ -3277,12 +3277,12 @@ LEXICON V
 
 LEXICON VerbNegPref
 
-nd%<neg%>%+:n%{d%} PersonAgr ; 
-nd%<neg%>%+:nd%{a%} Connectors ;
-nd%<neg%>%+:n%{d%} IrrVerbs ;
-nd%<neg%>%+:n%{d%} PersonAgrCol ; 
-nd%<neg%>%+:n%{d%} PersonAgrDefSg ;
-nd%<neg%>%+:n%{d%} PersonAgrDefPl ;
+nd%<neg%>%+:n%{d%}%{a%} PersonAgr ; 
+nd%<neg%>%+:n%{d%}%{a%} Connectors ;
+nd%<neg%>%+:n%{d%}%{a%} IrrVerbs ;
+nd%<neg%>%+:n%{d%}%{a%} PersonAgrCol ; 
+nd%<neg%>%+:n%{d%}%{a%} PersonAgrDefSg ;
+nd%<neg%>%+:n%{d%}%{a%} PersonAgrDefPl ;
 
 LEXICON VerbsNegSuf
 %+i%<neg%>:%>%{r%}i # ;
@@ -3501,8 +3501,8 @@ ikatu%<v%>%<iv%>%<sg%>%<pres%>:ikatu VerbsNegSuf ; ! poder
 hiʼã%<v%>%<iv%>%<p1%>%<sg%>%<pres%>:hiʼã VerbsNegSuf ; ! parecer, desear
 
 haʼe%<vbser%>%<iv%>%<pres%>:haʼe # ; ! ser
-ikatu%<v%>%<iv%>%<p1%>%<sg%>%<pres%>:ikatu # ; ! poder 
-hiʼã%<v%>%<iv%>%<p1%>%<sg%>%<pres%>:hiʼã # ; ! parecer, desear
+ikatu%<v%>%<iv%>%<sg%>%<pres%>:ikatu # ; ! poder 
+hiʼã%<v%>%<iv%>%<sg%>%<pres%>:hiʼã # ; ! parecer, desear
 
 LEXICON PossessivePrefixes
 
@@ -5523,6 +5523,7 @@ yta:yta V-IV ; ! "saber nadar"
 ñyñýi:ñyñ•ýi V-IV ; ! "secarse,encogerse,marchitarse"
 g̃uahe:g̃uahe V-IV ; ! "llegar"
 g̃uahẽ:g̃uahẽ V-IV ; ! "llegar" ! Dir/LR 
+jokupyty:jokupyty V-IV ; ! "comprender" 
 
 
 
