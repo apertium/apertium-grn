@@ -348,6 +348,7 @@ LEXICON NP-COG
 LEXICON NP-TOP
 
 %<np%>%<top%>: CASE ;
+%<np%>%<top%>:%- CASE ; ! Dir/LR
 
 LEXICON NP-ANT
 %<np%>%<ant%>: CASE ;
@@ -412,6 +413,8 @@ Asunción:Asunción NP-TOP ;
 Buenos% Aires:Buenos% Aires NP-TOP ;
 San% Francisco:San% Francisco NP-TOP ;
 Gran% Chaco:Gran% Chaco NP-TOP ;
+Cháko:Ch•áko NP-TOP ; 
+Chaco:Chaco NP-TOP ; 
 Francia:Francia NP-TOP ;
 Europa:Europa NP-TOP ;
 Európa:Eur•ópa NP-TOP ; ! Dir/LR
