@@ -409,7 +409,7 @@
 "<guasu>"
 	"guasu" n @amod #7->6 
 "<guarani>"
-	"guarani" n @nsubj #8->11 
+	"guarani" n @nsubj #8->6 
 "<kuéra>"
 	"kuéra" det pl @det #9->8 
 "<oipurúva>"
@@ -424,71 +424,68 @@
 "<,>"
 	"," cm @punct #16->17 
 "<ojoapytépe>"
-	"ojo" n @obl #17->14  
+	"ojo" n @obl #17->6  
 		"apytépe" adv @advmod #18->17  
 "<.>"
 	"." sent @punct #19->6  
 
 # text = Ñeʼẽ niko omopeteĩ chupekuéra ha ohechauka avei avakuéra oikoha peteĩ tetãme ha upe tetãme ojepuruha peteĩ ñeʼẽte, ha’éva avañeʼẽ. 
-# text[spa] = Ellos simplifican la lengua y también indican los guaranís que viven en uno país y la lengua que es untilizada en ese país, es guarani  
+# text[spa] = Ellos simplifican la lengua y también indican los guaranís que viven en uno país y una biblioteca en ese país usa guaraní.  
 # labels = incomplete
 "<Ñeʼẽ>"
-	"ñeʼẽ" n @obl 
+	"ñeʼẽ" n @obl #1->4
 "<niko>"
-	"niko" aux nar @aux  
+	"niko" aux nar @aux #2->4 
 "<omopeteĩ>"
-	"o" prn p3 sg @dep 
-		"mopeteĩ" v tv pres @acl
+	"o" prn p3 sg @dep #3->4
+		"mopeteĩ" v tv pres @acl #4->5
 "<chupekuéra>"
-	"chupe" prn pers p3 sg @root 
-		"kuéra" det pl @det 
+	"chupe" prn pers p3 sg @root #5->0
+		"kuéra" det pl @det #6->5 
 "<ha>"
-	"ha" cnjcoo @cc 
+	"ha" cnjcoo @cc #7->9
 "<ohechauka>"
-	"o" prn p3 sg @det 
-		"hechauka" v tv pres @acl 
+	"o" prn p3 sg @det #8->9 
+		"hechauka" v tv pres @acl #9->11
 "<avei>"
-	"avei" adv @advmod
+	"avei" adv @advmod #10->9
 "<avakuéra>"
-	"ava" n @obl 
-		"kuéra" det pl @det 
+	"ava" n @nsubj #11->14
+		"kuéra" det pl @det #12->11 
 "<oikoha>"
-	"o" prn p3 sg @det 
-		"ko" v iv pres @acl 
-			"ha" subs @det
+	"o" prn p3 sg @det #13->14
+		"ko" v iv pres @acl #14->17
+			"ha" subs @det #15->14
 "<peteĩ>"
-	"peteĩ" prn ind @amod 
+	"peteĩ" prn ind @amod #16->17 
 "<tetãme>"
-	"tetã" n @obl 
-		"pe" post @case 
+	"tetã" n @obl #17->
+		"pe" post @case #18->17 
 "<ha>"
-	"ha" cnjcoo @cc 
+	"ha" cnjcoo @cc #19->21
 "<upe>"
-	"upe" adj dem sg @amod
+	"upe" adj dem sg @amod #20->21
 "<tetãme>"
-	"tetã" n @obl 
-		"pe" post @case 
+	"tetã" n @obl #21->24
+		"pe" post @case #22->21
 "<ojepuruha>"
-	"o" prn p3 sg @dep 
-		"jepuru" v tv pres @acl 
-			"ha" subs @dep 
+	"o" prn p3 sg @dep #23->24
+		"jepuru" v tv pres @acl #24->27
+			"ha" subs @dep #25->24
 "<peteĩ>"
-	"peteĩ" prn ind @amod 
+	"peteĩ" num @nummod   #26->27
 "<neʼẽte>"
-	"neʼẽ" v tv pres 
-		"te" post 
+	"neʼẽte" n @nsubj #27->5
 "<,>"
-	"," cm
+	"," cm @punct #28->20
 "<ha’éva>"
-	"ha’e" v tv pres 
-		"va" subs dem 
+	"ha’e" v tv pres @acl #29->31
+		"va" subs dem @dep #30->29 
 "<avañeʼẽ>"
-	"ava" n incp
-		"ñeʼẽ" v tv pres
-	"ava" n incp
-		"ñeʼẽ" v iv pres
+	"avañeʼẽ" n @obl #31->5
+
 "<.>"
-	"." sent
+	"." sent @punct #32->5 
  
 # text = Opaite ñe'ẽte oĩva yvy ape ári niko oñemohendakuaa ñe'ẽkuaaty (lingüística) rupive ha upevarã tekotevẽ ñanemandu'a Augusto Schleicher (1821-1867) rembiapokuére.
 # text[spa] = 
