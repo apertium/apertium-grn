@@ -304,6 +304,10 @@ LEXICON COMP
 +ve%<comp%>:%>ve # ; ! "superioridad!
 +ive%<comp%>:%>ive # ; ! "inferioridad" 
 
++icha%<comp%>:%>icha DEM-PRN-SG ; ! "igualidad"
++ve%<comp%>:%>ve DEM-PRN-SG ; ! "superioridad!
++ive%<comp%>:%>ive DEM-PRN-SG ; ! "inferioridad" 
+
 LEXICON SUP-REL 
 
 +ve%<comp%>:%>ve # ; ! "superioridad!
@@ -3537,6 +3541,7 @@ rupive:rupive CC ; ! "por causa de"
 mbaʼe:mbaʼe CC ; ! "que"
 y:y CC ; ! ""
 ajeve:ajeve CC ; ! "por eso"
+chugui:chugui CC ; ! "pero"
 
 
 !!!!!!!!!!!!!!!!!!! Adverbs !!!!!!!!!!!!
@@ -3617,13 +3622,18 @@ mbaʼeve%<prn%>%<ind%>:mbaʼeve # ; ! "nada"
 
 
 !!!!!!!!!!!!!ADJECTIVES!!!!!!!!!!!!!!
+LEXICON ADJ-COO 
+# ;
+AD-SUF ;
+SUBST ;
+COMP ;
+SUP ;
+ADJ-DIS ;
 
 LEXICON ADJ
-%<adj%>: # ;
-%<adj%>: AD-SUF ;
-%<adj%>: SUBST ;
-%<adj%>: COMP ;
-%<adj%>: SUP ;
+
+%<adj%>: ADJ-COO ;
+
 
 LEXICON SUF-PL  
 %+ita%<adj%>%<ind%>%<pl%>:%>%{E%}ta # ;
@@ -3751,6 +3761,7 @@ takã:takã N ; ! "rama"
 tetã:tetã N ; ! "nación, país, patria"
 tupa:tupa N ; ! "cama" 
 téra:t•éra N ; ! "nombre"
+tavaygua:tavaygua N ; ! "pueblo"
 tembiapo:tembiapo N ; ! "faena, labor, obra"
 tekove:tekove N ; ! "individuo, sujeto, vida"
 tembeʼy:tembeʼy N ; ! "ribera, costa, litoral, borde, margen, orilla"
