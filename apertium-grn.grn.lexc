@@ -597,6 +597,9 @@ Benítez:Benítez NP-COG ; ! ""
 Ortiz:Ortiz NP-COG ; ! ""
 Cruz:Cruz NP-COG ; ! ""
 
+Húpiter:H•úpiter NP-TOP ;
+Maláui:Mal•áui NP-TOP ; 
+
 Norteamérica:Norteam•érica NP-TOP ; ! ""
 Holanda:Holanda NP-TOP ; ! ""
 Korea:Korea NP-TOP ; ! ""
