@@ -523,7 +523,7 @@
 	"tekotevẽ" v iv pres @acl #18->19
 "<ñandemanduʼa>"
 	"ñande" prn p1 pl @dep #19->20
-		"manduʼa" v tv pres @acl #20->29 
+		"manduʼa" v tv pres @dep #20->18
 "<Augusto>"
 	"Augusto" np ant @nmod #21->29
 "<Schleicher>"
