@@ -459,14 +459,14 @@
 "<peteĩ>"
 	"peteĩ" prn ind @amod #16->17 
 "<tetãme>"
-	"tetã" n @obl #17->
+	"tetã" n @obl #17->24 
 		"pe" post @case #18->17 
 "<ha>"
 	"ha" cnjcoo @cc #19->21
 "<upe>"
 	"upe" adj dem sg @amod #20->21
 "<tetãme>"
-	"tetã" n @obl #21->24
+	"tetã" n @conj #21->17 
 		"pe" post @case #22->21
 "<ojepuruha>"
 	"o" prn p3 sg @dep #23->24
