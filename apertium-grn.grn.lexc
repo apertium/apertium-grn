@@ -32,6 +32,7 @@ Multichar_Symbols
 %<opt%>              ! Optativo 
 
 %<top%>              ! Toponimo
+%<al%>               ! Altres
 %<ant%>              ! Antroponimo
 
 %<a%>                ! Verbos areales
@@ -352,6 +353,12 @@ LEXICON NP-COG
 %<np%>%<cog%>: CASE ;
 
 
+LEXICON NP-AL
+
+%<np%>%<al%>: CASE ;
+%<np%>%<al%>:%- CASE ; ! Dir/LR
+
+
 LEXICON NP-TOP
 
 %<np%>%<top%>: CASE ;
@@ -400,11 +407,18 @@ Volívia:Volivia NP-TOP ; ! Dir/LR ! Err/Orth
 Vrasil:Vrasil NP-TOP ; ! "Vrasil"
 Vrasil:Brasil NP-TOP ; ! "Brasil" ! Dir/LR ! Err/Orth
 Argentina:Argentina NP-TOP ; ! "Argentina"
+Kéña:K•éña NP-TOP ; ! ""
+Katalúña:Katal•úña NP-TOP ; ! ""
+Selánda:Sel•ánda NP-TOP ; ! ""
+Selánda% Pyahu:Sel•ánda% Pyahu NP-TOP ; ! ""
+Lesóto:Les•óto NP-TOP ; ! ""
+Kyoẽlándia:Kyoẽl•ándia NP-TOP ; ! ""
 Peru:Peru NP-TOP ; ! "Peru" ! Dir/LR ! Err/Orth
 Perũ:Perũ NP-TOP ; ! "Peru"    
 Chile:Chile NP-TOP ; ! "Chile"
 Rio:Rio NP-TOP ;
 Ciudad% del% Este:Ciudad% del% Este NP-TOP ; 
+Boquerón:Boquer•ón NP-TOP ;
 Misiones:Misiones NP-TOP ;
 Rio% de% Janeiro:Rio% de% Janeiro NP-TOP ; 
 Nueva% York:Nueva% York NP-TOP ;
@@ -413,6 +427,7 @@ Rio% Grande% do% Sul:Rio% Grande% do% Sul NP-TOP ;
 Rio% Grande% do% Norte:Rio% Grande% do% Norte NP-TOP ;
 Santa% Catarina:Santa% Catarina NP-TOP ;
 España:España NP-TOP ;
+Amérika:Amerika NP-TOP ; ! Dir/LR ! Err/Orth
 Amérika:Am•érika NP-TOP ;
 Amérika:Am•érica NP-TOP ; ! Dir/LR ! Err/Orth
 Pindorama:Pindorama NP-TOP ;
@@ -543,31 +558,50 @@ Washington:Washington NP-TOP ; ! ""
 Wisconsin:Wisconsin NP-TOP ; ! ""
 Wyoming:Wyoming NP-TOP ; ! ""
 
+Malásia:Mal•ásia NP-TOP ; ! ""
+Kolombia:Kolombia NP-TOP ; ! ""
+
 José:Jos•é NP-ANT ;
 Juan:Juan NP-ANT ;
-López:López NP-ANT ;
+Garay:Garay NP-COG ; 
+Bogado:Bogado NP-COG ; ! ""
+Poryes:Poryes NP-COG ; 
+Fassardi:Fassardi NP-COG ;
+Escurra:Escurra NP-COG ; 
+Belgrano:Belgrano NP-COG ; 
+Schaerer:Schaerer NP-COG ;
+Bordón:Bord•ón NP-COG ;
+Valenzuela:Valenzuela NP-COG ;
+Alberdi:Alberdi NP-COG ; 
+Boggiani:Boggiani NP-COG ; 
+Barboza:Barboza NP-COG ; 
+Bertoni:Bertoni NP-COG ;
+Pettirossi:Pettirossi NP-COG ;
+López:L•ópez NP-COG ;
+Natalicio:Natalicio NP-ANT ; 
 Carlos:Carlos NP-ANT ;
 Pedro:Pedro NP-ANT ;
 Francisco:Francisco NP-ANT ;
-María:María NP-ANT ;
+María:Mar•ía NP-ANT ;
 Antonio:Antonio NP-ANT ;
 Luis:Luis NP-ANT ;
 Hesu:Hesu NP-ANT ; 
 Félix:F•élix NP-ANT ;
 Manuel:Manuel NP-ANT ;
-González:González NP-COG ;
+González:Gonz•ález NP-COG ;
+Báez:B•áez NP-COG ; 
 Ayala:Ayala NP-ANT ;
 Kirito:Kirito NP-ANT ;
 Santiago:Santiago NP-ANT ;
 Fernando:Fernando NP-ANT ;
 Estigarribia:Estigarribia NP-COG ;
-Rodríguez:Rodríguez NP-COG ;
+Rodríguez:Rodr•íguez NP-COG ;
 Miguel:Miguel NP-ANT ;
 Cardozo:Cardozo NP-ANT ;
 Lorenzo:Lorenzo NP-ANT ;
 Tupãsy:Tupãsy NP-ANT ; ! "virgen María"
 Pérez:P•érez NP-COG ;
-Martínez:Martínez NP-COG ; 
+Martínez:Mart•ínez NP-COG ; 
 Vito:Vito NP-ANT ;
 
 Correa:Correa NP-COG ; ! ""
@@ -598,10 +632,19 @@ Giménez:Gim•énez NP-COG ; ! ""
 Núñez:Núñez NP-COG ; ! ""
 Benítez:Benítez NP-COG ; ! ""
 Ortiz:Ortiz NP-COG ; ! ""
+Ortíz:Ort•íz NP-COG ; ! ""
 Cruz:Cruz NP-COG ; ! ""
 
 Húpiter:H•úpiter NP-TOP ;
+Urano:Urano NP-TOP ; ! ""
+Netuno:Netuno NP-TOP ; ! ""
+Satuyno:Satuyno NP-TOP ; ! ""
+Kávo% Véyde:K•ávo% V•éyde NP-TOP ; ! ""
+Amazonas:Amazonas NP-TOP ; ! ""
 Maláui:Mal•áui NP-TOP ; 
+
+Neneco:Neneco NP-ANT ; ! ""
+
 
 Norteamérica:Norteam•érica NP-TOP ; ! ""
 Holanda:Holanda NP-TOP ; ! ""
@@ -623,6 +666,7 @@ Villarrika:Villarrika NP-TOP ; ! ""
 Alcalá:Alcalá NP-TOP ; ! ""
 Guatemala:Guatemala NP-TOP ; ! ""
 Montana:Montana NP-TOP ; ! ""
+Montana:Montana NP-COG ; ! ""
 Alemaña:Alemaña NP-TOP ; ! ""
 Epaña:Epaña NP-TOP ; ! ""
 Inglaterra:Inglaterra NP-TOP ; ! ""
@@ -631,6 +675,7 @@ Trinidad:Trinidad NP-TOP ; ! ""
 Springfield:Springfield NP-TOP ; ! ""
 Ñembyamérika:Ñembyam•érika NP-TOP ; ! ""
 Ñembyamérika:Ñemby% Am•érika NP-TOP ; ! "" ! Dir/LR ! Err/Orth
+Mbyteamérika:Mbyteamérika NP-TOP ; ! ""
 Duarte:Duarte NP-TOP ; ! ""
 Mali:Mali NP-TOP ; ! ""
 York:York NP-TOP ; ! ""
@@ -647,6 +692,8 @@ Londres:Londres NP-TOP ; ! ""
 Cáceres:Cáceres NP-TOP ; ! ""
 Uruguay:Uruguay NP-TOP ; ! ""
 
+La% Paz:La% Paz NP-TOP ; ! ""
+Minas% Gerais:Minas% Gerais NP-TOP ; ! ""
 
 Miranda:Miranda NP-ANT ; ! ""
 India:India NP-ANT ; ! ""
@@ -2656,7 +2703,8 @@ Rey:Rey NP-COG ; ! ""
 Riart:Riart NP-COG ; ! ""
 Ribeiro:Ribeiro NP-COG ; ! ""
 Rica:Rica NP-COG ; ! ""
-Rich:Rich NP-COG ; ! ""
+Rich:Rich NP-ANT ; ! ""
+Correll:Correll NP-COG ; ! ""
 Riera:Riera NP-COG ; ! ""
 Rioja:Rioja NP-COG ; ! ""
 Riquelme:Riquelme NP-COG ; ! ""
@@ -2934,6 +2982,7 @@ Cambodia:Cambodia NP-TOP ; ! ""
 Cambridge:Cambridge NP-TOP ; ! ""
 Cameroon:Cameroon NP-TOP ; ! ""
 Canada:Canada NP-TOP ; ! ""
+Kanatã:Kanatã NP-TOP ; ! ""
 Canberra:Canberra NP-TOP ; ! ""
 Cappadocia:Cappadocia NP-TOP ; ! ""
 Carlisle:Carlisle NP-TOP ; ! ""
@@ -2962,6 +3011,9 @@ Dorset:Dorset NP-TOP ; ! ""
 Dubai:Dubai NP-TOP ; ! ""
 Dublin:Dublin NP-TOP ; ! ""
 Ecuador:Ecuador NP-TOP ; ! ""
+Perú:Per•ú NP-TOP ; 
+Malvina:Malvina NP-TOP ; ! ""
+Japón:Japón NP-TOP ; ! ""
 Edinburgh:Edinburgh NP-TOP ; ! ""
 Edmonton:Edmonton NP-TOP ; ! ""
 Elba:Elba NP-TOP ; ! ""
@@ -3020,6 +3072,9 @@ Kenya:Kenya NP-TOP ; ! ""
 Kiribati:Kiribati NP-TOP ; ! ""
 Kremlin:Kremlin NP-TOP ; ! ""
 Kuwait:Kuwait NP-TOP ; ! ""
+Iráke:Ir•áke NP-TOP ; ! ""
+Kuáite:Ku•áite NP-TOP ; 
+
 Kyoto:Kyoto NP-TOP ; ! ""
 Labrador:Labrador NP-TOP ; ! ""
 Lagos:Lagos NP-TOP ; ! ""
@@ -3191,6 +3246,31 @@ Zaragoza:Zaragoza NP-TOP ; ! ""
 Zealand:Zealand NP-TOP ; ! ""
 Zurich:Zurich NP-TOP ; ! ""
 
+Suiza:Suiza NP-TOP ; ! ""
+Suiza:Suisa NP-TOP ; ! "" ! Dir/LR
+Koréa:Kor•éa NP-TOP ; ! ""
+Reino% Unido:Reino% Unido NP-TOP ; ! ""
+Belo% Horizonte:Belo% Horizonte NP-TOP ; ! ""
+Kóngo:K•óngo NP-TOP ; ! ""
+Chikago:Chikago NP-TOP ; ! ""
+Surinam:Surinam NP-TOP ; ! ""
+Mato% Grosso:Mato% Grosso NP-TOP ; ! ""
+
+Elizardo:Elizardo NP-ANT ; ! ""
+Antônio:Antônio NP-ANT ; ! ""
+Florentín:Florentín NP-ANT ; ! ""
+
+Godoy:Godoy NP-COG ; ! ""
+Oliveira:Oliveira NP-COG ; ! ""
+
+Rotary:Rotary NP-AL ; ! ""
+Vikipetã:Vikipetã NP-AL ; ! ""
+Facebook:Facebook NP-AL ; ! ""
+Google:Google NP-AL ; ! ""
+UNESCO:UNESCO NP-AL ; ! ""
+UNESCO:Unesco NP-AL ; ! "" ! Dir/LR
+ONU:ONU NP-AL ; ! ""
+FIFA:FIFA NP-AL ; ! ""
 
 LEXICON DemAdjectives
 
@@ -3780,17 +3860,19 @@ tetãygua:tetãygua N ; ! "compatriota"
 LEXICON Nouns
 
 tenda:tenda N ; ! "morada, lugar"
-ojojogua:ojojogua N ! "semejanza" 
+ojojogua:ojojogua N ; ! "semejanza" 
 tembiʼu:tembiʼu N ; ! "comida" 
 ñeʼẽte:ñeʼẽte N ; ! "biblioteca"
 guarani:guarani N ; ! "guaranis"
-guarani:guaraní N ; ! "guaranis" ! Dir/LR ! Err/Orth ! Dir/LR ! Err/Orth ! Dir/LR ! Err/Orth
+guarani:guaraní N ; ! "guaranis" ! Dir/LR ! Err/Orth 
 ary:ary N ; ! "año"
 tembirekorã:tembirekorã N ; ! "novia formal"
 teindyra:teindyra N ; ! "hermana menor"
+kolónia:kolónia N ; ! ""
 tajýra:tajýra N ; ! "hija"
 ta’yra:ta’yra N ; ! "hijo" 
 embyranga:embyranga  N ; ! "hijastro, hijastra"
+parapyte:parapyte N ; ! "golfo"
 uke’i:uke’i N ; ! "cuñada"
 kyvy:kyvy N ; ! "hermano"
 yvy:yvy N ; ! "sur"
@@ -3825,6 +3907,7 @@ akãhoja:akãhoja N ; ! "manto"
 akãndu:akãndu N ; ! "hematoma, chichón"
 akãngao:akãngao N ; ! "sombrero, gorra"
 akãngatu:akãngatu N ; ! "memoria"
+aviõ:aviõ N ; ! ""
 akãngaʼu:akãngaʼu N ; ! "vértigo"
 akãngua:akãngua N ; ! "mente"
 akãngue:akãngue N ; ! "cráneo"
@@ -4523,6 +4606,7 @@ elinikañeʼẽ:elinikañeʼẽ  N ; ! ""
 eloveñañeʼẽ:eloveñañeʼẽ  N ; ! ""
 epáñañeʼẽ:ep•áñañeʼẽ  N ; ! ""
 españañeʼẽ:españañeʼẽ  N ; ! ""
+españañeʼẽ:españa% ñeʼẽ  N ; ! "" ! Dir/LR ! Err/Orth
 etiopiañeʼẽ:etiopiañeʼẽ  N ; ! ""
 eturukoñeʼẽ:eturukoñeʼẽ  N ; ! ""
 evereoñeʼẽ:evereoñeʼẽ  N ; ! ""
@@ -5372,6 +5456,228 @@ ygaguahẽha:ygaguahẽha N ; ! "puerto"
 ñuati:ñuati N ; ! "espina" ! Dir/LR
 ñuguaitĩ:ñuguaitĩ N ; ! "encuentro"
  
+mbitaʼi:mbitaʼi N ; ! "sarpullido"
+kuvuasu:kuvuasu N ; ! "cacao"
+kupuasu:kupuasu N ; ! "cupuazú"
+yasaʼi:yasaʼi N ; ! "asaí"
+akaju:akaju N ; ! "castaña de cajú"
+paka:paka N ; ! "paca común"
+yjoko:yjoko N ; ! "represa"
+
+
+aʼeʼỹ:aʼeʼỹ N ; ! "antipatía"
+ahógo:ah•ógo N ; ! "disnea"
+ajutyrõka:ajutyrõka N ; ! "corbata"
+akãguyry:akãguyry N ; ! "vértigo"
+almasẽ:almasẽ N ; ! "almacén"
+amandajerape:amandajerape N ; ! "parlamentarismo"
+amerísio:amer•ísio N ; ! "americio"
+aovyta:aovyta N ; ! "telar"
+apekũ:apekũ N ; ! "paladar"
+apereʼarusu:apereʼarusu N ; ! "conejo"
+apopymeʼẽ:apopymeʼẽ N ; ! "dato"
+apỹipenga:apỹipenga N ; ! "plástico"
+apykayvate:apykayvate N ; ! "caballete"
+arádo:ar•ádo N ; ! "arado"
+aravoʼive:aravoʼive N ; ! "segundo"
+asuka:asuka N ; ! "azúcar"
+aupa:aupa N ; ! "placenta"
+avakuaaty:avakuaaty N ; ! "antropología"
+aviõrupa:aviõrupa N ; ! "aeropuerto"
+aʼỹ:aʼỹ N ; ! "esterilidad"
+bacteria:bacteria N ; ! "bacteria"
+barroco:barroco N ; ! "barroco"
+bbc:bbc N ; ! "bbc"
+canoas:canoas N ; ! "canoas"
+carretilla:carretilla N ; ! "carretilla"
+eiratã:eiratã N ; ! "azúcar"
+ekimal:ekimal N ; ! "esquimal"
+eláda:el•áda N ; ! "escarcha"
+empanada:empanada N ; ! "empanada"
+estatua:estatua N ; ! "estatua"
+etnología:etnolog•ía N ; ! "etnología"
+europio:europio N ; ! "europio"
+feto:feto N ; ! "feto"
+folclore:folclore N ; ! "folclore"
+folklore:folklore N ; ! "folclore"
+fusil:fusil N ; ! "fusil"
+garámo:gar•ámo N ; ! "gramo"
+g̃:g̃ N ; ! "g"
+guapyja:guapyja N ; ! "silla"
+guaviranaʼa:guaviranaʼa N ; ! "manzana"
+hindi:hindi N ; ! "hindi"
+hovyũ:hovyũ N ; ! "verde"
+huʼitĩrã:huʼitĩrã N ; ! "cereal"
+hyãsiakuarepoti:hyãsiakuarepoti N ; ! "francio"
+indiañeʼẽ:indiañeʼẽ N ; ! "hindi"
+itakairã:itakairã N ; ! "calcio"
+itaveratĩ:itaveratĩ N ; ! "perla"
+itaysy:itaysy N ; ! "azufre"
+jaʼeʼỹ:jaʼeʼỹ N ; ! "antipatía"
+jatyta:jatyta N ; ! "caracol"
+jehesyha:jehesyha N ; ! "parrilla"
+káma:k•áma N ; ! "mama"
+kamambýi:kamamb•ýi N ; ! "pezón"
+kamapuʼã:kamapuʼã N ; ! "pezón"
+káso:k•áso N ; ! "narración"
+kėdainiai:kėdainiai N ; ! "k"
+kererua:kererua N ; ! "conejo"
+kesasy:kesasy N ; ! "insomnio"
+ketáiñai:ket•áiñai N ; ! "k"
+kilogarámo:kilogar•ámo N ; ! "kilogramo"
+kuairũ:kuairũ N ; ! "anillo"
+kuarepotiatã:kuarepotiatã N ; ! "silicio"
+kuarepotĩ:kuarepotĩ N ; ! "plata"
+kuarepotipytã:kuarepotipytã N ; ! "litio"
+kuʼekaroto:kuʼekaroto N ; ! "tractor"
+kuvãju:kuvãju N ; ! "jamón"
+kysegi:kysegi N ; ! "sable"
+kytĩkõi:kytĩkõi N ; ! "bisectriz"
+lagoão:lagoão N ; ! "lago"
+latapeʼa:latapeʼa N ; ! "abrelatas"
+litio:litio N ; ! "litio"
+mangaysy:mangaysy N ; ! "resina"
+mantra:mantra N ; ! "mantra"
+marãmbotayga:marãmbotayga N ; ! "fragata"
+marangaturã:marangaturã N ; ! "sacramento"
+maravichu:maravichu N ; ! "adivinanza"
+marmota:marmota N ; ! "marmota"
+mbaʼeapopyha:mbaʼeapopyha N ; ! "fábrica"
+mbita´i:mbita´i N ; ! "dermatitis"
+mbitaʼi:mbitaʼi N ; ! "dermatitis"
+mbiti:mbiti N ; ! "sufijo"
+mboʼehaorusu:mboʼehaorusu N ; ! "universidad"
+mboʼehaovusu:mboʼehaovusu N ; ! "universidad"
+mbokapĩ:mbokapĩ N ; ! "fusil"
+mbujaʼapyte:mbujaʼapyte N ; ! "empanada"
+mburikarana:mburikarana N ; ! "cebra"
+mbyjausuveve:mbyjausuveve N ; ! "cometa"
+mbytaʼa:mbytaʼa N ; ! "andamio"
+membyʼý:membyʼ•ý N ; ! "esterilidad"
+membyʼỹ:membyʼỹ N ; ! "esterilidad"
+mimbuku:mimbuku N ; ! "lanza"
+mitãrã:mitãrã N ; ! "feto"
+mitãrerekua:mitãrerekua N ; ! "niñera"
+mono:mono N ; ! "mono"
+mosaico:mosaico N ; ! "mosaico"
+musaróga:musar•óga N ; ! "museo"
+musulmã:musulmã N ; ! "musulmán"
+mykũpopo:mykũpopo N ; ! "canguro"
+ndavoka:ndavoka N ; ! "llave"
+ñaʼẽmbe:ñaʼẽmbe N ; ! "plato"
+ñarukã:ñarukã N ; ! "costilla"
+ñeʼãvevúi:ñeʼãvev•úi N ; ! "pulmones"
+ñeʼẽjoajukatu:ñeʼẽjoajukatu N ; ! "sintaxis"
+ñeʼẽkuaaty:ñeʼẽkuaaty N ; ! "lingüística"
+ñeʼẽñemiguerojera:ñeʼẽñemiguerojera N ; ! "adivinanza"
+ñemitỹ:ñemitỹ N ; ! "agricultura"
+ñokẽndaha:ñokẽndaha N ; ! "candado"
+ñokendavoka:ñokendavoka N ; ! "llave"
+ñongatuita:ñongatuita N ; ! "arsénico"
+ñóntese:ñ•óntese N ; ! "egoísmo"
+ñutekohaveỹ:ñutekohaveỹ N ; ! "desierto"
+ogavoña:ogavoña N ; ! "fábrica"
+oporomomembýva:oporomomemb•ýva N ; ! "matrona"
+ovoñanga:ovoñanga N ; ! "fábrica"
+paraipyete:paraipyete N ; ! "golfo"
+parapaha:parapaha N ; ! "estuario"
+parehegua:parehegua N ; ! "década"
+parto:parto N ; ! "parto"
+pastel:pastel N ; ! "empanada"
+pehẽʼa:pehẽʼa N ; ! "filo"
+pehẽʼaty:pehẽʼaty N ; ! "mosaico"
+pepoʼatã:pepoʼatã N ; ! "aeronave"
+pepoʼatãrupa:pepoʼatãrupa N ; ! "aeropuerto"
+perevy:perevy N ; ! "bazo"
+pinda:pinda N ; ! "anzuelo"
+pitikiri´i:pitikiri´i N ; ! "riñón"
+pitikiriʼi:pitikiriʼi N ; ! "riñón"
+planeta:planeta N ; ! "planeta"
+plástico:pl•ástico N ; ! "plástico"
+poapuʼa:poapuʼa N ; ! "puño"
+poarajere:poarajere N ; ! "lustro"
+pokokakuʼi:pokokakuʼi N ; ! "bacteria"
+principado:principado N ; ! "principado"
+pyahapy:pyahapy N ; ! "tejido"
+pysã:pysãpe N ; ! "dedo"
+pysãpe:pysã N ; ! "uña"
+rabies:rabies N ; ! "rabia"
+retyma:retyma N ; ! "pata"
+revi:revi N ; ! "ano"
+rovyũ:rovyũ N ; ! "verde"
+roʼyrupa:roʼyrupa N ; ! "glaciar"
+sacramento:sacramento N ; ! "sacramento"
+salvia:salvia N ; ! "salvia"
+sálvia:s•álvia N ; ! "salvia"
+samario:samario N ; ! "samario"
+sarapĩu:sarapĩu N ; ! "sarampión"
+supukukue:supukukue N ; ! "kilómetro"
+sype:sype N ; ! "azada"
+syrykupyreʼẽ:syrykupyreʼẽ N ; ! "sorbete"
+taʼangahai:taʼangahai N ; ! "gráfica"
+taʼanga:taʼanga N ; ! "imagen"
+takokũ:takokũ N ; ! "clítoris"
+takor:takor N ; ! "vagina"
+tambeypy:tambeypy N ; ! "ingle"
+tañykãpy:tañykãpy N ; ! "barbilla"
+tarumaiteʼa:tarumaiteʼa N ; ! "aceituna"
+tatapuʼãʼỹ:tatapuʼãʼỹ N ; ! "argón"
+tatapytagua:tatapytagua N ; ! "xenón"
+tatatendy:tatatendy N ; ! "neón"
+tatuáhe:tatu•áhe N ; ! "tatuaje"
+tatypy:tatypy N ; ! "mejilla"
+tavarandu:tavarandu N ; ! "folclore"
+taveʼỹ:taveʼỹ N ; ! "desierto"
+taveỹ:taveỹ N ; ! "desierto"
+taxón:tax•ón N ; ! "taxón"
+taʼỹi:taʼỹi N ; ! "testículo"
+tejuruguái:tejurugu•ái N ; ! "látigo"
+tekakapaʼã:tekakapaʼã N ; ! "estreñimiento"
+tekochaukahakuaaty:tekochaukahakuaaty N ; ! "etnología"
+tekohatyai:tekohatyai N ; ! "contaminación"
+tekoveʼetaita:tekoveʼetaita N ; ! "biodiversidad"
+tembo:tembo N ; ! "pene"
+temiraʼãha:temiraʼãha N ; ! "metro"
+teraʼãnga:teraʼãnga N ; ! "estatua"
+tesapemoñanga:tesapemoñanga N ; ! "fotosíntesis"
+tétano:t•étano N ; ! "tétanos"
+tetyma:tetymaroʼo N ; ! "pata"
+tetymaroʼo:tetyma N ; ! "pantorrilla"
+teʼýi:teʼ•ýi N ; ! "tribu"
+toneláda:tonel•áda N ; ! "tonelada"
+tovyũ:tovyũ N ; ! "verde"
+tractor:tractor N ; ! "tractor"
+tyeguy:tyeguy N ; ! "abdomen"
+typyʼareʼẽ:typyʼareʼẽ N ; ! "helado"
+úva:•úva N ; ! "uva"
+vakaratĩ:vakaratĩ N ; ! "cuerno"
+vakaraʼy:vakaraʼy N ; ! "novillo"
+varróko:varr•óko N ; ! "barroco"
+vatõpuku:vatõpuku N ; ! "sotana"
+verevekuéra:vereveku•éra N ; ! "bereberes"
+vevehajere:vevehajere N ; ! "helicóptero"
+vuruháka:vuruh•áka N ; ! "maleta"
+vyvypy:vyvypy N ; ! "costura"
+yakã:yakã N ; ! "arroyo"
+yapo:yapo N ; ! "pantano"
+yjere:yjere N ; ! "bahía"
+ykuãirũ:ykuãirũ N ; ! "atolón"
+ykua:ykua N ; ! "pozo"
+yñu:yñu N ; ! "arrecife"
+ypaʼũ:ypaʼũmi N ; ! "isla"
+ypaʼũmi:ypaʼũ N ; ! "islote"
+yrupẽ:yrupẽ N ; ! "colador"
+ytu:ytu N ; ! "cascada"
+yty:yty N ; ! "basura"
+yvagakundahára:yvagakundah•ára N ; ! "planeta"
+yvapurũchu’a:yvapurũchu’a N ; ! "uva"
+yvotyrope:yvotyrope N ; ! "pétalo"
+yvyjyva:yvyjyva N ; ! "istmo"
+yvykuʼipasu:yvykuʼipasu N ; ! "desierto"
+yvypevusu:yvypevusu N ; ! "llanura"
+yvyrusu:yvyrusu N ; ! "continente"
+yvytyrysyi:yvytyrysyi N ; ! "cordillera"
+yvytyrysýi:yvytyrys•ýi N ; ! "cordillera"
 
 LEXICON VerbsIv 
 
@@ -6841,6 +7147,7 @@ ndahepýi:ndahep•ýi ADJ ; ! "barato"
 ndahepýiva:ndahep•ýiva ADJ ; ! "módico"
 ndoikomeméiva:ndoikomem•éiva ADJ ; ! "insólito"
 ndojehecháiva:ndojehech•áiva ADJ ; ! "invisible"
+soviétiko:sovi•étiko ADJ ; ! "soviético"
 nembaʼe:nembaʼe ADJ ; ! "suyo"
 ogapygua:ogapygua ADJ ; ! "particular"
 ogaykegua:ogaykegua ADJ ; ! "vecino"
@@ -7151,6 +7458,9 @@ el:el BARB ;
 las:las BARB ; 
 por:por BARB ;
 en:en BARB ;
+un:un BARB ;
+una:una BARB ;
+con:con BARB ;
 do:do BARB ;
 
 norte:norte BARB ;
@@ -7185,6 +7495,277 @@ minas:minas BARB ;
 obras:obras BARB ; 
 salud:salud BARB ; 
 
+sociales:sociales BARB ; ! Cat/j
+secundaria:secundaria BARB ; ! Cat/j
+principal:principal BARB ; ! Cat/j
+municipal:municipal BARB ; ! Cat/j
+paraguaya:paraguaya BARB ; ! Cat/j
+inglés:ingl•és BARB ; ! Cat/j
+exteriores:exteriores BARB ; ! Cat/j
+pública:p•ública BARB ; ! Cat/j
+francés:franc•és BARB ; ! Cat/j
+especial:especial BARB ; ! Cat/j
+española:española BARB ; ! Cat/j
+ecológica:ecol•ógica BARB ; ! Cat/j
+biológica:biol•ógica BARB ; ! Cat/j
+binacional:binacional BARB ; ! Cat/j
+asociados:asociados BARB ; ! Cat/j
+agrícola:agr•ícola BARB ; ! Cat/j
+tercera:tercera BARB ; ! Cat/j
+técnica:t•écnica BARB ; ! Cat/j
+propia:propia BARB ; ! Cat/j
+privado:privado BARB ; ! Cat/j
+político:pol•ítico BARB ; ! Cat/j
+nativo:nativo BARB ; ! Cat/j
+municipal:municipal BARB ; ! Cat/j
+militar:militar BARB ; ! Cat/j
+histórica:hist•órica BARB ; ! Cat/j
+gran:gran BARB ; ! Cat/j
+grabado:grabado BARB ; ! Cat/j
+folklórica:folkl•órica BARB ; ! Cat/j
+española:española BARB ; ! Cat/j
+brasileño:brasileño BARB ; ! Cat/j
+boliviano:boliviano BARB ; ! Cat/j
+turístico:tur•ístico BARB ; ! Cat/j
+protegida:protegida BARB ; ! Cat/j
+profesional:profesional BARB ; ! Cat/j
+cultural:cultural BARB ; ! Cat/j
+indígena:ind•ígena BARB ; ! Cat/j
+musical:musical BARB ; ! Cat/j
+popular:popular BARB ; ! Cat/j
+superior:superior BARB ; ! Cat/j
+primera:primera BARB ; ! Cat/j
+mundial:mundial BARB ; ! Cat/j
+cultural:cultural BARB ; ! Cat/j
+rural:rural BARB ; ! Cat/j
+oriental:oriental BARB ; ! Cat/j
+militar:militar BARB ; ! Cat/j
+civil:civil BARB ; ! Cat/j
+público:p•úblico BARB ; ! Cat/j
+natural:natural BARB ; ! Cat/j
+colonial:colonial BARB ; ! Cat/j
+católica:cat•ólica BARB ; ! Cat/j
+social:social BARB ; ! Cat/j
+histórico:hist•órico BARB ; ! Cat/j
+primera:primera BARB ; ! Cat/j
+triple:triple BARB ; ! Cat/j
+franciscano:franciscano BARB ; ! Cat/j
+común:com•ún BARB ; ! Cat/j
+central:central BARB ; ! Cat/j
+clásica:cl•ásica BARB ; ! Cat/j
+argentino:argentino BARB ; ! Cat/j
+argentina:argentina BARB ; ! Cat/j
+oficial:oficial BARB ; ! Cat/j
+histórico:hist•órico BARB ; ! Cat/j
+culto:culto BARB ; ! Cat/j
+pública:p•ública BARB ; ! Cat/j
+primer:primer BARB ; ! Cat/j
+federal:federal BARB ; ! Cat/j
+sinfónica:sinf•ónica BARB ; ! Cat/j
+paraguayos:paraguayos BARB ; ! Cat/j
+normal:normal BARB ; ! Cat/j
+botánico:bot•ánico BARB ; ! Cat/j
+primaria:primaria BARB ; ! Cat/j
+natural:natural BARB ; ! Cat/j
+independiente:independiente BARB ; ! Cat/j
+lingüística:lingü•ística BARB ; ! Cat/j
+jesuíticas:jesu•íticas BARB ; ! Cat/j
+intelectual:intelectual BARB ; ! Cat/j
+ecológico:ecol•ógico BARB ; ! Cat/j
+arquitecto:arquitecto BARB ; ! Cat/n
+vía:v•ía BARB ; ! Cat/n
+tres:tres BARB ; ! Cat/n
+trayectoria:trayectoria BARB ; ! Cat/n
+territorio:territorio BARB ; ! Cat/n
+socio:socio BARB ; ! Cat/n
+sociedad:sociedad BARB ; ! Cat/n
+regimiento:regimiento BARB ; ! Cat/n
+presidencia:presidencia BARB ; ! Cat/n
+narrativa:narrativa BARB ; ! Cat/n
+ministro:ministro BARB ; ! Cat/n
+juventud:juventud BARB ; ! Cat/n
+gente:gente BARB ; ! Cat/n
+edificio:edificio BARB ; ! Cat/n
+desarrollo:desarrollo BARB ; ! Cat/n
+beca:beca BARB ; ! Cat/n
+banco:banco BARB ; ! Cat/n
+central:central BARB ; ! Cat/n
+tren:tren BARB ; ! Cat/n
+proteína:prote•ína BARB ; ! Cat/n
+policía:polic•ía BARB ; ! Cat/n
+hotel:hotel BARB ; ! Cat/n
+escenario:escenario BARB ; ! Cat/n
+director:director BARB ; ! Cat/n
+kilómetro:kil•ómetro BARB ; ! Cat/n
+decreto:decreto BARB ; ! Cat/n
+comercio:comercio BARB ; ! Cat/n
+científico:cient•ífico BARB ; ! Cat/n
+camping:camping BARB ; ! Cat/n
+café:caf•é BARB ; ! Cat/n
+armonía:armon•ía BARB ; ! Cat/n
+ruta:ruta BARB ; ! Cat/n
+tratado:tratado BARB ; ! Cat/n
+teoría:teor•ía BARB ; ! Cat/n
+secretario:secretario BARB ; ! Cat/n
+sabiduria:sabiduria BARB ; ! Cat/n
+plaza:plaza BARB ; ! Cat/n
+novela:novela BARB ; ! Cat/n
+medicina:medicina BARB ; ! Cat/n
+ley:ley BARB ; ! Cat/n
+lenguaje:lenguaje BARB ; ! Cat/n
+instrumento:instrumento BARB ; ! Cat/n
+forma:forma BARB ; ! Cat/n
+estilo:estilo BARB ; ! Cat/n
+espíritu:esp•íritu BARB ; ! Cat/n
+esperanza:esperanza BARB ; ! Cat/n
+elemento:elemento BARB ; ! Cat/n
+diario:diario BARB ; ! Cat/n
+defensa:defensa BARB ; ! Cat/n
+corriente:corriente BARB ; ! Cat/n
+colonia:colonia BARB ; ! Cat/n
+centros:centros BARB ; ! Cat/n
+censo:censo BARB ; ! Cat/n
+aventura:aventura BARB ; ! Cat/n
+avenida:avenida BARB ; ! Cat/n
+transporte:transporte BARB ; ! Cat/n
+parlamento:parlamento BARB ; ! Cat/n
+don:don BARB ; ! Cat/n
+origen:origen BARB ; ! Cat/n
+teatro:teatro BARB ; ! Cat/n
+rede:rede BARB ; ! Cat/n
+virus:virus BARB ; ! Cat/n
+parque:parque BARB ; ! Cat/n
+geografía:geograf•ía BARB ; ! Cat/n
+reserva:reserva BARB ; ! Cat/n
+orquesta:orquesta BARB ; ! Cat/n
+ministro:ministro BARB ; ! Cat/n
+compositor:compositor BARB ; ! Cat/n
+provincia:provincia BARB ; ! Cat/n
+premio:premio BARB ; ! Cat/n
+club:club BARB ; ! Cat/n
+casa:casa BARB ; ! Cat/n
+ateneo:ateneo BARB ; ! Cat/n
+pueblo:pueblo BARB ; ! Cat/n
+estilo:estilo BARB ; ! Cat/n
+castellano:castellano BARB ; ! Cat/n
+partido:partido BARB ; ! Cat/n
+junta:junta BARB ; ! Cat/n
+orquesta:orquesta BARB ; ! Cat/n
+festival:festival BARB ; ! Cat/n
+academia:academia BARB ; ! Cat/n
+grado:grado BARB ; ! Cat/n
+área:•área BARB ; ! Cat/n
+estadísticas:estad•ísticas BARB ; ! Cat/n
+tropa:tropa BARB ; ! Cat/n
+sociedad:sociedad BARB ; ! Cat/n
+radio:radio BARB ; ! Cat/n
+disco:disco BARB ; ! Cat/n
+miembro:miembro BARB ; ! Cat/n
+jesuita:jesuita BARB ; ! Cat/n
+ciencias:ciencias BARB ; ! Cat/n
+festival:festival BARB ; ! Cat/n
+ateneo:ateneo BARB ; ! Cat/n
+puerto:puerto BARB ; ! Cat/n
+años:años BARB ; ! Cat/n
+violín:viol•ín BARB ; ! Cat/n
+reserva:reserva BARB ; ! Cat/n
+rabia:rabia BARB ; ! Cat/n
+poder:poder BARB ; ! Cat/n
+peña:peña BARB ; ! Cat/n
+métro:m•étro BARB ; ! Cat/n
+teatro:teatro BARB ; ! Cat/n
+músico:m•úsico BARB ; ! Cat/n
+colonia:colonia BARB ; ! Cat/n
+proyecto:proyecto BARB ; ! Cat/n
+empresa:empresa BARB ; ! Cat/n
+doctor:doctor BARB ; ! Cat/n
+programa:programa BARB ; ! Cat/n
+millones:millones BARB ; ! Cat/n
+gobernador:gobernador BARB ; ! Cat/n
+estudio:estudio BARB ; ! Cat/n
+concierto:concierto BARB ; ! Cat/n
+época:•época BARB ; ! Cat/n
+comandante:comandante BARB ; ! Cat/n
+sistema:sistema BARB ; ! Cat/n
+grupo:grupo BARB ; ! Cat/n
+carrera:carrera BARB ; ! Cat/n
+capital:capital BARB ; ! Cat/n
+amor:amor BARB ; ! Cat/n
+guitarra:guitarra BARB ; ! Cat/n
+filosofía:filosof•ía BARB ; ! Cat/n
+ferrocarril:ferrocarril BARB ; ! Cat/n
+doctor:doctor BARB ; ! Cat/n
+coronel:coronel BARB ; ! Cat/n
+provincia:provincia BARB ; ! Cat/n
+partido:partido BARB ; ! Cat/n
+jardín:jard•ín BARB ; ! Cat/n
+interior:interior BARB ; ! Cat/n
+servicio:servicio BARB ; ! Cat/n
+refugio:refugio BARB ; ! Cat/n
+pintura:pintura BARB ; ! Cat/n
+piano:piano BARB ; ! Cat/n
+parque:parque BARB ; ! Cat/n
+nivel:nivel BARB ; ! Cat/n
+mundo:mundo BARB ; ! Cat/n
+compañía:compañ•ía BARB ; ! Cat/n
+barrio:barrio BARB ; ! Cat/n
+vida:vida BARB ; ! Cat/n
+vicepresidente:vicepresidente BARB ; ! Cat/n
+sánskrito:s•ánskrito BARB ; ! Cat/n
+golpe:golpe BARB ; ! Cat/n
+deporte:deporte BARB ; ! Cat/n
+batalla:batalla BARB ; ! Cat/n
+banda:banda BARB ; ! Cat/n
+siglo:siglo BARB ; ! Cat/n
+línea:l•ínea BARB ; ! Cat/n
+diario:diario BARB ; ! Cat/n
+zona:zona BARB ; ! Cat/n
+naturaleza:naturaleza BARB ; ! Cat/n
+hombre:hombre BARB ; ! Cat/n
+familia:familia BARB ; ! Cat/n
+dictadura:dictadura BARB ; ! Cat/n
+cuartel:cuartel BARB ; ! Cat/n
+conjunto:conjunto BARB ; ! Cat/n
+tierra:tierra BARB ; ! Cat/n
+periódico:peri•ódico BARB ; ! Cat/n
+día:d•ía BARB ; ! Cat/n
+década:d•écada BARB ; ! Cat/n
+club:club BARB ; ! Cat/n
+campana:campana BARB ; ! Cat/n
+banda:banda BARB ; ! Cat/n
+padre:padre BARB ; ! Cat/n
+municipio:municipio BARB ; ! Cat/n
+metros:metros BARB ; ! Cat/n
+industria:industria BARB ; ! Cat/n
+iglesia:iglesia BARB ; ! Cat/n
+estancia:estancia BARB ; ! Cat/n
+especie:especie BARB ; ! Cat/n
+dólar:d•ólar BARB ; ! Cat/n
+corazón:coraz•ón BARB ; ! Cat/n
+capitán:capit•án BARB ; ! Cat/n
+capital:capital BARB ; ! Cat/n
+virtud:virtud BARB ; ! Cat/n
+soja:soja BARB ; ! Cat/n
+seminario:seminario BARB ; ! Cat/n
+refugio:refugio BARB ; ! Cat/n
+patrimonio:patrimonio BARB ; ! Cat/n
+siglo:siglo BARB ; ! Cat/n
+material:material BARB ; ! Cat/n
+isla:isla BARB ; ! Cat/n
+infancia:infancia BARB ; ! Cat/n
+gobernador:gobernador BARB ; ! Cat/n
+fiesta:fiesta BARB ; ! Cat/n
+fábrica:f•ábrica BARB ; ! Cat/n
+establecimiento:establecimiento BARB ; ! Cat/n
+documento:documento BARB ; ! Cat/n
+decreto:decreto BARB ; ! Cat/n
+copa:copa BARB ; ! Cat/n
+agua:agua BARB ; ! Cat/n
+consejo:consejo BARB ; ! Cat/n
+cerámica:cer•ámica BARB ; ! Cat/n
+sector:sector BARB ; ! Cat/n
+
+
 ! Para los sufijos en español que son particularmente productivos, y _no ambiguos_ en guaraní
 ! podemos añadir algunas reglas que adivina la categoría.
 ! Una idea a más largo plazo sería extraer de un transductor de castellano las formas que no
@@ -7200,6 +7781,7 @@ aC:aC ABBR ;
 mm:mm ABBR ;
 m:m ABBR ; 
 km:km ABBR ; 
+kg:kg ABBR ; 
 km²:km² ABBR ; 
 km²:km2 ABBR ;  ! Dir/LR 
 cm:cm ABBR ;
