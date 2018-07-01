@@ -241,6 +241,8 @@ LEXICON Postpositions
 haguã:haguã POST ; ! "para"
 haguã:hagua POST ; ! "para" ! Dir/LR
 hag̃ua:hag̃ua POST ; ! "para" 
+hag̃ua:haġua POST ; ! "para"  ! Dir/LR ! Err/Orth
+hag̃ua:hagua POST ; ! "para"  ! Dir/LR ! Err/Orth
 hague:hague POST ; ! "que, donde"
 
 haguéicha:hagu•éicha POST ; ! ""
@@ -261,6 +263,7 @@ hyepype:hyepype POST ; ! "adentro"
 apytépe:apyt•épe POST ; ! "en medio de"
 guarã:guarã POST ; ! "para" 
 guarã:g̃uarã POST ; ! "para" ! Dir/LR 
+guarã:ġuarã POST ; ! "para" ! Dir/LR  ! Err/Orth
 haguére:hagu•ére POST ; ! "por" 
 rupi:rupi POST ; ! "por" 
 gotyo:gotyo POST ; ! "hacia"
@@ -7192,6 +7195,8 @@ LEXICON Abbreviações
 Dr%.:Dr ABBR-PUNTO ; 
 
 aC:aC ABBR ; 
+mm:mm ABBR ;
+m:m ABBR ; 
 km:km ABBR ; 
 km²:km² ABBR ; 
 km²:km2 ABBR ;  ! Dir/LR 
