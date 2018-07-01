@@ -561,6 +561,7 @@ Kolombia:Kolombia NP-TOP ; ! ""
 José:Jos•é NP-ANT ;
 Juan:Juan NP-ANT ;
 Garay:Garay NP-COG ; 
+Poryes:Poryes NP-COG ; 
 Fassardi:Fassardi NP-COG ;
 Escurra:Escurra NP-COG ; 
 Belgrano:Belgrano NP-COG ; 
@@ -654,6 +655,7 @@ Villarrika:Villarrika NP-TOP ; ! ""
 Alcalá:Alcalá NP-TOP ; ! ""
 Guatemala:Guatemala NP-TOP ; ! ""
 Montana:Montana NP-TOP ; ! ""
+Montana:Montana NP-COG ; ! ""
 Alemaña:Alemaña NP-TOP ; ! ""
 Epaña:Epaña NP-TOP ; ! ""
 Inglaterra:Inglaterra NP-TOP ; ! ""
@@ -2690,7 +2692,8 @@ Rey:Rey NP-COG ; ! ""
 Riart:Riart NP-COG ; ! ""
 Ribeiro:Ribeiro NP-COG ; ! ""
 Rica:Rica NP-COG ; ! ""
-Rich:Rich NP-COG ; ! ""
+Rich:Rich NP-ANT ; ! ""
+Correll:Correll NP-COG ; ! ""
 Riera:Riera NP-COG ; ! ""
 Rioja:Rioja NP-COG ; ! ""
 Riquelme:Riquelme NP-COG ; ! ""
