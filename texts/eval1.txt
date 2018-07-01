@@ -435,15 +435,15 @@
 	"niko" aux nar @aux #2->4 
 "<omopeteĩ>"
 	"o" prn p3 sg @dep #3->4
-		"mopeteĩ" v tv pres @acl #4->5
+		"mopeteĩ" v tv pres @root #4->0
 "<chupekuéra>"
-	"chupe" prn pers p3 sg @root #5->0
+	"chupe" prn pers p3 sg @subj #5->4
 		"kuéra" det pl @det #6->5 
 "<ha>"
 	"ha" cnjcoo @cc #7->9
 "<ohechauka>"
 	"o" prn p3 sg @det #8->9 
-		"hechauka" v tv pres @acl #9->11
+		"hechauka" v tv pres @acl #9->5
 "<avei>"
 	"avei" adv @advmod #10->9
 "<avakuéra>"
@@ -479,10 +479,10 @@
 	"ha’e" v tv pres @acl #29->31
 		"va" subs dem @dep #30->29 
 "<avañeʼẽ>"
-	"avañeʼẽ" n @obl #31->5
+	"avañeʼẽ" n @obl #31->9
 
 "<.>"
-	"." sent @punct #32->5 
+	"." sent @punct #32->9 
  
 # text = Opaite ñeʼẽte oĩva yvy ape ári niko oñemohendakuaa ñeʼẽkuaaty (lingüística) rupive ha upevarã tekotevẽ ñanemandu'a Augusto Schleicher (1821-1867) rembiapokuére.
 # text[spa] = Todas las bibliotécas que están aqui en el sur son colocadas en cima por causa de lingüística (lingüística) y es preciso que nosotros recordamos el trabajo de Augusto Schleicher.
@@ -490,7 +490,7 @@
 "<Opaite>"
 	"opaite" adj ind @amod #1->2
 "<neʼẽte>"
-	"neʼẽte" n @root #2->0
+	"neʼẽte" n @nsubj #2->10
 "<oĩva>"
 	"oĩ" v iv pres @acl #3 ->2
 		"va" subs dem @dep #4->3 
@@ -503,8 +503,8 @@
 "<niko>"
 	"niko" v iv pres @aux #8->9 
 "<oñemohendakuaa>"
-	"o" prn pos p3 sg @dep #9->3 
-		"ñemohendakuaa" v tv pres @acl #10->9
+	"o" prn pos p3 sg @dep #9->10 
+		"ñemohendakuaa" v tv pres @root #10->0
 "<neʼẽkuaaty>"
 	"neʼẽkuaaty" n @obl #11->10
 "<(>"
@@ -523,9 +523,9 @@
 	"tekotevẽ" v iv pres @acl #18->19
 "<ñandemanduʼa>"
 	"ñande" prn p1 pl @dep #19->20
-		"manduʼa" v tv pres @dep #20->18
+		"manduʼa" v tv pres @dep #20->29
 "<Augusto>"
-	"Augusto" np ant @nmod #21->29
+	"Augusto" np ant @nmod #21->20
 "<Schleicher>"
 	"Schleicher" np ant @flat #22->21
 "<(>"
@@ -543,7 +543,7 @@
 		"tembiapokue" n @obj #29->21
 			"re" post @case #30->29
 "<.>"
-	"." sent @punct #31->2 
+	"." sent @punct #31->10 
 
 # text = Jaikuaaháicha, haʼe oheja avei hapykuere neʼẽkuaaty rembiasápe.
 # text[spa] = 
