@@ -407,6 +407,9 @@ Volívia:Volivia NP-TOP ; ! Dir/LR ! Err/Orth
 Vrasil:Vrasil NP-TOP ; ! "Vrasil"
 Vrasil:Brasil NP-TOP ; ! "Brasil" ! Dir/LR ! Err/Orth
 Argentina:Argentina NP-TOP ; ! "Argentina"
+Katalúña:Katal•úña NP-TOP ; ! ""
+Lesóto:Les•óto NP-TOP ; ! ""
+Kyoẽlándia:Kyoẽl•ándia NP-TOP ; ! ""
 Peru:Peru NP-TOP ; ! "Peru" ! Dir/LR ! Err/Orth
 Perũ:Perũ NP-TOP ; ! "Peru"    
 Chile:Chile NP-TOP ; ! "Chile"
@@ -3834,7 +3837,7 @@ tetãygua:tetãygua N ; ! "compatriota"
 LEXICON Nouns
 
 tenda:tenda N ; ! "morada, lugar"
-ojojogua:ojojogua N ! "semejanza" 
+ojojogua:ojojogua N ; ! "semejanza" 
 tembiʼu:tembiʼu N ; ! "comida" 
 ñeʼẽte:ñeʼẽte N ; ! "biblioteca"
 guarani:guarani N ; ! "guaranis"
