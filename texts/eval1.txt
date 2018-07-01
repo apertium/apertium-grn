@@ -125,69 +125,66 @@
 "<.>"
 	"." sent @punct #18->9
 
-# text = Tupi ha guarani ñeʼẽ aty guasu rehegua, oguereko hetáichagua ñeʼẽnunga, upéicharõ jepe oĩ jekupyty ijapytepekuéra ha heta mbaʼépe koʼã ñeʼẽnungakuéra. 
-# text[spa] = El grupo liguistico grande Tupi y gurarani tiene multiplos dialectos, aun se unen en muchos casos y en muchos estos dialectos 
-# labels = incomplete
+# text = Tupi ha guarani ñeʼẽ aty guasu rehegua, oguereko hetáichagua ñeʼẽnunga, upéicharõ jepe oĩ jekupyty ijapytepekuéra ha heta mbaʼépe ojojogua koʼã ñeʼẽnungakuéra. 
+# text[spa] = El grupo liguistico grande Tupi y gurarani tiene multiplos dialectos, aun muchos están unidos en muchos casos y tienen mucha semejanza.  
+# labels = 
 "<Tupi>"
-	"Tupi" n
+	"Tupi" n @nmod #1->2
 "<ha>"
-	"ha" cnjcoo
+	"ha" cnjcoo @cc #2->3
 "<guarani>"
-	"guarani" n 
+	"guarani" n @nmod #3->5
 "<ñeʼẽ>"
-	"ñeʼẽ" n
+	"ñeʼẽ" n @nmod  #4->5
 "<aty>"
-	"aty" n
+	"aty" n @root #5->0
 "<guasu>"
-	"guasu" adj 
+	"guasu" adj @amod #6->5
 "<rehegua>"
-	"rehe" post
-		"gua" post
+	"rehegua" post @case #7->5  
+
 "<,>"
-	"," cm
+	"," cm @punct #8->10
 "<oguereko>"
-	"o" prn p3 sg 
-		"guereko" v tv pres 
+	"o" prn p3 sg @dep #9->10
+		"guereko" v tv pres @acl #10->5  
 "<hetáichagua>"
-	"hetáichagua" adj 
+	"hetáichagua" adj @amod #11->12 
 
 "<ñeʼẽnunga>"
-	"ñeʼẽnunga" n 
+	"ñeʼẽnunga" n @obj  #12->10 
 "<,>"
-	"," cm
+	"," cm @punct #13->14  
 "<upéicharõ>"
-	"upéicha" adv  
-		"rõ" post 
+	"upéicha" adv @conj #14->16 
+		"rõ" post @case #15->14 
 "<jepe>"
-	"jepe" adv
+	"jepe" adv @amod #16->17 
 "<oĩ>"
-	"oĩ" v iv pres
+	"oĩ" v iv pres @aux #17->18
 "<jekupyty>"
-	"jekupyty" v tv pres 
+	"jekupyty" v tv pres @acl #18->12
 "<ijapytepekuéra>"
-	"i" prn p3 sg 
-		"japyte" n 
-			"pe" post 
-				"kuéra" pl 
+	"i" prn p3 sg @dep #19->20
+		"japyte" n @obl #20->18
+			"pe" post @case #21->20
+				"kuéra" det pl @det #22->20 
 "<ha>"
-	"ha" cnjcoo
-	"ha" v iv pres
+	"ha" cnjcoo @cc #23->24 
 "<heta>"
-	"heta" adv
-	"heta" adj ind
+	"heta" adv @advmod #24->27 
 "<mbaʼépe>"
-	"mbaʼe" n
-		"pe" post
+	"mbaʼe" n @conj #25->29 
+		"pe" post @case #26->25
 "<ojojogua>"
-	"ojojo" n 
-		"gua" post 
+	"ojojogua" n @obl #27->18
 "<koʼã>"
-	"koʼã" adj dem pl
+	"koʼã" adj dem pl @amod #28->29
 "<ñeʼẽnungakuéra>"
-	"ñeʼẽnunga" n 
-		"kuéra" pl 
+	"ñeʼẽnunga" n @obl #29
+		"kuéra" det pl @det #30->29
 "<.>"
-	"." sent
+	"." sent @punct #31->5
 
 # text = Avañeʼẽ ha karaiñeʼẽ haʼe Paraguái retaãme ñeʼẽ tee ary 1992 guive.
 # text[spa] = Guaraní y español son en Paraguay lenguas patrimoniales desde el año 1992.
@@ -431,7 +428,7 @@
 
 # text = Ñeʼẽ niko omopeteĩ chupekuéra ha ohechauka avei avakuéra oikoha peteĩ tetãme ha upe tetãme ojepuruha peteĩ ñeʼẽte, ha’éva avañeʼẽ. 
 # text[spa] = Ellos simplifican la lengua y también indican los guaranís que viven en uno país y una biblioteca en ese país usa guaraní.  
-# labels = incomplete
+# labels = 
 "<Ñeʼẽ>"
 	"ñeʼẽ" n @obl #1->4
 "<niko>"
