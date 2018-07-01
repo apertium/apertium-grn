@@ -407,7 +407,10 @@ Volívia:Volivia NP-TOP ; ! Dir/LR ! Err/Orth
 Vrasil:Vrasil NP-TOP ; ! "Vrasil"
 Vrasil:Brasil NP-TOP ; ! "Brasil" ! Dir/LR ! Err/Orth
 Argentina:Argentina NP-TOP ; ! "Argentina"
+Kéña:K•éña NP-TOP ; ! ""
 Katalúña:Katal•úña NP-TOP ; ! ""
+Selánda:Sel•ánda NP-TOP ; ! ""
+Selánda% Pyahu:Sel•ánda% Pyahu NP-TOP ; ! ""
 Lesóto:Les•óto NP-TOP ; ! ""
 Kyoẽlándia:Kyoẽl•ándia NP-TOP ; ! ""
 Peru:Peru NP-TOP ; ! "Peru" ! Dir/LR ! Err/Orth
@@ -561,6 +564,7 @@ Kolombia:Kolombia NP-TOP ; ! ""
 José:Jos•é NP-ANT ;
 Juan:Juan NP-ANT ;
 Garay:Garay NP-COG ; 
+Bogado:Bogado NP-COG ; ! ""
 Poryes:Poryes NP-COG ; 
 Fassardi:Fassardi NP-COG ;
 Escurra:Escurra NP-COG ; 
@@ -632,8 +636,15 @@ Ortíz:Ort•íz NP-COG ; ! ""
 Cruz:Cruz NP-COG ; ! ""
 
 Húpiter:H•úpiter NP-TOP ;
+Urano:Urano NP-TOP ; ! ""
+Netuno:Netuno NP-TOP ; ! ""
+Satuyno:Satuyno NP-TOP ; ! ""
+Kávo% Véyde:K•ávo% V•éyde NP-TOP ; ! ""
 Amazonas:Amazonas NP-TOP ; ! ""
 Maláui:Mal•áui NP-TOP ; 
+
+Neneco:Neneco NP-ANT ; ! ""
+
 
 Norteamérica:Norteam•érica NP-TOP ; ! ""
 Holanda:Holanda NP-TOP ; ! ""
@@ -3243,10 +3254,13 @@ Belo% Horizonte:Belo% Horizonte NP-TOP ; ! ""
 Kóngo:K•óngo NP-TOP ; ! ""
 Chikago:Chikago NP-TOP ; ! ""
 Surinam:Surinam NP-TOP ; ! ""
+Mato% Grosso:Mato% Grosso NP-TOP ; ! ""
 
 Elizardo:Elizardo NP-ANT ; ! ""
 Antônio:Antônio NP-ANT ; ! ""
+Florentín:Florentín NP-ANT ; ! ""
 
+Godoy:Godoy NP-COG ; ! ""
 Oliveira:Oliveira NP-COG ; ! ""
 
 Rotary:Rotary NP-AL ; ! ""
@@ -3254,6 +3268,7 @@ Vikipetã:Vikipetã NP-AL ; ! ""
 Facebook:Facebook NP-AL ; ! ""
 Google:Google NP-AL ; ! ""
 UNESCO:UNESCO NP-AL ; ! ""
+UNESCO:Unesco NP-AL ; ! "" ! Dir/LR
 ONU:ONU NP-AL ; ! ""
 FIFA:FIFA NP-AL ; ! ""
 
@@ -7131,6 +7146,7 @@ ndahepýi:ndahep•ýi ADJ ; ! "barato"
 ndahepýiva:ndahep•ýiva ADJ ; ! "módico"
 ndoikomeméiva:ndoikomem•éiva ADJ ; ! "insólito"
 ndojehecháiva:ndojehech•áiva ADJ ; ! "invisible"
+soviétiko:sovi•étiko ADJ ; ! "soviético"
 nembaʼe:nembaʼe ADJ ; ! "suyo"
 ogapygua:ogapygua ADJ ; ! "particular"
 ogaykegua:ogaykegua ADJ ; ! "vecino"
