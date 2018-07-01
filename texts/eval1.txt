@@ -525,7 +525,7 @@
 	"ñande" prn p1 pl @dep #19->20
 		"manduʼa" v tv pres @acl #20->29 
 "<Augusto>"
-	"Augusto" np ant  @obj #21->0
+	"Augusto" np ant  @obj #21->20
 "<Schleicher>"
 	"Schleicher" np ant @flat #22->21
 "<(>"
