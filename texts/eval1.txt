@@ -520,7 +520,7 @@
 "<upevarã>"
 	"upevarã" post @case #17->18 
 "<tekotevẽ>"
-	"tekotevẽ" v iv pres @acl #18->19
+	"tekotevẽ" v iv pres @acl #18->1
 "<ñandemanduʼa>"
 	"ñande" prn p1 pl @dep #19->20
 		"manduʼa" v tv pres @dep #20->29
@@ -540,7 +540,7 @@
 	")" rpar @punct #27->24
 "<rembiapokuére>"
 	"r" det @det #28->29
-		"tembiapokue" n @obj #29->21
+		"tembiapokue" n @obj #29->20
 			"re" post @case #30->29
 "<.>"
 	"." sent @punct #31->10 
