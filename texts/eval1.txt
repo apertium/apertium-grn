@@ -486,7 +486,7 @@
  
 # text = Opaite ñeʼẽte oĩva yvy ape ári niko oñemohendakuaa ñeʼẽkuaaty (lingüística) rupive ha upevarã tekotevẽ ñanemandu'a Augusto Schleicher (1821-1867) rembiapokuére.
 # text[spa] = Todas las bibliotécas que están aqui en el sur son colocadas en cima por causa de lingüística (lingüística) y es preciso que nosotros recordamos el trabajo de Augusto Schleicher.
-# labels = incomplete
+# labels = 
 "<Opaite>"
 	"opaite" adj ind @amod #1->2
 "<neʼẽte>"
@@ -546,33 +546,30 @@
 	"." sent @punct #31->10 
 
 # text = Jaikuaaháicha, haʼe oheja avei hapykuere neʼẽkuaaty rembiasápe.
-# text[spa] = 
+# text[spa] = Sin dúvida, el deja también la experiencia en linguística de pasado.
 # labels = incomplete
 "<Jaikuaaháicha>"
-	"jaikuaaháicha" cnjcoo 
+	"jaikuaaháicha" adv @amod #1->5
 "<,>"
-	"," cm
+	"," cm @punct #2->3
 "<haʼe>"
-	"haʼe" prn pers p3 sg
-	"haʼe" v iv p1 sg pres
-	"haʼe" vbser iv p1 sg pres
+	"haʼe" prn pers p3 sg @nsubj #3->5
 "<oheja>"
-	"o" prn pos p3 sg
-		"he" n incp
-			"ja" v iv pres
+	"o" prn pos p3 sg #4->5
+		"heja" v tv pres @root #5->0 
 "<avei>"
-	"avei" adv
+	"avei" adv @amod #6->5
 "<hapykuere>"
-	"h" prn pos p3 sg 
-		"tapykuere" n 
+	"h" prn pos p3 sg @dep #7->8
+		"tapykuere" n @obj #8->5
 "<neʼẽkuaaty>"
-	"neʼẽkuaaty" n
+	"neʼẽkuaaty" n @obl #9->8
 "<rembiasápe>"
-	"r" det 
-		"tembiasa" n 
-			"pe" post 
+	"r" det @det #10->11
+		"tembiasa" n @obl #11->5
+			"pe" post @case #12->11
 "<.>"
-	"." sent
+	"." sent @punct #13->5
 
 # text = Schleicher he'íkuri ñe'ẽte ikatuha oñemohenda mbohapýpe, kóicha: 
 # text[spa] = 
