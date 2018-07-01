@@ -351,7 +351,7 @@ LEXICON N
 LEXICON NP-COG
 
 %<np%>%<cog%>: CASE ;
-
+%<np%>%<cog%>:%- CASE ; ! Dir/LR
 
 LEXICON NP-AL
 
@@ -366,6 +366,7 @@ LEXICON NP-TOP
 
 LEXICON NP-ANT
 %<np%>%<ant%>: CASE ;
+%<np%>%<ant%>:%- CASE ; ! Dir/LR
 
 LEXICON BARB-GUESS
 
@@ -466,6 +467,10 @@ Suasilándia:Suasil•ándia NP-TOP ;
 Venesuéla:Venesu•éla NP-TOP ; 
 Venesuéla:Venezuela NP-TOP ;  ! Dir/LR ! Err/Orth
 
+Kolikata:Kolikata NP-TOP ; 
+Kolkata:Kolkata NP-TOP ;
+
+
 Alaska:Alaska NP-TOP ; ! ""
 Alberta:Alberta NP-TOP ; ! ""
 Albuquerque:Albuquerque NP-TOP ; ! ""
@@ -560,12 +565,19 @@ Wyoming:Wyoming NP-TOP ; ! ""
 
 Malásia:Mal•ásia NP-TOP ; ! ""
 Kolombia:Kolombia NP-TOP ; ! ""
+Kamerũ:Kamerũ NP-TOP ; 
+Tetã% Mbyteafrika:Tetã% Mbyteafrika NP-TOP ;
 
 José:Jos•é NP-ANT ;
 Juan:Juan NP-ANT ;
 Garay:Garay NP-COG ; 
+Saldívar:Sald•ívar NP-COG ; 
+Iturbe:Iturbe NP-COG ; !
 Bogado:Bogado NP-COG ; ! ""
 Poryes:Poryes NP-COG ; 
+Irrazábal:Irrazábal NP-COG ; ! ""
+Leguizamón:Leguizamón NP-COG ;
+Elvio:Elvio NP-ANT ; 
 Fassardi:Fassardi NP-COG ;
 Escurra:Escurra NP-COG ; 
 Belgrano:Belgrano NP-COG ; 
@@ -634,11 +646,26 @@ Benítez:Benítez NP-COG ; ! ""
 Ortiz:Ortiz NP-COG ; ! ""
 Ortíz:Ort•íz NP-COG ; ! ""
 Cruz:Cruz NP-COG ; ! ""
+Fontao:Fontao NP-COG ; 
+Meza:Meza NP-COG ; ! ""
+Machaín:Macha•ín NP-COG ;
+Zavala:Zavala NP-COG ;
+Norton:Norton NP-COG ;
+Recalde:Recalde NP-COG ;
+Molas:Molas NP-COG ;
+
 
 Húpiter:H•úpiter NP-TOP ;
+Márte:M•árte NP-TOP ;
 Urano:Urano NP-TOP ; ! ""
 Netuno:Netuno NP-TOP ; ! ""
 Satuyno:Satuyno NP-TOP ; ! ""
+Plutõ:Plutõ NP-TOP ;
+
+Gána:G•ána NP-TOP ; ! ""
+Autarália:Autar•ália NP-TOP ;
+Caaguazú:Caaguaz•ú NP-TOP ; ! ""
+Méjiko:M•éjiko NP-TOP ;
 Kávo% Véyde:K•ávo% V•éyde NP-TOP ; ! ""
 Amazonas:Amazonas NP-TOP ; ! ""
 Maláui:Mal•áui NP-TOP ; 
@@ -3052,7 +3079,6 @@ Holland:Holland NP-TOP ; ! ""
 Holstein:Holstein NP-TOP ; ! ""
 Honduras:Honduras NP-TOP ; ! ""
 Indonesia:Indonesia NP-TOP ; ! ""
-Internet:Internet NP-TOP ; ! ""
 Iowa:Iowa NP-TOP ; ! ""
 Iran:Iran NP-TOP ; ! ""
 Ireland:Ireland NP-TOP ; ! ""
@@ -3262,6 +3288,10 @@ Florentín:Florentín NP-ANT ; ! ""
 
 Godoy:Godoy NP-COG ; ! ""
 Oliveira:Oliveira NP-COG ; ! ""
+Troche:Troche NP-COG ; ! ""
+Esteros:Esteros NP-COG ; 
+Arroyos:Arroyos NP-COG ; ! ""
+Colmán:Colmán NP-COG ; ! ""
 
 Rotary:Rotary NP-AL ; ! ""
 Vikipetã:Vikipetã NP-AL ; ! ""
@@ -3271,6 +3301,9 @@ UNESCO:UNESCO NP-AL ; ! ""
 UNESCO:Unesco NP-AL ; ! "" ! Dir/LR
 ONU:ONU NP-AL ; ! ""
 FIFA:FIFA NP-AL ; ! ""
+UEFA:UEFA NP-AL ; ! ""
+MEBOL:MEBOL NP-AL ; ! ""
+
 
 LEXICON DemAdjectives
 
@@ -5679,6 +5712,10 @@ yvyrusu:yvyrusu N ; ! "continente"
 yvytyrysyi:yvytyrysyi N ; ! "cordillera"
 yvytyrysýi:yvytyrys•ýi N ; ! "cordillera"
 
+kombutadóra:kombutad•óra N ; ! ""
+kombutadóra:komputad•óra N ; ! "" ! Dir/LR ! Err/Orth
+internet:internet N ; ! ""
+
 LEXICON VerbsIv 
 
 guata:guata V-IV ; ! "caminar, andar, transitar, pasear, marchar"
@@ -7573,6 +7610,12 @@ jesuíticas:jesu•íticas BARB ; ! Cat/j
 intelectual:intelectual BARB ; ! Cat/j
 ecológico:ecol•ógico BARB ; ! Cat/j
 arquitecto:arquitecto BARB ; ! Cat/n
+ascenso:ascenso BARB ; ! Cat/n
+campaña:campaña BARB ; ! Cat/n
+triunfo:triunfo BARB ; ! Cat/n
+teniente:teniente BARB ; ! Cat/n
+arquitectura:arquitectura BARB ; ! Cat/n
+jefe:jefe BARB ; ! Cat/n
 vía:v•ía BARB ; ! Cat/n
 tres:tres BARB ; ! Cat/n
 trayectoria:trayectoria BARB ; ! Cat/n
@@ -7630,6 +7673,7 @@ avenida:avenida BARB ; ! Cat/n
 transporte:transporte BARB ; ! Cat/n
 parlamento:parlamento BARB ; ! Cat/n
 don:don BARB ; ! Cat/n
+calle BARB ; ! Cat/n
 origen:origen BARB ; ! Cat/n
 teatro:teatro BARB ; ! Cat/n
 rede:rede BARB ; ! Cat/n
