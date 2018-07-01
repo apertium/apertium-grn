@@ -484,79 +484,66 @@
 "<.>"
 	"." sent @punct #32->5 
  
-# text = Opaite ñe'ẽte oĩva yvy ape ári niko oñemohendakuaa ñe'ẽkuaaty (lingüística) rupive ha upevarã tekotevẽ ñanemandu'a Augusto Schleicher (1821-1867) rembiapokuére.
-# text[spa] = 
+# text = Opaite ñeʼẽte oĩva yvy ape ári niko oñemohendakuaa ñeʼẽkuaaty (lingüística) rupive ha upevarã tekotevẽ ñanemandu'a Augusto Schleicher (1821-1867) rembiapokuére.
+# text[spa] = Todas las bibliotécas que están aqui en el sur son colocadas en cima por causa de lingüística (lingüística) y es preciso que nosotros recordamos el trabajo de Augusto Schleicher.
 # labels = incomplete
 "<Opaite>"
-	"opaite" adj ind
+	"opaite" adj ind @amod #1->2
 "<neʼẽte>"
-	"neʼẽ" v tv pres 
-		"te" post 
+	"neʼẽte" n @root #2->0
 "<oĩva>"
-	"oĩ" v iv pres
-		"va" subs dem
+	"oĩ" v iv pres @acl #3 ->2
+		"va" subs dem @dep #4->3 
 "<yvy>"
-	"yvy" adj
-	"yvy" n
-	"yvy" v tv pres
+	"yvy" n @obl #5->6
 "<ape>"
-	"ape" n
+	"ape" adv @advmod #6->3
 "<ári>"
-	"ári" post 
+	"ári" adv @advmod #7->10
 "<niko>"
-	"niko" v iv pres 
+	"niko" v iv pres @aux #8->9 
 "<oñemohendakuaa>"
-	"o" prn pos p3 sg
-		"ñemohenda" n incp
-			"kuaa" v tv pres
+	"o" prn pos p3 sg @dep #9->3 
+		"ñemohendakuaa" v tv pres @acl #10->9
 "<neʼẽkuaaty>"
-	"neʼẽkuaaty" n 
+	"neʼẽkuaaty" n @obl #11->10
 "<(>"
-	"(" lpar
+	"(" lpar @punct #12->13 
 "<lingüística>"
-	"lingüística" barb 
+	"lingüística" barb @obl #13->11
 "<)>"
-	")" rpar
+	")" rpar @punct #14->13
 "<rupive>"
-	"rupive" cnjcoo
-;	"ru" n incp REMOVE:13
-;		"pi" v tv pres
-;			"ve" comp
-;	"ru" n incp REMOVE:13
-;		"pi" v iv pres
-;			"ve" comp
+	"rupive" adv @advmod #15->11
 "<ha>"
-	"ha" cnjcoo
-	"ha" v iv pres
+	"ha" cnjcoo @conj #16->18 
 "<upevarã>"
-	"upe" adj dem sg 
-		"va" subs dem 
-			"rã" post 
+	"upevarã" post @case #17->18 
 "<tekotevẽ>"
-	"tekotevẽ" n
-	"tekotevẽ" v iv pres
+	"tekotevẽ" v iv pres @acl #18->19
 "<ñandemanduʼa>"
-	"ñande" prn p1 pl 
-		"manduʼa" n 
+	"ñande" prn p1 pl @dep #19->20
+		"manduʼa" v tv pres @acl #20->29 
 "<Augusto>"
-	"Augusto" np ant  
+	"Augusto" np ant  @obj #21->0
 "<Schleicher>"
-	"Schleicher" np ant @flat
+	"Schleicher" np ant @flat #22->21
 "<(>"
-	"(" lpar
+	"(" lpar @punct #23->24
 "<1821>"
-	"1821" num
+	"1821" num @flat #24->25
 "<->"
-	"-" guio
+	"-" guio @punct #25->26
 "<1867>"
-	"1867" num
+	"1867" num @flat #26->27
 "<)>"
-	")" rpar
+	")" rpar @punct #27->28
 "<rembiapokuére>"
-	"r" det 
-		"tembiapokuére" n 
+	"r" det @det #28->29
+		"tembiapokue" n @obj #29->21
+			"re" post @case #30->29
 "<.>"
-	"." sent
+	"." sent @punct #31->2 
 
 # text = Jaikuaaháicha, haʼe oheja avei hapykuere neʼẽkuaaty rembiasápe.
 # text[spa] = 
