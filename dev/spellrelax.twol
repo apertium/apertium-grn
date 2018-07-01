@@ -8,14 +8,17 @@ Alphabet
 %':%' %ʼ:%' 
 
 ! FIXME: Isso provavelmente deveria vir no lexicão de errores
-ã:ã   
-ä:ä   ã:ä 
+ã:ã   ä:ä   ã:ä 
 
-ĩ:ĩ   
-ï:ï   ĩ:ï 
+ĩ:ĩ   ï:ï   ĩ:ï 
 
-é:é
-è:è   é:è
+é:é   è:è   é:è
+
+á:á   a:a   á:a
+í:í   i:i   í:i
+ú:ú   u:u   ú:u
+é:é   e:e   é:e
+ó:ó   o:o   ó:o
 
 ;
 
