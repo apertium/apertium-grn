@@ -510,13 +510,13 @@
 "<(>"
 	"(" lpar @punct #12->13 
 "<lingüística>"
-	"lingüística" barb @obl #13->11
+	"lingüística" barb @appos #13->11
 "<)>"
 	")" rpar @punct #14->13
 "<rupive>"
 	"rupive" adv @advmod #15->11
 "<ha>"
-	"ha" cnjcoo @conj #16->18 
+	"ha" cnjcoo @cc #16->18 
 "<upevarã>"
 	"upevarã" post @case #17->18 
 "<tekotevẽ>"
@@ -525,19 +525,19 @@
 	"ñande" prn p1 pl @dep #19->20
 		"manduʼa" v tv pres @acl #20->29 
 "<Augusto>"
-	"Augusto" np ant  @obj #21->20
+	"Augusto" np ant @nmod #21->29
 "<Schleicher>"
 	"Schleicher" np ant @flat #22->21
 "<(>"
 	"(" lpar @punct #23->24
 "<1821>"
-	"1821" num @flat #24->25
+	"1821" num @appos #24->21
 "<->"
 	"-" guio @punct #25->26
 "<1867>"
-	"1867" num @flat #26->27
+	"1867" num @conj #26->24
 "<)>"
-	")" rpar @punct #27->28
+	")" rpar @punct #27->24
 "<rembiapokuére>"
 	"r" det @det #28->29
 		"tembiapokue" n @obj #29->21
