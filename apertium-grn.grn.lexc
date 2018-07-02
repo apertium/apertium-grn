@@ -8,11 +8,11 @@ Multichar_Symbols
 %<prn%>              ! Pronombre
 %<pro%>              ! Proclitico
 %<ref%>              ! Reflexivo
+%<ij%>               ! Interyección
 
 %<n%>                ! Nombre
 %<np%>               ! Nombre propio
 %<num%>              ! Número
-%<np%>               ! Nombre proprio
 %<qst%>              ! Marca de interrogación
 %<v%>                ! Verbo
 %<vbser%>            ! Verbo ser
@@ -117,6 +117,7 @@ Multichar_Symbols
 LEXICON Root 
 
 Conjunctions ;
+Interyecciones ;
 Postpositions ;
 Nouns ; 
 ProperNouns ; 
@@ -134,6 +135,7 @@ Numerals ;
 AdjIndef ;
 PRO ;
 PossesivePronouns ;
+Interyecciones ;
 Adverbs ;
 IndefinitePronouns ;
 SpaAdjectives ;
@@ -368,6 +370,10 @@ LEXICON NP-ANT
 %<np%>%<ant%>: CASE ;
 %<np%>%<ant%>:%- CASE ; ! Dir/LR
 
+LEXICON INTJ
+
+%<ij%>: # ; 
+
 LEXICON BARB-GUESS
 
 ión%<barb%>%<guess%>:ión # ; 
@@ -570,6 +576,7 @@ Tetã% Mbyteafrika:Tetã% Mbyteafrika NP-TOP ;
 
 José:Jos•é NP-ANT ;
 Juan:Juan NP-ANT ;
+Huã:Huã NP-ANT ; 
 Garay:Garay NP-COG ; 
 Caballero:Caballero NP-COG ; ! ""
 Saldívar:Sald•ívar NP-COG ; 
@@ -8647,6 +8654,9 @@ sector:sector BARB ; ! Cat/n
 ! son ambiguas con qualquier forma en guaraní y añadir todas al léxico con la etiqueta <barb>
 <[a | b | c | d | e | f | g | h | i | j | l | m | n | o | p | q | r | s | t | u | ü | v | x | y | z ]+ >  BARB-GUESS ; ! Use/Circ
 
+LEXICON Interyecciones 
+
+mbaʼéichapa:mbaʼéichapa INTJ ; ! "hola"
 
 LEXICON Abbreviações
 
