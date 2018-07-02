@@ -24,6 +24,7 @@ a b ã c d e ẽ g g̃ h i ĩ j k l m n ñ o õ p r s t u ũ v w x y z ỹ á é
 %{t%}:0
 %{a%}:0 %{a%}:a %{a%}:e %{a%}:o 
 %{b%}:p %{b%}:b %{b%}:0 
+%{i%}:0 %{i%}:i
 
 %>:0 
 % 
@@ -180,3 +181,9 @@ Cx:0 <=> %{t%}: _ ;
 
 "Remove %{b%} before nasals"
 %{b%}:0 <=> %>: m: _ [o: | y:] %{P%}: Nas: ;
+
+"Delete [i] in normal verbs"
+%{i%}:0 <=> _ ;
+
+"Add [i] for aireales" 
+%{i%}:i <=> :a %>: _ ;
