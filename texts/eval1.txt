@@ -547,7 +547,7 @@
 
 # text = Jaikuaaháicha, haʼe oheja avei hapykuere neʼẽkuaaty rembiasápe.
 # text[spa] = Sin dúvida, el deja también la experiencia en linguística de pasado.
-# labels = incomplete
+# labels = 
 "<Jaikuaaháicha>"
 	"jaikuaaháicha" adv @amod #1->5
 "<,>"
@@ -599,62 +599,56 @@
 	":" sent @punct #14->2
 
 # text = Ñe'ẽnguéra iñe'ẽpehẽteĩva (lenguas aislantes o monosilábicas), ko'ãva apytépe oĩ chinañe'ẽ, iñe'ẽpehẽteĩteĩva (Fu – Man – Chu).
-# text[spa] = 
+# text[spa] = Las lenguas monosilábicas, entre estas está la lengua chinesa aislante (Fu – Man – Chu).
 # labels = incomplete
 "<Ñeʼẽnguéra>"
-	"ñeʼẽ" n
-		"kuéra" pl
-"<iñe'ẽpehẽteĩva>"
-	"i" prn pos p3 sg 
-		"ñe'ẽpehẽteĩ" v tv pres 
-			"va" subs dem
-	"iñe'ẽpehẽteĩva" adj  
+	"ñeʼẽ" n @obl #1->11
+		"kuéra" det pl @det #2->1
+"<iñeʼẽpehẽteĩva>"
+	"iñeʼẽpehẽteĩva" adj @amod #3->1
 "<(>"
-	"(" lpar
+	"(" lpar @punct #4->5
 "<lenguas>"
-	"lenguas" barb 
+	"lenguas" barb @flat #5->1
 "<aislantes>"
-	"aislantes" barb 
+	"aislantes" barb @flat #6->5
 "<o>"
-	"o" barb 
+	"o" barb @flat #7->8
 "<monosilábicas>"
-	"monosilábicas" barb 
+	"monosilábicas" barb @flat #8->5
 "<)>"
-	")" rpar
+	")" rpar @punct #9->8
 "<,>"
-	"," cm
+	"," cm @punct #10->11 
 "<koʼãva>"
-	"koʼã" adj dem pl
-		"va" subs dem
+	"koʼã" adj dem pl @amod #11->13
+		"va" subs dem @dep #12->11
 "<apytépe>"
-	"apytépe" post
+	"apytépe" post @advmod #13->14
 "<oĩ>"
-	"oĩ" v iv pres
+	"oĩ" v iv pres @root #14->0
 "<chinañeʼẽ >"
-	"chinañeʼẽ " n 
+	"chinañeʼẽ " n @nsubj #15->14
 "<,>"
-	"," cm
-"<iñe'ẽpehẽteĩva>"
-	"i" prn pos p3 sg 
-		"ñe'ẽpehẽteĩ" v tv pres 
-			"va" subs dem 
-	"iñe'ẽpehẽteĩva" adj 
+	"," cm @punct #16->17 
+"<iñeʼẽpehẽteĩva>" 
+	"iñeʼẽpehẽteĩva" adj @amod #17->15 
 "<(>"
-	"(" lpar
+	"(" lpar @punct #18->17
 "<Fu>"
-	"Fu" barb 
+	"Fu" barb @flat #19->15
 "<–>"
-	"–" punct` 
+	"–" punct @punct #20->21
 "<Man>"
-	"Man" barb 
+	"Man" barb @flat #21->19
 "<–>"
-	"–" punct` 
+	"–" punct @punct #22 ->21
 "<Chu>"
-	"Chu" barb 
+	"Chu" barb @flat #23->19
 "<)>"
-	")" rpar
+	")" rpar @punct #24->23
 "<.>"
-	"." sent
+	"." sent @punct #25->14 
 
 # text = Ñe'ẽnguéra iñe'ẽjoapykuaáva (lenguas aglutinantes), tuykiañe'ẽ guaicha, ombojoajúva ñe'ẽpehẽtai (afijo) ñe'ẽrapóre (raíz). 
 # text[spa] = 
