@@ -600,7 +600,7 @@
 
 # text = Ñe'ẽnguéra iñe'ẽpehẽteĩva (lenguas aislantes o monosilábicas), ko'ãva apytépe oĩ chinañe'ẽ, iñe'ẽpehẽteĩteĩva (Fu – Man – Chu).
 # text[spa] = Las lenguas monosilábicas, entre estas está la lengua chinesa aislante (Fu – Man – Chu).
-# labels = incomplete
+# labels = 
 "<Ñeʼẽnguéra>"
 	"ñeʼẽ" n @obl #1->11
 		"kuéra" det pl @det #2->1
@@ -651,53 +651,53 @@
 	"." sent @punct #25->14 
 
 # text = Ñe'ẽnguéra iñe'ẽjoapykuaáva (lenguas aglutinantes), tuykiañe'ẽ guaicha, ombojoajúva ñe'ẽpehẽtai (afijo) ñe'ẽrapóre (raíz). 
-# text[spa] = 
-# labels = incomplete
+# text[spa] = En lenguas aglutinantes, como lengua turca, afijo se une a raíz.
+# labels = FIXME!
 "<Ñeʼẽnguéra>"
-	"ñeʼẽ" n
-		"kuéra" pl
+	"ñeʼẽ" n @obl #1->17 
+		"kuéra" det pl @det #2->1
 "<iñeʼẽpehẽteĩva>"
-	"i" prn pos p3 sg 
-		"ñeʼẽpehẽteĩ" v tv pres 
-			"va" subs dem 
-	"iñeʼẽpehẽteĩ" adj 		
+	"iñeʼẽpehẽteĩ" adj @amod #3->1 		
 "<(>"
-	"(" lpar
+	"(" lpar @punct #4->5
 "<lenguas>"
-	"lenguas" barb 
+	"lenguas" barb @flat #5->1 
 "<aglutinantes>"
-	"aglutinantes" barb 
+	"aglutinantes" barb @flat #6->5 
 "<)>"
-	")" rpar
+	")" rpar @punct #7->6  
 "<,>"
-	"," cm
+	"," cm @punct #8->9  
 "<tuykiañeʼẽ>"
-	"tuykiañeʼẽ" n 
+	"tuykiañeʼẽ" n @obl #9->11 
 "<guaicha>"
-	"gua" post 
-		"icha" comp 
+	"gua" post @case #10->9 
+		"icha" comp @dep #11->10
 "<,>"
-	"," cm
+	"," cm @punct #12->13 
 "<ombojoajúva>"
-	"ombojoajúva" adj 
-"<ñeʼẽpehẽtai>" n 
+	"o" prn p3 sg @dep #13->15
+		"mbojoaju" v tv pres @root #14->0 
+			"va" subs dem @dep #15->14 
+
+"<ñeʼẽpehẽtai>" n @nsubj #16->14  
 "<(>"
-	"(" lpar
+	"(" lpar @punct #17->18 
 "<afijo>"
-	"afijo" barb 
+	"afijo" barb @flat #18->16 
 "<)>"
-	")" rpar
+	")" rpar @punct #19->18 
 "<ñeʼẽrapóre>"
-	"ñeʼẽrapo" n 
-		"re" post 
+	"ñeʼẽrapo" n @obl #20->16 
+		"re" post @case #21->20
 "<(>"
-	"(" lpar
+	"(" lpar @punct #22->23
 "<raíz>"
-	"raíz" barb 
+	"raíz" barb @flat #23->20 
 "<)>"
-	")" rpar
+	")" rpar @punct #24->23
 "<.>"
-	"." sent
+	"." sent @punct #25->14
 
 # text = Iporã ja'e avañe'ẽ oñemohendaha avei ko'ãva apytépe (n-a-mbo-guata-se-i-eté-pa-kuri).
 # text[spa] = 
