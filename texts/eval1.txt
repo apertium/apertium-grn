@@ -427,7 +427,7 @@
 	"." sent @punct #19->6  
 
 # text = Ñeʼẽ niko omopeteĩ chupekuéra ha ohechauka avei avakuéra oikoha peteĩ tetãme ha upe tetãme ojepuruha peteĩ ñeʼẽte, ha’éva avañeʼẽ. 
-# text[spa] = Ellos simplifican la lengua y también indican los guaranís que viven en uno país y una biblioteca en ese país usa guaraní.  
+# text[spa] = Ellos simplifican la lengua y también indican los guaranís que viven en uno país y una lengua que se usa en ese país es guaraní.  
 # labels = 
 "<Ñeʼẽ>"
 	"ñeʼẽ" n @obl #1->4
@@ -485,7 +485,7 @@
 	"." sent @punct #32->9 
  
 # text = Opaite ñeʼẽte oĩva yvy ape ári niko oñemohendakuaa ñeʼẽkuaaty (lingüística) rupive ha upevarã tekotevẽ ñanemandu'a Augusto Schleicher (1821-1867) rembiapokuére.
-# text[spa] = Todas las bibliotécas que están aqui en el sur son colocadas en cima por causa de lingüística (lingüística) y es preciso que nosotros recordamos el trabajo de Augusto Schleicher.
+# text[spa] = Todas las lenguas que están aqui en el sur son colocadas en cima por causa de lingüística (lingüística) y es preciso que nosotros recordamos el trabajo de Augusto Schleicher.
 # labels = 
 "<Opaite>"
 	"opaite" adj ind @amod #1->2
@@ -572,35 +572,31 @@
 	"." sent @punct #13->5
 
 # text = Schleicher he'íkuri ñe'ẽte ikatuha oñemohenda mbohapýpe, kóicha: 
-# text[spa] = 
-# labels = incomplete
+# text[spa] = Schleicher ha dicho de lenguas que pueden se ordenan en tres grupos, así: 
+# labels = 
 "<Schleicher>"
-	"Schleicher" np ant 
+	"Schleicher" np ant @nsubj #1->2
 "<heʼíkuri>"
-	"heʼi" v tv pres 
-		"kuri" past 
+	"heʼi" v tv pres @root #2->0 
+		"kuri" past @aux #3->2
 "<neʼẽte>"
-	"neʼẽ" v tv pres 
-		"te" post
+	"neʼẽ" n @obl #4->6
+		"te" post @case #5->4
 "<ikatuha>"
-	"ikatu" v iv p1 sg pres 
-		"ha" subs 
+	"ikatu" v iv sg pres @acl #6->9
+		"ha" subs @dep #7->6
 "<oñemohenda>"
-	"o" prn pos p3 sg
-		"ñemohenda" n
+	"o" prn pos p3 sg @dep #8->9
+		"ñemohenda" v tv pres #9->2 
 "<mbohapýpe>"
-	"mbohapy" num 
-		"pe" post 
+	"mbohapy" num @nummod #10->9
+		"pe" post @case #11->10
 "<,>"
-	"," cm
+	"," cm @punct #12->13
 "<kóicha>"
-	"kóicha" adv
-	"ko" v tv pres
-		"icha" comp
-	"ko" v iv pres
-		"icha" comp
+	"kóicha" adv @advmod #13->9
 "<:>"
-	":" sent
+	":" sent @punct #14->2
 
 # text = Ñe'ẽnguéra iñe'ẽpehẽteĩva (lenguas aislantes o monosilábicas), ko'ãva apytépe oĩ chinañe'ẽ, iñe'ẽpehẽteĩteĩva (Fu – Man – Chu).
 # text[spa] = 
