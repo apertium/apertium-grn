@@ -184,6 +184,10 @@ Cx:0 <=> %{t%}: _ ;
 
 "Delete [i] in normal verbs"
 %{i%}:0 <=> _ ;
+    except 
+           :a (:0) _ ;
 
 "Add [i] for aireales" 
-%{i%}:i <=> :a %>: _ ;
+%{i%}:i <=> :a (:0) _ ;
+
+!@ >:0 a:a {P}:0 {i}:i k:k o:o >:0 h:h a:a 
