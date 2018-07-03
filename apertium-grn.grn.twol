@@ -189,5 +189,6 @@ Cx:0 <=> %{t%}: _ ;
 
 "Add [i] for aireales" 
 %{i%}:i <=> :a (:0) _ ;
+            :r :e (:0) _ ;
 
 !@ >:0 a:a {P}:0 {i}:i k:k o:o >:0 h:h a:a 
