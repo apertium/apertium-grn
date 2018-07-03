@@ -432,6 +432,9 @@ Peru:Peru NP-TOP ; ! "Peru" ! Dir/LR ! Err/Orth
 Perũ:Perũ NP-TOP ; ! "Peru"    
 Chile:Chile NP-TOP ; ! "Chile"
 Rio:Rio NP-TOP ;
+Gynéa:Gynéa NP-TOP ; ! ""
+Gynéa% Mbisáu:Gynéa% Mbisáu NP-TOP ; ! ""
+Gynéa% Ekuatógua:Gynéa% Ekuatógua NP-TOP ; ! ""
 Ciudad% del% Este:Ciudad% del% Este NP-TOP ; 
 Boquerón:Boquer•ón NP-TOP ;
 Misiones:Misiones NP-TOP ;
@@ -480,6 +483,7 @@ Italia:It•ália NP-TOP ; ! Dir/LR ! Err/Orth
 Suasilándia:Suasil•ándia NP-TOP ; 
 Venesuéla:Venesu•éla NP-TOP ; 
 Venesuéla:Venezuela NP-TOP ;  ! Dir/LR ! Err/Orth
+Mora:Mora NP-TOP ; 
 
 Kolikata:Kolikata NP-TOP ; 
 Kolkata:Kolkata NP-TOP ;
@@ -580,12 +584,14 @@ Wyoming:Wyoming NP-TOP ; ! ""
 Malásia:Mal•ásia NP-TOP ; ! ""
 Kolombia:Kolombia NP-TOP ; ! ""
 Kamerũ:Kamerũ NP-TOP ; 
+Tavakuairetã% Kóngo:Tavakuairetã% Kóngo NP-TOP ;
 Tetã% Mbyteafrika:Tetã% Mbyteafrika NP-TOP ;
 
 José:Jos•é NP-ANT ;
 Juan:Juan NP-ANT ;
 Huã:Huã NP-ANT ; 
 Garay:Garay NP-COG ; 
+Mora:Mora NP-COG ; 
 Guggiari:Guggiari NP-COG ; 
 Caballero:Caballero NP-COG ; ! ""
 Saldívar:Sald•ívar NP-COG ; 
