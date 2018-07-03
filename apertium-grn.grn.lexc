@@ -49,6 +49,7 @@ Multichar_Symbols
 
 %<acc%>              ! Accusative
 %<dat%>              ! Dative  
+%<nom%>              ! Nominative 
 
 
 %<pres%>             ! Presente
@@ -3489,65 +3490,48 @@ mbaʼe%<sub%>%+:%>mbaʼe%{P%} VerbsAgr ;
 
 LEXICON PersonAgr
 
-a%<prn%>%<p1%>%<sg%>%+:%>a%{P%} VerbsAgr ;
-re%<prn%>%<p2%>%<sg%>%+:%>re%{P%} VerbsAgr ;
-o%<prn%>%<p3%>%<sg%>%+:%>o%{P%} VerbsAgr ;
-o%<prn%>%<p3%>%<pl%>%+:%>o%{P%} VerbsAgr ;
-ja%<prn%>%<p1%>%<pl%>%+:%>%{J%}a%{P%} VerbsAgr ;
-ro%<prn%>%<p1%>%<pl%>%+:%>ro%{P%} VerbsAgr ;
-pe%<prn%>%<p2%>%<pl%>%+:%>pe%{P%} VerbsAgr ;
+a%<prn%>%<p1%>%<sg%>%<nom%>%+:%>a%{P%} VerbsAgr ;
+re%<prn%>%<p2%>%<sg%>%<nom%>%+:%>re%{P%} VerbsAgr ;
+o%<prn%>%<p3%>%<sg%>%<nom%>%+:%>o%{P%} VerbsAgr ;
+o%<prn%>%<p3%>%<pl%>%<nom%>%+:%>o%{P%} VerbsAgr ;
+ja%<prn%>%<p1%>%<pl%>%<nom%>%+:%>%{J%}a%{P%} VerbsAgr ;
+ro%<prn%>%<p1%>%<pl%>%<nom%>%+:%>ro%{P%} VerbsAgr ;
+pe%<prn%>%<p2%>%<pl%>%<nom%>%+:%>pe%{P%} VerbsAgr ;
 
-a%<prn%>%<p1%>%<sg%>%+:%>a%{P%} Nouns ;
-re%<prn%>%<p2%>%<sg%>%+:%>re%{P%} Nouns ;
-o%<prn%>%<p3%>%<sg%>%+:%>o%{P%} Nouns ;
-o%<prn%>%<p3%>%<pl%>%+:%>o%{P%} Nouns ;
-ja%<prn%>%<p1%>%<pl%>%+:%>%{J%}a%{P%} Nouns ;
-ro%<prn%>%<p1%>%<pl%>%+:%>ro%{P%} Nouns ;
-pe%<prn%>%<p2%>%<pl%>%+:%>pe%{P%} Nouns ;
-
-a%<prn%>%<p1%>%<sg%>%+:%>a Aireales ;
-re%<prn%>%<p2%>%<sg%>%+:%>re Aireales ;
-o%<prn%>%<p3%>%<sg%>%+:%>o Aireales ;
-o%<prn%>%<p3%>%<pl%>%+:%>o Aireales ;
-ja%<prn%>%<p1%>%<pl%>%+:%>%{J%}a Aireales ;
-ro%<prn%>%<p1%>%<pl%>%+:%>ro Aireales ;
-pe%<prn%>%<p2%>%<pl%>%+:%>pe Aireales ;
+a%<prn%>%<p1%>%<sg%>%<nom%>%+:%>a%{P%} Nouns ;
+re%<prn%>%<p2%>%<sg%>%<nom%>%+:%>re%{P%} Nouns ;
+o%<prn%>%<p3%>%<sg%>%<nom%>%+:%>o%{P%} Nouns ;
+o%<prn%>%<p3%>%<pl%>%<nom%>%+:%>o%{P%} Nouns ;
+ja%<prn%>%<p1%>%<pl%>%<nom%>%+:%>%{J%}a%{P%} Nouns ;
+ro%<prn%>%<p1%>%<pl%>%<nom%>%+:%>ro%{P%} Nouns ;
+pe%<prn%>%<p2%>%<pl%>%<nom%>%+:%>pe%{P%} Nouns ;
 
 LEXICON PersonAgrCol
 
-a%<prn%>%<p1%>%<sg%>%+: VerbsAgr "weight: 1.0" ;
-re%<prn%>%<p2%>%<sg%>%+: VerbsAgr "weight: 1.0" ;
-i%<prn%>%<p3%>%<sg%>%+:%>i%{P%} VerbsAgr ;
-i%<prn%>%<p3%>%<pl%>%+:%>i%{P%} VerbsAgr ;
-ñande%<prn%>%<p1%>%<pl%>%+:%>ñan%{D%}e%{P%} VerbsAgr ;
-ore%<prn%>%<p1%>%<pl%>%+:%>ore%{P%} VerbsAgr ;
-pende%<prn%>%<p2%>%<pl%>%+:%>pen%{D%}e%{P%} VerbsAgr  ;
+a%<prn%>%<p1%>%<sg%>%<nom%>%+: VerbsAgr "weight: 1.0" ;
+re%<prn%>%<p2%>%<sg%>%<nom%>%+: VerbsAgr "weight: 1.0" ;
+i%<prn%>%<p3%>%<sg%>%<nom%>%+:%>i%{P%} VerbsAgr ;
+i%<prn%>%<p3%>%<pl%>%<nom%>%+:%>i%{P%} VerbsAgr ;
+ñande%<prn%>%<p1%>%<pl%>%<nom%>%+:%>ñan%{D%}e%{P%} VerbsAgr ;
+ore%<prn%>%<p1%>%<pl%>%<nom%>%+:%>ore%{P%} VerbsAgr ;
+pende%<prn%>%<p2%>%<pl%>%<nom%>%+:%>pen%{D%}e%{P%} VerbsAgr  ;
 
-a%<prn%>%<p1%>%<sg%>%+: Nouns "weight: 1.0" ;
-re%<prn%>%<p2%>%<sg%>%+: Nouns "weight: 1.0";
-i%<prn%>%<p3%>%<sg%>%+:%>i%{P%} Nouns ;
-i%<prn%>%<p3%>%<pl%>%+:%>i%{P%} Nouns ;
-ñande%<prn%>%<p1%>%<pl%>%+:%>ñan%{D%}e%{P%} Nouns ;
-ore%<prn%>%<p1%>%<pl%>%+:%>ore%{P%} Nouns ;
-pende%<prn%>%<p2%>%<pl%>%+:%>pen%{D%}e%{P%} Nouns  ;
-
-a%<prn%>%<p1%>%<sg%>%+: Aireales ;
-re%<prn%>%<p2%>%<sg%>%+: Aireales ;
-i%<prn%>%<p3%>%<sg%>%+:%>i Aireales ;
-i%<prn%>%<p3%>%<pl%>%+:%>i Aireales ;
-ñande%<prn%>%<p1%>%<pl%>%+:%>ñan%{D%}e Aireales ;
-ore%<prn%>%<p1%>%<pl%>%+:%>ore Aireales ;
-
-pende%<prn%>%<p2%>%<pl%>%+:%>pen%{D%}e Aireales ;
+a%<prn%>%<p1%>%<sg%>%<nom%>%+: Nouns "weight: 1.0" ;
+re%<prn%>%<p2%>%<sg%>%<nom%>%+: Nouns "weight: 1.0";
+i%<prn%>%<p3%>%<sg%>%<nom%>%+:%>i%{P%} Nouns ;
+i%<prn%>%<p3%>%<pl%>%<nom%>%+:%>i%{P%} Nouns ;
+ñande%<prn%>%<p1%>%<pl%>%<nom%>%+:%>ñan%{D%}e%{P%} Nouns ;
+ore%<prn%>%<p1%>%<pl%>%<nom%>%+:%>ore%{P%} Nouns ;
+pende%<prn%>%<p2%>%<pl%>%<nom%>%+:%>pen%{D%}e%{P%} Nouns  ;
 
 LEXICON PersonAgrDefSg
-o%<prn%>%<p3%>%<sg%>%+:%>o%{P%} VerbsDefSg ;
+o%<prn%>%<p3%>%<sg%>%<nom%>%+:%>o%{P%} VerbsDefSg ;
 
 LEXICON PersonAgrDefPl 
 
-o%<prn%>%<p3%>%<pl%>%+:%>o%{P%} VerbsDefPl ;
-ja%<prn%>%<p1%>%<pl%>%+:%>%{J%}a%{P%} VerbsDefPl ;
-ro%<prn%>%<p1%>%<pl%>%+:%>ro%{P%} VerbsDefPl ;
+o%<prn%>%<p3%>%<pl%>%<nom%>%+:%>o%{P%} VerbsDefPl ;
+ja%<prn%>%<p1%>%<pl%>%<nom%>%+:%>%{J%}a%{P%} VerbsDefPl ;
+ro%<prn%>%<p1%>%<pl%>%<nom%>%+:%>ro%{P%} VerbsDefPl ;
 
 
 LEXICON VerbsDefSg
