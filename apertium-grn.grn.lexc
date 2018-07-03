@@ -3409,6 +3409,7 @@ vaʼekue%<aux%>%<pmp%>:vaʼekue # ;
 vaʼerã%<aux%>%<fti%>:vaʼerã # ;
 hína%<aux%>%<impf%>%<p3%>%<sg%>:hína # ;
 niko%<aux%>%<nar%>:niko # ;
+niko%<aux%>%<nar%>:ningo # ; ! Dir/LR
 
 LEXICON MODES 
 %+se%<vol%>:%>%se # ;
@@ -3925,10 +3926,10 @@ tekove:tekove N ; ! "individuo, sujeto, vida"
 tembeʼy:tembeʼy N ; ! "ribera, costa, litoral, borde, margen, orilla"
 terakuã:terakuã N ; ! "celebridad, fama, renombre, notable"
 tetãygua:tetãygua N ; ! "compatriota"
+tenda:tenda N ; ! "morada, lugar"
 
 LEXICON Nouns
 
-tenda:tenda N ; ! "morada, lugar"
 ñeʼẽrapo:ñeʼẽrapo N ; ! "raíz" 
 ñeʼẽpehẽtai:ñeʼẽpehẽtai N ; ! "afijo" 
 ojojogua:ojojogua N ; ! "semejanza" 
