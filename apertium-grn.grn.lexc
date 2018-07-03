@@ -383,6 +383,8 @@ idad%<barb%>%<guess%>:idad # ;
 idades%<barb%>%<guess%>:idades # ; 
 ismo%<barb%>%<guess%>:ismo # ; 
 ista%<barb%>%<guess%>:ista # ; 
+ento%<barb%>%<guess%>:ento # ; 
+ador%<barb%>%<guess%>:ador # ; 
 
 
 LEXICON BARB 
@@ -579,6 +581,7 @@ José:Jos•é NP-ANT ;
 Juan:Juan NP-ANT ;
 Huã:Huã NP-ANT ; 
 Garay:Garay NP-COG ; 
+Guggiari:Guggiari NP-COG ; 
 Caballero:Caballero NP-COG ; ! ""
 Saldívar:Sald•ívar NP-COG ; 
 Iturbe:Iturbe NP-COG ; !
@@ -723,7 +726,6 @@ Colorado:Colorado NP-TOP ; ! ""
 Oviedo:Oviedo NP-TOP ; ! ""
 Kongo:Kongo NP-TOP ; ! ""
 Marruéko:Marru•éko NP-TOP ; ! ""
-Ekuator:Ekuator NP-TOP ; ! ""
 Londres:Londres NP-TOP ; ! ""
 Cáceres:Cáceres NP-TOP ; ! ""
 Uruguay:Uruguay NP-TOP ; ! ""
@@ -3046,7 +3048,9 @@ Djibouti:Djibouti NP-TOP ; ! ""
 Dorset:Dorset NP-TOP ; ! ""
 Dubai:Dubai NP-TOP ; ! ""
 Dublin:Dublin NP-TOP ; ! ""
-Ecuador:Ecuador NP-TOP ; ! ""
+Ekuator:Ekuator NP-TOP ; ! ""
+Ekuator:Ecuador NP-TOP ; ! "" ! Dir/LR 
+Ekuator:Ekuador NP-TOP ; ! "" ! Dir/LR 
 Perú:Per•ú NP-TOP ; 
 Malvina:Malvina NP-TOP ; ! ""
 Japón:Japón NP-TOP ; ! ""
