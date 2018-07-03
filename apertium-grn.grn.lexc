@@ -36,8 +36,6 @@ Multichar_Symbols
 %<al%>               ! Altres
 %<ant%>              ! Antroponimo
 
-%<a%>                ! Verbos areales
-%<ai%>               ! Verbos aireales con [i] despues de prefijo
 %<pers%>             ! Personal Pronouns
 %<subs%>             ! Substantivante 
 %<pos%>              ! Possessive
@@ -223,6 +221,9 @@ LEXICON CASE-NONOM
 %+guio%<post%>:%>guio # ; ! "desde"
 %+kue%<post%>:%>kue # ; ! "durante"
 %+rõ%<post%>:%>rõ # ; ! "si"
+%+hag̃ua%<post%>:hag̃ua #; ! "para"
+
+%+hag̃ua%<post%>:hag̃ua COMP; ! "para"
 
 
 LEXICON CASE
@@ -307,6 +308,7 @@ LEXICON SUBST
 LEXICON SUBST-V 
 +ha%<subs%>:%>ha # ;
 +ha%<subs%>:%>ha COMP ;
++ha%<subs%>:%>ha CASE ;
 
 LEXICON COMP 
 +icha%<comp%>:%>icha # ; ! "igualidad" 
@@ -3462,13 +3464,6 @@ PersonAgrDefSg ;
 PersonAgrDefPl ;
 Optatives ;
 
-LEXICON AirealesTv
-i%<ai%>%+:%>i Verbs ;
-
-LEXICON Aireales 
-
-i%<ai%>%+:%>i VerbsAgr ;
-
 LEXICON INCP
 
 %<incp%>%+:  VerbsAgr ;
@@ -3562,14 +3557,6 @@ taja%<opt%>%<p1%>%<pl%>%+:%>ta%{J%}a%{P%} VerbsAgr ;
 toro%<opt%>%<p1%>%<pl%>%+:%>toro%{P%} VerbsAgr ;
 tape%<opt%>%<p2%>%<pl%>%+:%>tape%{P%} VerbsAgr ;
 
-ta%<opt%>%<p1%>%<sg%>%+:%>ta Aireales ;
-tere%<opt%>%<p2%>%<sg%>%+:%>tere Aireales ;
-to%<opt%>%<p3%>%<sg%>%+:%>to Aireales ;
-to%<opt%>%<p3%>%<pl%>%+:%>to Aireales  ;
-taja%<opt%>%<p1%>%<pl%>%+:%>ta%{J%}a Aireales ;
-toro%<opt%>%<p1%>%<pl%>%+:%>toro Aireales ;
-tape%<opt%>%<p2%>%<pl%>%+:%>tape Aireales ;
-
 
 LEXICON PRO
 
@@ -3587,9 +3574,6 @@ i%<prn%>%<pro%>%<p3%>%<pl%>%<acc%>%+:%>i Verbs ;
 
 chupe%<prn%>%<pers%>%<p3%>%<sg%>:%>chupe PRO-CASE ;
 ichupe%<prn%>%<pers%>%<p3%>%<sg%>:%>ichupe PRO-CASE ;
-
-ro%<prn%>%<pro%>%<p2%>%<sg%>%<acc%>%+:%>ro AirealesTv ;
-po%<prn%>%<pro%>%<p2%>%<pl%>%<acc%>%+:%>po AirealesTv ;
 
 
 LEXICON IrrVerbs
@@ -3644,17 +3628,16 @@ MODES ;
 
 
 LEXICON Connectors
-haʼe%<vbser%>%<iv%>%<pres%>:haʼe VerbsNegSuf ; ! ser
-ikatu%<vaux%>%<iv%>%<pres%>:ikatu VerbsNegSuf ; ! poder 
-hiʼã%<v%>%<iv%>%<pres%>:hiʼã VerbsNegSuf ; ! parecer, desear
+haʼe%<vbser%>%<iv%>%<pres%>:haʼe CON-INFL ; ! ser
+ikatu%<vaux%>%<iv%>%<pres%>:ikatu CON-INFL ; ! poder 
+hiʼã%<v%>%<iv%>%<pres%>:hiʼã CON-INFL ; ! parecer, desear
+ikatu%<v%>%<iv%>%<pres%>:ikatu CON-INFL ; ! poder 
 
-haʼe%<vbser%>%<iv%>%<pres%>:haʼe SUBST-V ; ! ser
-ikatu%<v%>%<iv%>%<pres%>:ikatu SUBST-V ; ! poder 
-hiʼã%<v%>%<iv%>%<pres%>:hiʼã SUBST-V ; ! parecer, desear
-
-haʼe%<vbser%>%<iv%>%<pres%>:haʼe # ; ! ser
-ikatu%<v%>%<iv%>%<pres%>:ikatu # ; ! poder 
-hiʼã%<v%>%<iv%>%<pres%>:hiʼã # ; ! parecer, desear
+LEXICON CON-INFL 
+VerbsNegSuf ;
+SUBST-V ; 
+CASE ;
+# ;
 
 LEXICON PossessivePrefixes
 

@@ -167,7 +167,7 @@ Cx:0 <=> %{t%}: _ ;
          where Cx in Cns;
 
 "Surface [a] in negative verbs"
-%{a%}:a <=> _ %>: %{J%}: a: ;
+%{a%}:a <=> _ [ %>: %{J%}: a: | h: a: ʼ: e: | i: k: a: t: u:] ;
 
 "Surface [o] in negative verbs"
 %{a%}:o <=> _ %>: r: o: ;
