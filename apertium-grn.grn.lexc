@@ -18,6 +18,7 @@ Multichar_Symbols
 %<vbser%>            ! Verbo ser
 %<post%>             ! Posposición
 %<cnjcoo%>           ! Conjunción coordinada
+%<cnjsub%>           ! Conjunción subordinada
 %<ind%>              ! Indefinido
 %<itg%>              ! Interrogativo
 %<adj%>              ! Adjetivo
@@ -337,6 +338,10 @@ LEXICON N-PL
 
 %+kuéra%<det%>%<pl%>:%>%{N%}%{K%}u•éra # ;
 %+kuéra%<det%>%<pl%>:%>%{N%}%{K%}u•éra COMP ;
+
+LEXICON CS
+
+%<cnjsub%>: # ;
 
 LEXICON CC
 
@@ -3295,6 +3300,17 @@ Chikago:Chikago NP-TOP ; ! ""
 Surinam:Surinam NP-TOP ; ! ""
 Mato% Grosso:Mato% Grosso NP-TOP ; ! ""
 
+Villa:Villa NP-TOP ; 
+
+Alto% Alegre:Alto% Alegre  NP-TOP ; 
+Alto% Chaco:Alto% Chaco  NP-TOP ; 
+Alto% Feliz:Alto% Feliz  NP-TOP ; 
+Alto% Paraguái:Alto% Paragu•ái  NP-TOP ; 
+Alto% Paraguay:Alto% Paraguay  NP-TOP ; 
+Alto% Paraná:Alto% Paran•á  NP-TOP ; 
+Alto% Verá:Alto% Ver•á  NP-TOP ; 
+
+
 Elizardo:Elizardo NP-ANT ; ! ""
 Antônio:Antônio NP-ANT ; ! ""
 Florentín:Florentín NP-ANT ; ! ""
@@ -3640,6 +3656,10 @@ haʼe%<vbser%>%<iv%>%<pres%>:haʼe VerbsNegSuf ; ! ser
 ikatu%<vaux%>%<iv%>%<pres%>:ikatu VerbsNegSuf ; ! poder 
 hiʼã%<v%>%<iv%>%<pres%>:hiʼã VerbsNegSuf ; ! parecer, desear
 
+haʼe%<vbser%>%<iv%>%<pres%>:haʼe SUBST-V ; ! ser
+ikatu%<v%>%<iv%>%<pres%>:ikatu SUBST-V ; ! poder 
+hiʼã%<v%>%<iv%>%<pres%>:hiʼã SUBST-V ; ! parecer, desear
+
 haʼe%<vbser%>%<iv%>%<pres%>:haʼe # ; ! ser
 ikatu%<v%>%<iv%>%<pres%>:ikatu # ; ! poder 
 hiʼã%<v%>%<iv%>%<pres%>:hiʼã # ; ! parecer, desear
@@ -3671,12 +3691,13 @@ LEXICON Conjunctions
 
 ha:ha CC ; ! "y"
 térã:t•érã CC ; ! "o"
-terã:terã CC ; ! "o" ! Dir\LR 
+terã:terã CC ; ! "o" ! Dir/LR 
 katu:katu CC ; ! "pero"
 rupive:rupive CC ; ! "por causa de"
 mbaʼe:mbaʼe CC ; ! "que"
 y:y CC ; ! ""
-ajeve:ajeve CC ; ! "por eso"
+ajeve:ajeve CS ; ! "por eso"
+upévare:upévare CS ;  ! "por eso"
 chugui:chugui CC ; ! "pero"
 
 
