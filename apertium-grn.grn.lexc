@@ -3425,6 +3425,7 @@ nd%<neg%>%+:n%{d%}%{a%} PersonAgrDefPl ;
 
 LEXICON VerbsNegSuf
 %+i%<neg%>:%>%{r%}i # ;
+%+i%<neg%>:%>%{r%}i DEM-PRN-PL ; ! ndaikatúiva
 
 
 LEXICON VerbalPrefixes   
@@ -3636,12 +3637,12 @@ MODES ;
 
 LEXICON Connectors
 haʼe%<vbser%>%<iv%>%<pres%>:haʼe VerbsNegSuf ; ! ser
-ikatu%<v%>%<iv%>%<sg%>%<pres%>:ikatu VerbsNegSuf ; ! poder 
-hiʼã%<v%>%<iv%>%<p1%>%<sg%>%<pres%>:hiʼã VerbsNegSuf ; ! parecer, desear
+ikatu%<vaux%>%<iv%>%<pres%>:ikatu VerbsNegSuf ; ! poder 
+hiʼã%<v%>%<iv%>%<pres%>:hiʼã VerbsNegSuf ; ! parecer, desear
 
 haʼe%<vbser%>%<iv%>%<pres%>:haʼe # ; ! ser
-ikatu%<v%>%<iv%>%<sg%>%<pres%>:ikatu # ; ! poder 
-hiʼã%<v%>%<iv%>%<sg%>%<pres%>:hiʼã # ; ! parecer, desear
+ikatu%<v%>%<iv%>%<pres%>:ikatu # ; ! poder 
+hiʼã%<v%>%<iv%>%<pres%>:hiʼã # ; ! parecer, desear
 
 LEXICON PossessivePrefixes
 
@@ -9916,6 +9917,7 @@ sector:sector BARB ; ! Cat/n
 LEXICON Interyecciones 
 
 mbaʼéichapa:mbaʼéichapa INTJ ; ! "hola"
+héẽ:héẽ INTJ ; ! "sí"
 
 LEXICON Abbreviações
 
