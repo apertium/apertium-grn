@@ -792,59 +792,63 @@
 	"." sent @punct #15->
 
 # text = Koʼãvape, ñeʼẽ iñambue iñeʼẽrapópemavoi karaiñeʼẽme ojehuháicha (camin/o, as, a, amos, áis, an).
-# text[spa] = 
-# labels = incomplete
+# text[spa] = En estas, flexión ya ocurre después de la raíz como en casellano (camin/o, as, a, amos, áis, an). 
+# labels = 
 "<Koʼãvape>"
-	"*koʼãvape"
+	"koʼã" adj dem pl @amod #1->14 
+		"va" subs dem @dep #2->1
+			"pe" post @case #3->1
 "<,>"
-	"," cm
+	"," cm @punct #4->
 "<ñeʼẽ>"
-	"ñeʼẽ" n
-	"ñeʼẽ" v tv pres
-	"ñeʼẽ" v iv pres
+	"ñeʼẽ" n @nmod #5->6  
 "<iñambue>"
-	"iñambue" adj ind 
+	"iñambue" n @nsubj #6->14  
 "<iñeʼẽrapópemavoi>"
-	"iñeʼẽrapópemavoi" adj  
+	"iñeʼẽrapo" n @obl #7->14  
+		"pe" post @case #8->7
+			"ma" adv @advmod #9->7
+				"voi" adv @advmod #10->7 
 "<karaiñeʼẽme>"
-	"karai" n 
-		"ñeʼẽ" n 
-			"pe" post 
+	"karaiñeʼẽ" n @obl #11->14 
+		"pe" post @case #12->11
 "<ojehuháicha>"
-	"ojehuha" adj 
-		"icha" comp 
+	"o" prn p3 sg nom @dep #13->14 
+		"jehu" v tv pres @root #14->0 
+			"ha" subs @dep #15->14
+				"icha" comp @dep #16->14 
 "<(>"
-	"(" lpar
+	"(" lpar @punct #17-> 
 "<camin>"
-	"camin" barb 
+	"camin" barb @foreign #18-> 
 "</>"
-	"/" sent
+	"/" sent @punct #19-> 
 "<o>"
-	"o" barb 
+	"o" barb @foreign #20->18 
 "<,>"
-	"," cm
+	"," cm @punct #21->
 "<as>"
-	"as" barb  
+	"as" barb @foreign #22->18 
 "<,>"
-	"," cm
+	"," cm @punct #23->
 "<a>"
-	"a" barb
+	"a" barb @foreign #24->18  
 "<,>"
-	"," cm
+	"," cm @punct #25->
 "<amos>"
-	"amos" barb 
+	"amos" barb @foreign #26->18  
 "<,>"
-	"," cm
+	"," cm @punct #27-> 
 "<áis>"
-	"áis" barb 
+	"áis" barb @foreign #28->18  
 "<,>"
-	"," cm
+	"," cm @punct #29->
 "<an>"
-	"an" barb 
+	"an" barb @foreign #30->18 
 "<)>"
-	")" rpar
+	")" rpar @punct #31-> 
 "<.>"
-	"." sent
+	"." sent @punct #32->
 
 # text = Aipórõ guarani ñe'ẽte ija umi iñe'ẽjoapykuaáva apytépe, ha upépe ojoavýma karaiñe'ẽgui oñemohendáva umi iñe'ẽrapoambuéva apytépe. 
 # text[spa] = 
