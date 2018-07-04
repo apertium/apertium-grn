@@ -851,52 +851,50 @@
 	"." sent @punct #32->
 
 # text = Aipórõ guarani ñe'ẽte ija umi iñe'ẽjoapykuaáva apytépe, ha upépe ojoavýma karaiñe'ẽgui oñemohendáva umi iñe'ẽrapoambuéva apytépe. 
-# text[spa] = 
+# text[spa] = Aquella lengua guarani cabe entre estas, allá se diferencía ya de español y estas se estabelecen entre las flectivas.
 # labels = incomplete
 "<Aipórõ>"
-	"Aipórõ" n 
+	"aipo" adj dem sg @amod #1->4
+		"rõ" post @dep #2->1
 "<guarani>"
-	"guarani" n 
+	"guarani" n @nmod  #3->4
 "<ñeʼẽte>"
-	"ñeʼẽ" n 
-		"te" post 
+	"ñeʼẽte" n @nsubj  #4->6
 "<ija>"
-	"i" prn p3 sg 
-		"ja" v iv pres
+	"i" prn p3 sg @dep #5->6
+		"ja" v iv pres @root #6->0 
 "<umi>"
-	"umi" adj dem pl
+	"umi" adj dem pl @obl #7->6  
 "<iñeʼẽjoapykuaáva>"
-	"iñeʼẽjoapykuaava" adj  
+	"iñeʼẽjoapykuaava" adj @amod  #8->4 
 "<apytépe>"
-	"apytépe" post
+	"apytépe" post @advmod #9->7 
 "<,>"
-	"," cm
+	"," cm @punct #10-> 
 "<ha>"
-	"ha" cnjcoo
-	"ha" v iv pres
+	"ha" cnjcoo @cc #11->21 
 "<upépe>"
-	"upépe" adv
+	"upépe" adv @advmod #12->19   
 "<ojoavýma>"
-	"o" prn p1 sg 
-		"joavy" v iv pres 
-			"ma" adv 
+	"o" prn p1 sg @dep #13->14
+		"joavy" v iv pres @acl #14->6  
+			"ma" adv @advmod #15->14 
 "<karaiñeʼẽgui>"
-	"karaiñeʼẽ" n 
-		"gui" post 
+	"karaiñeʼẽ" n @obl #16->19  
+		"gui" post @case #17->16 
 "<oñemohendáva>"
-	"o" prn p3 sg 
-		"ñemohenda" v iv pres 
-			"va" subs dem 
-	"oñemohendá" adj 
+	"o" prn p3 sg @dep #18->19 
+		"ñemohenda" v iv pres @acl #19->6 
+			"va" subs dem @dep #20->19 
 "<umi>"
-	"umi" adj dem pl
+	"umi" adj dem pl @amod #21->19 
  
 "<iñeʼẽrapoambuéva>"
-	"iñeʼẽrapoambuéva" adj 
+	"iñeʼẽrapoambuéva" adj @amod #22->21
 "<apytépe>"
-	"apytépe" post
+	"apytépe" post @advmod #23->21
 "<.>"
-	"." sent
+	"." sent @punct #24->  
 
 # text = Ko mba'e iporã ñamyesakã oĩgui heta tapicha - yma ha ko'ága - oñeha'ãva ohesa'ỹijo avañe’ẽ Castellano oñehesa'ỹijoháicha, ha ivaivéva - oikuaaporã’ỹre - oipuruséva Guarani ñe’ẽre Castellano ñe’ẽtekuaa. 
 # text[spa] = 
