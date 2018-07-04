@@ -609,13 +609,13 @@
 "<(>"
 	"(" lpar @punct #4->5
 "<lenguas>"
-	"lenguas" barb @flat #5->1
+	"lenguas" barb @foreign #5->1
 "<aislantes>"
-	"aislantes" barb @flat #6->5
+	"aislantes" barb @foreign #6->5
 "<o>"
 	"o" barb @flat #7->8
 "<monosilábicas>"
-	"monosilábicas" barb @flat #8->5
+	"monosilábicas" barb @foreign #8->5
 "<)>"
 	")" rpar @punct #9->8
 "<,>"
@@ -636,15 +636,15 @@
 "<(>"
 	"(" lpar @punct #18->17
 "<Fu>"
-	"Fu" barb @flat #19->15
+	"Fu" barb @foreign #19->15
 "<–>"
 	"–" punct @punct #20->21
 "<Man>"
-	"Man" barb @flat #21->19
+	"Man" barb @foreign #21->19
 "<–>"
 	"–" punct @punct #22 ->21
 "<Chu>"
-	"Chu" barb @flat #23->19
+	"Chu" barb @foreign #23->19
 "<)>"
 	")" rpar @punct #24->23
 "<.>"
@@ -661,9 +661,9 @@
 "<(>"
 	"(" lpar @punct #4->5
 "<lenguas>"
-	"lenguas" barb @flat #5->1 
+	"lenguas" barb @foreign #5->1 
 "<aglutinantes>"
-	"aglutinantes" barb @flat #6->5 
+	"aglutinantes" barb @foreign #6->5 
 "<)>"
 	")" rpar @punct #7->6  
 "<,>"
@@ -684,7 +684,7 @@
 "<(>"
 	"(" lpar @punct #17->18 
 "<afijo>"
-	"afijo" barb @flat #18->16 
+	"afijo" barb @foreign #18->16 
 "<)>"
 	")" rpar @punct #19->18 
 "<ñeʼẽrapóre>"
@@ -693,7 +693,7 @@
 "<(>"
 	"(" lpar @punct #22->23
 "<raíz>"
-	"raíz" barb @flat #23->20 
+	"raíz" barb @foreign #23->20 
 "<)>"
 	")" rpar @punct #24->23
 "<.>"
@@ -761,8 +761,8 @@
 	"." sent @punct #30->29 
 
 # text = Ñe'ẽnguéra iñe'ẽrapoambuéva (lenguas de flexión), umi ñe'ẽte indoeuropeo-icha.  
-# text[spa] = 
-# labels = incomplete
+# text[spa] = Las lenguas de flexión, aquellas lenguas como indoeuropeas. 
+# labels = 
 "<Ñeʼẽnguéra>"
 	"ñeʼẽ" n @nsubj #1->
 		"kuéra" det pl @det #2->1
@@ -773,7 +773,7 @@
 "<lenguas>"
 	"lenguas" barb @appos #5->1
 "<de>"
-	"de" barb @foreign #6->5
+	"de" barb @foreign #6->7
 "<flexión>"
 	"flexión" barb @foreign #7->5
 "<)>"
@@ -783,11 +783,11 @@
 "<umi>"
 	"umi" adj dem pl @amod #10->11
 "<ñeʼẽte>"
-	"ñeʼẽ" n 
+	"ñeʼẽ" n @obl #11 
 		"te" post @case #12->11
 "<indoeuropeo-icha>"
-	"indoeuropeo" barb 
-		"icha" comp 
+	"indoeuropeo" barb @amod #13->11 
+		"icha" comp @dep #14->13
 "<.>"
 	"." sent @punct #15->
 
