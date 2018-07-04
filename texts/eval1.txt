@@ -652,7 +652,7 @@
 
 # text = Ñe'ẽnguéra iñe'ẽjoapykuaáva (lenguas aglutinantes), tuykiañe'ẽ guaicha, ombojoajúva ñe'ẽpehẽtai (afijo) ñe'ẽrapóre (raíz). 
 # text[spa] = En lenguas aglutinantes, como lengua turca, afijo se une a raíz.
-# labels = FIXME!
+# labels = FIXME! Ambiguous 
 "<Ñeʼẽnguéra>"
 	"ñeʼẽ" n @obl #1->17 
 		"kuéra" det pl @det #2->1
@@ -700,70 +700,65 @@
 	"." sent @punct #25->14
 
 # text = Iporã ja'e avañe'ẽ oñemohendaha avei ko'ãva apytépe (n-a-mbo-guata-se-i-eté-pa-kuri).
-# text[spa] = 
+# text[spa] = Decimos también que guaraní se estabelece bién entre (n-a-mbo-guata-se-i-eté-pa-kuri).
 # labels = incomplete
 "<Iporã>"
-	"Iporã" adj 
-	"Iporã" adv 
+	"Iporã" adv @advmod #1->5
 "<jaʼe>"
-	"jaʼe" v iv p1 pl pres
+	"jaʼe" v iv p1 pl pres @root #2->0
 "<avañeʼẽ>"
-	"ava" n incp
-		"ñeʼẽ" v tv pres
-	"ava" n incp
-		"ñeʼẽ" v iv pres
+	"avañeʼẽ" n @nsubj #3->5
 "<oñemohendaha>"
-	"o" prn pos p3 sg
-		"ñemohenda" n incp
-			"ha" v iv pres
+	"o" prn pos p3 sg @dep #4->5
+		"ñemohenda" v tv pres @acl #5->2
+			"ha" subs @dep #6->5
 "<avei>"
-	"avei" adv
+	"avei" adv @advmod #7->2
 "<koʼãva>"
-	"koʼã" adj dem pl
-		"va" subs dem
+	"koʼã" adj dem pl @amod #8->3
+		"va" subs dem @dep #9->8 
 "<apytépe>"
-	"apytépe" post
+	"apytépe" post @advmod #10->5
 "<(>"
-	"(" lpar
+	"(" lpar @punct #11->12
 "<n>"
-	"n" x 
+	"n" x @flat #12->13
 "<->"
-	"-" guio
+	"-" guio @punct #13->14
 "<a>"
-	"a" x
+	"a" x @flat #14->16
 "<->"
-	"-" guio
+	"-" guio @punct #15->16
 "<mbo>"
-	"mbo" x
+	"mbo" x @flat #16->18  
 "<->"
-	"-" guio
+	"-" guio @punct #17->18  
 "<guata>"
-	"guata" x
+	"guata" x @flat #18->20 
 "<->"
-	"-" guio
+	"-" guio @punct #19->20 
 "<se>"
-	"se" x
+	"se" x @flat #20->22  
 "<->"
-	"-" guio
+	"-" guio @punct #21->22
 "<i>"
-	"i" x 
+	"i" x @flat #22->23
 "<->"
-	"-" guio
+	"-" guio @punct #23->24
 "<eté>"
-	"eté" x 
+	"eté" x @flat #24->26
 "<->"
-	"-" guio
+	"-" guio @punct #25->26
 "<pa>"
-	"pa" x 
-	"pa" x
+	"pa" x @flat #26->28
 "<->"
-	"-" guio
+	"-" guio @punct #27->28
 "<kuri>"
-	"kuri" x
+	"kuri" x @flat #28 ->18
 "<)>"
-	")" rpar
+	")" rpar @punct #29->28 
 "<.>"
-	"." sent
+	"." sent @punct #30->29 
 
 # text = Ñe'ẽnguéra iñe'ẽrapoambuéva (lenguas de flexión), umi ñe'ẽte indoeuropeo-icha.  
 # text[spa] = 
