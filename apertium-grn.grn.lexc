@@ -3423,6 +3423,7 @@ vaʼerã%<aux%>%<fti%>:vaʼerã # ;
 hína%<aux%>%<impf%>%<p3%>%<sg%>:hína # ;
 niko%<aux%>%<nar%>:niko # ;
 niko%<aux%>%<nar%>:ningo # ; ! Dir/LR
+niko%<aux%>%<nar%>:nio # ; ! Dir/LR
 
 LEXICON MODES 
 %+se%<vol%>:%>%se # ;
@@ -3637,6 +3638,9 @@ ikatu%<vaux%>%<iv%>%<pres%>:ikatu CON-INFL ; ! poder
 hiʼã%<v%>%<iv%>%<pres%>:hiʼã CON-INFL ; ! parecer, desear
 ikatu%<v%>%<iv%>%<pres%>:ikatu CON-INFL ; ! poder 
 
+!ndaipóri         v. defectivo. No hay, no está(n).
+
+
 LEXICON CON-INFL 
 VerbsNegSuf ;
 SUBST-V ; 
@@ -3678,6 +3682,17 @@ y:y CC ; ! ""
 ajeve:ajeve CS ; ! "por eso"
 upévare:upévare CS ;  ! "por eso"
 chugui:chugui CC ; ! "pero"
+
+upekuévo:upekuévo CS ; ! "Entonces, mientras tanto"
+ỹrõ:ỹrõ CC ; ! "si no, o"
+uvei:uvei CC ; ! "pero"
+ỹramo:ỹramo CC ; ! "si no, o"
+upévagui:upévagui CS ; ! "por eso"
+aipórõ:aipórõ CS ; ! "entonces"
+viña:viña CC ; ! "pero"
+upevére:upevére CS ;
+upevére:upevére CS ; 
+tẽra:tẽra CC ; ! "o"
 
 
 !!!!!!!!!!!!!!!!!!! Adverbs !!!!!!!!!!!!
@@ -3737,6 +3752,9 @@ ndéve%<prn%>%<pers%>%<p2%>%<sg%>%<dat%>:nd•éve # ;
 oréve%<prn%>%<pers%>%<p1%>%<pl%>%<dat%>:or•éve # ;
 ñandéve%<prn%>%<pers%>%<p1%>%<pl%>%<dat%>:ñand•éve #;
 peẽme%<prn%>%<pers%>%<p2%>%<pl%>%<dat%>:peẽme # ;
+
+haʼe%<prn%>%<pers%>%<p3%>%<sg%>%+ndive%<post%>:hendive # ; 
+haʼe%<prn%>%<pers%>%<p3%>%<sg%>%+gui%<post%>:ichugui # ;
 
 LEXICON PossesivePronouns
 
@@ -3892,6 +3910,11 @@ r%<det%>%+:r%{t%} Triformes ;
 h%<prn%>%<pos%>%<p3%>%<sg%>%+:h%{t%} Triformes ;
 
 LEXICON Triformes 
+tyapu:tyapu N ; ! "ruido"
+temikotevẽ:temikotevẽ N ; ! ""
+tesay:tesay N ; ! "lágrima"
+terekua:terekua N ; ! "cuidador"
+tapicha:tapicha N ; ! "persona, prójimo"
 tape:tape N ; ! "camino" 
 takã:takã N ; ! "rama"
 tetã:tetã N ; ! "nación, país, patria"
@@ -4999,7 +5022,6 @@ tapepuku:tapepuku N ; ! "ruta"
 tapere:tapere N ; ! "ruina"
 tapereko:tapereko N ; ! "vial"
 tapiagua:tapiagua N ; ! "habitual, común"
-tapicha:tapicha N ; ! "persona, prójimo"
 tapiti:tapiti N ; ! "conejo, liebre"
 tapo:tapo N ; ! "raíz"
 tapykuegua:tapykuegua N ; ! "secuencia, trasero"
@@ -5132,7 +5154,6 @@ terarangue:terarangue N ; ! "pronombre"
 teraraʼãnga:teraraʼãnga N ; ! "logotipo"
 terarenda:terarenda N ; ! "rótulo"
 terarysýi:terarys•ýi N ; ! "matrícula, nómina, padrón"
-terekua:terekua N ; ! "cuidador"
 tesa:tesa N ; ! "ojo"
 tesakuare:tesakuare N ; ! "ojera"
 tesape:tesape N ; ! "luz, iluminación"
@@ -5142,7 +5163,6 @@ tesarekohára:tesarekoh•ára N ; ! "óptico"
 tesarekokuaahára:tesarekokuaah•ára N ; ! "oculista"
 tesarekokuaapy:tesarekokuaapy N ; ! "oftalmología"
 tesarái:tesar•ái N ; ! "olvido"
-tesay:tesay N ; ! "lágrima"
 tesãi:tesãi N ; ! "salud"
 teta:teta N ; ! "abundancia, multitud"
 tete:tete N ; ! "cuerpo"
@@ -5207,7 +5227,6 @@ tuvicha:tuvicha N ; ! "jefe, grandeza"
 tuʼã:tuʼã N ; ! "cima"
 ty:ty N ; ! "orina"
 tyakuã:tyakuã N ; ! "aroma, olor"
-tyapu:tyapu N ; ! "ruido"
 tye:tye N ; ! "colitis, barriga, diarrea, abdomen, panza"
 tyeguasu:tyeguasu N ; ! "gestación"
 tyekue:tyekue N ; ! "mondongo, tripa, entraña"
@@ -9589,6 +9608,51 @@ LEXICON Adverbs
 
 apé:ap•é AD ; ! "aqui"
 ape:ape AD ; ! "aqui" ! Dir/LR 
+
+peteĩteĩ:peteĩteĩ AD ; ! "uno a uno"
+ipahápe:ipah•ápe AD ; ! "finalmente"
+hekopete:hekopete AD ; 
+añetehápe:añeteh•ápe AD ; 
+
+ojuehe:ojuehe AD ; ! ""
+opárupi:opárupi AD ; ! ""
+ojuehegui:ojuehegui AD ; ! ""
+pahápe:pahápe AD ; ! ""
+hekópe:hekópe AD ; ! ""
+eterei:eterei AD ; ! ""
+ñepyrũme:ñepyrũme AD ; ! ""
+mamove:mamove AD ; ! ""
+ãga:ãga AD ; ! ""
+manterei:manterei AD ; ! ""
+ikatúne:ikatúne AD ; ! ""
+arã:arã AD ; ! ""
+porãhápe:porãhápe AD ; ! ""
+jepéva:jepéva AD ; ! ""
+ovayvávo:ovayvávo AD ; ! ""
+iterei:iterei AD ; ! ""
+yvýrupi:yvýrupi AD ; ! ""
+upepete:upepete AD ; ! ""
+araitépe:araitépe AD ; ! ""
+vaípe:vaípe AD ; ! ""
+ojoehe:ojoehe AD ; ! ""
+ñemihápe:ñemihápe AD ; ! ""
+nipo:nipo AD ; ! ""
+mandi:mandi AD ; ! ""
+kirirĩhápe:kirirĩhápe AD ; ! ""
+vaietépe:vaietépe AD ; ! ""
+manterei:manterei AD ; ! ""
+upévo:upévo AD ; ! ""
+tayhupápe:tayhupápe AD ; ! ""
+sororo:sororo AD ; ! ""
+pipo:pipo AD ; ! ""
+moõgui:moõgui AD ; ! ""
+mbykyhápe:mbykyhápe AD ; ! ""
+kuaahápe:kuaahápe AD ; ! ""
+heraitépe:heraitépe AD ; ! ""
+angete:angete AD ; ! ""
+ágotyo:ágotyo AD ; ! ""
+
+
 asy:asy AD ; ! "muy"
 ag̃ui:ag̃ui AD ; ! "cerca"
 agãite:agãite AD ; ! "enseguida"
@@ -10034,6 +10098,8 @@ LEXICON Interyecciones
 
 mbaʼéichapa:mbaʼéichapa INTJ ; ! "hola"
 héẽ:héẽ INTJ ; ! "sí"
+cháke:cháke INTJ ; ! ""
+háke:háke INTJ ; ! ""
 
 LEXICON Abbreviações
 
