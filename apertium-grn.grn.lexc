@@ -3467,7 +3467,7 @@ Optatives ;
 
 LEXICON INCP
 
-%<incp%>%+:  VerbsAgr ;
+%<incp%>%+:  VerbsAgr "weight: 1.0" ;
 
 LEXICON VerbsAgr
 Verbs ;
@@ -5549,7 +5549,6 @@ folclore:folclore N ; ! "folclore"
 folklore:folklore N ; ! "folclore"
 fusil:fusil N ; ! "fusil"
 garámo:gar•ámo N ; ! "gramo"
-g̃:g̃ N ; ! "g"
 guapyja:guapyja N ; ! "silla"
 guaviranaʼa:guaviranaʼa N ; ! "manzana"
 hindi:hindi N ; ! "hindi"
@@ -5854,7 +5853,6 @@ hesapo:hesapo N ;
 hetakue:hetakue N ; 
 hetami:hetami N ; 
 hete:hete N ; 
-h:h N ; 
 hoguekúi:hoguek•úi N ; 
 hokẽ:hokẽ N ; 
 hondíta:hond•íta N ; 
