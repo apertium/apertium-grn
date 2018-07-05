@@ -235,6 +235,7 @@ CASE-NONOM ;
 LEXICON POST-Triformes
 
 renonde:renonde POST ; ! "delante de" 
+rapykuéri:rapyku•éri POST ; ! ""
 
 LEXICON PosTriform
 h%<prn%>%<pos%>%+:h%{t%} POST-Triformes ;
@@ -259,6 +260,7 @@ ndive:ndive POST ; ! "con"
 ndive:ndie POST ; ! "con" ! Dir/LR 
 pegua:pegua POST ; ! "de"
 guive:guive POST ; ! "desde"
+guive:guie POST ; ! "desde" ! Dir/LR
 guýpe:guýpe POST ; ! ""
 kupe:kupe POST ; ! "detras de"
 ykere:ykere POST ; ! "al lado de"
@@ -284,7 +286,6 @@ kuévo:ku•évo POST ; ! "simultaneamente"
 kupépe:kup•épe POST ; ! "detrás de"
 pópe:pópe POST ; ! ""
 rangue:rangue POST ; ! ""
-rapykuéri:rapyku•éri POST ; ! ""
 reheʼỹ:reheʼỹ POST ; ! "sin"
 rekávo:rekávo POST ; ! ""
 rendápe:rendápe POST ; ! "junto a"
@@ -295,6 +296,15 @@ gui:gui POST ; ! "de"
 gua:gua POST ; ! ""
 
 ỹre:ỹre POST ; ! "sin"
+
+guáicha:gu•áicha  POST ; ! "como"
+
+guã:guã POST ; ! ""
+áripi:áripi POST ; ! ""
+ichagua:ichagua POST ; ! ""
+guio:guio POST ; ! ""
+ri:ri POST ; ! ""
+kotyo:kotyo POST ; ! ""
 
 LEXICON POST
 
@@ -3680,6 +3690,9 @@ rupive:rupive CC ; ! "por causa de"
 mbaʼe:mbaʼe CC ; ! "que"
 y:y CC ; ! ""
 ajeve:ajeve CS ; ! "por eso"
+rõ:rõ CS ; ! "si, cuando"
+ỹre:ỹre CS ; ! "sin que"
+haguãicha:haguãicha CS ; ! "como"
 upévare:upévare CS ;  ! "por eso"
 chugui:chugui CC ; ! "pero"
 
@@ -3754,6 +3767,7 @@ oréve%<prn%>%<pers%>%<p1%>%<pl%>%<dat%>:or•éve # ;
 peẽme%<prn%>%<pers%>%<p2%>%<pl%>%<dat%>:peẽme # ;
 
 haʼe%<prn%>%<pers%>%<p3%>%<sg%>%+ndive%<post%>:hendive # ; 
+haʼe%<prn%>%<pers%>%<p3%>%<sg%>%+ndive%<post%>:hendie # ; ! Dir/LR
 haʼe%<prn%>%<pers%>%<p3%>%<sg%>%+gui%<post%>:ichugui # ;
 
 LEXICON PossesivePronouns
@@ -3910,9 +3924,24 @@ r%<det%>%+:r%{t%} Triformes ;
 h%<prn%>%<pos%>%<p3%>%<sg%>%+:h%{t%} Triformes ;
 
 LEXICON Triformes 
+tembireko:tembireko N ; ! ""
+tembo:tembo N ; ! "pene"
+tumby:tumby N ; ! "cadera, muslo"
+tesarái:tesar•ái N ; ! "olvido"
+tekopy:tekopy N ; ! "estructura"
+tye:tye N ; ! "colitis, barriga, diarrea, abdomen, panza"
+tysýi:tys•ýi N ; ! "serie, fila, listado, lista"
+tãi:tãi N ; ! "diente, muela"
+taity:taity N ; ! "nido"
+tembe:tembe N ; ! "labio"
+tymba:tymba N ; ! "ganado, animal"
+tesa:tesa N ; ! "ojo"
 tyapu:tyapu N ; ! "ruido"
 temikotevẽ:temikotevẽ N ; ! ""
 tesay:tesay N ; ! "lágrima"
+tako:tako N ; ! ""
+tovaja:tovaja N ; ! "cuñado"
+tembiguái:tembigu•ái N ; ! "lacayo, sirviente, siervo, esclava, vasallo"
 terekua:terekua N ; ! "cuidador"
 tapicha:tapicha N ; ! "persona, prójimo"
 tape:tape N ; ! "camino" 
@@ -3942,6 +3971,8 @@ ary:ary N ; ! "año"
 tembirekorã:tembirekorã N ; ! "novia formal"
 teindyra:teindyra N ; ! "hermana menor"
 kolónia:kolónia N ; ! ""
+haihára:haihára N ; ! "escritor"
+ñangarekohára:ñangarekohára N ; ! "administrador"
 tajýra:tajýra N ; ! "hija"
 taʼyra:taʼyra N ; ! "hijo" 
 embyranga:embyranga  N ; ! "hijastro, hijastra"
@@ -4280,6 +4311,7 @@ joaju:joaju N ; ! "unión"
 joapy:joapy N ; ! "accesorio"
 joavy:joavy N ; ! "discordia"
 joayhu:joayhu N ; ! "idilio"
+joayhu:juayhu N ; ! "idilio" ! Dir/LR
 joguaha:joguaha N ; ! "semejanza"
 joguapyahu:joguapyahu N ; ! "adquisición"
 joheipyre:joheipyre N ; ! "moral"
@@ -5002,7 +5034,6 @@ tai:tai N ; ! "letra"
 taiky:taiky N ; ! "guión"
 taita:taita N ; ! "abuelo"
 taitaguasu:taitaguasu N ; ! "bisabuelo"
-taity:taity N ; ! "nido"
 taju:taju N ; ! "fibra"
 tajygue:tajygue N ; ! "nervio"
 tajyguekuaapy:tajyguekuaapy N ; ! "neurología"
@@ -5076,7 +5107,6 @@ tekomarãngatu:tekomarãngatu N ; ! "virtud"
 tekomboʼe:tekomboʼe N ; ! "enseñanza"
 tekoporã:tekoporã N ; ! "ética"
 tekopuʼã:tekopuʼã N ; ! "rebeldía"
-tekopy:tekopy N ; ! "estructura"
 tekopyahu:tekopyahu N ; ! "juventud"
 tekoraʼã:tekoraʼã N ; ! "parodia"
 tekosãso:tekosãso N ; ! "libertad"
@@ -5091,7 +5121,6 @@ tekovenandi:tekovenandi N ; ! "vanidad"
 tekovepuku:tekovepuku N ; ! "longevidad"
 tekovia:tekovia N ; ! "relevo"
 tekoyma:tekoyma N ; ! "tradición"
-tembe:tembe N ; ! "labio"
 temberague:temberague N ; ! "bigote"
 tembeʼy:tembeʼy N ; ! "ribera, costa, litoral, borde, margen, orilla"
 tembeʼy% rechaukaha:tembeʼy% rechaukaha N ; ! "mojón"
@@ -5113,7 +5142,6 @@ tembiasaʼasy:tembiasaʼasy N ; ! "padecimiento"
 tembiasyeta:tembiasyeta N ; ! "tragedia"
 tembiechapy:tembiechapy N ; ! "maravilla"
 tembiechauka:tembiechauka N ; ! "exposición"
-tembiguái:tembigu•ái N ; ! "lacayo, sirviente, siervo, esclava, vasallo"
 tembijerure:tembijerure N ; ! "solicitud"
 tembikuaa:tembikuaa N ; ! "ciencia"
 tembiporu:tembiporu N ; ! "vajilla, instrumento, utensilio"
@@ -5154,7 +5182,6 @@ terarangue:terarangue N ; ! "pronombre"
 teraraʼãnga:teraraʼãnga N ; ! "logotipo"
 terarenda:terarenda N ; ! "rótulo"
 terarysýi:terarys•ýi N ; ! "matrícula, nómina, padrón"
-tesa:tesa N ; ! "ojo"
 tesakuare:tesakuare N ; ! "ojera"
 tesape:tesape N ; ! "luz, iluminación"
 tesapeha:tesapeha N ; ! "lámpara, velador"
@@ -5162,7 +5189,6 @@ tesapeharã:tesapeharã N ; ! "faro"
 tesarekohára:tesarekoh•ára N ; ! "óptico"
 tesarekokuaahára:tesarekokuaah•ára N ; ! "oculista"
 tesarekokuaapy:tesarekokuaapy N ; ! "oftalmología"
-tesarái:tesar•ái N ; ! "olvido"
 tesãi:tesãi N ; ! "salud"
 teta:teta N ; ! "abundancia, multitud"
 tete:tete N ; ! "cuerpo"
@@ -5191,7 +5217,6 @@ tororaʼy:tororaʼy N ; ! "novillo"
 tory:tory N ; ! "felicidad, alegría, humor, gozo, simpatía"
 toryja:toryja N ; ! "hazmerreír"
 tova:tova N ; ! "cara"
-tovaja:tovaja N ; ! "cuñado"
 tovapire:tovapire N ; ! "cutis"
 tovaraʼãnga:tovaraʼãnga N ; ! "máscara"
 tovayke:tovayke N ; ! "mejilla"
@@ -5208,7 +5233,6 @@ tuju:tuju N ; ! "barro, lodo, charco"
 tuku:tuku N ; ! "langosta, saltamontes"
 tukumbo:tukumbo N ; ! "látigo"
 tukã:tukã N ; ! "tucán"
-tumby:tumby N ; ! "cadera, muslo"
 tupa:tupa N ; ! "lecho, cama"
 tupahoja:tupahoja N ; ! "colcha"
 tupã:tupã N ; ! "dios"
@@ -5227,26 +5251,22 @@ tuvicha:tuvicha N ; ! "jefe, grandeza"
 tuʼã:tuʼã N ; ! "cima"
 ty:ty N ; ! "orina"
 tyakuã:tyakuã N ; ! "aroma, olor"
-tye:tye N ; ! "colitis, barriga, diarrea, abdomen, panza"
 tyeguasu:tyeguasu N ; ! "gestación"
 tyekue:tyekue N ; ! "mondongo, tripa, entraña"
 tyjúi:tyj•úi N ; ! "espuma"
 tykuaha:tykuaha N ; ! "embudo"
 tykue:tykue N ; ! "jugo, zumo"
 tyky:tyky N ; ! "gota"
-tymba:tymba N ; ! "ganado, animal"
 tymba% aty:tymba% aty N ; ! "ganadería"
 tymbajára:tymbaj•ára N ; ! "ganadero"
 typycha:typycha N ; ! "escoba"
 tyru:tyru N ; ! "vaina"
 tyryru:tyryru N ; ! "vejiga"
-tysýi:tys•ýi N ; ! "serie, fila, listado, lista"
 tytýi:tyt•ýi N ; ! "latido"
 tyvyta:tyvyta N ; ! "ceja"
 tyʼãi:tyʼãi N ; ! "gancho"
 táva:t•áva N ; ! "comunidad, municipio"
 táva% rehegua:táva% rehegua N ; ! "urbano"
-tãi:tãi N ; ! "diente, muela"
 tãinguéra:tãingu•éra N ; ! "dentadura"
 tãipohanohára:tãipohanoh•ára N ; ! "dentista"
 tãirekokuaa:tãirekokuaa N ; ! "odontología"
@@ -5705,7 +5725,6 @@ tekakapaʼã:tekakapaʼã N ; ! "estreñimiento"
 tekochaukahakuaaty:tekochaukahakuaaty N ; ! "etnología"
 tekohatyai:tekohatyai N ; ! "contaminación"
 tekoveʼetaita:tekoveʼetaita N ; ! "biodiversidad"
-tembo:tembo N ; ! "pene"
 temiraʼãha:temiraʼãha N ; ! "metro"
 teraʼãnga:teraʼãnga N ; ! "estatua"
 tesapemoñanga:tesapemoñanga N ; ! "fotosíntesis"
@@ -6097,6 +6116,8 @@ mbokajaty:mbokajaty N ;
 mboka:mboka N ; 
 mbokusugue:mbokusugue N ; 
 mbo:mbo N ; 
+mbo:mu N ;  ! Dir/LR
+mbo:my N ; ! Dir/LR
 mbore:mbore N ; 
 mborovire:mborovire N ; 
 mbuekovia:mbuekovia N ; 
@@ -6254,6 +6275,7 @@ papyeta:papyeta N ;
 paráda:par•áda N ; 
 para:para N ; 
 pareha:pareha N ; 
+pareha:parehára N ;  ! Dir/LR
 parĩ:parĩ N ; 
 parral:parral N ; 
 parralty:parralty N ; 
@@ -6453,6 +6475,7 @@ temikuaveʼẽ:temikuaveʼẽ N ;
 temimbyasy:temimbyasy N ; 
 temimondo:temimondo N ; 
 temi:temi N ; 
+temi:tembi N ;  ! Dir/LR
 temirendy:temirendy N ; 
 temitỹ:temitỹ N ; 
 temói:tem•ói N ; 
@@ -7535,7 +7558,7 @@ opirakambúva:opirakamb•úva V ; ! "mantenido"
 opáma:op•áma V ; ! "acabado"
 opámava:op•ámava V ; ! "listo"
 oñemboʼýva:oñemboʼ•ýva V ; ! "parado"
-pahague:pahague V ; ! "extremo"
+!pahague:pahague V ; ! "extremo"
 papa:%{i%}papa V ; ! "enumerar, sumar, contar"
 papa:papa V ; ! "enumerar, sumar, contar"
 para% rehegua:para% rehegua V ; ! "marino"
@@ -7923,6 +7946,7 @@ tũ’o:%{i%}tũ’o V ; ! "sacar piques"
 LEXICON Adjectives
 
 amyrỹi:amyrỹi ADJ ; ! "difunto"
+parapa:parapa ADJ ; ! "multicolor"
 g̃uaig̃ui:g̃uaig̃ui ADJ ; ! "vieja"
 hũngy:hũngy ADJ ; ! "gris"
 hungy:hungy ADJ ; ! "gris" ! Dir/LR
@@ -8126,6 +8150,7 @@ mbojeʼo:mbojeʼo ADJ ; ! "anular"
 mbopukáva:mbopuk•áva ADJ ; ! "jocoso"
 mbopyaʼeha:mbopyaʼeha ADJ ; ! "acelerador"
 mboriahu:mboriahu ADJ ; ! "pobre"
+mboriahu:poriahu ADJ ; ! "pobre" ! Dir/LR
 mbovyve:mbovyve ADJ ; ! "menos"
 mboy:mboy ADJ ; ! "cuanto"
 mboyve:mboyve ADJ ; ! "preliminar"
@@ -8199,6 +8224,7 @@ oñondivéva:oñondiv•éva ADJ ; ! "grupal"
 paha:paha ADJ ; ! "décima, último"
 paha% mboyvegua:paha% mboyvegua ADJ ; ! "penúltimo"
 pahague:pahague ADJ ; ! "extremo, final"
+pahague:pahare ADJ ; ! "extremo, final" ! Dir/LR
 paite:paite ADJ ; ! "global"
 papapykuaa:papapykuaa ADJ ; ! "matemática"
 papára:pap•ára ADJ ; ! "numeral"
@@ -8326,6 +8352,7 @@ vairasa:vairasa ADJ ; ! "pésimo"
 vaive:vaive ADJ ; ! "peor"
 vaka% reheguáva:vaka% rehegu•áva ADJ ; ! "vacuno"
 vevúi:vev•úi ADJ ; ! "leve, sutil, liviano"
+vevúi:vev•ýi ADJ ; ! "leve, sutil, liviano" ! Dir/LR
 výro:v•ýro ADJ ; ! "tonto" 
 ygagua:ygagua ADJ ; ! "naval"
 ymaguare:ymaguare ADJ ; ! "legendario"
@@ -9614,6 +9641,10 @@ ipahápe:ipah•ápe AD ; ! "finalmente"
 hekopete:hekopete AD ; 
 añetehápe:añeteh•ápe AD ; 
 
+ojoehegui:ojoehegui AD ; 
+peichaite:peichaite AD ; 
+juehe:juehe AD ; 
+
 ojuehe:ojuehe AD ; ! ""
 opárupi:opárupi AD ; ! ""
 ojuehegui:ojuehegui AD ; ! ""
@@ -10100,6 +10131,8 @@ mbaʼéichapa:mbaʼéichapa INTJ ; ! "hola"
 héẽ:héẽ INTJ ; ! "sí"
 cháke:cháke INTJ ; ! ""
 háke:háke INTJ ; ! ""
+péina:péina INTJ ; ! "aquí está"
+aguyje:aguyje INTJ ; ! "gracias"
 
 LEXICON Abbreviações
 
