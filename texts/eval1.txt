@@ -701,7 +701,7 @@
 
 # text = Iporã ja'e avañe'ẽ oñemohendaha avei ko'ãva apytépe (n-a-mbo-guata-se-i-eté-pa-kuri).
 # text[spa] = Decimos también que guaraní se estabelece bién entre (n-a-mbo-guata-se-i-eté-pa-kuri).
-# labels = incomplete
+# labels = 
 "<Iporã>"
 	"Iporã" adv @advmod #1->5
 "<jaʼe>"
@@ -897,90 +897,85 @@
 	"." sent @punct #24->  
 
 # text = Ko mba'e iporã ñamyesakã oĩgui heta tapicha - yma ha ko'ága - oñeha'ãva ohesa'ỹijo avañe’ẽ Castellano oñehesa'ỹijoháicha, ha ivaivéva - oikuaaporã’ỹre - oipuruséva Guarani ñe’ẽre Castellano ñe’ẽtekuaa. 
-# text[spa] = 
-# labels = incomplete
+# text[spa] = Esto (es) como explicamos que mucha gente - antes y ahora - esfuerza bién a analizar como Castellano tanto guaraní, todavía peor - sin saber bién quiere utilizar lengua Guarani hablado y aprender la lengua Castellana.
+# labels = 
 "<Ko>"
-	"ko" v tv pres
-	"ko" v iv pres
-	"ko" adj dem sg
+	"ko" adj dem sg @amod #1->5  
 "<mbaʼe>"
-	"mbaʼe" cnjcoo
-	"mbaʼe" n
-	"mbaʼe" prn itg
+	"mbaʼe" cnjcoo @cc #2->17  
 "<iporã>"
-	"iporã" adv 
+	"iporã" adv @adv #3->17 
 "<ñamyesakã>"
-	"ñande" prn p1 pl 
-		"myesakã" v tv pres
+	"ñande" prn p1 pl @dep #4->5
+		"myesakã" v tv pres @root #5->0  
 "<oĩgui>"
-	"oĩ" v iv pres 
-		"gui" post 
+	"o" prn p3 sg @dep #6->7  
+		"ĩ" v iv pres @aux #7->5  
+			"gui" post @dep #8->7  
 "<heta>"
-	"heta" adv
-	"heta" adj ind
+	"heta" adj ind @amod #9->10  
 "<tapicha>"
-	"tapicha" n
-	"tapicha" v tv pres
+	"tapicha" n @obl #10->17  
 "<->"
-	"-" guio
+	"-" guio @punct #11->
 "<yma>"
-	"yma" adv
+	"yma" adv @advmod #12->17 
 "<ha>"
-	"ha" cnjcoo
-	"ha" v iv pres
+	"ha" cnjcoo @cc #13->12
 "<koʼága>"
-	"koʼága" adv
+	"koʼága" adv @advmod #14->17 
 "<->"
-	"-" guio
+	"-" guio @punct #15->  
 "<oñehaʼãva>"
-	"o" prn p3 sg 
-		"ñehaʼã" v iv pres 
-			"va" subs dem 
-	"oñehaʼãva" adj 
+	"o" prn p3 sg @dep #16->17  
+		"ñehaʼã" v iv pres @acl #17->20   
+			"va" subs dem @dep #18->17  
 "<ohesaʼỹijo>"
-	"o" prn p3 sg 
-		"hesaʼỹijo" v tv pres 
+	"o" prn p3 sg @dep #19->20  
+		"hesaʼỹijo" v tv pres @advcl #20->5  
 "<avañeʼẽ>"
-	"ava" n incp
-		"ñeʼẽ" v tv pres
-	"ava" n incp
-		"ñeʼẽ" v iv pres
+	"avañeʼẽ" n @obj #21->24 
 "<Castellano>"
-	"Castellano" barb 
+	"Castellano" barb @foreign #22->24 
 "<oñehesaʼỹijoháicha>"
-	"o" prn p3 sg 
-		"hesaʼỹijo" v iv pres 
-			"ha" subs 
-				"icha" comp 
+	"o" prn p3 sg @dep #23->24
+		"hesaʼỹijo" v iv pres @advcl #24->5 
+			"ha" subs @dep #25->24 
+				"icha" comp @dep #26->25  
 "<,>"
-	"," cm
+	"," cm @punct #27-> 
 "<ha>"
-	"ha" cnjcoo
-	"ha" v iv pres
+	"ha" cnjcoo @cc #28->46   
 "<ivaivéva>"
-	"ivaivéva" adj 
+	"i" prn pos p3 sg @dep #29->30  
+		"vai" adj @amod #30->35  
+			"ve" comp @dep #31->30 
+				"va" dem subs@dep #32->30 
 "<->"
-	"-" guio
+	"-" guio @punct #33-> 
 "<oikuaaporã’ỹre>"
-	"o" prn p3 sg 
-		"kuaa" v tv pres 
-			"porã" adv 
-				"ỹ" post 
-					"re" post 
+	"o" prn p3 sg @dep #34->35 
+		"kuaa" v tv pres @acl #35->40 
+			"porã" adv @advmod #36->35 
+				"ỹre" post @dep #37->35  
 "<->"
-	"-" guio
+	"-" guio @punct #38-> 
 "<oipuruséva>"
-	"oipuruséva" adj 
+	"o" prn p3 sg nom @dep #39->40  
+		"puru" v tv pres @acl #40->48  
+			"se" vol @aux #41->40  
+				"va" dem subs @dep #42->40 
+
 "<Guarani>"
-	"Guarani" n
+	"Guarani" n @obl #43->40 
 "<ñeʼẽre>"
-	"ñeʼẽ" n
-		"re" post
+	"ñeʼẽ" v iv pres @amod #44->43
+		"re" post @dep #45->44
 "<Castellano>"
-	"Castellano" barb 
+	"Castellano" barb @foreign #46->48  
 "<ñe’ẽtekuaa>"
-	"ñe’ẽte" incp 
-		"kuaa" v tv pres 
+	"ñe’ẽte" incp @obl #47->48  
+		"kuaa" v tv pres @acl #48->5  
 "<.>"
-	"." sent
+	"." sent punct #49-> 
 
