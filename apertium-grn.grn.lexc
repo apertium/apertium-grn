@@ -259,6 +259,7 @@ hese:hese POST ; ! "por el, por ella, le"
 ndive:ndive POST ; ! "con"
 ndive:ndie POST ; ! "con" ! Dir/LR 
 pegua:pegua POST ; ! "de"
+pegua:megua POST ; ! "de" ! Dir/LR
 guive:guive POST ; ! "desde"
 guive:guie POST ; ! "desde" ! Dir/LR
 guýpe:guýpe POST ; ! ""
@@ -603,6 +604,7 @@ Tetã% Mbyteafrika:Tetã% Mbyteafrika NP-TOP ;
 
 José:Jos•é NP-ANT ;
 Juan:Juan NP-ANT ;
+Manoel:Manoel NP-ANT ; ! ""
 Huã:Huã NP-ANT ; 
 Garay:Garay NP-COG ; 
 Rolón:Rol•ón NP-COG ; 
@@ -9804,6 +9806,7 @@ un:un BARB ;
 una:una BARB ;
 con:con BARB ;
 do:do BARB ;
+dos:dos BARB ; 
 
 norte:norte BARB ;
 sul:sul BARB ;
@@ -9841,6 +9844,8 @@ minas:minas BARB ;
 obras:obras BARB ; 
 salud:salud BARB ; 
 
+cuadricular:cuadricular BARB ; ! Cat/j
+típica:típica BARB ; ! Cat/j
 sociales:sociales BARB ; ! Cat/j
 secundaria:secundaria BARB ; ! Cat/j
 principal:principal BARB ; ! Cat/j
@@ -10166,6 +10171,7 @@ LEXICON Punctuation
 %;%<sent%>:%; # ;
 %:%<sent%>:%: # ;
 %!%<sent%>:%! # ;
+%¡%<sent%>:%¡ # ; 
 %-%<guio%>:%- # ;
 %—%<guio%>:%— # ;
 %–%<guio%>:%– # ;
