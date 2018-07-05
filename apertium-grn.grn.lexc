@@ -595,6 +595,9 @@ José:Jos•é NP-ANT ;
 Juan:Juan NP-ANT ;
 Huã:Huã NP-ANT ; 
 Garay:Garay NP-COG ; 
+Rolón:Rol•ón NP-COG ; 
+Texeira:Texeira NP-COG ; 
+
 Mora:Mora NP-COG ; 
 Guggiari:Guggiari NP-COG ; 
 Caballero:Caballero NP-COG ; ! ""
@@ -9709,6 +9712,10 @@ do:do BARB ;
 
 norte:norte BARB ;
 sul:sul BARB ;
+
+don:don BARB ; 
+monseñor:monseñor BARB ; 
+general:general BARB ; 
 
 aeropuerto:aeropuerto BARB ; ! ""
 catedral:catedral BARB ; ! ""
