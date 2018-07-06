@@ -607,6 +607,7 @@ Juan:Juan NP-ANT ;
 Manoel:Manoel NP-ANT ; ! ""
 Huã:Huã NP-ANT ; 
 Garay:Garay NP-COG ; 
+Yegros:Yegros NP-COG ; ! ""
 Rolón:Rol•ón NP-COG ; 
 Texeira:Texeira NP-COG ; 
 
@@ -10142,6 +10143,8 @@ aguyje:aguyje INTJ ; ! "gracias"
 LEXICON Abbreviações
 
 Dr%.:Dr ABBR-PUNTO ; 
+Tte%.:Tte ABBR-PUNTO ; 
+Cnel%.:Cnel ABBR-PUNTO ; 
 
 aC:aC ABBR ; 
 mm:mm ABBR ;
