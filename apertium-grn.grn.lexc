@@ -3759,6 +3759,9 @@ roʼe%<v%>%<iv%>%<p1%>%<pl%>%<pres%>:roʼe IRR-INFL ; ! decimos
 peje%<v%>%<iv%>%<p2%>%<pl%>%<pres%>:peje IRR-INFL ; ! decis 
 heʼi%<v%>%<iv%>%<p3%>%<pl%>%<pres%>:heʼi IRR-INFL ; ! dicen 
 
+! FIXME: Não entendo o paradigma:
+o%<prn%>%<p3%>%<sg%>%<nom%>%+je%<pass%>%+heʼi%<v%>%<iv%>%<pres%>:%>ojeʼe # ;
+
 aju%<v%>%<iv%>%<p1%>%<sg%>%<pres%>:aju IRR-INFL ; ! vengo
 reju%<v%>%<iv%>%<p2%>%<sg%>%<pres%>:reju IRR-INFL ; ! vienes 
 ou%<v%>%<iv%>%<p2%>%<sg%>%<pres%>:ou IRR-INFL ; ! viene 
@@ -13075,6 +13078,7 @@ kaʼaru:kaʼaru AD ; ! "tarde"
 koʼárupi:koʼárupi AD ; ! "por aquí"
 koʼãga:koʼãga AD ; ! "ahora"
 koʼága:koʼ•ága AD ; ! "ahora" ! Dir/LR
+koʼága:koʼ•ág̃a AD ; ! "ahora" ! Dir/LR
 koʼápe:koʼ•ápe AD ; ! "acá, aquí"
 koʼẽrõ:koʼẽrõ AD ; ! "mañana" 
 koʼẽramo:koʼẽramo AD ; ! "mañana" 
