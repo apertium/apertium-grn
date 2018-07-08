@@ -436,6 +436,8 @@ Volívia:Bolivia NP-TOP ; ! Dir/LR ! Err/Orth
 Volívia:Volivia NP-TOP ; ! Dir/LR ! Err/Orth
 Vrasil:Vrasil NP-TOP ; ! "Vrasil"
 Vrasil:Brasil NP-TOP ; ! "Brasil" ! Dir/LR ! Err/Orth
+Jerusalén:Jerusal•én NP-TOP ; 
+Egipto:Egipto NP-TOP ;
 Argentina:Argentina NP-TOP ; ! "Argentina"
 Kéña:K•éña NP-TOP ; ! ""
 Katalúña:Katal•úña NP-TOP ; ! ""
@@ -603,6 +605,8 @@ Tavakuairetã% Kóngo:Tavakuairetã% Kóngo NP-TOP ;
 Tetã% Mbyteafrika:Tetã% Mbyteafrika NP-TOP ;
 
 José:Jos•é NP-ANT ;
+Jesucristo:Jesucristo NP-ANT ;
+Aarón:Aar•ón NP-ANT ;
 Juan:Juan NP-ANT ;
 Manoel:Manoel NP-ANT ; ! ""
 Kachíke:Kachíke NP-ANT ; ! ""
