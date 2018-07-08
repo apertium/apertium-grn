@@ -4108,6 +4108,7 @@ temikotevẽ:temikotevẽ N ; ! ""
 tesay:tesay N ; ! "lágrima"
 tako:tako N ; ! ""
 tovaja:tovaja N ; ! "cuñado"
+tory:tory N ; ! ""
 tembiguái:tembigu•ái N ; ! "lacayo, sirviente, siervo, esclava, vasallo"
 terekua:terekua N ; ! "cuidador"
 tapicha:tapicha N ; ! "persona, prójimo"
@@ -5938,842 +5939,670 @@ yvyrusu:yvyrusu N ; ! "continente"
 yvytyrysyi:yvytyrysyi N ; ! "cordillera"
 yvytyrysýi:yvytyrys•ýi N ; ! "cordillera"
 
-kombutadóra:kombutad•óra N ; ! ""
+kombutadóra:kombutad•óra N ; ! "ordenador"
 kombutadóra:komputad•óra N ; ! "" ! Dir/LR ! Err/Orth
-internet:internet N ; ! ""
+internet:internet N ; ! "internet"
 
 
-ache:ache N ; 
-aguai:aguai N ; 
-aguapeaso:aguapeaso N ; 
-ahẽ:ahẽ N ; 
-ajurigua:ajurigua N ; 
-akaʼẽ:akaʼẽ N ; 
-akão:akão N ; 
-akãrague:akãrague N ; 
-akãrasy:akãrasy N ; 
-akãyvoty:akãyvoty N ; 
-akekẽ:akekẽ N ; 
-akuti:akuti N ; 
-alko:alko N ; 
-alóha:al•óha N ; 
-amandyky:amandyky N ; 
-amandy:amandy N ; 
-amangy:amangy N ; 
-ambaʼy:ambaʼy N ; 
-ambýu:amb•ýu N ; 
-anana:anana N ; 
-andai:andai N ; 
-angaipa:angaipa N ; 
-angata:angata N ; 
-angírũ:ang•írũ N ; 
-anguʼa:anguʼa N ; 
-ano:ano N ; 
-apokytã:apokytã N ; 
-apopy:apopy N ; 
-apoukapy:apoukapy N ; 
-apỹi:apỹi N ; 
-apytere:apytere N ; 
-apytuʼũ:apytuʼũ N ; 
-apytuʼũroky:apytuʼũroky N ; 
-araka:araka N ; 
-arapaʼũ:arapaʼũ N ; 
-arapokõindy:arapokõindy N ; 
-arapoteĩ:arapoteĩ N ; 
-arapyrendy:arapyrendy N ; 
-ararasa:ararasa N ; 
-araresa:araresa N ; 
-araroʼysã:araroʼysã N ; 
-aratiku:aratiku N ; 
-arayvoty:arayvoty N ; 
-arigua:arigua N ; 
-arriéro:arri•éro N ; 
-arro:arro N ; 
-ateʼỹ:ateʼỹ N ; 
-atõiha:atõiha N ; 
-atõi:atõi N ; 
-atúa:at•úa N ; 
-atýra:at•ýra N ; 
-avakachi:avakachi N ; 
-avakua:avakua N ; 
-avatisoka:avatisoka N ; 
-avoa:avoa N ; 
-avuku:avuku N ; 
-avy:avy N ; 
-ay:ay N ; 
-chahã:chahã N ; 
-chaʼĩ:chaʼĩ N ; 
-chamame:chamame N ; 
-chamígo:cham•ígo N ; 
-chara:chara N ; 
-chejehegui:chejehegui N ; 
-chejehe:chejehe N ; 
-chentese:chentese N ; 
-chichã:chichã N ; 
-chicharõ:chicharõ N ; 
-chiri:chiri N ; 
-chiripa:chiripa N ; 
-chochĩ:chochĩ N ; 
-chopĩ:chopĩ N ; 
-chuchu:chuchu N ; 
-chulu:chulu N ; 
-chúra:ch•úra N ; 
-churuchuchu:churuchuchu N ; 
-eichu:eichu N ; 
-eirete:eirete N ; 
-eiru:eiru N ; 
-ekuéla:eku•éla N ; 
-entéro:ent•éro N ; 
-éu:•éu N ; 
-forĩfo:forĩfo N ; 
-ge:ge N ; 
-gi:gi N ; 
-grásia:gr•ásia N ; 
-guahẽ:guahẽ N ; 
-guaho:guaho N ; 
-guaiguĩ:guaiguĩ N ; 
-guajaki:guajaki N ; 
-guapoʼy:guapoʼy N ; 
-guarini:guarini N ; 
-guavira:guavira N ; 
-gueʼẽ:gueʼẽ N ; 
-guerere:guerere N ; 
-guy:guy N ; 
-guyraũ:guyraũ N ; 
-guyryry:guyryry N ; 
-haʼãra:haʼãra N ; 
-hácha:h•ácha N ; 
-haʼentese:haʼentese N ; 
-haimbe:haimbe N ; 
-hajy:hajy N ; 
-hakamby:hakamby N ; 
-hára:h•ára N ; 
-hare:hare N ; 
-háre:h•áre N ; 
-hasýpe:has•ýpe N ; 
-hasyʼỹ:hasyʼỹ N ; 
-hatĩ:hatĩ N ; 
-haʼuvõ:haʼuvõ N ; 
-havía:hav•ía N ; 
-hechakuaaʼỹ:hechakuaaʼỹ N ; 
-heindy:heindy N ; 
-hekovia:hekovia N ; 
-hekua:hekua N ; 
-hemby:hemby N ; 
-herekua:herekua N ; 
-hesaguasu:hesaguasu N ; 
-hesapo:hesapo N ; 
-hetakue:hetakue N ; 
-hetami:hetami N ; 
-hete:hete N ; 
-hoguekúi:hoguek•úi N ; 
-hokẽ:hokẽ N ; 
-hondíta:hond•íta N ; 
-huʼã:huʼã N ; 
-huguái:hugu•ái N ; 
-hugua:hugua N ; 
-huʼitĩ:huʼitĩ N ; 
-hupytypyrã:hupytypyrã N ; 
-húvol:h•úvol N ; 
-hyʼa:hyʼa N ; 
-hyepy:hyepy N ; 
-ij:ij N ; 
-ikatuʼỹha:ikatuʼỹha N ; 
-íla:•íla N ; 
-inga:inga N ; 
-inimbe:inimbe N ; 
-iñ:iñ N ; 
-irũ:irũ N ; 
-itaembo:itaembo N ; 
-itahũ:itahũ N ; 
-itakuruvi:itakuruvi N ; 
-jaguane:jaguane N ; 
-jaguapytã:jaguapytã N ; 
-jaguarundi:jaguarundi N ; 
-jahape:jahape N ; 
-jaheiʼỹ:jaheiʼỹ N ; 
-jakaratiʼa:jakaratiʼa N ; 
-jaku:jaku N ; 
-jaʼopy:jaʼopy N ; 
-japeusa:japeusa N ; 
-japopyre:japopyre N ; 
-jarara:jarara N ; 
-jararã:jararã N ; 
-jasuru:jasuru N ; 
-jasypateĩ:jasypateĩ N ; 
-jatevu:jatevu N ; 
-jecha:jecha N ; 
-jeguakarei:jeguakarei N ; 
-jehaipyre:jehaipyre N ; 
-jehekuavo:jehekuavo N ; 
-jehe:jehe N ; 
-jehepy:jehepy N ; 
-jehýi:jeh•ýi N ; 
-jehykuavo:jehykuavo N ; 
-jekopyty:jekopyty N ; 
-je:je N ; 
-jepyhéi:jepyh•éi N ; 
-jepykua:jepykua N ; 
-jepy:jepy N ; 
-jereraha:jereraha N ; 
-jeruti:jeruti N ; 
-jesarea:jesarea N ; 
-jetapa:jetapa N ; 
-jeupe:jeupe N ; 
-jokuaipy:jokuaipy N ; 
-jo:jo N ; 
-jotopaha:jotopaha N ; 
-jovasa:jovasa N ; 
-jukyry:jukyry N ; 
-jurumi:jurumi N ; 
-jurupy:jurupy N ; 
-kaʼaguasu:kaʼaguasu N ; 
-kaʼa:kaʼa N ; 
-kaʼarẽ:kaʼarẽ N ; 
-kaʼaty:kaʼaty N ; 
-kachása:kach•ása N ; 
-kachivéo:kachiv•éo N ; 
-kaguaka:kaguaka N ; 
-kái:k•ái N ; 
-kambire:kambire N ; 
-kamiõ:kamiõ N ; 
-kã:kã N ; 
-kandial:kandial N ; 
-kandua:kandua N ; 
-kanguekue:kanguekue N ; 
-kangue:kangue N ; 
-kanguepo:kanguepo N ; 
-kaninde:kaninde N ; 
-kanóa:kan•óa N ; 
-káña:k•áña N ; 
-kañymby:kañymby N ; 
-kapiatĩ:kapiatĩ N ; 
-kapiʼi:kapiʼi N ; 
-kapiʼity:kapiʼity N ; 
-kapiʼyva:kapiʼyva N ; 
-kapõ:kapõ N ; 
-karácha:kar•ácha N ; 
-karaguata:karaguata N ; 
-karakara:karakara N ; 
-karaku:karaku N ; 
-karameguã:karameguã N ; 
-karapekue:karapekue N ; 
-karãu:karãu N ; 
-karimbata:karimbata N ; 
-karuʼỹ:karuʼỹ N ; 
-katĩ:katĩ N ; 
-káusa:k•áusa N ; 
-kavichuʼi:kavichuʼi N ; 
-kavureʼi:kavureʼi N ; 
-kavure:kavure N ; 
-kaʼygua:kaʼygua N ; 
-kéra:k•éra N ; 
-kerana:kerana N ; 
-keʼỹ:keʼỹ N ; 
-kichiha:kichiha N ; 
-kílo:k•ílo N ; 
-kirikiri:kirikiri N ; 
-kiveve:kiveve N ; 
-klu:klu N ; 
-koʼãichagua:koʼãichagua N ; 
-kochésa:koch•ésa N ; 
-koʼẽju:koʼẽju N ; 
-koʼẽmba:koʼẽmba N ; 
-kogaʼa:kogaʼa N ; 
-kóga:k•óga N ; 
-kokatu:kokatu N ; 
-kompái:komp•ái N ; 
-kompáyre:komp•áyre N ; 
-kompi:kompi N ; 
-koni:koni N ; 
-korasõ:korasõ N ; 
-korochire:korochire N ; 
-kosereva:kosereva N ; 
-kosina:kosina N ; 
-kotevẽ:kotevẽ N ; 
-kotyguahẽha:kotyguahẽha N ; 
-kotypy:kotypy N ; 
-kovi:kovi N ; 
-kuaapavẽ:kuaapavẽ N ; 
-kuaapyrã:kuaapyrã N ; 
-kuaaserei:kuaaserei N ; 
-kuãʼi:kuãʼi N ; 
-kuʼakua:kuʼakua N ; 
-kuãmboʼe:kuãmboʼe N ; 
-kuãmbyte:kuãmbyte N ; 
-kuã:kuã N ; 
-kũʼã:kũʼã N ; 
-kuãngusu:kuãngusu N ; 
-kuára:ku•ára N ; 
-kuárto:ku•árto N ; 
-kuʼasã:kuʼasã N ; 
-kue:kue N ; 
-kuku:kuku N ; 
-kumanda:kumanda N ; 
-kumare:kumare N ; 
-kumbari:kumbari N ; 
-kũ:kũ N ; 
-kunumi:kunumi N ; 
-kunuʼũ:kunuʼũ N ; 
-kuñaséro:kuñas•éro N ; 
-kuñataĩ:kuñataĩ N ; 
-kupiʼi:kupiʼi N ; 
-kurapepẽ:kurapepẽ N ; 
-kurundu:kurundu N ; 
-kurupaʼy:kurupaʼy N ; 
-kurupi:kurupi N ; 
-kuruvi:kuruvi N ; 
-kusugue:kusugue N ; 
-kusuvi:kusuvi N ; 
-kyhyjeʼỹ:kyhyjeʼỹ N ; 
-kyndýi:kynd•ýi N ; 
-kyreʼỹ:kyreʼỹ N ; 
-kyrỹi:kyrỹi N ; 
-kyry:kyry N ; 
-kyrýu:kyr•ýu N ; 
-kyveʼỹ:kyveʼỹ N ; 
-kyʼỹi:kyʼỹi N ; 
-ládo:l•ádo N ; 
-lája:l•ája N ; 
-láta:l•áta N ; 
-légua:l•égua N ; 
-lembu:lembu N ; 
-le:le N ; 
-lénto:l•énto N ; 
-limõ:limõ N ; 
-lókro:l•ókro N ; 
-lómo:l•ómo N ; 
-lo:lo N ; 
-lopi:lopi N ; 
-luisõ:luisõ N ; 
-machéte:mach•éte N ; 
-machu:machu N ; 
-maʼerã:maʼerã N ; 
-maʼẽra:maʼẽra N ; 
-maheʼẽ:maheʼẽ N ; 
-maína:ma•ína N ; 
-mainumby:mainumby N ; 
-mama:mama N ; 
-mamanga:mamanga N ; 
-mandiʼi:mandiʼi N ; 
-mandiʼo:mandiʼo N ; 
-manguruju:manguruju N ; 
-marandeko:marandeko N ; 
-maraneʼỹ:maraneʼỹ N ; 
-marãʼỹ:marãʼỹ N ; 
-masakaraguaʼi:masakaraguaʼi N ; 
-máta:m•áta N ; 
-matéria:mat•éria N ; 
-mavaite:mavaite N ; 
-mbaʼapoʼỹ:mbaʼapoʼỹ N ; 
-mbaʼeguasu:mbaʼeguasu N ; 
-mbaʼemotepa:mbaʼemotepa N ; 
-mbaʼerei:mbaʼerei N ; 
-mbaʼereta:mbaʼereta N ; 
-mbaipy:mbaipy N ; 
-mbara:mbara N ; 
-mbareteʼỹ:mbareteʼỹ N ; 
-mbeju:mbeju N ; 
-mbe:mbe N ; 
-mbigua:mbigua N ; 
-mbíra:mb•íra N ; 
-mboaje:mboaje N ; 
-mboapuʼaha:mboapuʼaha N ; 
-mbohasahára:mbohasah•ára N ; 
-mboheha:mboheha N ; 
-mbokajaʼa:mbokajaʼa N ; 
-mbokaja:mbokaja N ; 
-mbokajaty:mbokajaty N ; 
-mboka:mboka N ; 
-mbokusugue:mbokusugue N ; 
-mbo:mbo N ; 
-mbo:mu N ;  ! Dir/LR
-mbo:my N ; ! Dir/LR
-mbore:mbore N ; 
-mborovire:mborovire N ; 
-mbuekovia:mbuekovia N ; 
-mburukuja:mburukuja N ; 
-mbutu:mbutu N ; 
-mbya:mbya N ; 
-mby:mby N ; 
-meʼẽha:meʼẽha N ; 
-membykõi:membykõi N ; 
-membyryme:membyryme N ; 
-mensu:mensu N ; 
-mesa:mesa N ; 
-milíko:mil•íko N ; 
-mimby:mimby N ; 
-mitãkuimbaʼe:mitãkuimbaʼe N ; 
-mive:mive N ; 
-mohaguinoha:mohaguinoha N ; 
-moĩmbaha:moĩmbaha N ; 
-moingoe:moingoe N ; 
-momaranduhára:momaranduh•ára N ; 
-mombary:mombary N ; 
-mombeʼuanga:mombeʼuanga N ; 
-mombeʼuhára:mombeʼuh•ára N ; 
-mombeʼupy:mombeʼupy N ; 
-mombeʼupyrã:mombeʼupyrã N ; 
-momorãhéi:momorãh•éi N ; 
-moneĩ:moneĩ N ; 
-monoʼõmby:monoʼõmby N ; 
-moña:moña N ; 
-moñeʼẽrã:moñeʼẽrã N ; 
-moñepyrũhára:moñepyrũh•ára N ; 
-mosaingoha:mosaingoha N ; 
-mósto:m•ósto N ; 
-móto:m•óto N ; 
-myakỹ:myakỹ N ; 
-myiʼỹ:myiʼỹ N ; 
-mytuẽ:mytuẽ N ; 
-mytũ:mytũ N ; 
-náko:n•áko N ; 
-namichãi:namichãi N ; 
-ndu:ndu N ; 
-ndýi:nd•ýi N ; 
-ndy:ndy N ; 
-ne:ne N ; 
-nevu:nevu N ; 
-nge:nge N ; 
-ngue:ngue N ; 
-nguéra:ngu•éra N ; 
-nte:nte N ; 
-ñaʼẽ:ñaʼẽ N ; 
-ñaiʼũ:ñaiʼũ N ; 
-ñakanina:ñakanina N ; 
-ñakyrã:ñakyrã N ; 
-ña:ña N ; 
-ñanandy:ñanandy N ; 
-ñandejehegui:ñandejehegui N ; 
-ñanduguasu:ñanduguasu N ; 
-ñangapiry:ñangapiry N ; 
-ñapañuãi:ñapañuãi N ; 
-ñasaindy:ñasaindy N ; 
-ñatiʼũ:ñatiʼũ N ; 
-ñayʼũ:ñayʼũ N ; 
-ñeʼã:ñeʼã N ; 
-ñeandu:ñeandu N ; 
-ñeangecha:ñeangecha N ; 
-ñeʼẽjoajuha:ñeʼẽjoajuha N ; 
-ñeʼẽjoaju:ñeʼẽjoaju N ; 
-ñeʼẽmbyrã:ñeʼẽmbyrã N ; 
-ñeʼẽndy:ñeʼẽndy N ; 
-ñeʼẽngatu:ñeʼẽngatu N ; 
-ñeʼẽngue:ñeʼẽngue N ; 
-ñeʼengu:ñeʼengu N ; 
-ñeʼẽpapára:ñeʼẽpap•ára N ; 
-ñeʼẽpehẽ:ñeʼẽpehẽ N ; 
-ñeʼẽporãhaipyre:ñeʼẽporãhaipyre N ; 
-ñeʼẽpoty:ñeʼẽpoty N ; 
-ñeʼẽrendu:ñeʼẽrendu N ; 
-ñeʼẽriregua:ñeʼẽriregua N ; 
-ñeʼẽryru:ñeʼẽryru N ; 
-ñeʼẽyvotyete:ñeʼẽyvotyete N ; 
-ñeʼẽyvoty:ñeʼẽyvoty N ; 
-ñeguahẽha:ñeguahẽha N ; 
-ñeguahẽ:ñeguahẽ N ; 
-ñehenói:ñehen•ói N ; 
-ñehetũ:ñehetũ N ; 
-ñeikotevẽ:ñeikotevẽ N ; 
-ñekoni:ñekoni N ; 
-ñekuã:ñekuã N ; 
-ñekytĩ:ñekytĩ N ; 
-ñembiso:ñembiso N ; 
-ñemboaje:ñemboaje N ; 
-ñemboguevi:ñemboguevi N ; 
-ñembohai:ñembohai N ; 
-ñembohovake:ñembohovake N ; 
-ñembohyku:ñembohyku N ; 
-ñembou:ñembou N ; 
-ñembuai:ñembuai N ; 
-ñembyekovia:ñembyekovia N ; 
-ñemeʼẽ:ñemeʼẽ N ; 
-ñemimby:ñemimby N ; 
-ñemohũ:ñemohũ N ; 
-ñemohuʼũ:ñemohuʼũ N ; 
-ñemokunuʼũ:ñemokunuʼũ N ; 
-ñemo:ñemo N ; 
-ñemonambi:ñemonambi N ; 
-ñemoneĩ:ñemoneĩ N ; 
-ñemoñanga:ñemoñanga N ; 
-ñemosẽ:ñemosẽ N ; 
-ñemotĩ:ñemotĩ N ; 
-ñemuhára:ñemuh•ára N ; 
-ñemyenyhẽ:ñemyenyhẽ N ; 
-ñemy:ñemy N ; 
-ñe:ñe N ; 
-ñeñotỹ:ñeñotỹ N ; 
-ñepehẽʼa:ñepehẽʼa N ; 
-ñepichãi:ñepichãi N ; 
-ñeporandu:ñeporandu N ; 
-ñeporeno:ñeporeno N ; 
-ñepu:ñepu N ; 
-ñepysyrõ:ñepysyrõ N ; 
-ñepytyvõ:ñepytyvõ N ; 
-ñerairõ:ñerairõ N ; 
-ñeroyrõ:ñeroyrõ N ; 
-ñesẽ:ñesẽ N ; 
-ñesũpehẽ:ñesũpehẽ N ; 
-ñetĩ:ñetĩ N ; 
-ñipytũ:ñipytũ N ; 
-ñohaʼanga:ñohaʼanga N ; 
-ño:ño N ; 
-ñongatupy:ñongatupy N ; 
-ñopehẽngue:ñopehẽngue N ; 
-ñorairõʼỹ:ñorairõʼỹ N ; 
-ñuatĩndy:ñuatĩndy N ; 
-ogapegua:ogapegua N ; 
-ogapepo:ogapepo N ; 
-ogapypegua:ogapypegua N ; 
-ogaraity:ogaraity N ; 
-ogyke:ogyke N ; 
-oikereíva:oikere•íva N ; 
-oimehápe:oimeh•ápe N ; 
-ojehegui:ojehegui N ; 
-okẽ:okẽ N ; 
-ombopukuaáva:ombopukua•áva N ; 
-ondive:ondive N ; 
-oñopehẽngue:oñopehẽngue N ; 
-orkéta:ork•éta N ; 
-páila:p•áila N ; 
-paíno:pa•íno N ; 
-paʼirã:paʼirã N ; 
-pajagua:pajagua N ; 
-paku:paku N ; 
-pámo:p•ámo N ; 
-papahára:papah•ára N ; 
-papyeta:papyeta N ; 
-paráda:par•áda N ; 
-para:para N ; 
-pareha:pareha N ; 
-pareha:parehára N ;  ! Dir/LR
-parĩ:parĩ N ; 
-parral:parral N ; 
-parralty:parralty N ; 
-pati:pati N ; 
-patula:patula N ; 
-pehẽ:pehẽ N ; 
-pehẽnguemi:pehẽnguemi N ; 
-pende:pende N ; 
-pénde:p•énde N ; 
-peno:peno N ; 
-pere:pere N ; 
-peterevy:peterevy N ; 
-petỹ:petỹ N ; 
-peu:peu N ; 
-péu:p•éu N ; 
-pijoha:pijoha N ; 
-piky:piky N ; 
-pini:pini N ; 
-píña:p•íña N ; 
-pirãi:pirãi N ; 
-pirarembiʼu:pirarembiʼu N ; 
-pirĩ:pirĩ N ; 
-piroʼy:piroʼy N ; 
-piroʼysã:piroʼysã N ; 
-pitogue:pitogue N ; 
-pokã:pokã N ; 
-pokoka:pokoka N ; 
-pombéro:pomb•éro N ; 
-popĩa:popĩa N ; 
-popy:popy N ; 
-póra:p•óra N ; 
-poreʼỹ:poreʼỹ N ; 
-porokuái:poroku•ái N ; 
-pórte:p•órte N ; 
-posa:posa N ; 
-potapy:potapy N ; 
-poyhu:poyhu N ; 
-pundiekõi:pundiekõi N ; 
-pundie:pundie N ; 
-puso:puso N ; 
-pyʼaguapyʼỹ:pyʼaguapyʼỹ N ; 
-pyʼaheta:pyʼaheta N ; 
-pyʼamirĩ:pyʼamirĩ N ; 
-pyapẽ:pyapẽ N ; 
-pyʼaraku:pyʼaraku N ; 
-pyʼarasy:pyʼarasy N ; 
-pyʼasãngue:pyʼasãngue N ; 
-pyatã:pyatã N ; 
-pyʼatarova:pyʼatarova N ; 
-pychãi:pychãi N ; 
-pyrũ:pyrũ N ; 
-pysy:pysy N ; 
-pytasã:pytasã N ; 
-pytaʼỹ:pytaʼỹ N ; 
-pytu:pytu N ; 
-pytũ:pytũ N ; 
-raʼa:raʼa N ; 
-rague:rague N ; 
-rahaha:rahaha N ; 
-rãi:rãi N ; 
-raity:raity N ; 
-rakamby:rakamby N ; 
-rañykã:rañykã N ; 
-rapicha:rapicha N ; 
-rapykue:rapykue N ; 
-rapykuere:rapykuere N ; 
-rasẽ:rasẽ N ; 
-raso:raso N ; 
-rasy:rasy N ; 
-rata:rata N ; 
-ratĩ:ratĩ N ; 
-ratypykua:ratypykua N ; 
-raʼỹi:raʼỹi N ; 
-raʼỹingue:raʼỹingue N ; 
-reka:reka N ; 
-rekorã:rekorã N ; 
-rembe:rembe N ; 
-rembiasakue:rembiasakue N ; 
-rembiayhu:rembiayhu N ; 
-rembipota:rembipota N ; 
-rembiʼu:rembiʼu N ; 
-remiandu:remiandu N ; 
-renonde:renonde N ; 
-reruha:reruha N ; 
-resa:resa N ; 
-reta:reta N ; 
-rete:rete N ; 
-riremi:riremi N ; 
-rope:rope N ; 
-rory:rory N ; 
-rovetã:rovetã N ; 
-royrõ:royrõ N ; 
-roʼyrypyʼa:roʼyrypyʼa N ; 
-roʼysã:roʼysã N ; 
-ruguái:rugu•ái N ; 
-ruvicha:ruvicha N ; 
-ryʼái:ryʼ•ái N ; 
-ryakuã:ryakuã N ; 
-ryepy:ryepy N ; 
-ryke:ryke N ; 
-rykeʼy:rykeʼy N ; 
-rymba:rymba N ; 
-ry:ry N ; 
-ryru:ryru N ; 
-rysýi:rys•ýi N ; 
-saguy:saguy N ; 
-saʼiha:saʼiha N ; 
-sakandu:sakandu N ; 
-sãmbyhyha:sãmbyhyha N ; 
-samuʼũ:samuʼũ N ; 
-sapikua:sapikua N ; 
-sapy:sapy N ; 
-saraki:saraki N ; 
-se:se N ; 
-sogue:sogue N ; 
-suinda:suinda N ; 
-sununu:sununu N ; 
-surukuʼa:surukuʼa N ; 
-suruvi:suruvi N ; 
-susu:susu N ; 
-syanga:syanga N ; 
-syrymbe:syrymbe N ; 
-syvy:syvy N ; 
-taʼangambyry:taʼangambyry N ; 
-taʼarõ:taʼarõ N ; 
-tagẽ:tagẽ N ; 
-tagua:tagua N ; 
-tãimbíra:tãimb•íra N ; 
-tãingueʼa:tãingueʼa N ; 
-taitachu:taitachu N ; 
-taitetu:taitetu N ; 
-tajao:tajao N ; 
-tajasu:tajasu N ; 
-tajykatĩ:tajykatĩ N ; 
-takape:takape N ; 
-takateʼỹ:takateʼỹ N ; 
-takope:takope N ; 
-takuapi:takuapi N ; 
-takuareʼẽ:takuareʼẽ N ; 
-takuareʼẽndy:takuareʼẽndy N ; 
-takuarembo:takuarembo N ; 
-takuatĩ:takuatĩ N ; 
-taku:taku N ; 
-tamanakuna:tamanakuna N ; 
-tamba:tamba N ; 
-tangara:tangara N ; 
-tapehũ:tapehũ N ; 
-taperyva:taperyva N ; 
-tápia:t•ápia N ; 
-tapỹi:tapỹi N ; 
-tapykue:tapykue N ; 
-tapy:tapy N ; 
-tarave:tarave N ; 
-tarekaja:tarekaja N ; 
-taruma:taruma N ; 
-tataendy:tataendy N ; 
-tatã:tatã N ; 
-tatarẽ:tatarẽ N ; 
-tataupa:tataupa N ; 
-tatu:tatu N ; 
-tau:tau N ; 
-tavapy:tavapy N ; 
-tavaróga:tavar•óga N ; 
-tavẽ:tavẽ N ; 
-taʼỹingue:taʼỹingue N ; 
-taʼy:taʼy N ; 
-taʼyrusu:taʼyrusu N ; 
-techakuaa:techakuaa N ; 
-techambyry:techambyry N ; 
-techarã:techarã N ; 
-techauka:techauka N ; 
-técho:t•écho N ; 
-teʼise:teʼise N ; 
-tekaka:tekaka N ; 
-teka:teka N ; 
-tekochauka:tekochauka N ; 
-tekoite:tekoite N ; 
-tekokatu:tekokatu N ; 
-tekorã:tekorã N ; 
-tekorei:tekorei N ; 
-tekosãʼỹ:tekosãʼỹ N ; 
-tekuái:teku•ái N ; 
-téle:t•éle N ; 
-tembetary:tembetary N ; 
-tembevo:tembevo N ; 
-tembiapohára:tembiapoh•ára N ; 
-tembiasa:tembiasa N ; 
-tembiasy:tembiasy N ; 
-tembiechapyrã:tembiechapyrã N ; 
-tembiecharã:tembiecharã N ; 
-tembiesarái:tembiesar•ái N ; 
-tembijokuái:tembijoku•ái N ; 
-tembikuatia:tembikuatia N ; 
-tembipu:tembipu N ; 
-tembiʼurã:tembiʼurã N ; 
-temikuaveʼẽ:temikuaveʼẽ N ; 
-temimbyasy:temimbyasy N ; 
-temimondo:temimondo N ; 
-temi:temi N ; 
-temi:tembi N ;  ! Dir/LR
-temirendy:temirendy N ; 
-temitỹ:temitỹ N ; 
-temói:tem•ói N ; 
-te:te N ; 
-tendu:tendu N ; 
-tenonde:tenonde N ; 
-tenyhẽ:tenyhẽ N ; 
-teʼõ:teʼõ N ; 
-tepymeʼẽ:tepymeʼẽ N ; 
-terere:terere N ; 
-teroja:teroja N ; 
-tero:tero N ; 
-tesakã:tesakã N ; 
-tesapara:tesapara N ; 
-tesapirĩ:tesapirĩ N ; 
-tetãpy:tetãpy N ; 
-tetiaʼe:tetiaʼe N ; 
-tevikua:tevikua N ; 
-tia:tia N ; 
-tĩʼatã:tĩʼatã N ; 
-tikichuéla:tikichu•éla N ; 
-tĩmbu:tĩmbu N ; 
-tindy:tindy N ; 
-tio:tio N ; 
-tĩpaʼã:tĩpaʼã N ; 
-tirísia:tir•ísia N ; 
-tĩsyry:tĩsyry N ; 
-toʼo:toʼo N ; 
-topehýi:topeh•ýi N ; 
-topepireko:topepireko N ; 
-tovakegua:tovakegua N ; 
-tovapete:tovapete N ; 
-tovasy:tovasy N ; 
-tovy:tovy N ; 
-tuʼĩ:tuʼĩ N ; 
-tukaʼẽ:tukaʼẽ N ; 
-tũ:tũ N ; 
-túna:t•úna N ; 
-tupiʼa:tupiʼa N ; 
-tupi:tupi N ; 
-turu:turu N ; 
-tuvy:tuvy N ; 
-tyarõ:tyarõ N ; 
-tyepy:tyepy N ; 
-tyerasy:tyerasy N ; 
-tyeruguy:tyeruguy N ; 
-tyguatã:tyguatã N ; 
-tyku:tyku N ; 
-typy:typy N ; 
-typyraty:typyraty N ; 
-týra:t•ýra N ; 
-tyrape:tyrape N ; 
-tyreʼỹ:tyreʼỹ N ; 
-tyvatã:tyvatã N ; 
-tyvy:tyvy N ; 
-tyvyty:tyvyty N ; 
-uha:uha N ; 
-uhéi:uh•éi N ; 
-umichagua:umichagua N ; 
-umícha:um•ícha N ; 
-uñe:uñe N ; 
-upéicharõ:up•éicharõ N ; 
-upéramo:up•éramo N ; 
-uperiregua:uperiregua N ; 
-úra:•úra N ; 
-uruku:uruku N ; 
-urukureʼa:urukureʼa N ; 
-urumbe:urumbe N ; 
-urundeʼy:urundeʼy N ; 
-urutau:urutau N ; 
-use:use N ; 
-vaiha:vaiha N ; 
-vaihápe:vaih•ápe N ; 
-vakachi:vakachi N ; 
-valíta:val•íta N ; 
-válle:v•álle N ; 
-vareʼa:vareʼa N ; 
-ve:ve N ; 
-vete:vete N ; 
-vícho:v•ícho N ; 
-vigóte:vig•óte N ; 
-viru:viru N ; 
-viruróga:virur•óga N ; 
-vo:vo N ; 
-vona:vona N ; 
-vosa:vosa N ; 
-votõ:votõ N ; 
-vyʼapavẽ:vyʼapavẽ N ; 
-vyʼarenda:vyʼarenda N ; 
-vy:vy N ; 
-ygapóra:ygap•óra N ; 
-ygarape:ygarape N ; 
-ygarupa:ygarupa N ; 
-ygáu:yg•áu N ; 
-yguasu:yguasu N ; 
-yguy:yguy N ; 
-ykarai:ykarai N ; 
-ypakaʼa:ypakaʼa N ; 
-ypekua:ypekua N ; 
-ypekũ:ypekũ N ; 
-ypóra:yp•óra N ; 
-yrupe:yrupe N ; 
-yrypyʼa:yrypyʼa N ; 
-ysaja:ysaja N ; 
-ysã:ysã N ; 
-ysapu:ysapu N ; 
-ysau:ysau N ; 
-ysẽha:ysẽha N ; 
-ysẽ:ysẽ N ; 
-ysoindy:ysoindy N ; 
-ytaku:ytaku N ; 
-ytimbo:ytimbo N ; 
-yʼuhéi:yʼuh•éi N ; 
-yvaporoity:yvaporoity N ; 
-yvapovõ:yvapovõ N ; 
-yvapurũ:yvapurũ N ; 
-yvope:yvope N ; 
-yvóra:yv•óra N ; 
-yvu:yvu N ; 
-yvyrakua:yvyrakua N ; 
-yvyramáta:yvyram•áta N ; 
-yvyray:yvyray N ; 
-yvyrupigua:yvyrupigua N ; 
-yvytypaʼũ:yvytypaʼũ N ; 
-yvytyrusu:yvytyrusu N ; 
-yvyvovo:yvyvovo N ; 
-yʼỹ:yʼỹ N ; 
+ache:ache N ; ! "parcialidad indígena guaraní, guayakí"
+aguai:aguai N ; ! "arbol frutal y su fruta"
+aguapeaso:aguapeaso N ; ! "flamenco"
+ahẽ:ahẽ N ; ! "diablo, satanás, satán, demonio"
+ajurigua:ajurigua N ; ! "collar, gargantilla"
+akão:akão N ; ! "sombrero"
+akãrague:akãrague N ; ! "cabello, cabellera"
+akãrasy:akãrasy N ; ! "cefalalgia, dolor de cabeza"
+akãyvoty:akãyvoty N ; ! "cresta de aves"
+akekẽ:akekẽ N ; ! "hormiga cortadora"
+akuti:akuti N ; ! "mamífero roedor parecido al conejo"
+alko:alko N ; ! "alcohol"
+alóha:alóha N ; ! "aguamiel, limonada, naranjada, refresco de jugo de naranja agria y miel de caña"
+amandyky:amandyky N ; ! "agua de lluvia"
+amandy:amandy N ; ! "tiempo lluvioso"
+amangy:amangy N ; ! "aguacero, garúa"
+ambýu:ambýu N ; ! "moco, flema"
+anana:anana N ; ! "piña, ananás"
+andai:andai N ; ! "calabaza, variedad de zapallo"
+angaipa:angaipa N ; ! "pecado, culpa, crimen, falta"
+angata:angata N ; ! "preocupación, cuidado, angustia, aflicción, anhelo, inquietud, melancolía"
+angírũ:angírũ N ; ! "amigo, compañero"
+ano:ano N ; ! "pájaro negro parecido al tordo, pirincho"
+apokytã:apokytã N ; ! "nudo, enredo, lazada"
+apopy:apopy N ; ! "práctica, elaboración, fabricación, ejecutoria"
+apoukapy:apoukapy N ; ! "deber, mandamiento, regla"
+apỹi:apỹi N ; ! "punta, extremo, lazada, nudo"
+apytere:apytere N ; ! "centro, medio, médula, coronilla"
+araka:araka N ; ! "guacamayo"
+arapokõindy:arapokõindy N ; ! "semana"
+arapoteĩ:arapoteĩ N ; ! "viernes"
+arapyrendy:arapyrendy N ; ! "meteorito, estrella fugaz"
+ararasa:ararasa N ; ! "etapa"
+araresa:araresa N ; ! "intemperie"
+aratiku:aratiku N ; ! "chirimoya, árbol frutal"
+arayvoty:arayvoty N ; ! "primavera, estación de las flores"
+arigua:arigua N ; ! "responsabilidad"
+arriéro:arriéro N ; ! "vaquero, rústico, arribeño, el que lleva animales de un lado a otro, hombre campesino, joven de comportamiento viril"
+arro:arro N ; ! "arroz"
+atõiha:atõiha N ; ! "músico"
+atõi:atõi N ; ! "sonido, toque de instrumento musical, aviso, alerta"
+atúa:atúa N ; ! "nuca, pescuezo, cerviz, cogote, espalda"
+atýra:atýra N ; ! "montón, bandada"
+avakachi:avakachi N ; ! "piña, ananás"
+avakua:avakua N ; ! "bucle, rizo, rodete"
+avatisoka:avatisoka N ; ! "mano, palo de mortero, pisón"
+avoa:avoa N ; ! "madeja"
+avuku:avuku N ; ! "melena, pelo largo"
+avy:avy N ; ! "yerro, desacierto, ilícito, desacuerdo"
+ay:ay N ; ! "semen, calostro, clara de huevo"
+chahã:chahã N ; ! "aruco, pájaro grande, personaje legendario"
+chamame:chamame N ; ! "corredor, enramada, música típica de corrientes"
+chamígo:chamígo N ; ! "voc. hombre, amigo"
+chara:chara N ; ! "lana"
+chentese:chentese N ; ! "egoísmo"
+chichã:chichã N ; ! "chinche"
+chicharõ:chicharõ N ; ! "chicharrón"
+chiri:chiri N ; ! "diarrea"
+chiripa:chiripa N ; ! "baticola, taparrabo, nombre de tribu guaraní"
+chochĩ:chochĩ N ; ! "tordo, calandria"
+chopĩ:chopĩ N ; ! "baile típico paraguayo"
+chuchu:chuchu N ; ! "susto, miedo"
+chulu:chulu N ; ! "bombacha, ropa interior"
+chúra:chúra N ; ! "tripas, menudencias, órganos internos del animal faenado"
+churuchuchu:churuchuchu N ; ! "asonada, barullo, rebelión, tiroteo, revuelta, sedición"
+eichu:eichu N ; ! "pléyades"
+eirete:eirete N ; ! "miel de abeja"
+eiru:eiru N ; ! "abeja"
+ekuéla:ekuéla N ; ! "escuela"
+entéro:entéro N ; ! ""
+éu:éu N ; ! "eructo"
+forĩfo:forĩfo N ; ! "voz nasal, paladar perforado"
+ge:ge N ; ! "nombre de la letra g"
+gi:gi N ; ! "medio, semi"
+grásia:grásia N ; ! "chiste, gracia"
+guahẽ:guahẽ N ; ! "llegada"
+guaho:guaho N ; ! "junco"
+guaiguĩ:guaiguĩ N ; ! "anciana, vieja"
+guajaki:guajaki N ; ! "aché, parcialidad indígena guaraní"
+guarini:guarini N ; ! "guerra"
+guavira:guavira N ; ! "arbusto frutal"
+guerere:guerere N ; ! "palabrería"
+guy:guy N ; ! "fondo, parte inferior, lugar bajo"
+guyraũ:guyraũ N ; ! "pájaro cantor de color negro, mirlo, tordo"
+guyryry:guyryry N ; ! "levantamiento, revolución, conspiración, sedición"
+hácha:hácha N ; ! "hacha"
+haimbe:haimbe N ; ! "filo"
+hajy:hajy N ; ! "fibra, nervio"
+hakamby:hakamby N ; ! "horquilla, entrepiernas"
+hára:hára N ; ! "espiga"
+hare:hare N ; ! "que, quien, el que"
+háre:háre N ; ! ""
+hasýpe:hasýpe N ; ! ""
+hatĩ:hatĩ N ; ! "cuerno"
+havía:havía N ; ! "zorzal, calandria, pájaro cantor"
+hekovia:hekovia N ; ! "reemplazante"
+hekua:hekua N ; ! "anverso, faz"
+hemby:hemby N ; ! ""
+herekua:herekua N ; ! "anverso"
+hesaguasu:hesaguasu N ; ! ""
+hesapo:hesapo N ; ! ""
+hetakue:hetakue N ; ! "cantidad"
+hetami:hetami N ; ! ""
+hete:hete N ; ! "cuerpo, físico"
+hoguekúi:hoguekúi N ; ! ""
+hokẽ:hokẽ N ; ! "su puerta"
+hondíta:hondíta N ; ! "honda, tirador"
+huguái:huguái N ; ! "cola, rabo"
+hugua:hugua N ; ! "fondo"
+hupytypyrã:hupytypyrã N ; ! "meta, fin, finalidad, objetivo"
+húvol:húvol N ; ! "fútbol"
+hyepy:hyepy N ; ! "vientre, entrañas"
+ij:ij N ; ! ""
+íla:íla N ; ! "bosquecito en medio del campo"
+inga:inga N ; ! "arbol frutal"
+inimbe:inimbe N ; ! "catre, cama, lecho"
+iñ:iñ N ; ! ""
+irũ:irũ N ; ! "compañero, camarada, socio, acompañante, colega, condiscípulo"
+itaembo:itaembo N ; ! "roca"
+itahũ:itahũ N ; ! "basalto"
+itakuruvi:itakuruvi N ; ! "canto rodado, piedrita, pedregullo"
+jaguane:jaguane N ; ! "zorrino, mofeta"
+jaguapytã:jaguapytã N ; ! "puma, león americano"
+jaguarundi:jaguarundi N ; ! "gato montés gallinero"
+jahape:jahape N ; ! "paja, forraje"
+jaku:jaku N ; ! "faisán, gallineta, pavo montés"
+japeusa:japeusa N ; ! "cangrejo, ciempiés, alacrán, escorpión"
+japopyre:japopyre N ; ! "obra"
+jarara:jarara N ; ! "yarará, víbora venenosa"
+jararã:jararã N ; ! "destinatario, heredero"
+jasuru:jasuru N ; ! "barrizal, pantano"
+jasypateĩ:jasypateĩ N ; ! "noviembre"
+jatevu:jatevu N ; ! "garrapata"
+jecha:jecha N ; ! "visibilidad, visión, encuentro"
+jeguakarei:jeguakarei N ; ! "firulete"
+jehaipyre:jehaipyre N ; ! "apuntes, notas"
+jehekuavo:jehekuavo N ; ! "vaciamiento, trasvasamiento"
+jehe:jehe N ; ! "a (por, de) ...mismo"
+jehepy:jehepy N ; ! "venganza."
+jehýi:jehýi N ; ! "calambre, hormigueo, ador­mecimiento"
+jehykuavo:jehykuavo N ; ! "desembocar, verterse"
+jekopyty:jekopyty N ; ! "entendimiento, comprensión"
+je:je N ; ! "nombre de la letra j"
+jepyhéi:jepyhéi N ; ! ""
+jepykua:jepykua N ; ! ""
+jepy:jepy N ; ! "represalia, venganza, sanción"
+jereraha:jereraha N ; ! "usanza"
+jeruti:jeruti N ; ! "tórtola, paloma, torcaza"
+jesarea:jesarea N ; ! "desconcierto"
+jetapa:jetapa N ; ! "tijera"
+jeupe:jeupe N ; ! "a uno mismo"
+jokuaipy:jokuaipy N ; ! "mandatario"
+jo:jo N ; ! "mutuo"
+jotopaha:jotopaha N ; ! "encontrón"
+jovasa:jovasa N ; ! "bendición"
+jukyry:jukyry N ; ! "salmuera, agua salada"
+jurumi:jurumi N ; ! "oso hormiguero"
+jurupy:jurupy N ; ! "pezón, pedúnculo"
+kachása:kachása N ; ! "espuma del mosto de caña"
+kachivéo:kachivéo N ; ! "canoa, bote, piragua"
+kaguaka:kaguaka N ; ! "botella"
+kái:kái N ; ! "incendio"
+kambire:kambire N ; ! "ubre, teta"
+kamiõ:kamiõ N ; ! "camión, ómnibus, autobús"
+kã:kã N ; ! "hueso, carozo."
+kandial:kandial N ; ! "crema de almidón"
+kandua:kandua N ; ! "líquen"
+kanguekue:kanguekue N ; ! "esqueleto, hueso de animal muerto"
+kangue:kangue N ; ! "hueso, carozo"
+kanguepo:kanguepo N ; ! "juanete"
+kaninde:kaninde N ; ! "guacamayo"
+kanóa:kanóa N ; ! "bote"
+káña:káña N ; ! "caña, aguardiente"
+kañymby:kañymby N ; ! "misterio"
+kapiatĩ:kapiatĩ N ; ! "hierba con semilla espinosa"
+kapõ:kapõ N ; ! "capón"
+karácha:karácha N ; ! "sarna"
+karaguata:karaguata N ; ! "agave, bromelia, planta espinosa y textil"
+karakara:karakara N ; ! "carancho, buitre"
+karaku:karaku N ; ! "médula, tuétano, esencia"
+karameguã:karameguã N ; ! "baúl, cofre, arcón"
+karapekue:karapekue N ; ! "baja estatura, pequeñez"
+karãu:karãu N ; ! "ave acuática zancuda, ibis"
+karimbata:karimbata N ; ! "bagre, variedad de pez"
+katĩ:katĩ N ; ! "olor fuerte, sobaquina, catinga"
+káusa:káusa N ; ! "culpa"
+kavure:kavure N ; ! "buho, lechuza"
+kéra:kéra N ; ! "sueño"
+kerana:kerana N ; ! "somnolencia."
+kichiha:kichiha N ; ! "novio, querido, galán"
+kílo:kílo N ; ! "kilogramo"
+kirikiri:kirikiri N ; ! "gavilán, halcón, ave rapaz"
+kiveve:kiveve N ; ! "postre de queso y zapallo"
+klu:klu N ; ! "club"
+kochésa:kochésa N ; ! "zafra, cosecha"
+kóga:kóga N ; ! "sembrado, plantación, chacra, huerta, sembrado, quinta"
+kokatu:kokatu N ; ! "grado"
+kompái:kompái N ; ! "compadre"
+kompáyre:kompáyre N ; ! "compadre"
+kompi:kompi N ; ! "amigo, compañero"
+koni:koni N ; ! "contoneo, zigzag, recodo"
+korasõ:korasõ N ; ! "corazón, alma"
+korochire:korochire N ; ! "zorzal, pájaro cantor"
+kosereva:kosereva N ; ! "dulce de frutas, dulce de naranja hecho con miel de caña"
+kosina:kosina N ; ! "cocina"
+kotevẽ:kotevẽ N ; ! "necesidad"
+kotyguahẽha:kotyguahẽha N ; ! "sala, recibidor"
+kotypy:kotypy N ; ! "pieza, interior de la casa"
+kovi:kovi N ; ! "variedad de pez"
+kuaapavẽ:kuaapavẽ N ; ! "filosofía"
+kuaapyrã:kuaapyrã N ; ! "noticia, acertijo"
+kuaaserei:kuaaserei N ; ! "curiosidad"
+kuãmbyte:kuãmbyte N ; ! "dedo mayor, dedo del medio"
+kuã:kuã N ; ! "dedo de la mano"
+kuãngusu:kuãngusu N ; ! "pulgar, dedo pulgar de la mano"
+kuára:kuára N ; ! "orificio, cavidad, hueco, ranura, nicho, agujero, caverna"
+kuárto:kuárto N ; ! "muslo"
+kue:kue N ; ! ""
+kuku:kuku N ; ! "cuco, ser imaginario con el que se asusta a los niños"
+kumanda:kumanda N ; ! "poroto, chaucha, frijol, habilla"
+kumare:kumare N ; ! "trébol"
+kumbari:kumbari N ; ! "ají, locote picante, pimienta"
+kũ:kũ N ; ! "lengua"
+kunumi:kunumi N ; ! "bebé, niñito, criatura"
+kuñaséro:kuñaséro N ; ! "faldero, mujeriego"
+kuñataĩ:kuñataĩ N ; ! "señorita, chica, moza, muchacha, joven"
+kurapepẽ:kurapepẽ N ; ! "zapallo, calabaza"
+kurundu:kurundu N ; ! "amuleto, talismán"
+kurupi:kurupi N ; ! "ser mitológico, protector de bosques, raptor de mujeres y niños"
+kuruvi:kuruvi N ; ! "fragmento, polvo, pedacitos"
+kusugue:kusugue N ; ! "ceniza, residuo, escombro"
+kusuvi:kusuvi N ; ! "torbellino"
+kyndýi:kyndýi N ; ! "signo de exclamación"
+kyrỹi:kyrỹi N ; ! "cosquillas"
+kyry:kyry N ; ! "cartílago"
+kyrýu:kyrýu N ; ! "cartílago"
+ládo:ládo N ; ! "lugar"
+lája:lája N ; ! "clase, tipo, costumbre"
+láta:láta N ; ! "lata"
+légua:légua N ; ! "legua, medida de longitud"
+lembu:lembu N ; ! "escarabajo"
+le:le N ; ! "nombre de la letra l"
+lénto:lénto N ; ! ""
+limõ:limõ N ; ! "limón"
+lókro:lókro N ; ! "sopa de maíz y carne"
+lómo:lómo N ; ! "espalda, lomo de animales"
+lo:lo N ; ! "los, las"
+lopi:lopi N ; ! "amigo, primo, fulano"
+luisõ:luisõ N ; ! "lobisón, ser mitológico, hombre que se convierte en perro"
+machéte:machéte N ; ! "machete"
+machu:machu N ; ! "abuela, cocinera, ama de casa, partera"
+maína:maína N ; ! "madrina"
+mainumby:mainumby N ; ! "picaflor, colibrí"
+mama:mama N ; ! "mamá"
+mamanga:mamanga N ; ! "abejorro, moscardón"
+manguruju:manguruju N ; ! "variedad de pez de gran tamaño, sin escamas"
+marandeko:marandeko N ; ! "historia, crónica"
+máta:máta N ; ! "planta, árbol"
+matéria:matéria N ; ! "pus"
+mavaite:mavaite N ; ! ""
+mbaipy:mbaipy N ; ! "polenta"
+mbara:mbara N ; ! "vitíligo"
+mbeju:mbeju N ; ! "torta de almidón de mandioca"
+mbe:mbe N ; ! "nombre del digrama mb"
+mbigua:mbigua N ; ! "variedad de pato"
+mbíra:mbíra N ; ! "encía"
+mboaje:mboaje N ; ! "respeto, conformidad."
+mbohasahára:mbohasahára N ; ! "traductor, intérprete, comunicador"
+mboheha:mboheha N ; ! "adobo"
+mbokaja:mbokaja N ; ! "palmera espinosa, cocotero"
+mbokajaty:mbokajaty N ; ! "cocotal, palmar"
+mboka:mboka N ; ! "arma de fuego, fusil, revólver, pistola, escopeta"
+mbokusugue:mbokusugue N ; ! "incinerar, destruir"
+mbore:mbore N ; ! "rastro, huella, marca, cicatriz, señal"
+mborovire:mborovire N ; ! "yerba canchada"
+mbuekovia:mbuekovia N ; ! "paga, sucesor, representante."
+mburukuja:mburukuja N ; ! "pasionaria, enredadera con hermosas flores"
+mbutu:mbutu N ; ! "tábano"
+mbya:mbya N ; ! "gente, individuo."
+membykõi:membykõi N ; ! "mellizos, gemelos"
+membyryme:membyryme N ; ! "anticonceptivo"
+mensu:mensu N ; ! "yerbatero, mensualero, obrero de los yerbales"
+mesa:mesa N ; ! "mesa"
+milíko:milíko N ; ! "militar"
+mimby:mimby N ; ! "flauta, pito"
+mive:mive N ; ! ""
+mohaguinoha:mohaguinoha N ; ! "levadura"
+moĩmbaha:moĩmbaha N ; ! "complemento"
+moingoe:moingoe N ; ! "diferencia."
+momaranduhára:momaranduhára N ; ! "periodista, comunicador"
+mombary:mombary N ; ! "esperma"
+momorãhéi:momorãhéi N ; ! "himno"
+moneĩ:moneĩ N ; ! "consentimiento."
+moña:moña N ; ! "persecución."
+moñepyrũhára:moñepyrũhára N ; ! "fundador"
+mosaingoha:mosaingoha N ; ! "percha"
+mósto:mósto N ; ! "jugo de caña de azúcar"
+móto:móto N ; ! "motocicleta"
+myakỹ:myakỹ N ; ! "remojo."
+mytuẽ:mytuẽ N ; ! "reposo, paz, sosiego, quietud, consuelo"
+mytũ:mytũ N ; ! "pavo, faisán"
+náko:náko N ; ! "tabaco mascado."
+namichãi:namichãi N ; ! "aro, zarcillo, pendiente."
+ndu:ndu N ; ! "ruido"
+ndýi:ndýi N ; ! "susto, espanto"
+ndy:ndy N ; ! "saliva."
+ne:ne N ; ! "nombre de la letra"
+nevu:nevu N ; ! "hediondez, pestilencia, fetidez."
+nge:nge N ; ! "nombre de la letra ng"
+ngue:ngue N ; ! ""
+nguéra:nguéra N ; ! ""
+nte:nte N ; ! "nombre de la letra nt."
+ñakanina:ñakanina N ; ! "serpiente no venenosa"
+ñakyrã:ñakyrã N ; ! "cigarra, chicharra"
+ña:ña N ; ! "doña."
+ñanandy:ñanandy N ; ! "yuyal, matorral, pastizal, maleza"
+ñandejehegui:ñandejehegui N ; ! ""
+ñanduguasu:ñanduguasu N ; ! "avestruz"
+ñangapiry:ñangapiry N ; ! "especie de arbusto, arrayán"
+ñapañuãi:ñapañuãi N ; ! "enredo"
+ñasaindy:ñasaindy N ; ! "luz o claridad de luna"
+ñeandu:ñeandu N ; ! "sensación"
+ñeangecha:ñeangecha N ; ! "vidrio"
+ñeguahẽha:ñeguahẽha N ; ! "parador"
+ñeguahẽ:ñeguahẽ N ; ! "llegada, triunfo."
+ñehenói:ñehenói N ; ! "llamada, llamamiento"
+ñehetũ:ñehetũ N ; ! "olfateo, beso"
+ñeikotevẽ:ñeikotevẽ N ; ! "pobreza"
+ñekoni:ñekoni N ; ! "onda, vuelta."
+ñekuã:ñekuã N ; ! "oferta."
+ñekytĩ:ñekytĩ N ; ! "corte, sección, incisión, recorte"
+ñembiso:ñembiso N ; ! "molienda"
+ñemboaje:ñemboaje N ; ! "observancia, obediencia"
+ñemboguevi:ñemboguevi N ; ! "retroceso, derrota"
+ñembohai:ñembohai N ; ! "tachadura, escritura"
+ñembohovake:ñembohovake N ; ! "enfrentamiento, querella."
+ñembohyku:ñembohyku N ; ! "licuefacción."
+ñembou:ñembou N ; ! "remisión, tracción."
+ñembuai:ñembuai N ; ! "podredumbre, putrefacción, corrupción."
+ñembyekovia:ñembyekovia N ; ! "cambio, trueque, pago, permuta, sucesión, recambio, transferencia."
+ñemimby:ñemimby N ; ! "misterio, secreto"
+ñemohũ:ñemohũ N ; ! "desaparición"
+ñemo:ñemo N ; ! "proveerse, volverse, simular ser"
+ñemonambi:ñemonambi N ; ! "apresamiento"
+ñemoneĩ:ñemoneĩ N ; ! "asentimiento"
+ñemoñanga:ñemoñanga N ; ! "familia"
+ñemosẽ:ñemosẽ N ; ! "expulsión."
+ñemotĩ:ñemotĩ N ; ! "vergüenza, timidez, papelón"
+ñemuhára:ñemuhára N ; ! "comerciante, mercader, vendedor"
+ñemyenyhẽ:ñemyenyhẽ N ; ! "relleno"
+ñemy:ñemy N ; ! "volverse, simular ser, proveerse"
+ñe:ñe N ; ! "nombre de la letra ñ."
+ñeñotỹ:ñeñotỹ N ; ! "entierro, sepelio, siembra, plantación"
+ñepichãi:ñepichãi N ; ! "pinchazo"
+ñeporandu:ñeporandu N ; ! "interrogatorio, interrogación, interrogante, consulta, pregunta"
+ñeporeno:ñeporeno N ; ! "cópula, relación sexual"
+ñepu:ñepu N ; ! "condolencia."
+ñepysyrõ:ñepysyrõ N ; ! "ayuda, salvación."
+ñepytyvõ:ñepytyvõ N ; ! "colaboración, ayuda, amparo, favor, solidaridad, auxilio, protección, palanca"
+ñerairõ:ñerairõ N ; ! "violencia, pugna, violación"
+ñeroyrõ:ñeroyrõ N ; ! "desprecio, desconsideración"
+ñesẽ:ñesẽ N ; ! "salida, evasión, escape, naciente, nacimiento"
+ñesũpehẽ:ñesũpehẽ N ; ! "genuflexión"
+ñetĩ:ñetĩ N ; ! "jején."
+ñipytũ:ñipytũ N ; ! "tiniebla"
+ño:ño N ; ! "mutuo"
+ñongatupy:ñongatupy N ; ! "reserva, conservación"
+ñopehẽngue:ñopehẽngue N ; ! "fraternidad, parentesco."
+ñuatĩndy:ñuatĩndy N ; ! "breña, abrojal, zarzal"
+ogapegua:ogapegua N ; ! "familiar, familia"
+ogapepo:ogapepo N ; ! "alero"
+ogapypegua:ogapypegua N ; ! "familia, familiar"
+ogaraity:ogaraity N ; ! "hornero"
+ogyke:ogyke N ; ! "pared, muro"
+oikereíva:oikereíva N ; ! "intruso"
+oimehápe:oimehápe N ; ! ""
+ojehegui:ojehegui N ; ! ""
+okẽ:okẽ N ; ! "puerta, entrada, portón"
+ombopukuaáva:ombopukuaáva N ; ! "músico"
+ondive:ondive N ; ! ""
+oñopehẽngue:oñopehẽngue N ; ! ""
+orkéta:orkéta N ; ! "rama bifurcada"
+páila:páila N ; ! "sartén"
+paíno:paíno N ; ! "padrino"
+pajagua:pajagua N ; ! "tribu indígena"
+paku:paku N ; ! "variedad de pez con escamas"
+pámo:pámo N ; ! "inflamación, infección"
+papahára:papahára N ; ! "contador"
+papyeta:papyeta N ; ! "plural"
+paráda:paráda N ; ! "ostentación"
+para:para N ; ! "tesa"
+pareha:pareha N ; ! "correo, mensajero, chasqui."
+parĩ:parĩ N ; ! "renguera"
+parral:parral N ; ! "uva, parra"
+parralty:parralty N ; ! "viña"
+pati:pati N ; ! "pez sin escamas"
+patula:patula N ; ! "espátula, remo"
+pehẽ:pehẽ N ; ! "pedazo, trozo"
+pehẽnguemi:pehẽnguemi N ; ! "pizca"
+peno:peno N ; ! "roncha, moretón"
+pere:pere N ; ! "peladura, cicatriz, marca"
+peterevy:peterevy N ; ! "arbol de buena madera"
+petỹ:petỹ N ; ! "tabaco"
+peu:peu N ; ! "yerno"
+péu:péu N ; ! "pus, quiste"
+pijoha:pijoha N ; ! "comezón, picazón, malestar, desazón"
+piky:piky N ; ! "pescadito, sardina"
+pini:pini N ; ! "peca, vitiligo, tatuaje"
+píña:píña N ; ! "ananás"
+pirãi:pirãi N ; ! "piraña, pez agresivo."
+pirĩ:pirĩ N ; ! "escalofrío, sobresalto."
+pitogue:pitogue N ; ! "benteveo, variedad de pájaro"
+pokã:pokã N ; ! "falta, escasez."
+pokoka:pokoka N ; ! "bastón, báculo"
+pombéro:pombéro N ; ! "ser mitológico de la creencia popular"
+popĩa:popĩa N ; ! "aguijón, veneno, ponzoña"
+popy:popy N ; ! "lado"
+póra:póra N ; ! "fantasma, cuco, duende, ninfa, visión."
+porokuái:porokuái N ; ! "gobiemo."
+pórte:pórte N ; ! "estado, ánimo"
+posa:posa N ; ! ""
+potapy:potapy N ; ! "deseo, anhelo, propósito"
+poyhu:poyhu N ; ! "recelo, cortedad, sospecha, recato, severidad"
+pundiekõi:pundiekõi N ; ! "digrama, dígrafo"
+pundie:pundie N ; ! "consonante"
+puso:puso N ; ! "consonante glotal sorda, interrupción momentánea de la voz"
+pyapẽ:pyapẽ N ; ! "uña de la mano y del pie, zarpa, pezuña, garra"
+pyatã:pyatã N ; ! "tensión, fortaleza"
+pychãi:pychãi N ; ! ""
+pyrũ:pyrũ N ; ! "pisotón, pisada, pataleo, paso, huella."
+pysy:pysy N ; ! "cárcel, prisión"
+pytasã:pytasã N ; ! "tendón de aquiles"
+pytu:pytu N ; ! "aire, atmósfera, vaho, respiración, soplo, aliento, alma, espíritu."
+pytũ:pytũ N ; ! "oscuridad, tinieblas"
+rague:rague N ; ! "pelo, plumas, cabello, lana"
+rahaha:rahaha N ; ! "portador"
+rãi:rãi N ; ! "diente, muela."
+raity:raity N ; ! "nido. eirete r. colmena"
+rakamby:rakamby N ; ! "horquilla, horcón, entrepiernas"
+rañykã:rañykã N ; ! "quijada, mandíbula"
+rapicha:rapicha N ; ! "prójimo, semejante"
+rapykue:rapykue N ; ! "parte posterior."
+rapykuere:rapykuere N ; ! "huella, pista, rastro"
+rasẽ:rasẽ N ; ! "llanto, voz de algunos animales."
+raso:raso N ; ! "gusano."
+rasy:rasy N ; ! "dolor."
+rata:rata N ; ! "fuego"
+ratĩ:ratĩ N ; ! "espina, cuerno"
+ratypykua:ratypykua N ; ! "hoyuelo de la mejilla"
+reka:reka N ; ! "búsqueda"
+rekorã:rekorã N ; ! "reglamento"
+rembe:rembe N ; ! "labio, orilla"
+rembiasakue:rembiasakue N ; ! "vida, aventuras"
+rembiayhu:rembiayhu N ; ! "querido, favorito"
+rembipota:rembipota N ; ! "deseo, intención"
+remiandu:remiandu N ; ! "sentimiento"
+renonde:renonde N ; ! "frente, faz, parte delantera"
+reruha:reruha N ; ! "portador"
+resa:resa N ; ! "ojo(s), vista, grano. kuarahy"
+reta:reta N ; ! "abundancia"
+rete:rete N ; ! "cuerpo"
+riremi:riremi N ; ! ""
+rope:rope N ; ! "vaina de simiente"
+rovetã:rovetã N ; ! "ventana"
+royrõ:royrõ N ; ! "odio, menosprecio, vituperio."
+ruguái:ruguái N ; ! "cola, rabo, apéndice"
+ruvicha:ruvicha N ; ! "jefe, superior, director, cabeza"
+ryakuã:ryakuã N ; ! "olor, fragancia"
+ryepy:ryepy N ; ! "interior, interior del vientre"
+rymba:rymba N ; ! "animal doméstico"
+ry:ry N ; ! "líquido, río, corriente, solución, jugo, licor"
+ryru:ryru N ; ! "recipiente, vaina, envase, vasija, caja, balde, tacho, funda"
+rysýi:rysýi N ; ! "fila, hilera, línea"
+saguy:saguy N ; ! "reojo"
+sakandu:sakandu N ; ! "caballo"
+sãmbyhyha:sãmbyhyha N ; ! "conductor, director, jefe, administrador, rector"
+sapikua:sapikua N ; ! "bolsa"
+sapy:sapy N ; ! ""
+saraki:saraki N ; ! "cabriola."
+se:se N ; ! "nombre de la letra s."
+sogue:sogue N ; ! "insolvencia, pobreza"
+suinda:suinda N ; ! "lechuza, mochuelo, especie de búho"
+sununu:sununu N ; ! "truenos repetidos, gran ruido como el de un tropel."
+suruvi:suruvi N ; ! "pez grande de río, sin escamas"
+susu:susu N ; ! "temblor."
+syanga:syanga N ; ! "madrastra, madrina"
+syrymbe:syrymbe N ; ! "molusco"
+syvy:syvy N ; ! ""
+tagẽ:tagẽ N ; ! "urgencia, prisa, apuro, presteza, rapidez, premura"
+tagua:tagua N ; ! "cerdo montés"
+tãimbíra:tãimbíra N ; ! "encía"
+taitachu:taitachu N ; ! "bisabuelo"
+taitetu:taitetu N ; ! "pecarí"
+tajao:tajao N ; ! "repollo, col silvestre"
+tajasu:tajasu N ; ! "cerdo, jabalí, cerdo montés"
+tajykatĩ:tajykatĩ N ; ! "cerdo silvestre, pecarí"
+takape:takape N ; ! "macana, garrote"
+takope:takope N ; ! "hernia inguinal fistulada"
+takuapi:takuapi N ; ! "variedad de bambú de tallo hueco, que se usa para hacer bombillas"
+takuarembo:takuarembo N ; ! "mimbre"
+takuatĩ:takuatĩ N ; ! "variedad de bambú"
+taku:taku N ; ! "calor, entusiasmo, celo, líbido"
+tamanakuna:tamanakuna N ; ! "orquídea"
+tamba:tamba N ; ! "mejillón"
+tangara:tangara N ; ! "ave de varios colores"
+tapehũ:tapehũ N ; ! "ruta asfaltada"
+taperyva:taperyva N ; ! "planta medicinal"
+tápia:tápia N ; ! "pared, muralla, muro"
+tapỹi:tapỹi N ; ! "choza, cabaña, hogar, morada, toldo"
+tapykue:tapykue N ; ! "trasero, parte posterior, rastro."
+tapy:tapy N ; ! "quemazón, quemadura."
+tarave:tarave N ; ! "cucaracha"
+tarekaja:tarekaja N ; ! "tortuga"
+taruma:taruma N ; ! "arbol frutal frondoso, parecido al olivo"
+tataendy:tataendy N ; ! "llama"
+tatã:tatã N ; ! "dureza, fortaleza, resistencia"
+tatarẽ:tatarẽ N ; ! "arbol frondoso cuya madera se emplea en la construcción"
+tataupa:tataupa N ; ! "fogón, hornalla, hogar."
+tatu:tatu N ; ! "armadillo."
+tau:tau N ; ! "personaje mitológico poseedor del espíritu del mal"
+tavapy:tavapy N ; ! "barrio"
+tavaróga:tavaróga N ; ! "casa comunal"
+tavẽ:tavẽ N ; ! "moho"
+techakuaa:techakuaa N ; ! "comprensión, reconocimiento"
+techambyry:techambyry N ; ! "visión lejana"
+techarã:techarã N ; ! "muestra"
+techauka:techauka N ; ! "ejemplo, indicación"
+técho:técho N ; ! "techo"
+tekaka:tekaka N ; ! "excremento, bosta, estiércol, cagada"
+teka:teka N ; ! "búsqueda"
+tekochauka:tekochauka N ; ! "teatro, dramatización"
+tekoite:tekoite N ; ! "rectitud"
+tekokatu:tekokatu N ; ! "salud"
+tekorã:tekorã N ; ! "conducta, deber, objetivo, fin, quehacer, reglamento, norma"
+tekorei:tekorei N ; ! "holganza, holgazanería, vagancia, vacación, ocio"
+tekuái:tekuái N ; ! "gobierno"
+téle:téle N ; ! "televisión"
+tembetary:tembetary N ; ! "arbol aromático de recias espinas"
+tembevo:tembevo N ; ! "labio leporino, labio partido"
+tembiapohára:tembiapohára N ; ! "trabajador"
+tembiasa:tembiasa N ; ! "suceso, acontecimiento, pasar, andanzas, vida, hechos, aventuras"
+tembiasy:tembiasy N ; ! "sentimiento, aflicción, dificultad, desgracia"
+tembiechapyrã:tembiechapyrã N ; ! "maravilla, cosa digna de verse"
+tembiecharã:tembiecharã N ; ! "ejemplo, muestra"
+tembiesarái:tembiesarái N ; ! "juego"
+tembijokuái:tembijokuái N ; ! "mandadero, enviado, servidor, funcionario"
+tembikuatia:tembikuatia N ; ! "escrito"
+tembipu:tembipu N ; ! "bomba, instrumento musical"
+temimbyasy:temimbyasy N ; ! "tristeza, sentimiento"
+temimondo:temimondo N ; ! "enviado, mensajero."
+temi:temi N ; ! ""
+temi:temi N ; ! ""
+temirendy:temirendy N ; ! "lámpara"
+temitỹ:temitỹ N ; ! "sembrado, siembra, plantación, cultivo"
+temói:temói N ; ! "picazón, comezón, escozor"
+te:te N ; ! "nombre de la letra t."
+tendu:tendu N ; ! "oído, audición"
+tenonde:tenonde N ; ! "frente, faz."
+tenyhẽ:tenyhẽ N ; ! "plenitud, hartazgo, satisfacción"
+terere:terere N ; ! "mate frío y crudo, bebida fría de yerba mate"
+teroja:teroja N ; ! "adjetivo"
+tero:tero N ; ! "sustantivo, nombre"
+tesakã:tesakã N ; ! "transparencia, visibilidad, iluminación, diafanidad, claridad, evidencia, deslumbramiento"
+tesapara:tesapara N ; ! "percance, dificultad"
+tesapirĩ:tesapirĩ N ; ! "parpadeo, pestañeo, santiamén, instante, abrir y cerrar de ojos"
+tetãpy:tetãpy N ; ! "interior del país"
+tevikua:tevikua N ; ! "ano, orificio anal"
+tia:tia N ; ! "tia"
+tikichuéla:tikichuéla N ; ! "cierto juego de niños"
+tĩmbu:tĩmbu N ; ! "ronquido, resoplido, bufido, respiración fatigosa y ruidosa."
+tindy:tindy N ; ! "desánimo, tristeza, vergüenza."
+tio:tio N ; ! "tío"
+tirísia:tirísia N ; ! "ictericia"
+tĩsyry:tĩsyry N ; ! "moco, resfrío, catarro, flujo de la nariz."
+topehýi:topehýi N ; ! "sueño, somnolencia, modorra"
+topepireko:topepireko N ; ! "orzuelo"
+tovakegua:tovakegua N ; ! "circunstantes, presente(s), el (los) de enfrente"
+tovapete:tovapete N ; ! "bofetada, cachetada, sopapo"
+tovasy:tovasy N ; ! "seriedad, tristeza, severidad"
+tovy:tovy N ; ! "verdor, el azul, el verde"
+tũ:tũ N ; ! "pique, nigua, pulga que penetra debajo de la piel"
+túna:túna N ; ! "cactus"
+tupi:tupi N ; ! "dialecto de la lengua guaraní tupí; indígenas que hablan ese dialecto"
+turu:turu N ; ! "cuerno, cometa, trompeta"
+tuvy:tuvy N ; ! "tío paterno"
+tyarõ:tyarõ N ; ! "maduración"
+tyepy:tyepy N ; ! "entraña"
+tyerasy:tyerasy N ; ! "cólico, dolor o enfermedad del vientre"
+tyeruguy:tyeruguy N ; ! "disentería"
+tyguatã:tyguatã N ; ! "saciedad, hartura, satisfacción"
+tyku:tyku N ; ! "fluidez"
+typy:typy N ; ! "hondura, profundidad"
+typyraty:typyraty N ; ! "fariña, afrecho de mandioca"
+týra:týra N ; ! "pan, mandioca, u otro bastimento, que acompaña la comida"
+tyrape:tyrape N ; ! "uretra"
+tyvatã:tyvatã N ; ! "hartura"
+tyvy:tyvy N ; ! "sepultura, sepulcro, tumba, fosa"
+tyvyty:tyvyty N ; ! "cementerio"
+uha:uha N ; ! "comedor, el que come"
+uhéi:uhéi N ; ! "sed"
+umichagua:umichagua N ; ! ""
+umícha:umícha N ; ! ""
+uñe:uñe N ; ! "lesiones de la piel debidas a hongos"
+upéicharõ:upéicharõ N ; ! ""
+upéramo:upéramo N ; ! ""
+uperiregua:uperiregua N ; ! "continuación"
+úra:úra N ; ! "gusano que se cría bajo la piel, mariposa negra y grande"
+uruku:uruku N ; ! "planta tintórea de color rojo"
+urumbe:urumbe N ; ! "cacto, tuna"
+urutau:urutau N ; ! "ave nocturna cuyo canto quejumbroso ha originado numerosas leyendas"
+use:use N ; ! "apetito, hambre"
+vaiha:vaiha N ; ! "mal"
+vaihápe:vaihápe N ; ! ""
+vakachi:vakachi N ; ! "piña, ananás"
+valíta:valíta N ; ! "bolita con que juegan los niños"
+válle:válle N ; ! "localidad rural, lugar de residencia o de nacimiento"
+ve:ve N ; ! "nombre de la letra v."
+vete:vete N ; ! ""
+vícho:vícho N ; ! "insecto, bicho, animal"
+vigóte:vigóte N ; ! "bigote"
+viru:viru N ; ! "viruta, dinero, plata, moneda"
+viruróga:viruróga N ; ! "banco"
+vo:vo N ; ! "pedazo, sección, tajada, parte."
+vona:vona N ; ! "bolsita"
+vosa:vosa N ; ! "bolsa, saco"
+votõ:votõ N ; ! "botón"
+vy:vy N ; ! ""
+ygapóra:ygapóra N ; ! "navegante"
+ygarape:ygarape N ; ! "ruta, canal"
+ygarupa:ygarupa N ; ! "puerto, astillero, varadero, fondeadero, embarcadero"
+ygáu:ygáu N ; ! "alga, musgo, líquen, moho"
+yguasu:yguasu N ; ! "mar, agua en abundancia"
+yguy:yguy N ; ! "sumergimiento."
+ykarai:ykarai N ; ! "agua bendita"
+ypekua:ypekua N ; ! "sitio donde abundan los patos"
+ypekũ:ypekũ N ; ! "pájaro carpintero"
+ypóra:ypóra N ; ! "marinero, el que vive en el agua"
+yrupe:yrupe N ; ! "cedazo, tamiz."
+ysaja:ysaja N ; ! "forma"
+ysã:ysã N ; ! "poste"
+ysapu:ysapu N ; ! "arpa"
+ysau:ysau N ; ! "hormigas cortadoras muy dañinas en la agricultura"
+ysẽha:ysẽha N ; ! "desagüe"
+ysẽ:ysẽ N ; ! "inundación, creciente del río"
+ysoindy:ysoindy N ; ! "luciérnaga"
+ytaku:ytaku N ; ! "agua caliente"
+ytimbo:ytimbo N ; ! "vapor de agua"
+yvaporoity:yvaporoity N ; ! "cierta planta frutal"
+yvapovõ:yvapovõ N ; ! "arbol de frutas amarillas comestibles"
+yvapurũ:yvapurũ N ; ! "arbol de frutas negras comestibles"
+yvope:yvope N ; ! "algarrobo"
+yvóra:yvóra N ; ! "mundo"
+yvu:yvu N ; ! "manantial, fuente"
+yvyrakua:yvyrakua N ; ! "cepo, cárcel, presidio, prisión"
+yvyramáta:yvyramáta N ; ! "arbol"
+yvyray:yvyray N ; ! "tronco"
+yvyrupigua:yvyrupigua N ; ! "peatón, el que viaja o va a pie"
+yvytyrusu:yvytyrusu N ; ! "cordillera, serranía"
+yvyvovo:yvyvovo N ; ! "puente" 
 
 yvypavẽ:yvypavẽ N ; ! "concurso, copa"
 achúra:achúra N ; ! "organos internos de res, menudencias"
