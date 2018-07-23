@@ -3320,7 +3320,6 @@ Zaire:Zaire NP-TOP ; ! ""
 Zaragoza:Zaragoza NP-TOP ; ! ""
 Zealand:Zealand NP-TOP ; ! ""
 Zurich:Zurich NP-TOP ; ! ""
-
 Suiza:Suiza NP-TOP ; ! ""
 Suiza:Suisa NP-TOP ; ! "" ! Dir/LR
 Koréa:Kor•éa NP-TOP ; ! ""
@@ -3489,8 +3488,6 @@ Barreto:Barreto NP-COG ; ! ""
 Aveiro:Aveiro NP-COG ; ! ""
 Maíz:Ma•íz NP-COG ; ! ""
 Quijote:Quijote NP-COG ; ! ""
-
-
 Empire:Empire NP-AL ; ! ""
 Beatles:Beatles NP-AL ; ! ""
 Monday:Monday NP-AL ; ! ""
@@ -3569,7 +3566,7 @@ LEXICON PAST
 %+akue%<ifi%>:%{P%}akue #;
 %+mi%<pii%>:%>mi # ;
 %+kuri%<past%>:%>kuri # ;
-!%+vaʼekue%<pmp%>:%>vaʼekue # ; 
+%+vaʼekue%<pmp%>:%>vaʼekue # ; 
 %+rakaʼe%<past%>:%>rakaʼe # ; 
 %+raʼe%<past%>:%>raʼe # ;
 
@@ -3601,7 +3598,7 @@ niko%<aux%>%<nar%>:nio # ; ! Dir/LR
 
 LEXICON MODES 
 %+se%<vol%>:%>%se # ;
-%+se%<vol%>:%>%se COMP ;
+%+se%<vol%>:%>%se COMP ; 
 %+niko%<nar%>:%>niko # ;
 
 LEXICON V-INFL 
@@ -3834,8 +3831,6 @@ pende%<prn%>%<pos%>%<p2%>%<pl%>%+:pen%{D%}e Nouns ;
 
 i%<prn%>%<pos%>%<p3%>%<sg%>%+:%{H%}i%{I%} Nouns ; 
 o%<prn%>%<pos%>%<p3%>%<sg%>%+:o%{P%} Nouns ;
-
-! Add same possessives to biform nouns of kinship 
 
 che%<prn%>%<pos%>%<p1%>%<sg%>%+:che BiformesPaentesco ;
 nde%<prn%>%<pos%>%<p2%>%<sg%>%+:n%{D%}e BiformesPaentesco ; 
