@@ -210,20 +210,24 @@ centro:centro N-ES ;
 
 LEXICON CASE-NONOM
 
-%+pe%<post%>:%>%{m%}e # ; ! "a, en"
-%+gua%<post%>:%>%{Y%}gua # ;
-%+guý%<post%>:%>guý # ;
-%+a%<post%>:%>a # ;
-%+ari%<post%>:%>ari # ;
-%+re%<post%>:%>re # ;
-%+rehe%<post%>:%>rehe # ; ! "por"
-%+gui%<post%>:%>gui # ; ! "de"
-%+guio%<post%>:%>guio # ; ! "desde"
-%+kue%<post%>:%>kue # ; ! "durante"
-%+rõ%<post%>:%>rõ # ; ! "si"
-%+hag̃ua%<post%>:hag̃ua #; ! "para"
+%+pe%<post%>:%>%{m%}e CASE-INFL ; ! "a, en"
+%+gua%<post%>:%>%{Y%}gua CASE-INFL ;
+%+guý%<post%>:%>guý CASE-INFL ;
+%+a%<post%>:%>a CASE-INFL ;
+%+ari%<post%>:%>ari CASE-INFL ;
+%+re%<post%>:%>re CASE-INFL ;
+%+rehe%<post%>:%>rehe CASE-INFL ; ! "por"
+%+gui%<post%>:%>gui CASE-INFL ; ! "de"
+%+guio%<post%>:%>guio CASE-INFL ; ! "desde"
+%+kue%<post%>:%>kue CASE-INFL ; ! "durante"
+%+rõ%<post%>:%>rõ CASE-INFL ; ! "si"
+%+hag̃ua%<post%>:hag̃ua CASE-INFL ; ! "para"
 
-%+hag̃ua%<post%>:hag̃ua COMP; ! "para"
+LEXICON CASE-INFL 
+
+CASE-NONOM ;
+COMP ;
+# ;
 
 
 LEXICON CASE
@@ -606,6 +610,7 @@ Tetã% Mbyteafrika:Tetã% Mbyteafrika NP-TOP ;
 
 José:Jos•é NP-ANT ;
 Jesucristo:Jesucristo NP-ANT ;
+Gyregorio:Gyregorio NP-ANT ;
 Aarón:Aar•ón NP-ANT ;
 Juan:Juan NP-ANT ;
 Manoel:Manoel NP-ANT ; ! ""
@@ -3865,6 +3870,7 @@ rõ:rõ CS ; ! "si, cuando"
 ỹre:ỹre CS ; ! "sin que"
 haguãicha:haguãicha CS ; ! "como"
 upévare:upévare CS ;  ! "por eso"
+jepémo:jepémo CC ; ! "aunque"
 chugui:chugui CC ; ! "pero"
 
 upekuévo:upekuévo CS ; ! "Entonces, mientras tanto"
@@ -8372,6 +8378,7 @@ tesayku:tesayku N ; ! "legaña"
 tesaʼỹ:tesaʼỹ N ; ! "ceguera"
 tetaguã:tetaguã N ; ! "ciudadano, súbdito"
 tetaʼi:tetaʼi N ; ! "provincia, departamento"
+tetãvore'i:tetãvore'i N ; ! "provincia, departamento"
 tetama:tetama N ; ! "pueblo, patria"
 tetekue:tetekue N ; ! "cadáver, difunto, restos mortales"
 tetekuʼe:tetekuʼe N ; ! "movimiento, gimnasia"
