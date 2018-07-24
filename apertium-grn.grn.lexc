@@ -3733,6 +3733,14 @@ taja%<opt%>%<p1%>%<pl%>%+:%>ta%{J%}a%{P%} VerbsAgr ;
 toro%<opt%>%<p1%>%<pl%>%+:%>toro%{P%} VerbsAgr ;
 tape%<opt%>%<p2%>%<pl%>%+:%>tape%{P%} VerbsAgr ;
 
+ta%<opt%>%<p1%>%<sg%>%+:%>ta%{P%} IrrVerbs;
+tere%<opt%>%<p2%>%<sg%>%+:%>tere%{P%} IrrVerbs ;
+to%<opt%>%<p3%>%<sg%>%+:%>to%{P%} IrrVerbs ;
+to%<opt%>%<p3%>%<pl%>%+:%>to%{P%} IrrVerbs ;
+taja%<opt%>%<p1%>%<pl%>%+:%>ta%{J%}a%{P%} IrrVerbs ;
+toro%<opt%>%<p1%>%<pl%>%+:%>toro%{P%} IrrVerbs ;
+tape%<opt%>%<p2%>%<pl%>%+:%>tape%{P%} IrrVerbs ;
+
 
 LEXICON PRO
 
@@ -3803,6 +3811,7 @@ PAST ;
 FUT ;
 IMP ;
 MODES ;
+SUBST-V ;
 
 
 
@@ -13262,7 +13271,8 @@ upéramo:upéramo AD ; ! " entonces"
 upeve:upeve AD ; ! " allá, más allá"
 upévo:upévo AD ; ! " entonces, al propio tiempo"
 vaʼekue:vaʼekue AD ; ! " de tiempo pasado antes, anteriormente"
-vaʼerã:vaʼerã AD ; ! " que indica tiempo futuro obligatorio necesariamente"
+vaʼerã:vaʼerã AD ; ! "indica tiempo futuro obligatorio necesariamente"
+vaerä:vaerä AD ; ! ! Dir/LR ! Err/Orth
 vaicha:vaicha AD ; ! " aparentemente, probablemente, parece que, como si"
 vaietépe:vaietépe AD ; ! " desgraciadamente, malamente"
 vaihápe:vaihápe AD ; ! " malamente, miserablemente, feamente, a las malas"
@@ -13306,7 +13316,8 @@ neʼĩra:neʼĩra AD-NEG ; ! "no todavia, no aún"
 
 LEXICON Barbarismes
 
-del:del BARB ; 
+del:del BARB ;
+mi:mi BARB ; 
 de:de BARB ; 
 do:do BARB ; 
 la:la BARB ; 
