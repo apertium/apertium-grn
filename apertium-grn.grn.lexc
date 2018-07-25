@@ -157,6 +157,7 @@ VerbsIv ;
 VerbsDefSg ;
 VerbsDefPl ;
 MODES-AUX ;
+DemonstrativePronouns ;
 
 
 !!!!!!!!!!!!!!!!!!!! LEXICON SPANISH !!!!!!!!!!
@@ -222,12 +223,15 @@ LEXICON CASE-NONOM
 %+kue%<post%>:%>kue CASE-INFL ; ! "durante"
 %+rõ%<post%>:%>rõ CASE-INFL ; ! "si"
 %+hag̃ua%<post%>:hag̃ua CASE-INFL ; ! "para"
+%+rire%<post%>:rire CASE-INFL ; ! "después" 
 
 LEXICON CASE-INFL 
 
 CASE-NONOM ;
 COMP ;
 # ;
+DEM-PRN-SG ;
+DEM-PRN-PL ;
 
 
 LEXICON CASE
@@ -3527,6 +3531,27 @@ Patria:Patria NP-AL ; ! ""
 Olimpo:Olimpo NP-AL ; ! ""
 Corrientes:Corrientes NP-AL ; ! ""
 
+LEXICON DemonstrativePronouns
+
+ko%<prn%>%<dem%>%<sg%>:ko%{o%} DEM-PRN-INFL ; ! "este, esta"
+pe%<prn%>%<dem%>%<sg%>:pe%{o%} DEM-PRN-INFL; ! "ese, esa" 
+amo%<prn%>%<dem%>%<sg%>:amo%{o%} DEM-PRN-INFL; ! "aquel, aquella"
+ã%<prn%>%<dem%>%<pl%>:ã DEM-PRN-INFL ; ! "estos, estas" 
+koʼã%<prn%>%<dem%>%<pl%>:koʼã DEM-PRN-INFL; ! "estos, estas"
+umi%<prn%>%<dem%>%<pl%>:umi DEM-PRN-INFL ; ! "aquellos, aquellas"
+
+ku%<prn%>%<dem%>%<sg%>:ku%{o%} DEM-PRN-INFL; ! "ese, esa"
+upe%<prn%>%<dem%>%<sg%>:upe%{o%} DEM-PRN-INFL ;  ! "ese, esa"
+aipo%<prn%>%<dem%>%<sg%>:aipo%{o%} DEM-PRN-INFL ; ! "aquel, aquella"
+ako%<prn%>%<dem%>%<sg%>:ako%{o%} DEM-PRN-INFL ; ! "aquel, aquella"
+umi%<prn%>%<dem%>%<pl%>:umi%{o%} DEM-PRN-INFL ; ! "esos, esas, aquellos, aquellas"
+
+LEXICON DEM-PRN-INFL
+
+%+va%<subs%>%<dem%>:%>va # ;
+%+a%<subs%>%<dem%>:%>a # ;
+# ;
+CASE ;
 
 LEXICON DemAdjectives
 
@@ -3547,12 +3572,10 @@ LEXICON DEM-PRN-SG
 
 %+va%<subs%>%<dem%>:%>va # ;
 %+a%<subs%>%<dem%>:%>a # ;
-CASE ;
 # ;
 
 LEXICON DEM-PRN-PL
 %+va%<subs%>%<dem%>:%>va # ;
-CASE ;
 # ;
 
 !!!!!!!!!!!!! VERBAL LEXICONS !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -12977,7 +13000,7 @@ rasa:rasa AD ; ! "muy"
 raẽ:rãe AD ; ! "antes" 
 ramo:ramo AD ; ! "reciéntemente"
 ramo% jepe:ramo% jepe AD ; ! ""
-rire:rire AD ; ! "despu•és"
+rire:rire AD ; ! "después"
 sapyʼa:sapyʼa AD ; ! "súbitamente"
 tapykuépe:tapyku•épe AD ; ! "detrás, atrás"
 tuicha:tuicha AD ; ! "mucho"
