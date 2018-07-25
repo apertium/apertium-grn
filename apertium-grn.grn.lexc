@@ -256,6 +256,7 @@ hag̃ua:hag̃ua POST ; ! "para"
 hag̃ua:haġua POST ; ! "para"  ! Dir/LR ! Err/Orth
 hag̃ua:hagua POST ; ! "para"  ! Dir/LR ! Err/Orth
 hague:hague POST ; ! "que, donde"
+re:re POST ; ! ""
 
 haguéicha:hagu•éicha POST ; ! ""
 hag̃uáicha:hag̃uáicha POST ; ! "" 
@@ -315,6 +316,7 @@ LEXICON POST
 
 %<post%>: # ;
 %<post%>: CASE ;
+%<post%>: N-PL ;
 
 
 LEXICON SUBST 
@@ -432,6 +434,7 @@ LEXICON SYM
 LEXICON ProperNouns 
 
 Paraguái:Paragu•ái NP-TOP ; ! "Paraguay"
+paraguái:paragu•ái NP-TOP ; ! "Paraguay"! Dir/LR ! Err/Orth
 Paraguay:Paraguay NP-TOP ; ! "Asunción" ! Dir/LR
 Paraguay:Paragu•áy NP-TOP ; ! "Asunción" ! Dir/LR 
 Uruguái:Urugu•ái NP-TOP ; 
@@ -609,6 +612,7 @@ Tavakuairetã% Kóngo:Tavakuairetã% Kóngo NP-TOP ;
 Tetã% Mbyteafrika:Tetã% Mbyteafrika NP-TOP ;
 
 José:Jos•é NP-ANT ;
+Mcal:Mcal NP-ANT ;
 Jesucristo:Jesucristo NP-ANT ;
 Gyregorio:Gyregorio NP-ANT ;
 Aarón:Aar•ón NP-ANT ;
@@ -3543,10 +3547,12 @@ LEXICON DEM-PRN-SG
 
 %+va%<subs%>%<dem%>:%>va # ;
 %+a%<subs%>%<dem%>:%>a # ;
+CASE ;
 # ;
 
 LEXICON DEM-PRN-PL
 %+va%<subs%>%<dem%>:%>va # ;
+CASE ;
 # ;
 
 !!!!!!!!!!!!! VERBAL LEXICONS !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -3891,6 +3897,7 @@ LEXICON AD
 %<adv%>: # ;
 %<adv%>: COMP ;
 %<adv%>: VerbsNegSuf ;
+%<adv%>: AD-SUF ;
 
 LEXICON AD-ITG 
 
@@ -3988,6 +3995,7 @@ heta%<adj%>%<ind%>:heta # ; ! "mucho"
 mbovy%<adj%>%<ind%>:mbovy # ; ! "poco"
 avave%<adj%>%<ind%>:avave # ; ! "ningún"
 oimeraẽva%<adj%>%<ind%>:oimeraẽva # ; ! "cualquier" 
+oimeraẽ%<adj%>%<ind%>:oimeraẽ # ; ! "cualquier"
 ambue%<adj%>%<ind%>:ambue # ; ! "otro" 
 opa%<adj%>%<ind%>:opa # ; ! "todos"
 opavave%<adj%>%<ind%>:opavave # ; ! "todos"
@@ -4102,6 +4110,7 @@ h%<prn%>%<pos%>%<p3%>%<sg%>%+:h%{t%} Triformes ;
 
 LEXICON Triformes 
 tembireko:tembireko N ; ! ""
+tembiasa:tembiasa N ; ! "experiencia"
 tembo:tembo N ; ! "pene"
 tumby:tumby N ; ! "cadera, muslo"
 tesarái:tesar•ái N ; ! "olvido"
@@ -4140,6 +4149,9 @@ teindy:teindy N ; ! "hermana del varón"
 
 LEXICON Nouns
 
+yperana:yperana N ; ! "pinguino"
+Mburuvi:Mburuvi N ; ! "imperio"
+Tavetã:Tavetã N ; ! "reino"
 ñeʼẽrapo:ñeʼẽrapo N ; ! "raíz" 
 joapy:joapy N ; ! "conexión" 
 ñeʼẽpehẽtai:ñeʼẽpehẽtai N ; ! "afijo" 
@@ -5319,7 +5331,6 @@ tembiaporã:tembiaporã N ; ! "tarea, obligación"
 tembiapoukapy:tembiapoukapy N ; ! "mandato"
 tembiasaguaʼu:tembiasaguaʼu N ; ! "novela"
 tembiasakue:tembiasakue N ; ! "historia"
-tembiasa:tembiasa N ; ! "ecperiencia"
 tembiasaʼasy:tembiasaʼasy N ; ! "padecimiento"
 tembiasyeta:tembiasyeta N ; ! "tragedia"
 tembiechapy:tembiechapy N ; ! "maravilla"
@@ -6390,7 +6401,7 @@ pytu:pytu N ; ! "aire, atmósfera, vaho, respiración, soplo, aliento, alma, esp
 pytũ:pytũ N ; ! "oscuridad, tinieblas"
 rague:rague N ; ! "pelo, plumas, cabello, lana"
 rahaha:rahaha N ; ! "portador"
-rãi:rãi N ; ! "diente, muela."
+rãi:rãi N ; ! "diente, muela"
 raity:raity N ; ! "nido. eirete r. colmena"
 rakamby:rakamby N ; ! "horquilla, horcón, entrepiernas"
 rañykã:rañykã N ; ! "quijada, mandíbula"
@@ -7452,6 +7463,7 @@ mbyjaʼi:mbyjaʼi N ; ! "asterisco"
 mbyjakuaa:mbyjakuaa N ; ! "astronomía"
 mbyjuʼi:mbyjuʼi N ; ! "golondrina"
 mbyryʼái:mbyryʼái N ; ! "verano, calor"
+arahaku:arahaku N ; ! "verano"
 médiko:médiko N ; ! "curandero, médico popular"
 meʼẽha:meʼẽha N ; ! "dador, donante"
 meguã:meguã N ; ! "falla, tara, desperfecto, defecto"
