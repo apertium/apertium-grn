@@ -3599,6 +3599,7 @@ LEXICON PRES
 %<pres%>: SUBST ;
 %<pres%>: SUBST-V ;
 %<pres%>: SUP ;
+%<pres%>: CASE ;
 
 LEXICON PAST
 %+akue%<ifi%>:%{P%}akue #;
@@ -4012,6 +4013,7 @@ ADJ-DIS ;
 LEXICON ADJ
 
 %<adj%>: ADJ-COO ;
+%<adj%>: CASE ;
 
 
 LEXICON SUF-PL  
