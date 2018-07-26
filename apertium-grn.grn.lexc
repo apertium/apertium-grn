@@ -4180,6 +4180,7 @@ teindy:teindy N ; ! "hermana del varón"
 LEXICON Nouns
 
 yperana:yperana N ; ! "pinguino"
+juehepehẽ:juehepehẽ N ; ! "familia"
 Mburuvi:Mburuvi N ; ! "imperio"
 Tavetã:Tavetã N ; ! "reino"
 ñeʼẽrapo:ñeʼẽrapo N ; ! "raíz" 
@@ -13366,6 +13367,7 @@ neʼĩra:neʼĩra AD-NEG ; ! "no todavia, no aún"
 LEXICON Barbarismes
 
 del:del BARB ;
+of:of BARB ; 
 mi:mi BARB ; 
 de:de BARB ; 
 do:do BARB ; 
