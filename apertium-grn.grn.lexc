@@ -4035,6 +4035,7 @@ meme%<adj%>%<ind%>:meme # ; ! "todos"
 
 LEXICON ADJ-DIS 
 %+ve%<adj%>%<dist%>:ve # ;
+CASE ;
 # ;
 
 LEXICON NUM-ROMAN
