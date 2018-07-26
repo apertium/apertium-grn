@@ -337,6 +337,8 @@ LEXICON COMP
 +ve%<comp%>:%>ve # ; ! "superioridad!
 +ive%<comp%>:%>ive # ; ! "inferioridad" 
 
++icha%<comp%>:%>icha AD-SUF ; ! "igualidad" 
+
 +icha%<comp%>:%>icha DEM-PRN-SG ; ! "igualidad"
 +ve%<comp%>:%>ve DEM-PRN-SG ; ! "superioridad!
 +ive%<comp%>:%>ive DEM-PRN-SG ; ! "inferioridad" 
@@ -3573,10 +3575,12 @@ LEXICON DEM-PRN-SG
 %+va%<subs%>%<dem%>:%>va # ;
 %+a%<subs%>%<dem%>:%>a # ;
 # ;
+COMP ;
 
 LEXICON DEM-PRN-PL
 %+va%<subs%>%<dem%>:%>va # ;
 # ;
+COMP ;
 
 !!!!!!!!!!!!! VERBAL LEXICONS !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
