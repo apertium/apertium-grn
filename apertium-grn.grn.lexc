@@ -4014,6 +4014,7 @@ LEXICON ADJ
 
 %<adj%>: ADJ-COO ;
 %<adj%>: CASE ;
+%<adj%>: DEM-PRN-SG ;
 
 
 LEXICON SUF-PL  
@@ -4140,6 +4141,7 @@ h%<prn%>%<pos%>%<p3%>%<sg%>%+:h%{t%} Triformes ;
 
 LEXICON Triformes 
 tembireko:tembireko N ; ! ""
+temiandu:temiandu N ; ! "sentimiento"
 tembiasa:tembiasa N ; ! "experiencia"
 tembo:tembo N ; ! "pene"
 tumby:tumby N ; ! "cadera, muslo"
@@ -5377,7 +5379,6 @@ tembireko:tembireko N ; ! "esposa"
 tembiʼu:tembiʼu N ; ! "sustento"
 tembiʼupyhare:tembiʼupyhare N ; ! "cena"
 tembyre:tembyre N ; ! "saldo, residuo, remanente, resto"
-temiandu:temiandu N ; ! "sentimiento"
 temiarirõ:temiarirõ N ; ! "nieto"
 temimboʼe:temimboʼe N ; ! "alumno"
 temimoʼã:temimoʼã N ; ! "pensamiento, opinión, objetivo, idea"
@@ -13397,7 +13398,8 @@ sul:sul BARB ;
 
 don:don BARB ; 
 monseñor:monseñor BARB ; 
-general:general BARB ; 
+general:general BARB ;
+Clima:Clima BARB ; 
 
 aeropuerto:aeropuerto BARB ; ! ""
 catedral:catedral BARB ; ! ""
