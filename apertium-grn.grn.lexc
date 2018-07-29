@@ -326,11 +326,15 @@ LEXICON POST
 LEXICON SUBST 
 +kue%<subs%>:%>kue # ;
 +kue%<subs%>:%>kue CASE ;
++rã%<subs%>:%>rã # ;
++rã%<subs%>:%>rã CASE ;
 
 LEXICON SUBST-V 
 +ha%<subs%>:%>ha # ;
 +ha%<subs%>:%>ha COMP ;
 +ha%<subs%>:%>ha CASE ;
++rã%<subs%>:%>rã # ;
++rã%<subs%>:%>rã CASE ;
 
 LEXICON COMP 
 +icha%<comp%>:%>icha # ; ! "igualidad" 
@@ -3871,28 +3875,26 @@ CASE ;
 
 LEXICON PossessivePrefixes
 
-che%<prn%>%<pos%>%<p1%>%<sg%>%+:che Nouns ;
-nde%<prn%>%<pos%>%<p2%>%<sg%>%+:n%{D%}e Nouns ; 
-ñande%<prn%>%<pos%>%<p1%>%<pl%>%+:ñan%{D%}e Nouns ; 
-ore%<prn%>%<pos%>%<p1%>%<pl%>%+:ore Nouns ;
-pende%<prn%>%<pos%>%<p2%>%<pl%>%+:pen%{D%}e Nouns ;  
+che%<prn%>%<pos%>%<p1%>%<sg%>%+:che POS-COMPL ;
+nde%<prn%>%<pos%>%<p2%>%<sg%>%+:n%{D%}e POS-COMPL ; 
+ñande%<prn%>%<pos%>%<p1%>%<pl%>%+:ñan%{D%}e POS-COMPL ; 
+ore%<prn%>%<pos%>%<p1%>%<pl%>%+:ore POS-COMPL ;
+pende%<prn%>%<pos%>%<p2%>%<pl%>%+:pen%{D%}e POS-COMPL ;  
 
-i%<prn%>%<pos%>%<p3%>%<sg%>%+:%{H%}i%{I%} Nouns ; 
-o%<prn%>%<pos%>%<p3%>%<sg%>%+:o%{P%} Nouns ;
+i%<prn%>%<pos%>%<p3%>%<sg%>%+:%{H%}i%{I%} POS-COMPL ; 
+o%<prn%>%<pos%>%<p3%>%<sg%>%+:o%{P%} POS-COMPL ;
 
-che%<prn%>%<pos%>%<p1%>%<sg%>%+:che BiformesPaentesco ;
-nde%<prn%>%<pos%>%<p2%>%<sg%>%+:n%{D%}e BiformesPaentesco ; 
-ñande%<prn%>%<pos%>%<p1%>%<pl%>%+:ñan%{D%}e BiformesPaentesco ; 
-ore%<prn%>%<pos%>%<p1%>%<pl%>%+:ore BiformesPaentesco ;
-pende%<prn%>%<pos%>%<p2%>%<pl%>%+:pen%{D%}e BiformesPaentesco ;  
+LEXICON POS-COMPL 
 
-i%<prn%>%<pos%>%<p3%>%<sg%>%+:%{H%}i%{I%} Nouns ; 
-o%<prn%>%<pos%>%<p3%>%<sg%>%+:o%{P%} Nouns ;
-
+Nouns ;
+BiformesPaentesco ;
+Adjectives ;
 
 LEXICON Conjunctions 
 
+jepémo:jepémo CS ; ! "por más que" 
 ha:ha CC ; ! "y"
+ni:ni CC ; ! "ni"
 térã:t•érã CC ; ! "o"
 terã:terã CC ; ! "o" ! Dir/LR 
 katu:katu CC ; ! "pero"
@@ -4140,6 +4142,7 @@ r%<det%>%+:r%{t%} Triformes ;
 h%<prn%>%<pos%>%<p3%>%<sg%>%+:h%{t%} Triformes ;
 
 LEXICON Triformes 
+taʼanga:taʼanga N ; ! "imagen"
 tembireko:tembireko N ; ! ""
 temiandu:temiandu N ; ! "sentimiento"
 tembiasa:tembiasa N ; ! "experiencia"
@@ -4181,6 +4184,10 @@ teindy:teindy N ; ! "hermana del varón"
 
 LEXICON Nouns
 
+tekohaʼãngandy:tekohaʼãngandy N ; "serie de televisión" 
+mbaʼeapohára:mbaʼeapohára N ; ! "construtor"
+tavakuairetã:tavakuairetã N ; ! "república"
+kuairetã:kuairetã N ; ! "república" 
 yperana:yperana N ; ! "pinguino"
 juehepehẽ:juehepehẽ N ; ! "familia"
 Mburuvi:Mburuvi N ; ! "imperio"
@@ -4496,6 +4503,7 @@ jeikoporã:jeikoporã N ; ! "bienestar"
 jeipeʼa:jeipeʼa N ; ! "abolición"
 jeisyryku:jeisyryku N ; ! "succión"
 jeitykuaa:jeitykuaa N ; ! "paracaidismo"
+jaʼekuaa:jaʼekuaa N ; ! "sentido"
 jejavy:jejavy N ; ! "infracción, error"
 jejavy% guasu:jejavy% guasu N ; ! "aberración"
 jejokoha:jejokoha N ; ! "muleta"
@@ -5929,7 +5937,6 @@ supukukue:supukukue N ; ! "kilómetro"
 sype:sype N ; ! "azada"
 syrykupyreʼẽ:syrykupyreʼẽ N ; ! "sorbete"
 taʼangahai:taʼangahai N ; ! "gráfica"
-taʼanga:taʼanga N ; ! "imagen"
 takokũ:takokũ N ; ! "clítoris"
 takor:takor N ; ! "vagina"
 tambeypy:tambeypy N ; ! "ingle"
@@ -13400,6 +13407,7 @@ don:don BARB ;
 monseñor:monseñor BARB ; 
 general:general BARB ;
 Clima:Clima BARB ; 
+arpa:arpa BARB ;
 
 aeropuerto:aeropuerto BARB ; ! ""
 catedral:catedral BARB ; ! ""
