@@ -222,8 +222,9 @@ LEXICON CASE-NONOM
 %+guio%<post%>:%>guio CASE-INFL ; ! "desde"
 %+kue%<post%>:%>kue CASE-INFL ; ! "durante"
 %+rõ%<post%>:%>rõ CASE-INFL ; ! "si"
-%+hag̃ua%<post%>:hag̃ua CASE-INFL ; ! "para"
-%+rire%<post%>:rire CASE-INFL ; ! "después" 
+%+hag̃ua%<post%>:%>hag̃ua CASE-INFL ; ! "para"
+%+rire%<post%>:%>rire CASE-INFL ; ! "después"
+%+rupi%<post%>:%>rupi CASE-INFL ; ! "por"
 
 LEXICON CASE-INFL 
 
@@ -443,7 +444,9 @@ LEXICON SYM
 
 LEXICON ProperNouns 
 
+Kaʼasapa:Kaʼasapa NP-TOP ; ! ""
 Paraguái:Paragu•ái NP-TOP ; ! "Paraguay"
+Ypakarai:Ypakarai NP-TOP ; ! ""
 paraguái:paragu•ái NP-TOP ; ! "Paraguay"! Dir/LR ! Err/Orth
 Paraguay:Paraguay NP-TOP ; ! "Asunción" ! Dir/LR
 Paraguay:Paragu•áy NP-TOP ; ! "Asunción" ! Dir/LR 
@@ -631,6 +634,8 @@ Manoel:Manoel NP-ANT ; ! ""
 Kachíke:Kachíke NP-ANT ; ! ""
 Huã:Huã NP-ANT ; 
 Garay:Garay NP-COG ; 
+Bastos:Bastos NP-COG ; ! ""
+Aceval:Aceval NP-COG ;
 Yegros:Yegros NP-COG ; ! ""
 Rolón:Rol•ón NP-COG ; 
 Texeira:Texeira NP-COG ; 
@@ -3109,6 +3114,7 @@ Ekuator:Ekuador NP-TOP ; ! "" ! Dir/LR
 Perú:Per•ú NP-TOP ; 
 Malvina:Malvina NP-TOP ; ! ""
 Japón:Japón NP-TOP ; ! ""
+Hapõ:Hapõ NP-TOP ; ! "Japón"
 Edinburgh:Edinburgh NP-TOP ; ! ""
 Edmonton:Edmonton NP-TOP ; ! ""
 Elba:Elba NP-TOP ; ! ""
@@ -3371,6 +3377,7 @@ Esteros:Esteros NP-COG ;
 Arroyos:Arroyos NP-COG ; ! ""
 Colmán:Colmán NP-COG ; ! ""
 
+Tëtaiguaete:Tëtaiguaete NP-AL ; ! "Naciones Unidas" 
 Rotary:Rotary NP-AL ; ! ""
 Ñembosaraipavẽ:Ñembosaraipavẽ NP-AL ; ! ""
 Vikipetã:Vikipetã NP-AL ; ! ""
@@ -3928,6 +3935,7 @@ LEXICON AD
 %<adv%>: COMP ;
 %<adv%>: VerbsNegSuf ;
 %<adv%>: AD-SUF ;
+%<adv%>: DEM-PRN-INFL ;
 
 LEXICON AD-ITG 
 
@@ -3995,12 +4003,16 @@ penembaʼe%<prn%>%<pos%>%<p2%>%<pl%>:penembaʼe # ;
 imbaʼekuéra%<prn%>%<pos%>%<p3%>%<pl%>:imbaʼeku•éra # ;
 
 LEXICON IndefinitePronouns
-opavave%<prn%>%<ind%>:opavave # ; ! "todos"
-avave%<prn%>%<ind%>:avave # ; ! "nadie"
-oimeraẽva%<prn%>%<ind%>:oimeraẽva # ; ! "cualquier"
-peteĩ%<prn%>%<ind%>:peteĩ # ; ! "uno, una"
-ambuéva%<prn%>%<ind%>:ambu•éva # ; ! "otro, otra"
-mbaʼeve%<prn%>%<ind%>:mbaʼeve # ; ! "nada"
+opavave%<prn%>%<ind%>:opavave IND-PRN-INFL ; ! "todos"
+avave%<prn%>%<ind%>:avave IND-PRN-INFL ; ! "nadie"
+oimeraẽva%<prn%>%<ind%>:oimeraẽva IND-PRN-INFL ; ! "cualquier"
+peteĩ%<prn%>%<ind%>:peteĩ IND-PRN-INFL ; ! "uno, una"
+ambuéva%<prn%>%<ind%>:ambu•éva IND-PRN-INFL ; ! "otro, otra"
+mbaʼeve%<prn%>%<ind%>:mbaʼeve IND-PRN-INFL ; ! "nada"
+
+LEXICON IND-PRN-INFL 
+# ;
+CASE ;
 
 
 !!!!!!!!!!!!!ADJECTIVES!!!!!!!!!!!!!!
@@ -4142,10 +4154,12 @@ r%<det%>%+:r%{t%} Triformes ;
 h%<prn%>%<pos%>%<p3%>%<sg%>%+:h%{t%} Triformes ;
 
 LEXICON Triformes 
+tembiʼurã:tembiʼurã N ; ! "provisiones, víveres"
 taʼanga:taʼanga N ; ! "imagen"
 tembireko:tembireko N ; ! ""
 temiandu:temiandu N ; ! "sentimiento"
 tembiasa:tembiasa N ; ! "experiencia"
+tembiasakue:tembiasakue N ; ! "historia"
 tembo:tembo N ; ! "pene"
 tumby:tumby N ; ! "cadera, muslo"
 tesarái:tesar•ái N ; ! "olvido"
@@ -4184,7 +4198,7 @@ teindy:teindy N ; ! "hermana del varón"
 
 LEXICON Nouns
 
-tekohaʼãngandy:tekohaʼãngandy N ; "serie de televisión" 
+tekohaʼãngandy:tekohaʼãngandy N ; ! "serie de televisión" 
 mbaʼeapohára:mbaʼeapohára N ; ! "construtor"
 tavakuairetã:tavakuairetã N ; ! "república"
 kuairetã:kuairetã N ; ! "república" 
@@ -5371,7 +5385,6 @@ tembiaporepy:tembiaporepy N ; ! "salario, sueldo"
 tembiaporã:tembiaporã N ; ! "tarea, obligación"
 tembiapoukapy:tembiapoukapy N ; ! "mandato"
 tembiasaguaʼu:tembiasaguaʼu N ; ! "novela"
-tembiasakue:tembiasakue N ; ! "historia"
 tembiasaʼasy:tembiasaʼasy N ; ! "padecimiento"
 tembiasyeta:tembiasyeta N ; ! "tragedia"
 tembiechapy:tembiechapy N ; ! "maravilla"
@@ -8367,7 +8380,6 @@ tembiporuenda:tembiporuenda N ; ! "armario, aparador"
 tembireka:tembireka N ; ! "propósito, búsqueda"
 tembirekoveʼỹ:tembirekoveʼỹ N ; ! "viudo"
 tembiʼuʼapoha:tembiʼuʼapoha N ; ! "cocinero"
-tembiʼurã:tembiʼurã N ; ! "provisiones, víveres"
 tembiʼu:tembiʼu N ; ! "comida, alimento, víveres, plato"
 temiapytĩ:temiapytĩ N ; ! "envoltorio, atadura"
 temikotevẽ:temikotevẽ N ; ! "necesidad, lo necesario"
@@ -10498,6 +10510,7 @@ mbopohãjuka:mbopohãjuka V ; ! "  intoxicar, envenenar"
 mbopohéi:mbopohéi V ; ! " yuxtaponer"
 mbopoʼi:mbopoʼi V ; ! " adelgazar"
 mbopojái:mbopojái V ; ! " entregar, proporcionar"
+mohechauka:mohechauka V ; ! "sugerir"
 mbopopegua:mbopopegua V ; ! " premiar, propinar, remunerar, recompensar, regalar"
 mbopopi:mbopopi V ; ! " descortezar"
 mbopuka:mbopuka V ; ! " hacer reír"
@@ -12481,7 +12494,7 @@ oñemoĩva:oñemoĩva ADJ ; ! "puesto"
 oñopehẽngue:oñopehẽngue ADJ ; ! "consanguíneos"
 opa:opa ADJ ; ! "cada, todo"
 opaʼãva:opaʼãva ADJ ; ! "varado, trancado"
-opavave:opavave ADJ ; ! "y pron. todos"
+opavave:opavave ADJ ; ! "todos"
 opaveʼỹva:opaveʼỹva ADJ ; ! "interminable, perpetuo, eterno"
 opáyva:opáyva ADJ ; ! "despierto"
 opaʼỹva:opaʼỹva ADJ ; ! "inacabable, inagotable, perdurable"
@@ -12550,6 +12563,7 @@ pichoro:pichoro ADJ ; ! "bebido, tomado"
 piguy:piguy ADJ ; ! "bebido, tomado"
 pijy:pijy ADJ ; ! "perezoso, inútil, lerdo, remolón"
 pilaʼi:pilaʼi ADJ ; ! "cansado, débil, desganado"
+purory:purory ADJ ; ! "débil"
 pireguy:pireguy ADJ ; ! "subcutáneo"
 pireja:pireja ADJ ; ! "torpe, tardo, despacioso, indolente"
 pirekã:pirekã ADJ ; ! "seco, enjuto"
@@ -12977,6 +12991,7 @@ koʼárupi:koʼárupi AD ; ! "por aquí"
 koʼãga:koʼãga AD ; ! "ahora"
 koʼága:koʼ•ága AD ; ! "ahora" ! Dir/LR
 koʼága:koʼ•ág̃a AD ; ! "ahora" ! Dir/LR
+koʼága:koʼ•ágã AD ; ! "ahora" ! Dir/LR
 koʼápe:koʼ•ápe AD ; ! "acá, aquí"
 koʼẽrõ:koʼẽrõ AD ; ! "mañana" 
 koʼẽramo:koʼẽramo AD ; ! "mañana" 
@@ -13017,6 +13032,7 @@ raẽ:rãe AD ; ! "antes"
 ramo:ramo AD ; ! "reciéntemente"
 ramo% jepe:ramo% jepe AD ; ! ""
 rire:rire AD ; ! "después"
+uperire:uperire AD ; ! "después"
 sapyʼa:sapyʼa AD ; ! "súbitamente"
 tapykuépe:tapyku•épe AD ; ! "detrás, atrás"
 tuicha:tuicha AD ; ! "mucho"
