@@ -37,6 +37,9 @@ Sets
 Nas = m n ñ ã ẽ ĩ õ ỹ ũ
       M N Ñ Ã Ẽ Ĩ Õ Ỹ Ũ ;
 
+NasTil = ñ ã ẽ ĩ õ ỹ ũ
+         Ñ Ã Ẽ Ĩ Õ Ỹ Ũ ;
+
 Cns = B C D F G H J K L M N P Q R S T V W X Z G̃ Ñ 
       b c d f g h j k l m n p q r s t v w x z g̃ ñ ;
 
@@ -165,8 +168,8 @@ Vt:Va <=> •: _ [ Cns: | ArchiCns: | Nas: | VowsAton: |  %>: ]+  VowsTon: ;
 %{Y%}:y <=> g: u: a: %>: _ g: u: a: ;
 
 "Surface [m] in postpositions after nasals"
-%{m%}:m <=> Nas: [Vows:| Cns: | %>:]+ %>: _ ; 
-	    Nas: %>: _ ; 
+%{m%}:m <=> NasTil: [Vows:| Cns: | %>:]+ %>: _ ; 
+	    NasTil: %>: _ ; 
             !Nas: %>: _ %{b%}: ;
 
 "Remove surface [t] or [r] in Triformes"
