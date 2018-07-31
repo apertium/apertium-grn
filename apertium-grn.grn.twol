@@ -171,6 +171,8 @@ Vt:Va <=> •: _ [ Cns: | ArchiCns: | Nas: | VowsAton: |  %>: ]+  VowsTon: ;
 %{m%}:m <=> NasTil: [Vows:| Cns: | %>:]+ %>: _ ; 
 	    NasTil: %>: _ ; 
             !Nas: %>: _ %{b%}: ;
+          except
+          ñ: e: m: b: y: %>: _ ;
 
 "Remove surface [t] or [r] in Triformes"
 Cx:0 <=> %{t%}: _ ;
