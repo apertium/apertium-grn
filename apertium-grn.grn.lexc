@@ -444,6 +444,7 @@ LEXICON SYM
 
 LEXICON ProperNouns 
 
+Gral:Gral NP-ANT ; ! ""
 Kaʼasapa:Kaʼasapa NP-TOP ; ! ""
 Paraguái:Paragu•ái NP-TOP ; ! "Paraguay"
 Ypakarai:Ypakarai NP-TOP ; ! ""
@@ -3772,6 +3773,7 @@ LEXICON PRO-CASE
 %<dat%>: # ; 
 %<acc%>: N-PL ;
 %<dat%>: N-PL ;
+# ;
 
 LEXICON Optatives
 
@@ -4154,6 +4156,7 @@ r%<det%>%+:r%{t%} Triformes ;
 h%<prn%>%<pos%>%<p3%>%<sg%>%+:h%{t%} Triformes ;
 
 LEXICON Triformes 
+teko:teko N ; ! "modo, personalidad, estilo, carácter, tino, rango, temple"
 tembiʼurã:tembiʼurã N ; ! "provisiones, víveres"
 taʼanga:taʼanga N ; ! "imagen"
 tembireko:tembireko N ; ! ""
@@ -4198,6 +4201,7 @@ teindy:teindy N ; ! "hermana del varón"
 
 LEXICON Nouns
 
+mbyjajerety:mbyjajerety N ; ! "systema planetario" 
 tekohaʼãngandy:tekohaʼãngandy N ; ! "serie de televisión" 
 mbaʼeapohára:mbaʼeapohára N ; ! "construtor"
 tavakuairetã:tavakuairetã N ; ! "república"
@@ -5340,7 +5344,6 @@ techapyrã:techapyrã N ; ! "ejemplo"
 techaukaha:techaukaha N ; ! "síntoma, índice, señal, signo"
 techaukarã:techaukarã N ; ! "pauta"
 teju:teju N ; ! "lagarto"
-teko:teko N ; ! "modo, personalidad, estilo, carácter, tino, rango, temple"
 tekoaguyje:tekoaguyje N ; ! "perfección"
 tekoanduha:tekoanduha N ; ! "conciencia"
 tekoasy:tekoasy N ; ! "flagelo"
@@ -8658,6 +8661,7 @@ yʼỹ:yʼỹ N ; ! "sequía, seca, sequedad"
 
 LEXICON VerbsIv 
 
+ity:ity V-IV ; ! "derrubar"
 guata:guata V-IV ; ! "caminar, andar, transitar, pasear, marchar"
 ñani:ñani V-IV ; ! "correr" 
 puka:puka V-IV ; ! "reír"
@@ -8848,7 +8852,7 @@ pirakutu:%{i%}pirakutu V-IV ; ! "pescar"
 pirakutu:pirakutu V-IV ; ! "pescar"
 piriri:piriri V-IV ; ! "chisporrotear"
 piã:piã V-IV ; ! "piar,huir"
-po:po V-IV ; ! "saltar"
+po:%{i%}po V-IV ; ! "saltar"
 poʼo:poʼo V-IV ; ! "estar destetado"
 poʼẽ:poʼẽ V-IV ; ! "meter la mano,poner la mano"
 porandu:porandu V-IV ; ! "preguntar"
