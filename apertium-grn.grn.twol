@@ -25,6 +25,7 @@ a b ã c d e ẽ g g̃ h i ĩ j k l m n ñ o õ p r s t u ũ v w x y z ỹ á é
 %{a%}:0 %{a%}:a %{a%}:e %{a%}:o 
 %{b%}:p %{b%}:b %{b%}:0 
 %{i%}:0 %{i%}:i
+%{g%}:0 
 
 %>:0 
 % 
@@ -174,7 +175,7 @@ Vt:Va <=> •: _ [ Cns: | ArchiCns: | Nas: | VowsAton: |  %>: ]+  VowsTon: ;
 "Surface [m] in postpositions after nasals"
 %{m%}:m <=> NasTil: [Vows:| Cns: | %>:]+ %>: _ ; 
 	    NasTil: %>: _ ; 
-            !Nas: %>: _ %{b%}: ;
+          %{g%}: _ ;
           except
           ñ: e: m: b: y: %>: _ ;
 
@@ -219,3 +220,6 @@ Cx:0 <=> %{t%}: _ ;
 !@ >:0 a:a {P}:0 {i}:i k:k o:o >:0 h:h a:a 
 
 !@ >:0 r:r e:e {P}:0 {i}:i k:k o:o >:0 h:h a:a
+
+"Always delete %{g%}"
+%{g%}:0 <=> _ ;

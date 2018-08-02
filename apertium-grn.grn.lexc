@@ -113,6 +113,7 @@ Multichar_Symbols
 %{a%}              ! Archiphoneme for surface [a, e, o] in negative foms 
 %{b%}              ! Archiphoneme for surface [mb] in future tense 
 %{i%}              ! Archiphoneme for aireales 
+%{g%}              ! Marker for hyphen after numbers 
 
 
 LEXICON Root 
@@ -14033,5 +14034,5 @@ LEXICON DIGITLEX
 
 %<num%>: # ;
 %<num%>:%- CASE-NONOM  ;
-%<num%>%+pe%<post%>:%-me # ; ! FIXME: Hay que tratar palabras como 1906-me, 1866-me, etc.
+%<num%>%+pe%<post%>:%-%{g%}%{m%}e # ; ! FIXME: Hay que tratar palabras como 1906-me, 1866-me, etc.
 
