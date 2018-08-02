@@ -14032,7 +14032,24 @@ LEXICON Punctuation
 
 LEXICON DIGITLEX
 
+%<num%>:DIGITLEX-2 ;
 %<num%>: # ;
-%<num%>:%- CASE-NONOM  ;
-%<num%>%+pe%<post%>:%-%{g%}%{m%}e # ; ! FIXME: Hay que tratar palabras como 1906-me, 1866-me, etc.
 
+
+LEXICON DIGITLEX-2
+
+%+0%<num%>:%0 DIGIT-CASE ; 
+%+1%<num%>:1%{g%} DIGIT-CASE ;
+%+2%<num%>:2%{g%} DIGIT-CASE ;
+%+3%<num%>:3%{g%} DIGIT-CASE ;
+%+4%<num%>:4%{g%} DIGIT-CASE ;
+%+5%<num%>:5 DIGIT-CASE ;
+%+6%<num%>:6%{g%} DIGIT-CASE ;
+%+7%<num%>:7%{g%} DIGIT-CASE ;
+%+8%<num%>:8 DIGIT-CASE ;
+%+9%<num%>:9%{g%} DIGIT-CASE ;
+
+LEXICON DIGIT-CASE
+
+# ; 
+%+pe%<post%>:%-%{m%}e # ;
