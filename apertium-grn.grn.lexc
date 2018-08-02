@@ -158,6 +158,7 @@ VerbsDefSg ;
 VerbsDefPl ;
 MODES-AUX ;
 DemonstrativePronouns ;
+Voices ; 
 
 
 !!!!!!!!!!!!!!!!!!!! LEXICON SPANISH !!!!!!!!!!
@@ -267,6 +268,7 @@ haguéicha:hagu•éicha POST ; ! ""
 hag̃uáicha:hag̃uáicha POST ; ! "" 
 hese:hese POST ; ! "por el, por ella, le" 
 ndive:ndive POST ; ! "con"
+okaháre:okaháre POST ; ! ""
 ndive:ndie POST ; ! "con" ! Dir/LR 
 pegua:pegua POST ; ! "de"
 pegua:megua POST ; ! "de" ! Dir/LR
@@ -338,15 +340,16 @@ LEXICON SUBST-V
 +rã%<subs%>:%>rã CASE ;
 
 LEXICON COMP 
-+icha%<comp%>:%>icha # ; ! "igualidad" 
-+ve%<comp%>:%>ve # ; ! "superioridad!
-+ive%<comp%>:%>ive # ; ! "inferioridad" 
++icha%<comp%>:%>icha COMP-INFL ; ! "igualidad" 
++ve%<comp%>:%>ve COMP-INFL ; ! "superioridad!
++ive%<comp%>:%>ive COMP-INFL ; ! "inferioridad" 
 
-+icha%<comp%>:%>icha AD-SUF ; ! "igualidad" 
+LEXICON COMP-INFL 
 
-+icha%<comp%>:%>icha DEM-PRN-SG ; ! "igualidad"
-+ve%<comp%>:%>ve DEM-PRN-SG ; ! "superioridad!
-+ive%<comp%>:%>ive DEM-PRN-SG ; ! "inferioridad" 
+DEM-PRN-SG ;
+AD-SUF ;
+SUP ; 
+# ;
 
 LEXICON SUP-REL 
 
@@ -354,13 +357,16 @@ LEXICON SUP-REL
 +ve%<comp%>:%>ve DEM-PRN-PL ; ! "superioridad!
 
 LEXICON SUP 
-+ete%<sup%>:%>%{E%}te # ; ! "muy" 
-+eterei%<sup%>:%>%{E%}terei # ; ! "sumamente"
-+rei%<sup%>:%>rei # ; ! "muy, sumamente"
++ete%<sup%>:%>%{E%}te SUP-INFL ; ! "muy" 
++eterei%<sup%>:%>%{E%}terei SUP-INFL ; ! "sumamente"
++rei%<sup%>:%>rei SUP-INFL ; ! "muy, sumamente"
 
-+ete%<sup%>:%>%{E%}te SUP-REL ; ! "muy" 
-+eterei%<sup%>:%>%{E%}terei SUP-REL ; ! "sumamente"
-+rei%<sup%>:%>rei SUP-REL ; ! "muy, sumamente"
+LEXICON SUP-INFL 
+
+DEM-PRN-INFL ;
+SUP-REL ;
+ITG-SUF ;
+# ;
 
 LEXICON GRD-PREF 
 
@@ -3955,6 +3961,7 @@ LEXICON AD-SUF
 LEXICON ITG-SUF
 %+po%<qst%>:%>po # ;
 %+pa%<qst%>:%>pa # ; ! Estigarribia p.76
+COMP ;
 
 LEXICON ItgPronouns 
 ava%<prn%>%<itg%>:ava ITG-SUF ; ! "quién"
@@ -4031,6 +4038,7 @@ LEXICON ADJ
 %<adj%>: ADJ-COO ;
 %<adj%>: CASE ;
 %<adj%>: DEM-PRN-SG ;
+%<adj%>: SUP ;
 
 
 LEXICON SUF-PL  
@@ -9667,7 +9675,6 @@ poruramo:poruramo V ; ! "estrenar"
 porurãjey:porurãjey V ; ! "reciclar"
 poruvai:%{i%}poruvai V ; ! "malversar, abusar, abuso"
 poruvai:poruvai V ; ! "malversar, abusar, abuso"
-porã:porã V ; ! "lindo"
 pota:%{i%}pota V ; ! "ambicionar, codiciar, postular, desear"
 pota:pota V ; ! "ambicionar, codiciar, postular, desear"
 potaiterei:potaiterei V ; ! "ansiar"
