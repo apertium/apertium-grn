@@ -213,6 +213,7 @@ centro:centro N-ES ;
 
 LEXICON CASE-NONOM
 
+%+ndi%<post%>:%>ndi CASE-INFL ; ! "con"
 %+pe%<post%>:%>%{m%}e CASE-INFL ; ! "a, en"
 %+gua%<post%>:%>%{Y%}gua CASE-INFL ;
 %+guý%<post%>:%>guý CASE-INFL ;
@@ -3833,7 +3834,7 @@ o%<prn%>%<p3%>%<sg%>%<nom%>%+je%<pass%>%+heʼi%<v%>%<iv%>%<pres%>:%>ojeʼe # ;
 
 aju%<v%>%<iv%>%<p1%>%<sg%>%<pres%>:aju IRR-INFL ; ! vengo
 reju%<v%>%<iv%>%<p2%>%<sg%>%<pres%>:reju IRR-INFL ; ! vienes 
-ou%<v%>%<iv%>%<p2%>%<sg%>%<pres%>:ou IRR-INFL ; ! viene 
+ou%<v%>%<iv%>%<p3%>%<sg%>%<pres%>:ou IRR-INFL ; ! viene 
 jaju%<v%>%<iv%>%<p1%>%<pl%>%<pres%>:jaju IRR-INFL ; ! venimos 
 roju%<v%>%<iv%>%<p1%>%<pl%>%<pres%>:roju IRR-INFL ; ! venimos 
 peju%<v%>%<iv%>%<p2%>%<pl%>%<pres%>:peju IRR-INFL ; ! venis 
@@ -3963,18 +3964,14 @@ LEXICON ITG-SUF
 %+po%<qst%>:%>po # ;
 %+pa%<qst%>:%>pa # ; ! Estigarribia p.76
 COMP ;
+CASE ;
+# ;
 
 LEXICON ItgPronouns 
 ava%<prn%>%<itg%>:ava ITG-SUF ; ! "quién"
 máva%<prn%>%<itg%>:máva ITG-SUF ; ! "quién"
 mbaʼe%<prn%>%<itg%>:mbaʼe ITG-SUF ; ! "qué"
 mbaʼépa%<prn%>%<itg%>:mbaʼ•épa ITG-SUF ; ! "qué"
-
-ava%<prn%>%<itg%>:ava # ; ! "quién"
-máva%<prn%>%<itg%>:máva # ; ! "quién"
-mbaʼe%<prn%>%<itg%>:mbaʼe # ; ! "qué"
-mbaʼépa%<prn%>%<itg%>:mbaʼ•épa # ; ! "qué"
-
 
 
 LEXICON PersonalPronouns
