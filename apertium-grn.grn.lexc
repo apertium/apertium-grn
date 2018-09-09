@@ -136,6 +136,7 @@ Connectors ;
 Numerals ;
 AdjIndef ;
 PRO ;
+PRO-CHE ;
 PossesivePronouns ;
 Interyecciones ;
 Adverbs ;
@@ -3818,6 +3819,18 @@ i%<prn%>%<pro%>%<p3%>%<pl%>%<acc%>%+:%>i Verbs ;
 
 chupe%<prn%>%<pers%>%<p3%>%<sg%>:%>chupe PRO-CASE ;
 ichupe%<prn%>%<pers%>%<p3%>%<sg%>:%>ichupe PRO-CASE ;
+
+LEXICON PRO-CHE 
+
+che%<prn%>%<pro%>%<p1%>%<sg%>%<nom%>%+:%>che%{p%} Verbs ;
+nde%<prn%>%<pro%>%<p2%>%<sg%>%<nom%>%+:%>n%{D%}e{p%} Verbs ;
+ro%<prn%>%<pro%>%<p2%>%<sg%>%<nom%>%+:%>ro{p%} Verbs ;
+ore%<prn%>%<pro%>%<p1%>%<pl%>%<nom%>%+:%>ore{p%} Verbs ;
+ñande%<prn%>%<pro%>%<p1%>%<pl%>%<nom%>%+:%>ñan%{D%}e{p%} Verbs ;
+pende%<prn%>%<pro%>%<p2%>%<pl%>%<nom%>%+:%>pen%{D%}e{p%} Verbs ;
+po%<prn%>%<pro%>%<p2%>%<pl%>%<nom%>%+:%>po Verbs ;
+i%<prn%>%<pro%>%<p3%>%<sg%>%<nom%>%+:%>i Verbs ;
+i%<prn%>%<pro%>%<p3%>%<pl%>%<nom%>%+:%>i Verbs ;
 
 
 LEXICON IrrVerbs
