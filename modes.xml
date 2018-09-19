@@ -3,8 +3,8 @@
 
   <mode name="grn-morph" install="yes">
     <pipeline>
-      <program name="lt-proc -w">
-        <file name="grn.automorf.bin"/>
+      <program name="hfst-proc -w">
+        <file name="grn.automorf.hfst"/>
       </program>
     </pipeline>
   </mode>
@@ -30,8 +30,8 @@
 
   <mode name="grn-disam" install="yes">
     <pipeline>
-      <program name="lt-proc -w">
-        <file name="grn.automorf.bin"/>
+      <program name="hfst-proc -w">
+        <file name="grn.automorf.hfst"/>
       </program>
       <program name="cg-conv -a -l" />
       <program name="vislcg3 --trace -g">

@@ -1,23 +1,226 @@
 Alphabet
 
-A B Ã C E Ẽ G G̃ H I Ĩ J K L M N Ñ O Õ P R S T U Ũ V Y Ỹ
-a b ã c e ẽ g g̃ h i ĩ j k l m n ñ o õ p r s t u ũ v y ỹ
+A B Ã C D E Ẽ G G̃ H I Ĩ J K L M N Ñ O Õ P R S T U Ũ V W X Y Z Ỹ Á É Í Ó Ú Ý   F Q
+a b ã c d e ẽ g g̃ h i ĩ j k l m n ñ o õ p r s t u ũ v w x y z ỹ á é í ó ú ý ʼ f q
+
+
+%{J%}:j %{J%}:ñ
+%{P%}:ʼ %{P%}:0
+%{I%}:0 %{I%}:j %{I%}:ñ %{I%}:ʼ
+%{H%}:0 %{H%}:h
+%{K%}:k %{K%}:g 
+%{N%}:0 %{N%}:n 
+%{D%}:d %{D%}:0 
+%{T%}:0
+%{p%}:0 %{p%}:r
+%{E%}:i %{E%}:e
+%{d%}:d %{d%}:0 
+%{r%}:0 %{r%}:r
+•:0
+%{o%}:0
+%{e%}:e %{e%}:a %{e%}:o 
+%{Y%}:0 %{Y%}:y 
+%{m%}:m %{m%}:p
+%{t%}:0
+%{a%}:0 %{a%}:a %{a%}:e %{a%}:o 
+%{b%}:p %{b%}:b %{b%}:0 
+%{i%}:0 %{i%}:i
+%{g%}:0 
 
 %>:0 
 % 
 %'
-
+%+
+%-
 ;
 
 Sets
 
-Nas = m n ñ ã ẽ ĩ õ ỹ 
-      M N Ñ Ã Ẽ Ĩ Õ Ỹ ;
+Nas = m n ñ ã ẽ ĩ õ ỹ ũ
+      M N Ñ Ã Ẽ Ĩ Õ Ỹ Ũ ;
+
+NasTil = ñ ã ẽ ĩ õ ỹ ũ
+         Ñ Ã Ẽ Ĩ Õ Ỹ Ũ ;
 
 Cns = B C D F G H J K L M N P Q R S T V W X Z G̃ Ñ 
       b c d f g h j k l m n p q r s t v w x z g̃ ñ ;
 
+ArchiCns = %{N%} %{K%} ;
+
+CnsNorm = B C D F G H J K L P Q R S T V W X Z
+          b c d f g h j k l p q r s t v w x z ;
+
+Vows = A Ã E Ẽ I Ĩ O Õ U Ũ Y Ỹ Á É Í Ó Ú Ý
+       a ã e ẽ i ĩ o õ u ũ y ỹ á é í ó ú ý ;
+
+VowsTon = Á É Í Ó Ú Ý
+          á é í ó ú ý ;
+
+VowsAton = A E I O U Y 
+           a e i o u y ;
+
+VowsStrong = A Ã E Ẽ O Õ Á É Ó
+             a ã e ẽ o õ á é ó ;
+
+VowsWeak = I Ĩ U Ũ Y Ỹ Í Ú Ý
+           i ĩ u ũ y ỹ í ú ý ;
+
 Rules
 
-"Morpheme boundary"
-%>:0 <=> _ ;
+"Remove morpheme boundary"
+%>:0 <=> _ ; 
+
+"Remove stress marker"
+•:0 <=> _ ;
+
+"Change vowel before atonal suffixes"
+Va:Vt <=> _ %>: [m: a: | n: t: e: | i: c: h: a: | %{m%}: e: | g: u: i: | r: e: | m: i:|
+                 k: u: r: i: | t: a: | r: a: ʼ: e: | n: e: | n: i: k: o:| v: a: | p: a: ] ;
+            [Cns: | VowsAton: | Nas: | ʼ: ]+ _ %>: %{r%}: ;
+            _ %{o%}: %>: [v: | a: | g: u: i: | i: c: h: a: ] ;
+            except
+            [VowsTon:] [ Cns: | VowsAton: |Nas:]+ _ %>: [m: a: | n: t: e: | i: c: h: a:|v: | a: | %{m%}: e:] ;
+	      _ %>: v: a: ʼ: e: k: u: e: ;
+	      i:  _ %>: ; 
+	      i: c: h: _ %>: n: t: e:  ;
+	      g: u: _ %>: %{m%}: e: ;
+            _ %>: i: c: h: a: %>: %{E%}: t: e: ;
+            where Va in ( a e o u y ) 
+                  Vt in ( á é ó ú ý ) matched ;
+
+"Change i to tonal before atonal suffixes"
+i:í <=>  _ %>: [m: a: | n: t: e:| p: e: | %{r%}:r i: | v: a:] ;
+        _ %{o%}: %>: [v: | a:] ; 
+	except 
+	ó: _ %>: n: t: e: ;
+
+! NOTE: The i--í is taken care of by another rule, to avoid conflict with i:0
+
+"Delete ending -[i] before comparative -icha" 
+Vx:0 <=> _ %>: [ i: c: h: a: | %{r%}:0 i: ] ;
+            where Vx in ( ĩ i í ) ;
+
+!@ n:n {d}:d >:0 a:a {P}:0 m:m o:o m:m i:i c:c h:h ĩ:0 >:0 {r}:0 i:i
+
+"Change tonal vowel to atonal if tonal in affix"
+Vt:Va <=> •: _ [ Cns: | ArchiCns: | Nas: | VowsAton: |  %>: ]+  VowsTon: ;
+          •: _ [ Cns: | %>: | ArchiCns: | Nas: | VowsAton: ]+ %{E%}: ;
+          •: _ [ Cns: | %>: | ArchiCns: | Nas: | VowsAton: ]+ [%{Y%}: g: u: a:] ;
+          except 
+          A: m: •: _ r: i: k: a: %>: [%{Y%}: g: u: a:] %>: %{m%}: e: ;
+           where Vt in VowsTon Va in VowsAton matched ; 
+
+!@ •:0 ó:o g:g a:a >:0 {N}:0 {K}:k u:u é:é r:r a:a 
+
+!@ •:0 ó:ó g:g a:a >:0 p:p e:e
+
+!@ •:0 ó:o g:g a:a >:0 g:g u:u a:a
+
+"Add nasal prefix [ñ] in present 1pl incl"
+%{J%}:ñ <=> _ [a: | e: | o: ] %{P%}: [ CNAS: | CnsNorm: |VowsAton: | VowsTon:]+ CNAS: ;
+                    where CNAS in Nas ;
+
+"Insert glottal stop ['] if next morpheme starts with a vowel"
+%{P%}:ʼ <=> _ [ VowsTon: | •: VowsAton:] ;
+            Vows: _ [a: k: u: e:] ;
+            Vows: %>: _ ;
+            %{b%}: [o: | y:] _ Vows: ;
+            r: o: _ Vows: ;
+
+"Surface [n] in plural nouns" 
+%{N%}:n <=> Nas: %>: _ ;
+            _ %{K%}: k: ;
+
+"Surface [g] in pl nouns after nasals" 
+%{K%}:g <=> Nas: %>: %{N%}: _ ;
+            %{N%}: _ k: ;
+
+"Possessive {H} before VowsTon"
+%{H%}:h <=> _ i: %{I%}: VowsTon: ;
+
+
+"Remove underlying [i] in 3p possessive prefixes"
+%{I%}:0 <=>  _ CnsNorm: ;
+
+"Surface ʼ in possessive prefix i"
+%{I%}:ʼ <=> _ VowsTon: ;
+
+"Possessive {I} as j before VowsAton" 
+%{I%}:j <=> _ VowsAton: ;
+            except 
+            _ VowsAton:[CnsNorm: | VowsAton: |VowsTon: ]+ Nas: ; 
+
+
+"Possessive %{I%} as ñ in nasal nouns starting with VowsAton"
+%{I%}:ñ <=> _ VowsAton:[CnsNorm: | VowsAton: |VowsTon: ]+ Nas: ;
+
+"Insert [r] before vowels after possessive prefixes"
+%{p%}:r <=> _ Vows: ;
+
+"Remove [d] in possessive prefixes" 
+%{D%}:0 <=> _ e: %{p%}: [CnsNorm: | VowsAton: |VowsTon: | Nas: ]+ Nas: ;
+
+"Surface [e] after weak vowels in indefinite adjectives" 
+%{E%}:e <=> VowsWeak: %>: _ ;
+
+"Remove [d] in negative verbs before nasals"
+%{d%}:0 <=> _ %{a%}: %>: [a: |r: e:|o:|%{J%}: a: |r: o:| p: e:] %{P%}: Nas: ;
+      
+"%{r%} as r in negative verbs ending with i"
+%{r%}:r <=> i: %>: _ ;
+            :i p: o: %>: _ ;
+
+"Surface [y] in postpositions"
+%{Y%}:y <=> g: u: a: %>: _ g: u: a: ;
+
+"Surface [m] in postpositions after nasals"
+%{m%}:m <=> NasTil: [Vows:| Cns: | %>:]+ %>: _ ; 
+	    NasTil: %>: _ ; 
+          %{g%}: %-: _  ;
+          except
+          ñ: e: m: b: y: %>: _ ;
+
+"Remove surface [t] or [r] in Triformes"
+Cx:0 <=> %{t%}: _ ;
+         where Cx in Cns;
+
+"Surface [a] in negative verbs"
+%{a%}:a <=> _ [ %>: %{J%}: a: | h: a: ʼ: e: | i: k: a: t: u:] ;
+
+"Surface [o] in negative verbs"
+%{a%}:o <=> _ %>: r: o: ;
+
+"Surface [e] in negative verbs"
+%{a%}:e <=> _ %>: r: e: ;
+
+"Surface [mb] in suffix after nasal verb"
+%{b%}:b <=> Nas: %>: %{m%}: _ ;
+            %>: m: _ [o: | y:] %{P%}: [CnsNorm: | Vows:] ;
+
+"Remove %{b%} before nasals"
+%{b%}:0 <=> %>: m: _ [o: | y:] %{P%}: Nas: ;
+
+"Delete [i] in normal verbs"
+%{i%}:0 <=> _ ;
+    except 
+           :a (:0) _ ;
+           :r :e (:0) _ ;
+           :o (:0) _ ;
+           :j :a (:0) _ ;
+           :r :o (:0) _ ;
+           :p :e (:0) _ ; 
+
+"Add [i] for aireales" 
+%{i%}:i <=> :a (:0) _ ;
+            :r :e (:0) _ ;
+            :o (:0) _ ;
+            :j :a (:0) _ ;
+            :r :o (:0) _ ;
+            :p :e (:0) _ ; 
+
+!@ >:0 a:a {P}:0 {i}:i k:k o:o >:0 h:h a:a 
+
+!@ >:0 r:r e:e {P}:0 {i}:i k:k o:o >:0 h:h a:a
+
+"Always delete %{g%}"
+%{g%}:0 <=> _ ;

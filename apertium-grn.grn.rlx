@@ -6,6 +6,31 @@ SETS
 
 LIST N = n ;
 
+LIST Incp = incp ;
+
+LIST Guess = guess ;
+
+LIST Prn = prn ;
+
+LIST A = "a" ;
+
+LIST Re = "re" ;
+
 SECTION
 
-SELECT N ;
+
+REMOVE SUB:3 Incp ;
+
+REMOVE SUB:2 Incp ;
+
+REMOVE SUB:1 Incp ;
+
+REMOVE Incp ;
+
+REMOVE A + Prn (0/* N) ;
+
+REMOVE Re + Prn (0/* N) ;
+
+REMOVE Guess ;
+
+
