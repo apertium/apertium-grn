@@ -161,6 +161,7 @@ VerbsDefPl ;
 MODES-AUX ;
 DemonstrativePronouns ;
 Voices ; 
+ADJV ;
 
 
 !!!!!!!!!!!!!!!!!!!! LEXICON SPANISH !!!!!!!!!!
@@ -240,6 +241,7 @@ COMP ;
 # ;
 DEM-PRN-SG ;
 DEM-PRN-PL ;
+N-PL ;
 
 
 LEXICON CASE
@@ -485,6 +487,7 @@ Perũ:Perũ NP-TOP ; ! "Peru"
 Chile:Chile NP-TOP ; ! "Chile"
 Rio:Rio NP-TOP ;
 Gynéa:Gynéa NP-TOP ; ! ""
+San% Lorenzo:San% Lorenzo NP-TOP ; ! "" 
 Gynéa% Mbisáu:Gynéa% Mbisáu NP-TOP ; ! ""
 Gynéa% Ekuatógua:Gynéa% Ekuatógua NP-TOP ; ! ""
 Ciudad% del% Este:Ciudad% del% Este NP-TOP ; 
@@ -654,6 +657,7 @@ Aceval:Aceval NP-COG ;
 Yegros:Yegros NP-COG ; ! ""
 Rolón:Rol•ón NP-COG ; 
 Texeira:Texeira NP-COG ; 
+
 
 Mora:Mora NP-COG ; 
 Guggiari:Guggiari NP-COG ; 
@@ -4230,7 +4234,6 @@ Mélec:Mélec NP-AL ; ! ""
 Erán:Erán NP-AL ; ! ""
 Sis:Sis NP-AL ; ! ""
 Corazín:Corazín NP-AL ; ! ""
-Ko:Ko NP-AL ; ! ""
 Amán:Amán NP-AL ; ! ""
 Arimatea:Arimatea NP-AL ; ! ""
 Bubastis:Bubastis NP-AL ; ! ""
@@ -4690,7 +4693,6 @@ Alván:Alván NP-AL ; ! ""
 Jasobeam:Jasobeam NP-AL ; ! ""
 Absalón:Absalón NP-AL ; ! ""
 Quefar% Haamoní:Quefar% Haamoní NP-AL ; ! ""
-Avaveicha:Avaveicha NP-AL ; ! ""
 Jamín:Jamín NP-AL ; ! ""
 Bet% Hoglá:Bet% Hoglá NP-AL ; ! ""
 Ejepokáke:Ejepokáke NP-AL ; ! ""
@@ -5076,7 +5078,6 @@ Queilá:Queilá NP-AL ; ! ""
 Macnadbai:Macnadbai NP-AL ; ! ""
 Ndague:Ndague NP-AL ; ! ""
 Habacuc:Habacuc NP-AL ; ! ""
-Roguenohẽ:Roguenohẽ NP-AL ; ! ""
 Teman:Teman NP-AL ; ! ""
 Sílo:Sílo NP-AL ; ! ""
 Raamías:Raamías NP-AL ; ! ""
@@ -5283,7 +5284,6 @@ Zeeb:Zeeb NP-AL ; ! ""
 Jocteel:Jocteel NP-AL ; ! ""
 Zazá:Zazá NP-AL ; ! ""
 Rehosépa:Rehosépa NP-AL ; ! ""
-Oguenohẽ:Oguenohẽ NP-AL ; ! ""
 Ezequías:Ezequías NP-AL ; ! ""
 Es% Baal:Es% Baal NP-AL ; ! ""
 Nandéipa:Nandéipa NP-AL ; ! ""
@@ -5591,7 +5591,6 @@ Aridai:Aridai NP-AL ; ! ""
 Elím:Elím NP-AL ; ! ""
 Asdód:Asdód NP-AL ; ! ""
 Joctán:Joctán NP-AL ; ! ""
-Roguenohẽta:Roguenohẽta NP-AL ; ! ""
 Samhut:Samhut NP-AL ; ! ""
 Sarépta:Sarépta NP-AL ; ! ""
 Toñeñongatu:Toñeñongatu NP-AL ; ! ""
@@ -6459,7 +6458,6 @@ Joacáz:Joacáz NP-AL ; ! ""
 Noimo:Noimo NP-AL ; ! ""
 Malquisúa:Malquisúa NP-AL ; ! ""
 Jeremot:Jeremot NP-AL ; ! ""
-Oguenohẽvo:Oguenohẽvo NP-AL ; ! ""
 Arvad:Arvad NP-AL ; ! ""
 Jahmai:Jahmai NP-AL ; ! ""
 Perohorýke:Perohorýke NP-AL ; ! ""
@@ -7150,6 +7148,10 @@ COMP ;
 SUP ;
 ADJ-DIS ;
 
+LEXICON ADJV ! Adjetivisante de sustantivo
+
+rehegua:rehegua ADJ ;
+
 LEXICON ADJ
 
 %<adj%>: ADJ-COO ;
@@ -7162,20 +7164,24 @@ LEXICON SUF-PL
 %+ita%<adj%>%<ind%>%<pl%>:%>%{E%}ta # ;
 
 LEXICON AdjIndef
-heta%<adj%>%<ind%>:heta # ; ! "mucho"
-mbovy%<adj%>%<ind%>:mbovy # ; ! "poco"
-avave%<adj%>%<ind%>:avave # ; ! "ningún"
-oimeraẽva%<adj%>%<ind%>:oimeraẽva # ; ! "cualquier" 
-oimeraẽ%<adj%>%<ind%>:oimeraẽ # ; ! "cualquier"
-ambue%<adj%>%<ind%>:ambue # ; ! "otro" 
-opa%<adj%>%<ind%>:opa # ; ! "todos"
-opavave%<adj%>%<ind%>:opavave # ; ! "todos"
-mayma%<adj%>%<ind%>:mayma # ; ! "cada, todos"
-maymáva%<adj%>%<ind%>:maymáva # ; ! "cada, todos"
-opaite%<adj%>%<ind%>:opaite # ; ! "todos"
+heta%<adj%>%<ind%>:heta ADJ-IND-FL ; ! "mucho"
+mbovy%<adj%>%<ind%>:mbovy ADJ-IND-FL ; ! "poco"
+avave%<adj%>%<ind%>:avave ADJ-IND-FL ; ! "ningún"
+oimeraẽva%<adj%>%<ind%>:oimeraẽva ADJ-IND-FL ; ! "cualquier" 
+oimeraẽ%<adj%>%<ind%>:oimeraẽ ADJ-IND-FL ; ! "cualquier"
+ambue%<adj%>%<ind%>:ambue ADJ-IND-FL ; ! "otro" 
+opa%<adj%>%<ind%>:opa ADJ-IND-FL ; ! "todos"
+opavave%<adj%>%<ind%>:opavave ADJ-IND-FL ; ! "todos"
+mayma%<adj%>%<ind%>:mayma ADJ-IND-FL ; ! "cada, todos"
+maymáva%<adj%>%<ind%>:maymáva ADJ-IND-FL ; ! "cada, todos"
+opaite%<adj%>%<ind%>:opaite ADJ-IND-FL ; ! "todos"
 
 meme%<adj%>%<ind%>:meme # ; ! "todos"
 
+LEXICON ADJ-IND-FL 
+
+# ;
+COMP ;
 
 LEXICON ADJ-DIS 
 %+ve%<adj%>%<dist%>:ve # ;
@@ -7280,8 +7286,11 @@ LEXICON DetTriformes
 r%<det%>%+:r%{t%} Triformes ;
 h%<prn%>%<pos%>%<p3%>%<sg%>%+:h%{t%} Triformes ;
 
-LEXICON Triformes 
+LEXICON Triformes
+
+tyepýpe:tyepýpe AD ; ! "dentro"
 teko:teko N ; ! "modo, personalidad, estilo, carácter, tino, rango, temple"
+tekoha:tekoha N ; ! "hábitat, ambiente, naturaleza"
 tembiʼurã:tembiʼurã N ; ! "provisiones, víveres"
 taʼanga:taʼanga N ; ! "imagen"
 tembireko:tembireko N ; ! ""
@@ -7326,6 +7335,8 @@ teindy:teindy N ; ! "hermana del varón"
 
 LEXICON Nouns
 
+jetypeka:jetypeka N ; ! "investigación"
+haipy:haipy N ; ! "tipo"
 mbyjajerety:mbyjajerety N ; ! "systema planetario" 
 tekohaʼãngandy:tekohaʼãngandy N ; ! "serie de televisión" 
 mbaʼeapohára:mbaʼeapohára N ; ! "construtor"
@@ -7484,6 +7495,7 @@ atyporavopyre:atyporavopyre N ; ! "equipo"
 atyvore:atyvore N ; ! "muestra"
 atãngue:atãngue N ; ! "solidez"
 ava:ava N ; ! "raza, gente"
+ãva:ãva N ; ! "raza, gente" !Dir/LR
 áva:áva N ; ! "cabellero"
 avajokoha:avajokoha N ; ! "hebilla"
 avapaje:avapaje N ; ! "mago"
@@ -7786,7 +7798,6 @@ kotyguasu:kotyguasu N ; ! "salón, sala"
 kotykeha:kotykeha N ; ! "alcoba"
 kotymbaʼapoha:kotymbaʼapoha N ; ! "oficina"
 kua:kua N ; ! "hoyo, agujero, orificio, boquete"
-kuaa:kuaa N ; ! "saber"
 kuaahaʼãrã:kuaahaʼãrã N ; ! "laboratorio"
 kuaaraʼã:kuaaraʼã N ; ! "teoría, pronóstico, acertijo"
 kuarahy:kuarahy N ; ! "sol"
@@ -8342,7 +8353,6 @@ pypore:pypore N ; ! "pista"
 pyrague:pyrague N ; ! "espía"
 pysãkangue:pysãkangue N ; ! "juanete"
 pyta:pyta N ; ! "talón"
-pytagua:pytagua N ; ! "extranjero"
 pytaha:pytaha N ; ! "paradero"
 pytiʼa:pytiʼa N ; ! "pecho"
 pytiʼachiã:pytiʼachiã N ; ! "asma"
@@ -8474,7 +8484,6 @@ tekoanduha:tekoanduha N ; ! "conciencia"
 tekoasy:tekoasy N ; ! "flagelo"
 tekoayhu:tekoayhu N ; ! "amistad"
 tekoañete:tekoañete N ; ! "seriedad"
-tekoha:tekoha N ; ! "hábitat, ambiente, naturaleza"
 tekohaguasu:tekohaguasu N ; ! "colonia"
 tekojoja:tekojoja N ; ! "justicia, democracia, equidad"
 tekojojaharenda:tekojojaharenda N ; ! "magistratura"
@@ -11026,7 +11035,6 @@ ohechapukúva:ohechapukúva N ; ! "vidente, profeta"
 ohecháva:ohecháva N ; ! "vidente, el que ve"
 ohendúva:ohendúva N ; ! "oyente, oidor"
 oikóva:oikóva N ; ! "habitante, morador, suceso"
-oikovéva:oikovéva N ; ! "vivo, habitante"
 ojehúva:ojehúva N ; ! "suceso"
 ojohuguyre:ojohuguyre N ; ! "pariente"
 oka:oka N ; ! "patio, calle, exterior"
@@ -12135,7 +12143,11 @@ jokupyty:jokupyty V-IV ; ! "comprender"
 
 LEXICON Verbs 
 
+ñembokuatia:ñembokuatia V ; ! "documentar"
+guenohẽ:guenohẽ V ; !"emitir"
+ñeguenohẽ:ñeguenohẽ V ; !"presentar"
 ñomongeta:ñomongeta V ; ! "charlar"
+haihai:haihai V ; ! "grabar"
 mopyenda:mopyenda V ; ! "fundar"
 hesaʼỹijo:hesaʼỹijo V ; ! "analizar"
 ñaimoʼã:ñaimoʼã V ; ! "parecer"
@@ -12167,7 +12179,6 @@ atuakãndu:atuakãndu V ; ! "joroba"
 aturu:aturu V ; ! "agazapar"
 atyporavopyre:atyporavopyre V ; ! "equipo"
 atyvore:atyvore V ; ! "muestra"
-ayvu:ayvu V ; ! "alboroto"
 añemombo% hese:añemombo% hese V ; ! "abalanzarse"
 añetegua:añetegua V ; ! "sincero"
 añopegua:añopegua V ; ! "intimidad"
@@ -12388,8 +12399,6 @@ kuaaukavy:%{i%}kuaaukavy V ; ! "insinuar"
 kuaaukavy:kuaaukavy V ; ! "insinuar"
 kuarepoti:kuarepoti V ; ! "hierro"
 kuaru:kuaru V ; ! "orinar, mear"
-kuatia:%{i%}kuatia V ; ! "documento"
-kuatia:kuatia V ; ! "documento"
 kuatiahavara:kuatiahavara V ; ! "lija"
 kuatiaporupy:kuatiaporupy V ; ! "vale"
 kuatiañemu:kuatiañemu V ; ! "factura"
@@ -14354,6 +14363,8 @@ yvytu:yvytu V ; ! " triunfar, prosperar, ir viento en popa"
 
 LEXICON Adjectives
 
+ohecha’ỹ:ohecha’ỹ ADJ ; ! "no vidiente" 
+tekombo’e:tekombo’e ADJ ; !"didáctico"
 amyrỹi:amyrỹi ADJ ; ! "difunto"
 parapa:parapa ADJ ; ! "multicolor"
 g̃uaig̃ui:g̃uaig̃ui ADJ ; ! "vieja"
@@ -14713,7 +14724,6 @@ tavaguasu:tavaguasu ADJ ; ! "capital"
 tavy:tavy ADJ ; ! "ignorante, cretino, demente, analfabeto"
 techahára:techah•ára ADJ ; ! "público"
 tee:tee ADJ ; ! "típico, propio"
-tekoha:tekoha ADJ ; ! "ambiente"
 tekohagua:tekohagua ADJ ; ! "regional"
 tekoporã:tekoporã ADJ ; ! "cabal, ética"
 tekove:tekove ADJ ; ! "sujeto"
@@ -15272,8 +15282,7 @@ keraguata:keraguata ADJ ; ! "y s. sonámbulo"
 kerana:kerana ADJ ; ! "dormilón"
 kirirĩ:kirirĩ ADJ ; ! "callado, sosegado, silencioso, reservado, tranquilo, taciturno, discreto"
 kiveve:kiveve ADJ ; ! "pelirrojo"
-koʼã:koʼã ADJ ; ! "estos, estas"
-ko:ko ADJ ; ! "este, esta"
+!ko:ko ADJ ; ! "este, esta"
 koʼãgagua:koʼãgagua ADJ ; ! "actual, vigente, moderno"
 koʼãichagua:koʼãichagua ADJ ; ! "tales"
 koʼẽmegua:koʼẽmegua ADJ ; ! "mañanero"
@@ -16045,6 +16054,7 @@ LEXICON Adverbs
 
 apé:ap•é AD ; ! "aqui"
 ape:ape AD ; ! "aqui" ! Dir/LR 
+ágã:ágã AD ; ! "ahora, en la actualidad"
 
 peteĩteĩ:peteĩteĩ AD ; ! "uno a uno"
 ipahápe:ipah•ápe AD ; ! "finalmente"
@@ -16547,11 +16557,21 @@ sus:sus BARB ; ! ""
 norte:norte BARB ;
 sul:sul BARB ;
 
+rescate:rescate BARB ;
+antropológicos:antropológicos BARB ;
+lingüístico:lingüístico BARB ;
+diagnóstico:diagnóstico BARB ;
+sociolingüístico:sociolingüístico BARB ;
+
 don:don BARB ; 
 monseñor:monseñor BARB ; 
 general:general BARB ;
 Clima:Clima BARB ; 
 arpa:arpa BARB ;
+secretaría:secretaría BARB ;
+lingüísticas:lingüísticas BARB ;
+políticas:políticas BARB ;
+
 
 aeropuerto:aeropuerto BARB ; ! ""
 catedral:catedral BARB ; ! ""
