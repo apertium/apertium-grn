@@ -166,7 +166,7 @@ ADJV ;
 
 !!!!!!!!!!!!!!!!!!!! LEXICON SPANISH !!!!!!!!!!
 LEXICON ADJ-ES 
-%<adj%>: # ;
+%<barb%>: # ;
 
 LEXICON SpaAdjectives
 paraguayo:paraguayo ADJ-ES ;
@@ -461,6 +461,7 @@ LEXICON SYM
 LEXICON ProperNouns 
 
 Gral:Gral NP-ANT ; ! ""
+Ladilsaa:Ladilsaa NP-ANT ; ! ""
 Kaʼasapa:Kaʼasapa NP-TOP ; ! ""
 Paraguái:Paragu•ái NP-TOP ; ! "Paraguay"
 Ypakarai:Ypakarai NP-TOP ; ! ""
@@ -652,6 +653,7 @@ Manoel:Manoel NP-ANT ; ! ""
 Kachíke:Kachíke NP-ANT ; ! ""
 Huã:Huã NP-ANT ; 
 Garay:Garay NP-COG ; 
+Silvero:Silvero NP-COG ;
 Bastos:Bastos NP-COG ; ! ""
 Aceval:Aceval NP-COG ;
 Yegros:Yegros NP-COG ; ! ""
@@ -3404,10 +3406,15 @@ Facebook:Facebook NP-AL ; ! ""
 Google:Google NP-AL ; ! ""
 UNESCO:UNESCO NP-AL ; ! ""
 UNESCO:Unesco NP-AL ; ! "" ! Dir/LR
+UNA:UNA NP-AL ;
 ONU:ONU NP-AL ; ! ""
 FIFA:FIFA NP-AL ; ! ""
 UEFA:UEFA NP-AL ; ! ""
 MEBOL:MEBOL NP-AL ; ! ""
+Mozilla:Mozilla NP-AL; ! ""
+Mozilla% Firefox:Mozilla% Firefox NP-AL ; ! ""
+Aguaratata:Aguaratata NP-AL ; ! "Mozilla Firefox"
+B:B NP-AL ;
 
 
 
@@ -7335,6 +7342,7 @@ teindy:teindy N ; ! "hermana del varón"
 
 LEXICON Nouns
 
+guaraniete:guaraniete N ; ! "guaranípuro"
 jetypeka:jetypeka N ; ! "investigación"
 haipy:haipy N ; ! "tipo"
 mbyjajerety:mbyjajerety N ; ! "systema planetario" 
@@ -9630,6 +9638,7 @@ rysýi:rysýi N ; ! "fila, hilera, línea"
 saguy:saguy N ; ! "reojo"
 sakandu:sakandu N ; ! "caballo"
 sãmbyhyha:sãmbyhyha N ; ! "conductor, director, jefe, administrador, rector"
+sãmbyhyhára:sãmbyhyhára N ; ! "conductor, director, jefe, administrador, rector" ! Dir/LR
 sapikua:sapikua N ; ! "bolsa"
 sapy:sapy N ; ! ""
 saraki:saraki N ; ! "cabriola."
@@ -11922,6 +11931,8 @@ ke:ke V-IV ; ! "entrar,penetrar"
 kerai:kerai V-IV ; ! "soñar"
 kirirĩ:kirirĩ V-IV ; ! "callarse"
 ko:%{i%}ko V-IV ; ! "cuidar de"
+ko:%{i%}ko V-IV ; ! " estar, suceder, vivir, residir, andar, habitar, pasar, ubicarse, hallar­se, morar"
+me:%{i%}me V-IV ; ! " estar, haber, existir, hallarse, habitar, distar"
 koʼẽ:koʼẽ V-IV ; ! "amanecer"
 kokore:kokore V-IV ; ! "cacarear"
 kororõ:kororõ V-IV ; ! "rugir"
@@ -11949,7 +11960,6 @@ mbokapu:mbokapu V-IV ; ! "tirar (dar fuego)"
 mbopi:mbopi V-IV ; ! "circuncidar"
 mboyvytimbo:mboyvytimbo V-IV ; ! "levantar polvo"
 mbyryʼái:mbyryʼ•ái V-IV ; ! "calor (tengo calor)"
-me:me V-IV ; ! "estar"
 aime:aime V-IV ; ! "estar" ! Dir/LR
 menda:menda V-IV ; ! "casarse"
 mimbi:mimbi V-IV ; ! "brillar"
@@ -13310,8 +13320,6 @@ ikokatu:ikokatu V ; ! " conseguir, dominar"
 ikorei:ikorei V ; ! " vagar, vegetar, estar desocupado"
 ikose:ikose V ; ! " pretender ser"
 ikove:ikove V ; ! " vivir, sobrevivir, pasar, subsistir"
-iko:iko V ; ! " estar, suceder, vivir, residir, andar, habitar, pasar, ubicarse, hallar­se, morar"
-ime:ime V ; ! " estar, haber, existir, hallarse, habitar, distar"
 imoʼã:imoʼã V ; ! " creer, pensar, reflexionar"
 jaʼeʼỹ:jaʼeʼỹ V ; ! " odiar"
 jaʼe:jaʼe V ; ! " querer, simpatizar, ser amigo"
@@ -16562,6 +16570,8 @@ antropológicos:antropológicos BARB ;
 lingüístico:lingüístico BARB ;
 diagnóstico:diagnóstico BARB ;
 sociolingüístico:sociolingüístico BARB ;
+politécnica:politécnica BARB ;
+decano:decano BARB ;
 
 don:don BARB ; 
 monseñor:monseñor BARB ; 
