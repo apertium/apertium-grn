@@ -25,17 +25,22 @@ a b ã c d e ẽ g g̃ h i ĩ j k l m n ñ o õ p r s t u ũ v w x y z ỹ á é
 %{a%}:0 %{a%}:a %{a%}:e %{a%}:o 
 %{b%}:p %{b%}:b %{b%}:0 
 %{i%}:0 %{i%}:i
+%{g%}:0 
 
 %>:0 
 % 
 %'
 %+
+%-
 ;
 
 Sets
 
 Nas = m n ñ ã ẽ ĩ õ ỹ ũ
       M N Ñ Ã Ẽ Ĩ Õ Ỹ Ũ ;
+
+NasTil = ñ ã ẽ ĩ õ ỹ ũ
+         Ñ Ã Ẽ Ĩ Õ Ỹ Ũ ;
 
 Cns = B C D F G H J K L M N P Q R S T V W X Z G̃ Ñ 
       b c d f g h j k l m n p q r s t v w x z g̃ ñ ;
@@ -70,20 +75,21 @@ Rules
 
 "Change vowel before atonal suffixes"
 Va:Vt <=> _ %>: [m: a: | n: t: e: | i: c: h: a: | %{m%}: e: | g: u: i: | r: e: | m: i:|
-                 k: u: r: i: | t: a: | r: a: ʼ: e: | n: e: | n: i: k: o:| v: a:] ;
+                 k: u: r: i: | t: a: | r: a: ʼ: e: | n: e: | n: i: k: o:| v: a: | p: a: ] ;
             [Cns: | VowsAton: | Nas: | ʼ: ]+ _ %>: %{r%}: ;
             _ %{o%}: %>: [v: | a: | g: u: i: | i: c: h: a: ] ;
             except
             [VowsTon:] [ Cns: | VowsAton: |Nas:]+ _ %>: [m: a: | n: t: e: | i: c: h: a:|v: | a: | %{m%}: e:] ;
-	    _ %>: v: a: ʼ: e: k: u: e: ;
-	    i:  _ %>: ; 
-	    i: c: h: _ %>: n: t: e: ;
-	    g: u: _ %>: %{m%}: e: ;
+	      _ %>: v: a: ʼ: e: k: u: e: ;
+	      i:  _ %>: ; 
+	      i: c: h: _ %>: n: t: e:  ;
+	      g: u: _ %>: %{m%}: e: ;
+            _ %>: i: c: h: a: %>: %{E%}: t: e: ;
             where Va in ( a e o u y ) 
                   Vt in ( á é ó ú ý ) matched ;
 
 "Change i to tonal before atonal suffixes"
-i:í <=>  _ %>: [m: a: | n: t: e:| p: e: | %{r%}:r i:] ;
+i:í <=>  _ %>: [m: a: | n: t: e:| p: e: | %{r%}:r i: | v: a:] ;
         _ %{o%}: %>: [v: | a:] ; 
 	except 
 	ó: _ %>: n: t: e: ;
@@ -100,6 +106,8 @@ Vx:0 <=> _ %>: [ i: c: h: a: | %{r%}:0 i: ] ;
 Vt:Va <=> •: _ [ Cns: | ArchiCns: | Nas: | VowsAton: |  %>: ]+  VowsTon: ;
           •: _ [ Cns: | %>: | ArchiCns: | Nas: | VowsAton: ]+ %{E%}: ;
           •: _ [ Cns: | %>: | ArchiCns: | Nas: | VowsAton: ]+ [%{Y%}: g: u: a:] ;
+          except 
+          A: m: •: _ r: i: k: a: %>: [%{Y%}: g: u: a:] %>: %{m%}: e: ;
            where Vt in VowsTon Va in VowsAton matched ; 
 
 !@ •:0 ó:o g:g a:a >:0 {N}:0 {K}:k u:u é:é r:r a:a 
@@ -109,7 +117,7 @@ Vt:Va <=> •: _ [ Cns: | ArchiCns: | Nas: | VowsAton: |  %>: ]+  VowsTon: ;
 !@ •:0 ó:o g:g a:a >:0 g:g u:u a:a
 
 "Add nasal prefix [ñ] in present 1pl incl"
-%{J%}:ñ <=> _ [a: | e: | o: ] %{P%}: CNAS: ;
+%{J%}:ñ <=> _ [a: | e: | o: ] %{P%}: [ CNAS: | CnsNorm: |VowsAton: | VowsTon:]+ CNAS: ;
                     where CNAS in Nas ;
 
 "Insert glottal stop ['] if next morpheme starts with a vowel"
@@ -160,14 +168,17 @@ Vt:Va <=> •: _ [ Cns: | ArchiCns: | Nas: | VowsAton: |  %>: ]+  VowsTon: ;
       
 "%{r%} as r in negative verbs ending with i"
 %{r%}:r <=> i: %>: _ ;
+            :i p: o: %>: _ ;
 
 "Surface [y] in postpositions"
 %{Y%}:y <=> g: u: a: %>: _ g: u: a: ;
 
 "Surface [m] in postpositions after nasals"
-%{m%}:m <=> Nas: [Vows:| Cns: | %>:]+ %>: _ ; 
-	    Nas: %>: _ ; 
-            !Nas: %>: _ %{b%}: ;
+%{m%}:m <=> NasTil: [Vows:| Cns: | %>:]+ %>: _ ; 
+	    NasTil: %>: _ ; 
+          %{g%}: %-: _  ;
+          except
+          ñ: e: m: b: y: %>: _ ;
 
 "Remove surface [t] or [r] in Triformes"
 Cx:0 <=> %{t%}: _ ;
@@ -210,3 +221,6 @@ Cx:0 <=> %{t%}: _ ;
 !@ >:0 a:a {P}:0 {i}:i k:k o:o >:0 h:h a:a 
 
 !@ >:0 r:r e:e {P}:0 {i}:i k:k o:o >:0 h:h a:a
+
+"Always delete %{g%}"
+%{g%}:0 <=> _ ;
