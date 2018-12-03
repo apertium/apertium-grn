@@ -6747,6 +6747,7 @@ LEXICON PAST
 
 LEXICON FUT 
 %+ta%<fti%>:%>ta # ; 
+%+ta%<fti%>:%>ta CASE ; 
 %+pota%<fti%>:%>%{m%}%{b%}ota # ; 
 %+ne%<fts%>:%>ne # ; 
 %+aʼrã%<fti%>:%>%{P%}aʼrã # ;
@@ -11807,6 +11808,7 @@ yʼỹ:yʼỹ N ; ! "sequía, seca, sequedad"
 
 LEXICON VerbsIv 
 
+katu:katu V-IV ; ! "poder"
 ity:ity V-IV ; ! "derrubar"
 guata:guata V-IV ; ! "caminar, andar, transitar, pasear, marchar"
 ñani:ñani V-IV ; ! "correr" 
@@ -12837,7 +12839,7 @@ puʼãjey:puʼãjey V ; ! "resurgir"
 puʼãvoi:puʼãvoi V ; ! "madrugar"
 pyaha:%{i%}pyaha V ; ! "tejer, trama"
 pyaha:pyaha V ; ! "tejer, trama"
-pyahu:pyahu V ; ! "recluta"
+pyahu:pyahu V ; ! "reclutar"
 pyao:pyao V ; ! "media"
 pyenda:pyenda V ; ! "base"
 pyhy:%{i%}pyhy V ; ! "captar, recibir, coger"
@@ -13480,7 +13482,6 @@ karena:karena V ; ! " encadenar"
 karkula:karkula V ; ! " pensar, calcular"
 karra:karra V ; ! " expectorar, carraspear"
 karuʼỹ:karuʼỹ V ; ! " ayunar"
-katu:katu V ; ! "poder"
 kaʼu:kaʼu V ; ! "ser borracho, emborracharse"
 kayʼu:kayʼu V ; ! " matear, tomar mate"
 kekẽ:kekẽ V ; ! " charlar, cantar un loro"
@@ -13932,7 +13933,6 @@ neĩ:neĩ V ; ! " acceder, aprobar, decir que sí"
 nevu:nevu V ; ! " heder"
 ngaʼu:ngaʼu V ; ! " recordar, añorar"
 nohẽ:nohẽ V ; ! " sacar, sustraer, deducir, extraer, retirar, extirpar"
-noʼõ:noʼõ V ; ! " reunirse, juntarse, amontonarse"
 ntende:ntende V ; ! " entender"
 nundu:nundu V ; ! " latir, zumbar"
 ñaʼã:ñaʼã V ; ! " esforzarse, procurar"
@@ -16600,6 +16600,7 @@ palacio:palacio BARB ; ! ""
 república:república BARB ; ! ""
 the:the BARB ; ! ""
 ejército:ejército BARB ; ! ""
+corpus:corpus BARB ; ! ""
 
 guerra:guerra BARB ; ! ""
 museo:museo BARB ; ! ""
