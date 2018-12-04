@@ -3414,6 +3414,8 @@ FIFA:FIFA NP-AL ; ! ""
 UEFA:UEFA NP-AL ; ! ""
 MEBOL:MEBOL NP-AL ; ! ""
 Mozilla:Mozilla NP-AL; ! ""
+CONACYT:CONACYT NP-AL ;
+SENATICs:SENATICs NP-AL ;
 Mozilla% Firefox:Mozilla% Firefox NP-AL ; ! ""
 Mozilla% firefox:Mozilla% firefox NP-AL ; ! "" !Dir/LR
 Aguaratata:Aguaratata NP-AL ; ! "Mozilla Firefox"
@@ -10229,7 +10231,7 @@ jepokuaaha:jepokuaaha N ; ! "costumbre"
 jepokuaha:jepokuaha N ; ! "esposas, manea"
 jeporoheka:jeporoheka N ; ! "desafío"
 jeporuka:jeporuka N ; ! "préstamo"
-jeporu:jeporu N ; ! "préstamo, usufructo"
+jeporu:jeporu N ; ! "préstamo, usufructo, uso"
 jeporuypy:jeporuypy N ; ! "inauguración"
 jepo:jepo N ; ! "salto, pirueta"
 jepota:jepota N ; ! "deseo, codicia, concupiscen­cia"
@@ -16575,6 +16577,10 @@ diagnóstico:diagnóstico BARB ;
 sociolingüístico:sociolingüístico BARB ;
 politécnica:politécnica BARB ;
 decano:decano BARB ;
+interés:interés BARB ;
+académico:académico BARB ;
+universitario:universitario BARB ;
+tecnología:tecnología BARB ;
 
 don:don BARB ; 
 monseñor:monseñor BARB ; 
