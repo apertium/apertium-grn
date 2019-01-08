@@ -161,6 +161,7 @@ MODES-AUX ;
 DemonstrativePronouns ;
 Voices ; 
 ADJV ;
+DET-PL ;
 
 
 !!!!!!!!!!!!!!!!!!!! LEXICON SPANISH !!!!!!!!!!
@@ -311,7 +312,6 @@ rekávo:rekávo POST ; ! ""
 rendápe:rendápe POST ; ! "junto a"
 rovake:rovake POST ; ! "delante de"
 vove:vove POST ; ! ""
-kuéra:kuéra POST ; ! "muchos" 
 gui:gui POST ; ! "de" 
 gua:gua POST ; ! ""
 
@@ -331,6 +331,11 @@ LEXICON POST
 %<post%>: # ;
 %<post%>: CASE ;
 %<post%>: N-PL ;
+
+LEXICON DET-PL 
+
+kuéra%<det%>%<pl%>:ku•éra # ;
+kuéra%<det%>%<pl%>:ku•éra CASE ;
 
 
 LEXICON SUBST 
@@ -402,6 +407,7 @@ LEXICON N
 %<n%>: SUF-PL ;
 %<n%>: COMP ;
 %<n%>: INCP ;
+%<n%>: SUBST ;
 
 LEXICON NP-COG
 
@@ -839,6 +845,7 @@ John:John NP-ANT ; ! ""
 Benjamín:Benjamín NP-ANT ; ! ""
 Martín:Martín NP-ANT ; ! ""
 Agustín:Agustín NP-ANT ; ! ""
+Afíah:Afíah NP-ANT ; ! ""
 Joaquín:Joaquín NP-ANT ; ! ""
 Encarnación:Encarnación NP-ANT ; ! ""
 Ramón:Ramón NP-ANT ; ! ""
@@ -4345,7 +4352,6 @@ Ijurúpente:Ijurúpente NP-AL ; ! ""
 Galácia:Galácia NP-AL ; ! ""
 Tobadonías:Tobadonías NP-AL ; ! ""
 Séred:Séred NP-AL ; ! ""
-Jahána:Jahána NP-TOP ; ! ""
 Beerí:Beerí NP-AL ; ! ""
 Roguel:Roguel NP-AL ; ! ""
 Jaaziel:Jaaziel NP-AL ; ! ""
@@ -6690,6 +6696,7 @@ LEXICON DEM-PRN-INFL
 # ;
 CASE ;
 %+va%<subs%>%<dem%>:%>va CASE ;
+VerbsNegSuf ;
 
 LEXICON DemAdjectives
 
@@ -6725,9 +6732,17 @@ LEXICON Imperative
 e%<imp%>%<p2%>%<sg%>%+:%>e%{P%} VerbsAgr ;
 pe%<imp%>%<p2%>%<pl%>%+:%>pe%{P%} VerbsAgr ;
 
+LEXICON ImpPol
+
++na%<pol%>:na # ;
++ke%<pol%>:ke # ;
+
+
+
 LEXICON PRES 
 %<pres%>: # ;
 %<pres%>: VerbsNegSuf;
+%<pres%>: ImpPol ;
 %<pres%>: AD-SUF ;
 %<pres%>: COMP ;
 %<pres%>: Adverbs ;
@@ -6802,6 +6817,7 @@ nd%<neg%>%+:n%{d%}%{a%} IrrVerbs ;
 nd%<neg%>%+:n%{d%}%{a%} PersonAgrCol ; 
 nd%<neg%>%+:n%{d%}%{a%} PersonAgrDefSg ;
 nd%<neg%>%+:n%{d%}%{a%} PersonAgrDefPl ;
+nd%<neg%>%+:n%{d%}%{a%} DemonstrativePronouns;
 
 LEXICON VerbsNegSuf
 %+i%<neg%>:%>%{r%}i # ;
@@ -6871,6 +6887,8 @@ i%<prn%>%<p3%>%<pl%>%<nom%>%+:%>i%{P%} Nouns ;
 ñande%<prn%>%<p1%>%<pl%>%<nom%>%+:%>ñan%{D%}e%{P%} Nouns ;
 ore%<prn%>%<p1%>%<pl%>%<nom%>%+:%>ore%{P%} Nouns ;
 pende%<prn%>%<p2%>%<pl%>%<nom%>%+:%>pen%{D%}e%{P%} Nouns  ;
+
+i%<prn%>%<p3%>%<sg%>%<nom%>%+:%>i%{P%} Adjectives ; 
 
 LEXICON PersonAgrDefSg
 o%<prn%>%<p3%>%<sg%>%<nom%>%+:%>o%{P%} VerbsDefSg ;
@@ -6951,16 +6969,13 @@ i%<prn%>%<pro%>%<p3%>%<pl%>%<nom%>%+:%>i Verbs ;
 
 
 LEXICON IrrVerbs
-haʼe%<v%>%<iv%>%<p1%>%<sg%>%<pres%>:haʼe IRR-INFL ; ! digo 
-ere%<v%>%<iv%>%<p2%>%<sg%>%<pres%>:ere IRR-INFL ; ! dices
-heʼi%<v%>%<iv%>%<p3%>%<sg%>%<pres%>:heʼi IRR-INFL ; ! dice 
-jaʼe%<v%>%<iv%>%<p1%>%<pl%>%<pres%>:jaʼe IRR-INFL ; ! decimos 
-roʼe%<v%>%<iv%>%<p1%>%<pl%>%<pres%>:roʼe IRR-INFL ; ! decimos 
-peje%<v%>%<iv%>%<p2%>%<pl%>%<pres%>:peje IRR-INFL ; ! decis 
-heʼi%<v%>%<iv%>%<p3%>%<pl%>%<pres%>:heʼi IRR-INFL ; ! dicen 
-
-! FIXME: Não entendo o paradigma:
-o%<prn%>%<p3%>%<sg%>%<nom%>%+je%<pass%>%+heʼi%<v%>%<iv%>%<pres%>:%>ojeʼe # ;
+haʼe%<v%>%<tv%>%<p1%>%<sg%>%<pres%>:haʼe IRR-INFL ; ! digo 
+ere%<v%>%<tv%>%<p2%>%<sg%>%<pres%>:ere IRR-INFL ; ! dices
+heʼi%<v%>%<tv%>%<p3%>%<sg%>%<pres%>:heʼi IRR-INFL ; ! dice 
+jaʼe%<v%>%<tv%>%<p1%>%<pl%>%<pres%>:jaʼe IRR-INFL ; ! decimos 
+roʼe%<v%>%<tv%>%<p1%>%<pl%>%<pres%>:roʼe IRR-INFL ; ! decimos 
+peje%<v%>%<tv%>%<p2%>%<pl%>%<pres%>:peje IRR-INFL ; ! decis 
+heʼi%<v%>%<tv%>%<p3%>%<pl%>%<pres%>:heʼi IRR-INFL ; ! dicen 
 
 aju%<v%>%<iv%>%<p1%>%<sg%>%<pres%>:aju IRR-INFL ; ! vengo
 reju%<v%>%<iv%>%<p2%>%<sg%>%<pres%>:reju IRR-INFL ; ! vienes 
@@ -6996,6 +7011,7 @@ LEXICON IRR-INFL
 DEM-PRN-PL ;
 DEM-PRN-SG ;
 VerbsNegSuf ;
+ImpPol;
 # ;
 PAST ;
 FUT ;
@@ -7138,6 +7154,15 @@ imbaʼe%<prn%>%<pos%>%<p3%>%<sg%>:imbaʼe # ;
 orembaʼe%<prn%>%<pos%>%<p1%>%<pl%>:orembaʼe # ;
 penembaʼe%<prn%>%<pos%>%<p2%>%<pl%>:penembaʼe # ;
 imbaʼekuéra%<prn%>%<pos%>%<p3%>%<pl%>:imbaʼeku•éra # ;
+
+che%<prn%>%<pos%>%<p1%>%<sg%>%:che # ;
+nde%<prn%>%<pos%>%<p2%>%<sg%>%:nde # ; 
+nde%<prn%>%<pos%>%<p2%>%<sg%>%:ne # ; 
+ñande%<prn%>%<pos%>%<p1%>%<pl%>%:ñande # ; 
+ñande%<prn%>%<pos%>%<p1%>%<pl%>%:ñane # ; 
+ore%<prn%>%<pos%>%<p1%>%<pl%>%:ore #;
+pende%<prn%>%<pos%>%<p2%>%<pl%>%:pende # ; 
+pende%<prn%>%<pos%>%<p2%>%<pl%>%:pene # ; 
 
 LEXICON IndefinitePronouns
 opavave%<prn%>%<ind%>:opavave IND-PRN-INFL ; ! "todos"
@@ -7302,7 +7327,8 @@ h%<prn%>%<pos%>%<p3%>%<sg%>%+:h%{t%} Triformes ;
 
 LEXICON Triformes
 
-techahára:techah•ára N ; ! "público"
+tenonderã:tenonderã N ; ! "futuro"
+techahára:techah•ára N ; ! "vidente"
 tyepýpe:tyepýpe AD ; ! "dentro"
 teko:teko N ; ! "modo, personalidad, estilo, carácter, tino, rango, temple"
 tekoha:tekoha N ; ! "hábitat, ambiente, naturaleza"
@@ -8567,7 +8593,6 @@ tendyry:tendyry N ; ! "electricidad"
 tendysyry:tendysyry N ; ! "baba"
 tendyva:tendyva N ; ! "barba"
 tenondegua:tenondegua N ; ! "precedente"
-tenonderã:tenonderã N ; ! "futuro"
 tenonderãgua:tenonderãgua N ; ! "porvenir"
 tenondeterã:tenondeterã N ; ! "prioridad"
 tenypyʼã:tenypyʼã N ; ! "rodilla"
@@ -11813,6 +11838,7 @@ yʼỹ:yʼỹ N ; ! "sequía, seca, sequedad"
 
 LEXICON VerbsIv 
 
+guahẽ:guahẽ V-IV ; ! " llegar, arribar"
 katu:katu V-IV ; ! "poder"
 ity:ity V-IV ; ! "derrubar"
 guata:guata V-IV ; ! "caminar, andar, transitar, pasear, marchar"
@@ -13203,7 +13229,6 @@ desatina:desatina V ; ! " perderse, extraviarse"
 éu:éu V ; ! " eructar"
 gomita:gomita V ; ! " vomitar"
 guahẽmba:guahẽmba V ; ! " acometer, irrumpir, abalanzarse"
-guahẽ:guahẽ V ; ! " llegar, arribar"
 gualala:gualala V ; ! " sonar, repiquetear"
 guarara:guarara V ; ! " producir ruido"
 guarini:guarini V ; ! " guerrear"
@@ -14380,6 +14405,7 @@ yvytu:yvytu V ; ! " triunfar, prosperar, ir viento en popa"
 LEXICON Adjectives
 
 ohecha’ỹ:ohecha’ỹ ADJ ; ! "no vidiente" 
+johéipyre:joh•éipyre ADJ ; ! "nobre"
 tekombo’e:tekombo’e ADJ ; !"didáctico"
 amyrỹi:amyrỹi ADJ ; ! "difunto"
 parapa:parapa ADJ ; ! "multicolor"
@@ -14587,7 +14613,6 @@ mbopyaʼeha:mbopyaʼeha ADJ ; ! "acelerador"
 mboriahu:mboriahu ADJ ; ! "pobre"
 mboriahu:poriahu ADJ ; ! "pobre" ! Dir/LR
 mbovyve:mbovyve ADJ ; ! "menos"
-mboy:mboy ADJ ; ! "cuanto"
 mboyve:mboyve ADJ ; ! "preliminar"
 mboʼehaogua:mboʼehaogua ADJ ; ! "escolar"
 mboʼehára:mboʼeh•ára ADJ ; ! "maestra"
@@ -15320,7 +15345,6 @@ kuatiaʼỹva:kuatiaʼỹva ADJ ; ! "indocumentado"
 kuchaʼã:kuchaʼã ADJ ; ! "torcido, deforme, contorsionado"
 kuchu:kuchu ADJ ; ! "flojo, débil"
 kuʼe:kuʼe ADJ ; ! "j movible, vacilante"
-kuéra:kuéra ADJ ; ! "muchos, aquellos"
 kuera:kuera ADJ ; ! "sano"
 kuerái:kuerái ADJ ; ! "aburrido, fastidiado"
 kúi:kúi ADJ ; ! "caldo"
@@ -16498,7 +16522,6 @@ upéramo:upéramo AD ; ! " entonces"
 upeve:upeve AD ; ! " allá, más allá"
 upévo:upévo AD ; ! " entonces, al propio tiempo"
 vaʼekue:vaʼekue AD ; ! " de tiempo pasado antes, anteriormente"
-vaʼerã:vaʼerã AD ; ! "indica tiempo futuro obligatorio necesariamente"
 vaerä:vaerä AD ; ! ! Dir/LR ! Err/Orth
 vaicha:vaicha AD ; ! " aparentemente, probablemente, parece que, como si"
 vaietépe:vaietépe AD ; ! " desgraciadamente, malamente"
