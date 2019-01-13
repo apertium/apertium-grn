@@ -16,6 +16,15 @@ LIST A = "a" ;
 
 LIST Re = "re" ;
 
+LIST Num = num ;
+
+LIST Sg = sg ;
+
+LIST Pl = pl ;
+
+LIST Np = np ;
+
+
 SECTION
 
 
@@ -32,5 +41,7 @@ REMOVE A + Prn (0/* N) ;
 REMOVE Re + Prn (0/* N) ;
 
 REMOVE Guess ;
+
+REMOVE Pl IF (-1 Np) ;
 
 
