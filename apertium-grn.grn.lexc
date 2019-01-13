@@ -162,6 +162,7 @@ DemonstrativePronouns ;
 Voices ; 
 ADJV ;
 DET-PL ;
+PAST-SEP;
 
 
 !!!!!!!!!!!!!!!!!!!! LEXICON SPANISH !!!!!!!!!!
@@ -331,6 +332,7 @@ LEXICON POST
 %<post%>: # ;
 %<post%>: CASE ;
 %<post%>: N-PL ;
+%<post%>: AD-SUF ;
 
 LEXICON DET-PL 
 
@@ -343,6 +345,7 @@ LEXICON SUBST
 +kue%<subs%>:%>kue CASE ;
 +rã%<subs%>:%>rã # ;
 +rã%<subs%>:%>rã CASE ;
++rã%<subs%>:%>rã FUT ;
 
 LEXICON SUBST-V 
 +ha%<subs%>:%>ha # ;
@@ -448,6 +451,7 @@ ador%<barb%>%<guess%>:ador # ;
 LEXICON BARB 
 
 %<barb%>: # ; 
+%<barb%>: CASE ; 
 
 LEXICON ABBR-PUNTO
 
@@ -3759,7 +3763,6 @@ Ombotyryhá:Ombotyryhá NP-AL ; ! ""
 Jeroham:Jeroham NP-AL ; ! ""
 Harán:Harán NP-AL ; ! ""
 Mispar:Mispar NP-AL ; ! ""
-Ho:Ho NP-AL ; ! ""
 Safán:Safán NP-AL ; ! ""
 Aniam:Aniam NP-AL ; ! ""
 Leumim:Leumim NP-AL ; ! ""
@@ -4423,7 +4426,6 @@ Pytũmarõ:Pytũmarõ NP-AL ; ! ""
 Hebrón:Hebrón NP-AL ; ! ""
 Dagón:Dagón NP-AL ; ! ""
 Créta:Créta NP-AL ; ! ""
-Tenondete:Tenondete NP-AL ; ! ""
 Adramélec:Adramélec NP-AL ; ! ""
 Melicú:Melicú NP-AL ; ! ""
 Tóah:Tóah NP-AL ; ! ""
@@ -5815,7 +5817,6 @@ Amnón:Amnón NP-AL ; ! ""
 Husam:Husam NP-AL ; ! ""
 Coré:Coré NP-AL ; ! ""
 Delaías:Delaías NP-AL ; ! ""
-He:He NP-AL ; ! ""
 On:On NP-AL ; ! ""
 Matusalén:Matusalén NP-AL ; ! ""
 Tiatira:Tiatira NP-AL ; ! ""
@@ -6152,7 +6153,6 @@ Ejoguána:Ejoguána NP-AL ; ! ""
 Savsá:Savsá NP-AL ; ! ""
 Pekyhyjénteke:Pekyhyjénteke NP-AL ; ! ""
 Amán:Amán NP-AL ; ! ""
-Che:Che NP-AL ; ! ""
 Naimandu:Naimandu NP-AL ; ! ""
 Gur% Baal:Gur% Baal NP-AL ; ! ""
 Tiatíra:Tiatíra NP-AL ; ! ""
@@ -6678,6 +6678,8 @@ LEXICON DemonstrativePronouns
 
 ko%<prn%>%<dem%>%<sg%>:ko%{o%} DEM-PRN-INFL ; ! "este, esta"
 pe%<prn%>%<dem%>%<sg%>:pe%{o%} DEM-PRN-INFL; ! "ese, esa" 
+kóina%<adj%>%<dem%>%<sg%>:k•óina DEM-PRN-INFL ; ! "este, esta"
+péina%<adj%>%<dem%>%<sg%>:p•éina DEM-PRN-INFL ; ! "este, esta"
 amo%<prn%>%<dem%>%<sg%>:amo%{o%} DEM-PRN-INFL; ! "aquel, aquella"
 ã%<prn%>%<dem%>%<pl%>:ã DEM-PRN-INFL ; ! "estos, estas" 
 koʼã%<prn%>%<dem%>%<pl%>:koʼã DEM-PRN-INFL; ! "estos, estas"
@@ -6702,6 +6704,8 @@ LEXICON DemAdjectives
 
 ko%<adj%>%<dem%>%<sg%>:ko%{o%} DEM-PRN-SG ; ! "este, esta"
 pe%<adj%>%<dem%>%<sg%>:pe%{o%} DEM-PRN-SG ; ! "ese, esa" 
+kóina%<adj%>%<dem%>%<sg%>:k•óina DEM-PRN-SG ; ! "este, esta"
+péina%<adj%>%<dem%>%<sg%>:p•éina DEM-PRN-SG  ; ! "este, esta"
 amo%<adj%>%<dem%>%<sg%>:amo%{o%} DEM-PRN-SG ; ! "aquel, aquella"
 ã%<adj%>%<dem%>%<pl%>:ã DEM-PRN-PL ; ! "estos, estas" 
 koʼã%<adj%>%<dem%>%<pl%>:koʼã DEM-PRN-PL ; ! "estos, estas"
@@ -6760,9 +6764,16 @@ LEXICON PAST
 %+rakaʼe%<past%>:%>rakaʼe # ; 
 %+raʼe%<past%>:%>raʼe # ;
 
+LEXICON PAST-SEP
+
+vaʼekue%<post%>:vaʼekue # ;
+vaʼekue%<post%>:vaekue # ;
+
+
 LEXICON FUT 
 %+ta%<fti%>:%>ta # ; 
 %+ta%<fti%>:%>ta CASE ; 
+%+ta%<fti%>:%>ta AD-SUF ;
 %+pota%<fti%>:%>%{m%}%{b%}ota # ; 
 %+ne%<fts%>:%>ne # ; 
 %+aʼrã%<fti%>:%>%{P%}aʼrã # ;
@@ -6992,7 +7003,8 @@ jaha%<v%>%<iv%>%<p1%>%<pl%>%<pres%>:jaha IRR-INFL ; ! vamos
 roho%<v%>%<iv%>%<p1%>%<pl%>%<pres%>:roho IRR-INFL ; ! vamos 
 peho%<v%>%<iv%>%<p2%>%<pl%>%<pres%>:peho IRR-INFL ; ! vais 
 
-haʼu%<v%>%<tv%>%<p1%>%<sg%>%<pres%>:haʼu IRR-INFL ; ! como 
+haʼu%<v%>%<tv%>%<p1%>%<sg%>%<pres%>:haʼu IRR-INFL ; ! como
+haʼu%<v%>%<tv%>%<p1%>%<sg%>%<pres%>:ha'u IRR-INFL ; ! como Dir/LR
 reʼu%<v%>%<tv%>%<p2%>%<sg%>%<pres%>:reʼu IRR-INFL ; ! comes 
 hoʼu%<v%>%<tv%>%<p3%>%<sg%>%<pres%>:hoʼu IRR-INFL ; ! come 
 jaʼu%<v%>%<tv%>%<p1%>%<pl%>%<pres%>:jaʼu IRR-INFL ; ! comemos 
@@ -7221,6 +7233,7 @@ LEXICON ADJ-IND-FL
 # ;
 COMP ;
 DEM-PRN-INFL;
+CASE;
 
 LEXICON ADJ-DIS 
 %+ve%<adj%>%<dist%>:ve # ;
@@ -9154,8 +9167,8 @@ temiraʼãha:temiraʼãha N ; ! "metro"
 teraʼãnga:teraʼãnga N ; ! "estatua"
 tesapemoñanga:tesapemoñanga N ; ! "fotosíntesis"
 tétano:t•étano N ; ! "tétanos"
-tetyma:tetymaroʼo N ; ! "pata"
-tetymaroʼo:tetyma N ; ! "pantorrilla"
+tetyma:tetyma N ; ! "pata"
+tetymaroʼo:tetymaroʼo N ; ! "pantorrilla"
 teʼýi:teʼ•ýi N ; ! "tribu"
 toneláda:tonel•áda N ; ! "tonelada"
 tovyũ:tovyũ N ; ! "verde"
@@ -12819,7 +12832,6 @@ po% arajere:po% arajere V ; ! "lustro"
 pochy:pochy V ; ! "enojo"
 pochyrei:pochyrei V ; ! "renegar"
 poguy:poguy V ; ! "mando"
-poha:poha V ; ! "quinto"
 pohano:%{i%}pohano V ; ! "sanar"
 pohano:pohano V ; ! "sanar"
 pohyikue:pohyikue V ; ! "pesa"
@@ -14447,7 +14459,6 @@ akytã:akytã ADJ ; ! "nudo"
 akãguapy:akãguapy ADJ ; ! "cuerdo, moderado"
 akãhatã:akãhatã ADJ ; ! "pícaro, tozudo, travieso, terco"
 akãporã:akãporã ADJ ; ! "intelectual"
-ambue:ambue ADJ ; ! "otro"
 angapypegua:angapypegua ADJ ; ! "lírico"
 aoryru:aoryru ADJ ; ! "ropero"
 apegua:apegua ADJ ; ! "local"
@@ -15441,7 +15452,6 @@ mendareʼỹ:mendareʼỹ ADJ ; ! "soltero"
 mendáva:mendáva ADJ ; ! "casado"
 meñakõi:meñakõi ADJ ; ! "hermafrodita"
 michĩmi:michĩmi ADJ ; ! "diminuto"
-michĩve:michĩve ADJ ; ! "menor"
 mimbi:mimbi ADJ ; ! "brillante, radiante, reluciente"
 mimi:mimi ADJ ; ! "chiquito"
 mimói:mimói ADJ ; ! "hervido, cocido, sancochado, cocinado"
@@ -16606,6 +16616,7 @@ interés:interés BARB ;
 académico:académico BARB ;
 universitario:universitario BARB ;
 tecnología:tecnología BARB ;
+roka:roka BARB ;
 
 don:don BARB ; 
 monseñor:monseñor BARB ; 
