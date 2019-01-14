@@ -24,7 +24,8 @@ Multichar_Symbols
 %<adj%>              ! Adjetivo
 %<dist%>             ! Distributivo
 %<comp%>             ! Comparativo
-%<sup%>              ! Superlativo  
+%<sup%>              ! Superlativo 
+%<emph%>             ! Emphatic  
 
 %<tv%>               ! Transitivo
 %<iv%>               ! Intransitivo
@@ -272,6 +273,7 @@ hag̃ua:haġua POST ; ! "para"  ! Dir/LR ! Err/Orth
 hag̃ua:hagua POST ; ! "para"  ! Dir/LR ! Err/Orth
 hague:hague POST ; ! "que, donde"
 re:re POST ; ! ""
+mboyve:mboyve POST ; ! "antes" 
 
 haguéicha:hagu•éicha POST ; ! ""
 hag̃uáicha:hag̃uáicha POST ; ! "" 
@@ -312,7 +314,6 @@ reheʼỹ:reheʼỹ POST ; ! "sin"
 rekávo:rekávo POST ; ! ""
 rendápe:rendápe POST ; ! "junto a"
 rovake:rovake POST ; ! "delante de"
-vove:vove POST ; ! ""
 gui:gui POST ; ! "de" 
 gua:gua POST ; ! ""
 
@@ -326,6 +327,7 @@ ichagua:ichagua POST ; ! ""
 guio:guio POST ; ! ""
 ri:ri POST ; ! ""
 kotyo:kotyo POST ; ! ""
+rire:rire POST ; ! ""
 
 LEXICON POST
 
@@ -339,6 +341,9 @@ LEXICON DET-PL
 kuéra%<det%>%<pl%>:ku•éra # ;
 kuéra%<det%>%<pl%>:ku•éra CASE ;
 
+LEXICON EMPH
+
++ko%<emph%>:ko # ; ! "emphatic suffix"
 
 LEXICON SUBST 
 +kue%<subs%>:%>kue # ;
@@ -6699,6 +6704,7 @@ LEXICON DEM-PRN-INFL
 CASE ;
 %+va%<subs%>%<dem%>:%>va CASE ;
 VerbsNegSuf ;
+EMPH ;
 
 LEXICON DemAdjectives
 
@@ -6723,6 +6729,7 @@ LEXICON DEM-PRN-SG
 %+a%<subs%>%<dem%>:%>a # ;
 # ;
 COMP ;
+EMPH ;
 
 LEXICON DEM-PRN-PL
 %+va%<subs%>%<dem%>:%>va # ;
@@ -7068,6 +7075,10 @@ Adjectives ;
 LEXICON Conjunctions 
 
 jepémo:jepémo CS ; ! "por más que" 
+ramo:ramo CS ; !"acción reciente (acabar de)"
+mboyve:mboyve CS ; ! "antes" 
+vove:vove CS ; ! ""
+rire:rire CS ; ! ""
 ha:ha CC ; ! "y"
 ni:ni CC ; ! "ni"
 térã:t•érã CC ; ! "o"
@@ -16195,7 +16206,6 @@ mboypýri:mboyp•ýri AD ; ! "más allá"
 mbytépe:mbyt•épe AD ; ! "en medio de"
 mbovyve:mbovyve AD ; ! "menos"
 mboy:mboy AD ; ! "cuanto"
-mboyve:mboyve AD ; ! "antes" 
 mie:mie AD ; ! "más"
 michĩ:michĩ AD ; ! "poco" 
 mombyry:mombyry AD ; ! "lejos"
