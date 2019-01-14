@@ -6683,8 +6683,6 @@ LEXICON DemonstrativePronouns
 
 ko%<prn%>%<dem%>%<sg%>:ko%{o%} DEM-PRN-INFL ; ! "este, esta"
 pe%<prn%>%<dem%>%<sg%>:pe%{o%} DEM-PRN-INFL; ! "ese, esa" 
-kóina%<adj%>%<dem%>%<sg%>:k•óina DEM-PRN-INFL ; ! "este, esta"
-péina%<adj%>%<dem%>%<sg%>:p•éina DEM-PRN-INFL ; ! "este, esta"
 amo%<prn%>%<dem%>%<sg%>:amo%{o%} DEM-PRN-INFL; ! "aquel, aquella"
 ã%<prn%>%<dem%>%<pl%>:ã DEM-PRN-INFL ; ! "estos, estas" 
 koʼã%<prn%>%<dem%>%<pl%>:koʼã DEM-PRN-INFL; ! "estos, estas"
@@ -6710,8 +6708,8 @@ LEXICON DemAdjectives
 
 ko%<adj%>%<dem%>%<sg%>:ko%{o%} DEM-PRN-SG ; ! "este, esta"
 pe%<adj%>%<dem%>%<sg%>:pe%{o%} DEM-PRN-SG ; ! "ese, esa" 
-kóina%<adj%>%<dem%>%<sg%>:k•óina DEM-PRN-SG ; ! "este, esta"
-péina%<adj%>%<dem%>%<sg%>:p•éina DEM-PRN-SG  ; ! "este, esta"
+kóina%<adv%>%<dem%>%<sg%>:k•óina DEM-PRN-SG ; ! "este, esta"
+péina%<adv%>%<dem%>%<sg%>:p•éina DEM-PRN-SG  ; ! "este, esta"
 amo%<adj%>%<dem%>%<sg%>:amo%{o%} DEM-PRN-SG ; ! "aquel, aquella"
 ã%<adj%>%<dem%>%<pl%>:ã DEM-PRN-PL ; ! "estos, estas" 
 koʼã%<adj%>%<dem%>%<pl%>:koʼã DEM-PRN-PL ; ! "estos, estas"
