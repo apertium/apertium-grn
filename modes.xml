@@ -19,8 +19,8 @@
 
   <mode name="grn-tagger" install="yes">
     <pipeline>
-      <program name="lt-proc -w">
-        <file name="grn.automorf.bin"/>
+      <program name="hfst-proc -w">
+        <file name="grn.automorf.hfst"/>
       </program>
       <program name="cg-proc -w">
         <file name="grn.rlx.bin"/>
