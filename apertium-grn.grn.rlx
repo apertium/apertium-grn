@@ -1,3 +1,5 @@
+OPTIONS += no-inline-sets ;
+
 SUBREADINGS = LTR ;
 
 DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>" ;
@@ -28,13 +30,34 @@ LIST Pl = pl ;
 
 LIST Np = np ;
 
-LIST Ant = ant ;
-
 LIST Subs = subs ;
 
+LIST Top = top ;
+
+LIST Cog = cog ;
+
+LIST Ant = ant ;
+
+LIST Det = det ;
+
+LIST Cnjcoo = cnjcoo ;
+
+LIST V = v ;
+
+LIST Aux = aux ;
+
+LIST Coop = coop ;
+
+LIST Lang = "ñeʼẽ" ;
+LIST Peoples = "guarani" "guaraní" ;
+LIST Petei = "peteĩ" ;
+
+SET SubSg = Ant | Top | Cog ; # Subject Sg Without N
+SET Verbal = V | Aux ;
 
 SECTION
 
+#HEURISTICS
 
 REMOVE SUB:3 Incp ;
 
@@ -50,12 +73,31 @@ REMOVE Re + Prn (0/* N) ;
 
 REMOVE Guess ;
 
-SELECT Sg IF (1 ("peteĩ"));
+SELECT Sg IF (1 Petei));
 
 SELECT Prn + Ind IF (1 N);
 
 SELECT N IF (-1 Prn) ;
 
-SELECT ("ñemoñare") IF (-1* (N) OR (Np + Ant)) ;
+#SELECT ("ñemoñare") IF (-1* (N) OR (Np Ant)) ;
 
+SELECT Sg IF (-1 Np);
 
+REMOVE Top IF ((1 Cog) OR (1 Ant)) ;
+# León Cadogan omoĩ o kuatiañe'ẽme
+
+#GRAMMATICAL
+
+SELECT Sg + V IF ((-1 SubSg) OR (-2 SubSg));
+# León Cadogan omoĩ o kuatiañe'ẽme
+
+SELECT Cnjcoo IF (-1 N LINK 2 N);
+#Avañe'ẽ ha Guarani ñe'ẽ
+
+SELECT Det + Pl IF (-1 N) ;
+# óga kuéra
+
+#WORD FORMS
+
+SELECT N IF (0 Lang) (-1C Peoples) ;
+# Avañe'ẽ ha Guarani ñe'ẽ ombohéra hikuái (...)
