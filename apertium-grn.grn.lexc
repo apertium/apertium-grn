@@ -164,6 +164,7 @@ Voices ;
 ADJV ;
 DET-PL ;
 PAST-SEP;
+POST-SEP;
 
 
 !!!!!!!!!!!!!!!!!!!! LEXICON SPANISH !!!!!!!!!!
@@ -398,6 +399,7 @@ LEXICON N-PL
 
 %+kuéra%<det%>%<pl%>:%>%{N%}%{K%}u•éra # ;
 %+kuéra%<det%>%<pl%>:%>%{N%}%{K%}u•éra COMP ;
+%+kuéra%<det%>%<pl%>:%>%{N%}%{K%}u•éra CASE ;
 
 LEXICON CS
 
@@ -3424,6 +3426,7 @@ Google:Google NP-AL ; ! ""
 UNESCO:UNESCO NP-AL ; ! ""
 UNESCO:Unesco NP-AL ; ! "" ! Dir/LR
 UNA:UNA NP-AL ;
+Nature:Nature NP-AL ;
 ONU:ONU NP-AL ; ! ""
 TIC’s:TIC’s NP-AL ; !""
 FIFA:FIFA NP-AL ; ! ""
@@ -4543,7 +4546,6 @@ Hotam:Hotam NP-AL ; ! ""
 Saalim:Saalim NP-TOP ; ! ""
 Ahenoika:Ahenoika NP-AL ; ! ""
 Genesaret:Genesaret NP-AL ; ! ""
-Benjamín:Benjamín NP-AL ; ! ""
 Salisá:Salisá NP-TOP ; ! ""
 Jezreel:Jezreel NP-AL ; ! ""
 Matanías:Matanías NP-AL ; ! ""
@@ -5053,7 +5055,7 @@ Nínive:Nínive NP-AL ; ! ""
 Eropu:Eropu NP-AL ; ! ""
 Sedequías:Sedequías NP-AL ; ! ""
 Talmai:Talmai NP-AL ; ! ""
-Quis:Quis NP-AL ; ! ""
+Quis:Quis NP-ANT ; ! ""
 Aténas:Aténas NP-AL ; ! ""
 Jaalam:Jaalam NP-AL ; ! ""
 Jesana:Jesana NP-AL ; ! ""
@@ -5130,7 +5132,7 @@ Ciliciaguaha:Ciliciaguaha NP-AL ; ! ""
 Gáham:Gáham NP-AL ; ! ""
 Quesil:Quesil NP-AL ; ! ""
 Noikotevẽi:Noikotevẽi NP-AL ; ! ""
-Quís:Quís NP-AL ; ! ""
+Quís:Quís NP-ANT ; ! ""
 Sóco:Sóco NP-AL ; ! ""
 Hasabnías:Hasabnías NP-AL ; ! ""
 Eleazár:Eleazár NP-AL ; ! ""
@@ -6773,6 +6775,11 @@ LEXICON PAST-SEP
 
 vaʼekue%<post%>:vaʼekue # ;
 vaʼekue%<post%>:vaekue # ;
+akue%<post%>:akue # ;
+
+LEXICON POST-SEP
+
+pe%<post%>:pe # ;
 
 
 LEXICON FUT 
@@ -6854,6 +6861,8 @@ LEXICON INCP
 %<incp%>%+:  VerbsAgr "weight: 1.0" ;
 
 LEXICON VerbsAgr
+
+PRO ;
 Verbs ;
 VerbsIv ;
 Voices ; 
@@ -6893,6 +6902,7 @@ re%<prn%>%<p2%>%<sg%>%<nom%>%+: VerbsAgr "weight: 1.0" ;
 i%<prn%>%<p3%>%<sg%>%<nom%>%+:%>i%{P%} VerbsAgr ;
 i%<prn%>%<p3%>%<pl%>%<nom%>%+:%>i%{P%} VerbsAgr ;
 ñande%<prn%>%<p1%>%<pl%>%<nom%>%+:%>ñan%{D%}e%{P%} VerbsAgr ;
+ñande%<prn%>%<p1%>%<pl%>%<nom%>%+:%>ñe%{P%} VerbsAgr ;
 ore%<prn%>%<p1%>%<pl%>%<nom%>%+:%>ore%{P%} VerbsAgr ;
 pende%<prn%>%<p2%>%<pl%>%<nom%>%+:%>pen%{D%}e%{P%} VerbsAgr  ;
 
@@ -6963,6 +6973,7 @@ nde%<prn%>%<pro%>%<p2%>%<sg%>%<acc%>%+:%>n%{D%}e{p%} Verbs ;
 ro%<prn%>%<pro%>%<p2%>%<sg%>%<acc%>%+:%>ro{p%} Verbs ;
 ore%<prn%>%<pro%>%<p1%>%<pl%>%<acc%>%+:%>ore{p%} Verbs ;
 ñande%<prn%>%<pro%>%<p1%>%<pl%>%<acc%>%+:%>ñan%{D%}e{p%} Verbs ;
+ñande%<prn%>%<pro%>%<p1%>%<pl%>%<acc%>%+:%>ñe Verbs ;
 pende%<prn%>%<pro%>%<p2%>%<pl%>%<acc%>%+:%>pen%{D%}e{p%} Verbs ;
 po%<prn%>%<pro%>%<p2%>%<pl%>%<acc%>%+:%>po Verbs ;
 i%<prn%>%<pro%>%<p3%>%<sg%>%<acc%>%+:%>i Verbs ;
@@ -7349,6 +7360,8 @@ h%<prn%>%<pos%>%<p3%>%<sg%>%+:h%{t%} Triformes ;
 
 LEXICON Triformes
 
+tapyta:tapyta N ; ! "humano"
+tembikuaa:tembikuaa N ; ! "ciencia"
 tenonderã:tenonderã N ; ! "futuro"
 techahára:techah•ára N ; ! "vidente"
 tyepýpe:tyepýpe AD ; ! "dentro"
@@ -7398,6 +7411,7 @@ teindy:teindy N ; ! "hermana del varón"
 
 LEXICON Nouns
 
+rrása:rr•ása N ; ! "rasa (de animal) LOAN"
 óra:•óra N ; ! "hora"
 mymbajuka:mymbajuka N ; ! "animal de sacrifício, cazado"
 guaraniete:guaraniete N ; ! "guaranípuro"
@@ -8593,7 +8607,6 @@ tembiasyeta:tembiasyeta N ; ! "tragedia"
 tembiechapy:tembiechapy N ; ! "maravilla"
 tembiechauka:tembiechauka N ; ! "exposición"
 tembijerure:tembijerure N ; ! "solicitud"
-tembikuaa:tembikuaa N ; ! "ciencia"
 tembiporu:tembiporu N ; ! "vajilla, instrumento, utensilio"
 tembiporu% renda:tembiporu% renda N ; ! "alacena"
 tembipota:tembipota N ; ! "misión, propósito"
@@ -11860,6 +11873,9 @@ yʼỹ:yʼỹ N ; ! "sequía, seca, sequedad"
 
 LEXICON VerbsIv 
 
+ikorei:ikorei V-IV ; ! " vagar, vegetar, estar desocupado"
+ikose:ikose V-IV ; ! " pretender ser"
+ikove:ikove V-IV ; ! " vivir, sobrevivir, pasar, subsistir"
 guahẽ:guahẽ V-IV ; ! " llegar, arribar"
 katu:katu V-IV ; ! "poder"
 ity:ity V-IV ; ! "derrubar"
@@ -12212,6 +12228,7 @@ jokupyty:jokupyty V-IV ; ! "comprender"
 
 LEXICON Verbs 
 
+sãmbyhy:sãmbyhy V ; !"conducir, administrar"
 apo:apo V ; ! "estimar"
 ñembokuatia:ñembokuatia V ; ! "documentar"
 guenohẽ:guenohẽ V ; !"emitir"
@@ -12654,7 +12671,6 @@ mbyepoti:mbyepoti V ; ! "reprimir"
 mbyja:mbyja V ; ! "estrella"
 mbyky:mbyky V ; ! "corto"
 mbyryʼái:mbyryʼ•ái V ; ! "acalorado"
-mbyte:mbyte V ; ! "medio, centro"
 me:me V ; ! "existir"
 membykua:membykua V ; ! "abortar, aborto"
 membyrã:membyrã V ; ! "parto"
@@ -12974,6 +12990,7 @@ tembiʼuapo:tembiʼuapo V ; ! "cocinar"
 tendyvaʼo:tendyvaʼo V ; ! "afeitar"
 terahai:terahai V ; ! "inscribir"
 tesaiteʼo:tesaiteʼo V ; ! "domar"
+saiteʼo:saiteʼo V ; ! "domar"
 tesarái:tesar•ái V ; ! "olvidar, olvido"
 tesarái:hesar•ái V ; ! "olvidar, olvido" ! Dir/LR
 tesãijey:tesãijey V ; ! "restablecer"
@@ -13372,9 +13389,6 @@ hyvi:hyvi V ; ! " desfibrar"
 hyviʼo:hyviʼo V ; ! " desfibrar"
 ikoe:ikoe V ; ! " diferenciarse, distinguirse, variar"
 ikokatu:ikokatu V ; ! " conseguir, dominar"
-ikorei:ikorei V ; ! " vagar, vegetar, estar desocupado"
-ikose:ikose V ; ! " pretender ser"
-ikove:ikove V ; ! " vivir, sobrevivir, pasar, subsistir"
 imoʼã:imoʼã V ; ! " creer, pensar, reflexionar"
 jaʼeʼỹ:jaʼeʼỹ V ; ! " odiar"
 jaʼe:jaʼe V ; ! " querer, simpatizar, ser amigo"
@@ -14882,7 +14896,6 @@ akuruchĩ:akuruchĩ ADJ ; ! "acurrucado, tullid"
 akỹ:akỹ ADJ ; ! "mojado, húmedo"
 amandy:amandy ADJ ; ! "lluvioso"
 ambuʼa:ambuʼa ADJ ; ! "puntilloso, retraído"
-amo:amo ADJ ; ! "dem. aquél, aquéllos"
 amyrỹigua:amyrỹigua ADJ ; ! "postumo"
 anambusu:anambusu ADJ ; ! "grueso"
 anga:anga ADJ ; ! "pobre, pobrecito, adoptivo, espiritual"
@@ -15722,11 +15735,9 @@ pague:pague ADJ ; ! "desgastado, terminado"
 pakéte:pakéte ADJ ; ! "elegante, bien vestido"
 pakõi:pakõi ADJ ; ! "doce"
 pane:pane ADJ ; ! "desdichado, aciago, adverso, fracasado, malogrado"
-pa:pa ADJ ; ! "diez"
 papagua:papagua ADJ ; ! "numeral"
 papapyre:papapyre ADJ ; ! "contado, numerado"
 papapýva:papapýva ADJ ; ! "numeral"
-papo:papo ADJ ; ! "quince"
 para:para ADJ ; ! "matizado, overo, abigarrado, policromo, de varios colores, surtido"
 paráda:paráda ADJ ; ! "elegante, ostentoso"
 parapa:parapa ADJ ; ! "multicolor"
@@ -16264,7 +16275,6 @@ aína:aína AD ; ! "durante un cierto tiempo"
 ajeʼi:ajeʼi AD ; ! " de tiempo recién, recientemente, hace un rato"
 ajúri:ajúri AD ; ! "al cuello"
 akói:akói AD ; ! " hasta ahora, siempre, como siempre"
-akue:akue AD ; ! " antes, en el pasado"
 ambuéicha:ambuéicha AD ; ! " de otra manera"
 amóguio:amóguio AD ; ! " de ese lado, de allá"
 amóicha:amóicha AD ; ! " de aquella manera"
