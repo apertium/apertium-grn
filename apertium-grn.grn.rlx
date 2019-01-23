@@ -48,6 +48,10 @@ LIST Aux = aux ;
 
 LIST Coop = coop ;
 
+LIST Adj = adj ;
+
+LIST Dem = dem ;
+
 LIST Lang = "ñeʼẽ" ;
 LIST Peoples = "guarani" "guaraní" ;
 LIST Petei = "peteĩ" ;
@@ -73,10 +77,10 @@ REMOVE Re + Prn (0/* N) ;
 
 REMOVE Guess ;
 
-SELECT Sg IF (1 Petei));
+SELECT Sg IF (1 Petei) ;
 #Oiko peteĩ karai Benjamín ñemoñaregua hérava Quis
 
-SELECT Prn + Ind IF (1 N);
+SELECT Prn + Ind IF (1 N) ;
 #Oiko peteĩ karai Benjamín ñemoñaregua hérava Quis
 
 #SELECT ("ñemoñare") IF (-1* (N) OR (Np Ant)) ;
@@ -94,6 +98,8 @@ SELECT Cnjcoo IF (-1 N LINK 2 N);
 
 SELECT Det + Pl IF (-1 N) ;
 # óga kuéra
+
+SELECT Adj + Dem + Pl IF (1 Det + Pl) ;
 
 #WORD FORMS
 
