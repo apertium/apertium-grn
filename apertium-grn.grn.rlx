@@ -74,14 +74,12 @@ REMOVE Re + Prn (0/* N) ;
 REMOVE Guess ;
 
 SELECT Sg IF (1 Petei));
+#Oiko peteĩ karai Benjamín ñemoñaregua hérava Quis
 
 SELECT Prn + Ind IF (1 N);
-
-SELECT N IF (-1 Prn) ;
+#Oiko peteĩ karai Benjamín ñemoñaregua hérava Quis
 
 #SELECT ("ñemoñare") IF (-1* (N) OR (Np Ant)) ;
-
-SELECT Sg IF (-1 Np);
 
 REMOVE Top IF ((1 Cog) OR (1 Ant)) ;
 # León Cadogan omoĩ o kuatiañe'ẽme
