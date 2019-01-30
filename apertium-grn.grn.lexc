@@ -47,7 +47,11 @@ Multichar_Symbols
 
 %<acc%>              ! Accusative
 %<dat%>              ! Dative  
-%<nom%>              ! Nominative 
+%<nom%>              ! Nominative
+%<dim%>              ! Diminutivo 
+
+%<ac%>               ! Active prefixes
+%<in%>               ! Inactive prefixes
 
 
 %<pres%>             ! Presente
@@ -67,6 +71,7 @@ Multichar_Symbols
 
 %<vol%>              ! Modo volitivo 
 %<nar%>              ! Modo narrativo 
+%<car%>              ! Caritivo
 
 %<guess%>            ! Forma adivinada
 %<barb%>             ! Barbarisme
@@ -136,7 +141,7 @@ Connectors ;
 Numerals ;
 AdjIndef ;
 PRO ;
-PRO-CHE ;
+INACT ;
 PossesivePronouns ;
 Interyecciones ;
 Adverbs ;
@@ -227,7 +232,7 @@ LEXICON CASE-NONOM
 %+guý%<post%>:%>guý CASE-INFL ;
 %+a%<post%>:%>a CASE-INFL ;
 %+ari%<post%>:%>ari CASE-INFL ;
-%+re%<post%>:%>re CASE-INFL ;
+%+re%<post%>:%>re CASE-INFL ; ! "past"
 %+rehe%<post%>:%>rehe CASE-INFL ; ! "por"
 %+gui%<post%>:%>gui CASE-INFL ; ! "de"
 %+guio%<post%>:%>guio CASE-INFL ; ! "desde"
@@ -6815,6 +6820,10 @@ LEXICON MODES
 %+se%<vol%>:%>%se COMP ; 
 %+se%<vol%>:%>%se DEM-PRN-INFL;
 %+niko%<nar%>:%>niko # ;
+%+ỹ%<car%>:%>%{P%}ỹ # ;
+%+ỹ%<car%>:%>%{P%}ỹ CASE ;
+%+mi%<dim%>:%>mi # ;
+%+mimi%<dim%>:%>mimi # ;
 
 LEXICON V-INFL 
 PRES ;
@@ -6837,7 +6846,6 @@ LEXICON VerbNegPref
 nd%<neg%>%+:n%{d%}%{a%} PersonAgr ; 
 nd%<neg%>%+:n%{d%}%{a%} Connectors ;
 nd%<neg%>%+:n%{d%}%{a%} IrrVerbs ;
-nd%<neg%>%+:n%{d%}%{a%} PersonAgrCol ; 
 nd%<neg%>%+:n%{d%}%{a%} PersonAgrDefSg ;
 nd%<neg%>%+:n%{d%}%{a%} PersonAgrDefPl ;
 nd%<neg%>%+:n%{d%}%{a%} DemonstrativePronouns;
@@ -6851,7 +6859,6 @@ LEXICON VerbalPrefixes
 
 VerbNegPref ;
 PersonAgr ;
-PersonAgrCol ;
 PersonAgrDefSg ;
 PersonAgrDefPl ;
 Optatives ;
@@ -6868,6 +6875,8 @@ VerbsIv ;
 Voices ; 
 
 LEXICON Voices 
+
+je%<ref%>%+:%>%{J%}e%{P%} VerbsAgr ; ! I hurt myself
 je%<pass%>%+:%>%{J%}e%{P%} VerbsAgr ; 
 jo%<recip%>%+:%>%{J%}o%{P%} VerbsAgr ;
 mbo%<coop%>%+:%>m%{b%}o%{P%} VerbsAgr ;
@@ -6879,51 +6888,30 @@ mbaʼe%<sub%>%+:%>mbaʼe%{P%} VerbsAgr ;
 
 LEXICON PersonAgr
 
-a%<prn%>%<p1%>%<sg%>%<nom%>%+:%>a%{P%} VerbsAgr ;
-re%<prn%>%<p2%>%<sg%>%<nom%>%+:%>re%{P%} VerbsAgr ;
-o%<prn%>%<p3%>%<sg%>%<nom%>%+:%>o%{P%} VerbsAgr ;
-o%<prn%>%<p3%>%<pl%>%<nom%>%+:%>o%{P%} VerbsAgr ;
-ja%<prn%>%<p1%>%<pl%>%<nom%>%+:%>%{J%}a%{P%} VerbsAgr ;
-ro%<prn%>%<p1%>%<pl%>%<nom%>%+:%>ro%{P%} VerbsAgr ;
-pe%<prn%>%<p2%>%<pl%>%<nom%>%+:%>pe%{P%} VerbsAgr ;
+a%<prn%>%<p1%>%<sg%>%<ac%>%+:%>a%{P%} VerbsAgr ;
+re%<prn%>%<p2%>%<sg%>%<ac%>%+:%>re%{P%} VerbsAgr ;
+o%<prn%>%<p3%>%<sg%>%<ac%>%+:%>o%{P%} VerbsAgr ;
+o%<prn%>%<p3%>%<pl%>%<ac%>%+:%>o%{P%} VerbsAgr ;
+ja%<prn%>%<p1%>%<pl%>%<ac%>%+:%>%{J%}a%{P%} VerbsAgr ;
+ro%<prn%>%<p1%>%<pl%>%<ac%>%+:%>ro%{P%} VerbsAgr ;
+pe%<prn%>%<p2%>%<pl%>%<ac%>%+:%>pe%{P%} VerbsAgr ;
 
-a%<prn%>%<p1%>%<sg%>%<nom%>%+:%>a%{P%} Nouns ;
-re%<prn%>%<p2%>%<sg%>%<nom%>%+:%>re%{P%} Nouns ;
-o%<prn%>%<p3%>%<sg%>%<nom%>%+:%>o%{P%} Nouns ;
-o%<prn%>%<p3%>%<pl%>%<nom%>%+:%>o%{P%} Nouns ;
-ja%<prn%>%<p1%>%<pl%>%<nom%>%+:%>%{J%}a%{P%} Nouns ;
-ro%<prn%>%<p1%>%<pl%>%<nom%>%+:%>ro%{P%} Nouns ;
-pe%<prn%>%<p2%>%<pl%>%<nom%>%+:%>pe%{P%} Nouns ;
-
-LEXICON PersonAgrCol
-
-a%<prn%>%<p1%>%<sg%>%<nom%>%+: VerbsAgr "weight: 1.0" ;
-re%<prn%>%<p2%>%<sg%>%<nom%>%+: VerbsAgr "weight: 1.0" ;
-i%<prn%>%<p3%>%<sg%>%<nom%>%+:%>i%{P%} VerbsAgr ;
-i%<prn%>%<p3%>%<pl%>%<nom%>%+:%>i%{P%} VerbsAgr ;
-ñande%<prn%>%<p1%>%<pl%>%<nom%>%+:%>ñan%{D%}e%{P%} VerbsAgr ;
-ñande%<prn%>%<p1%>%<pl%>%<nom%>%+:%>ñe%{P%} VerbsAgr ;
-ore%<prn%>%<p1%>%<pl%>%<nom%>%+:%>ore%{P%} VerbsAgr ;
-pende%<prn%>%<p2%>%<pl%>%<nom%>%+:%>pen%{D%}e%{P%} VerbsAgr  ;
-
-a%<prn%>%<p1%>%<sg%>%<nom%>%+: Nouns "weight: 1.0" ;
-re%<prn%>%<p2%>%<sg%>%<nom%>%+: Nouns "weight: 1.0";
-i%<prn%>%<p3%>%<sg%>%<nom%>%+:%>i%{P%} Nouns ;
-i%<prn%>%<p3%>%<pl%>%<nom%>%+:%>i%{P%} Nouns ;
-ñande%<prn%>%<p1%>%<pl%>%<nom%>%+:%>ñan%{D%}e%{P%} Nouns ;
-ore%<prn%>%<p1%>%<pl%>%<nom%>%+:%>ore%{P%} Nouns ;
-pende%<prn%>%<p2%>%<pl%>%<nom%>%+:%>pen%{D%}e%{P%} Nouns  ;
-
-i%<prn%>%<p3%>%<sg%>%<nom%>%+:%>i%{P%} Adjectives ; 
+a%<prn%>%<p1%>%<sg%>%<ac%>%+:%>a%{P%} Nouns ;
+re%<prn%>%<p2%>%<sg%>%<ac%>%+:%>re%{P%} Nouns ;
+o%<prn%>%<p3%>%<sg%>%<ac%>%+:%>o%{P%} Nouns ;
+o%<prn%>%<p3%>%<pl%>%<ac%>%+:%>o%{P%} Nouns ;
+ja%<prn%>%<p1%>%<pl%>%<ac%>%+:%>%{J%}a%{P%} Nouns ;
+ro%<prn%>%<p1%>%<pl%>%<ac%>%+:%>ro%{P%} Nouns ;
+pe%<prn%>%<p2%>%<pl%>%<ac%>%+:%>pe%{P%} Nouns ;
 
 LEXICON PersonAgrDefSg
-o%<prn%>%<p3%>%<sg%>%<nom%>%+:%>o%{P%} VerbsDefSg ;
+o%<prn%>%<p3%>%<sg%>%<ac%>%+:%>o%{P%} VerbsDefSg ;
 
 LEXICON PersonAgrDefPl 
 
-o%<prn%>%<p3%>%<pl%>%<nom%>%+:%>o%{P%} VerbsDefPl ;
-ja%<prn%>%<p1%>%<pl%>%<nom%>%+:%>%{J%}a%{P%} VerbsDefPl ;
-ro%<prn%>%<p1%>%<pl%>%<nom%>%+:%>ro%{P%} VerbsDefPl ;
+o%<prn%>%<p3%>%<pl%>%<ac%>%+:%>o%{P%} VerbsDefPl ;
+ja%<prn%>%<p1%>%<pl%>%<ac%>%+:%>%{J%}a%{P%} VerbsDefPl ;
+ro%<prn%>%<p1%>%<pl%>%<ac%>%+:%>ro%{P%} VerbsDefPl ;
 
 
 LEXICON VerbsDefSg
@@ -6982,17 +6970,30 @@ i%<prn%>%<pro%>%<p3%>%<pl%>%<acc%>%+:%>i Verbs ;
 chupe%<prn%>%<pers%>%<p3%>%<sg%>:%>chupe PRO-CASE ;
 ichupe%<prn%>%<pers%>%<p3%>%<sg%>:%>ichupe PRO-CASE ;
 
-LEXICON PRO-CHE 
+LEXICON INACT  
 
-che%<prn%>%<pro%>%<p1%>%<sg%>%<nom%>%+:%>che%{p%} Verbs ;
-nde%<prn%>%<pro%>%<p2%>%<sg%>%<nom%>%+:%>n%{D%}e{p%} Verbs ;
-ro%<prn%>%<pro%>%<p2%>%<sg%>%<nom%>%+:%>ro{p%} Verbs ;
-ore%<prn%>%<pro%>%<p1%>%<pl%>%<nom%>%+:%>ore{p%} Verbs ;
-ñande%<prn%>%<pro%>%<p1%>%<pl%>%<nom%>%+:%>ñan%{D%}e{p%} Verbs ;
-pende%<prn%>%<pro%>%<p2%>%<pl%>%<nom%>%+:%>pen%{D%}e{p%} Verbs ;
-po%<prn%>%<pro%>%<p2%>%<pl%>%<nom%>%+:%>po Verbs ;
-i%<prn%>%<pro%>%<p3%>%<sg%>%<nom%>%+:%>i Verbs ;
-i%<prn%>%<pro%>%<p3%>%<pl%>%<nom%>%+:%>i Verbs ;
+che%<prn%>%<pro%>%<p1%>%<sg%>%<in%>%+:%>che%{p%} Verbs ;
+nde%<prn%>%<pro%>%<p2%>%<sg%>%<in%>%+:%>n%{D%}e{p%} Verbs ;
+ro%<prn%>%<pro%>%<p2%>%<sg%>%<in%>%+:%>ro{p%} Verbs ;
+ore%<prn%>%<pro%>%<p1%>%<pl%>%<in%>%+:%>ore{p%} Verbs ;
+ñande%<prn%>%<pro%>%<p1%>%<pl%>%<in%>%+:%>ñan%{D%}e{p%} Verbs ;
+pende%<prn%>%<pro%>%<p2%>%<pl%>%<in%>%+:%>pen%{D%}e{p%} Verbs ;
+po%<prn%>%<pro%>%<p2%>%<pl%>%<in%>%+:%>po Verbs ;
+i%<prn%>%<pro%>%<p3%>%<sg%>%<in%>%+:%>i%{I%} Verbs ;
+i%<prn%>%<pro%>%<p3%>%<pl%>%<in%>%+:%>i%{I%} Verbs ;
+
+che%<prn%>%<pro%>%<p1%>%<sg%>%<in%>%+:%>che%{p%} Nouns ;
+nde%<prn%>%<pro%>%<p2%>%<sg%>%<in%>%+:%>n%{D%}e{p%} Nouns ;
+ro%<prn%>%<pro%>%<p2%>%<sg%>%<in%>%+:%>ro{p%} Nouns ;
+ore%<prn%>%<pro%>%<p1%>%<pl%>%<in%>%+:%>ore{p%} Nouns ;
+ñande%<prn%>%<pro%>%<p1%>%<pl%>%<in%>%+:%>ñan%{D%}e{p%} Nouns ;
+pende%<prn%>%<pro%>%<p2%>%<pl%>%<in%>%+:%>pen%{D%}e{p%} Nouns ;
+po%<prn%>%<pro%>%<p2%>%<pl%>%<in%>%+:%>po Nouns ;
+i%<prn%>%<p3%>%<sg%>%<in%>%+:%>i%{I%} Nouns ;
+i%<prn%>%<p3%>%<pl%>%<in%>%+:%>i%{I%} Nouns ;
+
+i%<prn%>%<p3%>%<sg%>%<in%>%+:%>i%{I%} Adjectives ;
+i%<prn%>%<p3%>%<pl%>%<in%>%+:%>i%{I%} Adjectives ;
 
 
 LEXICON IrrVerbs
@@ -7141,6 +7142,7 @@ LEXICON AD-SUF
 LEXICON ITG-SUF
 %+po%<qst%>:%>po # ;
 %+pa%<qst%>:%>pa # ; ! Estigarribia p.76
+%+ve%<neg%>:%>ve # ; ! mava (quién) mava+ve (nadie)
 COMP ;
 CASE ;
 # ;
@@ -11873,6 +11875,7 @@ yʼỹ:yʼỹ N ; ! "sequía, seca, sequedad"
 
 LEXICON VerbsIv 
 
+jevy:jevy V-IV ; ! "regresar, retornar"
 ikorei:ikorei V-IV ; ! " vagar, vegetar, estar desocupado"
 ikose:ikose V-IV ; ! " pretender ser"
 ikove:ikove V-IV ; ! " vivir, sobrevivir, pasar, subsistir"
@@ -12415,7 +12418,6 @@ jerurepohýi:jerurepoh•ýi V ; ! "exigir"
 jerureʼasy:jerureʼasy V ; ! "suplicar, implorar, rogar"
 jeso:jeso V ; ! "quiebra"
 jetuʼu:jetuʼu V ; ! "recalcar"
-jevy:jevy V ; ! "regresar, retornar"
 jeʼajey:jeʼajey V ; ! "recaer"
 jeʼejey:jeʼejey V ; ! "reiterar, repetir"
 joavy:joavy V ; ! "disentir"
@@ -15502,7 +15504,6 @@ momorãva:momorãva ADJ ; ! "exclamativo"
 monambipyre:monambipyre ADJ ; ! "prisionero, cautivo, preso"
 monandipyre:monandipyre ADJ ; ! "vaciado"
 mondapyre:mondapyre ADJ ; ! "robado"
-monda:monda ADJ ; ! ""
 mondopyre:mondopyre ADJ ; ! "enviado"
 moneĩva:moneĩva ADJ ; ! "afirmativo"
 monflórito:monflórito ADJ ; ! "hermafrodita, afeminado"
