@@ -118,6 +118,7 @@ Vt:Va <=> •: _ [ Cns: | ArchiCns: | Nas: | VowsAton: |  %>: ]+  VowsTon: ;
 
 "Add nasal prefix [ñ] in present 1pl incl"
 %{J%}:ñ <=> _ [a: | e: | o: ] %{P%}: [ CNAS: | CnsNorm: |VowsAton: | VowsTon:]+ CNAS: ;
+            _ [a: | e: | o: ] %{P%}: CNAS: ;
                     where CNAS in Nas ;
 
 "Insert glottal stop ['] if next morpheme starts with a vowel"

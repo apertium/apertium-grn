@@ -44,6 +44,10 @@ LIST Cnjcoo = cnjcoo ;
 
 LIST V = v ;
 
+LIST Tv = tv ;
+
+LIST Iv = iv ;
+
 LIST Aux = aux ;
 
 LIST Coop = coop ;
@@ -52,12 +56,35 @@ LIST Adj = adj ;
 
 LIST Dem = dem ;
 
+LIST P3 = p3 ;
+
+LIST P1 = p1 ;
+
+LIST Post = post ;
+
+LIST Adv = adv;
+
+LIST Ac = ac ;
+
+LIST In = in ;
+
+LIST Acc = ac ;
+
+LIST Barb = barb ;
+
+LIST Pres = pres ;
+
+LIST Ser = vbser ;
+
+LIST Ref = ref ;
+
 LIST Lang = "ñeʼẽ" ;
 LIST Peoples = "guarani" "guaraní" ;
 LIST Petei = "peteĩ" ;
 
 SET SubSg = Ant | Top | Cog ; # Subject Sg Without N
 SET Verbal = V | Aux ;
+SET Pers = P1 | P3 ;
 
 SECTION
 
@@ -77,7 +104,7 @@ REMOVE Re + Prn (0/* N) ;
 
 REMOVE Guess ;
 
-SELECT Sg IF (1 Petei) ;
+REMOVE Pl IF (1 Petei) ;
 #Oiko peteĩ karai Benjamín ñemoñaregua hérava Quis
 
 SELECT Prn + Ind IF (1 N) ;
@@ -88,20 +115,52 @@ SELECT Prn + Ind IF (1 N) ;
 REMOVE Top IF ((1 Cog) OR (1 Ant)) ;
 # León Cadogan omoĩ o kuatiañe'ẽme
 
+SELECT Post IF ((-1 Top) OR (-2 Top)) ;
+#Guarani ha'e peteĩva umi te'yikuéra Amérika-gua ñe'ẽnguéra apytépe
+
 #GRAMMATICAL
+
+SELECT N IF (-1 Petei);
+#Oiko peteĩ karai Benjamín ñemoñaregua hérava Quis
 
 SELECT Sg + V IF ((-1 SubSg) OR (-2 SubSg));
 # León Cadogan omoĩ o kuatiañe'ẽme
 
-SELECT Cnjcoo IF (-1 N LINK 2 N);
+SELECT Cnjcoo IF ((-1 N LINK 2 N) OR (-1 Np LINK 2 Np));
 #Avañe'ẽ ha Guarani ñe'ẽ
 
 SELECT Det + Pl IF (-1 N) ;
 # óga kuéra
 
-SELECT Adj + Dem + Pl IF (1 Det + Pl) ;
+SELECT Adj + Dem + Pl IF (1/* Det + Pl) ;
+# umi Guaranikuéra
+
+SELECT Pl IF (1 Aux + Pl) ;
+#Avañe'ẽ ha Guarani ñe'ẽ ombohéra hikuái
+
+SELECT Adv IF (1/* V) ;
+#Guarani ha'e peteĩva umi te'yikuéra Amérika-gua ñe'ẽnguéra apytépe hetave iñe'ẽhárava
+
+SELECT Sg + In IF (-1*/* Petei); #Careful!
+#Guarani ha'e peteĩva umi te'yikuéra Amérika-gua ñe'ẽnguéra apytépe hetave iñe'ẽhárava
+
+REMOVE Sg IF ((-2/* Pl) OR (-1/* Pl)) ;
+#Guarani ha'e peteĩva umi te'yikuéra Amérika-gua ñe'ẽnguéra apytépe hetave iñe'ẽhárava
+
+#SELECT Sg + Ref IF (-1/* V + Sg) ;
+#Guarani ha'e peteĩva umi te'yikuéra Amérika-gua ñe'ẽnguéra apytépe hetave iñe'ẽhárava,
+#oñemohendáva irundy tetãnguéra iñambuévape (Paraguái, Argentina, Volívia ha Vrasil)
+
+
+SELECT Ser IF ((-1 N LINK 2 Num)) ;
 
 #WORD FORMS
 
+REMOVE Barb IF (0/* Top); 
+
 SELECT N IF (0 Lang) (-1C Peoples) ;
 # Avañe'ẽ ha Guarani ñe'ẽ ombohéra hikuái (...)
+
+AFTER-SECTIONS
+
+SELECT Pres IF (0/* Pres) ;

@@ -7263,6 +7263,7 @@ CASE;
 LEXICON ADJ-DIS 
 %+ve%<adj%>%<dist%>:ve # ;
 CASE ;
+DEM-PRN-INFL;
 # ;
 
 LEXICON NUM-ROMAN
@@ -11878,6 +11879,7 @@ yʼỹ:yʼỹ N ; ! "sequía, seca, sequedad"
 
 LEXICON VerbsIv 
 
+ko:%{i%}ko V-IV ; ! "morar"
 jevy:jevy V-IV ; ! "regresar, retornar"
 ikorei:ikorei V-IV ; ! " vagar, vegetar, estar desocupado"
 ikose:ikose V-IV ; ! " pretender ser"
@@ -12195,7 +12197,6 @@ yta:yta V-IV ; ! "saber nadar"
 ñemi:ñemi V-IV ; ! "esconderse"
 ñemoʼã:ñemoʼã V-IV ; ! "defenderse"
 ñemoatã:ñemoatã V-IV ; ! "endurecerse"
-ñemohenda:ñemohenda V-IV ; ! "establecerse,instalarse"
 ñemomarandu:ñemomarandu V-IV ; ! "comunicar"
 ñemomini:ñemomini V-IV ; ! "humillarse,empequeñecerse"
 ñemomombyry:ñemomombyry V-IV ; ! "alejarse"
@@ -12474,7 +12475,6 @@ kaʼay:kaʼay V ; ! "mate"
 ke:ke V ; ! "entrar, caber, dormir"
 kerambi:kerambi V ; ! "dormitar"
 kerapeʼa:kerapeʼa V ; ! "desvelar"
-ko:ko V ; ! "morar"
 aiko:aiko V ; ! "morar, vivir, andar" ! Dir/LR
 konikoni:konikoni V ; ! "ondear"
 kora:kora V ; ! "valla, ruedo, cercado"
@@ -15760,7 +15760,6 @@ pẽngue:pẽngue ADJ ; ! "roto, destrozado, quebrado"
 pepoʼa:pepoʼa ADJ ; ! "alicaído"
 pererĩ:pererĩ ADJ ; ! "delgado, fino, sutil, tenue"
 perõ:perõ ADJ ; ! "pelado, rapado, lampiño, raso"
-peteĩ:peteĩ ADJ ; ! "y pron. un, uno"
 peteĩha:peteĩha ADJ ; ! "primer, primero"
 peteĩnte:peteĩnte ADJ ; ! "unico"
 pichaʼĩ:pichaʼĩ ADJ ; ! "crespo, rizado, enrulado"
@@ -16343,7 +16342,6 @@ herekuaveʼỹme:herekuaveʼỹme AD ; ! " al revés, inversamente"
 herekuávo:herekuávo AD ; ! " derecho, al derecho"
 herunguã:herunguã AD ; ! " quizá, tal vez, quién sabe"
 hesaʼi:hesaʼi AD ; ! " poco"
-hetave:hetave AD ; ! " más, predominantemente"
 hiʼári:hiʼári AD ; ! " además, encima"
 hikóni:hikóni AD ; ! "durante cierto tiempo"
 hína:hína AD ; ! " que indica acción continuada durante un cierto tiempo"
