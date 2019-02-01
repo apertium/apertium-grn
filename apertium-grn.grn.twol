@@ -140,19 +140,21 @@ Vt:Va <=> •: _ [ Cns: | ArchiCns: | Nas: | VowsAton: |  %>: ]+  VowsTon: ;
 
 
 "Remove underlying [i] in 3p possessive prefixes"
-%{I%}:0 <=>  _ CnsNorm: ;
+%{I%}:0 <=>  _ Cns: ;
 
 "Surface ʼ in possessive prefix i"
 %{I%}:ʼ <=> _ VowsTon: ;
 
 "Possessive {I} as j before VowsAton" 
-%{I%}:j <=> _ VowsAton: ;
-            except 
-            _ VowsAton:[CnsNorm: | VowsAton: |VowsTon: ]+ Nas: ; 
+%{I%}:j <=> _ VowsAton:[CnsNorm: | VowsAton: |VowsTon: ] ;
+            !except 
+            !_ VowsAton:[CnsNorm: | VowsAton: |VowsTon: ]+ Nas: ; 
 
 
 "Possessive %{I%} as ñ in nasal nouns starting with VowsAton"
-%{I%}:ñ <=> _ VowsAton:[CnsNorm: | VowsAton: |VowsTon: ]+ Nas: ;
+%{I%}:ñ <=> _ VowsAton: Nas: ;
+!_ VowsAton:[CnsNorm: | VowsAton: |VowsTon: ]+ Nas: ;
+
 
 "Insert [r] before vowels after possessive prefixes"
 %{p%}:r <=> _ Vows: ;
@@ -177,6 +179,7 @@ Vt:Va <=> •: _ [ Cns: | ArchiCns: | Nas: | VowsAton: |  %>: ]+  VowsTon: ;
 %{m%}:m <=> NasTil: [Vows:| Cns: | %>:]+ %>: _ ; 
 	    NasTil: %>: _ ; 
           %{g%}: %-: _  ;
+          n: Vows: _ ;
           except
           ñ: e: m: b: y: %>: _ ;
 

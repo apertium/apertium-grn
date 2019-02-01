@@ -277,7 +277,6 @@ haguã:hagua POST ; ! "para" ! Dir/LR
 hag̃ua:hag̃ua POST ; ! "para" 
 hag̃ua:haġua POST ; ! "para"  ! Dir/LR ! Err/Orth
 hag̃ua:hagua POST ; ! "para"  ! Dir/LR ! Err/Orth
-hague:hague POST ; ! "que, donde"
 re:re POST ; ! ""
 mboyve:mboyve POST ; ! "antes" 
 
@@ -375,6 +374,7 @@ LEXICON COMP
 LEXICON COMP-INFL 
 
 DEM-PRN-SG ;
+DEM-PRN-INFL;
 AD-SUF ;
 SUP ; 
 # ;
@@ -423,6 +423,7 @@ LEXICON N
 %<n%>: COMP ;
 %<n%>: INCP ;
 %<n%>: SUBST ;
+%<n%>: AD-SUF ;
 
 LEXICON NP-COG
 
@@ -6772,7 +6773,7 @@ LEXICON PAST
 %+akue%<ifi%>:%{P%}akue #;
 %+mi%<pii%>:%>mi # ;
 %+kuri%<past%>:%>kuri # ;
-%+vaʼekue%<pmp%>:%>vaʼekue # ; 
+%+vaʼekue%<pmp%>:%>vaʼekue # ; ! Nominalizer for the whole clause
 %+rakaʼe%<past%>:%>rakaʼe # ; 
 %+raʼe%<past%>:%>raʼe # ;
 
@@ -6831,6 +6832,7 @@ PAST ;
 FUT ;
 IMP ;
 MODES ;
+DEM-PRN-INFL ;
 
 LEXICON V-IV
 
@@ -7085,6 +7087,7 @@ Adjectives ;
 LEXICON Conjunctions 
 
 jepémo:jepémo CS ; ! "por más que" 
+hague:hague CS ; ! "que, donde"
 ramo:ramo CS ; !"acción reciente (acabar de)"
 mboyve:mboyve CS ; ! "antes" 
 vove:vove CS ; ! ""
@@ -7134,8 +7137,8 @@ LEXICON AD-ITG
 LEXICON AD-NEG 
 %<adv%>%<neg%>: # ;
 
-LEXICON AD-SUF 
-%+nte%<adv%>:%>nte # ; ! "sólo"
+LEXICON AD-SUF ! Qualifiers
+%+nte%<adv%>:%>nte # ; ! "sólo"  
 %+ma%<adv%>:%>ma # ; ! "ya" 
 %+vo%<adv%>:%>vo # ; ! "simultaneidad"
 
@@ -15188,9 +15191,6 @@ iporupy:iporupy ADJ ; ! "valedero"
 ipotýva:ipotýva ADJ ; ! "florecido, florido, floreciente"
 ipúva:ipúva ADJ ; ! "sonoro"
 ipuvaíva:ipuvaíva ADJ ; ! "disonante"
-irundyha:irundyha ADJ ; ! "cuarto"
-irundypa:irundypa ADJ ; ! "cuarenta"
-irundy:irundy ADJ ; ! "cuatro"
 jahoʼipyre:jahoʼipyre ADJ ; ! "velado, cubierto"
 jahupytyʼỹva:jahupytyʼỹva ADJ ; ! "inasequible"
 jái:jái ADJ ; ! "abierto"
