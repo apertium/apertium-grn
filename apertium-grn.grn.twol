@@ -147,13 +147,10 @@ Vt:Va <=> •: _ [ Cns: | ArchiCns: | Nas: | VowsAton: |  %>: ]+  VowsTon: ;
 
 "Possessive {I} as j before VowsAton" 
 %{I%}:j <=> _ VowsAton:[CnsNorm: | VowsAton: |VowsTon: ] ;
-            !except 
-            !_ VowsAton:[CnsNorm: | VowsAton: |VowsTon: ]+ Nas: ; 
 
 
 "Possessive %{I%} as ñ in nasal nouns starting with VowsAton"
 %{I%}:ñ <=> _ VowsAton: Nas: ;
-!_ VowsAton:[CnsNorm: | VowsAton: |VowsTon: ]+ Nas: ;
 
 
 "Insert [r] before vowels after possessive prefixes"
