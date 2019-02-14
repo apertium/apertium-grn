@@ -6972,6 +6972,9 @@ i%<prn%>%<pro%>%<p3%>%<pl%>%<acc%>%+:%>i Verbs ;
 chupe%<prn%>%<pers%>%<p3%>%<sg%>:%>chupe PRO-CASE ;
 ichupe%<prn%>%<pers%>%<p3%>%<sg%>:%>ichupe PRO-CASE ;
 
+chupekuéra%<prn%>%<pers%>%<p3%>%<pl%>:%>chupekuéra ;
+chupe% kuéra%<prn%>%<pers%>%<p3%>%<pl%>:%>chupekuéra ; Dir/LR
+
 LEXICON INACT  
 
 che%<prn%>%<pro%>%<p1%>%<sg%>%<in%>%+:%>che%{p%} Verbs ;
