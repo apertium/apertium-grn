@@ -17,7 +17,7 @@
 ^jaguapehẽ/jaguapehẽ<n>$
 ^imbytépe/i<prn><p3><pl><ac>+mbyte<n>+pe<post>$
 ^,/,<cm>$
-^hína/hína<aux><impf><p3><sg>
+^hína/hína<aux><impf><p3><sg>$
 ^peteĩ/peteĩ<prn><ind>$
 ^jaguaru/jaguaru<n>$
 ^juehegua/juehegua<n>+ĩ<v><iv><pres>$
@@ -42,7 +42,7 @@
 ^osaite/o<prn><p3><sg><ac>+saiteʼo<v><tv><pres>$
 ^jaguarúpe/jaguaru<n>+pe<post>$
 ^ha/ha<cnjcoo>$
-^omoambue//o<prn><pos><p3><sg>+moambue<n>$
+^omoambue/o<prn><pos><p3><sg>+moambue<n>$
 ^hete/hete<n>$
 ^ha/ha<cnjcoo>$
 ^heko/h<prn><pos><p3><sg>+teko<n>$
@@ -60,7 +60,7 @@
 ^./.<sent>$
 ^Opaichagua/opaichagua<adj>$
 ^tuichakue/tuichakue<n>$
-^,/,<cm>
+^,/,<cm>$
 ^ijysaja/i<prn><pos><p3><sg>+ysaja<n>$
 ^ha/ha<cnjcoo>$
 ^hague/hague<adj>$
@@ -70,9 +70,6 @@
 ^ñemoñangáre/ñemoñanga<n>+re<post>$
 ^)/)<rpar>$
 ^./.<sent>$
-
-sent = Ijapysa ha itĩ mbarete, ha itĩre oñandu porãve mba'ekuéra ijerére.
-
 ^Ijapysa/i<prn><pos><p3><sg>+apysa<n>$
 ^ha/ha<cnjcoo>$
 ^itĩ/i<prn><pos><p3><sg>+tĩ<n>$
@@ -154,7 +151,7 @@ sent = Ijapysa ha itĩ mbarete, ha itĩre oñandu porãve mba'ekuéra ijerére.
 ^,/,<cm>$
 ^tymba'apiha/tymbaʼapiha<n>$
 ^,/,<cm>$
-^ñañihára/*ñañihára (?)
+^ñañihára/*ñañihára$
 ^,/,<cm>$
 ^osãmbyhýva/o<prn><p1><sg><ac>sãmbyhy<v><tv><pres>+va<subs><dem>$
 ^umíva/umi<adj><dem><pl>+va<subs><dem>$
@@ -171,8 +168,8 @@ sent = Ijapysa ha itĩ mbarete, ha itĩre oñandu porãve mba'ekuéra ijerére.
 ^vaka/vaka<n>$
 ^kuéra/kuéra<det><pl>$
 ^./.<sent>$
-^Ary/ary<n>;
-^2001/2001<num>;
+^Ary/ary<n>$
+^2001/2001<num>$
 ^jave/jave<adv>$
 ^,/,<cm>$
 ^ojeipapami/o<prn><p3><pl><ac>+je<ref>+papa<v><tv>+mi<pii>$
@@ -187,4 +184,4 @@ sent = Ijapysa ha itĩ mbarete, ha itĩre oñandu porãve mba'ekuéra ijerére.
 ^opa/opa<adj><ind>$
 ^yvy/yvy<n>$
 ^apére/ape<adv>+re<post>$
-^./.<sent> 
+^./.<sent>$
