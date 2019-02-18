@@ -16,6 +16,8 @@ LIST Guess = guess ;
 
 LIST Prn = prn ;
 
+LIST Personal = pers ;
+
 LIST Ind = ind ;
 
 LIST A = "a" ;
@@ -147,12 +149,39 @@ SELECT Sg + In IF (-1*/* Petei); #Careful!
 REMOVE Sg IF ((-2/* Pl) OR (-1/* Pl)) ;
 #Guarani ha'e peteĩva umi te'yikuéra Amérika-gua ñe'ẽnguéra apytépe hetave iñe'ẽhárava
 
-#SELECT Sg + Ref IF (-1/* V + Sg) ;
+#SELECT Ref IF (-1/* V + Sg) ;
+#oñemohendáva in
 #Guarani ha'e peteĩva umi te'yikuéra Amérika-gua ñe'ẽnguéra apytépe hetave iñe'ẽhárava,
 #oñemohendáva irundy tetãnguéra iñambuévape (Paraguái, Argentina, Volívia ha Vrasil)
 
-
 SELECT Ser IF ((-1 N LINK 2 Num)) ;
+
+######################################
+#NOUN WITH AN ATTRIBUTE CONSTRUCTIONS#
+######################################
+
+SELECT Adj + Dem IF (1/* N);
+#ko órape
+
+SELECT Num IF (1/* N) ;
+#mokõi óga
+
+SELECT Adj + Ind IF (1/* N) ;
+#ambue tetã
+
+SELECT Adj IF (-1/* N);
+SELECT N IF (1/* Adj);
+#kyse pyahu
+
+REMOVE Adj IF (0/1 Adj + Dem LINK -2/* Adj + Dem) ; # Fix for peva
+#pe kuña péva
+
+SELECT Prn + Dem IF (1/1 Adj + Dem LINK 1/1 N) ; #FIX
+SELECT N IF (-1/* Adj + Dem) ;
+#kóva ko távape
+
+SELECT Prn + Personal IF (1/* N LINK 1/* Adj);
+#nde mitã michĩ
 
 #WORD FORMS
 
@@ -163,4 +192,4 @@ SELECT N IF (0 Lang) (-1C Peoples) ;
 
 AFTER-SECTIONS
 
-SELECT Pres IF (0/* Pres) ;
+SELECT SUB:* Pres IF (0/* Pres) ;
