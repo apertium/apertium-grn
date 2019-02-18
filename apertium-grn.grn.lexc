@@ -3716,7 +3716,6 @@ Absalónpa:Absalónpa NP-AL ; ! ""
 Miquéas:Miquéas NP-AL ; ! ""
 Harán:Harán NP-AL ; ! ""
 Rogelím:Rogelím NP-AL ; ! ""
-Natekotevẽi:Natekotevẽi NP-AL ; ! ""
 Ehi:Ehi NP-AL ; ! ""
 Ojohoga:Ojohoga NP-AL ; ! ""
 Mispéret:Mispéret NP-AL ; ! ""
@@ -3886,7 +3885,6 @@ Tojapóke:Tojapóke NP-AL ; ! ""
 Eñembyesaráina:Eñembyesaráina NP-AL ; ! ""
 Abrahámcha:Abrahámcha NP-AL ; ! ""
 Damásco:Damásco NP-AL ; ! ""
-Upevarã:Upevarã NP-AL ; ! ""
 Esmirna:Esmirna NP-AL ; ! ""
 Elifáz:Elifáz NP-AL ; ! ""
 Simam:Simam NP-AL ; ! ""
@@ -4541,7 +4539,6 @@ Jotam:Jotam NP-AL ; ! ""
 Marduc:Marduc NP-AL ; ! ""
 Noñeme:Noñeme NP-AL ; ! ""
 Jorám:Jorám NP-AL ; ! ""
-Naikotevẽi:Naikotevẽi NP-AL ; ! ""
 Tiglat% Piléser:Tiglat% Piléser NP-AL ; ! ""
 Artajérjes:Artajérjes NP-AL ; ! ""
 Fariséova:Fariséova NP-AL ; ! ""
@@ -6753,6 +6750,10 @@ LEXICON ImpPol
 
 +na%<pol%>:na # ;
 +ke%<pol%>:ke # ;
+
+LEXICON ImpPol-Sep 
+na%<pol%>:na ;
+ke%<pol%>:ke ; ! please
 
 
 
@@ -12807,7 +12808,7 @@ moñemoña:moñemoña V ; ! "procrear, engendrar"
 moñemyrõ:moñemyrõ V ; ! "agraviar"
 moñondive:moñondive V ; ! "relacionar"
 moñyrõ:moñyrõ V ; ! "perdonar"
-moʼã:moʼã V ; ! "suponer, ocultar, guarecer, sombrear, eclipsar"
+moʼã:%{i%}moʼã V ; ! "suponer, ocultar, guarecer, sombrear, eclipsar"
 moʼãrei:moʼãrei V ; ! "imaginar"
 muña:muña V ; ! "seguir, perseguir"
 myakã:myakã V ; ! "gobernar"
