@@ -20,7 +20,7 @@
 ^hína/hína<aux><impf><p3><sg>$
 ^peteĩ/peteĩ<prn><ind>$
 ^jaguaru/jaguaru<n>$
-^juehegua/juehegua<n>+ĩ<v><iv><pres>$
+^juehegua'i/juehegua<n>+ĩ<v><iv><pres>$
 ^(/(<lpar>$
 ^Canis/canis<barb>$
 ^lupus/lupus<barb>$
@@ -34,9 +34,7 @@
 ^kuatia/kuatia<n>$
 ^rembikuaáva/r<det>+tembikuaá<n>+va<subs><dem>$
 ^héraha/héra<v><tv><pres>+ha<subs>$
-^Nature/Nature<np><al>$
-^-/-<guio>$
-^pe/pe<post>$
+^Nature-pe/Nature<np><al>+pe<post>$
 ^omohechauka/o<prn><p3><pl><ac>+mohechauka<v><tv><pres>$
 ^yvypóra/yvypóra<n>$
 ^osaite/o<prn><p3><sg><ac>+saiteʼo<v><tv><pres>$
@@ -64,7 +62,7 @@
 ^ijysaja/i<prn><pos><p3><sg>+ysaja<n>$
 ^ha/ha<cnjcoo>$
 ^hague/hague<adj>$
-^irrásare/i<prn><pos><p3><sg>+rrása<n>+re<post>$ 
+^irrásare/i<prn><pos><p3><sg>+rrása<n>+re<post>$
 ^(/(<lpar>$
 ^jagua/jagua<n>$
 ^ñemoñangáre/ñemoñanga<n>+re<post>$
@@ -184,4 +182,4 @@
 ^opa/opa<adj><ind>$
 ^yvy/yvy<n>$
 ^apére/ape<adv>+re<post>$
-^./.<sent>$
+^./.<sent>$ 

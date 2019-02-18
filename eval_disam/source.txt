@@ -1,188 +1,185 @@
 ^Jagua/Ja<np><al>+gua<post>/jagua<n>/ja<n>+gua<post>/ja<v><iv>+gua<post>/ja<v><iv><pres>+gua<post>$
- ^(/(<lpar>$
+^(/(<lpar>$
 ^Canis/*Canis$
- ^lupus/*lupus$
- ^familiaris/*familiaris$
+^lupus/*lupus$
+^familiaris/*familiaris$
 ^)/)<rpar>$
- ^ha'e/haʼe<prn><pers><p3><sg>/haʼe<v><tv><p1><sg><pres>/haʼe<vbser><iv><pres>$
- ^peteĩ/peteĩ<prn><ind>/peteĩ<num>/pe<prn><p2><pl><ac>+te<n><incp>+ĩ<v><iv>/pe<prn><p2><pl><ac>+te<n><incp>+ĩ<v><iv><pres>/pete<n><incp>+ĩ<v><iv>/pete<n><incp>+ĩ<v><iv><pres>$
- ^mymba/mymba<n>$
- ^okambúva/o<prn><pos><p3><sg>+kambu<adj>+va<subs><dem>/o<prn><p3><pl><ac>+kambu<v><iv>+va<subs><dem>/o<prn><p3><pl><ac>+kambu<v><iv><pres>+va<subs><dem>/o<prn><p3><pl><ac>+kambu<v><tv>+va<subs><dem>/o<prn><p3><pl><ac>+kambu<v><tv><pres>+va<subs><dem>/o<prn><p3><sg><ac>+kambu<v><iv>+va<subs><dem>/o<prn><p3><sg><ac>+kambu<v><iv><pres>+va<subs><dem>/o<prn><p3><sg><ac>+kambu<v><tv>+va<subs><dem>/o<prn><p3><sg><ac>+kambu<v><tv><pres>+va<subs><dem>/okambúva<adj>/o<prn><pos><p3><sg>+kambu<n><incp>+va<v><iv>/o<prn><pos><p3><sg>+kambu<n><incp>+va<v><iv><pres>/o<prn><p3><pl><ac>+kambu<n><incp>+va<v><iv>/o<prn><p3><pl><ac>+kambu<n><incp>+va<v><iv><pres>/o<prn><p3><sg><ac>+kambu<n><incp>+va<v><iv>/o<prn><p3><sg><ac>+kambu<n><incp>+va<v><iv><pres>$
- ^ha/ha<cnjcoo>/ha<n>/ha<v><iv>/ha<v><iv><pres>$
- ^ho'uva/hoʼu<v><tv><p3><sg><pres>+va<subs><dem>/ho<n><incp>+ʼu<v><tv>+va<subs><dem>/ho<n><incp>+ʼu<v><tv><pres>+va<subs><dem>$
- ^so'o/soʼo<n>$
- ^oñemohendáva/o<prn><p3><pl><ac>+je<pass>+mohenda<v><tv>+va<subs><dem>/o<prn><p3><pl><ac>+je<pass>+mohenda<v><tv><pres>+va<subs><dem>/o<prn><p3><pl><ac>+je<ref>+mohenda<v><tv>+va<subs><dem>/o<prn><p3><pl><ac>+je<ref>+mohenda<v><tv><pres>+va<subs><dem>/o<prn><p3><pl><ac>+ñande<prn><pro><p1><pl><acc>+mohenda<v><tv>+va<subs><dem>/o<prn><p3><pl><ac>+ñande<prn><pro><p1><pl><acc>+mohenda<v><tv><pres>+va<subs><dem>/o<prn><p3><sg><ac>+je<pass>+mohenda<v><tv>+va<subs><dem>/o<prn><p3><sg><ac>+je<pass>+mohenda<v><tv><pres>+va<subs><dem>/o<prn><p3><sg><ac>+je<ref>+mohenda<v><tv>+va<subs><dem>/o<prn><p3><sg><ac>+je<ref>+mohenda<v><tv><pres>+va<subs><dem>/o<prn><p3><sg><ac>+ñande<prn><pro><p1><pl><acc>+mohenda<v><tv>+va<subs><dem>/o<prn><p3><sg><ac>+ñande<prn><pro><p1><pl><acc>+mohenda<v><tv><pres>+va<subs><dem>/o<prn><pos><p3><sg>+ñemohenda<n><incp>+va<v><iv>/o<prn><pos><p3><sg>+ñemohenda<n><incp>+va<v><iv><pres>/o<prn><pos><p3><sg>+ñe<n><incp>+mohenda<v><tv>+va<subs><dem>/o<prn><pos><p3><sg>+ñe<n><incp>+mohenda<v><tv><pres>+va<subs><dem>/o<prn><p3><pl><ac>+ñemohenda<n><incp>+va<v><iv>/o<prn><p3><pl><ac>+ñemohenda<n><incp>+va<v><iv><pres>/o<prn><p3><pl><ac>+ñe<n><incp>+mohenda<v><tv>+va<subs><dem>/o<prn><p3><pl><ac>+ñe<n><incp>+mohenda<v><tv><pres>+va<subs><dem>/o<prn><p3><sg><ac>+ñemohenda<n><incp>+va<v><iv>/o<prn><p3><sg><ac>+ñemohenda<n><incp>+va<v><iv><pres>/o<prn><p3><sg><ac>+ñe<n><incp>+mohenda<v><tv>+va<subs><dem>/o<prn><p3><sg><ac>+ñe<n><incp>+mohenda<v><tv><pres>+va<subs><dem>$
- ^juehepehẽ/juehepehẽ<n>$
- ^umi/umi<prn><dem><pl>/umi<adj><dem><pl>$
- ^jaguapehẽ/*jaguapehẽ$
- ^imbytépe/i<prn><pos><p3><sg>+mbyte<adj>+pe<post>/i<prn><pos><p3><sg>+mbyte<n>+pe<post>/i<prn><p3><pl><in>+mbyte<adj>+pe<post>/i<prn><p3><pl><in>+mbyte<n>+pe<post>/i<prn><p3><sg><in>+mbyte<adj>+pe<post>/i<prn><p3><sg><in>+mbyte<n>+pe<post>$
+^ha'e/haʼe<prn><pers><p3><sg>/haʼe<v><tv><p1><sg><pres>/haʼe<vbser><iv><pres>$
+^peteĩ/peteĩ<prn><ind>/peteĩ<num>/pe<prn><p2><pl><ac>+te<n><incp>+ĩ<v><iv>/pe<prn><p2><pl><ac>+te<n><incp>+ĩ<v><iv><pres>/pete<n><incp>+ĩ<v><iv>/pete<n><incp>+ĩ<v><iv><pres>$
+^mymba/mymba<n>$
+^okambúva/o<prn><pos><p3><sg>+kambu<adj>+va<subs><dem>/o<prn><p3><pl><ac>+kambu<v><iv>+va<subs><dem>/o<prn><p3><pl><ac>+kambu<v><iv><pres>+va<subs><dem>/o<prn><p3><pl><ac>+kambu<v><tv>+va<subs><dem>/o<prn><p3><pl><ac>+kambu<v><tv><pres>+va<subs><dem>/o<prn><p3><sg><ac>+kambu<v><iv>+va<subs><dem>/o<prn><p3><sg><ac>+kambu<v><iv><pres>+va<subs><dem>/o<prn><p3><sg><ac>+kambu<v><tv>+va<subs><dem>/o<prn><p3><sg><ac>+kambu<v><tv><pres>+va<subs><dem>/okambúva<adj>/o<prn><pos><p3><sg>+kambu<n><incp>+va<v><iv>/o<prn><pos><p3><sg>+kambu<n><incp>+va<v><iv><pres>/o<prn><p3><pl><ac>+kambu<n><incp>+va<v><iv>/o<prn><p3><pl><ac>+kambu<n><incp>+va<v><iv><pres>/o<prn><p3><sg><ac>+kambu<n><incp>+va<v><iv>/o<prn><p3><sg><ac>+kambu<n><incp>+va<v><iv><pres>$
+^ha/ha<cnjcoo>/ha<n>/ha<v><iv>/ha<v><iv><pres>$
+^ho'uva/hoʼu<v><tv><p3><sg><pres>+va<subs><dem>/ho<n><incp>+ʼu<v><tv>+va<subs><dem>/ho<n><incp>+ʼu<v><tv><pres>+va<subs><dem>$
+^so'o/soʼo<n>$
+^oñemohendáva/o<prn><p3><pl><ac>+je<pass>+mohenda<v><tv>+va<subs><dem>/o<prn><p3><pl><ac>+je<pass>+mohenda<v><tv><pres>+va<subs><dem>/o<prn><p3><pl><ac>+je<ref>+mohenda<v><tv>+va<subs><dem>/o<prn><p3><pl><ac>+je<ref>+mohenda<v><tv><pres>+va<subs><dem>/o<prn><p3><pl><ac>+ñande<prn><pro><p1><pl><acc>+mohenda<v><tv>+va<subs><dem>/o<prn><p3><pl><ac>+ñande<prn><pro><p1><pl><acc>+mohenda<v><tv><pres>+va<subs><dem>/o<prn><p3><sg><ac>+je<pass>+mohenda<v><tv>+va<subs><dem>/o<prn><p3><sg><ac>+je<pass>+mohenda<v><tv><pres>+va<subs><dem>/o<prn><p3><sg><ac>+je<ref>+mohenda<v><tv>+va<subs><dem>/o<prn><p3><sg><ac>+je<ref>+mohenda<v><tv><pres>+va<subs><dem>/o<prn><p3><sg><ac>+ñande<prn><pro><p1><pl><acc>+mohenda<v><tv>+va<subs><dem>/o<prn><p3><sg><ac>+ñande<prn><pro><p1><pl><acc>+mohenda<v><tv><pres>+va<subs><dem>/o<prn><pos><p3><sg>+ñemohenda<n><incp>+va<v><iv>/o<prn><pos><p3><sg>+ñemohenda<n><incp>+va<v><iv><pres>/o<prn><pos><p3><sg>+ñe<n><incp>+mohenda<v><tv>+va<subs><dem>/o<prn><pos><p3><sg>+ñe<n><incp>+mohenda<v><tv><pres>+va<subs><dem>/o<prn><p3><pl><ac>+ñemohenda<n><incp>+va<v><iv>/o<prn><p3><pl><ac>+ñemohenda<n><incp>+va<v><iv><pres>/o<prn><p3><pl><ac>+ñe<n><incp>+mohenda<v><tv>+va<subs><dem>/o<prn><p3><pl><ac>+ñe<n><incp>+mohenda<v><tv><pres>+va<subs><dem>/o<prn><p3><sg><ac>+ñemohenda<n><incp>+va<v><iv>/o<prn><p3><sg><ac>+ñemohenda<n><incp>+va<v><iv><pres>/o<prn><p3><sg><ac>+ñe<n><incp>+mohenda<v><tv>+va<subs><dem>/o<prn><p3><sg><ac>+ñe<n><incp>+mohenda<v><tv><pres>+va<subs><dem>$
+^juehepehẽ/juehepehẽ<n>$
+^umi/umi<prn><dem><pl>/umi<adj><dem><pl>$
+^jaguapehẽ/*jaguapehẽ$
+^imbytépe/i<prn><pos><p3><sg>+mbyte<adj>+pe<post>/i<prn><pos><p3><sg>+mbyte<n>+pe<post>/i<prn><p3><pl><in>+mbyte<adj>+pe<post>/i<prn><p3><pl><in>+mbyte<n>+pe<post>/i<prn><p3><sg><in>+mbyte<adj>+pe<post>/i<prn><p3><sg><in>+mbyte<n>+pe<post>$
 ^,/,<cm>$
- ^hína/hína<adv>/hína<aux><impf><p3><sg>$
- ^peteĩ/peteĩ<prn><ind>/peteĩ<num>/pe<prn><p2><pl><ac>+te<n><incp>+ĩ<v><iv>/pe<prn><p2><pl><ac>+te<n><incp>+ĩ<v><iv><pres>/pete<n><incp>+ĩ<v><iv>/pete<n><incp>+ĩ<v><iv><pres>$
- ^jaguaru/jaguaru<n>/jagua<n><incp>+ru<v><tv>/jagua<n><incp>+ru<v><tv><pres>$
- ^juehegua/juehegua<adj>/juehegua<n>/juehe<adv>+gua<post>/ju<n><incp>+e<v><tv><pres>he<adv>+gua<post>$
-'^i/ĩ<v><iv>+i<neg>/ĩ<v><iv><pres>+i<neg>$
- ^(/(<lpar>$
+^hína/hína<adv>/hína<aux><impf><p3><sg>$
+^peteĩ/peteĩ<prn><ind>/peteĩ<num>/pe<prn><p2><pl><ac>+te<n><incp>+ĩ<v><iv>/pe<prn><p2><pl><ac>+te<n><incp>+ĩ<v><iv><pres>/pete<n><incp>+ĩ<v><iv>/pete<n><incp>+ĩ<v><iv><pres>$
+^jaguaru/jaguaru<n>/jagua<n><incp>+ru<v><tv>/jagua<n><incp>+ru<v><tv><pres>$
+^juehegua'i/juehegua<adj>/juehegua<n>/juehe<adv>+gua<post>/ju<n><incp>+e<v><tv><pres>he<adv>+gua<post>$
+^(/(<lpar>$
 ^Canis/*Canis$
- ^lupus/*lupus$
+^lupus/*lupus$
 ^)/)<rpar>$
 ^./.<sent>$
- ^Peteĩ/peteĩ<prn><ind>/peteĩ<num>/pe<prn><p2><pl><ac>+te<n><incp>+ĩ<v><iv>/pe<prn><p2><pl><ac>+te<n><incp>+ĩ<v><iv><pres>/pete<n><incp>+ĩ<v><iv>/pete<n><incp>+ĩ<v><iv><pres>$
- ^ñehesa'ỹijo/ñande<prn><pro><p1><pl><acc>+hesaʼỹijo<v><tv>/ñande<prn><pro><p1><pl><acc>+hesaʼỹijo<v><tv><pres>/ñe<n><incp>+hesaʼỹijo<v><tv>/ñe<n><incp>+hesaʼỹijo<v><tv><pres>$
- ^osẽ/o<prn><pos><p3><sg>+sẽ<n>/o<prn><p3><pl><ac>+sẽ<n>/o<prn><p3><pl><ac>+sẽ<v><iv>/o<prn><p3><pl><ac>+sẽ<v><iv><pres>/o<prn><p3><sg><ac>+sẽ<n>/o<prn><p3><sg><ac>+sẽ<v><iv>/o<prn><p3><sg><ac>+sẽ<v><iv><pres>$
- ^akue/a<prn><p1><sg><ac>+kue<n>/akue<post>/a<v><iv>+kue<post>/a<v><iv><pres>+kue<post>/a<v><iv><pres>+kue<subs>/a<v><tv>+kue<post>/a<v><tv><pres>+kue<post>/a<v><tv><pres>+kue<subs>$
- ^ku/ku<prn><dem><sg>/ku<adj>/ku<adj><dem><sg>$
- ^kuatia/kuatia<n>/kuati<n>+a<post>/kuati<n><incp>+a<v><iv>/kuati<n><incp>+a<v><iv><pres>/kuati<n><incp>+a<v><tv>/kuati<n><incp>+a<v><tv><pres>$
- ^rembikuaáva/r<det>+tembikuaa<n><incp>+va<v><iv>/r<det>+tembikuaa<n><incp>+va<v><iv><pres>$
- ^héraha/héra<v><tv><pres>+ha<subs>/h<prn><pos><p3><sg>+téra<n><incp>+ha<v><iv>/h<prn><pos><p3><sg>+téra<n><incp>+ha<v><iv><pres>/he<n><incp>+raha<v><tv>/he<n><incp>+raha<v><tv><pres>$
- ^Nature-pe/Nature<np><al>+pe<post>$
- ^omohechauka/o<prn><p3><pl><ac>+mohechauka<v><tv>/o<prn><p3><pl><ac>+mohechauka<v><tv><pres>/o<prn><p3><sg><ac>+mohechauka<v><tv>/o<prn><p3><sg><ac>+mohechauka<v><tv><pres>$
- ^yvypóra/yvypóra<adj>/yvypóra<n>$
- ^osaite'o/o<prn><p3><pl><ac>+saiteʼo<v><tv>/o<prn><p3><pl><ac>+saiteʼo<v><tv><pres>/o<prn><p3><sg><ac>+saiteʼo<v><tv>/o<prn><p3><sg><ac>+saiteʼo<v><tv><pres>$
- ^jaguarúpe/jaguaru<n>+pe<post>/jagua<n><incp>+ru<v><tv>+pe<post>/jagua<n><incp>+ru<v><tv><pres>+pe<post>$
- ^ha/ha<cnjcoo>/ha<n>/ha<v><iv>/ha<v><iv><pres>$
- ^omoambue/o<prn><pos><p3><sg>+moambue<n>/o<prn><p3><pl><ac>+moambue<n>/o<prn><p3><pl><ac>+moambue<v><tv>/o<prn><p3><pl><ac>+moambue<v><tv><pres>/o<prn><p3><sg><ac>+moambue<n>/o<prn><p3><sg><ac>+moambue<v><tv>/o<prn><p3><sg><ac>+moambue<v><tv><pres>$
- ^hete/hete<n>$
- ^ha/ha<cnjcoo>/ha<n>/ha<v><iv>/ha<v><iv><pres>$
- ^heko/h<prn><pos><p3><sg>+teko<n>/he<adj>+ko<emph>/he<adv>+ko<emph>/he<n><incp>+ko<v><iv>/he<n><incp>+ko<v><iv><pres>$
+^Peteĩ/peteĩ<prn><ind>/peteĩ<num>/pe<prn><p2><pl><ac>+te<n><incp>+ĩ<v><iv>/pe<prn><p2><pl><ac>+te<n><incp>+ĩ<v><iv><pres>/pete<n><incp>+ĩ<v><iv>/pete<n><incp>+ĩ<v><iv><pres>$
+^ñehesa'ỹijo/ñande<prn><pro><p1><pl><acc>+hesaʼỹijo<v><tv>/ñande<prn><pro><p1><pl><acc>+hesaʼỹijo<v><tv><pres>/ñe<n><incp>+hesaʼỹijo<v><tv>/ñe<n><incp>+hesaʼỹijo<v><tv><pres>$
+^osẽ/o<prn><pos><p3><sg>+sẽ<n>/o<prn><p3><pl><ac>+sẽ<n>/o<prn><p3><pl><ac>+sẽ<v><iv>/o<prn><p3><pl><ac>+sẽ<v><iv><pres>/o<prn><p3><sg><ac>+sẽ<n>/o<prn><p3><sg><ac>+sẽ<v><iv>/o<prn><p3><sg><ac>+sẽ<v><iv><pres>$
+^akue/a<prn><p1><sg><ac>+kue<n>/akue<post>/a<v><iv>+kue<post>/a<v><iv><pres>+kue<post>/a<v><iv><pres>+kue<subs>/a<v><tv>+kue<post>/a<v><tv><pres>+kue<post>/a<v><tv><pres>+kue<subs>$
+^ku/ku<prn><dem><sg>/ku<adj>/ku<adj><dem><sg>$
+^kuatia/kuatia<n>/kuati<n>+a<post>/kuati<n><incp>+a<v><iv>/kuati<n><incp>+a<v><iv><pres>/kuati<n><incp>+a<v><tv>/kuati<n><incp>+a<v><tv><pres>$
+^rembikuaáva/r<det>+tembikuaa<n><incp>+va<v><iv>/r<det>+tembikuaa<n><incp>+va<v><iv><pres>$
+^héraha/héra<v><tv><pres>+ha<subs>/h<prn><pos><p3><sg>+téra<n><incp>+ha<v><iv>/h<prn><pos><p3><sg>+téra<n><incp>+ha<v><iv><pres>/he<n><incp>+raha<v><tv>/he<n><incp>+raha<v><tv><pres>$
+^Nature-pe/Nature<np><al>+pe<post>$
+^omohechauka/o<prn><p3><pl><ac>+mohechauka<v><tv>/o<prn><p3><pl><ac>+mohechauka<v><tv><pres>/o<prn><p3><sg><ac>+mohechauka<v><tv>/o<prn><p3><sg><ac>+mohechauka<v><tv><pres>$
+^yvypóra/yvypóra<adj>/yvypóra<n>$
+^osaite'o/o<prn><p3><pl><ac>+saiteʼo<v><tv>/o<prn><p3><pl><ac>+saiteʼo<v><tv><pres>/o<prn><p3><sg><ac>+saiteʼo<v><tv>/o<prn><p3><sg><ac>+saiteʼo<v><tv><pres>$
+^jaguarúpe/jaguaru<n>+pe<post>/jagua<n><incp>+ru<v><tv>+pe<post>/jagua<n><incp>+ru<v><tv><pres>+pe<post>$
+^ha/ha<cnjcoo>/ha<n>/ha<v><iv>/ha<v><iv><pres>$
+^omoambue/o<prn><pos><p3><sg>+moambue<n>/o<prn><p3><pl><ac>+moambue<n>/o<prn><p3><pl><ac>+moambue<v><tv>/o<prn><p3><pl><ac>+moambue<v><tv><pres>/o<prn><p3><sg><ac>+moambue<n>/o<prn><p3><sg><ac>+moambue<v><tv>/o<prn><p3><sg><ac>+moambue<v><tv><pres>$
+^hete/hete<n>$
+^ha/ha<cnjcoo>/ha<n>/ha<v><iv>/ha<v><iv><pres>$
+^heko/h<prn><pos><p3><sg>+teko<n>/he<adj>+ko<emph>/he<adv>+ko<emph>/he<n><incp>+ko<v><iv>/he<n><incp>+ko<v><iv><pres>$
 ^,/,<cm>$
- ^ha/ha<cnjcoo>/ha<n>/ha<v><iv>/ha<v><iv><pres>$
- ^upe/upe<prn><dem><sg>/upe<adj><dem><sg>$
- ^guive/guive<adv>/guive<post>$
- ^jagua/jagua<n>/ja<n>+gua<post>/ja<v><iv>+gua<post>/ja<v><iv><pres>+gua<post>$
- ^okarukuaa/o<prn><pos><p3><sg>+karu<n><incp>+kuaa<v><tv>/o<prn><pos><p3><sg>+karu<n><incp>+kuaa<v><tv><pres>/o<prn><p3><pl><ac>+karu<n><incp>+kuaa<v><tv>/o<prn><p3><pl><ac>+karu<n><incp>+kuaa<v><tv><pres>/o<prn><p3><sg><ac>+karu<n><incp>+kuaa<v><tv>/o<prn><p3><sg><ac>+karu<n><incp>+kuaa<v><tv><pres>$
- ^heta/heta<adj>/heta<adj><ind>/heta<adv>$
- ^mba'e/mbaʼe<prn><itg>/mbaʼe<cnjcoo>/mbaʼe<n>$
- ^ha/ha<cnjcoo>/ha<n>/ha<v><iv>/ha<v><iv><pres>$
- ^heko/h<prn><pos><p3><sg>+teko<n>/he<adj>+ko<emph>/he<adv>+ko<emph>/he<n><incp>+ko<v><iv>/he<n><incp>+ko<v><iv><pres>$
- ^oikoveva/o<prn><p3><pl><ac>+ikove<v><iv>+va<subs><dem>/o<prn><p3><pl><ac>+ikove<v><iv><pres>+va<subs><dem>/o<prn><p3><pl><ac>+ko<v><iv><pres>+ve<comp>+va<subs><dem>/o<prn><p3><sg><ac>+ikove<v><iv>+va<subs><dem>/o<prn><p3><sg><ac>+ikove<v><iv><pres>+va<subs><dem>/o<prn><p3><sg><ac>+ko<v><iv><pres>+ve<comp>+va<subs><dem>/oikovéva<adj>$
-^./.<sent>$
- ^Opaichagua/o<prn><p3><pl><ac>+pa<v><iv>+i<neg>+icha<comp>+gua<post>/o<prn><p3><pl><ac>+pa<v><iv><pres>+icha<comp>+gua<post>/o<prn><p3><pl><ac>+pa<v><iv><pres>+i<neg>+icha<comp>+gua<post>/o<prn><p3><sg><ac>+pa<v><iv>+i<neg>+icha<comp>+gua<post>/o<prn><p3><sg><ac>+pa<v><iv><pres>+icha<comp>+gua<post>/o<prn><p3><sg><ac>+pa<v><iv><pres>+i<neg>+icha<comp>+gua<post>/opaichagua<adj>/opa<adj>+icha<comp>+gua<post>/opa<adj>+i<neg>+icha<comp>+gua<post>/opa<adj><ind>+icha<comp>+gua<post>/opa<adj><ind>+i<neg>+icha<comp>+gua<post>/opa<n>+icha<comp>+gua<post>/opáicha<adv>+gua<post>/opa<n><incp>+ĩ<v><iv>+i<neg>+icha<comp>+gua<post>/opa<n><incp>+ĩ<v><iv><pres>+icha<comp>+gua<post>/opa<n><incp>+ĩ<v><iv><pres>+i<neg>+icha<comp>+gua<post>$
- ^tuichakue/tuichakue<n>/tuicha<adj>+kue<post>/tuicha<adj>+kue<subs>/tuicha<adv>+kue<post>$
-^,/,<cm>$
- ^ijysaja/i<prn><pos><p3><sg>+ysaja<n>/i<prn><p3><pl><in>+ysaja<n>/i<prn><p3><sg><in>+ysaja<n>$
- ^ha/ha<cnjcoo>/ha<n>/ha<v><iv>/ha<v><iv><pres>$
- ^hague/hague<adj>/hague<cnjsub>/ha<n><incp>+gue<v><iv>/ha<n><incp>+gue<v><iv><pres>$
- ^irrásare/i<prn><pos><p3><sg>+rrása<n>+re<post>/i<prn><p3><pl><in>+rrása<n>+re<post>/i<prn><p3><sg><in>+rrása<n>+re<post>$
- ^(/(<lpar>$
+^ha/ha<cnjcoo>/ha<n>/ha<v><iv>/ha<v><iv><pres>$
+^upe/upe<prn><dem><sg>/upe<adj><dem><sg>$
+^guive/guive<adv>/guive<post>$
 ^jagua/jagua<n>/ja<n>+gua<post>/ja<v><iv>+gua<post>/ja<v><iv><pres>+gua<post>$
- ^ñemoñangáre/ñemoñanga<n>+re<post>$
+^okarukuaa/o<prn><pos><p3><sg>+karu<n><incp>+kuaa<v><tv>/o<prn><pos><p3><sg>+karu<n><incp>+kuaa<v><tv><pres>/o<prn><p3><pl><ac>+karu<n><incp>+kuaa<v><tv>/o<prn><p3><pl><ac>+karu<n><incp>+kuaa<v><tv><pres>/o<prn><p3><sg><ac>+karu<n><incp>+kuaa<v><tv>/o<prn><p3><sg><ac>+karu<n><incp>+kuaa<v><tv><pres>$
+^heta/heta<adj>/heta<adj><ind>/heta<adv>$
+^mba'e/mbaʼe<prn><itg>/mbaʼe<cnjcoo>/mbaʼe<n>$
+^ha/ha<cnjcoo>/ha<n>/ha<v><iv>/ha<v><iv><pres>$
+^heko/h<prn><pos><p3><sg>+teko<n>/he<adj>+ko<emph>/he<adv>+ko<emph>/he<n><incp>+ko<v><iv>/he<n><incp>+ko<v><iv><pres>$
+^oikoveva/o<prn><p3><pl><ac>+ikove<v><iv>+va<subs><dem>/o<prn><p3><pl><ac>+ikove<v><iv><pres>+va<subs><dem>/o<prn><p3><pl><ac>+ko<v><iv><pres>+ve<comp>+va<subs><dem>/o<prn><p3><sg><ac>+ikove<v><iv>+va<subs><dem>/o<prn><p3><sg><ac>+ikove<v><iv><pres>+va<subs><dem>/o<prn><p3><sg><ac>+ko<v><iv><pres>+ve<comp>+va<subs><dem>/oikovéva<adj>$
+^./.<sent>$
+^Opaichagua/o<prn><p3><pl><ac>+pa<v><iv>+i<neg>+icha<comp>+gua<post>/o<prn><p3><pl><ac>+pa<v><iv><pres>+icha<comp>+gua<post>/o<prn><p3><pl><ac>+pa<v><iv><pres>+i<neg>+icha<comp>+gua<post>/o<prn><p3><sg><ac>+pa<v><iv>+i<neg>+icha<comp>+gua<post>/o<prn><p3><sg><ac>+pa<v><iv><pres>+icha<comp>+gua<post>/o<prn><p3><sg><ac>+pa<v><iv><pres>+i<neg>+icha<comp>+gua<post>/opaichagua<adj>/opa<adj>+icha<comp>+gua<post>/opa<adj>+i<neg>+icha<comp>+gua<post>/opa<adj><ind>+icha<comp>+gua<post>/opa<adj><ind>+i<neg>+icha<comp>+gua<post>/opa<n>+icha<comp>+gua<post>/opáicha<adv>+gua<post>/opa<n><incp>+ĩ<v><iv>+i<neg>+icha<comp>+gua<post>/opa<n><incp>+ĩ<v><iv><pres>+icha<comp>+gua<post>/opa<n><incp>+ĩ<v><iv><pres>+i<neg>+icha<comp>+gua<post>$
+^tuichakue/tuichakue<n>/tuicha<adj>+kue<post>/tuicha<adj>+kue<subs>/tuicha<adv>+kue<post>$
+^,/,<cm>$
+^ijysaja/i<prn><pos><p3><sg>+ysaja<n>/i<prn><p3><pl><in>+ysaja<n>/i<prn><p3><sg><in>+ysaja<n>$
+^ha/ha<cnjcoo>/ha<n>/ha<v><iv>/ha<v><iv><pres>$
+^hague/hague<adj>/hague<cnjsub>/ha<n><incp>+gue<v><iv>/ha<n><incp>+gue<v><iv><pres>$
+^irrásare/i<prn><pos><p3><sg>+rrása<n>+re<post>/i<prn><p3><pl><in>+rrása<n>+re<post>/i<prn><p3><sg><in>+rrása<n>+re<post>$
+^(/(<lpar>$
+^jagua/jagua<n>/ja<n>+gua<post>/ja<v><iv>+gua<post>/ja<v><iv><pres>+gua<post>$
+^ñemoñangáre/ñemoñanga<n>+re<post>$
 ^)/)<rpar>$
 ^./.<sent>$
- ^Ijapysa/i<prn><pos><p3><sg>+apysa<n>/i<prn><p3><pl><in>+apysa<n>/i<prn><p3><sg><in>+apysa<n>/i<prn><pro><p3><pl><in>+apysa<v><tv>/i<prn><pro><p3><pl><in>+apysa<v><tv><pres>/i<prn><pro><p3><sg><in>+apysa<v><tv>/i<prn><pro><p3><sg><in>+apysa<v><tv><pres>/ij<n><incp>+apysa<v><tv>/ij<n><incp>+apysa<v><tv><pres>$
- ^ha/ha<cnjcoo>/ha<n>/ha<v><iv>/ha<v><iv><pres>$
- ^itĩ/i<prn><pos><p3><sg>+tĩ<n>/i<prn><p3><pl><in>+tĩ<n>/i<prn><p3><sg><in>+tĩ<n>$
- ^mbarete/mbarete<adj>/mbarete<adv>/mbarete<n>/mbarete<v><tv>/mbarete<v><tv><pres>$
+^Ijapysa/i<prn><pos><p3><sg>+apysa<n>/i<prn><p3><pl><in>+apysa<n>/i<prn><p3><sg><in>+apysa<n>/i<prn><pro><p3><pl><in>+apysa<v><tv>/i<prn><pro><p3><pl><in>+apysa<v><tv><pres>/i<prn><pro><p3><sg><in>+apysa<v><tv>/i<prn><pro><p3><sg><in>+apysa<v><tv><pres>/ij<n><incp>+apysa<v><tv>/ij<n><incp>+apysa<v><tv><pres>$
+^ha/ha<cnjcoo>/ha<n>/ha<v><iv>/ha<v><iv><pres>$
+^itĩ/i<prn><pos><p3><sg>+tĩ<n>/i<prn><p3><pl><in>+tĩ<n>/i<prn><p3><sg><in>+tĩ<n>$
+^mbarete/mbarete<adj>/mbarete<adv>/mbarete<n>/mbarete<v><tv>/mbarete<v><tv><pres>$
 ^,/,<cm>$
- ^ha/ha<cnjcoo>/ha<n>/ha<v><iv>/ha<v><iv><pres>$
- ^itĩre/i<prn><pos><p3><sg>+tĩ<n>+re<post>/i<prn><p3><pl><in>+tĩ<n>+re<post>/i<prn><p3><sg><in>+tĩ<n>+re<post>$
- ^oñandu/o<prn><pos><p3><sg>+ñandu<n>/o<prn><pos><p3><sg>+ñandú<n>/o<prn><p3><pl><ac>+ñandu<n>/o<prn><p3><pl><ac>+ñandu<v><tv>/o<prn><p3><pl><ac>+ñandu<v><tv><pres>/o<prn><p3><pl><ac>+ñandú<n>/o<prn><p3><pl><ac>+ñandú<v><tv>/o<prn><p3><pl><ac>+ñandú<v><tv><pres>/o<prn><p3><sg><ac>+ñandu<n>/o<prn><p3><sg><ac>+ñandu<v><tv>/o<prn><p3><sg><ac>+ñandu<v><tv><pres>/o<prn><p3><sg><ac>+ñandú<n>/o<prn><p3><sg><ac>+ñandú<v><tv>/o<prn><p3><sg><ac>+ñandú<v><tv><pres>$
- ^porãve/porãve<adj>/porã<adj>+ve<adj><dist>/porã<adj>+ve<comp>/porã<adv>+ve<comp>/porã<n>+ve<comp>$
- ^mba'ekuéra/mbaʼe<n>+kuéra<det><pl>/mbaʼe<sub>+kuera<v><iv>/mbaʼe<sub>+kuera<v><iv><pres>/mbaʼe<n><incp>+kuera<v><iv>/mbaʼe<n><incp>+kuera<v><iv><pres>$
- ^ijerére/i<prn><pos><p3><sg>+jere<n>+re<post>/i<prn><pos><p3><sg>+jerére<adj>/i<prn><pos><p3><sg>+je<n>+re<post>+re<post>/i<prn><p3><pl><in>+jere<n>+re<post>/i<prn><p3><pl><in>+jerére<adj>/i<prn><p3><pl><in>+je<n>+re<post>+re<post>/i<prn><p3><sg><in>+jere<n>+re<post>/i<prn><p3><sg><in>+jerére<adj>/i<prn><p3><sg><in>+je<n>+re<post>+re<post>/i<prn><pro><p3><pl><acc>+jere<v><tv>+re<post>/i<prn><pro><p3><pl><acc>+jere<v><tv><pres>+re<post>/i<prn><pro><p3><pl><in>+jere<v><tv>+re<post>/i<prn><pro><p3><pl><in>+jere<v><tv><pres>+re<post>/i<prn><pro><p3><sg><acc>+jere<v><tv>+re<post>/i<prn><pro><p3><sg><acc>+jere<v><tv><pres>+re<post>/i<prn><pro><p3><sg><in>+jere<v><tv>+re<post>/i<prn><pro><p3><sg><in>+jere<v><tv><pres>+re<post>/ij<n><incp>+e<v><tv>+re<post>+re<post>/ij<n><incp>+e<v><tv><pres>+re<post>+re<post>$
+^ha/ha<cnjcoo>/ha<n>/ha<v><iv>/ha<v><iv><pres>$
+^itĩre/i<prn><pos><p3><sg>+tĩ<n>+re<post>/i<prn><p3><pl><in>+tĩ<n>+re<post>/i<prn><p3><sg><in>+tĩ<n>+re<post>$
+^oñandu/o<prn><pos><p3><sg>+ñandu<n>/o<prn><pos><p3><sg>+ñandú<n>/o<prn><p3><pl><ac>+ñandu<n>/o<prn><p3><pl><ac>+ñandu<v><tv>/o<prn><p3><pl><ac>+ñandu<v><tv><pres>/o<prn><p3><pl><ac>+ñandú<n>/o<prn><p3><pl><ac>+ñandú<v><tv>/o<prn><p3><pl><ac>+ñandú<v><tv><pres>/o<prn><p3><sg><ac>+ñandu<n>/o<prn><p3><sg><ac>+ñandu<v><tv>/o<prn><p3><sg><ac>+ñandu<v><tv><pres>/o<prn><p3><sg><ac>+ñandú<n>/o<prn><p3><sg><ac>+ñandú<v><tv>/o<prn><p3><sg><ac>+ñandú<v><tv><pres>$
+^porãve/porãve<adj>/porã<adj>+ve<adj><dist>/porã<adj>+ve<comp>/porã<adv>+ve<comp>/porã<n>+ve<comp>$
+^mba'ekuéra/mbaʼe<n>+kuéra<det><pl>/mbaʼe<sub>+kuera<v><iv>/mbaʼe<sub>+kuera<v><iv><pres>/mbaʼe<n><incp>+kuera<v><iv>/mbaʼe<n><incp>+kuera<v><iv><pres>$
+^ijerére/i<prn><pos><p3><sg>+jere<n>+re<post>/i<prn><pos><p3><sg>+jerére<adj>/i<prn><pos><p3><sg>+je<n>+re<post>+re<post>/i<prn><p3><pl><in>+jere<n>+re<post>/i<prn><p3><pl><in>+jerére<adj>/i<prn><p3><pl><in>+je<n>+re<post>+re<post>/i<prn><p3><sg><in>+jere<n>+re<post>/i<prn><p3><sg><in>+jerére<adj>/i<prn><p3><sg><in>+je<n>+re<post>+re<post>/i<prn><pro><p3><pl><acc>+jere<v><tv>+re<post>/i<prn><pro><p3><pl><acc>+jere<v><tv><pres>+re<post>/i<prn><pro><p3><pl><in>+jere<v><tv>+re<post>/i<prn><pro><p3><pl><in>+jere<v><tv><pres>+re<post>/i<prn><pro><p3><sg><acc>+jere<v><tv>+re<post>/i<prn><pro><p3><sg><acc>+jere<v><tv><pres>+re<post>/i<prn><pro><p3><sg><in>+jere<v><tv>+re<post>/i<prn><pro><p3><sg><in>+jere<v><tv><pres>+re<post>/ij<n><incp>+e<v><tv>+re<post>+re<post>/ij<n><incp>+e<v><tv><pres>+re<post>+re<post>$
 ^./.<sent>$
- ^Umi/umi<prn><dem><pl>/umi<adj><dem><pl>$
- ^rrása/rrása<n>$
- ^michĩ/michĩ<adj>/michĩ<adv>$
- ^oguereko/o<prn><p3><pl><ac>+guereko<v><tv>/o<prn><p3><pl><ac>+guereko<v><tv><pres>/o<prn><p3><pl><ac>+gue<v><iv>+re<post>+ko<emph>/o<prn><p3><pl><ac>+gue<v><iv><pres>+re<post>+ko<emph>/o<prn><p3><sg><ac>+guereko<v><tv>/o<prn><p3><sg><ac>+guereko<v><tv><pres>/o<prn><p3><sg><ac>+gue<v><iv>+re<post>+ko<emph>/o<prn><p3><sg><ac>+gue<v><iv><pres>+re<post>+ko<emph>$
- ^árarekove/ára<n><incp>+rekove<v><tv>/ára<n><incp>+rekove<v><tv><pres>/ára<n><incp>+reko<v><tv><pres>+ve<comp>$
- ^mokõi/mokõi<adj>/mokõi<n>/mokõi<num>/mokõ<v><tv>+i<neg>/mokõ<v><tv><pres>+i<neg>$
- ^pa/pa<num>/pa<v><iv>/pa<v><iv><pres>$
- ^arykue/a<prn><p1><sg><ac>+ry<n>+kue<post>/a<prn><p1><sg><ac>+ry<n>+kue<subs>/ary<n>+kue<post>/ary<n>+kue<subs>$
+^Umi/umi<prn><dem><pl>/umi<adj><dem><pl>$
+^rrása/rrása<n>$
+^michĩ/michĩ<adj>/michĩ<adv>$
+^oguereko/o<prn><p3><pl><ac>+guereko<v><tv>/o<prn><p3><pl><ac>+guereko<v><tv><pres>/o<prn><p3><pl><ac>+gue<v><iv>+re<post>+ko<emph>/o<prn><p3><pl><ac>+gue<v><iv><pres>+re<post>+ko<emph>/o<prn><p3><sg><ac>+guereko<v><tv>/o<prn><p3><sg><ac>+guereko<v><tv><pres>/o<prn><p3><sg><ac>+gue<v><iv>+re<post>+ko<emph>/o<prn><p3><sg><ac>+gue<v><iv><pres>+re<post>+ko<emph>$
+^árarekove/ára<n><incp>+rekove<v><tv>/ára<n><incp>+rekove<v><tv><pres>/ára<n><incp>+reko<v><tv><pres>+ve<comp>$
+^mokõi/mokõi<adj>/mokõi<n>/mokõi<num>/mokõ<v><tv>+i<neg>/mokõ<v><tv><pres>+i<neg>$
+^pa/pa<num>/pa<v><iv>/pa<v><iv><pres>$
+^arykue/a<prn><p1><sg><ac>+ry<n>+kue<post>/a<prn><p1><sg><ac>+ry<n>+kue<subs>/ary<n>+kue<post>/ary<n>+kue<subs>$
 ^,/,<cm>$
- ^oñeñangarekoporãrõ/o<prn><p3><pl><ac>+je<pass>+ñangareko<v><iv><pres>porã<adv>+rõ<post>/o<prn><p3><pl><ac>+je<pass>+ñangareko<v><tv><pres>porã<adv>+rõ<post>/o<prn><p3><pl><ac>+je<ref>+ñangareko<v><iv><pres>porã<adv>+rõ<post>/o<prn><p3><pl><ac>+je<ref>+ñangareko<v><tv><pres>porã<adv>+rõ<post>/o<prn><p3><pl><ac>+ñande<prn><pro><p1><pl><acc>+ñangareko<v><tv><pres>porã<adv>+rõ<post>/o<prn><p3><sg><ac>+je<pass>+ñangareko<v><iv><pres>porã<adv>+rõ<post>/o<prn><p3><sg><ac>+je<pass>+ñangareko<v><tv><pres>porã<adv>+rõ<post>/o<prn><p3><sg><ac>+je<ref>+ñangareko<v><iv><pres>porã<adv>+rõ<post>/o<prn><p3><sg><ac>+je<ref>+ñangareko<v><tv><pres>porã<adv>+rõ<post>/o<prn><p3><sg><ac>+ñande<prn><pro><p1><pl><acc>+ñangareko<v><tv><pres>porã<adv>+rõ<post>/o<prn><pos><p3><sg>+ñeñangareko<n><incp>+po<v><tv><pres>+rã<subs>+rõ<post>/o<prn><pos><p3><sg>+ñe<n><incp>+ñangareko<v><iv><pres>porã<adv>+rõ<post>/o<prn><pos><p3><sg>+ñe<n><incp>+ñangareko<v><tv><pres>porã<adv>+rõ<post>/o<prn><p3><pl><ac>+ñeñangareko<n><incp>+po<v><tv><pres>+rã<subs>+rõ<post>/o<prn><p3><pl><ac>+ñe<n><incp>+ñangareko<v><iv><pres>porã<adv>+rõ<post>/o<prn><p3><pl><ac>+ñe<n><incp>+ñangareko<v><tv><pres>porã<adv>+rõ<post>/o<prn><p3><sg><ac>+ñeñangareko<n><incp>+po<v><tv><pres>+rã<subs>+rõ<post>/o<prn><p3><sg><ac>+ñe<n><incp>+ñangareko<v><iv><pres>porã<adv>+rõ<post>/o<prn><p3><sg><ac>+ñe<n><incp>+ñangareko<v><tv><pres>porã<adv>+rõ<post>$
- ^hese/hese<post>$
+^oñeñangarekoporãrõ/o<prn><p3><pl><ac>+je<pass>+ñangareko<v><iv><pres>porã<adv>+rõ<post>/o<prn><p3><pl><ac>+je<pass>+ñangareko<v><tv><pres>porã<adv>+rõ<post>/o<prn><p3><pl><ac>+je<ref>+ñangareko<v><iv><pres>porã<adv>+rõ<post>/o<prn><p3><pl><ac>+je<ref>+ñangareko<v><tv><pres>porã<adv>+rõ<post>/o<prn><p3><pl><ac>+ñande<prn><pro><p1><pl><acc>+ñangareko<v><tv><pres>porã<adv>+rõ<post>/o<prn><p3><sg><ac>+je<pass>+ñangareko<v><iv><pres>porã<adv>+rõ<post>/o<prn><p3><sg><ac>+je<pass>+ñangareko<v><tv><pres>porã<adv>+rõ<post>/o<prn><p3><sg><ac>+je<ref>+ñangareko<v><iv><pres>porã<adv>+rõ<post>/o<prn><p3><sg><ac>+je<ref>+ñangareko<v><tv><pres>porã<adv>+rõ<post>/o<prn><p3><sg><ac>+ñande<prn><pro><p1><pl><acc>+ñangareko<v><tv><pres>porã<adv>+rõ<post>/o<prn><pos><p3><sg>+ñeñangareko<n><incp>+po<v><tv><pres>+rã<subs>+rõ<post>/o<prn><pos><p3><sg>+ñe<n><incp>+ñangareko<v><iv><pres>porã<adv>+rõ<post>/o<prn><pos><p3><sg>+ñe<n><incp>+ñangareko<v><tv><pres>porã<adv>+rõ<post>/o<prn><p3><pl><ac>+ñeñangareko<n><incp>+po<v><tv><pres>+rã<subs>+rõ<post>/o<prn><p3><pl><ac>+ñe<n><incp>+ñangareko<v><iv><pres>porã<adv>+rõ<post>/o<prn><p3><pl><ac>+ñe<n><incp>+ñangareko<v><tv><pres>porã<adv>+rõ<post>/o<prn><p3><sg><ac>+ñeñangareko<n><incp>+po<v><tv><pres>+rã<subs>+rõ<post>/o<prn><p3><sg><ac>+ñe<n><incp>+ñangareko<v><iv><pres>porã<adv>+rõ<post>/o<prn><p3><sg><ac>+ñe<n><incp>+ñangareko<v><tv><pres>porã<adv>+rõ<post>$
+^hese/hese<post>$
 ^,/,<cm>$
- ^ha/ha<cnjcoo>/ha<n>/ha<v><iv>/ha<v><iv><pres>$
- ^umi/umi<prn><dem><pl>/umi<adj><dem><pl>$
- ^rrása/rrása<n>$
- ^ambuéva/ambue<adj><ind>+va<subs><dem>/ambue<v><tv>+va<subs><dem>/ambue<v><tv><pres>+va<subs><dem>/ambuéva<prn><ind>/ambu<n><incp>+e<v><tv>+va<subs><dem>/ambu<n><incp>+e<v><tv><pres>+va<subs><dem>$
- ^oguereko/o<prn><p3><pl><ac>+guereko<v><tv>/o<prn><p3><pl><ac>+guereko<v><tv><pres>/o<prn><p3><pl><ac>+gue<v><iv>+re<post>+ko<emph>/o<prn><p3><pl><ac>+gue<v><iv><pres>+re<post>+ko<emph>/o<prn><p3><sg><ac>+guereko<v><tv>/o<prn><p3><sg><ac>+guereko<v><tv><pres>/o<prn><p3><sg><ac>+gue<v><iv>+re<post>+ko<emph>/o<prn><p3><sg><ac>+gue<v><iv><pres>+re<post>+ko<emph>$
- ^árarekove/ára<n><incp>+rekove<v><tv>/ára<n><incp>+rekove<v><tv><pres>/ára<n><incp>+reko<v><tv><pres>+ve<comp>$
- ^pa/pa<num>/pa<v><iv>/pa<v><iv><pres>$
- ^gotyo/gotyo<post>$
- ^papo/papo<num>$
- ^arykue/a<prn><p1><sg><ac>+ry<n>+kue<post>/a<prn><p1><sg><ac>+ry<n>+kue<subs>/ary<n>+kue<post>/ary<n>+kue<subs>$
+^ha/ha<cnjcoo>/ha<n>/ha<v><iv>/ha<v><iv><pres>$
+^umi/umi<prn><dem><pl>/umi<adj><dem><pl>$
+^rrása/rrása<n>$
+^ambuéva/ambue<adj><ind>+va<subs><dem>/ambue<v><tv>+va<subs><dem>/ambue<v><tv><pres>+va<subs><dem>/ambuéva<prn><ind>/ambu<n><incp>+e<v><tv>+va<subs><dem>/ambu<n><incp>+e<v><tv><pres>+va<subs><dem>$
+^oguereko/o<prn><p3><pl><ac>+guereko<v><tv>/o<prn><p3><pl><ac>+guereko<v><tv><pres>/o<prn><p3><pl><ac>+gue<v><iv>+re<post>+ko<emph>/o<prn><p3><pl><ac>+gue<v><iv><pres>+re<post>+ko<emph>/o<prn><p3><sg><ac>+guereko<v><tv>/o<prn><p3><sg><ac>+guereko<v><tv><pres>/o<prn><p3><sg><ac>+gue<v><iv>+re<post>+ko<emph>/o<prn><p3><sg><ac>+gue<v><iv><pres>+re<post>+ko<emph>$
+^árarekove/ára<n><incp>+rekove<v><tv>/ára<n><incp>+rekove<v><tv><pres>/ára<n><incp>+reko<v><tv><pres>+ve<comp>$
+^pa/pa<num>/pa<v><iv>/pa<v><iv><pres>$
+^gotyo/gotyo<post>$
+^papo/papo<num>$
+^arykue/a<prn><p1><sg><ac>+ry<n>+kue<post>/a<prn><p1><sg><ac>+ry<n>+kue<subs>/ary<n>+kue<post>/ary<n>+kue<subs>$
 ^../..<sent>$
-
-
 ^Oiko/o<prn><p3><pl><ac>+ko<v><iv>/o<prn><p3><pl><ac>+ko<v><iv><pres>/o<prn><p3><sg><ac>+ko<v><iv>/o<prn><p3><sg><ac>+ko<v><iv><pres>$
- ^amo/amo<prn><dem><sg>/amo<adj><dem><sg>/amo<adv>$
- ^800/800<num>/80<num>+<num>$
- ^jagua/jagua<n>/ja<n>+gua<post>/ja<v><iv>+gua<post>/ja<v><iv><pres>+gua<post>$
- ^irrása/i<prn><pos><p3><sg>+rrása<n>/i<prn><p3><pl><in>+rrása<n>/i<prn><p3><sg><in>+rrása<n>$
- ^kuéra/kuera<adj>/kuera<v><iv>/kuera<v><iv><pres>/kuéra<det><pl>$
+^amo/amo<prn><dem><sg>/amo<adj><dem><sg>/amo<adv>$
+^800/800<num>/80<num>+<num>$
+^jagua/jagua<n>/ja<n>+gua<post>/ja<v><iv>+gua<post>/ja<v><iv><pres>+gua<post>$
+^irrása/i<prn><pos><p3><sg>+rrása<n>/i<prn><p3><pl><in>+rrása<n>/i<prn><p3><sg><in>+rrása<n>$
+^kuéra/kuera<adj>/kuera<v><iv>/kuera<v><iv><pres>/kuéra<det><pl>$
 ^,/,<cm>$
- ^ituichakue/i<prn><pos><p3><sg>+tuichakue<n>/i<prn><pos><p3><sg>+tuicha<adj>+kue<post>/i<prn><pos><p3><sg>+tuicha<adj>+kue<subs>/i<prn><p3><pl><in>+tuichakue<n>/i<prn><p3><pl><in>+tuicha<adj>+kue<post>/i<prn><p3><pl><in>+tuicha<adj>+kue<subs>/i<prn><p3><sg><in>+tuichakue<n>/i<prn><p3><sg><in>+tuicha<adj>+kue<post>/i<prn><p3><sg><in>+tuicha<adj>+kue<subs>$
+^ituichakue/i<prn><pos><p3><sg>+tuichakue<n>/i<prn><pos><p3><sg>+tuicha<adj>+kue<post>/i<prn><pos><p3><sg>+tuicha<adj>+kue<subs>/i<prn><p3><pl><in>+tuichakue<n>/i<prn><p3><pl><in>+tuicha<adj>+kue<post>/i<prn><p3><pl><in>+tuicha<adj>+kue<subs>/i<prn><p3><sg><in>+tuichakue<n>/i<prn><p3><sg><in>+tuicha<adj>+kue<post>/i<prn><p3><sg><in>+tuicha<adj>+kue<subs>$
 ^,/,<cm>$
- ^hete/hete<n>$
- ^ha/ha<cnjcoo>/ha<n>/ha<v><iv>/ha<v><iv><pres>$
- ^heko/h<prn><pos><p3><sg>+teko<n>/he<adj>+ko<emph>/he<adv>+ko<emph>/he<n><incp>+ko<v><iv>/he<n><incp>+ko<v><iv><pres>$
- ^opaichagua/o<prn><p3><pl><ac>+pa<v><iv>+i<neg>+icha<comp>+gua<post>/o<prn><p3><pl><ac>+pa<v><iv><pres>+icha<comp>+gua<post>/o<prn><p3><pl><ac>+pa<v><iv><pres>+i<neg>+icha<comp>+gua<post>/o<prn><p3><sg><ac>+pa<v><iv>+i<neg>+icha<comp>+gua<post>/o<prn><p3><sg><ac>+pa<v><iv><pres>+icha<comp>+gua<post>/o<prn><p3><sg><ac>+pa<v><iv><pres>+i<neg>+icha<comp>+gua<post>/opaichagua<adj>/opa<adj>+icha<comp>+gua<post>/opa<adj>+i<neg>+icha<comp>+gua<post>/opa<adj><ind>+icha<comp>+gua<post>/opa<adj><ind>+i<neg>+icha<comp>+gua<post>/opa<n>+icha<comp>+gua<post>/opáicha<adv>+gua<post>/opa<n><incp>+ĩ<v><iv>+i<neg>+icha<comp>+gua<post>/opa<n><incp>+ĩ<v><iv><pres>+icha<comp>+gua<post>/opa<n><incp>+ĩ<v><iv><pres>+i<neg>+icha<comp>+gua<post>$
+^hete/hete<n>$
+^ha/ha<cnjcoo>/ha<n>/ha<v><iv>/ha<v><iv><pres>$
+^heko/h<prn><pos><p3><sg>+teko<n>/he<adj>+ko<emph>/he<adv>+ko<emph>/he<n><incp>+ko<v><iv>/he<n><incp>+ko<v><iv><pres>$
+^opaichagua/o<prn><p3><pl><ac>+pa<v><iv>+i<neg>+icha<comp>+gua<post>/o<prn><p3><pl><ac>+pa<v><iv><pres>+icha<comp>+gua<post>/o<prn><p3><pl><ac>+pa<v><iv><pres>+i<neg>+icha<comp>+gua<post>/o<prn><p3><sg><ac>+pa<v><iv>+i<neg>+icha<comp>+gua<post>/o<prn><p3><sg><ac>+pa<v><iv><pres>+icha<comp>+gua<post>/o<prn><p3><sg><ac>+pa<v><iv><pres>+i<neg>+icha<comp>+gua<post>/opaichagua<adj>/opa<adj>+icha<comp>+gua<post>/opa<adj>+i<neg>+icha<comp>+gua<post>/opa<adj><ind>+icha<comp>+gua<post>/opa<adj><ind>+i<neg>+icha<comp>+gua<post>/opa<n>+icha<comp>+gua<post>/opáicha<adv>+gua<post>/opa<n><incp>+ĩ<v><iv>+i<neg>+icha<comp>+gua<post>/opa<n><incp>+ĩ<v><iv><pres>+icha<comp>+gua<post>/opa<n><incp>+ĩ<v><iv><pres>+i<neg>+icha<comp>+gua<post>$
 ^,/,<cm>$
- ^oguereko/o<prn><p3><pl><ac>+guereko<v><tv>/o<prn><p3><pl><ac>+guereko<v><tv><pres>/o<prn><p3><pl><ac>+gue<v><iv>+re<post>+ko<emph>/o<prn><p3><pl><ac>+gue<v><iv><pres>+re<post>+ko<emph>/o<prn><p3><sg><ac>+guereko<v><tv>/o<prn><p3><sg><ac>+guereko<v><tv><pres>/o<prn><p3><sg><ac>+gue<v><iv>+re<post>+ko<emph>/o<prn><p3><sg><ac>+gue<v><iv><pres>+re<post>+ko<emph>$
- ^avei/avei<adv>/a<v><iv><pres>+ve<comp>+i<neg>/a<v><tv><pres>+ve<comp>+i<neg>/a<prn><p1><sg><ac>+ve<n><incp>+ĩ<v><iv>+i<neg>/a<prn><p1><sg><ac>+ve<n><incp>+ĩ<v><iv><pres>+i<neg>$
- ^opaichagua/o<prn><p3><pl><ac>+pa<v><iv>+i<neg>+icha<comp>+gua<post>/o<prn><p3><pl><ac>+pa<v><iv><pres>+icha<comp>+gua<post>/o<prn><p3><pl><ac>+pa<v><iv><pres>+i<neg>+icha<comp>+gua<post>/o<prn><p3><sg><ac>+pa<v><iv>+i<neg>+icha<comp>+gua<post>/o<prn><p3><sg><ac>+pa<v><iv><pres>+icha<comp>+gua<post>/o<prn><p3><sg><ac>+pa<v><iv><pres>+i<neg>+icha<comp>+gua<post>/opaichagua<adj>/opa<adj>+icha<comp>+gua<post>/opa<adj>+i<neg>+icha<comp>+gua<post>/opa<adj><ind>+icha<comp>+gua<post>/opa<adj><ind>+i<neg>+icha<comp>+gua<post>/opa<n>+icha<comp>+gua<post>/opáicha<adv>+gua<post>/opa<n><incp>+ĩ<v><iv>+i<neg>+icha<comp>+gua<post>/opa<n><incp>+ĩ<v><iv><pres>+icha<comp>+gua<post>/opa<n><incp>+ĩ<v><iv><pres>+i<neg>+icha<comp>+gua<post>$
- ^sa'y/saʼy<n>$
- ^ha/ha<cnjcoo>/ha<n>/ha<v><iv>/ha<v><iv><pres>$
- ^hague/hague<adj>/hague<cnjsub>/ha<n><incp>+gue<v><iv>/ha<n><incp>+gue<v><iv><pres>$
+^oguereko/o<prn><p3><pl><ac>+guereko<v><tv>/o<prn><p3><pl><ac>+guereko<v><tv><pres>/o<prn><p3><pl><ac>+gue<v><iv>+re<post>+ko<emph>/o<prn><p3><pl><ac>+gue<v><iv><pres>+re<post>+ko<emph>/o<prn><p3><sg><ac>+guereko<v><tv>/o<prn><p3><sg><ac>+guereko<v><tv><pres>/o<prn><p3><sg><ac>+gue<v><iv>+re<post>+ko<emph>/o<prn><p3><sg><ac>+gue<v><iv><pres>+re<post>+ko<emph>$
+^avei/avei<adv>/a<v><iv><pres>+ve<comp>+i<neg>/a<v><tv><pres>+ve<comp>+i<neg>/a<prn><p1><sg><ac>+ve<n><incp>+ĩ<v><iv>+i<neg>/a<prn><p1><sg><ac>+ve<n><incp>+ĩ<v><iv><pres>+i<neg>$
+^opaichagua/o<prn><p3><pl><ac>+pa<v><iv>+i<neg>+icha<comp>+gua<post>/o<prn><p3><pl><ac>+pa<v><iv><pres>+icha<comp>+gua<post>/o<prn><p3><pl><ac>+pa<v><iv><pres>+i<neg>+icha<comp>+gua<post>/o<prn><p3><sg><ac>+pa<v><iv>+i<neg>+icha<comp>+gua<post>/o<prn><p3><sg><ac>+pa<v><iv><pres>+icha<comp>+gua<post>/o<prn><p3><sg><ac>+pa<v><iv><pres>+i<neg>+icha<comp>+gua<post>/opaichagua<adj>/opa<adj>+icha<comp>+gua<post>/opa<adj>+i<neg>+icha<comp>+gua<post>/opa<adj><ind>+icha<comp>+gua<post>/opa<adj><ind>+i<neg>+icha<comp>+gua<post>/opa<n>+icha<comp>+gua<post>/opáicha<adv>+gua<post>/opa<n><incp>+ĩ<v><iv>+i<neg>+icha<comp>+gua<post>/opa<n><incp>+ĩ<v><iv><pres>+icha<comp>+gua<post>/opa<n><incp>+ĩ<v><iv><pres>+i<neg>+icha<comp>+gua<post>$
+^sa'y/saʼy<n>$
+^ha/ha<cnjcoo>/ha<n>/ha<v><iv>/ha<v><iv><pres>$
+^hague/hague<adj>/hague<cnjsub>/ha<n><incp>+gue<v><iv>/ha<n><incp>+gue<v><iv><pres>$
 ^./.<sent>$
- ^Jagua/Ja<np><al>+gua<post>/jagua<n>/ja<n>+gua<post>/ja<v><iv>+gua<post>/ja<v><iv><pres>+gua<post>$
- ^niko/niko<adv>/niko<aux><nar>$
- ^oiko/o<prn><p3><pl><ac>+ko<v><iv>/o<prn><p3><pl><ac>+ko<v><iv><pres>/o<prn><p3><sg><ac>+ko<v><iv>/o<prn><p3><sg><ac>+ko<v><iv><pres>$
- ^porãve/porãve<adj>/porã<adj>+ve<adj><dist>/porã<adj>+ve<comp>/porã<adv>+ve<comp>/porã<n>+ve<comp>$
- ^yvypóra/yvypóra<adj>/yvypóra<n>$
- ^ndive/ndive<post>$
- ^ha/ha<cnjcoo>/ha<n>/ha<v><iv>/ha<v><iv><pres>$
- ^upévare/upe<prn><dem><sg>+va<subs><dem>+re<post>/upévare<cnjsub>$
- ^ojepuru/o<prn><p3><pl><ac>+jepuru<v><tv>/o<prn><p3><pl><ac>+jepuru<v><tv><pres>/o<prn><p3><pl><ac>+je<pass>+puru<v><tv>/o<prn><p3><pl><ac>+je<pass>+puru<v><tv><pres>/o<prn><p3><pl><ac>+je<ref>+puru<v><tv>/o<prn><p3><pl><ac>+je<ref>+puru<v><tv><pres>/o<prn><p3><sg><ac>+jepuru<v><tv>/o<prn><p3><sg><ac>+jepuru<v><tv><pres>/o<prn><p3><sg><ac>+je<pass>+puru<v><tv>/o<prn><p3><sg><ac>+je<pass>+puru<v><tv><pres>/o<prn><p3><sg><ac>+je<ref>+puru<v><tv>/o<prn><p3><sg><ac>+je<ref>+puru<v><tv><pres>/o<prn><pos><p3><sg>+je<n><incp>+puru<v><tv>/o<prn><pos><p3><sg>+je<n><incp>+puru<v><tv><pres>/o<prn><p3><pl><ac>+je<n><incp>+puru<v><tv>/o<prn><p3><pl><ac>+je<n><incp>+puru<v><tv><pres>/o<prn><p3><sg><ac>+je<n><incp>+puru<v><tv>/o<prn><p3><sg><ac>+je<n><incp>+puru<v><tv><pres>$
- ^heta/heta<adj>/heta<adj><ind>/heta<adv>$
- ^jagua/jagua<n>/ja<n>+gua<post>/ja<v><iv>+gua<post>/ja<v><iv><pres>+gua<post>$
- ^oñemoirũ/o<prn><p3><pl><ac>+je<pass>+moirũ<v><tv>/o<prn><p3><pl><ac>+je<pass>+moirũ<v><tv><pres>/o<prn><p3><pl><ac>+je<ref>+moirũ<v><tv>/o<prn><p3><pl><ac>+je<ref>+moirũ<v><tv><pres>/o<prn><p3><pl><ac>+ñande<prn><pro><p1><pl><acc>+moirũ<v><tv>/o<prn><p3><pl><ac>+ñande<prn><pro><p1><pl><acc>+moirũ<v><tv><pres>/o<prn><p3><pl><ac>+ñemoirũ<v><tv>/o<prn><p3><pl><ac>+ñemoirũ<v><tv><pres>/o<prn><p3><sg><ac>+je<pass>+moirũ<v><tv>/o<prn><p3><sg><ac>+je<pass>+moirũ<v><tv><pres>/o<prn><p3><sg><ac>+je<ref>+moirũ<v><tv>/o<prn><p3><sg><ac>+je<ref>+moirũ<v><tv><pres>/o<prn><p3><sg><ac>+ñande<prn><pro><p1><pl><acc>+moirũ<v><tv>/o<prn><p3><sg><ac>+ñande<prn><pro><p1><pl><acc>+moirũ<v><tv><pres>/o<prn><p3><sg><ac>+ñemoirũ<v><tv>/o<prn><p3><sg><ac>+ñemoirũ<v><tv><pres>/o<prn><pos><p3><sg>+ñe<n><incp>+moirũ<v><tv>/o<prn><pos><p3><sg>+ñe<n><incp>+moirũ<v><tv><pres>/o<prn><p3><pl><ac>+ñe<n><incp>+moirũ<v><tv>/o<prn><p3><pl><ac>+ñe<n><incp>+moirũ<v><tv><pres>/o<prn><p3><sg><ac>+ñe<n><incp>+moirũ<v><tv>/o<prn><p3><sg><ac>+ñe<n><incp>+moirũ<v><tv><pres>$
+^Jagua/Ja<np><al>+gua<post>/jagua<n>/ja<n>+gua<post>/ja<v><iv>+gua<post>/ja<v><iv><pres>+gua<post>$
+^niko/niko<adv>/niko<aux><nar>$
+^oiko/o<prn><p3><pl><ac>+ko<v><iv>/o<prn><p3><pl><ac>+ko<v><iv><pres>/o<prn><p3><sg><ac>+ko<v><iv>/o<prn><p3><sg><ac>+ko<v><iv><pres>$
+^porãve/porãve<adj>/porã<adj>+ve<adj><dist>/porã<adj>+ve<comp>/porã<adv>+ve<comp>/porã<n>+ve<comp>$
+^yvypóra/yvypóra<adj>/yvypóra<n>$
+^ndive/ndive<post>$
+^ha/ha<cnjcoo>/ha<n>/ha<v><iv>/ha<v><iv><pres>$
+^upévare/upe<prn><dem><sg>+va<subs><dem>+re<post>/upévare<cnjsub>$
+^ojepuru/o<prn><p3><pl><ac>+jepuru<v><tv>/o<prn><p3><pl><ac>+jepuru<v><tv><pres>/o<prn><p3><pl><ac>+je<pass>+puru<v><tv>/o<prn><p3><pl><ac>+je<pass>+puru<v><tv><pres>/o<prn><p3><pl><ac>+je<ref>+puru<v><tv>/o<prn><p3><pl><ac>+je<ref>+puru<v><tv><pres>/o<prn><p3><sg><ac>+jepuru<v><tv>/o<prn><p3><sg><ac>+jepuru<v><tv><pres>/o<prn><p3><sg><ac>+je<pass>+puru<v><tv>/o<prn><p3><sg><ac>+je<pass>+puru<v><tv><pres>/o<prn><p3><sg><ac>+je<ref>+puru<v><tv>/o<prn><p3><sg><ac>+je<ref>+puru<v><tv><pres>/o<prn><pos><p3><sg>+je<n><incp>+puru<v><tv>/o<prn><pos><p3><sg>+je<n><incp>+puru<v><tv><pres>/o<prn><p3><pl><ac>+je<n><incp>+puru<v><tv>/o<prn><p3><pl><ac>+je<n><incp>+puru<v><tv><pres>/o<prn><p3><sg><ac>+je<n><incp>+puru<v><tv>/o<prn><p3><sg><ac>+je<n><incp>+puru<v><tv><pres>$
+^heta/heta<adj>/heta<adj><ind>/heta<adv>$
+^jagua/jagua<n>/ja<n>+gua<post>/ja<v><iv>+gua<post>/ja<v><iv><pres>+gua<post>$
+^oñemoirũ/o<prn><p3><pl><ac>+je<pass>+moirũ<v><tv>/o<prn><p3><pl><ac>+je<pass>+moirũ<v><tv><pres>/o<prn><p3><pl><ac>+je<ref>+moirũ<v><tv>/o<prn><p3><pl><ac>+je<ref>+moirũ<v><tv><pres>/o<prn><p3><pl><ac>+ñande<prn><pro><p1><pl><acc>+moirũ<v><tv>/o<prn><p3><pl><ac>+ñande<prn><pro><p1><pl><acc>+moirũ<v><tv><pres>/o<prn><p3><pl><ac>+ñemoirũ<v><tv>/o<prn><p3><pl><ac>+ñemoirũ<v><tv><pres>/o<prn><p3><sg><ac>+je<pass>+moirũ<v><tv>/o<prn><p3><sg><ac>+je<pass>+moirũ<v><tv><pres>/o<prn><p3><sg><ac>+je<ref>+moirũ<v><tv>/o<prn><p3><sg><ac>+je<ref>+moirũ<v><tv><pres>/o<prn><p3><sg><ac>+ñande<prn><pro><p1><pl><acc>+moirũ<v><tv>/o<prn><p3><sg><ac>+ñande<prn><pro><p1><pl><acc>+moirũ<v><tv><pres>/o<prn><p3><sg><ac>+ñemoirũ<v><tv>/o<prn><p3><sg><ac>+ñemoirũ<v><tv><pres>/o<prn><pos><p3><sg>+ñe<n><incp>+moirũ<v><tv>/o<prn><pos><p3><sg>+ñe<n><incp>+moirũ<v><tv><pres>/o<prn><p3><pl><ac>+ñe<n><incp>+moirũ<v><tv>/o<prn><p3><pl><ac>+ñe<n><incp>+moirũ<v><tv><pres>/o<prn><p3><sg><ac>+ñe<n><incp>+moirũ<v><tv>/o<prn><p3><sg><ac>+ñe<n><incp>+moirũ<v><tv><pres>$
 ^,/,<cm>$
- ^ñangarekohára/ñangarekohára<n>/ñangareko<v><iv><pres>+hára<subs>/ñangareko<v><tv><pres>+hára<subs>/ñangareko<n><incp>+hara<v><tv>/ñangareko<n><incp>+hara<v><tv><pres>$
+^ñangarekohára/ñangarekohára<n>/ñangareko<v><iv><pres>+hára<subs>/ñangareko<v><tv><pres>+hára<subs>/ñangareko<n><incp>+hara<v><tv>/ñangareko<n><incp>+hara<v><tv><pres>$
 ^,/,<cm>$
- ^omba'apohára/o<prn><pos><p3><sg>+mbaʼapohára<adj>/o<prn><pos><p3><sg>+mbaʼapohára<n>/o<prn><p3><pl><ac>+mbaʼapohára<n>/o<prn><p3><pl><ac>+mbaʼapo<v><iv><pres>+hára<subs>/o<prn><p3><pl><ac>+mbaʼapo<v><tv><pres>+hára<subs>/o<prn><p3><sg><ac>+mbaʼapohára<n>/o<prn><p3><sg><ac>+mbaʼapo<v><iv><pres>+hára<subs>/o<prn><p3><sg><ac>+mbaʼapo<v><tv><pres>+hára<subs>/o<prn><pos><p3><sg>+mbaʼapo<n><incp>+hara<v><tv>/o<prn><pos><p3><sg>+mbaʼapo<n><incp>+hara<v><tv><pres>/o<prn><p3><pl><ac>+mbaʼapo<n><incp>+hara<v><tv>/o<prn><p3><pl><ac>+mbaʼapo<n><incp>+hara<v><tv><pres>/o<prn><p3><sg><ac>+mbaʼapo<n><incp>+hara<v><tv>/o<prn><p3><sg><ac>+mbaʼapo<n><incp>+hara<v><tv><pres>$
+^omba'apohára/o<prn><pos><p3><sg>+mbaʼapohára<adj>/o<prn><pos><p3><sg>+mbaʼapohára<n>/o<prn><p3><pl><ac>+mbaʼapohára<n>/o<prn><p3><pl><ac>+mbaʼapo<v><iv><pres>+hára<subs>/o<prn><p3><pl><ac>+mbaʼapo<v><tv><pres>+hára<subs>/o<prn><p3><sg><ac>+mbaʼapohára<n>/o<prn><p3><sg><ac>+mbaʼapo<v><iv><pres>+hára<subs>/o<prn><p3><sg><ac>+mbaʼapo<v><tv><pres>+hára<subs>/o<prn><pos><p3><sg>+mbaʼapo<n><incp>+hara<v><tv>/o<prn><pos><p3><sg>+mbaʼapo<n><incp>+hara<v><tv><pres>/o<prn><p3><pl><ac>+mbaʼapo<n><incp>+hara<v><tv>/o<prn><p3><pl><ac>+mbaʼapo<n><incp>+hara<v><tv><pres>/o<prn><p3><sg><ac>+mbaʼapo<n><incp>+hara<v><tv>/o<prn><p3><sg><ac>+mbaʼapo<n><incp>+hara<v><tv><pres>$
 ^,/,<cm>$
- ^ogueraháva/o<prn><p3><pl><ac>+gueraha<v><tv>+va<subs><dem>/o<prn><p3><pl><ac>+gueraha<v><tv><pres>+va<subs><dem>/o<prn><p3><sg><ac>+gueraha<v><tv>+va<subs><dem>/o<prn><p3><sg><ac>+gueraha<v><tv><pres>+va<subs><dem>$
- ^yvypóra/yvypóra<adj>/yvypóra<n>$
- ^ha/ha<cnjcoo>/ha<n>/ha<v><iv>/ha<v><iv><pres>$
- ^mba'ekuéra/mbaʼe<n>+kuéra<det><pl>/mbaʼe<sub>+kuera<v><iv>/mbaʼe<sub>+kuera<v><iv><pres>/mbaʼe<n><incp>+kuera<v><iv>/mbaʼe<n><incp>+kuera<v><iv><pres>$
- ^yrypy'áre/yrypyʼa<n>+re<post>/y<n><incp>+rypyʼa<v><tv>+re<post>/y<n><incp>+rypyʼa<v><tv><pres>+re<post>$
+^ogueraháva/o<prn><p3><pl><ac>+gueraha<v><tv>+va<subs><dem>/o<prn><p3><pl><ac>+gueraha<v><tv><pres>+va<subs><dem>/o<prn><p3><sg><ac>+gueraha<v><tv>+va<subs><dem>/o<prn><p3><sg><ac>+gueraha<v><tv><pres>+va<subs><dem>$
+^yvypóra/yvypóra<adj>/yvypóra<n>$
+^ha/ha<cnjcoo>/ha<n>/ha<v><iv>/ha<v><iv><pres>$
+^mba'ekuéra/mbaʼe<n>+kuéra<det><pl>/mbaʼe<sub>+kuera<v><iv>/mbaʼe<sub>+kuera<v><iv><pres>/mbaʼe<n><incp>+kuera<v><iv>/mbaʼe<n><incp>+kuera<v><iv><pres>$
+^yrypy'áre/yrypyʼa<n>+re<post>/y<n><incp>+rypyʼa<v><tv>+re<post>/y<n><incp>+rypyʼa<v><tv><pres>+re<post>$
 ^,/,<cm>$
- ^tymba'apiha/tymbaʼapiha<n>/tymbaʼapi<n><incp>+ha<v><iv>/tymbaʼapi<n><incp>+ha<v><iv><pres>$
+^tymba'apiha/tymbaʼapiha<n>/tymbaʼapi<n><incp>+ha<v><iv>/tymbaʼapi<n><incp>+ha<v><iv><pres>$
 ^,/,<cm>$
- ^ñañihára/*ñañihára$
+^ñañihára/*ñañihára$
 ^,/,<cm>$
- ^osãmbyhýva/o<prn><p3><pl><ac>+sãmbyhy<v><tv>+va<subs><dem>/o<prn><p3><pl><ac>+sãmbyhy<v><tv><pres>+va<subs><dem>/o<prn><p3><sg><ac>+sãmbyhy<v><tv>+va<subs><dem>/o<prn><p3><sg><ac>+sãmbyhy<v><tv><pres>+va<subs><dem>$
- ^umíva/umi<prn><dem><pl>+va<subs><dem>/umi<adj><dem><pl>+va<subs><dem>$
- ^ndohecháiva/nd<neg>+o<prn><p3><pl><ac>+hecha<v><tv>+i<neg>+va<subs><dem>/nd<neg>+o<prn><p3><pl><ac>+hecha<v><tv><pres>+i<neg>+va<subs><dem>/nd<neg>+o<prn><p3><sg><ac>+hecha<v><tv>+i<neg>+va<subs><dem>/nd<neg>+o<prn><p3><sg><ac>+hecha<v><tv><pres>+i<neg>+va<subs><dem>$
- ^ha/ha<cnjcoo>/ha<n>/ha<v><iv>/ha<v><iv><pres>$
- ^oĩ/o<prn><p3><pl><ac>+ĩ<v><iv>/o<prn><p3><pl><ac>+ĩ<v><iv><pres>/o<prn><p3><sg><ac>+ĩ<v><iv>/o<prn><p3><sg><ac>+ĩ<v><iv><pres>$
- ^avei/avei<adv>/a<v><iv><pres>+ve<comp>+i<neg>/a<v><tv><pres>+ve<comp>+i<neg>/a<prn><p1><sg><ac>+ve<n><incp>+ĩ<v><iv>+i<neg>/a<prn><p1><sg><ac>+ve<n><incp>+ĩ<v><iv><pres>+i<neg>$
- ^umi/umi<prn><dem><pl>/umi<adj><dem><pl>$
- ^jagua/jagua<n>/ja<n>+gua<post>/ja<v><iv>+gua<post>/ja<v><iv><pres>+gua<post>$
- ^rerekua/r<det>+terekua<n>$
- ^omboguataporãva/o<prn><p3><pl><ac>+mboguata<v><tv><pres>porã<adv>+va<subs><dem>/o<prn><p3><pl><ac>+mbo<coop>+guata<v><iv><pres>porã<adv>+va<subs><dem>/o<prn><p3><sg><ac>+mboguata<v><tv><pres>porã<adv>+va<subs><dem>/o<prn><p3><sg><ac>+mbo<coop>+guata<v><iv><pres>porã<adv>+va<subs><dem>$
- ^ovecha/ovecha<n>$
- ^ha/ha<cnjcoo>/ha<n>/ha<v><iv>/ha<v><iv><pres>$
- ^vaka/vaka<n>/váka<adv>$
- ^kuéra/kuera<adj>/kuera<v><iv>/kuera<v><iv><pres>/kuéra<det><pl>$
+^osãmbyhýva/o<prn><p3><pl><ac>+sãmbyhy<v><tv>+va<subs><dem>/o<prn><p3><pl><ac>+sãmbyhy<v><tv><pres>+va<subs><dem>/o<prn><p3><sg><ac>+sãmbyhy<v><tv>+va<subs><dem>/o<prn><p3><sg><ac>+sãmbyhy<v><tv><pres>+va<subs><dem>$
+^umíva/umi<prn><dem><pl>+va<subs><dem>/umi<adj><dem><pl>+va<subs><dem>$
+^ndohecháiva/nd<neg>+o<prn><p3><pl><ac>+hecha<v><tv>+i<neg>+va<subs><dem>/nd<neg>+o<prn><p3><pl><ac>+hecha<v><tv><pres>+i<neg>+va<subs><dem>/nd<neg>+o<prn><p3><sg><ac>+hecha<v><tv>+i<neg>+va<subs><dem>/nd<neg>+o<prn><p3><sg><ac>+hecha<v><tv><pres>+i<neg>+va<subs><dem>$
+^ha/ha<cnjcoo>/ha<n>/ha<v><iv>/ha<v><iv><pres>$
+^oĩ/o<prn><p3><pl><ac>+ĩ<v><iv>/o<prn><p3><pl><ac>+ĩ<v><iv><pres>/o<prn><p3><sg><ac>+ĩ<v><iv>/o<prn><p3><sg><ac>+ĩ<v><iv><pres>$
+^avei/avei<adv>/a<v><iv><pres>+ve<comp>+i<neg>/a<v><tv><pres>+ve<comp>+i<neg>/a<prn><p1><sg><ac>+ve<n><incp>+ĩ<v><iv>+i<neg>/a<prn><p1><sg><ac>+ve<n><incp>+ĩ<v><iv><pres>+i<neg>$
+^umi/umi<prn><dem><pl>/umi<adj><dem><pl>$
+^jagua/jagua<n>/ja<n>+gua<post>/ja<v><iv>+gua<post>/ja<v><iv><pres>+gua<post>$
+^rerekua/r<det>+terekua<n>$
+^omboguataporãva/o<prn><p3><pl><ac>+mboguata<v><tv><pres>porã<adv>+va<subs><dem>/o<prn><p3><pl><ac>+mbo<coop>+guata<v><iv><pres>porã<adv>+va<subs><dem>/o<prn><p3><sg><ac>+mboguata<v><tv><pres>porã<adv>+va<subs><dem>/o<prn><p3><sg><ac>+mbo<coop>+guata<v><iv><pres>porã<adv>+va<subs><dem>$
+^ovecha/ovecha<n>$
+^ha/ha<cnjcoo>/ha<n>/ha<v><iv>/ha<v><iv><pres>$
+^vaka/vaka<n>/váka<adv>$
+^kuéra/kuera<adj>/kuera<v><iv>/kuera<v><iv><pres>/kuéra<det><pl>$
 ^./.<sent>$
- ^Ary/a<prn><p1><sg><ac>+ry<n>/ary<n>$
- ^2001/2001<num>/200<num>+1<num>$
- ^jave/ja<prn><p1><pl><ac>+ve<n>/jave<adj>/jave<adv>/jave<n>/ja<n>+ve<comp>/ja<v><iv><pres>+ve<comp>$
+^Ary/a<prn><p1><sg><ac>+ry<n>/ary<n>$
+^2001/2001<num>/200<num>+1<num>$
+^jave/ja<prn><p1><pl><ac>+ve<n>/jave<adj>/jave<adv>/jave<n>/ja<n>+ve<comp>/ja<v><iv><pres>+ve<comp>$
 ^,/,<cm>$
- ^ojeipapami/o<prn><p3><pl><ac>+je<pass>+i<prn><pro><p3><pl><acc>+papa<v><tv>+mi<dim>/o<prn><p3><pl><ac>+je<pass>+i<prn><pro><p3><pl><acc>+papa<v><tv>+mi<pii>/o<prn><p3><pl><ac>+je<pass>+i<prn><pro><p3><sg><acc>+papa<v><tv>+mi<dim>/o<prn><p3><pl><ac>+je<pass>+i<prn><pro><p3><sg><acc>+papa<v><tv>+mi<pii>/o<prn><p3><pl><ac>+je<ref>+i<prn><pro><p3><pl><acc>+papa<v><tv>+mi<dim>/o<prn><p3><pl><ac>+je<ref>+i<prn><pro><p3><pl><acc>+papa<v><tv>+mi<pii>/o<prn><p3><pl><ac>+je<ref>+i<prn><pro><p3><sg><acc>+papa<v><tv>+mi<dim>/o<prn><p3><pl><ac>+je<ref>+i<prn><pro><p3><sg><acc>+papa<v><tv>+mi<pii>/o<prn><p3><sg><ac>+je<pass>+i<prn><pro><p3><pl><acc>+papa<v><tv>+mi<dim>/o<prn><p3><sg><ac>+je<pass>+i<prn><pro><p3><pl><acc>+papa<v><tv>+mi<pii>/o<prn><p3><sg><ac>+je<pass>+i<prn><pro><p3><sg><acc>+papa<v><tv>+mi<dim>/o<prn><p3><sg><ac>+je<pass>+i<prn><pro><p3><sg><acc>+papa<v><tv>+mi<pii>/o<prn><p3><sg><ac>+je<ref>+i<prn><pro><p3><pl><acc>+papa<v><tv>+mi<dim>/o<prn><p3><sg><ac>+je<ref>+i<prn><pro><p3><pl><acc>+papa<v><tv>+mi<pii>/o<prn><p3><sg><ac>+je<ref>+i<prn><pro><p3><sg><acc>+papa<v><tv>+mi<dim>/o<prn><p3><sg><ac>+je<ref>+i<prn><pro><p3><sg><acc>+papa<v><tv>+mi<pii>/o<prn><pos><p3><sg>+jei<n><incp>+papa<v><tv>+mi<dim>/o<prn><pos><p3><sg>+jei<n><incp>+papa<v><tv>+mi<pii>/o<prn><pos><p3><sg>+je<n><incp>+i<prn><pro><p3><pl><acc>+papa<v><tv>+mi<dim>/o<prn><pos><p3><sg>+je<n><incp>+i<prn><pro><p3><pl><acc>+papa<v><tv>+mi<pii>/o<prn><pos><p3><sg>+je<n><incp>+i<prn><pro><p3><sg><acc>+papa<v><tv>+mi<dim>/o<prn><pos><p3><sg>+je<n><incp>+i<prn><pro><p3><sg><acc>+papa<v><tv>+mi<pii>/o<prn><p3><pl><ac>+jei<n><incp>+papa<v><tv>+mi<dim>/o<prn><p3><pl><ac>+jei<n><incp>+papa<v><tv>+mi<pii>/o<prn><p3><pl><ac>+je<n><incp>+i<prn><pro><p3><pl><acc>+papa<v><tv>+mi<dim>/o<prn><p3><pl><ac>+je<n><incp>+i<prn><pro><p3><pl><acc>+papa<v><tv>+mi<pii>/o<prn><p3><pl><ac>+je<n><incp>+i<prn><pro><p3><sg><acc>+papa<v><tv>+mi<dim>/o<prn><p3><pl><ac>+je<n><incp>+i<prn><pro><p3><sg><acc>+papa<v><tv>+mi<pii>/o<prn><p3><sg><ac>+jei<n><incp>+papa<v><tv>+mi<dim>/o<prn><p3><sg><ac>+jei<n><incp>+papa<v><tv>+mi<pii>/o<prn><p3><sg><ac>+je<n><incp>+i<prn><pro><p3><pl><acc>+papa<v><tv>+mi<dim>/o<prn><p3><sg><ac>+je<n><incp>+i<prn><pro><p3><pl><acc>+papa<v><tv>+mi<pii>/o<prn><p3><sg><ac>+je<n><incp>+i<prn><pro><p3><sg><acc>+papa<v><tv>+mi<dim>/o<prn><p3><sg><ac>+je<n><incp>+i<prn><pro><p3><sg><acc>+papa<v><tv>+mi<pii>$
- ^oiko/o<prn><p3><pl><ac>+ko<v><iv>/o<prn><p3><pl><ac>+ko<v><iv><pres>/o<prn><p3><sg><ac>+ko<v><iv>/o<prn><p3><sg><ac>+ko<v><iv><pres>$
- ^amo/amo<prn><dem><sg>/amo<adj><dem><sg>/amo<adv>$
- ^400/400<num>/40<num>+<num>$
-^./.<sent>$
-^000/000<num>/00<num>+<num>$
+^ojeipapami/o<prn><p3><pl><ac>+je<pass>+i<prn><pro><p3><pl><acc>+papa<v><tv>+mi<dim>/o<prn><p3><pl><ac>+je<pass>+i<prn><pro><p3><pl><acc>+papa<v><tv>+mi<pii>/o<prn><p3><pl><ac>+je<pass>+i<prn><pro><p3><sg><acc>+papa<v><tv>+mi<dim>/o<prn><p3><pl><ac>+je<pass>+i<prn><pro><p3><sg><acc>+papa<v><tv>+mi<pii>/o<prn><p3><pl><ac>+je<ref>+i<prn><pro><p3><pl><acc>+papa<v><tv>+mi<dim>/o<prn><p3><pl><ac>+je<ref>+i<prn><pro><p3><pl><acc>+papa<v><tv>+mi<pii>/o<prn><p3><pl><ac>+je<ref>+i<prn><pro><p3><sg><acc>+papa<v><tv>+mi<dim>/o<prn><p3><pl><ac>+je<ref>+i<prn><pro><p3><sg><acc>+papa<v><tv>+mi<pii>/o<prn><p3><sg><ac>+je<pass>+i<prn><pro><p3><pl><acc>+papa<v><tv>+mi<dim>/o<prn><p3><sg><ac>+je<pass>+i<prn><pro><p3><pl><acc>+papa<v><tv>+mi<pii>/o<prn><p3><sg><ac>+je<pass>+i<prn><pro><p3><sg><acc>+papa<v><tv>+mi<dim>/o<prn><p3><sg><ac>+je<pass>+i<prn><pro><p3><sg><acc>+papa<v><tv>+mi<pii>/o<prn><p3><sg><ac>+je<ref>+i<prn><pro><p3><pl><acc>+papa<v><tv>+mi<dim>/o<prn><p3><sg><ac>+je<ref>+i<prn><pro><p3><pl><acc>+papa<v><tv>+mi<pii>/o<prn><p3><sg><ac>+je<ref>+i<prn><pro><p3><sg><acc>+papa<v><tv>+mi<dim>/o<prn><p3><sg><ac>+je<ref>+i<prn><pro><p3><sg><acc>+papa<v><tv>+mi<pii>/o<prn><pos><p3><sg>+jei<n><incp>+papa<v><tv>+mi<dim>/o<prn><pos><p3><sg>+jei<n><incp>+papa<v><tv>+mi<pii>/o<prn><pos><p3><sg>+je<n><incp>+i<prn><pro><p3><pl><acc>+papa<v><tv>+mi<dim>/o<prn><pos><p3><sg>+je<n><incp>+i<prn><pro><p3><pl><acc>+papa<v><tv>+mi<pii>/o<prn><pos><p3><sg>+je<n><incp>+i<prn><pro><p3><sg><acc>+papa<v><tv>+mi<dim>/o<prn><pos><p3><sg>+je<n><incp>+i<prn><pro><p3><sg><acc>+papa<v><tv>+mi<pii>/o<prn><p3><pl><ac>+jei<n><incp>+papa<v><tv>+mi<dim>/o<prn><p3><pl><ac>+jei<n><incp>+papa<v><tv>+mi<pii>/o<prn><p3><pl><ac>+je<n><incp>+i<prn><pro><p3><pl><acc>+papa<v><tv>+mi<dim>/o<prn><p3><pl><ac>+je<n><incp>+i<prn><pro><p3><pl><acc>+papa<v><tv>+mi<pii>/o<prn><p3><pl><ac>+je<n><incp>+i<prn><pro><p3><sg><acc>+papa<v><tv>+mi<dim>/o<prn><p3><pl><ac>+je<n><incp>+i<prn><pro><p3><sg><acc>+papa<v><tv>+mi<pii>/o<prn><p3><sg><ac>+jei<n><incp>+papa<v><tv>+mi<dim>/o<prn><p3><sg><ac>+jei<n><incp>+papa<v><tv>+mi<pii>/o<prn><p3><sg><ac>+je<n><incp>+i<prn><pro><p3><pl><acc>+papa<v><tv>+mi<dim>/o<prn><p3><sg><ac>+je<n><incp>+i<prn><pro><p3><pl><acc>+papa<v><tv>+mi<pii>/o<prn><p3><sg><ac>+je<n><incp>+i<prn><pro><p3><sg><acc>+papa<v><tv>+mi<dim>/o<prn><p3><sg><ac>+je<n><incp>+i<prn><pro><p3><sg><acc>+papa<v><tv>+mi<pii>$
+^oiko/o<prn><p3><pl><ac>+ko<v><iv>/o<prn><p3><pl><ac>+ko<v><iv><pres>/o<prn><p3><sg><ac>+ko<v><iv>/o<prn><p3><sg><ac>+ko<v><iv><pres>$
+^amo/amo<prn><dem><sg>/amo<adj><dem><sg>/amo<adv>$
+^400/400<num>/40<num>+<num>$
 ^./.<sent>$
 ^000/000<num>/00<num>+<num>$
- ^jagua/jagua<n>/ja<n>+gua<post>/ja<v><iv>+gua<post>/ja<v><iv><pres>+gua<post>$
- ^opa/o<prn><p3><pl><ac>+pa<v><iv>/o<prn><p3><pl><ac>+pa<v><iv><pres>/o<prn><p3><sg><ac>+pa<v><iv>/o<prn><p3><sg><ac>+pa<v><iv><pres>/opa<adj>/opa<adj><ind>/opa<n>$
- ^yvy/yvy<adj>/yvy<n>$
- ^apére/a<prn><p1><sg><ac>+pere<n>/ape<adv>+re<post>/ape<n>+re<post>/apé<adv>+re<post>/a<v><iv>+pe<post>+re<post>/a<v><iv><pres>+pe<post>+re<post>/a<v><tv>+pe<post>+re<post>/a<v><tv><pres>+pe<post>+re<post>/ápe<adv>+re<post>$
-^../..<sent>$
+^./.<sent>$
+^000/000<num>/00<num>+<num>$
+^jagua/jagua<n>/ja<n>+gua<post>/ja<v><iv>+gua<post>/ja<v><iv><pres>+gua<post>$
+^opa/o<prn><p3><pl><ac>+pa<v><iv>/o<prn><p3><pl><ac>+pa<v><iv><pres>/o<prn><p3><sg><ac>+pa<v><iv>/o<prn><p3><sg><ac>+pa<v><iv><pres>/opa<adj>/opa<adj><ind>/opa<n>$
+^yvy/yvy<adj>/yvy<n>$
+^apére/a<prn><p1><sg><ac>+pere<n>/ape<adv>+re<post>/ape<n>+re<post>/apé<adv>+re<post>/a<v><iv>+pe<post>+re<post>/a<v><iv><pres>+pe<post>+re<post>/a<v><tv>+pe<post>+re<post>/a<v><tv><pres>+pe<post>+re<post>/ápe<adv>+re<post>$
+^./.<sent>$
