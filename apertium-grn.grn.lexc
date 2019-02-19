@@ -340,6 +340,7 @@ LEXICON POST
 %<post%>: CASE ;
 %<post%>: N-PL ;
 %<post%>: AD-SUF ;
+%<post%>: ITG-SUF ;
 
 LEXICON DET-PL 
 
@@ -465,6 +466,7 @@ LEXICON BARB
 
 %<barb%>: # ; 
 %<barb%>: CASE ; 
+%<barb%>: PAST ; 
 
 LEXICON ABBR-PUNTO
 
@@ -6812,6 +6814,7 @@ LEXICON MODES-AUX
 hikuái%<aux%>%<impf%>%<p3%>%<pl%>:hikuái # ;
 vaʼekue%<aux%>%<pmp%>:vaʼekue # ;
 vaʼerã%<aux%>%<fti%>:vaʼerã # ;
+vaʼerã%<aux%>%<fti%>:vaerã # ; ! Dir;LR
 hína%<aux%>%<impf%>%<p3%>%<sg%>:hína # ;
 niko%<aux%>%<nar%>:niko # ;
 niko%<aux%>%<nar%>:ningo # ; ! Dir/LR
