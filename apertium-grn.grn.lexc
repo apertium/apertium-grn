@@ -170,6 +170,8 @@ ADJV ;
 DET-PL ;
 PAST-SEP;
 POST-SEP;
+ImpPol;
+ImpPol-Sep;
 
 
 !!!!!!!!!!!!!!!!!!!! LEXICON SPANISH !!!!!!!!!!
@@ -6748,12 +6750,13 @@ pe%<imp%>%<p2%>%<pl%>%+:%>pe%{P%} VerbsAgr ;
 
 LEXICON ImpPol
 
-+na%<pol%>:na # ;
-+ke%<pol%>:ke # ;
++na%<pol%>:%>na # ;
++ke%<pol%>:%>ke # ;
 
 LEXICON ImpPol-Sep 
-na%<pol%>:na ;
-ke%<pol%>:ke ; ! please
+
+na%<pol%>:%>na #;
+ke%<pol%>:%>ke #; ! please
 
 
 
@@ -6973,33 +6976,26 @@ i%<prn%>%<pro%>%<p3%>%<pl%>%<acc%>%+:%>i Verbs ;
 chupe%<prn%>%<pers%>%<p3%>%<sg%>:%>chupe PRO-CASE ;
 ichupe%<prn%>%<pers%>%<p3%>%<sg%>:%>ichupe PRO-CASE ;
 
-chupekuéra%<prn%>%<pers%>%<p3%>%<pl%>:%>chupekuéra ;
-chupe% kuéra%<prn%>%<pers%>%<p3%>%<pl%>:%>chupekuéra ; Dir/LR
-
 LEXICON INACT  
 
-che%<prn%>%<pro%>%<p1%>%<sg%>%<in%>%+:%>che%{p%} Verbs ;
-nde%<prn%>%<pro%>%<p2%>%<sg%>%<in%>%+:%>n%{D%}e{p%} Verbs ;
-ro%<prn%>%<pro%>%<p2%>%<sg%>%<in%>%+:%>ro{p%} Verbs ;
-ore%<prn%>%<pro%>%<p1%>%<pl%>%<in%>%+:%>ore{p%} Verbs ;
-ñande%<prn%>%<pro%>%<p1%>%<pl%>%<in%>%+:%>ñan%{D%}e{p%} Verbs ;
-pende%<prn%>%<pro%>%<p2%>%<pl%>%<in%>%+:%>pen%{D%}e{p%} Verbs ;
-po%<prn%>%<pro%>%<p2%>%<pl%>%<in%>%+:%>po Verbs ;
-i%<prn%>%<pro%>%<p3%>%<sg%>%<in%>%+:%>i%{I%} Verbs ;
-i%<prn%>%<pro%>%<p3%>%<pl%>%<in%>%+:%>i%{I%} Verbs ;
+che%<prn%>%<pro%>%<p1%>%<sg%>%<in%>%+:%>che%{p%} INACT-INFL ;
+nde%<prn%>%<pro%>%<p2%>%<sg%>%<in%>%+:%>n%{D%}e{p%} INACT-INFL ;
+ro%<prn%>%<pro%>%<p2%>%<sg%>%<in%>%+:%>ro{p%} INACT-INFL ;
+ore%<prn%>%<pro%>%<p1%>%<pl%>%<in%>%+:%>ore{p%} INACT-INFL ;
+ñande%<prn%>%<pro%>%<p1%>%<pl%>%<in%>%+:%>ñan%{D%}e{p%} INACT-INFL ;
+pende%<prn%>%<pro%>%<p2%>%<pl%>%<in%>%+:%>pen%{D%}e{p%} INACT-INFL ;
+po%<prn%>%<pro%>%<p2%>%<pl%>%<in%>%+:%>po INACT-INFL ;
+i%<prn%>%<pro%>%<p3%>%<sg%>%<in%>%+:%>i%{I%} INACT-INFL ;
+i%<prn%>%<pro%>%<p3%>%<pl%>%<in%>%+:%>i%{I%} INACT-INFL ;
 
-che%<prn%>%<pro%>%<p1%>%<sg%>%<in%>%+:%>che%{p%} Nouns ;
-nde%<prn%>%<pro%>%<p2%>%<sg%>%<in%>%+:%>n%{D%}e{p%} Nouns ;
-ro%<prn%>%<pro%>%<p2%>%<sg%>%<in%>%+:%>ro{p%} Nouns ;
-ore%<prn%>%<pro%>%<p1%>%<pl%>%<in%>%+:%>ore{p%} Nouns ;
-ñande%<prn%>%<pro%>%<p1%>%<pl%>%<in%>%+:%>ñan%{D%}e{p%} Nouns ;
-pende%<prn%>%<pro%>%<p2%>%<pl%>%<in%>%+:%>pen%{D%}e{p%} Nouns ;
-po%<prn%>%<pro%>%<p2%>%<pl%>%<in%>%+:%>po Nouns ;
-i%<prn%>%<p3%>%<sg%>%<in%>%+:%>i%{I%} Nouns ;
-i%<prn%>%<p3%>%<pl%>%<in%>%+:%>i%{I%} Nouns ;
+LEXICON INACT-INFL
 
-i%<prn%>%<p3%>%<sg%>%<in%>%+:%>i%{I%} Adjectives ;
-i%<prn%>%<p3%>%<pl%>%<in%>%+:%>i%{I%} Adjectives ;
+Verbs ;
+Nouns ;
+Adjectives;
+DetBiformes ;
+DetTriformes ;
+
 
 
 LEXICON IrrVerbs
@@ -7084,6 +7080,8 @@ o%<prn%>%<pos%>%<p3%>%<sg%>%+:o%{P%} POS-COMPL ;
 
 LEXICON POS-COMPL 
 
+DetTriformes;
+DetBiformes;
 Nouns ;
 BiformesPaentesco ;
 Adjectives ;
