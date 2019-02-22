@@ -20,6 +20,8 @@ LIST Personal = pers ;
 
 LIST Ind = ind ;
 
+LIST Neg = neg ;
+
 LIST A = "a" ;
 
 LIST Re = "re" ;
@@ -85,6 +87,7 @@ LIST Peoples = "guarani" "guaraní" ;
 LIST Petei = "peteĩ" ;
 
 SET SubSg = Ant | Top | Cog ; # Subject Sg Without N
+SET Names = SubSg | N ;
 SET Verbal = V | Aux ;
 SET Pers = P1 | P3 ;
 
@@ -125,7 +128,7 @@ SELECT Post IF ((-1 Top) OR (-2 Top)) ;
 SELECT N IF (-1 Petei);
 #Oiko peteĩ karai Benjamín ñemoñaregua hérava Quis
 
-SELECT Sg + V IF ((-1 SubSg) OR (-2 SubSg));
+SELECT SUB:* Sg + V IF (-1/* SubSg - Pl);
 # León Cadogan omoĩ o kuatiañe'ẽme
 
 SELECT Cnjcoo IF ((-1 N LINK 2 N) OR (-1 Np LINK 2 Np));
@@ -160,8 +163,9 @@ SELECT Ser IF ((-1 N LINK 2 Num)) ;
 #NOUN WITH AN ATTRIBUTE CONSTRUCTIONS#
 ######################################
 
-SELECT Adj + Dem IF (1/* N);
+SELECT Adj + Dem IF ((1/* N) OR (-1/* N LINK -1/* Adj + Dem));
 #ko órape
+#pe kuña péva
 
 SELECT Num IF (1/* N) ;
 #mokõi óga
@@ -169,19 +173,36 @@ SELECT Num IF (1/* N) ;
 SELECT Adj + Ind IF (1/* N) ;
 #ambue tetã
 
+
+#REMOVE Adj IF (0/* Adj + Dem LINK -2/* Adj + Dem) ; Do we need this?
+
 SELECT Adj IF (-1/* N);
-SELECT N IF (1/* Adj);
+SELECT N IF ((1/* Adj) OR (-1/* Adj + Dem));
 #kyse pyahu
+#kóva ko távape
 
-REMOVE Adj IF (0/1 Adj + Dem LINK -2/* Adj + Dem) ; # Fix for peva
-#pe kuña péva
-
-SELECT Prn + Dem IF (1/1 Adj + Dem LINK 1/1 N) ; #FIX
-SELECT N IF (-1/* Adj + Dem) ;
+SELECT SUB:* Prn + Dem IF (1/1 Adj + Dem LINK 1/* N) ;
 #kóva ko távape
 
 SELECT Prn + Personal IF (1/* N LINK 1/* Adj);
 #nde mitã michĩ
+
+#########################
+## Predicative Phrases ##
+#########################
+
+SELECT SUB:* Ser IF ((-1/* Names LINK 2/* N) OR (0/* Neg + Ser LINK -1/* Names LINK 2/* N));
+#Mario ha’e chokokue
+#Mario ndaha’ei chokokue
+
+SELECT Adv + Neg IF (1/* Verbal) ;
+#ani rehecha
+
+##########################
+# Objective constructions#
+##########################
+
+
 
 #WORD FORMS
 
