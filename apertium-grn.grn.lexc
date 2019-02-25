@@ -252,6 +252,7 @@ COMP ;
 DEM-PRN-SG ;
 DEM-PRN-PL ;
 N-PL ;
+ITG-SUF ;
 
 
 LEXICON CASE
@@ -6778,6 +6779,7 @@ LEXICON PRES
 LEXICON PAST
 %+akue%<ifi%>:%{P%}akue #;
 %+mi%<pii%>:%>mi # ;
+%+mi%<pii%>:%>mi COMP ; 
 %+kuri%<past%>:%>kuri # ;
 %+vaʼekue%<pmp%>:%>vaʼekue # ; ! Nominalizer for the whole clause
 %+rakaʼe%<past%>:%>rakaʼe # ; 
@@ -6861,6 +6863,7 @@ nd%<neg%>%+:n%{d%}%{a%} DemonstrativePronouns;
 
 LEXICON VerbsNegSuf
 %+i%<neg%>:%>%{r%}i # ;
+%+i%<neg%>:%>%{r%}i AD-SUF ; !ndojuhúinte
 %+i%<neg%>:%>%{r%}i DEM-PRN-PL ; ! ndaikatúiva
 
 
@@ -7133,6 +7136,7 @@ LEXICON AD
 %<adv%>: VerbsNegSuf ;
 %<adv%>: AD-SUF ;
 %<adv%>: DEM-PRN-INFL ;
+%<adv%>: ITG-SUF ;
 
 LEXICON AD-ITG 
 
