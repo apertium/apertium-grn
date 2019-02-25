@@ -252,6 +252,7 @@ COMP ;
 DEM-PRN-SG ;
 DEM-PRN-PL ;
 N-PL ;
+ITG-SUF ;
 
 
 LEXICON CASE
@@ -7134,6 +7135,7 @@ LEXICON AD
 %<adv%>: VerbsNegSuf ;
 %<adv%>: AD-SUF ;
 %<adv%>: DEM-PRN-INFL ;
+%<adv%>: ITG-SUF ;
 
 LEXICON AD-ITG 
 
