@@ -3429,6 +3429,8 @@ Esteros:Esteros NP-COG ;
 Arroyos:Arroyos NP-COG ; ! ""
 Colmán:Colmán NP-COG ; ! ""
 
+filistéo:filistéo NP-COG ;
+
 Tëtaiguaete:Tëtaiguaete NP-AL ; ! "Naciones Unidas" 
 Rotary:Rotary NP-AL ; ! ""
 Ñembosaraipavẽ:Ñembosaraipavẽ NP-AL ; ! ""
@@ -4225,7 +4227,6 @@ Iñembyahýiva:Iñembyahýiva NP-AL ; ! ""
 Abda:Abda NP-AL ; ! ""
 Quir:Quir NP-AL ; ! ""
 Rehechápa:Rehechápa NP-AL ; ! ""
-Peiporiahurereko:Peiporiahurereko NP-AL ; ! ""
 Epafrodíto:Epafrodíto NP-AL ; ! ""
 Abiasaf:Abiasaf NP-AL ; ! ""
 Oñerenohẽ:Oñerenohẽ NP-AL ; ! ""
@@ -4342,7 +4343,6 @@ Micrí:Micrí NP-AL ; ! ""
 Jerebai:Jerebai NP-AL ; ! ""
 Teófilo:Teófilo NP-AL ; ! ""
 Drusila:Drusila NP-AL ; ! ""
-Ndaiporiahurereko:Ndaiporiahurereko NP-AL ; ! ""
 Tamboykéna:Tamboykéna NP-AL ; ! ""
 Omongorapy:Omongorapy NP-AL ; ! ""
 Jehud:Jehud NP-AL ; ! ""
@@ -4363,7 +4363,6 @@ Timoteo:Timoteo NP-AL ; ! ""
 Crístonte:Crístonte NP-AL ; ! ""
 Efai:Efai NP-AL ; ! ""
 Samír:Samír NP-AL ; ! ""
-Ndoiporiahurerekói:Ndoiporiahurerekói NP-AL ; ! ""
 Toñemotĩ:Toñemotĩ NP-AL ; ! ""
 Eipyhy:Eipyhy NP-AL ; ! ""
 Riná:Riná NP-AL ; ! ""
@@ -4707,7 +4706,6 @@ Levi:Levi NP-AL ; ! ""
 Sémed:Sémed NP-AL ; ! ""
 Oséas:Oséas NP-AL ; ! ""
 Guiló:Guiló NP-AL ; ! ""
-Aiporiahurerekóta:Aiporiahurerekóta NP-AL ; ! ""
 Penuel:Penuel NP-AL ; ! ""
 Ben% Zohet:Ben% Zohet NP-AL ; ! ""
 Publio:Publio NP-AL ; ! ""
@@ -4968,7 +4966,6 @@ Ciro:Ciro NP-AL ; ! ""
 Apolonia:Apolonia NP-AL ; ! ""
 Azgad:Azgad NP-AL ; ! ""
 Beerot:Beerot NP-AL ; ! ""
-Oporoporiahurereko:Oporoporiahurereko NP-AL ; ! ""
 Rehób:Rehób NP-AL ; ! ""
 Azizá:Azizá NP-AL ; ! ""
 Astarót:Astarót NP-AL ; ! ""
@@ -5705,7 +5702,6 @@ Bet% Arán:Bet% Arán NP-AL ; ! ""
 Pérside:Pérside NP-AL ; ! ""
 Miléto:Miléto NP-AL ; ! ""
 Miniamín:Miniamín NP-AL ; ! ""
-Eiporiahurereko:Eiporiahurereko NP-AL ; ! ""
 Jesé:Jesé NP-AL ; ! ""
 Betánia:Betánia NP-AL ; ! ""
 Necao:Necao NP-AL ; ! ""
@@ -6072,7 +6068,6 @@ Afec:Afec NP-AL ; ! ""
 Judáre:Judáre NP-AL ; ! ""
 Upémarõ:Upémarõ NP-AL ; ! ""
 Huvicha:Huvicha NP-AL ; ! ""
-Ndaiporihá:Ndaiporihá NP-AL ; ! ""
 Quir:Quir NP-AL ; ! ""
 Buz:Buz NP-AL ; ! ""
 Dor:Dor NP-AL ; ! ""
@@ -6131,8 +6126,6 @@ Hegái:Hegái NP-AL ; ! ""
 Parán:Parán NP-AL ; ! ""
 Hatús:Hatús NP-AL ; ! ""
 Cusán:Cusán NP-AL ; ! ""
-Oiporiahurereko:Oiporiahurereko NP-AL ; ! ""
-Ivaietéguima:Ivaietéguima NP-AL ; ! ""
 Sélec:Sélec NP-AL ; ! ""
 Péichako:Péichako NP-AL ; ! ""
 Maná:Maná NP-AL ; ! ""
@@ -6356,7 +6349,6 @@ Canáme:Canáme NP-AL ; ! ""
 Zabulón:Zabulón NP-AL ; ! ""
 Nañañorãirõi:Nañañorãirõi NP-AL ; ! ""
 Hór:Hór NP-AL ; ! ""
-Ndoporiahurereko:Ndoporiahurereko NP-AL ; ! ""
 Pelatías:Pelatías NP-AL ; ! ""
 Ebiasaf:Ebiasaf NP-AL ; ! ""
 Quemós:Quemós NP-AL ; ! ""
@@ -6659,7 +6651,6 @@ Medán:Medán NP-AL ; ! ""
 Leví:Leví NP-AL ; ! ""
 Aitypeipaitéta:Aitypeipaitéta NP-AL ; ! ""
 Sansaná:Sansaná NP-AL ; ! ""
-Reiporiahurerekó:Reiporiahurerekó NP-AL ; ! ""
 Arabá:Arabá NP-AL ; ! ""
 Eglon:Eglon NP-AL ; ! ""
 Naiot:Naiot NP-AL ; ! ""
@@ -6980,6 +6971,7 @@ po%<prn%>%<pro%>%<p2%>%<pl%>%<acc%>%+:%>po Verbs ;
 i%<prn%>%<pro%>%<p3%>%<sg%>%<acc%>%+:%>i Verbs ;
 i%<prn%>%<pro%>%<p3%>%<pl%>%<acc%>%+:%>i Verbs ;
 
+!ne%<prn%>%<p2%>%<sg%>%<acc%>:ne ;
 chupe%<prn%>%<pers%>%<p3%>%<sg%>:%>chupe PRO-CASE ;
 ichupe%<prn%>%<pers%>%<p3%>%<sg%>:%>ichupe PRO-CASE ;
 
@@ -7203,6 +7195,7 @@ penembaʼe%<prn%>%<pos%>%<p2%>%<pl%>:penembaʼe # ;
 imbaʼekuéra%<prn%>%<pos%>%<p3%>%<pl%>:imbaʼeku•éra # ;
 
 che%<prn%>%<pos%>%<p1%>%<sg%>%:che # ;
+che%<prn%>%<pos%>%<p1%>%<sg%>%:ché # ;
 nde%<prn%>%<pos%>%<p2%>%<sg%>%:nde # ; 
 nde%<prn%>%<pos%>%<p2%>%<sg%>%:ne # ; 
 ñande%<prn%>%<pos%>%<p1%>%<pl%>%:ñande # ; 
@@ -11889,6 +11882,8 @@ yʼỹ:yʼỹ N ; ! "sequía, seca, sequedad"
 
 LEXICON VerbsIv 
 
+poriahuvereko:%{i%}poriahuvereko V ; ! "compadecer, apiadarse"
+poriahuvereko:%{i%}poriahuvereko V ; ! Dir\LR !Orth\Err
 ko:%{i%}ko V-IV ; ! "morar"
 jevy:jevy V-IV ; ! "regresar, retornar"
 ikorei:ikorei V-IV ; ! " vagar, vegetar, estar desocupado"
@@ -12245,6 +12240,7 @@ jokupyty:jokupyty V-IV ; ! "comprender"
 
 LEXICON Verbs 
 
+moĩka:moĩka V ; !"incluir, habilitar"
 sãmbyhy:sãmbyhy V ; !"conducir, administrar"
 apo:apo V ; ! "estimar"
 ñembokuatia:ñembokuatia V ; ! "documentar"
@@ -13210,7 +13206,6 @@ popete:%{i%}popete V ; ! "palmotear"
 popi:%{i%}popi V ; ! "raspar, limpiar, rallar, roer"
 popichy:%{i%}popichy V ; ! "fregar, friccionar, masajear"
 porãngareko:%{i%}porãngareko V ; ! "admirar, respetar, estimar, prenderse"
-poriahuvereko:%{i%}poriahuvereko V ; ! "compadecer, apiadarse"
 potyʼo:%{i%}potyʼo V ; ! "desflorar"
 pyʼajopy:%{i%}pyʼajopy V ; ! "preocupar, afligir"
 pyʼajoyvy:%{i%}pyʼajoyvy V ; ! "traicionar"
