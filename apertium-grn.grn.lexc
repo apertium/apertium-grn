@@ -6861,6 +6861,7 @@ nd%<neg%>%+:n%{d%}%{a%} DemonstrativePronouns;
 
 LEXICON VerbsNegSuf
 %+i%<neg%>:%>%{r%}i # ;
+%+i%<neg%>:%>%{r%}i AD-SUF ; !ndojuhúinte
 %+i%<neg%>:%>%{r%}i DEM-PRN-PL ; ! ndaikatúiva
 
 
