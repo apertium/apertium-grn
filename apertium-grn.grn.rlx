@@ -91,8 +91,6 @@ SET Names = SubSg | N ;
 SET Verbal = V | Aux ;
 SET Pers = P1 | P3 ;
 
-SECTION
-
 #HEURISTICS
 
 REMOVE SUB:3 Incp ;
@@ -197,6 +195,10 @@ SELECT SUB:* Ser IF ((-1/* Names LINK 2/* N) OR (0/* Neg + Ser LINK -1/* Names L
 
 SELECT Adv + Neg IF (1/* Verbal) ;
 #ani rehecha
+
+
+
+SELECT SUB:* In IF (0/* In + N LINK 0/* Adv) ;
 
 ##########################
 # Objective constructions#

@@ -355,9 +355,9 @@ LEXICON EMPH
 
 LEXICON SUBST 
 +kue%<subs%>:%>kue # ;
-+kue%<subs%>:%>kue CASE ;
-+rã%<subs%>:%>rã # ;
-+rã%<subs%>:%>rã CASE ;
++kue%<subs%>:%>kue CASE ; ! Nominal past
++rã%<subs%>:%>rã # ; ! Nominal future
++rã%<subs%>:%>rã CASE ; 
 +rã%<subs%>:%>rã FUT ;
 
 LEXICON SUBST-V 
