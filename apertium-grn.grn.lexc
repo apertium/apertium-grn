@@ -428,6 +428,7 @@ LEXICON N
 %<n%>: INCP ;
 %<n%>: SUBST ;
 %<n%>: AD-SUF ;
+%<n%>: SUBST-V ;
 
 LEXICON NP-COG
 
