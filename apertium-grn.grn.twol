@@ -131,10 +131,14 @@ Vt:Va <=> •: _ [ Cns: | ArchiCns: | Nas: | VowsAton: |  %>: ]+  VowsTon: ;
 "Surface [n] in plural nouns" 
 %{N%}:n <=> Nas: %>: _ ;
             _ %{K%}: k: ;
+            VowsWeak: %>: _ ;
+            VowsWeak: [VowsStrong: | Cns: ]+ %>: :p :e %>: _ ;
 
 "Surface [g] in pl nouns after nasals" 
 %{K%}:g <=> Nas: %>: %{N%}: _ ;
             %{N%}: _ k: ;
+            VowsWeak: %>: %{N%}: _ ;
+            VowsWeak: [VowsStrong: | Cns: | %>: ]+ %>: :p :e %>: %{N%}: _ ;
 
 "Possessive {H} before VowsTon"
 %{H%}:h <=> _ i: %{I%}: VowsTon: ;

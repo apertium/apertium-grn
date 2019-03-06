@@ -253,6 +253,7 @@ DEM-PRN-SG ;
 DEM-PRN-PL ;
 N-PL ;
 ITG-SUF ;
+EMPH ;
 
 
 LEXICON CASE
@@ -352,7 +353,7 @@ kuéra%<det%>%<pl%>:ku•éra CASE ;
 
 LEXICON EMPH
 
-+ko%<emph%>:ko # ; ! "emphatic suffix"
++ko%<emph%>:%>%{N%}%{K%}o # ; ! "emphatic suffix"
 
 LEXICON SUBST 
 +kue%<subs%>:%>kue # ;
@@ -406,7 +407,7 @@ nde%<sup%>%+:%>n%{D%}e Adjectives ;
 
 LEXICON N-PL 
 
-%+kuéra%<det%>%<pl%>:%>%{N%}%{K%}u•éra # ;
+%+kuéra%<det%>%<pl%>:cu•éra # ;
 %+kuéra%<det%>%<pl%>:%>%{N%}%{K%}u•éra COMP ;
 %+kuéra%<det%>%<pl%>:%>%{N%}%{K%}u•éra CASE ;
 
@@ -5925,8 +5926,6 @@ Cademót:Cademót NP-AL ; ! ""
 Saquías:Saquías NP-AL ; ! ""
 Horeo:Horeo NP-AL ; ! ""
 Cozebá:Cozebá NP-AL ; ! ""
-Iporãitéiko:Iporãitéiko NP-AL ; ! ""
-Ndaikatuiháicha:Ndaikatuiháicha NP-AL ; ! ""
 Kislev:Kislev NP-AL ; ! ""
 Tróade:Tróade NP-AL ; ! ""
 Jonadab:Jonadab NP-AL ; ! ""
@@ -6266,7 +6265,6 @@ Antioquia:Antioquia NP-AL ; ! ""
 Quélah:Quélah NP-AL ; ! ""
 Réfah:Réfah NP-AL ; ! ""
 Garizím:Garizím NP-AL ; ! ""
-Ombyatypase:Ombyatypase NP-AL ; ! ""
 Héfer:Héfer NP-AL ; ! ""
 Mávapepa:Mávapepa NP-AL ; ! ""
 Esau:Esau NP-AL ; ! ""
@@ -6703,6 +6701,7 @@ LEXICON DEM-PRN-INFL
 # ;
 CASE ;
 %+va%<subs%>%<dem%>:%>va CASE ;
+%+va%<subs%>%<dem%>:%>va EMPH ;
 VerbsNegSuf ;
 EMPH ;
 
@@ -6795,6 +6794,10 @@ LEXICON FUT
 %+pota%<fti%>:%>%{m%}%{b%}ota # ; 
 %+ne%<fts%>:%>ne # ; 
 %+aʼrã%<fti%>:%>%{P%}aʼrã # ;
+%+arã%<fti%>:%>%{P%}aʼrã # ; ! Dir/LR
+%+aʼrã%<fti%>:%>%{P%}aʼrã FUT ;
+%+arã%<fti%>:%>%{P%}aʼrã FUT ; ! Dir/LR
+%+mo’ã%<fti%>:%>%mo’ã # ;
 
 
 LEXICON IMP 
@@ -7065,6 +7068,7 @@ VerbsNegSuf ;
 SUBST-V ; 
 CASE ;
 # ;
+EMPH ;
 
 LEXICON PossessivePrefixes
 
@@ -7179,6 +7183,7 @@ ndéve%<prn%>%<pers%>%<p2%>%<sg%>%<dat%>:nd•éve # ;
 oréve%<prn%>%<pers%>%<p1%>%<pl%>%<dat%>:or•éve # ;
 ñandéve%<prn%>%<pers%>%<p1%>%<pl%>%<dat%>:ñand•éve #;
 peẽme%<prn%>%<pers%>%<p2%>%<pl%>%<dat%>:peẽme # ;
+chuguikuéra%<prn%>%<pers%>%<p3%>%<pl%>%<dat%>:chuguiku•éra # ; 
 
 haʼe%<prn%>%<pers%>%<p3%>%<sg%>%+ndive%<post%>:hendive # ; 
 haʼe%<prn%>%<pers%>%<p3%>%<sg%>%+ndive%<post%>:hendie # ; ! Dir/LR
