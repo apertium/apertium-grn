@@ -350,10 +350,12 @@ LEXICON DET-PL
 
 kuéra%<det%>%<pl%>:ku•éra # ;
 kuéra%<det%>%<pl%>:ku•éra CASE ;
+kuéra%<det%>%<pl%>:ku•éra EMPH ;
 
 LEXICON EMPH
 
 +ko%<emph%>:%>%{N%}%{K%}o # ; ! "emphatic suffix"
++voi%<emph%>:%>voi # ;
 
 LEXICON SUBST 
 +kue%<subs%>:%>kue # ;
@@ -410,6 +412,7 @@ LEXICON N-PL
 %+kuéra%<det%>%<pl%>:cu•éra # ;
 %+kuéra%<det%>%<pl%>:%>%{N%}%{K%}u•éra COMP ;
 %+kuéra%<det%>%<pl%>:%>%{N%}%{K%}u•éra CASE ;
+%+kuéra%<det%>%<pl%>:%>%{N%}%{K%}u•éra EMPH ;
 
 LEXICON CS
 
@@ -430,6 +433,8 @@ LEXICON N
 %<n%>: SUBST ;
 %<n%>: AD-SUF ;
 %<n%>: SUBST-V ;
+%<n%>: DetTriformes ;
+%<n%>:SUP ;
 
 LEXICON NP-COG
 
@@ -4209,7 +4214,6 @@ Nógah:Nógah NP-AL ; ! ""
 Asuán:Asuán NP-AL ; ! ""
 Guihón:Guihón NP-AL ; ! ""
 Gáza:Gáza NP-AL ; ! ""
-Oñomi:Oñomi NP-AL ; ! ""
 Moria:Moria NP-AL ; ! ""
 Siclag:Siclag NP-AL ; ! ""
 Sarái:Sarái NP-AL ; ! ""
@@ -6797,7 +6801,9 @@ LEXICON FUT
 %+arã%<fti%>:%>%{P%}aʼrã # ; ! Dir/LR
 %+aʼrã%<fti%>:%>%{P%}aʼrã FUT ;
 %+arã%<fti%>:%>%{P%}aʼrã FUT ; ! Dir/LR
+%+arã%<fti%>:%>%{P%}arâ FUT ; ! Dir/LR
 %+mo’ã%<fti%>:%>%mo’ã # ;
+%+mo’ã%<fti%>:%>%mo’â # ;
 
 
 LEXICON IMP 
@@ -6830,6 +6836,9 @@ LEXICON MODES
 %+mi%<dim%>:%>mi # ;
 %+mimi%<dim%>:%>mimi # ;
 
+LEXICON SABER
+kuaa:kuaa V ;
+
 LEXICON V-INFL 
 PRES ;
 PAST ;
@@ -6837,6 +6846,7 @@ FUT ;
 IMP ;
 MODES ;
 DEM-PRN-INFL ;
+SABER;
 
 LEXICON V-IV
 
@@ -7220,6 +7230,7 @@ mbaʼeve%<prn%>%<ind%>:mbaʼeve IND-PRN-INFL ; ! "nada"
 LEXICON IND-PRN-INFL 
 # ;
 CASE ;
+AD-SUF;
 
 
 !!!!!!!!!!!!!ADJECTIVES!!!!!!!!!!!!!!
@@ -7374,6 +7385,7 @@ h%<prn%>%<pos%>%<p3%>%<sg%>%+:h%{t%} Triformes ;
 
 LEXICON Triformes
 
+tugua:tugua N ; ! "fondo, rincón"
 tapyta:tapyta N ; ! "humano"
 tembikuaa:tembikuaa N ; ! "ciencia"
 tenonderã:tenonderã N ; ! "futuro"
@@ -8697,7 +8709,6 @@ tovaraʼãnga:tovaraʼãnga N ; ! "máscara"
 tovayke:tovayke N ; ! "mejilla"
 tove:tove N ; ! "negación"
 toʼysã:toʼysã N ; ! "fresco"
-tugua:tugua N ; ! "fondo, rincón"
 tuguy:tuguy N ; ! "sangre"
 tuguykangy:tuguykangy N ; ! "anemia"
 tuguyʼuha:tuguyʼuha N ; ! "parásito"
@@ -9448,6 +9459,7 @@ kompáyre:kompáyre N ; ! "compadre"
 kompi:kompi N ; ! "amigo, compañero"
 koni:koni N ; ! "contoneo, zigzag, recodo"
 korasõ:korasõ N ; ! "corazón, alma"
+korasõ:korasô N ; ! Dir/LR
 korochire:korochire N ; ! "zorzal, pájaro cantor"
 kosereva:kosereva N ; ! "dulce de frutas, dulce de naranja hecho con miel de caña"
 kosina:kosina N ; ! "cocina"
@@ -9701,7 +9713,6 @@ rembe:rembe N ; ! "labio, orilla"
 rembiasakue:rembiasakue N ; ! "vida, aventuras"
 rembiayhu:rembiayhu N ; ! "querido, favorito"
 rembipota:rembipota N ; ! "deseo, intención"
-remiandu:remiandu N ; ! "sentimiento"
 renonde:renonde N ; ! "frente, faz, parte delantera"
 reruha:reruha N ; ! "portador"
 resa:resa N ; ! "ojo(s), vista, grano. kuarahy"
@@ -12245,6 +12256,8 @@ jokupyty:jokupyty V-IV ; ! "comprender"
 
 LEXICON Verbs 
 
+kuaa’ỹ:kuaa’ỹ V ; ! "no saber"
+kuaa’ỹ:kuaa’ŷ V ; ! "no saber" ! Dir/LR 
 moĩka:moĩka V ; !"incluir, habilitar"
 sãmbyhy:sãmbyhy V ; !"conducir, administrar"
 apo:apo V ; ! "estimar"
@@ -12847,7 +12860,6 @@ opirakambúva:opirakamb•úva V ; ! "mantenido"
 opáma:op•áma V ; ! "acabado"
 opámava:op•ámava V ; ! "listo"
 oñemboʼýva:oñemboʼ•ýva V ; ! "parado"
-!pahague:pahague V ; ! "extremo"
 papa:%{i%}papa V ; ! "enumerar, sumar, contar"
 papa:papa V ; ! "enumerar, sumar, contar"
 para% rehegua:para% rehegua V ; ! "marino"
@@ -15712,7 +15724,6 @@ oñemoĩva:oñemoĩva ADJ ; ! "puesto"
 oñopehẽngue:oñopehẽngue ADJ ; ! "consanguíneos"
 opa:opa ADJ ; ! "cada, todo"
 opaʼãva:opaʼãva ADJ ; ! "varado, trancado"
-opavave:opavave ADJ ; ! "todos"
 opaveʼỹva:opaveʼỹva ADJ ; ! "interminable, perpetuo, eterno"
 opáyva:opáyva ADJ ; ! "despierto"
 opaʼỹva:opaʼỹva ADJ ; ! "inacabable, inagotable, perdurable"
