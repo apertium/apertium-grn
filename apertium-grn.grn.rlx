@@ -16,11 +16,21 @@ LIST Guess = guess ;
 
 LIST Prn = prn ;
 
+LIST Pos = pos ;
+
+LIST Itg = itg ;
+
 LIST Personal = pers ;
 
 LIST Ind = ind ;
 
 LIST Neg = neg ;
+
+LIST Dat = dat ;
+
+LIST Acc = acc ;
+
+LIST Coop = coop ;
 
 LIST A = "a" ;
 
@@ -68,11 +78,9 @@ LIST Post = post ;
 
 LIST Adv = adv;
 
-LIST Ac = ac ;
-
 LIST In = in ;
 
-LIST Acc = ac ;
+LIST Ac = ac ;
 
 LIST Barb = barb ;
 
@@ -85,6 +93,7 @@ LIST Ref = ref ;
 LIST Lang = "ñeʼẽ" ;
 LIST Peoples = "guarani" "guaraní" ;
 LIST Petei = "peteĩ" ;
+LIST Think = "moʼã";
 
 SET SubSg = Ant | Top | Cog ; # Subject Sg Without N
 SET Names = SubSg | N ;
@@ -189,16 +198,26 @@ SELECT Prn + Personal IF (1/* N LINK 1/* Adj);
 ## Predicative Phrases ##
 #########################
 
-SELECT SUB:* Ser IF ((-1/* Names LINK 2/* N) OR (0/* Neg + Ser LINK -1/* Names LINK 2/* N));
+SELECT SUB:* Ser IF ((-1/* Names LINK 2/* N) OR (0/* Neg + Ser LINK -1/* Names LINK 2/* N) OR (1/* N));
 #Mario ha’e chokokue
 #Mario ndaha’ei chokokue
+#Ndaha’ei cherembireko
 
 SELECT Adv + Neg IF (1/* Verbal) ;
 #ani rehecha
 
+SELECT Prn + Pos IF (-1/* Prn + Itg) ;
+#Mávapa ipaino
 
+SELECT SUB:* In IF ((0/* In + N LINK 0/* Adv) OR (-1/* Ser)) ;
+#Ndaha’ei cherembireko
 
-SELECT SUB:* In IF (0/* In + N LINK 0/* Adv) ;
+SELECT N IF (-1/* Ser);
+
+SELECT Dat IF ((-1/* V + Iv) OR (1/* V + Tv)) ;
+#Ndahakúi ichupekuéra
+
+SELECT Sub:* Tv IF (0/* Coop);
 
 ##########################
 # Objective constructions#
@@ -212,6 +231,9 @@ REMOVE Barb IF (0/* Top);
 
 SELECT N IF (0 Lang) (-1C Peoples) ;
 # Avañe'ẽ ha Guarani ñe'ẽ ombohéra hikuái (...)
+
+SELECT SUB:* Iv IF (0/* Think LINK NOT -1/* N) ;
+#Ndéve nemboguevírõ niko oimo’ãne
 
 AFTER-SECTIONS
 
