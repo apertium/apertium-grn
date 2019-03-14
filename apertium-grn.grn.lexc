@@ -368,6 +368,7 @@ LEXICON SUBST-V
 +ha%<subs%>:%>ha # ;
 +ha%<subs%>:%>ha COMP ;
 +ha%<subs%>:%>ha CASE ;
++ha%<subs%>:%>ha PAST ;
 +rã%<subs%>:%>rã # ;
 +rã%<subs%>:%>rã CASE ;
 +hára%<subs%>:%>hára CASE ;
@@ -4009,8 +4010,6 @@ Irí:Irí NP-AL ; ! ""
 Lida:Lida NP-AL ; ! ""
 Haserót:Haserót NP-AL ; ! ""
 Libná:Libná NP-AL ; ! ""
-Ikatútapa:Ikatútapa NP-AL ; ! ""
-Oguereko:Oguereko NP-AL ; ! ""
 Gazam:Gazam NP-AL ; ! ""
 Gedeón:Gedeón NP-AL ; ! ""
 Bet:Bet NP-AL ; ! ""
@@ -4226,7 +4225,6 @@ Miqueas:Miqueas NP-AL ; ! ""
 Asuéro:Asuéro NP-AL ; ! ""
 Mésec:Mésec NP-AL ; ! ""
 Bosrá:Bosrá NP-AL ; ! ""
-Tajarereko:Tajarereko NP-AL ; ! ""
 Ader:Ader NP-AL ; ! ""
 Iñembyahýiva:Iñembyahýiva NP-AL ; ! ""
 Abda:Abda NP-AL ; ! ""
@@ -5789,7 +5787,6 @@ Hasar% Susá:Hasar% Susá NP-AL ; ! ""
 Magadán:Magadán NP-AL ; ! ""
 Cesaréa:Cesaréa NP-AL ; ! ""
 Gamad:Gamad NP-AL ; ! ""
-Pejukauka:Pejukauka NP-AL ; ! ""
 Mizá:Mizá NP-AL ; ! ""
 Pemono:Pemono NP-AL ; ! ""
 Tiro:Tiro NP-AL ; ! ""
@@ -6779,6 +6776,7 @@ LEXICON PAST
 %+vaʼekue%<pmp%>:%>vaʼekue # ; ! Nominalizer for the whole clause
 %+rakaʼe%<past%>:%>rakaʼe # ; 
 %+raʼe%<past%>:%>raʼe # ;
+%+gue%<past%>:%>gue # ; ! Nominal Past
 
 LEXICON PAST-SEP
 
@@ -6847,6 +6845,7 @@ IMP ;
 MODES ;
 DEM-PRN-INFL ;
 SABER;
+SUBST-V ;
 
 LEXICON V-IV
 
@@ -6975,6 +6974,7 @@ LEXICON PRO
 
 che%<prn%>%<pro%>%<p1%>%<sg%>%<acc%>%+:%>che%{p%} Verbs ;
 nde%<prn%>%<pro%>%<p2%>%<sg%>%<acc%>%+:%>n%{D%}e{p%} Verbs ;
+nde%<prn%>%<pro%>%<p2%>%<sg%>%<acc%>%+:%>n%{D%}e{p%} Voices ;
 ro%<prn%>%<pro%>%<p2%>%<sg%>%<acc%>%+:%>ro{p%} Verbs ;
 ore%<prn%>%<pro%>%<p1%>%<pl%>%<acc%>%+:%>ore{p%} Verbs ;
 ñande%<prn%>%<pro%>%<p1%>%<pl%>%<acc%>%+:%>ñan%{D%}e{p%} Verbs ;
@@ -7373,7 +7373,6 @@ ryvy:ryvy N ; ! "hermano"
 rykéra:ryk•éra N ; ! "hermana mayor"
 raʼy:raʼy N ; ! "hijo" 
 rajy:rajy N ; ! "hija"
-rembireko:rembireko N ; ! "esposa"
 reindy:reindy N ; ! "hermana menor" 
 rembirekorã:rembirekorã N ; ! "novia formal" 
 rykeʼýra:rykeʼýra  N ; !"hermano mayor"
@@ -7395,7 +7394,7 @@ teko:teko N ; ! "modo, personalidad, estilo, carácter, tino, rango, temple"
 tekoha:tekoha N ; ! "hábitat, ambiente, naturaleza"
 tembiʼurã:tembiʼurã N ; ! "provisiones, víveres"
 taʼanga:taʼanga N ; ! "imagen"
-tembireko:tembireko N ; ! ""
+tembireko:tembireko N ; ! "esposa"
 temiandu:temiandu N ; ! "sentimiento"
 tembiasa:tembiasa N ; ! "experiencia"
 tembiasakue:tembiasakue N ; ! "historia"
@@ -11898,6 +11897,7 @@ yʼỹ:yʼỹ N ; ! "sequía, seca, sequedad"
 
 LEXICON VerbsIv 
 
+haku:haku V-IV ; ! "ser caliente, tener calor"
 poriahuvereko:%{i%}poriahuvereko V ; ! "compadecer, apiadarse"
 poriahuvereko:%{i%}poriahuvereko V ; ! Dir\LR !Orth\Err
 ko:%{i%}ko V-IV ; ! "morar"
@@ -12068,7 +12068,7 @@ aime:aime V-IV ; ! "estar" ! Dir/LR
 menda:menda V-IV ; ! "casarse"
 mimbi:mimbi V-IV ; ! "brillar"
 minga:minga V-IV ; ! "ayudarse por turno"
-moʼã:%{i%}moʼã V ; ! "pensar, sospechar, presumir"
+moʼã:%{i%}moʼã V-IV ; ! "pensar, sospechar, presumir"
 mondoho:mondoho V-IV ; ! "rasguear,tocar"
 mongeta:mongeta V-IV ; ! "conversar"
 mumu:mumu V-IV ; ! "hormiguear"
@@ -12324,7 +12324,6 @@ haiguy:haiguy V ; ! "subrayar"
 haimbeʼe:haimbeʼe V ; ! "afilar, limar"
 haimbeʼeha:haimbeʼeha V ; ! "lima"
 haitypo:haitypo V ; ! "anidar"
-haku:haku V ; ! "caliente"
 hapereka:hapereka V ; ! "investigar"
 hapoʼo:hapoʼo V ; ! "extirpar"
 hapy:hapy V ; ! "quemar, calcinar"

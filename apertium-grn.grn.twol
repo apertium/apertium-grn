@@ -162,7 +162,7 @@ Vt:Va <=> •: _ [ Cns: | ArchiCns: | Nas: | VowsAton: |  %>: ]+  VowsTon: ;
 %{p%}:r <=> _ Vows: ;
 
 "Remove [d] in possessive prefixes" 
-%{D%}:0 <=> _ e: %{p%}: [CnsNorm: | VowsAton: |VowsTon: | Nas: ]+ Nas: ;
+%{D%}:0 <=> _ e: %{p%}: [CnsNorm: | VowsAton: |VowsTon: | Nas: | %>:]+ Nas: ;
 
 "Surface [e] after weak vowels in indefinite adjectives" 
 %{E%}:e <=> VowsWeak: %>: _ ;
