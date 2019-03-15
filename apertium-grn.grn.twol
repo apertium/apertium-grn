@@ -118,6 +118,7 @@ Vt:Va <=> •: _ [ Cns: | ArchiCns: | Nas: | VowsAton: |  %>: ]+  VowsTon: ;
 
 "Add nasal prefix [ñ] in present 1pl incl"
 %{J%}:ñ <=> _ [a: | e: | o: ] %{P%}: [ CNAS: | CnsNorm: |VowsAton: | VowsTon:]+ CNAS: ;
+            _ [a: | e: | o: ] %{P%}: CNAS: ;
                     where CNAS in Nas ;
 
 "Insert glottal stop ['] if next morpheme starts with a vowel"
@@ -130,35 +131,38 @@ Vt:Va <=> •: _ [ Cns: | ArchiCns: | Nas: | VowsAton: |  %>: ]+  VowsTon: ;
 "Surface [n] in plural nouns" 
 %{N%}:n <=> Nas: %>: _ ;
             _ %{K%}: k: ;
+            VowsWeak: %>: _ ;
+            VowsWeak: [VowsStrong: | Cns: ]+ %>: :p :e %>: _ ;
 
 "Surface [g] in pl nouns after nasals" 
 %{K%}:g <=> Nas: %>: %{N%}: _ ;
             %{N%}: _ k: ;
+            VowsWeak: %>: %{N%}: _ ;
+            VowsWeak: [VowsStrong: | Cns: | %>: ]+ %>: :p :e %>: %{N%}: _ ;
 
 "Possessive {H} before VowsTon"
 %{H%}:h <=> _ i: %{I%}: VowsTon: ;
 
 
 "Remove underlying [i] in 3p possessive prefixes"
-%{I%}:0 <=>  _ CnsNorm: ;
+%{I%}:0 <=>  _ Cns: ;
 
 "Surface ʼ in possessive prefix i"
 %{I%}:ʼ <=> _ VowsTon: ;
 
 "Possessive {I} as j before VowsAton" 
-%{I%}:j <=> _ VowsAton: ;
-            except 
-            _ VowsAton:[CnsNorm: | VowsAton: |VowsTon: ]+ Nas: ; 
+%{I%}:j <=> _ VowsAton:[CnsNorm: | VowsAton: |VowsTon: ] ;
 
 
 "Possessive %{I%} as ñ in nasal nouns starting with VowsAton"
-%{I%}:ñ <=> _ VowsAton:[CnsNorm: | VowsAton: |VowsTon: ]+ Nas: ;
+%{I%}:ñ <=> _ VowsAton: Nas: ;
+
 
 "Insert [r] before vowels after possessive prefixes"
 %{p%}:r <=> _ Vows: ;
 
 "Remove [d] in possessive prefixes" 
-%{D%}:0 <=> _ e: %{p%}: [CnsNorm: | VowsAton: |VowsTon: | Nas: ]+ Nas: ;
+%{D%}:0 <=> _ e: %{p%}: [CnsNorm: | VowsAton: |VowsTon: | Nas: | %>:]+ Nas: ;
 
 "Surface [e] after weak vowels in indefinite adjectives" 
 %{E%}:e <=> VowsWeak: %>: _ ;
@@ -177,6 +181,7 @@ Vt:Va <=> •: _ [ Cns: | ArchiCns: | Nas: | VowsAton: |  %>: ]+  VowsTon: ;
 %{m%}:m <=> NasTil: [Vows:| Cns: | %>:]+ %>: _ ; 
 	    NasTil: %>: _ ; 
           %{g%}: %-: _  ;
+          n: Vows: _ ;
           except
           ñ: e: m: b: y: %>: _ ;
 

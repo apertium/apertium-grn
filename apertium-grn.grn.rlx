@@ -1,3 +1,7 @@
+OPTIONS += no-inline-sets ;
+
+SUBREADINGS = LTR ;
+
 DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>" ;
 
 SOFT-DELIMITERS = "<,>" ;
@@ -12,12 +16,91 @@ LIST Guess = guess ;
 
 LIST Prn = prn ;
 
+LIST Pos = pos ;
+
+LIST Itg = itg ;
+
+LIST Personal = pers ;
+
+LIST Ind = ind ;
+
+LIST Neg = neg ;
+
+LIST Dat = dat ;
+
+LIST Acc = acc ;
+
+LIST Coop = coop ;
+
 LIST A = "a" ;
 
 LIST Re = "re" ;
 
-SECTION
+LIST Num = num ;
 
+LIST Sg = sg ;
+
+LIST Pl = pl ;
+
+LIST Np = np ;
+
+LIST Subs = subs ;
+
+LIST Top = top ;
+
+LIST Cog = cog ;
+
+LIST Ant = ant ;
+
+LIST Det = det ;
+
+LIST Cnjcoo = cnjcoo ;
+
+LIST V = v ;
+
+LIST Tv = tv ;
+
+LIST Iv = iv ;
+
+LIST Aux = aux ;
+
+LIST Coop = coop ;
+
+LIST Adj = adj ;
+
+LIST Dem = dem ;
+
+LIST P3 = p3 ;
+
+LIST P1 = p1 ;
+
+LIST Post = post ;
+
+LIST Adv = adv;
+
+LIST In = in ;
+
+LIST Ac = ac ;
+
+LIST Barb = barb ;
+
+LIST Pres = pres ;
+
+LIST Ser = vbser ;
+
+LIST Ref = ref ;
+
+LIST Lang = "ñeʼẽ" ;
+LIST Peoples = "guarani" "guaraní" ;
+LIST Petei = "peteĩ" ;
+LIST Think = "moʼã";
+
+SET SubSg = Ant | Top | Cog ; # Subject Sg Without N
+SET Names = SubSg | N ;
+SET Verbal = V | Aux ;
+SET Pers = P1 | P3 ;
+
+#HEURISTICS
 
 REMOVE SUB:3 Incp ;
 
@@ -33,4 +116,125 @@ REMOVE Re + Prn (0/* N) ;
 
 REMOVE Guess ;
 
+REMOVE Pl IF (1 Petei) ;
+#Oiko peteĩ karai Benjamín ñemoñaregua hérava Quis
 
+SELECT Prn + Ind IF (1 N) ;
+#Oiko peteĩ karai Benjamín ñemoñaregua hérava Quis
+
+#SELECT ("ñemoñare") IF (-1* (N) OR (Np Ant)) ;
+
+REMOVE Top IF ((1 Cog) OR (1 Ant)) ;
+# León Cadogan omoĩ o kuatiañe'ẽme
+
+SELECT Post IF ((-1 Top) OR (-2 Top)) ;
+#Guarani ha'e peteĩva umi te'yikuéra Amérika-gua ñe'ẽnguéra apytépe
+
+#GRAMMATICAL
+
+SELECT N IF (-1 Petei);
+#Oiko peteĩ karai Benjamín ñemoñaregua hérava Quis
+
+SELECT SUB:* Sg + V IF (-1/* SubSg - Pl);
+# León Cadogan omoĩ o kuatiañe'ẽme
+
+SELECT Cnjcoo IF ((-1 N LINK 2 N) OR (-1 Np LINK 2 Np));
+#Avañe'ẽ ha Guarani ñe'ẽ
+
+SELECT Det + Pl IF (-1 N) ;
+# óga kuéra
+
+SELECT Adj + Dem + Pl IF (1/* Det + Pl) ;
+# umi Guaranikuéra
+
+SELECT Pl IF (1 Aux + Pl) ;
+#Avañe'ẽ ha Guarani ñe'ẽ ombohéra hikuái
+
+SELECT Adv IF (1/* V) ;
+#Guarani ha'e peteĩva umi te'yikuéra Amérika-gua ñe'ẽnguéra apytépe hetave iñe'ẽhárava
+
+SELECT Sg + In IF (-1*/* Petei); #Careful!
+#Guarani ha'e peteĩva umi te'yikuéra Amérika-gua ñe'ẽnguéra apytépe hetave iñe'ẽhárava
+
+REMOVE Sg IF ((-2/* Pl) OR (-1/* Pl)) ;
+#Guarani ha'e peteĩva umi te'yikuéra Amérika-gua ñe'ẽnguéra apytépe hetave iñe'ẽhárava
+
+#SELECT Ref IF (-1/* V + Sg) ;
+#oñemohendáva in
+#Guarani ha'e peteĩva umi te'yikuéra Amérika-gua ñe'ẽnguéra apytépe hetave iñe'ẽhárava,
+#oñemohendáva irundy tetãnguéra iñambuévape (Paraguái, Argentina, Volívia ha Vrasil)
+
+SELECT Ser IF ((-1 N LINK 2 Num)) ;
+
+######################################
+#NOUN WITH AN ATTRIBUTE CONSTRUCTIONS#
+######################################
+
+SELECT Adj + Dem IF ((1/* N) OR (-1/* N LINK -1/* Adj + Dem));
+#ko órape
+#pe kuña péva
+
+SELECT Num IF (1/* N) ;
+#mokõi óga
+
+SELECT Adj + Ind IF (1/* N) ;
+#ambue tetã
+
+
+#REMOVE Adj IF (0/* Adj + Dem LINK -2/* Adj + Dem) ; Do we need this?
+
+SELECT Adj IF (-1/* N);
+SELECT N IF ((1/* Adj) OR (-1/* Adj + Dem));
+#kyse pyahu
+#kóva ko távape
+
+SELECT SUB:* Prn + Dem IF (1/1 Adj + Dem LINK 1/* N) ;
+#kóva ko távape
+
+SELECT Prn + Personal IF (1/* N LINK 1/* Adj);
+#nde mitã michĩ
+
+#########################
+## Predicative Phrases ##
+#########################
+
+SELECT SUB:* Ser IF ((-1/* Names LINK 2/* N) OR (0/* Neg + Ser LINK -1/* Names LINK 2/* N) OR (1/* N));
+#Mario ha’e chokokue
+#Mario ndaha’ei chokokue
+#Ndaha’ei cherembireko
+
+SELECT Adv + Neg IF (1/* Verbal) ;
+#ani rehecha
+
+SELECT Prn + Pos IF (-1/* Prn + Itg) ;
+#Mávapa ipaino
+
+SELECT SUB:* In IF ((0/* In + N LINK 0/* Adv) OR (-1/* Ser)) ;
+#Ndaha’ei cherembireko
+
+SELECT N IF (-1/* Ser);
+
+SELECT Dat IF ((-1/* V + Iv) OR (1/* V + Tv)) ;
+#Ndahakúi ichupekuéra
+
+SELECT Sub:* Tv IF (0/* Coop);
+
+##########################
+# Objective constructions#
+##########################
+
+
+
+#WORD FORMS
+
+REMOVE Barb IF (0/* Top); 
+
+SELECT N IF (0 Lang) (-1C Peoples) ;
+# Avañe'ẽ ha Guarani ñe'ẽ ombohéra hikuái (...)
+
+SELECT SUB:* Iv IF (0/* Think LINK NOT -1/* N) ;
+#Ndéve nemboguevírõ niko oimo’ãne
+
+AFTER-SECTIONS
+
+SELECT SUB:* Pres IF (0/* Pres) ;
