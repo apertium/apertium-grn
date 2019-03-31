@@ -387,7 +387,8 @@ LEXICON COMP-INFL
 DEM-PRN-SG ;
 DEM-PRN-INFL;
 AD-SUF ;
-SUP ; 
+SUP ;
+FUT ; 
 # ;
 
 LEXICON SUP-REL 
@@ -6804,7 +6805,6 @@ LEXICON FUT
 LEXICON IMP 
 %+aína%<p1%>%<sg%>%<impf%>:%>ína # ;
 %+reína%<p2%>%<sg%>%<impf%>:%>reína # ;
-%+hína%<p3%>%<sg%>%<impf%>:%>hína # ;
 %+ñaína%<p1%>%<pl%>%<impf%>:%>ñaína # ;
 %+roína%<p1%>%<pl%>%<impf%>:%>roína # ;
 %+peína%<p2%>%<pl%>%<impf%>:%>peína # ;
@@ -6818,7 +6818,7 @@ vaʼekue%<aux%>%<pmp%>:vaekue # ;
 akue%<post%>:akue # ;
 vaʼerã%<aux%>%<fti%>:vaʼerã # ;
 vaʼerã%<aux%>%<fti%>:vaerã # ; ! Dir;LR
-hína%<aux%>%<impf%>%<p3%>%<sg%>:hína # ;
+hína%<aux%>%<impf%>%<p3%>:hína # ;
 niko%<aux%>%<nar%>:niko # ;
 niko%<aux%>%<nar%>:ningo # ; ! Dir/LR
 niko%<aux%>%<nar%>:nio # ; ! Dir/LR
@@ -6951,8 +6951,7 @@ LEXICON Optatives
 
 ta%<opt%>%<p1%>%<sg%>%+:%>ta%{P%} VerbsAgr ;
 tere%<opt%>%<p2%>%<sg%>%+:%>tere%{P%} VerbsAgr ;
-to%<opt%>%<p3%>%<sg%>%+:%>to%{P%} VerbsAgr ;
-to%<opt%>%<p3%>%<pl%>%+:%>to%{P%} VerbsAgr ;
+to%<opt%>%<p3%>%+:%>to%{P%} VerbsAgr ;
 taja%<opt%>%<p1%>%<pl%>%+:%>ta%{J%}a%{P%} VerbsAgr ;
 toro%<opt%>%<p1%>%<pl%>%+:%>toro%{P%} VerbsAgr ;
 tape%<opt%>%<p2%>%<pl%>%+:%>tape%{P%} VerbsAgr ;
@@ -6999,6 +6998,7 @@ i%<prn%>%<pro%>%<p3%>%<in%>%+:%>i%{I%} INACT-INFL ;
 LEXICON INACT-INFL
 
 Verbs ;
+VerbsIv;
 Nouns ;
 Adjectives;
 DetBiformes ;
@@ -7009,11 +7009,10 @@ DetTriformes ;
 LEXICON IrrVerbs
 haʼe%<v%>%<tv%>%<p1%>%<sg%>%<pres%>:haʼe IRR-INFL ; ! digo 
 ere%<v%>%<tv%>%<p2%>%<sg%>%<pres%>:ere IRR-INFL ; ! dices
-heʼi%<v%>%<tv%>%<p3%>%<sg%>%<pres%>:heʼi IRR-INFL ; ! dice 
+heʼi%<v%>%<tv%>%<p3%>%<pres%>:heʼi IRR-INFL ; ! dice 
 jaʼe%<v%>%<tv%>%<p1%>%<pl%>%<pres%>:jaʼe IRR-INFL ; ! decimos 
 roʼe%<v%>%<tv%>%<p1%>%<pl%>%<pres%>:roʼe IRR-INFL ; ! decimos 
 peje%<v%>%<tv%>%<p2%>%<pl%>%<pres%>:peje IRR-INFL ; ! decis 
-heʼi%<v%>%<tv%>%<p3%>%<pl%>%<pres%>:heʼi IRR-INFL ; ! dicen 
 
 aju%<v%>%<iv%>%<p1%>%<sg%>%<pres%>:aju IRR-INFL ; ! vengo
 reju%<v%>%<iv%>%<p2%>%<sg%>%<pres%>:reju IRR-INFL ; ! vienes 
@@ -7033,7 +7032,7 @@ peho%<v%>%<iv%>%<p2%>%<pl%>%<pres%>:peho IRR-INFL ; ! vais
 haʼu%<v%>%<tv%>%<p1%>%<sg%>%<pres%>:haʼu IRR-INFL ; ! como
 haʼu%<v%>%<tv%>%<p1%>%<sg%>%<pres%>:ha'u IRR-INFL ; ! como Dir/LR
 reʼu%<v%>%<tv%>%<p2%>%<sg%>%<pres%>:reʼu IRR-INFL ; ! comes 
-hoʼu%<v%>%<tv%>%<p3%>%<sg%>%<pres%>:hoʼu IRR-INFL ; ! come 
+hoʼu%<v%>%<tv%>%<p3%>%<pres%>:hoʼu IRR-INFL ; ! come 
 jaʼu%<v%>%<tv%>%<p1%>%<pl%>%<pres%>:jaʼu IRR-INFL ; ! comemos 
 roʼu%<v%>%<tv%>%<p1%>%<pl%>%<pres%>:roʼu IRR-INFL ; ! comemos
 peʼu%<v%>%<tv%>%<p2%>%<pl%>%<pres%>:peʼu IRR-INFL ; ! comeis 
@@ -7084,8 +7083,8 @@ nde%<prn%>%<pos%>%<p2%>%<sg%>%+:n%{D%}e POS-COMPL ;
 ore%<prn%>%<pos%>%<p1%>%<pl%>%+:ore POS-COMPL ;
 pende%<prn%>%<pos%>%<p2%>%<pl%>%+:pen%{D%}e POS-COMPL ;  
 
-i%<prn%>%<pos%>%<p3%>%<sg%>%+:%{H%}i%{I%} POS-COMPL ; 
-o%<prn%>%<pos%>%<p3%>%<sg%>%+:o%{P%} POS-COMPL ;
+i%<prn%>%<pos%>%<p3%>%+:%{H%}i%{I%} POS-COMPL ; 
+o%<prn%>%<pos%>%<p3%>%+:o%{P%} POS-COMPL ;
 
 LEXICON POS-COMPL 
 
@@ -7357,7 +7356,7 @@ XXI:XXI NUM-ROMAN ; ! ""
 
 LEXICON DetBiformes
 r%<det%>%+:r Biformes ;
-h%<prn%>%<pos%>%<p3%>%<sg%>%+:h Biformes ;
+h%<prn%>%<pos%>%<p3%>%+:h Biformes ;
 
 LEXICON Biformes 
 óga:•óga N ; ! "casa"
@@ -7379,7 +7378,7 @@ ryvýra:ryvýra N ; ! "hermano menor"
 
 LEXICON DetTriformes
 r%<det%>%+:r%{t%} Triformes ;
-h%<prn%>%<pos%>%<p3%>%<sg%>%+:h%{t%} Triformes ;
+h%<prn%>%<pos%>%<p3%>%+:h%{t%} Triformes ;
 
 LEXICON Triformes
 
@@ -16361,7 +16360,6 @@ herunguã:herunguã AD ; ! " quizá, tal vez, quién sabe"
 hesaʼi:hesaʼi AD ; ! " poco"
 hiʼári:hiʼári AD ; ! " además, encima"
 hikóni:hikóni AD ; ! "durante cierto tiempo"
-hína:hína AD ; ! " que indica acción continuada durante un cierto tiempo"
 hoytahápe:hoytahápe AD ; ! " nadando, a nado"
 huʼãme:huʼãme AD ; ! " al fin, finalmente, en la cumbre"
 ikatúne:ikatúne AD ; ! " tal vez, probablemente"
