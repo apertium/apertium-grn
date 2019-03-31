@@ -181,7 +181,7 @@ Vt:Va <=> •: _ [ Cns: | ArchiCns: | Nas: | VowsAton: |  %>: ]+  VowsTon: ;
 %{m%}:m <=> NasTil: [Vows:| Cns: | %>:]+ %>: _ ; 
 	    NasTil: %>: _ ; 
           %{g%}: %-: _  ;
-          n: Vows: _ ;
+          n: Vows: %>: _ ;
           except
           ñ: e: m: b: y: %>: _ ;
 
