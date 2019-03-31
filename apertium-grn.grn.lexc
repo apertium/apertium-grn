@@ -6903,7 +6903,6 @@ LEXICON PersonAgr
 a%<prn%>%<p1%>%<sg%>%<ac%>%+:%>a%{P%} VerbsAgr ;
 re%<prn%>%<p2%>%<sg%>%<ac%>%+:%>re%{P%} VerbsAgr ;
 o%<prn%>%<p3%>%<sg%>%<ac%>%+:%>o%{P%} VerbsAgr ;
-o%<prn%>%<p3%>%<pl%>%<ac%>%+:%>o%{P%} VerbsAgr ;
 ja%<prn%>%<p1%>%<pl%>%<ac%>%+:%>%{J%}a%{P%} VerbsAgr ;
 ro%<prn%>%<p1%>%<pl%>%<ac%>%+:%>ro%{P%} VerbsAgr ;
 pe%<prn%>%<p2%>%<pl%>%<ac%>%+:%>pe%{P%} VerbsAgr ;
@@ -6911,7 +6910,6 @@ pe%<prn%>%<p2%>%<pl%>%<ac%>%+:%>pe%{P%} VerbsAgr ;
 a%<prn%>%<p1%>%<sg%>%<ac%>%+:%>a%{P%} Nouns ;
 re%<prn%>%<p2%>%<sg%>%<ac%>%+:%>re%{P%} Nouns ;
 o%<prn%>%<p3%>%<sg%>%<ac%>%+:%>o%{P%} Nouns ;
-o%<prn%>%<p3%>%<pl%>%<ac%>%+:%>o%{P%} Nouns ;
 ja%<prn%>%<p1%>%<pl%>%<ac%>%+:%>%{J%}a%{P%} Nouns ;
 ro%<prn%>%<p1%>%<pl%>%<ac%>%+:%>ro%{P%} Nouns ;
 pe%<prn%>%<p2%>%<pl%>%<ac%>%+:%>pe%{P%} Nouns ;
@@ -6921,7 +6919,7 @@ o%<prn%>%<p3%>%<sg%>%<ac%>%+:%>o%{P%} VerbsDefSg ;
 
 LEXICON PersonAgrDefPl 
 
-o%<prn%>%<p3%>%<pl%>%<ac%>%+:%>o%{P%} VerbsDefPl ;
+o%<prn%>%<p3%>%<sg%>%<ac%>%+:%>o%{P%} VerbsDefPl ;
 ja%<prn%>%<p1%>%<pl%>%<ac%>%+:%>%{J%}a%{P%} VerbsDefPl ;
 ro%<prn%>%<p1%>%<pl%>%<ac%>%+:%>ro%{P%} VerbsDefPl ;
 
@@ -6994,7 +6992,6 @@ ore%<prn%>%<pro%>%<p1%>%<pl%>%<in%>%+:%>ore{p%} INACT-INFL ;
 pende%<prn%>%<pro%>%<p2%>%<pl%>%<in%>%+:%>pen%{D%}e{p%} INACT-INFL ;
 po%<prn%>%<pro%>%<p2%>%<pl%>%<in%>%+:%>po INACT-INFL ;
 i%<prn%>%<pro%>%<p3%>%<sg%>%<in%>%+:%>i%{I%} INACT-INFL ;
-i%<prn%>%<pro%>%<p3%>%<pl%>%<in%>%+:%>i%{I%} INACT-INFL ;
 
 LEXICON INACT-INFL
 
