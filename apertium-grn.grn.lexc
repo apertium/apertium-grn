@@ -168,7 +168,6 @@ DemonstrativePronouns ;
 Voices ; 
 ADJV ;
 DET-PL ;
-PAST-SEP;
 POST-SEP;
 ImpPol;
 ImpPol-Sep;
@@ -232,7 +231,7 @@ LEXICON CASE-NONOM
 %+pe%<post%>:%>%{m%}e CASE-INFL ; ! "a, en"
 %+gua%<post%>:%>%{Y%}gua CASE-INFL ;
 %+guý%<post%>:%>guý CASE-INFL ;
-%+a%<post%>:%>a CASE-INFL ;
+!%+a%<post%>:%>a CASE-INFL ;
 %+ari%<post%>:%>ari CASE-INFL ;
 %+re%<post%>:%>re CASE-INFL ; ! "past"
 %+rehe%<post%>:%>rehe CASE-INFL ; ! "por"
@@ -373,6 +372,7 @@ LEXICON SUBST-V
 +rã%<subs%>:%>rã CASE ;
 +hára%<subs%>:%>hára CASE ;
 +hára%<subs%>:%>hára # ;
++va%<subs%>%<dem%>:%>va # ;
 
 LEXICON COMP 
 +icha%<comp%>:%>icha COMP-INFL ; ! "igualidad" 
@@ -4532,7 +4532,6 @@ Dófca:Dófca NP-AL ; ! ""
 Leviatán:Leviatán NP-AL ; ! ""
 Enramadaguy:Enramadaguy NP-AL ; ! ""
 Quiná:Quiná NP-AL ; ! ""
-Nde:Nde NP-AL ; ! ""
 Helcat:Helcat NP-AL ; ! ""
 Cesaréa:Cesaréa NP-AL ; ! ""
 Peres:Peres NP-AL ; ! ""
@@ -6778,11 +6777,6 @@ LEXICON PAST
 %+raʼe%<past%>:%>raʼe # ;
 %+gue%<past%>:%>gue # ; ! Nominal Past
 
-LEXICON PAST-SEP
-
-vaʼekue%<post%>:vaʼekue # ;
-vaʼekue%<post%>:vaekue # ;
-akue%<post%>:akue # ;
 
 LEXICON POST-SEP
 
@@ -6817,6 +6811,8 @@ LEXICON IMP
 LEXICON MODES-AUX 
 hikuái%<aux%>%<impf%>%<p3%>%<pl%>:hikuái # ;
 vaʼekue%<aux%>%<pmp%>:vaʼekue # ;
+vaʼekue%<aux%>%<pmp%>:vaekue # ;
+akue%<post%>:akue # ;
 vaʼerã%<aux%>%<fti%>:vaʼerã # ;
 vaʼerã%<aux%>%<fti%>:vaerã # ; ! Dir;LR
 hína%<aux%>%<impf%>%<p3%>%<sg%>:hína # ;
@@ -7436,6 +7432,7 @@ teindy:teindy N ; ! "hermana del varón"
 
 LEXICON Nouns
 
+mbatovi:mbatovi N ; 
 rrása:rr•ása N ; ! "rasa (de animal) LOAN"
 óra:•óra N ; ! "hora"
 mymbajuka:mymbajuka N ; ! "animal de sacrifício, cazado"
@@ -10658,7 +10655,6 @@ masakaraguaʼi:masakaraguaʼi N ; ! "ruiseñor"
 matúla:matúla N ; ! "viático, provisiones para el viaje"
 mbaʼapohára:mbaʼapohára N ; ! "trabajador, obrero, peón, operario"
 mbaʼapoha:mbaʼapoha N ; ! "trabajo, empleo, taller, obrero, trabajador"
-mbaʼapokue:mbaʼapokue N ; ! "obra"
 mbaʼapo:mbaʼapo N ; ! "tarea, empleo, trabajo"
 mbaʼapoʼỹ:mbaʼapoʼỹ N ; ! "ocio, desocupación"
 mbaʼasypoʼi:mbaʼasypoʼi N ; ! "tuberculosis"
@@ -15202,7 +15198,6 @@ hyvatã:hyvatã ADJ ; ! "harto, satisfecho, sacia­do, saturado, repleto"
 hyvi:hyvi ADJ ; ! "fibroso"
 iguypegua:iguypegua ADJ ; ! "inferior"
 ikatupáva:ikatupáva ADJ ; ! "omnipotente, todopode­roso"
-ikatúva:ikatúva ADJ ; ! "posible, que puede"
 ikatuʼỹva:ikatuʼỹva ADJ ; ! "imposible"
 ikoe:ikoe ADJ ; ! "distinto, diferente, diverso, desigual, opuesto, fabuloso"
 ikuaʼíva:ikuaʼíva ADJ ; ! "poroso"
@@ -15568,7 +15563,6 @@ ndahiʼaréi:ndahiʼaréi ADJ ; ! "temporal, fugaz"
 ndaijeroviahái:ndaijeroviahái ADJ ; ! "sospechoso, irresponsable, poco confiable"
 ndaipochýiva:ndaipochýiva ADJ ; ! "manso"
 ndaipukúi:ndaipukúi ADJ ; ! "corto, temporáneo"
-nde:nde ADJ ; ! "pos. de 2da. per. sing. tu"
 ndivegua:ndivegua ADJ ; ! "compañero/a, amante, concubino/a"
 ndokéiva:ndokéiva ADJ ; ! "despierto"
 ndokúiva:ndokúiva ADJ ; ! "perenne"

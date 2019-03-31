@@ -68,6 +68,8 @@ LIST Coop = coop ;
 
 LIST Adj = adj ;
 
+LIST Pro = pro ;
+
 LIST Dem = dem ;
 
 LIST P3 = p3 ;
@@ -99,6 +101,15 @@ SET SubSg = Ant | Top | Cog ; # Subject Sg Without N
 SET Names = SubSg | N ;
 SET Verbal = V | Aux ;
 SET Pers = P1 | P3 ;
+
+#######SUFFIXES#######
+
+LIST NomFut = "rã";
+LIST NomPast = "kue" ;
+LIST RoV = "rõ";
+
+SET PostV = RoV ;
+SET NomTemp = NomPast | NomFut ;
 
 #HEURISTICS
 
@@ -206,8 +217,9 @@ SELECT SUB:* Ser IF ((-1/* Names LINK 2/* N) OR (0/* Neg + Ser LINK -1/* Names L
 SELECT Adv + Neg IF (1/* Verbal) ;
 #ani rehecha
 
-SELECT Prn + Pos IF (-1/* Prn + Itg) ;
+SELECT Prn + Pos IF ((-1/* Prn + Itg) OR (0/* NomTemp)) ;
 #Mávapa ipaino
+#chemba'aporã
 
 SELECT SUB:* In IF ((0/* In + N LINK 0/* Adv) OR (-1/* Ser)) ;
 #Ndaha’ei cherembireko
@@ -218,6 +230,20 @@ SELECT Dat IF ((-1/* V + Iv) OR (1/* V + Tv)) ;
 #Ndahakúi ichupekuéra
 
 SELECT Sub:* Tv IF (0/* Coop);
+
+SELECT N IF (0/* NomTemp);
+#Che mba'aporã
+
+REMOVE SUB:* Post IF (0/* NomTemp);
+#matúlakue
+
+SELECT V IF (0/* PostV) ;
+
+REMOVE SUB:* Pro IF (0/* Ac) ;
+#aiporuva
+
+SELECT Aux IF (-1/* V) ;
+#"rereko va'ekue"
 
 ##########################
 # Objective constructions#
