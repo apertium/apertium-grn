@@ -872,7 +872,6 @@ Paul:Paul NP-ANT ; ! ""
 William:William NP-ANT ; ! ""
 Julián:Julián NP-ANT ; ! ""
 John:John NP-ANT ; ! ""
-Benjamín:Benjamín NP-ANT ; ! ""
 Martín:Martín NP-ANT ; ! ""
 Agustín:Agustín NP-ANT ; ! ""
 Afíah:Afíah NP-ANT ; ! ""
@@ -1058,6 +1057,7 @@ Benedicto:Benedicto NP-ANT ; ! ""
 Benigno:Benigno NP-ANT ; ! ""
 Benita:Benita NP-ANT ; ! ""
 Benjamin:Benjamin NP-ANT ; ! ""
+Benjamin:Benjamín NP-ANT ; ! "" ! Dir/LR
 Ben:Ben NP-ANT ; ! ""
 Berenice:Berenice NP-ANT ; ! ""
 Bernabé:Bernab•é NP-ANT ; ! ""
@@ -5063,7 +5063,6 @@ Nínive:Nínive NP-AL ; ! ""
 Eropu:Eropu NP-AL ; ! ""
 Sedequías:Sedequías NP-AL ; ! ""
 Talmai:Talmai NP-AL ; ! ""
-Quis:Quis NP-ANT ; ! ""
 Aténas:Aténas NP-AL ; ! ""
 Jaalam:Jaalam NP-AL ; ! ""
 Jesana:Jesana NP-AL ; ! ""
@@ -5140,7 +5139,8 @@ Ciliciaguaha:Ciliciaguaha NP-AL ; ! ""
 Gáham:Gáham NP-AL ; ! ""
 Quesil:Quesil NP-AL ; ! ""
 Noikotevẽi:Noikotevẽi NP-AL ; ! ""
-Quís:Quís NP-ANT ; ! ""
+Quis:Quís NP-ANT ; ! "" ! Dir/LR
+Quis:Quis NP-ANT ; ! ""
 Sóco:Sóco NP-AL ; ! ""
 Hasabnías:Hasabnías NP-AL ; ! ""
 Eleazár:Eleazár NP-AL ; ! ""
@@ -6805,11 +6805,11 @@ LEXICON IMP
 %+ñaína%<p1%>%<pl%>%<impf%>:%>ñaína # ;
 %+roína%<p1%>%<pl%>%<impf%>:%>roína # ;
 %+peína%<p2%>%<pl%>%<impf%>:%>peína # ;
-%+hína%<p3%>%<pl%>%<impf%>:%>hína # ;
-%+hikuái%<p3%>%<pl%>%<impf%>:%>hikuái # ;
+%+hína%<p3%>%<impf%>:%>hína # ;
+%+hikuái%<p3%>%<impf%>:%>hikuái # ;
 
 LEXICON MODES-AUX 
-hikuái%<aux%>%<impf%>%<p3%>%<pl%>:hikuái # ;
+hikuái%<aux%>%<impf%>%<p3%>:hikuái # ;
 vaʼekue%<aux%>%<pmp%>:vaʼekue # ;
 vaʼekue%<aux%>%<pmp%>:vaekue # ;
 akue%<post%>:akue # ;

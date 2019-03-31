@@ -96,6 +96,7 @@ LIST Lang = "ñeʼẽ" ;
 LIST Peoples = "guarani" "guaraní" ;
 LIST Petei = "peteĩ" ;
 LIST Think = "moʼã";
+LIST Child = "ñemoña";
 
 SET SubSg = Ant | Top | Cog ; # Subject Sg Without N
 SET Names = SubSg | N ;
@@ -127,13 +128,10 @@ REMOVE Re + Prn (0/* N) ;
 
 REMOVE Guess ;
 
-REMOVE Pl IF (1 Petei) ;
-#Oiko peteĩ karai Benjamín ñemoñaregua hérava Quis
-
 SELECT Prn + Ind IF (1 N) ;
 #Oiko peteĩ karai Benjamín ñemoñaregua hérava Quis
 
-#SELECT ("ñemoñare") IF (-1* (N) OR (Np Ant)) ;
+SELECT Child IF (-1/* Ant);
 
 REMOVE Top IF ((1 Cog) OR (1 Ant)) ;
 # León Cadogan omoĩ o kuatiañe'ẽme
@@ -158,8 +156,6 @@ SELECT Det + Pl IF (-1 N) ;
 SELECT Adj + Dem + Pl IF (1/* Det + Pl) ;
 # umi Guaranikuéra
 
-SELECT Pl IF (1 Aux + Pl) ;
-#Avañe'ẽ ha Guarani ñe'ẽ ombohéra hikuái
 
 SELECT Adv IF (1/* V) ;
 #Guarani ha'e peteĩva umi te'yikuéra Amérika-gua ñe'ẽnguéra apytépe hetave iñe'ẽhárava
@@ -230,6 +226,9 @@ SELECT Dat IF ((-1/* V + Iv) OR (1/* V + Tv)) ;
 #Ndahakúi ichupekuéra
 
 SELECT Sub:* Tv IF (0/* Coop);
+#SELECT Sub:* Coop IF (-1/* N LINK -1/* Cnjcoo); #THINK!
+#Avañe'ẽ ha Guarani ñe'ẽ ombohéra hikuái
+
 
 SELECT N IF (0/* NomTemp);
 #Che mba'aporã
