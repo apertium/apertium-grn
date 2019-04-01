@@ -442,7 +442,6 @@ LEXICON N
 %<n%>:SUP ;
 %<n%>: MODES;
 
-
 LEXICON NP-COG
 
 %<np%>%<cog%>: CASE ;
@@ -503,7 +502,6 @@ LEXICON ProperNouns
 
 Gral:Gral NP-ANT ; ! ""
 Alcides:Alcides NP-ANT ;
-Ladilsaa:Ladilsaa NP-ANT ; ! ""
 Kaʼasapay:Kaʼasapay NP-TOP ;
 Kaʼasapa:Kaʼasapa NP-TOP ; ! ""
 Efraín:Efraín NP-TOP ; ! ""
@@ -5145,7 +5143,7 @@ Gáham:Gáham NP-AL ; ! ""
 Quesil:Quesil NP-AL ; ! ""
 Noikotevẽi:Noikotevẽi NP-AL ; ! ""
 Quis:Quís NP-ANT ; ! "" ! Dir/LR
-Quis:Quis NP-ANT ; ! ""
+Quis:Quis NP-ANT ; ! "
 Sóco:Sóco NP-AL ; ! ""
 Hasabnías:Hasabnías NP-AL ; ! ""
 Eleazár:Eleazár NP-AL ; ! ""
@@ -6780,7 +6778,6 @@ LEXICON PAST
 %+raʼe%<past%>:%>raʼe # ;
 %+gue%<past%>:%>gue # ; ! Nominal Past
 
-
 LEXICON POST-SEP
 
 pe%<post%>:pe # ;
@@ -6801,6 +6798,7 @@ LEXICON FUT
 %+mo’ã%<fti%>:%>%mo’â # ;
 %+vaʼerã%<fti%>:%>%vaʼerã # ;
 %+vaʼerã%<fti%>:%>%vaʼerã PAST ;
+
 
 
 LEXICON IMP 
@@ -6838,6 +6836,7 @@ LEXICON MODES
 %+i%<dim%>:%>%{P%}i CASE ; !
 %+mi%<dim%>:%>mi CASE ;
 %+mimi%<dim%>:%>mimi CASE ;
+
 
 LEXICON SABER
 kuaa:kuaa V ;
@@ -7004,6 +7003,7 @@ LEXICON INACT-INFL
 
 Verbs ;
 VerbsIv;
+
 Nouns ;
 Adjectives;
 DetBiformes ;
@@ -7013,11 +7013,10 @@ DetTriformes ;
 
 LEXICON IrrVerbs
 haʼe%<v%>%<tv%>%<p1%>%<sg%>%<pres%>:haʼe IRR-INFL ; ! digo 
-ere%<v%>%<tv%>%<p2%>%<sg%>%<pres%>:ere IRR-INFL ; ! dices
 heʼi%<v%>%<tv%>%<p3%>%<pres%>:heʼi IRR-INFL ; ! dice 
 jaʼe%<v%>%<tv%>%<p1%>%<pl%>%<pres%>:jaʼe IRR-INFL ; ! decimos 
 roʼe%<v%>%<tv%>%<p1%>%<pl%>%<pres%>:roʼe IRR-INFL ; ! decimos 
-peje%<v%>%<tv%>%<p2%>%<pl%>%<pres%>:peje IRR-INFL ; ! decis 
+peje%<v%>%<tv%>%<p2%>%<pl%>%<pres%>:peje IRR-INFL ; ! decis
 
 aju%<v%>%<iv%>%<p1%>%<sg%>%<pres%>:aju IRR-INFL ; ! vengo
 reju%<v%>%<iv%>%<p2%>%<sg%>%<pres%>:reju IRR-INFL ; ! vienes 
@@ -7439,6 +7438,7 @@ tuvanga:tuvanga N ; !"padraste"
 teindy:teindy N ; ! "hermana del varón"
 
 LEXICON Nouns
+
 
 malavisiõ:malavisiõ N ;
 mbatovi:mbatovi N ; 
