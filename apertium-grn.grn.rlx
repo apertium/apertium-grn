@@ -86,6 +86,10 @@ LIST Ac = ac ;
 
 LIST Barb = barb ;
 
+#Temporal Aspect
+
+LIST Pmp = pmp;
+
 LIST Pres = pres ;
 
 LIST Ser = vbser ;
@@ -144,9 +148,6 @@ SELECT Post IF ((-1 Top) OR (-2 Top)) ;
 SELECT N IF (-1 Petei);
 #Oiko peteĩ karai Benjamín ñemoñaregua hérava Quis
 
-SELECT SUB:* Sg + V IF (-1/* SubSg - Pl);
-# León Cadogan omoĩ o kuatiañe'ẽme
-
 SELECT Cnjcoo IF ((-1 N LINK 2 N) OR (-1 Np LINK 2 Np));
 #Avañe'ẽ ha Guarani ñe'ẽ
 
@@ -160,7 +161,7 @@ SELECT Adj + Dem + Pl IF (1/* Det + Pl) ;
 SELECT Adv IF (1/* V) ;
 #Guarani ha'e peteĩva umi te'yikuéra Amérika-gua ñe'ẽnguéra apytépe hetave iñe'ẽhárava
 
-SELECT Sg + In IF (-1*/* Petei); #Careful!
+SELECT In IF (-1/* Adv);
 #Guarani ha'e peteĩva umi te'yikuéra Amérika-gua ñe'ẽnguéra apytépe hetave iñe'ẽhárava
 
 REMOVE Sg IF ((-2/* Pl) OR (-1/* Pl)) ;
@@ -226,7 +227,9 @@ SELECT Dat IF ((-1/* V + Iv) OR (1/* V + Tv)) ;
 #Ndahakúi ichupekuéra
 
 SELECT Sub:* Tv IF (0/* Coop);
-#SELECT Sub:* Coop IF (-1/* N LINK -1/* Cnjcoo); #THINK!
+
+MAP(@CC) TARGET N + Cnjcoo;
+
 #Avañe'ẽ ha Guarani ñe'ẽ ombohéra hikuái
 
 
