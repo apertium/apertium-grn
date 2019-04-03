@@ -75,7 +75,7 @@ Rules
 
 "Change vowel before atonal suffixes"
 Va:Vt <=> _ %>: [m: a: | n: t: e: | i: c: h: a: | %{m%}: e: | g: u: i: | r: e: | m: i:|
-                 k: u: r: i: | t: a: | r: a: ʼ: e: | n: e: | n: i: k: o:| v: a: | p: a: ] ;
+                 k: u: r: i: | t: a: | r: a: ʼ: e: | n: e: | n: i: k: o:| v: a: | p: a: | %{N%}: %{K%}: ] ;
             [Cns: | VowsAton: | Nas: | ʼ: ]+ _ %>: %{r%}: ;
             _ %{o%}: %>: [v: | a: | g: u: i: | i: c: h: a: ] ;
             except
@@ -125,9 +125,11 @@ Vt:Va <=> •: _ [ Cns: | ArchiCns: | Nas: | VowsAton: |  %>: ]+  VowsTon: ;
 %{P%}:ʼ <=> _ [ VowsTon: | •: VowsAton:] ;
             Vows: _ [a: k: u: e:] ;
             Vows: %>: _ ;
-            Vows: _ ;
+            !Vows: _ ;
             %{b%}: [o: | y:] _ Vows: ;
             r: o: _ Vows: ;
+            except
+            _ %{i%}: ;
 
 "Surface [n] in plural nouns" 
 %{N%}:n <=> Nas: %>: _ ;

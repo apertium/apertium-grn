@@ -6769,6 +6769,7 @@ LEXICON PRES
 %<pres%>: SUBST-V ;
 %<pres%>: SUP ;
 %<pres%>: CASE ;
+%<pres%>:%> SABER;
 
 LEXICON PAST
 %+akue%<ifi%>:%{P%}akue #;
@@ -6840,7 +6841,8 @@ LEXICON MODES
 %+mimi%<dim%>:%>mimi CASE ;
 
 LEXICON SABER
-kuaa:kuaa V ;
+
+%+kuaa%<v%>%<iv%>:%>kuaa V-INFL ;
 
 LEXICON V-INFL 
 PRES ;
@@ -6849,7 +6851,6 @@ FUT ;
 IMP ;
 MODES ;
 DEM-PRN-INFL ;
-SABER;
 SUBST-V ;
 
 LEXICON V-IV
@@ -7721,7 +7722,6 @@ jakare:jakare N ; ! "caimán"
 japepo:japepo N ; ! "olla"
 japi:japi N ; ! "balear"
 japikuaa:japikuaa N ; ! "puntería"
-japo:japo N ; ! "proceder"
 japopyrã:japopyrã N ; ! "programa"
 japu:japu N ; ! "engaño"
 jariʼi:jariʼi N ; ! "acné"
@@ -12223,7 +12223,6 @@ yta:yta V-IV ; ! "saber nadar"
 ñemi:ñemi V-IV ; ! "esconderse"
 ñemoʼã:ñemoʼã V-IV ; ! "defenderse"
 ñemoatã:ñemoatã V-IV ; ! "endurecerse"
-ñemomarandu:ñemomarandu V-IV ; ! "comunicar"
 ñemomini:ñemomini V-IV ; ! "humillarse,empequeñecerse"
 ñemomombyry:ñemomombyry V-IV ; ! "alejarse"
 ñemomýi:ñemom•ýi V-IV ; ! "ponerse en marcha"
@@ -15682,7 +15681,6 @@ oikereíva:oikereíva ADJ ; ! "y s. intruso"
 oikéva:oikéva ADJ ; ! "participante, penetrante"
 oikoporãva:oikoporãva ADJ ; ! "correcto, bien hecho"
 oikotevẽva:oikotevẽva ADJ ; ! "necesitado, pobre"
-oikovéva:oikovéva ADJ ; ! "y s. vivo, habitante"
 oikuaáva:oikuaáva ADJ ; ! "informado, versado"
 oĩmbáva:oĩmbáva ADJ ; ! "integro, completo, total, perfecto"
 oĩmbaʼỹ:oĩmbaʼỹ ADJ ; ! "parcial, incompleto, deficiente, defectuoso"
@@ -15733,7 +15731,6 @@ opytaʼỹva:opytaʼỹva ADJ ; ! "volátil, variable, nómada"
 opývo:opývo ADJ ; ! "parado, de pie"
 oryrýiva:oryrýiva ADJ ; ! "trémulo, tembleque"
 osaingóva:osaingóva ADJ ; ! "colgante"
-osẽva:osẽva ADJ ; ! "resultante, saliente"
 osóva:osóva ADJ ; ! "suelto"
 oteʼõva:oteʼõva ADJ ; ! "muerto"
 otĩva:otĩva ADJ ; ! "vergonzoso, tímido"
