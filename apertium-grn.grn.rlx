@@ -69,7 +69,6 @@ LIST Coop = coop ;
 LIST Adj = adj ;
 
 LIST Pro = pro ;
-
 LIST Dem = dem ;
 
 LIST P3 = p3 ;
