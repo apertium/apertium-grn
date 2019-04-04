@@ -3,9 +3,6 @@ import sys;
 skipUnknown = True;
 testFunc = False;
 
-# src: ^власти/власть<n><f><nn><sg><gen>/власть<n><f><nn><sg><dat>/власть<n><f><nn><sg><prp>/власть<n><f><nn><pl><acc>/власть<n><f><nn><pl><nom>$
-# ref: ^власти/власть<n><f><nn><sg><dat><@P←>$	
-# tst: ^власти/власть<n><f><nn><sg><dat>$
 
 def readings(w, testFunc): #{
 	readings = [];
