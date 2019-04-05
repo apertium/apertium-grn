@@ -269,7 +269,7 @@
 ^Pyaʼépeko/pyaʼe<n>+pe<post>+ko<nar>$ 
 ^roguejy/ro<prn><p1><pl>+guejy<v><iv><pres>$
 ^,/,<cm>$ 
-^rojupi/ro<prn><p1><pl>+jupi<v><iv><pres>
+^rojupi/ro<prn><p1><pl>+jupi<v><iv><pres>$
 ^ore/ore<prn><pos><p1><pl>$ 
 ^rymba/r<det>+tymba<n>$ 
 ^ári/ári<adv>$ 
@@ -323,7 +323,7 @@
 ^./.<sent>$ 
 ^“/“<lquot>$
 ^Umi/umi<prn><dem><pl>$ 
-^mbaʼéngo/mba'e<n>+ko<nar>$ 
+^mbaʼéngo/mbaʼe<n>+ko<nar>$ 
 ^ojehu/o<prn><p3><ac>+jehu<v><iv><pres>$ 
 ^ha/ha<cnjcoo>$ 
 ^rei/rei<adv>$ 
