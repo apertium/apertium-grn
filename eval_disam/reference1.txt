@@ -6,7 +6,7 @@
 ^mbaʼéichapa/mbaʼéichapa<ij>$ 
 ^./.<sent>$
 ^peteĩ/peteĩ<prn><ind>$ 
-^jey<n>$
+^jey/jey<n>$
 ^,/,<cm>$ 
 ^omondýivaʼekue/o<prn><p3><ac>+mondýi<v><tv>+vaʼekue<pmp>$ 
 ^chupe/chupe<prn><pers><p3><acc>$ 
@@ -184,7 +184,7 @@
 ^Ha/ha<cnjcoo>$ 
 ^upépengo/upe<prn><dem><sg>+pe<post>+ko<nar>$
 ^rohecha/ro<prn><p1><pl>+hecha<v><tv><pres>$ 
-^ore/oré<prn><pers><p1><pl>/$ 
+^ore/oré<prn><pers><p1><pl>$ 
 ^rendonderã/*rendonderã$
 ^hesakãsapyʼa/h<prn><pos><p3>+tesa<n><incp>+kã<v><tv><pres>+sapyʼa<adv>$
 ^ha/ha<cnjcoo>$
