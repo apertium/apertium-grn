@@ -95,6 +95,14 @@ LIST Ser = vbser ;
 
 LIST Ref = ref ;
 
+#Syntax
+
+LIST @cc = @cc ;
+LIST @conj = @conj ;
+LIST @compound = @compound;
+
+#Word forms
+
 LIST Lang = "ñeʼẽ" ;
 LIST Peoples = "guarani" "guaraní" ;
 LIST Petei = "peteĩ" ;
@@ -156,6 +164,10 @@ SELECT Det + Pl IF (-1 N) ;
 SELECT Adj + Dem + Pl IF (1/* Det + Pl) ;
 # umi Guaranikuéra
 
+REMOVE Adv IF (0/* Post);
+#oje'e hese opívo oikoha
+REMOVE N IF (0/* Post);
+#oje'e hese opívo oikoha
 
 SELECT Adv IF (1/* V) ;
 #Guarani ha'e peteĩva umi te'yikuéra Amérika-gua ñe'ẽnguéra apytépe hetave iñe'ẽhárava
@@ -210,6 +222,11 @@ SELECT SUB:* Ser IF ((-1/* Names LINK 2/* N) OR (0/* Neg + Ser LINK -1/* Names L
 #Mario ndaha’ei chokokue
 #Ndaha’ei cherembireko
 
+REMOVE SUB:* N IF (0/* Ac);
+#tou omba'aposéva
+
+REMOVE Adj IF ((-1/* V) OR (0/* V));
+
 SELECT Adv + Neg IF (1/* Verbal) ;
 #ani rehecha
 
@@ -225,11 +242,16 @@ SELECT N IF (-1/* Ser);
 SELECT Dat IF ((-1/* V + Iv) OR (1/* V + Tv)) ;
 #Ndahakúi ichupekuéra
 
+
+MAP @compound TARGET N IF (1 N) ; 
+
+MAP @conj TARGET N IF (-1* N - @compound LINK 1* Cnjcoo) ; 
+
+MAP @cc TARGET Cnjcoo IF (1* N + @conj BARRIER (*) - N) ; 
+
+SELECT SUB:* Coop IF (-1* @conj BARRIER (*) - N) ;
+
 SELECT Sub:* Tv IF (0/* Coop);
-
-MAP(@CC) TARGET N + Cnjcoo;
-
-#Avañe'ẽ ha Guarani ñe'ẽ ombohéra hikuái
 
 
 SELECT N IF (0/* NomTemp);
