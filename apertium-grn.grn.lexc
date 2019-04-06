@@ -376,6 +376,7 @@ LEXICON SUBST-V
 +hára%<subs%>:%>hára CASE ;
 +hára%<subs%>:%>hára # ;
 +va%<subs%>%<dem%>:%>va # ;
++va%<subs%>%<dem%>:%>va MODES ;
 
 LEXICON COMP 
 +icha%<comp%>:%>icha COMP-INFL ; ! "igualidad" 
@@ -2754,16 +2755,16 @@ Nuevo:Nuevo NP-COG ; ! ""
 Nuño:Nuño NP-COG ; ! ""
 Obama:Obama NP-COG ; ! ""
 Obrero:Obrero NP-COG ; ! ""
-O'Brien:O'Brien NP-COG ; ! ""
+OʼBrien:OʼBrien NP-COG ; ! ""
 Ocampo:Ocampo NP-COG ; ! ""
 Oda:Oda NP-COG ; ! ""
 Ohana:Ohana NP-COG ; ! ""
 Ohm:Ohm NP-COG ; ! ""
 Ojeda:Ojeda NP-COG ; ! ""
-O'Leary:O'Leary NP-COG ; ! ""
+OʼLeary:OʼLeary NP-COG ; ! ""
 Oliva:Oliva NP-COG ; ! ""
 Oms:Oms NP-COG ; ! ""
-O'Neill:O'Neill NP-COG ; ! ""
+OʼNeill:OʼNeill NP-COG ; ! ""
 Ong:Ong NP-COG ; ! ""
 Ono:Ono NP-COG ; ! ""
 Ontiveros:Ontiveros NP-COG ; ! ""
@@ -7034,7 +7035,7 @@ roho%<v%>%<iv%>%<p1%>%<pl%>%<pres%>:roho IRR-INFL ; ! vamos
 peho%<v%>%<iv%>%<p2%>%<pl%>%<pres%>:peho IRR-INFL ; ! vais 
 
 haʼu%<v%>%<tv%>%<p1%>%<sg%>%<pres%>:haʼu IRR-INFL ; ! como
-haʼu%<v%>%<tv%>%<p1%>%<sg%>%<pres%>:ha'u IRR-INFL ; ! como Dir/LR
+haʼu%<v%>%<tv%>%<p1%>%<sg%>%<pres%>:haʼu IRR-INFL ; ! como Dir/LR
 reʼu%<v%>%<tv%>%<p2%>%<sg%>%<pres%>:reʼu IRR-INFL ; ! comes 
 hoʼu%<v%>%<tv%>%<p3%>%<pres%>:hoʼu IRR-INFL ; ! come 
 jaʼu%<v%>%<tv%>%<p1%>%<pl%>%<pres%>:jaʼu IRR-INFL ; ! comemos 
@@ -11685,7 +11686,7 @@ tesayku:tesayku N ; ! "legaña"
 tesaʼỹ:tesaʼỹ N ; ! "ceguera"
 tetaguã:tetaguã N ; ! "ciudadano, súbdito"
 tetaʼi:tetaʼi N ; ! "provincia, departamento"
-tetãvore'i:tetãvore'i N ; ! "provincia, departamento"
+tetãvoreʼi:tetãvoreʼi N ; ! "provincia, departamento"
 tetama:tetama N ; ! "pueblo, patria"
 tetekue:tetekue N ; ! "cadáver, difunto, restos mortales"
 tetekuʼe:tetekuʼe N ; ! "movimiento, gimnasia"
@@ -11902,6 +11903,7 @@ yʼỹ:yʼỹ N ; ! "sequía, seca, sequedad"
 
 LEXICON VerbsIv 
 
+jeʼe:jeʼe V-IV ; ! charlar
 haku:haku V-IV ; ! "ser caliente, tener calor"
 poriahuvereko:%{i%}poriahuvereko V ; ! "compadecer, apiadarse"
 poriahuvereko:%{i%}poriahuvereko V ; ! Dir\LR !Orth\Err
@@ -12541,7 +12543,6 @@ marandurenda:marandurenda V ; ! "prensa"
 marã:marã V ; ! "mancha"
 mañañemi:mañañemi V ; ! "espiar"
 mbarakaja% guahu:mbarakaja% guahu V ; ! "maullar"
-mbaʼapo:mbaʼapo V ; ! "trabajar, labrar"
 mbaʼeapo:mbaʼeapo V ; ! "construir, generar, fabricar"
 mbaʼejára:mbaʼej•ára V ; ! "titular"
 mbaʼeopuʼi:mbaʼeopuʼi V ; ! "timbre"
@@ -13612,7 +13613,6 @@ manduʼa:manduʼa V ; ! " recordar, acordarse, memorar, rememorar, recordarse, e
 mangea:mangea V ; ! " acechar, espiar, buscar, atisbar"
 manorei:manorei V ; ! " desmayarse"
 marika:marika V ; ! " cazar"
-mbaʼapo:mbaʼapo V ; ! " trabajar, obrar, hacer, actuar, funcionar"
 mbaʼeavy:mbaʼeavy V ; ! " errar, equivocarse"
 mbaʼejogua:mbaʼejogua V ; ! " comprar, hacer compras"
 mbaʼejopy:mbaʼejopy V ; ! " prensar, apretar"
