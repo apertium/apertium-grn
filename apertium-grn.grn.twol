@@ -75,7 +75,7 @@ Rules
 
 "Change vowel before atonal suffixes"
 Va:Vt <=> _ %>: [m: a: | n: t: e: | i: c: h: a: | %{m%}: e: | g: u: i: | r: e: | m: i:|
-                 k: u: r: i: | t: a: | r: a: ʼ: e: | n: e: | n: i: k: o:| v: a: | p: a: | %{N%}: %{K%}: ] ;
+                 k: u: r: i: | t: a: | r: a: ʼ: e: | n: e: | n: i: k: o:| v: a: | p: a: ] ;
             [Cns: | VowsAton: | Nas: | ʼ: ]+ _ %>: %{r%}: ;
             _ %{o%}: %>: [v: | a: | g: u: i: | i: c: h: a: ] ;
             except
@@ -136,11 +136,13 @@ Vt:Va <=> •: _ [ Cns: | ArchiCns: | Nas: | VowsAton: |  %>: ]+  VowsTon: ;
             _ %{K%}: k: ;
             VowsWeak: %>: _ ;
             Nas: CnsNorm: Vows: %>: _;
+            v: a: %>: _ ;
             VowsWeak: [VowsStrong: | Cns: ]+ %>: :p :e %>: _ ;
 
 "Surface [g] in pl nouns after nasals" 
 %{K%}:g <=> Nas: %>: %{N%}: _ ;
             %{N%}: _ k: ;
+            v: a: %>: %{N%}: _ ;
             Nas: CnsNorm: Vows: %>: %{N%}: _;
             VowsWeak: %>: %{N%}: _ ;
             VowsWeak: [VowsStrong: | Cns: | %>: ]+ %>: :p :e %>: %{N%}: _ ;

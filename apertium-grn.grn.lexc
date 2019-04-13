@@ -7204,6 +7204,17 @@ haʼe%<prn%>%<pers%>%<p3%>%<sg%>%+ndive%<post%>:hendive # ;
 haʼe%<prn%>%<pers%>%<p3%>%<sg%>%+ndive%<post%>:hendie # ; ! Dir/LR
 haʼe%<prn%>%<pers%>%<p3%>%<sg%>%+gui%<post%>:ichugui # ;
 
+chéve%<prn%>%<pers%>%<p1%>%<sg%>%<dat%>:ch•éve CASE ;
+ndéve%<prn%>%<pers%>%<p2%>%<sg%>%<dat%>:nd•éve CASE ;
+oréve%<prn%>%<pers%>%<p1%>%<pl%>%<dat%>:or•éve CASE ;
+ñandéve%<prn%>%<pers%>%<p1%>%<pl%>%<dat%>:ñand•éve CASE ;
+peẽme%<prn%>%<pers%>%<p2%>%<pl%>%<dat%>:peẽme CASE ;
+chuguikuéra%<prn%>%<pers%>%<p3%>%<pl%>%<dat%>:chuguiku•éra CASE ; 
+
+haʼe%<prn%>%<pers%>%<p3%>%<sg%>%+ndive%<post%>:hendive # ; 
+haʼe%<prn%>%<pers%>%<p3%>%<sg%>%+ndive%<post%>:hendie # ; ! Dir/LR
+haʼe%<prn%>%<pers%>%<p3%>%<sg%>%+gui%<post%>:ichugui # ;
+
 LEXICON PossesivePronouns
 
 chembaʼe%<prn%>%<pos%>%<p1%>%<sg%>:chembaʼe # ;

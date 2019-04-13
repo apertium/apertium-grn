@@ -32,6 +32,8 @@ LIST Acc = acc ;
 
 LIST Coop = coop ;
 
+LIST Imp = imp;
+
 LIST A = "a" ;
 
 LIST Re = "re" ;
@@ -65,6 +67,8 @@ LIST Iv = iv ;
 LIST Aux = aux ;
 
 LIST Coop = coop ;
+
+LIST Pass = pass ;
 
 LIST Adj = adj ;
 
@@ -100,6 +104,9 @@ LIST Ref = ref ;
 LIST @cc = @cc ;
 LIST @conj = @conj ;
 LIST @compound = @compound;
+LIST @iobj = @iobj;
+LIST @dobj = @dobj;
+LIST @ccomp = @ccomp;
 
 #Word forms
 
@@ -108,11 +115,15 @@ LIST Peoples = "guarani" "guaraní" ;
 LIST Petei = "peteĩ" ;
 LIST Think = "moʼã";
 LIST Child = "ñemoña";
+LIST PostPe = "pe" ;
 
 SET SubSg = Ant | Top | Cog ; # Subject Sg Without N
 SET Names = SubSg | N ;
 SET Verbal = V | Aux ;
 SET Pers = P1 | P3 ;
+SET Je3p = Pass | Ref ;
+SET ObjCase = Dat | Acc | PostPe ;
+SET ObjPos = Prn | N | Subs ;
 
 #######SUFFIXES#######
 
@@ -225,7 +236,7 @@ SELECT SUB:* Ser IF ((-1/* Names LINK 2/* N) OR (0/* Neg + Ser LINK -1/* Names L
 REMOVE SUB:* N IF (0/* Ac);
 #tou omba'aposéva
 
-REMOVE Adj IF ((-1/* V) OR (0/* V));
+#REMOVE Adj IF ((-1/* V) OR (0/* V));
 
 SELECT Adv + Neg IF (1/* Verbal) ;
 #ani rehecha
@@ -244,15 +255,22 @@ SELECT Dat IF ((-1/* V + Iv) OR (1/* V + Tv)) ;
 
 
 MAP @compound TARGET N IF (1 N) ; 
-
 MAP @conj TARGET N IF (-1* N - @compound LINK 1* Cnjcoo) ; 
 
 MAP @cc TARGET Cnjcoo IF (1* N + @conj BARRIER (*) - N) ; 
 
 SELECT SUB:* Coop IF (-1* @conj BARRIER (*) - N) ;
+#Avañe'ẽ ha Guarani ñe'ẽ ombohéra hikuái
 
 SELECT Sub:* Tv IF (0/* Coop);
 
+MAP @iobj TARGET ObjCase IF (-1/* Tv);
+MAP SUB:1 @ccomp TARGET Tv IF(1/* @iobj) ;
+SELECT SUB:* @iobj IF (-1/* @ccomp);
+SELECT SUB:* @ccomp IF (1* @iobj BARRIER (*) - ObjPos);
+
+#REMOVE SUB:* Je3p IF (-1* Imp BARRIER (*) - Imp );
+#SELECT SUB:* Personal IF (-1/* Tv);
 
 SELECT N IF (0/* NomTemp);
 #Che mba'aporã
@@ -261,9 +279,6 @@ REMOVE SUB:* Post IF (0/* NomTemp);
 #matúlakue
 
 SELECT V IF (0/* PostV) ;
-
-REMOVE SUB:* Pro IF (0/* Ac) ;
-#aiporuva
 
 SELECT Aux IF (-1/* V) ;
 #"rereko va'ekue"
