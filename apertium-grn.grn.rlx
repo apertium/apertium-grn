@@ -119,6 +119,7 @@ LIST Think = "moʼã";
 LIST Child = "ñemoña";
 LIST PostPe = "pe" ;
 LIST PostGua = "gua" ;
+LIST PostGuara = "guarã";
 
 SET SubSg = Ant | Top | Cog ; # Subject Sg Without N
 SET Names = SubSg | N ;
@@ -137,6 +138,8 @@ SET PostV = RoV ;
 SET NomTemp = NomPast | NomFut ;
 SET CompGroupDObj = Pers | Post | Adj | Tv ; 
 SET PostGrnDatAcc = PostPe | PostGua ;
+SET PostGrnDatAccInd = PostPe | PostGuara ;
+SET SubjObj = N | Prn ;
 
 #HEURISTICS
 
@@ -294,6 +297,11 @@ REMOVE SUB:* Acc IF (1/* @dobj);
 #Remove accusative if the following is the direct obj (already has Pe)
 SELECT SUB:* @dobj IF (-1/* Tv);
 SELECT SUB:* PostGrnDatAcc IF (-1/* Tv LINK 1/* @dobj);
+#ainupã jaguápe
+
+MAP @iobj TARGET SubjObj IF (-1/* @dobj LINK 1/* Dat LINK 1* PostGrnDatAccInd);
+SELECT SUB:* Dat IF (0/* @iobj LINK 1/* PostGrnDatAccInd);
+
 
 SELECT N IF (0/* NomTemp);
 #Che mba'aporã
