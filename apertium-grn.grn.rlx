@@ -279,6 +279,7 @@ SELECT Adj + Dem IF (-1/* N LINK -1* @amod);
 MAP @compound TARGET N IF (1 N) ; 
 MAP @conj TARGET N IF (-1* N - @compound LINK 1* Cnjcoo) ; 
 MAP @cc TARGET Cnjcoo IF (1* N + @conj BARRIER (*) - N) ; 
+SELECT N IF (-1/* @compound)
 #mitã jagua
 
 SELECT SUB:* Coop IF (-1* @conj BARRIER (*) - N) ;
