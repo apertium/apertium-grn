@@ -9,6 +9,17 @@
     </pipeline>
   </mode>
 
+  <mode name="grn-trace">
+  <pipeline>
+      <program name="hfst-proc -w">
+        <file name="grn.automorf.hfst"/>
+      </program>
+      <program name="cg-proc -t">
+        <file name="grn.rlx.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
   <mode name="grn-gener" install="yes">
     <pipeline>
       <program name="lt-proc -g">

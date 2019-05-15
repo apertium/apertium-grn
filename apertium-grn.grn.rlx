@@ -279,7 +279,7 @@ SELECT Adj + Dem IF (-1/* N LINK -1* @amod);
 MAP @compound TARGET N IF (1 N) ; 
 MAP @conj TARGET N IF (-1* N - @compound LINK 1* Cnjcoo) ; 
 MAP @cc TARGET Cnjcoo IF (1* N + @conj BARRIER (*) - N) ; 
-SELECT N IF (-1/* @compound)
+SELECT N IF (-1/* @compound);
 #mitã jagua
 
 SELECT SUB:* Coop IF (-1* @conj BARRIER (*) - N) ;
@@ -287,10 +287,6 @@ SELECT SUB:* Coop IF (-1* @conj BARRIER (*) - N) ;
 
 
 SELECT Sub:* Tv IF (0/* Coop);
-
-# !FIXME: substitute @iobj to correct syntactic equivalent
-MAP @dobj TARGET SubjObj IF (NOT 0/* V LINK -1*/* Tv BARRIER @ccomp) ;
-#ahayhu che sýpe
 
 REMOVE SUB:* Acc IF (1/* @dobj);
 #ainupã jaguápe
@@ -313,17 +309,21 @@ SELECT SUB:* Dat IF ((0/* @iobj LINK 1/* PostGrnDatAccInd) OR (0/* @iobj LINK 1/
 
 SELECT SUB:* Dat + PostGrnDatAcc IF (-1/* @iobj);
 SELECT SUB:* Names + PostGrnDatAcc IF (-1/* @iobj);
-#FIXME: substitute @iobj for correct syntactic equivalent
 
-MAP @nsubj TARGET Subject IF (1*/* V BARRIER (*) - PostModifiers);
-## Ask Fran
+MAP @nsubj TARGET Subject IF (1*/* V BARRIER (*) - PostModifiers LINK NOT -1*/* TvSpeechV);
 SELECT @nsubj IF (0/* @nsubj);
 #mba'asy rereko va'ekue
 
 #Map verbal complements
 
-#Map verba complement as direct object
+#Map verbal complement as direct object
 MAP SUB:1 @ccomp TARGET V IF (-1*/* TvSpeechV LINK 1/* @nsubj); 
+MAP @dobj TARGET SubjObj IF (NOT 0/* V LINK -1*/* Tv BARRIER @ccomp) ;
+#ahayhu che sýpe
+
+SELECT Post IF (-1/* TvSpeechV LINK NOT 2C/* Modifiers);
+#oje'e hese opívo oikoha
+MAP SUB:1 @ccomp TARGET V IF (-1*/* TvSpeechV BARRIER @nsubj LINK 1*/* V + VerbalPostModifiers BARRIER (*) - Modifiers);
 
 
 
@@ -357,4 +357,7 @@ SELECT SUB:* Iv IF (0/* Think LINK NOT -1/* N) ;
 
 AFTER-SECTIONS
 
-SELECT SUB:* Pres IF (0/* Pres) ;
+SELECT SUB:0 Pres IF (0/* Pres) ;
+SELECT SUB:1 Pres IF (0/* Pres) ;
+SELECT SUB:2 Pres IF (0/* Pres) ;
+SELECT SUB:3 Pres IF (0/* Pres) ;

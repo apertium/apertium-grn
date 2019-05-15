@@ -125,7 +125,6 @@ Vt:Va <=> •: _ [ Cns: | ArchiCns: | Nas: | VowsAton: |  %>: ]+  VowsTon: ;
 %{P%}:ʼ <=> _ [ VowsTon: | •: VowsAton:] ;
             Vows: _ [a: k: u: e:] ;
             Vows: %>: _ ;
-            !Vows: _ ;
             %{b%}: [o: | y:] _ Vows: ;
             r: o: _ Vows: ;
             except
