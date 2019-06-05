@@ -127,16 +127,22 @@ Vt:Va <=> •: _ [ Cns: | ArchiCns: | Nas: | VowsAton: |  %>: ]+  VowsTon: ;
             Vows: %>: _ ;
             %{b%}: [o: | y:] _ Vows: ;
             r: o: _ Vows: ;
+            except
+            _ %{i%}: ;
 
 "Surface [n] in plural nouns" 
 %{N%}:n <=> Nas: %>: _ ;
             _ %{K%}: k: ;
             VowsWeak: %>: _ ;
+            Nas: CnsNorm: Vows: %>: _;
+            v: a: %>: _ ;
             VowsWeak: [VowsStrong: | Cns: ]+ %>: :p :e %>: _ ;
 
 "Surface [g] in pl nouns after nasals" 
 %{K%}:g <=> Nas: %>: %{N%}: _ ;
             %{N%}: _ k: ;
+            v: a: %>: %{N%}: _ ;
+            Nas: CnsNorm: Vows: %>: %{N%}: _;
             VowsWeak: %>: %{N%}: _ ;
             VowsWeak: [VowsStrong: | Cns: | %>: ]+ %>: :p :e %>: %{N%}: _ ;
 
@@ -181,7 +187,7 @@ Vt:Va <=> •: _ [ Cns: | ArchiCns: | Nas: | VowsAton: |  %>: ]+  VowsTon: ;
 %{m%}:m <=> NasTil: [Vows:| Cns: | %>:]+ %>: _ ; 
 	    NasTil: %>: _ ; 
           %{g%}: %-: _  ;
-          n: Vows: _ ;
+          n: Vows: %>: _ ;
           except
           ñ: e: m: b: y: %>: _ ;
 

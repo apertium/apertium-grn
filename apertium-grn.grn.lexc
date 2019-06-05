@@ -168,7 +168,6 @@ DemonstrativePronouns ;
 Voices ; 
 ADJV ;
 DET-PL ;
-PAST-SEP;
 POST-SEP;
 ImpPol;
 ImpPol-Sep;
@@ -228,11 +227,12 @@ centro:centro N-ES ;
 
 LEXICON CASE-NONOM
 
+%+piári%<post%>:%>piári CASE-INFL ;
 %+ndi%<post%>:%>ndi CASE-INFL ; ! "con"
 %+pe%<post%>:%>%{m%}e CASE-INFL ; ! "a, en"
 %+gua%<post%>:%>%{Y%}gua CASE-INFL ;
 %+guý%<post%>:%>guý CASE-INFL ;
-%+a%<post%>:%>a CASE-INFL ;
+!%+a%<post%>:%>a CASE-INFL ;
 %+ari%<post%>:%>ari CASE-INFL ;
 %+re%<post%>:%>re CASE-INFL ; ! "past"
 %+rehe%<post%>:%>rehe CASE-INFL ; ! "por"
@@ -254,6 +254,7 @@ DEM-PRN-PL ;
 N-PL ;
 ITG-SUF ;
 EMPH ;
+MODES;
 
 
 LEXICON CASE
@@ -276,6 +277,7 @@ piko%<qst%>:piko # ; ! "interrogación"
 
 LEXICON Postpositions
 
+piári:piári POST ;
 haguã:haguã POST ; ! "para"
 haguã:hagua POST ; ! "para" ! Dir/LR
 hag̃ua:hag̃ua POST ; ! "para" 
@@ -373,6 +375,8 @@ LEXICON SUBST-V
 +rã%<subs%>:%>rã CASE ;
 +hára%<subs%>:%>hára CASE ;
 +hára%<subs%>:%>hára # ;
++va%<subs%>%<dem%>:%>va # ;
++va%<subs%>%<dem%>:%>va MODES ;
 
 LEXICON COMP 
 +icha%<comp%>:%>icha COMP-INFL ; ! "igualidad" 
@@ -384,7 +388,8 @@ LEXICON COMP-INFL
 DEM-PRN-SG ;
 DEM-PRN-INFL;
 AD-SUF ;
-SUP ; 
+SUP ;
+FUT ; 
 # ;
 
 LEXICON SUP-REL 
@@ -436,6 +441,7 @@ LEXICON N
 %<n%>: SUBST-V ;
 %<n%>: DetTriformes ;
 %<n%>:SUP ;
+%<n%>: MODES;
 
 LEXICON NP-COG
 
@@ -497,7 +503,7 @@ LEXICON ProperNouns
 
 Gral:Gral NP-ANT ; ! ""
 Alcides:Alcides NP-ANT ;
-Ladilsaa:Ladilsaa NP-ANT ; ! ""
+Kaʼasapay:Kaʼasapay NP-TOP ;
 Kaʼasapa:Kaʼasapa NP-TOP ; ! ""
 Efraín:Efraín NP-TOP ; ! ""
 Paraguái:Paragu•ái NP-TOP ; ! "Paraguay"
@@ -872,7 +878,6 @@ Paul:Paul NP-ANT ; ! ""
 William:William NP-ANT ; ! ""
 Julián:Julián NP-ANT ; ! ""
 John:John NP-ANT ; ! ""
-Benjamín:Benjamín NP-ANT ; ! ""
 Martín:Martín NP-ANT ; ! ""
 Agustín:Agustín NP-ANT ; ! ""
 Afíah:Afíah NP-ANT ; ! ""
@@ -1058,6 +1063,7 @@ Benedicto:Benedicto NP-ANT ; ! ""
 Benigno:Benigno NP-ANT ; ! ""
 Benita:Benita NP-ANT ; ! ""
 Benjamin:Benjamin NP-ANT ; ! ""
+Benjamin:Benjamín NP-ANT ; ! "" ! Dir/LR
 Ben:Ben NP-ANT ; ! ""
 Berenice:Berenice NP-ANT ; ! ""
 Bernabé:Bernab•é NP-ANT ; ! ""
@@ -2749,16 +2755,16 @@ Nuevo:Nuevo NP-COG ; ! ""
 Nuño:Nuño NP-COG ; ! ""
 Obama:Obama NP-COG ; ! ""
 Obrero:Obrero NP-COG ; ! ""
-O'Brien:O'Brien NP-COG ; ! ""
+OʼBrien:OʼBrien NP-COG ; ! ""
 Ocampo:Ocampo NP-COG ; ! ""
 Oda:Oda NP-COG ; ! ""
 Ohana:Ohana NP-COG ; ! ""
 Ohm:Ohm NP-COG ; ! ""
 Ojeda:Ojeda NP-COG ; ! ""
-O'Leary:O'Leary NP-COG ; ! ""
+OʼLeary:OʼLeary NP-COG ; ! ""
 Oliva:Oliva NP-COG ; ! ""
 Oms:Oms NP-COG ; ! ""
-O'Neill:O'Neill NP-COG ; ! ""
+OʼNeill:OʼNeill NP-COG ; ! ""
 Ong:Ong NP-COG ; ! ""
 Ono:Ono NP-COG ; ! ""
 Ontiveros:Ontiveros NP-COG ; ! ""
@@ -4407,7 +4413,6 @@ Jonadáb:Jonadáb NP-AL ; ! ""
 Elsafán:Elsafán NP-AL ; ! ""
 Atrot% Bet% Joab:Atrot% Bet% Joab NP-AL ; ! ""
 Nebuzaradán:Nebuzaradán NP-AL ; ! ""
-Tuichaitéta:Tuichaitéta NP-AL ; ! ""
 Líbano:Líbano NP-AL ; ! ""
 NatánMélec:NatánMélec NP-AL ; ! ""
 Ehud:Ehud NP-AL ; ! ""
@@ -4442,7 +4447,6 @@ Ivaíva:Ivaíva NP-AL ; ! ""
 Alémet:Alémet NP-AL ; ! ""
 Teres:Teres NP-AL ; ! ""
 Betél:Betél NP-AL ; ! ""
-Pytũmarõ:Pytũmarõ NP-AL ; ! ""
 Hebrón:Hebrón NP-AL ; ! ""
 Dagón:Dagón NP-AL ; ! ""
 Créta:Créta NP-AL ; ! ""
@@ -4532,7 +4536,6 @@ Dófca:Dófca NP-AL ; ! ""
 Leviatán:Leviatán NP-AL ; ! ""
 Enramadaguy:Enramadaguy NP-AL ; ! ""
 Quiná:Quiná NP-AL ; ! ""
-Nde:Nde NP-AL ; ! ""
 Helcat:Helcat NP-AL ; ! ""
 Cesaréa:Cesaréa NP-AL ; ! ""
 Peres:Peres NP-AL ; ! ""
@@ -5064,7 +5067,6 @@ Nínive:Nínive NP-AL ; ! ""
 Eropu:Eropu NP-AL ; ! ""
 Sedequías:Sedequías NP-AL ; ! ""
 Talmai:Talmai NP-AL ; ! ""
-Quis:Quis NP-ANT ; ! ""
 Aténas:Aténas NP-AL ; ! ""
 Jaalam:Jaalam NP-AL ; ! ""
 Jesana:Jesana NP-AL ; ! ""
@@ -5141,7 +5143,8 @@ Ciliciaguaha:Ciliciaguaha NP-AL ; ! ""
 Gáham:Gáham NP-AL ; ! ""
 Quesil:Quesil NP-AL ; ! ""
 Noikotevẽi:Noikotevẽi NP-AL ; ! ""
-Quís:Quís NP-ANT ; ! ""
+Quis:Quís NP-ANT ; ! "" ! Dir/LR
+Quis:Quis NP-ANT ; ! "
 Sóco:Sóco NP-AL ; ! ""
 Hasabnías:Hasabnías NP-AL ; ! ""
 Eleazár:Eleazár NP-AL ; ! ""
@@ -6066,7 +6069,6 @@ Maerã:Maerã NP-AL ; ! ""
 Nimrim:Nimrim NP-AL ; ! ""
 Afec:Afec NP-AL ; ! ""
 Judáre:Judáre NP-AL ; ! ""
-Upémarõ:Upémarõ NP-AL ; ! ""
 Huvicha:Huvicha NP-AL ; ! ""
 Quir:Quir NP-AL ; ! ""
 Buz:Buz NP-AL ; ! ""
@@ -6376,7 +6378,6 @@ Laquis:Laquis NP-AL ; ! ""
 Quilab:Quilab NP-AL ; ! ""
 Hadad% Rimón:Hadad% Rimón NP-AL ; ! ""
 Sitím:Sitím NP-AL ; ! ""
-Ohendu:Ohendu NP-AL ; ! ""
 Elioenai:Elioenai NP-AL ; ! ""
 Musri:Musri NP-AL ; ! ""
 Gat% Héfer:Gat% Héfer NP-AL ; ! ""
@@ -6400,7 +6401,6 @@ Tatenai:Tatenai NP-AL ; ! ""
 Esbai:Esbai NP-AL ; ! ""
 Damásco:Damásco NP-AL ; ! ""
 Eneas:Eneas NP-AL ; ! ""
-Norohenóiri:Norohenóiri NP-AL ; ! ""
 Amokirirĩmbata:Amokirirĩmbata NP-AL ; ! ""
 Elihóref:Elihóref NP-AL ; ! ""
 Amalecguaha:Amalecguaha NP-AL ; ! ""
@@ -6761,12 +6761,13 @@ LEXICON PRES
 %<pres%>: ImpPol ;
 %<pres%>: AD-SUF ;
 %<pres%>: COMP ;
-%<pres%>: Adverbs ;
+%<pres%>%+:%> Adverbs ;
 %<pres%>: DEM-PRN-PL ;
 %<pres%>: SUBST ;
 %<pres%>: SUBST-V ;
 %<pres%>: SUP ;
 %<pres%>: CASE ;
+%<pres%>:%> SABER;
 
 LEXICON PAST
 %+akue%<ifi%>:%{P%}akue #;
@@ -6777,12 +6778,6 @@ LEXICON PAST
 %+rakaʼe%<past%>:%>rakaʼe # ; 
 %+raʼe%<past%>:%>raʼe # ;
 %+gue%<past%>:%>gue # ; ! Nominal Past
-
-LEXICON PAST-SEP
-
-vaʼekue%<post%>:vaʼekue # ;
-vaʼekue%<post%>:vaekue # ;
-akue%<post%>:akue # ;
 
 LEXICON POST-SEP
 
@@ -6802,24 +6797,28 @@ LEXICON FUT
 %+arã%<fti%>:%>%{P%}arâ FUT ; ! Dir/LR
 %+mo’ã%<fti%>:%>%mo’ã # ;
 %+mo’ã%<fti%>:%>%mo’â # ;
+%+vaʼerã%<fti%>:%>%vaʼerã # ;
+%+vaʼerã%<fti%>:%>%vaʼerã PAST ;
+
 
 
 LEXICON IMP 
 %+aína%<p1%>%<sg%>%<impf%>:%>ína # ;
 %+reína%<p2%>%<sg%>%<impf%>:%>reína # ;
-%+hína%<p3%>%<sg%>%<impf%>:%>hína # ;
 %+ñaína%<p1%>%<pl%>%<impf%>:%>ñaína # ;
 %+roína%<p1%>%<pl%>%<impf%>:%>roína # ;
 %+peína%<p2%>%<pl%>%<impf%>:%>peína # ;
-%+hína%<p3%>%<pl%>%<impf%>:%>hína # ;
-%+hikuái%<p3%>%<pl%>%<impf%>:%>hikuái # ;
+%+hína%<p3%>%<impf%>:%>hína # ;
+%+hikuái%<p3%>%<impf%>:%>hikuái # ;
 
 LEXICON MODES-AUX 
-hikuái%<aux%>%<impf%>%<p3%>%<pl%>:hikuái # ;
+hikuái%<aux%>%<impf%>%<p3%>:hikuái # ;
 vaʼekue%<aux%>%<pmp%>:vaʼekue # ;
+vaʼekue%<aux%>%<pmp%>:vaekue # ;
+akue%<post%>:akue # ;
 vaʼerã%<aux%>%<fti%>:vaʼerã # ;
 vaʼerã%<aux%>%<fti%>:vaerã # ; ! Dir;LR
-hína%<aux%>%<impf%>%<p3%>%<sg%>:hína # ;
+hína%<aux%>%<impf%>%<p3%>:hína # ;
 niko%<aux%>%<nar%>:niko # ;
 niko%<aux%>%<nar%>:ningo # ; ! Dir/LR
 niko%<aux%>%<nar%>:nio # ; ! Dir/LR
@@ -6829,13 +6828,20 @@ LEXICON MODES
 %+se%<vol%>:%>%se COMP ; 
 %+se%<vol%>:%>%se DEM-PRN-INFL;
 %+niko%<nar%>:%>niko # ;
+%+ko%<nar%>:%>%{N%}%{K%}o #;
 %+ỹ%<car%>:%>%{P%}ỹ # ;
 %+ỹ%<car%>:%>%{P%}ỹ CASE ;
 %+mi%<dim%>:%>mi # ;
 %+mimi%<dim%>:%>mimi # ;
+%+i%<dim%>:%>%{P%}i # ; !
+%+i%<dim%>:%>%{P%}i CASE ; !
+%+mi%<dim%>:%>mi CASE ;
+%+mimi%<dim%>:%>mimi CASE ;
+
 
 LEXICON SABER
-kuaa:kuaa V ;
+
+%+kuaa%<v%>%<iv%>:%>kuaa V-INFL ;
 
 LEXICON V-INFL 
 PRES ;
@@ -6844,7 +6850,6 @@ FUT ;
 IMP ;
 MODES ;
 DEM-PRN-INFL ;
-SABER;
 SUBST-V ;
 
 LEXICON V-IV
@@ -6906,26 +6911,24 @@ LEXICON PersonAgr
 
 a%<prn%>%<p1%>%<sg%>%<ac%>%+:%>a%{P%} VerbsAgr ;
 re%<prn%>%<p2%>%<sg%>%<ac%>%+:%>re%{P%} VerbsAgr ;
-o%<prn%>%<p3%>%<sg%>%<ac%>%+:%>o%{P%} VerbsAgr ;
-o%<prn%>%<p3%>%<pl%>%<ac%>%+:%>o%{P%} VerbsAgr ;
+o%<prn%>%<p3%>%<ac%>%+:%>o%{P%} VerbsAgr ;
 ja%<prn%>%<p1%>%<pl%>%<ac%>%+:%>%{J%}a%{P%} VerbsAgr ;
 ro%<prn%>%<p1%>%<pl%>%<ac%>%+:%>ro%{P%} VerbsAgr ;
 pe%<prn%>%<p2%>%<pl%>%<ac%>%+:%>pe%{P%} VerbsAgr ;
 
 a%<prn%>%<p1%>%<sg%>%<ac%>%+:%>a%{P%} Nouns ;
 re%<prn%>%<p2%>%<sg%>%<ac%>%+:%>re%{P%} Nouns ;
-o%<prn%>%<p3%>%<sg%>%<ac%>%+:%>o%{P%} Nouns ;
-o%<prn%>%<p3%>%<pl%>%<ac%>%+:%>o%{P%} Nouns ;
+o%<prn%>%<p3%>%<ac%>%+:%>o%{P%} Nouns ;
 ja%<prn%>%<p1%>%<pl%>%<ac%>%+:%>%{J%}a%{P%} Nouns ;
 ro%<prn%>%<p1%>%<pl%>%<ac%>%+:%>ro%{P%} Nouns ;
 pe%<prn%>%<p2%>%<pl%>%<ac%>%+:%>pe%{P%} Nouns ;
 
 LEXICON PersonAgrDefSg
-o%<prn%>%<p3%>%<sg%>%<ac%>%+:%>o%{P%} VerbsDefSg ;
+o%<prn%>%<p3%>%<ac%>%+:%>o%{P%} VerbsDefSg ;
 
 LEXICON PersonAgrDefPl 
 
-o%<prn%>%<p3%>%<pl%>%<ac%>%+:%>o%{P%} VerbsDefPl ;
+o%<prn%>%<p3%>%<ac%>%+:%>o%{P%} VerbsDefPl ;
 ja%<prn%>%<p1%>%<pl%>%<ac%>%+:%>%{J%}a%{P%} VerbsDefPl ;
 ro%<prn%>%<p1%>%<pl%>%<ac%>%+:%>ro%{P%} VerbsDefPl ;
 
@@ -6953,8 +6956,7 @@ LEXICON Optatives
 
 ta%<opt%>%<p1%>%<sg%>%+:%>ta%{P%} VerbsAgr ;
 tere%<opt%>%<p2%>%<sg%>%+:%>tere%{P%} VerbsAgr ;
-to%<opt%>%<p3%>%<sg%>%+:%>to%{P%} VerbsAgr ;
-to%<opt%>%<p3%>%<pl%>%+:%>to%{P%} VerbsAgr ;
+to%<opt%>%<p3%>%+:%>to%{P%} VerbsAgr ;
 taja%<opt%>%<p1%>%<pl%>%+:%>ta%{J%}a%{P%} VerbsAgr ;
 toro%<opt%>%<p1%>%<pl%>%+:%>toro%{P%} VerbsAgr ;
 tape%<opt%>%<p2%>%<pl%>%+:%>tape%{P%} VerbsAgr ;
@@ -6972,17 +6974,16 @@ LEXICON PRO
 
 ! Accusative
 
-che%<prn%>%<pro%>%<p1%>%<sg%>%<acc%>%+:%>che%{p%} Verbs ;
-nde%<prn%>%<pro%>%<p2%>%<sg%>%<acc%>%+:%>n%{D%}e{p%} Verbs ;
-nde%<prn%>%<pro%>%<p2%>%<sg%>%<acc%>%+:%>n%{D%}e{p%} Voices ;
-ro%<prn%>%<pro%>%<p2%>%<sg%>%<acc%>%+:%>ro{p%} Verbs ;
-ore%<prn%>%<pro%>%<p1%>%<pl%>%<acc%>%+:%>ore{p%} Verbs ;
-ñande%<prn%>%<pro%>%<p1%>%<pl%>%<acc%>%+:%>ñan%{D%}e{p%} Verbs ;
+che%<prn%>%<pro%>%<p1%>%<sg%>%<acc%>%+:%>che%{P%} Verbs ;
+nde%<prn%>%<pro%>%<p2%>%<sg%>%<acc%>%+:%>n%{D%}e{P%} Verbs ;
+nde%<prn%>%<pro%>%<p2%>%<sg%>%<acc%>%+:%>n%{D%}e{P%} Voices ;
+ro%<prn%>%<pro%>%<p2%>%<sg%>%<acc%>%+:%>ro{P%} Verbs ;
+ore%<prn%>%<pro%>%<p1%>%<pl%>%<acc%>%+:%>ore{P%} Verbs ;
+ñande%<prn%>%<pro%>%<p1%>%<pl%>%<acc%>%+:%>ñan%{D%}e{P%} Verbs ;
 ñande%<prn%>%<pro%>%<p1%>%<pl%>%<acc%>%+:%>ñe Verbs ;
-pende%<prn%>%<pro%>%<p2%>%<pl%>%<acc%>%+:%>pen%{D%}e{p%} Verbs ;
+pende%<prn%>%<pro%>%<p2%>%<pl%>%<acc%>%+:%>pen%{D%}e{P%} Verbs ;
 po%<prn%>%<pro%>%<p2%>%<pl%>%<acc%>%+:%>po Verbs ;
-i%<prn%>%<pro%>%<p3%>%<sg%>%<acc%>%+:%>i Verbs ;
-i%<prn%>%<pro%>%<p3%>%<pl%>%<acc%>%+:%>i Verbs ;
+i%<prn%>%<pro%>%<p3%>%<acc%>%+:%>i Verbs ;
 
 !ne%<prn%>%<p2%>%<sg%>%<acc%>:ne ;
 chupe%<prn%>%<pers%>%<p3%>%<sg%>:%>chupe PRO-CASE ;
@@ -6997,12 +6998,13 @@ ore%<prn%>%<pro%>%<p1%>%<pl%>%<in%>%+:%>ore{p%} INACT-INFL ;
 ñande%<prn%>%<pro%>%<p1%>%<pl%>%<in%>%+:%>ñan%{D%}e{p%} INACT-INFL ;
 pende%<prn%>%<pro%>%<p2%>%<pl%>%<in%>%+:%>pen%{D%}e{p%} INACT-INFL ;
 po%<prn%>%<pro%>%<p2%>%<pl%>%<in%>%+:%>po INACT-INFL ;
-i%<prn%>%<pro%>%<p3%>%<sg%>%<in%>%+:%>i%{I%} INACT-INFL ;
-i%<prn%>%<pro%>%<p3%>%<pl%>%<in%>%+:%>i%{I%} INACT-INFL ;
+i%<prn%>%<pro%>%<p3%>%<in%>%+:%>i%{I%} INACT-INFL ;
 
 LEXICON INACT-INFL
 
 Verbs ;
+VerbsIv;
+
 Nouns ;
 Adjectives;
 DetBiformes ;
@@ -7012,32 +7014,29 @@ DetTriformes ;
 
 LEXICON IrrVerbs
 haʼe%<v%>%<tv%>%<p1%>%<sg%>%<pres%>:haʼe IRR-INFL ; ! digo 
-ere%<v%>%<tv%>%<p2%>%<sg%>%<pres%>:ere IRR-INFL ; ! dices
-heʼi%<v%>%<tv%>%<p3%>%<sg%>%<pres%>:heʼi IRR-INFL ; ! dice 
+heʼi%<v%>%<tv%>%<p3%>%<pres%>:heʼi IRR-INFL ; ! dice 
 jaʼe%<v%>%<tv%>%<p1%>%<pl%>%<pres%>:jaʼe IRR-INFL ; ! decimos 
 roʼe%<v%>%<tv%>%<p1%>%<pl%>%<pres%>:roʼe IRR-INFL ; ! decimos 
-peje%<v%>%<tv%>%<p2%>%<pl%>%<pres%>:peje IRR-INFL ; ! decis 
-heʼi%<v%>%<tv%>%<p3%>%<pl%>%<pres%>:heʼi IRR-INFL ; ! dicen 
+peje%<v%>%<tv%>%<p2%>%<pl%>%<pres%>:peje IRR-INFL ; ! decis
 
 aju%<v%>%<iv%>%<p1%>%<sg%>%<pres%>:aju IRR-INFL ; ! vengo
 reju%<v%>%<iv%>%<p2%>%<sg%>%<pres%>:reju IRR-INFL ; ! vienes 
-ou%<v%>%<iv%>%<p3%>%<sg%>%<pres%>:ou IRR-INFL ; ! viene 
+ou%<v%>%<iv%>%<p3%>%<pres%>:ou IRR-INFL ; ! viene 
 jaju%<v%>%<iv%>%<p1%>%<pl%>%<pres%>:jaju IRR-INFL ; ! venimos 
 roju%<v%>%<iv%>%<p1%>%<pl%>%<pres%>:roju IRR-INFL ; ! venimos 
 peju%<v%>%<iv%>%<p2%>%<pl%>%<pres%>:peju IRR-INFL ; ! venis 
-ou%<v%>%<iv%>%<p3%>%<pl%>%<pres%>:ou IRR-INFL ; ! vienen
 
 aha%<v%>%<iv%>%<p1%>%<sg%>%<pres%>:aha IRR-INFL ; ! voy 
 reho%<v%>%<iv%>%<p2%>%<sg%>%<pres%>:reho IRR-INFL ; ! vas 
-oho%<v%>%<iv%>%<p3%>%<sg%>%<pres%>:oho IRR-INFL ; ! va
+oho%<v%>%<iv%>%<p3%>%<pres%>:oho IRR-INFL ; ! va
 jaha%<v%>%<iv%>%<p1%>%<pl%>%<pres%>:jaha IRR-INFL ; ! vamos 
 roho%<v%>%<iv%>%<p1%>%<pl%>%<pres%>:roho IRR-INFL ; ! vamos 
 peho%<v%>%<iv%>%<p2%>%<pl%>%<pres%>:peho IRR-INFL ; ! vais 
 
 haʼu%<v%>%<tv%>%<p1%>%<sg%>%<pres%>:haʼu IRR-INFL ; ! como
-haʼu%<v%>%<tv%>%<p1%>%<sg%>%<pres%>:ha'u IRR-INFL ; ! como Dir/LR
+haʼu%<v%>%<tv%>%<p1%>%<sg%>%<pres%>:haʼu IRR-INFL ; ! como Dir/LR
 reʼu%<v%>%<tv%>%<p2%>%<sg%>%<pres%>:reʼu IRR-INFL ; ! comes 
-hoʼu%<v%>%<tv%>%<p3%>%<sg%>%<pres%>:hoʼu IRR-INFL ; ! come 
+hoʼu%<v%>%<tv%>%<p3%>%<pres%>:hoʼu IRR-INFL ; ! come 
 jaʼu%<v%>%<tv%>%<p1%>%<pl%>%<pres%>:jaʼu IRR-INFL ; ! comemos 
 roʼu%<v%>%<tv%>%<p1%>%<pl%>%<pres%>:roʼu IRR-INFL ; ! comemos
 peʼu%<v%>%<tv%>%<p2%>%<pl%>%<pres%>:peʼu IRR-INFL ; ! comeis 
@@ -7088,8 +7087,8 @@ nde%<prn%>%<pos%>%<p2%>%<sg%>%+:n%{D%}e POS-COMPL ;
 ore%<prn%>%<pos%>%<p1%>%<pl%>%+:ore POS-COMPL ;
 pende%<prn%>%<pos%>%<p2%>%<pl%>%+:pen%{D%}e POS-COMPL ;  
 
-i%<prn%>%<pos%>%<p3%>%<sg%>%+:%{H%}i%{I%} POS-COMPL ; 
-o%<prn%>%<pos%>%<p3%>%<sg%>%+:o%{P%} POS-COMPL ;
+i%<prn%>%<pos%>%<p3%>%+:%{H%}i%{I%} POS-COMPL ; 
+o%<prn%>%<pos%>%<p3%>%+:o%{P%} POS-COMPL ;
 
 LEXICON POS-COMPL 
 
@@ -7098,6 +7097,7 @@ DetBiformes;
 Nouns ;
 BiformesPaentesco ;
 Adjectives ;
+CASE;
 
 LEXICON Conjunctions 
 
@@ -7124,6 +7124,7 @@ jepémo:jepémo CC ; ! "aunque"
 chugui:chugui CC ; ! "pero"
 
 upekuévo:upekuévo CS ; ! "Entonces, mientras tanto"
+upémarõ:upémarõ CS ;
 ỹrõ:ỹrõ CC ; ! "si no, o"
 uvei:uvei CC ; ! "pero"
 ỹramo:ỹramo CC ; ! "si no, o"
@@ -7157,6 +7158,7 @@ LEXICON AD-SUF ! Qualifiers
 %+nte%<adv%>:%>nte # ; ! "sólo"  
 %+ma%<adv%>:%>ma # ; ! "ya" 
 %+vo%<adv%>:%>vo # ; ! "simultaneidad"
+%+ma%<adv%>:%>ma FUT ; ! "ya" 
 
 LEXICON ITG-SUF
 %+po%<qst%>:%>po # ;
@@ -7164,6 +7166,7 @@ LEXICON ITG-SUF
 %+ve%<neg%>:%>ve # ; ! mava (quién) mava+ve (nadie)
 COMP ;
 CASE ;
+MODES;
 # ;
 
 LEXICON ItgPronouns 
@@ -7179,6 +7182,7 @@ ché%<prn%>%<pers%>%<p1%>%<sg%>:ch•é # ; ! "yo"
 ché%<prn%>%<pers%>%<p1%>%<sg%>:che # ; ! "yo" ! Dir/LR ! Err/Orth
 ndé%<prn%>%<pers%>%<p2%>%<sg%>:nd•é # ; ! tú
 haʼe%<prn%>%<pers%>%<p3%>%<sg%>:haʼe # ; ! "él, ella"
+haʼe%<prn%>%<pers%>%<p3%>%<sg%>:haʼe EMPH ; ! "él, ella"
 ñandé%<prn%>%<pers%>%<p1%>%<pl%>:ñand•é # ;
 ñandé%<prn%>%<pers%>%<p1%>%<pl%>:ñan•é # ; ! Dir/LR ! Ref/p.57
 ñandé%<prn%>%<pers%>%<p1%>%<pl%>:ñane # ; ! Dir/LR ! Ref/p.57
@@ -7194,6 +7198,17 @@ oréve%<prn%>%<pers%>%<p1%>%<pl%>%<dat%>:or•éve # ;
 ñandéve%<prn%>%<pers%>%<p1%>%<pl%>%<dat%>:ñand•éve #;
 peẽme%<prn%>%<pers%>%<p2%>%<pl%>%<dat%>:peẽme # ;
 chuguikuéra%<prn%>%<pers%>%<p3%>%<pl%>%<dat%>:chuguiku•éra # ; 
+
+haʼe%<prn%>%<pers%>%<p3%>%<sg%>%+ndive%<post%>:hendive # ; 
+haʼe%<prn%>%<pers%>%<p3%>%<sg%>%+ndive%<post%>:hendie # ; ! Dir/LR
+haʼe%<prn%>%<pers%>%<p3%>%<sg%>%+gui%<post%>:ichugui # ;
+
+chéve%<prn%>%<pers%>%<p1%>%<sg%>%<dat%>:ch•éve CASE ;
+ndéve%<prn%>%<pers%>%<p2%>%<sg%>%<dat%>:nd•éve CASE ;
+oréve%<prn%>%<pers%>%<p1%>%<pl%>%<dat%>:or•éve CASE ;
+ñandéve%<prn%>%<pers%>%<p1%>%<pl%>%<dat%>:ñand•éve CASE ;
+peẽme%<prn%>%<pers%>%<p2%>%<pl%>%<dat%>:peẽme CASE ;
+chuguikuéra%<prn%>%<pers%>%<p3%>%<pl%>%<dat%>:chuguiku•éra CASE ; 
 
 haʼe%<prn%>%<pers%>%<p3%>%<sg%>%+ndive%<post%>:hendive # ; 
 haʼe%<prn%>%<pers%>%<p3%>%<sg%>%+ndive%<post%>:hendie # ; ! Dir/LR
@@ -7252,7 +7267,7 @@ LEXICON ADJ
 %<adj%>: CASE ;
 %<adj%>: DEM-PRN-SG ;
 %<adj%>: SUP ;
-
+%<adj%>: EMPH ;
 
 LEXICON SUF-PL  
 %+ita%<adj%>%<ind%>%<pl%>:%>%{E%}ta # ;
@@ -7358,7 +7373,7 @@ XXI:XXI NUM-ROMAN ; ! ""
 
 LEXICON DetBiformes
 r%<det%>%+:r Biformes ;
-h%<prn%>%<pos%>%<p3%>%<sg%>%+:h Biformes ;
+h%<prn%>%<pos%>%<p3%>%+:h Biformes ;
 
 LEXICON Biformes 
 óga:•óga N ; ! "casa"
@@ -7380,7 +7395,7 @@ ryvýra:ryvýra N ; ! "hermano menor"
 
 LEXICON DetTriformes
 r%<det%>%+:r%{t%} Triformes ;
-h%<prn%>%<pos%>%<p3%>%<sg%>%+:h%{t%} Triformes ;
+h%<prn%>%<pos%>%<p3%>%+:h%{t%} Triformes ;
 
 LEXICON Triformes
 
@@ -7436,6 +7451,9 @@ teindy:teindy N ; ! "hermana del varón"
 
 LEXICON Nouns
 
+
+malavisiõ:malavisiõ N ;
+mbatovi:mbatovi N ; 
 rrása:rr•ása N ; ! "rasa (de animal) LOAN"
 óra:•óra N ; ! "hora"
 mymbajuka:mymbajuka N ; ! "animal de sacrifício, cazado"
@@ -7715,7 +7733,6 @@ jakare:jakare N ; ! "caimán"
 japepo:japepo N ; ! "olla"
 japi:japi N ; ! "balear"
 japikuaa:japikuaa N ; ! "puntería"
-japo:japo N ; ! "proceder"
 japopyrã:japopyrã N ; ! "programa"
 japu:japu N ; ! "engaño"
 jariʼi:jariʼi N ; ! "acné"
@@ -9186,7 +9203,6 @@ sálvia:s•álvia N ; ! "salvia"
 samario:samario N ; ! "samario"
 sarapĩu:sarapĩu N ; ! "sarampión"
 supukukue:supukukue N ; ! "kilómetro"
-sype:sype N ; ! "azada"
 syrykupyreʼẽ:syrykupyreʼẽ N ; ! "sorbete"
 taʼangahai:taʼangahai N ; ! "gráfica"
 takokũ:takokũ N ; ! "clítoris"
@@ -10658,7 +10674,6 @@ masakaraguaʼi:masakaraguaʼi N ; ! "ruiseñor"
 matúla:matúla N ; ! "viático, provisiones para el viaje"
 mbaʼapohára:mbaʼapohára N ; ! "trabajador, obrero, peón, operario"
 mbaʼapoha:mbaʼapoha N ; ! "trabajo, empleo, taller, obrero, trabajador"
-mbaʼapokue:mbaʼapokue N ; ! "obra"
 mbaʼapo:mbaʼapo N ; ! "tarea, empleo, trabajo"
 mbaʼapoʼỹ:mbaʼapoʼỹ N ; ! "ocio, desocupación"
 mbaʼasypoʼi:mbaʼasypoʼi N ; ! "tuberculosis"
@@ -11680,7 +11695,7 @@ tesayku:tesayku N ; ! "legaña"
 tesaʼỹ:tesaʼỹ N ; ! "ceguera"
 tetaguã:tetaguã N ; ! "ciudadano, súbdito"
 tetaʼi:tetaʼi N ; ! "provincia, departamento"
-tetãvore'i:tetãvore'i N ; ! "provincia, departamento"
+tetãvoreʼi:tetãvoreʼi N ; ! "provincia, departamento"
 tetama:tetama N ; ! "pueblo, patria"
 tetekue:tetekue N ; ! "cadáver, difunto, restos mortales"
 tetekuʼe:tetekuʼe N ; ! "movimiento, gimnasia"
@@ -11897,6 +11912,7 @@ yʼỹ:yʼỹ N ; ! "sequía, seca, sequedad"
 
 LEXICON VerbsIv 
 
+jeʼe:jeʼe V-IV ; ! charlar
 haku:haku V-IV ; ! "ser caliente, tener calor"
 poriahuvereko:%{i%}poriahuvereko V ; ! "compadecer, apiadarse"
 poriahuvereko:%{i%}poriahuvereko V ; ! Dir\LR !Orth\Err
@@ -12218,7 +12234,6 @@ yta:yta V-IV ; ! "saber nadar"
 ñemi:ñemi V-IV ; ! "esconderse"
 ñemoʼã:ñemoʼã V-IV ; ! "defenderse"
 ñemoatã:ñemoatã V-IV ; ! "endurecerse"
-ñemomarandu:ñemomarandu V-IV ; ! "comunicar"
 ñemomini:ñemomini V-IV ; ! "humillarse,empequeñecerse"
 ñemomombyry:ñemomombyry V-IV ; ! "alejarse"
 ñemomýi:ñemom•ýi V-IV ; ! "ponerse en marcha"
@@ -12537,7 +12552,6 @@ marandurenda:marandurenda V ; ! "prensa"
 marã:marã V ; ! "mancha"
 mañañemi:mañañemi V ; ! "espiar"
 mbarakaja% guahu:mbarakaja% guahu V ; ! "maullar"
-mbaʼapo:mbaʼapo V ; ! "trabajar, labrar"
 mbaʼeapo:mbaʼeapo V ; ! "construir, generar, fabricar"
 mbaʼejára:mbaʼej•ára V ; ! "titular"
 mbaʼeopuʼi:mbaʼeopuʼi V ; ! "timbre"
@@ -12921,7 +12935,6 @@ povã:%{i%}povã V ; ! "hilar"
 povã:povã V ; ! "hilar"
 poyvi% guerahaha:poyvi% guerahaha V ; ! "abanderado"
 poñy:poñy V ; ! "gatear"
-poʼi:poʼi V ; ! "fino"
 puatarara:puatarara V ; ! "acelerado, inquieto"
 puhoe:puhoe V ; ! "radio"
 pukavy:pukavy V ; ! "sonreír"
@@ -13130,7 +13143,7 @@ yʼu:yʼu V ; ! "tomar"
 ñuãha:ñuãha V ; ! "velo"
 ñyrõ:ñyrõ V ; ! "indulgencia, redimir, disculpar"
 ñyñýi:ñyñ•ýi V ; ! "decrecer"
-ʼu:ʼu V ; ! "consumir"
+u:u V ; ! "consumir"
 kirirĩ:kirirĩ V ; ! "callar, silencio"
 kirirï:kirirï V ; ! "callar, silencio" ! Dir/LR
 kiriri:kiriri V ; ! "callar, silencio" ! Dir/LR
@@ -13609,7 +13622,6 @@ manduʼa:manduʼa V ; ! " recordar, acordarse, memorar, rememorar, recordarse, e
 mangea:mangea V ; ! " acechar, espiar, buscar, atisbar"
 manorei:manorei V ; ! " desmayarse"
 marika:marika V ; ! " cazar"
-mbaʼapo:mbaʼapo V ; ! " trabajar, obrar, hacer, actuar, funcionar"
 mbaʼeavy:mbaʼeavy V ; ! " errar, equivocarse"
 mbaʼejogua:mbaʼejogua V ; ! " comprar, hacer compras"
 mbaʼejopy:mbaʼejopy V ; ! " prensar, apretar"
@@ -14686,7 +14698,7 @@ mbytepegua:mbytepegua ADJ ; ! "neutro"
 memegua:memegua ADJ ; ! "perenne"
 meña% rehegua:meña% rehegua ADJ ; ! "sexual"
 mie:mie ADJ ; ! "más"
-mitã:mitã ADJ ; ! "joven"
+!mitã:mitã ADJ ; ! "joven"
 mitãraʼy:mitãraʼy ADJ ; ! "neonato"
 mitãrusu:mitãrusu ADJ ; ! "juvenil, adolescente"
 mohenda:mohenda ADJ ; ! "regular"
@@ -14787,7 +14799,6 @@ puʼakapáva:puʼakap•áva ADJ ; ! "omnipotente"
 puku:puku ADJ ; ! "largo, comprido"
 pyahu:pyahu ADJ ; ! "nuevo, neófito"
 pyao:pyao ADJ ; ! "media"
-pyaʼe:pyaʼe ADJ ; ! "rápido, pronto, fugaz"
 pyharevegua:pyharevegua ADJ ; ! "matinal"
 pypuku:pypuku ADJ ; ! "hondo"
 pytagua:pytagua ADJ ; ! "extranjero"
@@ -14852,8 +14863,6 @@ tova% rehegua:tova% rehegua ADJ ; ! "facial"
 toʼysã:toʼysã ADJ ; ! "fresco"
 tuguyʼuha:tuguyʼuha ADJ ; ! "parásito"
 tuicha:tuicha ADJ ; ! "espacioso, grande, gran"
-tuichaiterei:tuichaiterei ADJ ; ! "magno, enorme"
-tuichaitevéva:tuichaitev•éva ADJ ; ! "máxima"
 tuicháva:tuich•áva ADJ ; ! "feroz"
 tuja:tuja ADJ ; ! "viejo"
 tujuvai:tujuvai ADJ ; ! "pantanoso"
@@ -15143,7 +15152,6 @@ hesaʼyju:hesaʼyju ADJ ; ! "amarillo, pálido"
 hesaýva:hesaýva ADJ ; ! "lloroso, lacrimoso"
 hesypyre:hesypyre ADJ ; ! "asado, tostado"
 hetami:hetami ADJ ; ! "varios"
-heta:heta ADJ ; ! "mucho, abundante, numeroso, copioso, profuso"
 heteʼỹ:heteʼỹ ADJ ; ! ", adj incorpóreo, impalpable"
 hetiaʼe:hetiaʼe ADJ ; ! "jovial, alegre, animoso"
 heʼỹ:heʼỹ ADJ ; ! "insípido, soso, desabrido"
@@ -15202,7 +15210,6 @@ hyvatã:hyvatã ADJ ; ! "harto, satisfecho, sacia­do, saturado, repleto"
 hyvi:hyvi ADJ ; ! "fibroso"
 iguypegua:iguypegua ADJ ; ! "inferior"
 ikatupáva:ikatupáva ADJ ; ! "omnipotente, todopode­roso"
-ikatúva:ikatúva ADJ ; ! "posible, que puede"
 ikatuʼỹva:ikatuʼỹva ADJ ; ! "imposible"
 ikoe:ikoe ADJ ; ! "distinto, diferente, diverso, desigual, opuesto, fabuloso"
 ikuaʼíva:ikuaʼíva ADJ ; ! "poroso"
@@ -15568,7 +15575,6 @@ ndahiʼaréi:ndahiʼaréi ADJ ; ! "temporal, fugaz"
 ndaijeroviahái:ndaijeroviahái ADJ ; ! "sospechoso, irresponsable, poco confiable"
 ndaipochýiva:ndaipochýiva ADJ ; ! "manso"
 ndaipukúi:ndaipukúi ADJ ; ! "corto, temporáneo"
-nde:nde ADJ ; ! "pos. de 2da. per. sing. tu"
 ndivegua:ndivegua ADJ ; ! "compañero/a, amante, concubino/a"
 ndokéiva:ndokéiva ADJ ; ! "despierto"
 ndokúiva:ndokúiva ADJ ; ! "perenne"
@@ -15683,7 +15689,6 @@ oikereíva:oikereíva ADJ ; ! "y s. intruso"
 oikéva:oikéva ADJ ; ! "participante, penetrante"
 oikoporãva:oikoporãva ADJ ; ! "correcto, bien hecho"
 oikotevẽva:oikotevẽva ADJ ; ! "necesitado, pobre"
-oikovéva:oikovéva ADJ ; ! "y s. vivo, habitante"
 oikuaáva:oikuaáva ADJ ; ! "informado, versado"
 oĩmbáva:oĩmbáva ADJ ; ! "integro, completo, total, perfecto"
 oĩmbaʼỹ:oĩmbaʼỹ ADJ ; ! "parcial, incompleto, deficiente, defectuoso"
@@ -15732,10 +15737,8 @@ opuʼãva:opuʼãva ADJ ; ! "erecto, empinado, levantado, erguido"
 opytaitéva:opytaitéva ADJ ; ! "definitivo"
 opytaʼỹva:opytaʼỹva ADJ ; ! "volátil, variable, nómada"
 opývo:opývo ADJ ; ! "parado, de pie"
-ore:ore ADJ ; ! "pos. nuestro"
 oryrýiva:oryrýiva ADJ ; ! "trémulo, tembleque"
 osaingóva:osaingóva ADJ ; ! "colgante"
-osẽva:osẽva ADJ ; ! "resultante, saliente"
 osóva:osóva ADJ ; ! "suelto"
 oteʼõva:oteʼõva ADJ ; ! "muerto"
 otĩva:otĩva ADJ ; ! "vergonzoso, tímido"
@@ -15802,9 +15805,6 @@ piruchĩ:piruchĩ ADJ ; ! "flacucho, raquítico"
 pitikiriʼigua:pitikiriʼigua ADJ ; ! "renal"
 pititi:pititi ADJ ; ! "pecoso, moteado"
 plíki:plíki ADJ ; ! "desmañado, torpe, chico, pequeño"
-po:po ADJ ; ! "cinco. po arajere. lustro"
-poapy:poapy ADJ ; ! "ocho"
-poapypa:poapypa ADJ ; ! "ochenta"
 poasu:poasu ADJ ; ! "zurdo"
 poʼaʼỹ:poʼaʼỹ ADJ ; ! "infausto, perdedor, desdichado, infortunado, desgraciado, infeliz"
 pochyʼỹ:pochyʼỹ ADJ ; ! "paciencia"
@@ -15880,7 +15880,6 @@ pupupyre:pupupyre ADJ ; ! "hervido"
 puruʼa:puruʼa ADJ ; ! "encinta, preñada, embarazada"
 pururã:pururã ADJ ; ! "util"
 py:py ADJ ; ! "ancho, espacioso"
-pyaʼe:pyaʼe ADJ ; ! "rápido, veloz"
 pyʼaguapy:pyʼaguapy ADJ ; ! "sereno, pacífico, sensato, sosegado"
 pyʼaguapýva:pyʼaguapýva ADJ ; ! "tranquilo, plácido"
 pyʼaguapyʼỹ:pyʼaguapyʼỹ ADJ ; ! "inquieto"
@@ -15933,7 +15932,6 @@ pytãrovy:pytãrovy ADJ ; ! "violeta, lila"
 pytaũ:pytaũ ADJ ; ! "morado"
 pytaʼỹ:pytaʼỹ ADJ ; ! "nómada, tornadizo"
 pytãʼyju:pytãʼyju ADJ ; ! "anaranjado"
-pytũ:pytũ ADJ ; ! "oscuro, tenebroso, nebuloso"
 pytũhápe:pytũhápe ADJ ; ! "oscuramente"
 pytũngy:pytũngy ADJ ; ! "semioscuro"
 pyvã:pyvã ADJ ; ! "patituerto"
@@ -16071,8 +16069,6 @@ togueʼa:togueʼa ADJ ; ! "otoñal"
 tovaʼatã:tovaʼatã ADJ ; ! "caradura, atrevido, resuelto"
 tovameguã:tovameguã ADJ ; ! "falso, hipócrita, taimado, traidor"
 tovatavy:tovatavy ADJ ; ! "sonso, tonto, estúpido, bobo"
-tuichaite:tuichaite ADJ ; ! "muy grande, voluminoso"
-tuichaiteve:tuichaiteve ADJ ; ! "máximo, el mayor"
 tuichave:tuichave ADJ ; ! "mayor, superior"
 tujakue:tujakue ADJ ; ! "vetusto"
 tuju:tuju ADJ ; ! "pantanoso, podrido, corrupto"
@@ -16364,7 +16360,6 @@ herunguã:herunguã AD ; ! " quizá, tal vez, quién sabe"
 hesaʼi:hesaʼi AD ; ! " poco"
 hiʼári:hiʼári AD ; ! " además, encima"
 hikóni:hikóni AD ; ! "durante cierto tiempo"
-hína:hína AD ; ! " que indica acción continuada durante un cierto tiempo"
 hoytahápe:hoytahápe AD ; ! " nadando, a nado"
 huʼãme:huʼãme AD ; ! " al fin, finalmente, en la cumbre"
 ikatúne:ikatúne AD ; ! " tal vez, probablemente"
@@ -16568,7 +16563,6 @@ upepeve:upepeve AD ; ! " hasta allá"
 upéramo:upéramo AD ; ! " entonces"
 upeve:upeve AD ; ! " allá, más allá"
 upévo:upévo AD ; ! " entonces, al propio tiempo"
-vaʼekue:vaʼekue AD ; ! " de tiempo pasado antes, anteriormente"
 vaerä:vaerä AD ; ! ! Dir/LR ! Err/Orth
 vaicha:vaicha AD ; ! " aparentemente, probablemente, parece que, como si"
 vaietépe:vaietépe AD ; ! " desgraciadamente, malamente"

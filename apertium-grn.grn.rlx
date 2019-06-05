@@ -20,7 +20,7 @@ LIST Pos = pos ;
 
 LIST Itg = itg ;
 
-LIST Personal = pers ;
+LIST Pers = pers ;
 
 LIST Ind = ind ;
 
@@ -32,6 +32,8 @@ LIST Acc = acc ;
 
 LIST Coop = coop ;
 
+LIST Imp = imp;
+
 LIST A = "a" ;
 
 LIST Re = "re" ;
@@ -41,8 +43,6 @@ LIST Num = num ;
 LIST Sg = sg ;
 
 LIST Pl = pl ;
-
-LIST Np = np ;
 
 LIST Subs = subs ;
 
@@ -66,8 +66,11 @@ LIST Aux = aux ;
 
 LIST Coop = coop ;
 
+LIST Pass = pass ;
+
 LIST Adj = adj ;
 
+LIST Pro = pro ;
 LIST Dem = dem ;
 
 LIST P3 = p3 ;
@@ -84,21 +87,68 @@ LIST Ac = ac ;
 
 LIST Barb = barb ;
 
+#Temporal Aspect
+
+LIST Pmp = pmp;
+
 LIST Pres = pres ;
 
 LIST Ser = vbser ;
 
 LIST Ref = ref ;
 
+
+#Syntax
+
+LIST @cc = @cc ;
+LIST @conj = @conj ;
+LIST @compound = @compound;
+LIST @iobj = @iobj;
+LIST @dobj = @dobj;
+LIST @ccomp = @ccomp;
+LIST @amod = @amod;
+LIST @advmod = @advmod ;
+LIST @nsubj = @nsubj;
+LIST @acl = @acl;
+LIST @advcl = @advcl ;
+
+#Word forms
+
 LIST Lang = "ñeʼẽ" ;
 LIST Peoples = "guarani" "guaraní" ;
 LIST Petei = "peteĩ" ;
 LIST Think = "moʼã";
+LIST Child = "ñemoña";
+LIST PostPe = "pe" ;
+LIST PostGua = "gua" ;
+LIST PostGuara = "guarã";
+LIST Va = "va";
+LIST Ha = "ha";
+LIST Jeʼe = "jeʼe";
 
-SET SubSg = Ant | Top | Cog ; # Subject Sg Without N
-SET Names = SubSg | N ;
+SET AntTopCog = Ant | Top | Cog ; # Subject Sg Without N
+SET Names = AntTopCog | N ;
+SET Subject = Names | Pers ;
+SET SubjObj = Names | Prn + Dat | Prn + Acc ;
 SET Verbal = V | Aux ;
-SET Pers = P1 | P3 ;
+SET P1P3 = P1 | P3 ;
+SET Je3p = Pass | Ref ;
+SET Modifiers = Adj | Pos | Num | Ind | Adj + Dem ;
+SET PostModifiers = Adj | Pos;
+SET VerbalPostModifiers = Va | Aux | Ha ;
+
+#######SUFFIXES#######
+
+LIST NomFut = "rã";
+LIST NomPast = "kue" ;
+LIST RoV = "rõ";
+
+SET PostV = RoV ;
+SET NomTemp = NomPast | NomFut ;
+SET CompGroupDObj = Pers | Post | Adj | Tv ; 
+SET PostGrnDatAcc = PostPe | PostGua ;
+SET PostGrnDatAccInd = PostPe | PostGuara ;
+SET TvSpeechV = Tv | Jeʼe ;
 
 #HEURISTICS
 
@@ -116,13 +166,10 @@ REMOVE Re + Prn (0/* N) ;
 
 REMOVE Guess ;
 
-REMOVE Pl IF (1 Petei) ;
-#Oiko peteĩ karai Benjamín ñemoñaregua hérava Quis
-
 SELECT Prn + Ind IF (1 N) ;
 #Oiko peteĩ karai Benjamín ñemoñaregua hérava Quis
 
-#SELECT ("ñemoñare") IF (-1* (N) OR (Np Ant)) ;
+SELECT Child IF (-1/* Ant);
 
 REMOVE Top IF ((1 Cog) OR (1 Ant)) ;
 # León Cadogan omoĩ o kuatiañe'ẽme
@@ -135,10 +182,7 @@ SELECT Post IF ((-1 Top) OR (-2 Top)) ;
 SELECT N IF (-1 Petei);
 #Oiko peteĩ karai Benjamín ñemoñaregua hérava Quis
 
-SELECT SUB:* Sg + V IF (-1/* SubSg - Pl);
-# León Cadogan omoĩ o kuatiañe'ẽme
-
-SELECT Cnjcoo IF ((-1 N LINK 2 N) OR (-1 Np LINK 2 Np));
+SELECT Cnjcoo IF ((-1 N LINK 2 N) OR (-1 Names LINK 2 Names));
 #Avañe'ẽ ha Guarani ñe'ẽ
 
 SELECT Det + Pl IF (-1 N) ;
@@ -147,13 +191,15 @@ SELECT Det + Pl IF (-1 N) ;
 SELECT Adj + Dem + Pl IF (1/* Det + Pl) ;
 # umi Guaranikuéra
 
-SELECT Pl IF (1 Aux + Pl) ;
-#Avañe'ẽ ha Guarani ñe'ẽ ombohéra hikuái
+REMOVE Adv IF (0/* Post);
+#oje'e hese opívo oikoha
+#REMOVE N IF (0/* Post);
+#oje'e hese opívo oikoha
 
-SELECT Adv IF (1/* V) ;
+#SELECT Adv IF (1/* V) ;
 #Guarani ha'e peteĩva umi te'yikuéra Amérika-gua ñe'ẽnguéra apytépe hetave iñe'ẽhárava
 
-SELECT Sg + In IF (-1*/* Petei); #Careful!
+SELECT In IF (-1/* Adv);
 #Guarani ha'e peteĩva umi te'yikuéra Amérika-gua ñe'ẽnguéra apytépe hetave iñe'ẽhárava
 
 REMOVE Sg IF ((-2/* Pl) OR (-1/* Pl)) ;
@@ -170,10 +216,6 @@ SELECT Ser IF ((-1 N LINK 2 Num)) ;
 #NOUN WITH AN ATTRIBUTE CONSTRUCTIONS#
 ######################################
 
-SELECT Adj + Dem IF ((1/* N) OR (-1/* N LINK -1/* Adj + Dem));
-#ko órape
-#pe kuña péva
-
 SELECT Num IF (1/* N) ;
 #mokõi óga
 
@@ -181,17 +223,10 @@ SELECT Adj + Ind IF (1/* N) ;
 #ambue tetã
 
 
-#REMOVE Adj IF (0/* Adj + Dem LINK -2/* Adj + Dem) ; Do we need this?
-
-SELECT Adj IF (-1/* N);
-SELECT N IF ((1/* Adj) OR (-1/* Adj + Dem));
-#kyse pyahu
-#kóva ko távape
-
 SELECT SUB:* Prn + Dem IF (1/1 Adj + Dem LINK 1/* N) ;
 #kóva ko távape
 
-SELECT Prn + Personal IF (1/* N LINK 1/* Adj);
+SELECT Prn + Pers IF (1/* N LINK 1/* Adj);
 #nde mitã michĩ
 
 #########################
@@ -203,11 +238,17 @@ SELECT SUB:* Ser IF ((-1/* Names LINK 2/* N) OR (0/* Neg + Ser LINK -1/* Names L
 #Mario ndaha’ei chokokue
 #Ndaha’ei cherembireko
 
+REMOVE SUB:* N IF (0/* Ac);
+#tou omba'aposéva
+
+#REMOVE Adj IF ((-1/* V) OR (0/* V));
+
 SELECT Adv + Neg IF (1/* Verbal) ;
 #ani rehecha
 
-SELECT Prn + Pos IF (-1/* Prn + Itg) ;
+SELECT Prn + Pos IF ((-1/* Prn + Itg) OR (0/* NomTemp)) ;
 #Mávapa ipaino
+#chemba'aporã
 
 SELECT SUB:* In IF ((0/* In + N LINK 0/* Adv) OR (-1/* Ser)) ;
 #Ndaha’ei cherembireko
@@ -217,7 +258,86 @@ SELECT N IF (-1/* Ser);
 SELECT Dat IF ((-1/* V + Iv) OR (1/* V + Tv)) ;
 #Ndahakúi ichupekuéra
 
+
+##################################
+#########COMPLEMENTS##############
+##################################
+
+MAP @amod TARGET Modifiers IF ((1/* N) OR (1/* Modifiers));
+SELECT N IF (-1/* @amod);
+SELECT Pos IF (0/* @amod);
+SELECT @amod IF ((1/* N) OR (1/* @amod)) ;
+#pe kuña péva
+SELECT Adj + Dem IF (-1/* N LINK -1* @amod);
+
+#ko órape
+#kyse pyahu FIXME: unresolved
+#kóva ko távape
+
+#Map nominal compounds
+
+MAP @compound TARGET N IF (1 N) ; 
+MAP @conj TARGET N IF (-1* N - @compound LINK 1* Cnjcoo) ; 
+MAP @cc TARGET Cnjcoo IF (1* N + @conj BARRIER (*) - N) ; 
+SELECT N IF (-1/* @compound);
+#mitã jagua
+
+SELECT SUB:* Coop IF (-1* @conj BARRIER (*) - N) ;
+#Avañe'ẽ ha Guarani ñe'ẽ ombohéra hikuái
+
+
 SELECT Sub:* Tv IF (0/* Coop);
+
+REMOVE SUB:* Acc IF (1/* @dobj);
+#ainupã jaguápe
+#Remove accusative if the following is the direct obj (already has Pe)
+
+SELECT SUB:* PostGrnDatAcc IF (-1/* Tv LINK 1/* @dobj);
+#ainupã jaguápe
+
+REMOVE SUB:* Acc + P3 IF (0/* Ac); 
+#"kuatia aiporúva" ?????
+
+#For pronouns
+MAP @iobj TARGET SubjObj IF ((-1/* @dobj LINK 1/* Dat LINK 1* PostGrnDatAccInd) OR (0/* Dat LINK 1/* @dobj));
+#For NPs
+MAP @iobj TARGET SubjObj IF (-1*/* Tv LINK 1*/* @dobj);
+MAP @iobj TARGET SubjObj IF (1/* PostGrnDatAccInd);
+#amba'apo che rúpe guarã
+SELECT SUB:* Dat IF ((0/* @iobj LINK 1/* PostGrnDatAccInd) OR (0/* @iobj LINK 1/* @dobj));
+#agueru yva ndéve guarã
+
+SELECT SUB:* Dat + PostGrnDatAcc IF (-1/* @iobj);
+SELECT SUB:* Names + PostGrnDatAcc IF (-1/* @iobj);
+
+MAP @nsubj TARGET Subject IF (1*/* V BARRIER (*) - PostModifiers LINK NOT -1*/* TvSpeechV);
+SELECT @nsubj IF (0/* @nsubj);
+#mba'asy rereko va'ekue
+
+#Map verbal complements
+
+#Map verbal complement as direct object
+MAP SUB:1 @ccomp TARGET V IF (-1*/* TvSpeechV LINK 1/* @nsubj); 
+MAP @dobj TARGET SubjObj IF (NOT 0/* V LINK -1*/* Tv BARRIER @ccomp) ;
+#ahayhu che sýpe
+
+SELECT Post IF (-1/* TvSpeechV LINK NOT 2C/* Modifiers);
+#oje'e hese opívo oikoha
+MAP SUB:1 @ccomp TARGET V IF (-1*/* TvSpeechV BARRIER @nsubj LINK 1*/* V + VerbalPostModifiers BARRIER (*) - Modifiers);
+
+
+
+
+SELECT N IF (0/* NomTemp);
+#Che mba'aporã
+
+REMOVE SUB:* Post IF (0/* NomTemp);
+#matúlakue
+
+SELECT V IF (0/* PostV) ;
+
+SELECT Aux IF (-1/* V) ;
+#"rereko va'ekue"
 
 ##########################
 # Objective constructions#
@@ -237,4 +357,7 @@ SELECT SUB:* Iv IF (0/* Think LINK NOT -1/* N) ;
 
 AFTER-SECTIONS
 
-SELECT SUB:* Pres IF (0/* Pres) ;
+SELECT SUB:0 Pres IF (0/* Pres) ;
+SELECT SUB:1 Pres IF (0/* Pres) ;
+SELECT SUB:2 Pres IF (0/* Pres) ;
+SELECT SUB:3 Pres IF (0/* Pres) ;
