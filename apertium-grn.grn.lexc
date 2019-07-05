@@ -415,7 +415,7 @@ nde%<sup%>%+:%>n%{D%}e Adjectives ;
 
 LEXICON N-PL 
 
-%+kuéra%<det%>%<pl%>:cu•éra # ;
+%+kuéra%<det%>%<pl%>:%>cu•éra # ;
 %+kuéra%<det%>%<pl%>:%>%{N%}%{K%}u•éra COMP ;
 %+kuéra%<det%>%<pl%>:%>%{N%}%{K%}u•éra CASE ;
 %+kuéra%<det%>%<pl%>:%>%{N%}%{K%}u•éra EMPH ;
@@ -6770,7 +6770,7 @@ LEXICON PRES
 %<pres%>:%> SABER;
 
 LEXICON PAST
-%+akue%<ifi%>:%{P%}akue #;
+%+akue%<ifi%>:%>%{P%}akue #;
 %+mi%<pii%>:%>mi # ;
 %+mi%<pii%>:%>mi COMP ; 
 %+kuri%<past%>:%>kuri # ;
@@ -6824,9 +6824,9 @@ niko%<aux%>%<nar%>:ningo # ; ! Dir/LR
 niko%<aux%>%<nar%>:nio # ; ! Dir/LR
 
 LEXICON MODES 
-%+se%<vol%>:%>%se # ;
-%+se%<vol%>:%>%se COMP ; 
-%+se%<vol%>:%>%se DEM-PRN-INFL;
+%+se%<vol%>:%>se # ;
+%+se%<vol%>:%>se COMP ; 
+%+se%<vol%>:%>se DEM-PRN-INFL;
 %+niko%<nar%>:%>niko # ;
 %+ko%<nar%>:%>%{N%}%{K%}o #;
 %+ỹ%<car%>:%>%{P%}ỹ # ;
@@ -6863,12 +6863,12 @@ LEXICON V
 
 LEXICON VerbNegPref
 
-nd%<neg%>%+:n%{d%}%{a%} PersonAgr ; 
-nd%<neg%>%+:n%{d%}%{a%} Connectors ;
-nd%<neg%>%+:n%{d%}%{a%} IrrVerbs ;
-nd%<neg%>%+:n%{d%}%{a%} PersonAgrDefSg ;
-nd%<neg%>%+:n%{d%}%{a%} PersonAgrDefPl ;
-nd%<neg%>%+:n%{d%}%{a%} DemonstrativePronouns;
+nd%<neg%>%+:n%{d%}%{a%}%> PersonAgr ; 
+nd%<neg%>%+:n%{d%}%{a%}%> Connectors ;
+nd%<neg%>%+:n%{d%}%{a%}%> IrrVerbs ;
+nd%<neg%>%+:n%{d%}%{a%}%> PersonAgrDefSg ;
+nd%<neg%>%+:n%{d%}%{a%}%> PersonAgrDefPl ;
+nd%<neg%>%+:n%{d%}%{a%}%> DemonstrativePronouns;
 
 LEXICON VerbsNegSuf
 %+i%<neg%>:%>%{r%}i # ;
@@ -6891,8 +6891,8 @@ LEXICON INCP
 LEXICON VerbsAgr
 
 PRO ;
-Verbs ;
-VerbsIv ;
+:%> Verbs ;
+:%> VerbsIv ;
 Voices ; 
 
 LEXICON Voices 
@@ -7002,15 +7002,13 @@ i%<prn%>%<pro%>%<p3%>%<in%>%+:%>i%{I%} INACT-INFL ;
 
 LEXICON INACT-INFL
 
-Verbs ;
-VerbsIv;
+%>: Verbs ;
+%>: VerbsIv;
 
-Nouns ;
-Adjectives;
-DetBiformes ;
-DetTriformes ;
-
-
+%>: Nouns ;
+%>: Adjectives;
+%>: DetBiformes ;
+%>: DetTriformes ;
 
 LEXICON IrrVerbs
 haʼe%<v%>%<tv%>%<p1%>%<sg%>%<pres%>:haʼe IRR-INFL ; ! digo 
