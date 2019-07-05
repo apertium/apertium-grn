@@ -171,6 +171,7 @@ DET-PL ;
 POST-SEP;
 ImpPol;
 ImpPol-Sep;
+Digits ;
 
 
 !!!!!!!!!!!!!!!!!!!! LEXICON SPANISH !!!!!!!!!!
@@ -7002,13 +7003,13 @@ i%<prn%>%<pro%>%<p3%>%<in%>%+:%>i%{I%} INACT-INFL ;
 
 LEXICON INACT-INFL
 
-%>: Verbs ;
-%>: VerbsIv;
+:%> Verbs ;
+:%> VerbsIv;
 
-%>: Nouns ;
-%>: Adjectives;
-%>: DetBiformes ;
-%>: DetTriformes ;
+:%> Nouns ;
+:%> Adjectives;
+:%> DetBiformes ;
+:%> DetTriformes ;
 
 LEXICON IrrVerbs
 haʼe%<v%>%<tv%>%<p1%>%<sg%>%<pres%>:haʼe IRR-INFL ; ! digo 
@@ -7453,6 +7454,7 @@ LEXICON Nouns
 malavisiõ:malavisiõ N ;
 mbatovi:mbatovi N ; 
 rrása:rr•ása N ; ! "rasa (de animal) LOAN"
+altar:altar N ; ! ""
 óra:•óra N ; ! "hora"
 mymbajuka:mymbajuka N ; ! "animal de sacrifício, cazado"
 guaraniete:guaraniete N ; ! "guaranípuro"
@@ -7474,7 +7476,7 @@ ojojogua:ojojogua N ; ! "semejanza"
 tembiʼu:tembiʼu N ; ! "comida" 
 ñeʼẽte:ñeʼẽte N ; ! "biblioteca"
 guarani:guarani N ; ! "guaranis"
-guarani:guaraní N ; ! "guaranis" ! Dir/LR ! Err/Orth 
+guarani:guaraní N "weight: 1.0" ; ! "guaranis" ! Dir/LR ! Err/Orth 
 ary:ary N ; ! "año"
 tembirekorã:tembirekorã N ; ! "novia formal"
 teindyra:teindyra N ; ! "hermana menor"
@@ -17249,28 +17251,42 @@ LEXICON Punctuation
 ! %ʼ%<apos%>:%ʼ # ;
 
 ! Temporary numeral lexicon
-<[%0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 ]+>  DIGITLEX ; ! Use/Circ
+!<[%0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 ]+>  DIGITLEX ; ! Use/Circ
 
-LEXICON DIGITLEX
+LEXICON Digits
 
-%<num%>:DIGITLEX-2 ;
-%<num%>: # ;
+%0:%0 DIGIT-LOOP ; 
+1:1 DIGIT-LOOP ;
+2:2 DIGIT-LOOP ;
+3:3 DIGIT-LOOP ;
+4:4 DIGIT-LOOP ;
+5:5 DIGIT-LOOP ;
+6:6 DIGIT-LOOP ;
+7:7 DIGIT-LOOP ;
+8:8 DIGIT-LOOP ;
+9:9 DIGIT-LOOP ;
 
+LEXICON DIGIT-LOOP
 
-LEXICON DIGITLEX-2
+      Digits ;
+%,:%, Digits ;
+%.:%. Digits ;
+      LASTDIGIT ;
 
-%+0%<num%>:%0 DIGIT-CASE ; 
-%+1%<num%>:1%{g%} DIGIT-CASE ;
-%+2%<num%>:2%{g%} DIGIT-CASE ;
-%+3%<num%>:3%{g%} DIGIT-CASE ;
-%+4%<num%>:4%{g%} DIGIT-CASE ;
-%+5%<num%>:5 DIGIT-CASE ;
-%+6%<num%>:6%{g%} DIGIT-CASE ;
-%+7%<num%>:7%{g%} DIGIT-CASE ;
-%+8%<num%>:8 DIGIT-CASE ;
-%+9%<num%>:9%{g%} DIGIT-CASE ;
+LEXICON LASTDIGIT
+
+%0:%0 DIGIT-CASE ; 
+1:1%{g%} DIGIT-CASE ;
+2:2%{g%} DIGIT-CASE ;
+3:3%{g%} DIGIT-CASE ;
+4:4%{g%} DIGIT-CASE ;
+5:5 DIGIT-CASE ;
+6:6%{g%} DIGIT-CASE ;
+7:7%{g%} DIGIT-CASE ;
+8:8 DIGIT-CASE ;
+9:9%{g%} DIGIT-CASE ;
 
 LEXICON DIGIT-CASE
 
-# ; 
-%+pe%<post%>:%-%{m%}e # ;
+%<num%>: # ; 
+%<num%>%+pe%<post%>:%-%{m%}e # ;
