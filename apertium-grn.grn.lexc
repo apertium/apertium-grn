@@ -6831,12 +6831,12 @@ LEXICON MODES
 %+ko%<nar%>:%>%{N%}%{K%}o #;
 %+ỹ%<car%>:%>%{P%}ỹ # ;
 %+ỹ%<car%>:%>%{P%}ỹ CASE ;
-%+mi%<dim%>:%>mi # ;
-%+mimi%<dim%>:%>mimi # ;
-%+i%<dim%>:%>%{P%}i # ; !
-%+i%<dim%>:%>%{P%}i CASE ; !
-%+mi%<dim%>:%>mi CASE ;
-%+mimi%<dim%>:%>mimi CASE ;
+%+mi%<dim%>:%>mi #  "weight: 1.0" ;
+%+mimi%<dim%>:%>mimi #  "weight: 1.0" ;
+%+i%<dim%>:%>%{P%}i #  "weight: 1.0" ; !
+%+i%<dim%>:%>%{P%}i CASE  "weight: 1.0" ; !
+%+mi%<dim%>:%>mi CASE  "weight: 1.0" ;
+%+mimi%<dim%>:%>mimi CASE  "weight: 1.0" ;
 
 
 LEXICON SABER
