@@ -47,15 +47,21 @@ Testing
 
 If you are in the source directory after running make, the following
 commands should work:
-```
+```bash
 $ echo "Paraguáipe" | apertium -d . grn-morph
 ^Paraguáipe/Paraguái<np><top>+pe<post>$
 ```
 
-```
+```bash
 $ echo "Paraguáipe" | apertium -d . grn-tagger
 ^Paraguáipe/Paraguái<np><top>+pe<post>$
 ```
+
+```bash
+$ echo "Paraguáipe" | hfst-proc grn.autoseg.hfst 
+^Paraguáipe/Paraguái>pe$
+```
+
 Files and data
 ===============================================================================
 
