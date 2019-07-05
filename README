@@ -7,6 +7,7 @@ you can use this language package for:
 * Morphological analysis of Guaraní
 * Morphological generation of Guaraní
 * Part-of-speech tagging of Guaraní
+* Morphological segmentation of Guaraní
 
 Requirements
 ===============================================================================
@@ -77,10 +78,6 @@ For more information
 * http://wiki.apertium.org/wiki/Installation
 * http://wiki.apertium.org/wiki/apertium-grn
 * http://wiki.apertium.org/wiki/Using_an_lttoolbox_dictionary
-
-To Do 
-==============================================================================
-1. Add morpheme boundaries to morph-analyser
 
 Help and support
 ===============================================================================
