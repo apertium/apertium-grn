@@ -357,7 +357,9 @@ SELECT SUB:* Iv IF (0/* Think LINK NOT -1/* N) ;
 
 AFTER-SECTIONS
 
-SELECT SUB:0 Pres IF (0/* Pres) ;
-SELECT SUB:1 Pres IF (0/* Pres) ;
-SELECT SUB:2 Pres IF (0/* Pres) ;
+SELECT SUB:0 Pres IF (0/* Pres) (0C V) ;
+SELECT SUB:1 Pres IF (0/* Pres) ; 
+SELECT SUB:2 Pres IF (0/* Pres) ; 
 SELECT SUB:3 Pres IF (0/* Pres) ;
+
+# Tupã oporombojovakeha árape, peẽ peñenupã pohyivéta umi táva Tiro ha Sidón peguágui.
