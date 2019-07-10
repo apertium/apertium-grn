@@ -54,7 +54,7 @@ LIST Ant = ant ;
 
 LIST Det = det ;
 
-LIST Cnjcoo = cnjcoo ;
+LIST CC = cnjcoo ;
 
 LIST V = v ;
 
@@ -182,7 +182,7 @@ SELECT Post IF ((-1 Top) OR (-2 Top)) ;
 SELECT N IF (-1 Petei);
 #Oiko peteĩ karai Benjamín ñemoñaregua hérava Quis
 
-SELECT Cnjcoo IF ((-1 N LINK 2 N) OR (-1 Names LINK 2 Names));
+SELECT CC IF ((-1 N LINK 2 N) OR (-1 Names LINK 2 Names));
 #Avañe'ẽ ha Guarani ñe'ẽ
 
 SELECT Det + Pl IF (-1 N) ;
@@ -264,7 +264,7 @@ SELECT Dat IF ((-1/* V + Iv) OR (1/* V + Tv)) ;
 ##################################
 
 MAP @amod TARGET Modifiers IF ((1/* N) OR (1/* Modifiers));
-SELECT N IF (-1/* @amod);
+SELECT N IF (-1/* @amod) (NOT 0 CC) ; # risky for "ha": itúva ha isy togueraha chupe táva ruvicha kuéra oporombojovakehápe.
 SELECT Pos IF (0/* @amod);
 SELECT @amod IF ((1/* N) OR (1/* @amod)) ;
 #pe kuña péva
@@ -277,8 +277,8 @@ SELECT Adj + Dem IF (-1/* N LINK -1* @amod);
 #Map nominal compounds
 
 MAP @compound TARGET N IF (1 N) ; 
-MAP @conj TARGET N IF (-1* N - @compound LINK 1* Cnjcoo) ; 
-MAP @cc TARGET Cnjcoo IF (1* N + @conj BARRIER (*) - N) ; 
+MAP @conj TARGET N IF (-1* N - @compound LINK 1* CC) ; 
+MAP @cc TARGET CC IF (1* N + @conj BARRIER (*) - N) ; 
 SELECT N IF (-1/* @compound);
 #mitã jagua
 
@@ -311,7 +311,7 @@ SELECT SUB:* Dat + PostGrnDatAcc IF (-1/* @iobj);
 SELECT SUB:* Names + PostGrnDatAcc IF (-1/* @iobj);
 
 MAP @nsubj TARGET Subject IF (1*/* V BARRIER (*) - PostModifiers LINK NOT -1*/* TvSpeechV);
-SELECT @nsubj IF (0/* @nsubj);
+SELECT @nsubj IF (0/* @nsubj) (NOT 0 CC) ; # risky for 'ha': itúva ha isy togueraha chupe táva ruvicha kuéra oporombojovakehápe.
 #mba'asy rereko va'ekue
 
 #Map verbal complements
