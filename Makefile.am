@@ -52,9 +52,13 @@ TARGETS_COMMON =			\
 .deps/$(LANG1).RL.hfst: .deps/$(LANG1).RL.seg.hfst .deps/$(LANG1).mor.twol.hfst
 	hfst-compose-intersect -1 .deps/$(LANG1).RL.seg.hfst -2 .deps/$(LANG1).mor.twol.hfst -o $@
 
-.deps/$(LANG1).LR.hfst: .deps/$(LANG1).LR.seg.hfst .deps/$(LANG1).mor.twol.hfst
-	hfst-compose-intersect -1 .deps/$(LANG1).LR.seg.hfst -2 .deps/$(LANG1).mor.twol.hfst -o $@
+#.deps/$(LANG1).LR.hfst: .deps/$(LANG1).LR.seg.hfst .deps/$(LANG1).mor.twol.hfst
+#	hfst-compose-intersect -1 .deps/$(LANG1).LR.seg.hfst -2 .deps/$(LANG1).mor.twol.hfst -o $@
 
+.deps/$(LANG1).LR.hfst: .deps/$(LANG1).LR.seg.hfst .deps/$(LANG1).mor.twol.hfst
+	hfst-compose-intersect -1 .deps/$(LANG1).LR.seg.hfst -2 .deps/$(LANG1).mor.twol.hfst -o .deps/$(LANG1).LR.unweighted.hfst
+	hfst-subtract -1 .deps/$(LANG1).LR.unweighted.hfst -2 .deps/$(LANG1).weights.noweight.hfst -o .deps/$(LANG1).LR.unweighted.subtr.hfst
+	hfst-union -1 .deps/$(LANG1).LR.unweighted.subtr.hfst -2 .deps/$(LANG1).weights.hfst  -o $@
 
 .deps/$(LANG1).mor.twol.hfst: $(BASENAME).$(LANG1).mor.twol
 	hfst-twolc $< -o $@

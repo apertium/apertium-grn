@@ -1361,7 +1361,7 @@ Frank:Frank NP-ANT ; ! ""
 Franz:Franz NP-ANT ; ! ""
 Freddie:Freddie NP-ANT ; ! ""
 Frederick:Frederick NP-ANT ; ! ""
-Frédéric:Fr•éd•éric NP-ANT ; ! ""
+Frédéric:Frédéric NP-ANT ; ! "" ! Sin • porque es de francés
 Fred:Fred NP-ANT ; ! ""
 Friedrich:Friedrich NP-ANT ; ! ""
 Gabino:Gabino NP-ANT ; ! ""
@@ -1370,6 +1370,7 @@ Gaia:Gaia NP-ANT ; ! ""
 Gala:Gala NP-ANT ; ! ""
 Galatea:Galatea NP-ANT ; ! ""
 Galia:Galia NP-ANT ; ! ""
+Galil•éa:Galil•éa NP-TOP ; ! ""
 Galilea:Galilea NP-ANT ; ! ""
 Galileo:Galileo NP-ANT ; ! ""
 Galindo:Galindo NP-ANT ; ! ""
@@ -17228,6 +17229,7 @@ LEXICON Punctuation
 %!%<sent%>:%! # ;
 %¡%<sent%>:%¡ # ; 
 %-%<guio%>:%- # ;
+%-%-%<guio%>:%-%- # ;
 %—%<guio%>:%— # ;
 %–%<guio%>:%– # ;
 ,%<cm%>:, # ;
@@ -17247,6 +17249,7 @@ LEXICON Punctuation
 \%<sent%>:\ # ;
 /%<sent%>:/ # ;
 …%<sent%>:… # ;
+%’%<apos%>:%’ # ; 
 
 ! %ʼ%<apos%>:%ʼ # ;
 
