@@ -359,6 +359,8 @@ SELECT SUB:* Iv IF (0/* Think LINK NOT -1/* N) ;
 
 SELECT SUB:* N IF (0 Ñandejára) ;
 
+SELECT SUB:* Pos IF (0 Ñandejára) ;
+
 AFTER-SECTIONS
 
 SELECT SUB:0 Pres IF (0/* Pres) (0C V) ;
