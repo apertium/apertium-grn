@@ -67,8 +67,8 @@ VowsWeak = I Ĩ U Ũ Y Ỹ Í Ú Ý
 
 Rules
 
-!"Remove morpheme boundary"
-!%>:0 <=> _ ; 
+"Remove morpheme boundary"
+%>:0 <=> %> :0* _ ; 
 
 "Remove initial morpheme boundaries"
 %>:0 <=> .#. :0* _ ;
