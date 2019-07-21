@@ -256,6 +256,7 @@ N-PL ;
 ITG-SUF ;
 EMPH ;
 MODES;
+SUBST-V ;  ! FMT: Comprueba esto: -peha, 
 
 
 LEXICON CASE
@@ -368,16 +369,16 @@ LEXICON SUBST
 +rã%<subs%>:%>rã FUT ;
 
 LEXICON SUBST-V 
-+ha%<subs%>:%>ha # ;
-+ha%<subs%>:%>ha COMP ;
-+ha%<subs%>:%>ha CASE ;
-+ha%<subs%>:%>ha PAST ;
++ha%<subs%>:%>ha # ; ! complement clauses
++ha%<subs%>:%>ha COMP ; ! complement clauses
++ha%<subs%>:%>ha CASE ; ! complement clauses
++ha%<subs%>:%>ha PAST ; ! complement clauses
 +rã%<subs%>:%>rã # ;
 +rã%<subs%>:%>rã CASE ;
 +hára%<subs%>:%>hára CASE ;
 +hára%<subs%>:%>hára # ;
-+va%<subs%>%<dem%>:%>va # ;
-+va%<subs%>%<dem%>:%>va MODES ;
++va%<subs%>%<dem%>:%>va # ; ! relative clauses
++va%<subs%>%<dem%>:%>va MODES ; ! relative clauses
 
 LEXICON COMP 
 +icha%<comp%>:%>icha COMP-INFL ; ! "igualidad" 
@@ -448,21 +449,25 @@ LEXICON NP-COG
 
 %<np%>%<cog%>: CASE ;
 %<np%>%<cog%>:%- CASE ; ! Dir/LR
+%<np%>%<cog%>: SUBST-V ;
 
 LEXICON NP-AL
 
 %<np%>%<al%>: CASE ;
 %<np%>%<al%>:%- CASE ; ! Dir/LR
+%<np%>%<al%>: SUBST-V ;
 
 
 LEXICON NP-TOP
 
 %<np%>%<top%>: CASE ;
 %<np%>%<top%>:%- CASE ; ! Dir/LR
+%<np%>%<top%>: SUBST-V ;
 
 LEXICON NP-ANT
 %<np%>%<ant%>: CASE ;
 %<np%>%<ant%>:%- CASE ; ! Dir/LR
+%<np%>%<ant%>: SUBST-V ;
 
 LEXICON INTJ
 
