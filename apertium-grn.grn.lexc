@@ -289,10 +289,10 @@ re:re POST ; ! ""
 mboyve:mboyve POST ; ! "antes" 
 
 haguéicha:hagu•éicha POST ; ! ""
-hag̃uáicha:hag̃uáicha POST ; ! "" 
+hag̃uáicha:hag̃u•áicha POST ; ! "" 
 hese:hese POST ; ! "por el, por ella, le" 
 ndive:ndive POST ; ! "con"
-okaháre:okaháre POST ; ! ""
+okaháre:okah•áre POST ; ! ""
 ndive:ndie POST ; ! "con" ! Dir/LR 
 pegua:pegua POST ; ! "de"
 pegua:megua POST ; ! "de" ! Dir/LR
@@ -301,7 +301,7 @@ guive:guie POST ; ! "desde" ! Dir/LR
 guýpe:guýpe POST ; ! ""
 kupe:kupe POST ; ! "detras de"
 ykere:ykere POST ; ! "al lado de"
-ykere:ykére POST ; ! "al lado de"
+ykere:yk•ére POST ; ! "al lado de"
 pype:pype POST ; ! "dentro"
 pýpe:pýpe POST ; ! ""
 ipype:ipype POST ; ! "por dentro"
@@ -7457,6 +7457,7 @@ teindy:teindy N ; ! "hermana del varón"
 LEXICON Nouns
 
 
+apóstol:ap•óstol N ;
 sentímetro:sent•ímetro N ; ! "centimetro"
 malavisiõ:malavisiõ N ;
 mbatovi:mbatovi N ; 
@@ -17281,6 +17282,7 @@ LEXICON DIGIT-LOOP
 %,:%, Digits ;
 %.:%. Digits ;
       LASTDIGIT ;
+      DIGIT-CASE ;
 
 LEXICON LASTDIGIT
 
