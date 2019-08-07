@@ -165,7 +165,7 @@ VerbsDefSg  "weight: 1.0" ;
 VerbsDefPl  "weight: 1.0" ;
 MODES-AUX  "weight: 1.0" ;
 DemonstrativePronouns  "weight: 1.0" ;
-Voices  "weight: 1.0" ; 
+Voices  "weight: 1.0" ;
 ADJV  "weight: 1.0" ;
 DET-PL  "weight: 1.0" ;
 POST-SEP "weight: 1.0" ;
@@ -6897,10 +6897,10 @@ LEXICON INCP
 
 LEXICON VerbsAgr
 
-PRO ;
+:%> PRO ;
 :%> Verbs ;
 :%> VerbsIv ;
-Voices ; 
+:%> Voices ;
 
 LEXICON Voices 
 
@@ -6923,21 +6923,21 @@ ja%<prn%>%<p1%>%<pl%>%<ac%>%+:%>%{J%}a%{P%} VerbsAgr ;
 ro%<prn%>%<p1%>%<pl%>%<ac%>%+:%>ro%{P%} VerbsAgr ;
 pe%<prn%>%<p2%>%<pl%>%<ac%>%+:%>pe%{P%} VerbsAgr ;
 
-a%<prn%>%<p1%>%<sg%>%<ac%>%+:%>a%{P%} Nouns ;
-re%<prn%>%<p2%>%<sg%>%<ac%>%+:%>re%{P%} Nouns ;
-o%<prn%>%<p3%>%<ac%>%+:%>o%{P%} Nouns ;
-ja%<prn%>%<p1%>%<pl%>%<ac%>%+:%>%{J%}a%{P%} Nouns ;
-ro%<prn%>%<p1%>%<pl%>%<ac%>%+:%>ro%{P%} Nouns ;
-pe%<prn%>%<p2%>%<pl%>%<ac%>%+:%>pe%{P%} Nouns ;
+a%<prn%>%<p1%>%<sg%>%<ac%>%+:%>a%{P%}%> Nouns ;
+re%<prn%>%<p2%>%<sg%>%<ac%>%+:%>re%{P%}%> Nouns ;
+o%<prn%>%<p3%>%<ac%>%+:%>o%{P%}%> Nouns ;
+ja%<prn%>%<p1%>%<pl%>%<ac%>%+:%>%{J%}a%{P%}%> Nouns ;
+ro%<prn%>%<p1%>%<pl%>%<ac%>%+:%>ro%{P%}%> Nouns ;
+pe%<prn%>%<p2%>%<pl%>%<ac%>%+:%>pe%{P%}%> Nouns ;
 
 LEXICON PersonAgrDefSg
-o%<prn%>%<p3%>%<ac%>%+:%>o%{P%} VerbsDefSg ;
+o%<prn%>%<p3%>%<ac%>%+:%>o%{P%}%> VerbsDefSg ;
 
 LEXICON PersonAgrDefPl 
 
-o%<prn%>%<p3%>%<ac%>%+:%>o%{P%} VerbsDefPl ;
-ja%<prn%>%<p1%>%<pl%>%<ac%>%+:%>%{J%}a%{P%} VerbsDefPl ;
-ro%<prn%>%<p1%>%<pl%>%<ac%>%+:%>ro%{P%} VerbsDefPl ;
+o%<prn%>%<p3%>%<ac%>%+:%>o%{P%}%> VerbsDefPl ;
+ja%<prn%>%<p1%>%<pl%>%<ac%>%+:%>%{J%}a%{P%}%> VerbsDefPl ;
+ro%<prn%>%<p1%>%<pl%>%<ac%>%+:%>ro%{P%}%> VerbsDefPl ;
 
 
 LEXICON VerbsDefSg
@@ -10903,6 +10903,7 @@ noʼõ:noʼõ N ; ! "reunión, conjunto, rodeo"
 ñañuvã:ñañuvã N ; ! "abrazo"
 ñarõ:ñarõ N ; ! "ladrido, enojo, rabia"
 ñatiʼũ:ñatiʼũ N ; ! "mosquito"
+ñatiʼũ:ñatiʼu N ; ! "mosquito" ! Dir/LR ! Use/Sub ! Err/Orth
 ñatõiha:ñatõiha N ; ! "ejecutor de instrumento musical"
 ñayʼũ:ñayʼũ N ; ! "arcilla, barro, lodo negro"
 ñeakãity:ñeakãity N ; ! "reverencia"
