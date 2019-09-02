@@ -123,55 +123,55 @@ Multichar_Symbols
 
 LEXICON Root 
 
-Conjunctions ;
-Interyecciones ;
-Postpositions ;
-Nouns ; 
-ProperNouns ; 
-Verbs ; 
-VerbalPrefixes ;
-PersonalPronouns ;
-IrrVerbs ;
-PossessivePrefixes ;
-BiformesPaentesco ;
-DemAdjectives ;
-Adjectives ;
-Punctuation ;
-Connectors ;
-Numerals ;
-AdjIndef ;
-PRO ;
-INACT ;
-PossesivePronouns ;
-Interyecciones ;
-Adverbs ;
-IndefinitePronouns ;
-SpaAdjectives ;
-ItgPronouns ;
-GRD-PREF ;
-SpaNouns ;
-Barbarismes ;
-Abbreviações ;
-Symbols ;
-Imperative ;
-DetBiformes ;
-Miscellaneous ;
-DetTriformes ;
-Triformes ;
-Biformes;
-PosTriform ;
-VerbsIv ;
-VerbsDefSg ;
-VerbsDefPl ;
-MODES-AUX ;
-DemonstrativePronouns ;
-Voices ; 
-ADJV ;
-DET-PL ;
-POST-SEP;
-ImpPol;
-ImpPol-Sep;
-Digits ;
+Conjunctions  "weight: 1.0" ;
+Interyecciones  "weight: 1.0" ;
+Postpositions  "weight: 1.0" ;
+Nouns  "weight: 1.0" ; 
+ProperNouns  "weight: 1.0" ; 
+Verbs  "weight: 1.0" ; 
+VerbalPrefixes  "weight: 1.0" ;
+PersonalPronouns  "weight: 1.0" ;
+IrrVerbs  "weight: 1.0" ;
+PossessivePrefixes  "weight: 1.0" ;
+BiformesPaentesco  "weight: 1.0" ;
+DemAdjectives  "weight: 1.0" ;
+Adjectives  "weight: 1.0" ;
+Punctuation  "weight: 1.0" ;
+Connectors  "weight: 1.0" ;
+Numerals  "weight: 1.0" ;
+AdjIndef  "weight: 1.0" ;
+PRO  "weight: 1.0" ;
+INACT  "weight: 1.0" ;
+PossesivePronouns  "weight: 1.0" ;
+Interyecciones  "weight: 1.0" ;
+Adverbs  "weight: 1.0" ;
+IndefinitePronouns  "weight: 1.0" ;
+SpaAdjectives  "weight: 1.0" ;
+ItgPronouns  "weight: 1.0" ;
+GRD-PREF  "weight: 1.0" ;
+SpaNouns  "weight: 1.0" ;
+Barbarismes  "weight: 1.0" ;
+Abbreviações  "weight: 1.0" ;
+Symbols  "weight: 1.0" ;
+Imperative  "weight: 1.0" ;
+DetBiformes  "weight: 1.0" ;
+Miscellaneous  "weight: 1.0" ;
+DetTriformes  "weight: 1.0" ;
+Triformes  "weight: 1.0" ;
+Biformes "weight: 1.0" ;
+PosTriform  "weight: 1.0" ;
+VerbsIv  "weight: 1.0" ;
+VerbsDefSg  "weight: 1.0" ;
+VerbsDefPl  "weight: 1.0" ;
+MODES-AUX  "weight: 1.0" ;
+DemonstrativePronouns  "weight: 1.0" ;
+Voices  "weight: 1.0" ;
+ADJV  "weight: 1.0" ;
+DET-PL  "weight: 1.0" ;
+POST-SEP "weight: 1.0" ;
+ImpPol "weight: 1.0" ;
+ImpPol-Sep "weight: 1.0" ;
+Digits  "weight: 1.0" ;
 
 
 !!!!!!!!!!!!!!!!!!!! LEXICON SPANISH !!!!!!!!!!
@@ -256,6 +256,7 @@ N-PL ;
 ITG-SUF ;
 EMPH ;
 MODES;
+SUBST-V ;  ! FMT: Comprueba esto: -peha, 
 
 
 LEXICON CASE
@@ -288,10 +289,10 @@ re:re POST ; ! ""
 mboyve:mboyve POST ; ! "antes" 
 
 haguéicha:hagu•éicha POST ; ! ""
-hag̃uáicha:hag̃uáicha POST ; ! "" 
+hag̃uáicha:hag̃u•áicha POST ; ! "" 
 hese:hese POST ; ! "por el, por ella, le" 
 ndive:ndive POST ; ! "con"
-okaháre:okaháre POST ; ! ""
+okaháre:okah•áre POST ; ! ""
 ndive:ndie POST ; ! "con" ! Dir/LR 
 pegua:pegua POST ; ! "de"
 pegua:megua POST ; ! "de" ! Dir/LR
@@ -300,7 +301,7 @@ guive:guie POST ; ! "desde" ! Dir/LR
 guýpe:guýpe POST ; ! ""
 kupe:kupe POST ; ! "detras de"
 ykere:ykere POST ; ! "al lado de"
-ykere:ykére POST ; ! "al lado de"
+ykere:yk•ére POST ; ! "al lado de"
 pype:pype POST ; ! "dentro"
 pýpe:pýpe POST ; ! ""
 ipype:ipype POST ; ! "por dentro"
@@ -368,16 +369,16 @@ LEXICON SUBST
 +rã%<subs%>:%>rã FUT ;
 
 LEXICON SUBST-V 
-+ha%<subs%>:%>ha # ;
-+ha%<subs%>:%>ha COMP ;
-+ha%<subs%>:%>ha CASE ;
-+ha%<subs%>:%>ha PAST ;
++ha%<subs%>:%>ha # ; ! complement clauses
++ha%<subs%>:%>ha COMP ; ! complement clauses
++ha%<subs%>:%>ha CASE ; ! complement clauses
++ha%<subs%>:%>ha PAST ; ! complement clauses
 +rã%<subs%>:%>rã # ;
 +rã%<subs%>:%>rã CASE ;
 +hára%<subs%>:%>hára CASE ;
 +hára%<subs%>:%>hára # ;
-+va%<subs%>%<dem%>:%>va # ;
-+va%<subs%>%<dem%>:%>va MODES ;
++va%<subs%>%<dem%>:%>va # ; ! relative clauses
++va%<subs%>%<dem%>:%>va MODES ; ! relative clauses
 
 LEXICON COMP 
 +icha%<comp%>:%>icha COMP-INFL ; ! "igualidad" 
@@ -416,7 +417,7 @@ nde%<sup%>%+:%>n%{D%}e Adjectives ;
 
 LEXICON N-PL 
 
-%+kuéra%<det%>%<pl%>:%>cu•éra # ;
+%+kuéra%<det%>%<pl%>:%>cu•éra # ; ! Dir/LR ! Use/Arch 
 %+kuéra%<det%>%<pl%>:%>%{N%}%{K%}u•éra COMP ;
 %+kuéra%<det%>%<pl%>:%>%{N%}%{K%}u•éra CASE ;
 %+kuéra%<det%>%<pl%>:%>%{N%}%{K%}u•éra EMPH ;
@@ -448,21 +449,25 @@ LEXICON NP-COG
 
 %<np%>%<cog%>: CASE ;
 %<np%>%<cog%>:%- CASE ; ! Dir/LR
+%<np%>%<cog%>: SUBST-V ;
 
 LEXICON NP-AL
 
 %<np%>%<al%>: CASE ;
 %<np%>%<al%>:%- CASE ; ! Dir/LR
+%<np%>%<al%>: SUBST-V ;
 
 
 LEXICON NP-TOP
 
 %<np%>%<top%>: CASE ;
 %<np%>%<top%>:%- CASE ; ! Dir/LR
+%<np%>%<top%>: SUBST-V ;
 
 LEXICON NP-ANT
 %<np%>%<ant%>: CASE ;
 %<np%>%<ant%>:%- CASE ; ! Dir/LR
+%<np%>%<ant%>: SUBST-V ;
 
 LEXICON INTJ
 
@@ -1361,7 +1366,7 @@ Frank:Frank NP-ANT ; ! ""
 Franz:Franz NP-ANT ; ! ""
 Freddie:Freddie NP-ANT ; ! ""
 Frederick:Frederick NP-ANT ; ! ""
-Frédéric:Fr•éd•éric NP-ANT ; ! ""
+Frédéric:Frédéric NP-ANT ; ! "" ! Sin • porque es de francés
 Fred:Fred NP-ANT ; ! ""
 Friedrich:Friedrich NP-ANT ; ! ""
 Gabino:Gabino NP-ANT ; ! ""
@@ -1370,6 +1375,7 @@ Gaia:Gaia NP-ANT ; ! ""
 Gala:Gala NP-ANT ; ! ""
 Galatea:Galatea NP-ANT ; ! ""
 Galia:Galia NP-ANT ; ! ""
+Galiléa:Galil•éa NP-TOP ; ! ""
 Galilea:Galilea NP-ANT ; ! ""
 Galileo:Galileo NP-ANT ; ! ""
 Galindo:Galindo NP-ANT ; ! ""
@@ -6891,10 +6897,10 @@ LEXICON INCP
 
 LEXICON VerbsAgr
 
-PRO ;
+:%> PRO ;
 :%> Verbs ;
 :%> VerbsIv ;
-Voices ; 
+:%> Voices ;
 
 LEXICON Voices 
 
@@ -6917,21 +6923,21 @@ ja%<prn%>%<p1%>%<pl%>%<ac%>%+:%>%{J%}a%{P%} VerbsAgr ;
 ro%<prn%>%<p1%>%<pl%>%<ac%>%+:%>ro%{P%} VerbsAgr ;
 pe%<prn%>%<p2%>%<pl%>%<ac%>%+:%>pe%{P%} VerbsAgr ;
 
-a%<prn%>%<p1%>%<sg%>%<ac%>%+:%>a%{P%} Nouns ;
-re%<prn%>%<p2%>%<sg%>%<ac%>%+:%>re%{P%} Nouns ;
-o%<prn%>%<p3%>%<ac%>%+:%>o%{P%} Nouns ;
-ja%<prn%>%<p1%>%<pl%>%<ac%>%+:%>%{J%}a%{P%} Nouns ;
-ro%<prn%>%<p1%>%<pl%>%<ac%>%+:%>ro%{P%} Nouns ;
-pe%<prn%>%<p2%>%<pl%>%<ac%>%+:%>pe%{P%} Nouns ;
+a%<prn%>%<p1%>%<sg%>%<ac%>%+:%>a%{P%}%> Nouns ;
+re%<prn%>%<p2%>%<sg%>%<ac%>%+:%>re%{P%}%> Nouns ;
+o%<prn%>%<p3%>%<ac%>%+:%>o%{P%}%> Nouns ;
+ja%<prn%>%<p1%>%<pl%>%<ac%>%+:%>%{J%}a%{P%}%> Nouns ;
+ro%<prn%>%<p1%>%<pl%>%<ac%>%+:%>ro%{P%}%> Nouns ;
+pe%<prn%>%<p2%>%<pl%>%<ac%>%+:%>pe%{P%}%> Nouns ;
 
 LEXICON PersonAgrDefSg
-o%<prn%>%<p3%>%<ac%>%+:%>o%{P%} VerbsDefSg ;
+o%<prn%>%<p3%>%<ac%>%+:%>o%{P%}%> VerbsDefSg ;
 
 LEXICON PersonAgrDefPl 
 
-o%<prn%>%<p3%>%<ac%>%+:%>o%{P%} VerbsDefPl ;
-ja%<prn%>%<p1%>%<pl%>%<ac%>%+:%>%{J%}a%{P%} VerbsDefPl ;
-ro%<prn%>%<p1%>%<pl%>%<ac%>%+:%>ro%{P%} VerbsDefPl ;
+o%<prn%>%<p3%>%<ac%>%+:%>o%{P%}%> VerbsDefPl ;
+ja%<prn%>%<p1%>%<pl%>%<ac%>%+:%>%{J%}a%{P%}%> VerbsDefPl ;
+ro%<prn%>%<p1%>%<pl%>%<ac%>%+:%>ro%{P%}%> VerbsDefPl ;
 
 
 LEXICON VerbsDefSg
@@ -7451,6 +7457,8 @@ teindy:teindy N ; ! "hermana del varón"
 LEXICON Nouns
 
 
+apóstol:ap•óstol N ;
+sentímetro:sent•ímetro N ; ! "centimetro"
 malavisiõ:malavisiõ N ;
 mbatovi:mbatovi N ; 
 rrása:rr•ása N ; ! "rasa (de animal) LOAN"
@@ -10895,6 +10903,7 @@ noʼõ:noʼõ N ; ! "reunión, conjunto, rodeo"
 ñañuvã:ñañuvã N ; ! "abrazo"
 ñarõ:ñarõ N ; ! "ladrido, enojo, rabia"
 ñatiʼũ:ñatiʼũ N ; ! "mosquito"
+ñatiʼũ:ñatiʼu N ; ! "mosquito" ! Dir/LR ! Use/Sub ! Err/Orth
 ñatõiha:ñatõiha N ; ! "ejecutor de instrumento musical"
 ñayʼũ:ñayʼũ N ; ! "arcilla, barro, lodo negro"
 ñeakãity:ñeakãity N ; ! "reverencia"
@@ -17228,6 +17237,7 @@ LEXICON Punctuation
 %!%<sent%>:%! # ;
 %¡%<sent%>:%¡ # ; 
 %-%<guio%>:%- # ;
+%-%-%<guio%>:%-%- # ;
 %—%<guio%>:%— # ;
 %–%<guio%>:%– # ;
 ,%<cm%>:, # ;
@@ -17247,6 +17257,7 @@ LEXICON Punctuation
 \%<sent%>:\ # ;
 /%<sent%>:/ # ;
 …%<sent%>:… # ;
+%’%<apos%>:%’ # ; 
 
 ! %ʼ%<apos%>:%ʼ # ;
 
@@ -17272,6 +17283,7 @@ LEXICON DIGIT-LOOP
 %,:%, Digits ;
 %.:%. Digits ;
       LASTDIGIT ;
+      DIGIT-CASE ;
 
 LEXICON LASTDIGIT
 

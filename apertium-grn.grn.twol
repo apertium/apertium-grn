@@ -67,8 +67,8 @@ VowsWeak = I Ĩ U Ũ Y Ỹ Í Ú Ý
 
 Rules
 
-!"Remove morpheme boundary"
-!%>:0 <=> _ ; 
+"Remove morpheme boundary"
+%>:0 <=> %> :0* _ ; 
 
 "Remove initial morpheme boundaries"
 %>:0 <=> .#. :0* _ ;
@@ -79,20 +79,23 @@ Rules
 !"Remove stress marker"
 !•:0 <=> _ ;
 
+
 "Change vowel before atonal suffixes"
-Va:Vt <=> _ %>: [m: a: | n: t: e: | i: c: h: a: | %{m%}: e: | g: u: i: | r: e: | m: i:|
-                 k: u: r: i: | t: a: | r: a: ʼ: e: | n: e: | n: i: k: o:| v: a: | p: a: ] ;
-            [Cns: | VowsAton: | Nas: | ʼ: ]+ _ %>: %{r%}: ;
-            _ %{o%}: %>: [v: | a: | g: u: i: | i: c: h: a: ] ;
+Va:Vt <=>                                           _ %>: [m: a: | n: t: e: | i: c: h: a: | g: u: i: | r: e: | m: i:|
+                                                           k: u: r: i: | t: a: | r: a: ʼ: e: | n: e: | n: i: k: o:| v: a: | p: a: | %{m%}: e: ] ;
+                   [Cns: | VowsAton: | Nas: | ʼ: ]+ _ %>: %{r%}: ;
+                                                    _ %{o%}: %>: [v: a: | g: u: i: | i: c: h: a: ] ;
             except
-            [VowsTon:] [ Cns: | VowsAton: |Nas:]+ _ %>: [m: a: | n: t: e: | i: c: h: a:|v: | a: | %{m%}: e:] ;
-	        _ %>: v: a: ʼ: e: k: u: e: ;
-	        i:  _ %>: ; 
-	        i: c: h: _ %>: n: t: e:  ;
-	        g: u: _ %>: %{m%}: e: ;
-            _ %>: i: c: h: a: %>: %{E%}: t: e: ;
-            where Va in ( a e o u y ) 
+        [ •: VowsTon: ([ Cns: | VowsAton: |Nas:]+) ] _ %>: [m: a: | n: t: e: | i: c: h: a:|v: a: | %{m%}: e: ] ;
+                                                    _ %>: v: a: ʼ: e: k: u: e: ;
+                                                 i: _ %>: ;
+                                           i: c: h: _ %>: n: t: e:  ;
+                                              g: u: _ %>: %{m%}: e: ;
+                                                    _ %>: i: c: h: a: %>: %{E%}: t: e: ;
+            where Va in ( a e o u y )
                   Vt in ( á é ó ú ý ) matched ;
+
+!@ a:a k:k a:a t:t •:0 ú:ú a:a >:> {m}:p e:e
 
 "Change i to tonal before atonal suffixes"
 i:í <=>  _ %>: [m: a: | n: t: e:| p: e: | %{r%}:r i: | v: a:] ;
@@ -219,27 +222,20 @@ Cx:0 <=> %{t%}: _ ;
 "Remove %{b%} before nasals"
 %{b%}:0 <=> %>: m: _ [o: | y:] %{P%}: Nas: ;
 
-"Delete [i] in normal verbs"
-%{i%}:0 <=> _ ;
-    except 
-           :a ([ :0 | %> ]) _ ;
-           :r :e ([ :0 | %> ]) _ ;
-           :o ([ :0 | %> ]) _ ;
-           :j :a ([ :0 | %> ]) _ ;
-           :r :o ([ :0 | %> ]) _ ;
-           :p :e ([ :0 | %> ]) _ ; 
-
 "Add [i] for aireales" 
-%{i%}:i <=> :a ([ :0 | %> ]) _ ;
-            :r :e ([ :0 | %> ]) _ ;
-            :o ([ :0 | %> ]) _ ;
-            :j :a ([ :0 | %> ]) _ ;
-            :r :o ([ :0 | %> ]) _ ;
-            :p :e ([ :0 | %> ]) _ ; 
+%{i%}:i <=>
+            :a    :0* %>: _ ;
+            :r :e :0* %>: _ ;
+            :o    :0* %>: _ ;
+            :j :a :0* %>: _ ;
+            :r :o :0* %>: _ ;
+            :p :e :0* %>: _ ;
 
 !@ >:0 a:a {P}:0 {i}:i k:k o:o >:0 h:h a:a 
 
 !@ >:0 r:r e:e {P}:0 {i}:i k:k o:o >:0 h:h a:a
+
+!@ >:0 o:o {P}:0 >:> {i}:i k:k o:o
 
 "Always delete %{g%}"
 %{g%}:0 <=> _ ;
