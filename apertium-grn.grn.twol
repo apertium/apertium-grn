@@ -86,10 +86,10 @@ Va:Vt <=> _ %>: [m: a: | n: t: e: | i: c: h: a: | %{m%}: e: | g: u: i: | r: e: |
             _ %{o%}: %>: [v: | a: | g: u: i: | i: c: h: a: ] ;
             except
             [VowsTon:] [ Cns: | VowsAton: |Nas:]+ _ %>: [m: a: | n: t: e: | i: c: h: a:|v: | a: | %{m%}: e:] ;
-	      _ %>: v: a: ʼ: e: k: u: e: ;
-	      i:  _ %>: ; 
-	      i: c: h: _ %>: n: t: e:  ;
-	      g: u: _ %>: %{m%}: e: ;
+	        _ %>: v: a: ʼ: e: k: u: e: ;
+	        i:  _ %>: ; 
+	        i: c: h: _ %>: n: t: e:  ;
+	        g: u: _ %>: %{m%}: e: ;
             _ %>: i: c: h: a: %>: %{E%}: t: e: ;
             where Va in ( a e o u y ) 
                   Vt in ( á é ó ú ý ) matched ;
@@ -142,7 +142,7 @@ Vt:Va <=> •: _ [ Cns: | ArchiCns: | Nas: | VowsAton: |  %>: ]+  VowsTon: ;
 %{N%}:n <=> Nas: %>: _ ;
             _ %{K%}: k: ;
             VowsWeak: %>: _ ;
-            Nas: CnsNorm: Vows: %>: _;
+            Nas: (CnsNorm:) Vows: %>: _;
             v: a: %>: _ ;
             VowsWeak: [VowsStrong: | Cns: ]+ %>: :p :e %>: _ ;
 
@@ -150,7 +150,7 @@ Vt:Va <=> •: _ [ Cns: | ArchiCns: | Nas: | VowsAton: |  %>: ]+  VowsTon: ;
 %{K%}:g <=> Nas: %>: %{N%}: _ ;
             %{N%}: _ k: ;
             v: a: %>: %{N%}: _ ;
-            Nas: CnsNorm: Vows: %>: %{N%}: _;
+            Nas: (CnsNorm:) Vows: %>: %{N%}: _;
             VowsWeak: %>: %{N%}: _ ;
             VowsWeak: [VowsStrong: | Cns: | %>: ]+ %>: :p :e %>: %{N%}: _ ;
 
