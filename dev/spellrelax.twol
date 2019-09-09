@@ -9,12 +9,16 @@ Alphabet
 %':%' %ʼ:%' 
 
 ! FIXME: Isso provavelmente deveria vir no lexicão de errores
-ã:ã   ä:ä   ã:ä 
 
+! G   B     G:B 
+ã:ã   ä:ä   ã:ä 
       â:â   ã:â 
 
 ĩ:ĩ   ï:ï   ĩ:ï 
-ĩ:ĩ   î:î   ĩ:î 
+      î:î   ĩ:î 
+
+õ:õ   ö:ö   õ:ö
+      ô:ô   õ:ô 
 
 á:á   a:a   á:a
 é:é   e:e   é:e
