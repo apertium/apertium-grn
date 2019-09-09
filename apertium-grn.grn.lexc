@@ -290,7 +290,7 @@ renonde:renonde POST ; ! "delante de"
 rapykuéri:rapyku•éri POST ; ! ""
 
 LEXICON PosTriform
-h%<prn%>%<pos%>%+:h%{t%} POST-Triformes ;
+h%<prn%>%<pos%>%+:%>h%{t%} POST-Triformes ;
 
 LEXICON Miscellaneous
 
@@ -783,7 +783,7 @@ Olivera:Olivera NP-COG ; ! ""
 Ferreira:Ferreira NP-COG ; ! ""
 Bautista:Bautista NP-COG ; ! ""
 Simpson:Simpson NP-COG ; ! ""
-Franco:Franco NP-COG ; ! ""
+Franco:Franco NP-COG; ! ""
 Velasco:Velasco NP-COG ; ! ""
 Aquino:Aquino NP-COG ; ! ""
 Guerrero:Guerrero NP-COG ; ! ""

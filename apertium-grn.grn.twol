@@ -145,7 +145,7 @@ Vt:Va <=> •: _ [ Cns: | ArchiCns: | Nas: | VowsAton: |  %>: ]+  VowsTon: ;
 %{N%}:n <=> Nas: %>: _ ;
             _ %{K%}: k: ;
             VowsWeak: %>: _ ;
-            Nas: CnsNorm: Vows: %>: _;
+            Nas: (CnsNorm:) Vows: %>: _;
             v: a: %>: _ ;
             VowsWeak: [VowsStrong: | Cns: ]+ %>: :p :e %>: _ ;
 
@@ -153,7 +153,7 @@ Vt:Va <=> •: _ [ Cns: | ArchiCns: | Nas: | VowsAton: |  %>: ]+  VowsTon: ;
 %{K%}:g <=> Nas: %>: %{N%}: _ ;
             %{N%}: _ k: ;
             v: a: %>: %{N%}: _ ;
-            Nas: CnsNorm: Vows: %>: %{N%}: _;
+            Nas: (CnsNorm:) Vows: %>: %{N%}: _;
             VowsWeak: %>: %{N%}: _ ;
             VowsWeak: [VowsStrong: | Cns: | %>: ]+ %>: :p :e %>: %{N%}: _ ;
 
