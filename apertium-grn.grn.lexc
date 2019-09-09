@@ -220,6 +220,25 @@ estado:estado N-ES ;
 demografía:demografía N-ES ;
 centro:centro N-ES ;
 
+libertad:libertad N-ES ; 
+persona:persona N-ES ; 
+raza:raza N-ES ; 
+moral:moral N-ES ; 
+delito:delito N-ES ; 
+sindicato:sindicato N-ES ; 
+seguro:seguro N-ES ; 
+problema:problema N-ES ; 
+preso:preso N-ES ; 
+linde:linde N-ES ; 
+humana:humano N-ES ; 
+garantía:garantía N-ES ; 
+esclavo:esclavo N-ES ; 
+esclavitud:esclavitud N-ES ; 
+culpable:culpable N-ES ; 
+castigo:castigo N-ES ; 
+declaración:declaración N-ES ; 
+
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
