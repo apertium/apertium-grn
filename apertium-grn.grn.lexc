@@ -192,6 +192,10 @@ español:español ADJ-ES ;
 LEXICON N-ES
 
 %<n%>: # ; 
+%<n%>%+pe%<post%>:%>pe # ; 
+%<n%>%+pe%<post%>:%>-pe # ; ! Dir/LR
+%<n%>%+gui%<post%>:%>gui # ; 
+%<n%>%+gui%<post%>:%>-gui # ; ! Dir/LR
 
 LEXICON SpaNouns 
 
