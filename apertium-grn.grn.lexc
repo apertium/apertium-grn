@@ -187,6 +187,11 @@ nuevo:nuevo ADJ-ES ;
 internacional:internacional ADJ-ES ;
 alegre:alegre ADJ-ES ;
 español:español ADJ-ES ;
+cierto:cierto ADJ-ES ;
+democrática:democrática ADJ-ES ;
+económico:económico ADJ-ES ;
+humana:humana ADJ-ES ;
+obligatorio:obligatorio ADJ-ES ;
 
 
 LEXICON N-ES
@@ -202,6 +207,8 @@ LEXICON SpaNouns
 apóstol:apóstol N-ES ;
 tábla:tábla N-ES ;
 espéjo:espéjo N-ES ;
+religión:religión N-ES ; 
+trabajo:trabajo N-ES ; 
 departamento:departamento N-ES ;
 ciudad:ciudad N-ES ;
 gobierno:gobierno N-ES ;
@@ -241,6 +248,9 @@ esclavitud:esclavitud N-ES ;
 culpable:culpable N-ES ; 
 castigo:castigo N-ES ; 
 declaración:declaración N-ES ; 
+inconciencia:inconciencia N-ES ; 
+asociación:asociación N-ES ;
+educación:educación N-ES ; 
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
