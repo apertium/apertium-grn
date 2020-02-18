@@ -197,6 +197,7 @@ obligatorio:obligatorio ADJ-ES ;
 LEXICON N-ES
 
 %<n%>: # ; 
+%<n%>: DET-PL ; 
 %<n%>%+pe%<post%>:%>pe # ; 
 %<n%>%+pe%<post%>:%>-pe # ; ! Dir/LR
 %<n%>%+gui%<post%>:%>gui # ; 
@@ -214,6 +215,7 @@ ciudad:ciudad N-ES ;
 gobierno:gobierno N-ES ;
 colegio:colegio N-ES ;
 arte:arte N-ES ;
+amigo:amigo N-ES;
 alianza:alianza N-ES ;
 turismo:turismo N-ES ;
 rromantisismo:rromantisismo N-ES ; 
@@ -6828,6 +6830,7 @@ LEXICON FUT
 %+ta%<fti%>:%>ta # ; 
 %+ta%<fti%>:%>ta CASE ; 
 %+ta%<fti%>:%>ta AD-SUF ;
+%+ta%<fti%>:%>ta ITG-SUF;
 %+pota%<fti%>:%>%{m%}%{b%}ota # ; 
 %+ne%<fts%>:%>ne # ; 
 %+aʼrã%<fti%>:%>%{P%}aʼrã # ;
