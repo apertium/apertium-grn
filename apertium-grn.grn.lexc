@@ -6825,20 +6825,23 @@ pe%<post%>:pe # ;
 
 
 LEXICON FUT 
-%+ta%<fti%>:%>ta # ; 
-%+ta%<fti%>:%>ta CASE ; 
-%+ta%<fti%>:%>ta AD-SUF ;
+
+%+ta%<fti%>:%>ta              # ; 
+%+ta%<fti%>:%>ta              CASE ; 
+%+ta%<fti%>:%>ta              AD-SUF ;
+%+ta%<fti%>:%>ta              ITG-SUF ; ! rehotápa
 %+pota%<fti%>:%>%{m%}%{b%}ota # ; 
-%+ne%<fts%>:%>ne # ; 
-%+aʼrã%<fti%>:%>%{P%}aʼrã # ;
-%+arã%<fti%>:%>%{P%}aʼrã # ; ! Dir/LR
-%+aʼrã%<fti%>:%>%{P%}aʼrã FUT ;
-%+arã%<fti%>:%>%{P%}aʼrã FUT ; ! Dir/LR
-%+arã%<fti%>:%>%{P%}arâ FUT ; ! Dir/LR
-%+mo’ã%<fti%>:%>%mo’ã # ;
-%+mo’ã%<fti%>:%>%mo’â # ;
-%+vaʼerã%<fti%>:%>%vaʼerã # ;
-%+vaʼerã%<fti%>:%>%vaʼerã PAST ;
+%+ne%<fts%>:%>ne              # ; 
+%+ne%<fts%>:%>ne              ITG-SUF ; 
+%+aʼrã%<fti%>:%>%{P%}aʼrã     # ;
+%+arã%<fti%>:%>%{P%}aʼrã      # ; ! Dir/LR
+%+aʼrã%<fti%>:%>%{P%}aʼrã     FUT ;
+%+arã%<fti%>:%>%{P%}aʼrã      FUT ; ! Dir/LR
+%+arã%<fti%>:%>%{P%}arâ       FUT ; ! Dir/LR
+%+mo’ã%<fti%>:%>mo’ã          # ;
+%+mo’ã%<fti%>:%>mo’â          # ; ! Dir/LR
+%+vaʼerã%<fti%>:%>vaʼerã      # ;
+%+vaʼerã%<fti%>:%>vaʼerã      PAST ;
 
 
 
