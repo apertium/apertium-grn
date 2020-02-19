@@ -1,7 +1,7 @@
 DIX=apertium-grn.grn.lexc
 BIN=grn.automorf.hfst
 
-cat ~/data/thesis/corpora/grn_wiki_corpus.txt |  sed "s/\([^ ]\)['’]\([^ ]\)/\1ʼ\2/g"  | apertium-destxt | nice -n 19 hfst-proc -w $BIN | apertium-retxt | sed 's/\$\W*\^/$\n^/g' > /tmp/grn.coverage.txt
+cat ~/data/thesis/corpora/grn_bible.txt |  sed "s/\([^ ]\)['’]\([^ ]\)/\1ʼ\2/g"  | apertium-destxt | nice -n 19 hfst-proc -w $BIN | apertium-retxt | sed 's/\$\W*\^/$\n^/g' > /tmp/grn.coverage.txt
 
 EDICT=`cat $DIX | grep '^[^:]\+:[^ ]\+ *[A-Z]' | wc -l`
 EPARA=`cat $DIX | grep -o 'LEXICON ' | wc -l`;
