@@ -91,11 +91,14 @@ Va:Vt <=>                                           _ %>: [m: a: | n: t: e: | i:
                                                  i: _ %>: ;
                                            i: c: h: _ %>: n: t: e:  ;
                                               g: u: _ %>: %{m%}: e: ;
-                                                    _ %>: i: c: h: a: %>: %{E%}: t: e: ;
+                                                    _ %>: i: c: h: a: %>: %{E%}: t: e: ; 
+                                                    _ %>: t: a: %>: p: a: ;              ! rehotápa ! FIXME: This is a hack
             where Va in ( a e o u y )
                   Vt in ( á é ó ú ý ) matched ;
 
 !@ a:a k:k a:a t:t •:0 ú:ú a:a >:> {m}:p e:e
+
+!@ >:0 r e {P}:0 > h o > t a:á > p a
 
 "Change i to tonal before atonal suffixes"
 i:í <=>  _ %>: [m: a: | n: t: e:| p: e: | %{r%}:r i: | v: a:] ;
