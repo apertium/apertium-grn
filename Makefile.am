@@ -2,8 +2,6 @@
 ## Makefile for apertium-grn
 ###############################################################################
 
-RELEASE=0.1
-VERSION=0.1.0
 LANG1=grn
 BASENAME=apertium-$(LANG1)
 
@@ -190,7 +188,7 @@ install-data-local: install-modes
 	$(INSTALL_DATA) $(BASENAME).$(LANG1).lexc $(DESTDIR)$(apertium_grn_srcdir)
 	$(INSTALL_DATA) $(BASENAME).$(LANG1).twol $(DESTDIR)$(apertium_grn_srcdir)
 	$(INSTALL_DATA) $(BASENAME).$(LANG1).rlx $(DESTDIR)$(apertium_grn_srcdir)
-	$(INSTALL_DATA) $(BASENAME).post-$(LANG1).dix $(DESTDIR)$(apertium_grn_srcdir)
+#	$(INSTALL_DATA) $(BASENAME).post-$(LANG1).dix $(DESTDIR)$(apertium_grn_srcdir)
 
 ###############################################################################
 ## Cleanup
