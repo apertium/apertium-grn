@@ -1,6 +1,7 @@
 prefix=@prefix@
 exec_prefix=${prefix}
+srcdir=@datarootdir@/apertium/apertium-grn
 
-Name: apertium-kir
+Name: apertium-grn
 Description: Finite-state morphological transducer and constraint grammar for Guaraní
 Version: @VERSION@
