@@ -1,3 +1,4 @@
+# sent_id = wikipedia:Avañeʼẽ:1
 # text = Avañeʼẽ ha Guarani ñeʼẽ ombohéra hikuái umi Guaranikuéra pe ñeʼẽ teépe.
 # text[spa] = La lengua avañe'ẽ y la lengua guaraní tienen nombre del pueblo de los guaraní.
 # labels = to_check
@@ -29,6 +30,7 @@
 "<.>"
 	"." sent @punct #15->6
 
+# sent_id = wikipedia:Avañeʼẽ:2
 # text = Guarani haʼe peteĩva umi teʼyikuéra Amérika-gua ñeʼẽnguéra apytépe hetave iñeʼẽhárava, oñemohendáva irundy tetãnguéra iñambuévape (Paraguái, Argentina, Volívia ha Brasil).
 # text[spa] = Guaraní es una entre estas lenguas amerindias más habladas, que está localizada en cuatro paises siguientes (Paraguay, Argentina, Bolívia y Brasil).
 # labels = incomplete
@@ -93,6 +95,7 @@
 "<.>"
 	"." sent @punct #35->3
 
+# sent_id = wikipedia:Avañeʼẽ:3
 # text = Avei, haʼe ñoite ojehechakuaáva ñeʼẽ teéramo peteĩ tetã Ñembyamérika-guápe. 
 # text[spa] = Además, es lengua que está reconocida como patrimonio en un país de America del Sur. 
 # labels = 
@@ -125,6 +128,7 @@
 "<.>"
 	"." sent @punct #18->9
 
+# sent_id = wikipedia:Avañeʼẽ:4
 # text = Tupi ha guarani ñeʼẽ aty guasu rehegua, oguereko hetáichagua ñeʼẽnunga, upéicharõ jepe oĩ jekupyty ijapytepekuéra ha heta mbaʼépe ojojogua koʼã ñeʼẽnungakuéra. 
 # text[spa] = El grupo liguistico grande Tupi y gurarani tiene multiplos dialectos, aun muchos están unidos en muchos casos y tienen mucha semejanza.  
 # labels = 
@@ -186,6 +190,7 @@
 "<.>"
 	"." sent @punct #31->5
 
+# sent_id = wikipedia:Avañeʼẽ:5
 # text = Avañeʼẽ ha karaiñeʼẽ haʼe Paraguái retaãme ñeʼẽ tee ary 1992 guive.
 # text[spa] = Guaraní y español son en Paraguay lenguas patrimoniales desde el año 1992.
 # labels = incomplete
@@ -215,6 +220,7 @@
 "<.>"
 	"." sent @punct #13->8
 
+# sent_id = wikipedia:Avañeʼẽ:6
 # text = Japypateĩ 2006 guive haʼe avei ñeʼẽ tee Mercosur-pe karaiñeʼẽ ha poytugañeʼẽ ykére.
 # text[spa] = Desde 2006 la lengua es también patrimonial de once lenguas en Mercosur a la par con español y portugués.
 # labels = 
@@ -260,6 +266,7 @@
 "<.>"
   "." sent @punct #5->2
 
+# sent_id = wikipedia:Avañeʼẽ:7
 # text = Péva haʼehína pe ñeʼẽ haʼekuéra oipurúva oñomongeta hag̃ua, ombohasávo ojupe hemiandu, hembikuaa, hembiasa ha hembipota.
 # text[spa] = Esa lengua ellos estaban utilizando para conversar, traducir sentido, conocimiento, circunstancia y proposito precisamente.
 # labels = 
@@ -312,6 +319,7 @@
 "<.>"
 	"." sent @punct #28->6
 
+# sent_id = wikipedia:Avañeʼẽ:8
 # text = "Ava" niko heʼise tekove, yvypóra, tapicha, kuimba'e térã kuña oikóva oñondive, peteĩ avano'õme (sociedad); "ñe'ẽ" ikatu he'ise "ñemongeta ahyʼo pu rupive".
 # text[spa] = "Ava" significa individuo, humano, persona, hombre y mujer cuidan juntos de la sociedad (sociedad); "ñeʼẽ" puede significar "parlamento que  explota garganta". 
 # labels = 
@@ -390,6 +398,7 @@
 "<.>"
 	"." sent @punct #37->27 
 
+# sent_id = wikipedia:Avañeʼẽ:9
 # text = Péva haʼehína pe tembipuru guasu guarani kuéra oipurúva ojokupyty hag̃ua, ojoapytépe.
 # text[spa] = Esa es la herranienta grande de los guaranís que estaban utilizando para comprender, unos a otros. 
 # labels = 
@@ -426,6 +435,7 @@
 "<.>"
 	"." sent @punct #19->6  
 
+# sent_id = wikipedia:Avañeʼẽ:10
 # text = Ñeʼẽ niko omopeteĩ chupekuéra ha ohechauka avei avakuéra oikoha peteĩ tetãme ha upe tetãme ojepuruha peteĩ ñeʼẽte, ha’éva avañeʼẽ. 
 # text[spa] = Ellos simplifican la lengua y también indican los guaranís que viven en uno país y una lengua que se usa en ese país es guaraní.  
 # labels = 
@@ -484,6 +494,7 @@
 "<.>"
 	"." sent @punct #32->9 
  
+# sent_id = wikipedia:Avañeʼẽ:11
 # text = Opaite ñeʼẽte oĩva yvy ape ári niko oñemohendakuaa ñeʼẽkuaaty (lingüística) rupive ha upevarã tekotevẽ ñanemandu'a Augusto Schleicher (1821-1867) rembiapokuére.
 # text[spa] = Todas las lenguas que están aqui en el sur son colocadas en cima por causa de lingüística (lingüística) y es preciso que nosotros recordamos el trabajo de Augusto Schleicher.
 # labels = 
@@ -545,6 +556,7 @@
 "<.>"
 	"." sent @punct #31->10 
 
+# sent_id = wikipedia:Avañeʼẽ:12
 # text = Jaikuaaháicha, haʼe oheja avei hapykuere neʼẽkuaaty rembiasápe.
 # text[spa] = Sin dúvida, el deja también la experiencia en linguística de pasado.
 # labels = 
@@ -571,6 +583,7 @@
 "<.>"
 	"." sent @punct #13->5
 
+# sent_id = wikipedia:Avañeʼẽ:13
 # text = Schleicher he'íkuri ñe'ẽte ikatuha oñemohenda mbohapýpe, kóicha: 
 # text[spa] = Schleicher ha dicho de lenguas que pueden se ordenan en tres grupos, así: 
 # labels = 
@@ -598,6 +611,7 @@
 "<:>"
 	":" sent @punct #14->2
 
+# sent_id = wikipedia:Avañeʼẽ:14
 # text = Ñe'ẽnguéra iñe'ẽpehẽteĩva (lenguas aislantes o monosilábicas), ko'ãva apytépe oĩ chinañe'ẽ, iñe'ẽpehẽteĩteĩva (Fu – Man – Chu).
 # text[spa] = Las lenguas monosilábicas, entre estas está la lengua chinesa aislante (Fu – Man – Chu).
 # labels = 
@@ -650,6 +664,7 @@
 "<.>"
 	"." sent @punct #25->14 
 
+# sent_id = wikipedia:Avañeʼẽ:15
 # text = Ñe'ẽnguéra iñe'ẽjoapykuaáva (lenguas aglutinantes), tuykiañe'ẽ guaicha, ombojoajúva ñe'ẽpehẽtai (afijo) ñe'ẽrapóre (raíz). 
 # text[spa] = En lenguas aglutinantes, como lengua turca, afijo se une a raíz.
 # labels = FIXME! Ambiguous 
@@ -699,6 +714,7 @@
 "<.>"
 	"." sent @punct #25->14
 
+# sent_id = wikipedia:Avañeʼẽ:16
 # text = Iporã ja'e avañe'ẽ oñemohendaha avei ko'ãva apytépe (n-a-mbo-guata-se-i-eté-pa-kuri).
 # text[spa] = Decimos también que guaraní se estabelece bién entre (n-a-mbo-guata-se-i-eté-pa-kuri).
 # labels = 
@@ -760,6 +776,7 @@
 "<.>"
 	"." sent @punct #30->29 
 
+# sent_id = wikipedia:Avañeʼẽ:17
 # text = Ñe'ẽnguéra iñe'ẽrapoambuéva (lenguas de flexión), umi ñe'ẽte indoeuropeo-icha.  
 # text[spa] = Las lenguas de flexión, aquellas lenguas como indoeuropeas. 
 # labels = 
@@ -791,6 +808,7 @@
 "<.>"
 	"." sent @punct #15->
 
+# sent_id = wikipedia:Avañeʼẽ:18
 # text = Koʼãvape, ñeʼẽ iñambue iñeʼẽrapópemavoi karaiñeʼẽme ojehuháicha (camin/o, as, a, amos, áis, an).
 # text[spa] = En estas, flexión ya ocurre después de la raíz como en casellano (camin/o, as, a, amos, áis, an). 
 # labels = 
@@ -850,6 +868,7 @@
 "<.>"
 	"." sent @punct #32->
 
+# sent_id = wikipedia:Avañeʼẽ:19
 # text = Aipórõ guarani ñe'ẽte ija umi iñe'ẽjoapykuaáva apytépe, ha upépe ojoavýma karaiñe'ẽgui oñemohendáva umi iñe'ẽrapoambuéva apytépe. 
 # text[spa] = Aquella lengua guarani cabe entre estas, allá se diferencía ya de español y estas se estabelecen entre las flectivas.
 # labels = incomplete
@@ -896,6 +915,7 @@
 "<.>"
 	"." sent @punct #24->  
 
+# sent_id = wikipedia:Avañeʼẽ:20
 # text = Ko mba'e iporã ñamyesakã oĩgui heta tapicha - yma ha ko'ága - oñeha'ãva ohesa'ỹijo avañe’ẽ Castellano oñehesa'ỹijoháicha, ha ivaivéva - oikuaaporã’ỹre - oipuruséva Guarani ñe’ẽre Castellano ñe’ẽtekuaa. 
 # text[spa] = Esto (es) como explicamos que mucha gente - antes y ahora - esfuerza bién a analizar como Castellano tanto guaraní, todavía peor - sin saber bién quiere utilizar lengua Guarani hablado y aprender la lengua Castellana.
 # labels = 
@@ -965,7 +985,6 @@
 		"puru" v tv pres @acl #40->48  
 			"se" vol @aux #41->40  
 				"va" dem subs @dep #42->40 
-
 "<Guarani>"
 	"Guarani" n @obl #43->40 
 "<ñeʼẽre>"
@@ -977,5 +996,5 @@
 	"ñe’ẽte" incp @obl #47->48  
 		"kuaa" v tv pres @acl #48->5  
 "<.>"
-	"." sent punct #49-> 
+	"." sent @punct #49-> 
 

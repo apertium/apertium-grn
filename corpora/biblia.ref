@@ -1,0 +1,955 @@
+# sent_id = biblia:1
+# text = Oiko peteĩ karai Benjamín ñemoñaregua hérava Quis, Abiel raʼy; Abiel, Seror raʼy; Seror, Becorat raʼy; Becorat, Afíah raʼy.
+# labels = 
+^Oiko/o<prn><p3><ac>+ko<v><iv><pres>$
+^peteĩ/peteĩ<prn><ind>$
+^karai/karai<n>$
+^Benjamín/Benjamín<np><ant>$
+^ñemoñaregua/ñemoñare+gua<post>$
+^hérava/héra<v><tv><pres>+va<subs><dem>$
+^Quis/Quis<np><al>$
+^,/,<cm>$
+^Abiel/Abiel<np><al>$
+^raʼy/raʼy<n>$
+^;/;<sent>$
+^Abiel/Abiel<np><al>$
+^,/,<cm>$
+^Seror/Seror<np><al>$
+^raʼy/raʼy<n>$
+^;/;<sent>$
+^Seror/Seror<np><al>$
+^,/,<cm>$
+^Becorat/Becorat<np><al>$
+^raʼy/raʼy<n>$
+^;/;<sent>$
+^Becorat/Becorat<np><al>$
+^,/,<cm>$
+^Afíah/Afíah<np><ant>$
+^raʼy/raʼy<n>$
+^./.<sent>$
+
+# sent_id = biblia:2
+# text = Quis, karai johéi pyre ojejapóva mbaʼe ramo.
+# labels = 
+^Quis/Quis<np><ant>$
+^,/,<cm>$
+^karai/karai<n>$
+^johéi/johéi<v><tv><pres>$
+^pyre/pyre<adj>$
+^ojejapóva/o<prn><p3><ac>+je<ref>+japo<v><tv><pres>+va<subs><dem>$
+^mbaʼe/mbaʼe<cnjcoo>$
+^ramo/ramo<cnjsub>$
+^./.<sent>$
+
+# sent_id = biblia:3
+# text = Itaʼýra peteĩ, mitã rusu pyahu ha iporãva, héra Saúl.
+# labels = 
+^Itaʼýra/i<prn><pos><p3>+taʼyra<n>$
+^peteĩ/peteĩ<num>$
+^,/,<cm>$
+^mitã/mitã<n>$
+^rusu/rusu<adj>$
+^pyahu/pyahu<adj>$
+^ha/ha<cnjcoo>$
+^iporãva/i<prn><pro><p3><in>+porã<n>+va<subs><dem>$
+^,/,<cm>$
+^héra/héra<v><tv><pres>$
+^Saúl/Saúl<np><ant>$
+^./.<sent>$
+
+# sent_id = biblia:4
+# text = Israélpe ndaipóri haʼéicha iporãva ha ijyvateve maymávagui; ijatiʼy guive ohasa chupe kuéra.
+# labels = 
+^Israélpe/Israel<np><top>+pe<post>$
+^ndaipóri/nd<neg>+aipo<prn><dem><sg>+i<neg>$
+^haʼéicha/haʼéicha<adv>$
+^iporãva/i<prn><pro><p3><in>+porã<n>+va<subs><dem>$
+^ha/ha<cnjcoo>$
+^ijyvateve/i<prn><pro><p3><in>+yvate<n>+ve<comp>$
+^maymávagui/mayma<adj><ind>+va<subs><dem>+gui<post>$
+^;/;<sent>$
+^ijatiʼy/i<prn><pos><p3><in>+atiʼy<n>$
+^guive/guive<post>$
+^ohasa/o<prn><p3><ac>+hasa<v><tv><pres>$
+^chupe/chupe<prn><pers><p3>$
+^kuéra/kuéra<det><pl>$
+^./.<sent>$
+
+# sent_id = biblia:5
+# text = Peteĩ jey okañy karai Quísgui hymba vúrro kuéra.
+# labels = 
+^Peteĩ/peteĩ<prn><ind>$
+^jey/jey<n>$
+^okañy/o<prn><p3><ac>+kañy<v><tv><pres>$
+^karai/karai<n>$
+^Quísgui/Quís<np><ant>+gui<post>$
+^hymba/h<prn><pos><p3>+tymba<n>$
+^vúrro/vúrro<n>$
+^kuéra/kuéra<det><pl>$
+^./.<sent>$
+
+# sent_id = biblia:6
+# text = Upérõ heʼi itaʼýra Saúlpe: Eraha ne irũrã peteĩ ñane mbaʼapohára ha tapeho peheka ñandéve ñane rymba kuéra.
+# labels = 
+^Upérõ/upérõ<adv>$
+^heʼi/heʼi<v><tv><p3><pres>$
+^itaʼýra/i<prn><pos><p3>+taʼyra<n>$
+^Saúlpe/Saúl<np><ant>+pe<post>$
+^:/:<sent>$
+^Eraha/e<imp><p2><sg>+raha<v><tv><pres>$
+^ne/ne<prn><pos><p2><sg>$
+^irũrã/irũ<n>+rã<subs>$
+^peteĩ/peteĩ<num>$
+^ñane/ñande<prn><pos><p1><pl>$
+^mbaʼapohára/mbaʼapo<v><tv><pres>+hára<subs>$
+^ha/ha<cnjcoo>$
+^tapeho/tape<opt><p2><pl>+ho<v><iv><pres>$
+^peheka/pe<imp><p2><pl>+heka<v><tv><pres>$
+^ñandéve/ñandéve<prn><pers><p1><pl><dat>$
+^ñane/ñande<prn><pos><p1><pl>$
+^rymba/r<det>+tymba<n>$
+^kuéra/kuéra<det><pl>$
+^./.<sent>$
+
+# sent_id = biblia:7
+# text = Saúl oho Efraín yvyty rupi, ohasa yvy hérava Salisá rupi ha ndojuhúi hymba vúrro.
+# labels = 
+^Saúl/Saúl<np><ant>$
+^oho/oho<v><iv><p3><pres>$
+^Efraín/Efraín<np><top>$
+^yvyty/yvyty<n>$
+^rupi/rupi<post>$
+^,/,<cm>$
+^ohasa/o<prn><p3><ac>+hasa<v><iv><pres>$
+^yvy/yvy<n>$
+^hérava/héra<v><tv><pres>+va<subs><dem>$
+^Salisá/Salisá<np><top>$
+^rupi/rupi<post>$
+^ha/ha<cnjcoo>$
+^ndojuhúi/nd<neg>+o<prn><p3><ac>+juhu<v><tv><pres>+i<neg>$
+^hymba/h<prn><pos><p3>+tymba<n>$
+^vúrro/vúrro<n>$
+^./.<sent>$
+
+# sent_id = biblia:8
+# text = Ohasa avei yvy rupi hérava Saalim ha Benjamín rupi ha ndojuhúinte avei.
+# labels = 
+^Ohasa/o<prn><p3><ac>+hasa<v><iv><pres>$
+^avei/avei<adv>$
+^yvy/yvy<n>$
+^rupi/rupi<post>$
+^hérava/héra<v><tv><pres>+va<subs><dem>$
+^Saalim/Saalim<np><top>$
+^ha/ha<cnjcoo>$
+^Benjamín/Benjamín<np><al>$
+^rupi/rupi<post>$
+^ha/ha<cnjcoo>$
+^ndojuhúinte/nd<neg>+o<prn><p3><ac>+juhu<v><tv><pres>+i<neg>+nte<adv>$
+^avei/avei<adv>$
+^./.<sent>$
+
+# sent_id = biblia:9
+# text = Oguahẽvo yvýpe hérava Zuf, Saúl heʼi iñirũme: Jaha jey katu ógape.
+# labels = 
+^Oguahẽvo/o<prn><p3><ac>+guahẽ<v><iv><pres>+vo<adv>$
+^yvýpe/yvy<n>+pe<post>$
+^hérava/héra<v><tv><pres>+va<subs><dem>$
+^Zuf/Zuf<np><top>$
+^,/,<cm>$
+^Saúl/Saúl<np><ant>$
+^heʼi/heʼi<v><tv><p3><pres>$
+^iñirũme/i<prn><pos><p3>+irũ<n>+pe<post>$
+^:/:<sent>$
+^Jaha/jaha<v><iv><p1><pl><pres>$
+^jey/jey<adv>$
+^katu/katu<adv>$
+^ógape/óga<n>+pe<post>$
+^./.<sent>$
+
+# sent_id = biblia:10
+# text = Oime arã taita ojepyʼapyve hína ñande rehe, ñane rymba kuéragui.
+# labels = 
+^Oime/o<prn><p3><ac>+me<v><iv><pres>$
+^arã/arã<adv>$
+^taita/taita<n>$
+^ojepyʼapyve/o<prn><p3><ac>+jepyʼapy<v><iv><pres>+ve<comp>$
+^hína/hína<adv>$
+^ñande/ñandé<prn><pers><p1><pl>$
+^rehe/rehe<post>$
+^,/,<cm>$
+^ñane/ñande<prn><pos><p1><pl>$
+^rymba/r<det>+tymba<n>$
+^kuéragui/kuéra<det><pl>+gui<post>$
+^./.<sent>$
+
+# sent_id = biblia:11
+# text = Iñirũ katu heʼi chupe: Kóva ko távape oĩ peteĩ maranduhára ojeapóva tuicha mbaʼe ramo.
+# labels = 
+^Iñirũ/i<prn><pos><p3>+irũ<n>$
+^katu/katu<adv>$
+^heʼi/heʼi<v><tv><p3><pres>$
+^chupe/chupe<prn><pers><p3><sg><dat>$
+^:/:<sent>$
+^Kóva/ko<adj><dem><sg>+va<subs><dem>$
+^ko/ko<prn><dem>$
+^távape/táva<n>+pe<post>$
+^oĩ/o<prn><p3><ac>+ĩ<v><iv><pres>$
+^peteĩ/peteĩ<prn><ind>$
+^maranduhára/marandu<v><tv><pres>+hára<subs>$
+^ojeapóva/o<prn><p3><ac>+je<pass>apo<v><tv><pres>+va<subs><dem>$
+^tuicha/tuicha<adj>$
+^mbaʼe/mbaʼe<n>$
+^ramo/ramo<adv>$
+^./.<sent>$
+
+# sent_id = biblia:12
+# text = Opa mbaʼe haʼe heʼíva ojehu katuete.
+# labels = 
+^Opa/opa<adj><ind>$
+^mbaʼe/mbaʼe<n>$
+^haʼe/haʼe<prn><pers><p3><sg>$
+^heʼíva/heʼi<v><tv><p3><pres>+va<subs><dem>$
+^ojehu/o<prn><p3><ac>+jehu<v><tv><pres>$
+^katuete/katuete<adv>$
+^./.<sent>$
+
+# sent_id = biblia:13
+# text = Jahána hendápe.
+# labels = 
+^Jahána/jaha<v><iv><p1><pl><pres>+na<pol>$
+^hendápe/h<prn><pos><p3>+tenda<n>+pe<post>$
+^./.<sent>$
+
+# sent_id = biblia:14
+# text = Ikatu mbaʼe niko haʼe heʼi moõ rupípa jaha vaerã.
+# labels = 
+^Ikatu/ikatu<vaux><iv><pres>$
+^mbaʼe/mbaʼe<n>$
+^niko/niko<adv>$
+^haʼe/haʼe<prn><pers><p3><sg>$
+^heʼi/heʼi<v><tv><p3><pres>$
+^moõ/moõ<adv><itg>$
+^rupípa/rupi<post>+pa<qst>$
+^jaha/jaha<v><iv><p1><pl><pres>$
+^vaerã/vaʼerã<aux><fti>$
+^./.<sent>$
+
+# sent_id = biblia:15
+# text = Saúl heʼi chupe: Jaha kuaa.
+# labels = 
+^Saúl/Saúl<np><ant>$
+^heʼi/heʼi<v><tv><p3><pres>$
+^chupe/chupe<prn><pers><p3><sg><dat>$
+^:/:<sent>$
+^Jaha/jaha<v><iv><p1><pl><pres>$
+^kuaa/kuaa<v><tv><pres>$
+^./.<sent>$
+
+# sent_id = biblia:16
+# text = Ha mbaʼe piko jaraháta chupe?
+# labels = 
+^Ha/ha<cnjcoo>$
+^mbaʼe/mbaʼe<prn><itg>$
+^piko/piko<qst>$
+^jaraháta/ja<prn><p1><pl><ac>+raha<v><tv>+ta<fti>$
+^chupe/chupe<prn><pers><p3><sg><dat>$
+^?/?<sent>$
+
+# sent_id = biblia:17
+# text = Mbuja jepe ndajarekovéi ñande vosápe.
+# labels = 
+^Mbuja/mbuja<n>$
+^jepe/jepe<adv>$
+^ndajarekovéi/nd<neg>+ja<prn><p1><pl><ac>+reko<v><tv><pres>+ve<comp>+i<neg>$
+^ñande/ñande<prn><pos><p1><pl>$
+^vosápe/vosa<n>+pe<post>$
+^./.<sent>$
+
+# sent_id = biblia:18
+# text = Iñirũ heʼi chupe: Kóina ápe platami.
+# labels = 
+^Iñirũ/i<prn><pos><p3>+irũ<n>$
+^heʼi/heʼi<v><tv><p3><sg><pres>$
+^chupe/chupe<prn><pers><p3><sg><dat>$
+^:/:<sent>$
+^Kóina/kóina<prn><dem><sg>$
+^ápe/apé<adv>$
+^platami/plata<barb>+mi<pii>$
+^./.<sent>$
+
+# sent_id = biblia:19
+# text = Ñameʼẽ chupe ohechauka haguã ñandéve ñande raperã.
+# labels = 
+^Ñameʼẽ/ja<prn><p1><pl><ac>+meʼẽ<v><tv><pres>$
+^chupe/chupe<prn><pers><p3><sg><dat>$
+^ohechauka/o<prn><p3><ac>+hechauka<v><tv><pres>$
+^haguã/haguã<post>$
+^ñandéve/ñandéve<prn><pers><p1><pl><dat>$
+^ñande/ñande<prn><pos><p1><pl>$
+^raperã/tape<n>+rã<subs>$
+^./.<sent>$
+
+# sent_id = biblia:20
+# text = (Ymave Israélpe, oĩ ramo oporanduséva Tupãme, heʼi jepi: “Jaha mbaʼe rechahára rendápe”. Upérõ oñembohéra mbaʼe rechahára upe karaípe ha koʼágã oñembohéra maranduhára.)
+# labels = 
+^(/(<lpar>$
+^Ymave/yma<adv>+ve<comp>$
+^Israélpe/Israel<np><top>+pe<post>$
+^,/,<cm>$
+^oĩ/o<prn><p3><ac>+ĩ<v><iv><pres>$
+^ramo/ramo<adv>$
+^oporanduséva/o<prn><p3><ac>+porandu<v><tv><pres>+se<vol>+va<subs><dem>$
+^Tupãme/tupã<n>+pe<post>$
+^,/,<cm>$
+^heʼi/heʼi<v><tv><p3><pres>$
+^jepi/jepi<adv>$
+^:/:<sent>$
+^“/“<lquot>$
+^Jaha/jaha<v><iv><p1><pl><pres>$
+^mbaʼe/mbaʼe<n>$
+^rechahára/r<det>+hecha<v><tv>+hára<subs>$
+^rendápe/r<det>+tenda<n>+pe<post>$
+^”/”<rquot>$
+^./.<sent>$
+^Upérõ/upérõ<adv>$
+^oñembohéra/o<prn><p3><ac>+je<ref>+mbo<coop>+héra<v><tv><pres>$
+^mbaʼe/mbaʼe<n>$
+^rechahára/r<det>+hecha<v><tv>+hára<subs>$
+^upe/upe<prn><dem><sg>$
+^karaípe/karai<n>+pe<post>$
+^ha/ha<cnjcoo>$
+^koʼágã/koʼága<adv>$
+^oñembohéra/o<prn><p3><ac>+je<ref>+mbo<coop>+héra<v><tv><pres>$
+^maranduhára/marandu<v><tv><pres>+hára<subs>$
+^./.<sent>$
+^)/)<rpar>$
+
+# sent_id = biblia:21
+# text = Saúl heʼi iñirũme: Jaha katu péicha ramo.
+# labels = 
+^Saúl/Saúl<np><ant>$
+^heʼi/heʼi<v><tv><p3><pres>$
+^iñirũme/i<prn><pos><p3>+irũ<n>+pe<post>$
+^:/:<sent>$
+^Jaha/jaha<v><iv><p1><pl><pres>$
+^katu/katu<cnjcoo>$
+^péicha/pe<prn><dem><sg>+icha<comp>$
+^ramo/ramo<adv>$
+^./.<sent>$
+
+# sent_id = biblia:22
+# text = Ha oho hikuái upe távape oĩháme upe karai marangatu.
+# labels = 
+^Ha/ha<cnjcoo>$
+^oho/oho<v><iv><p3><pres>$
+^hikuái/hikuái<aux><impf><p3>$
+^upe/upe<prn><dem><sg>$
+^távape/táva<n>+pe<post>$
+^oĩháme/o<prn><p3><ac>+ĩ<v><iv><pres>+ha<subs>+pe<post>$
+^upe/upe<prn><dem><sg>$
+^karai/karai<n>$
+^marangatu/marangatu<adj>$
+^./.<sent>$
+
+# sent_id = biblia:23
+# text = Oho aja upe táva gotyo ojotopa hikuái kuñataĩ nguéra ndive ohóva ykuápe ha oporandu chupe kuéra: Koʼápepa oiko pe mbaʼe rechahára?
+# labels = 
+^Oho/o<prn><p3><ac>+ho<v><iv><pres>$
+^aja/aja<adv>$
+^upe/upe<prn><dem><sg>$
+^táva/táva<n>$
+^gotyo/gotyo<post>$
+^ojotopa/o<prn><p3><ac>+jo<recip>+topa<v><tv><pres>$
+^hikuái/hikuái<aux><impf><p3>$
+^kuñataĩ/kuñataĩ<n>$
+^nguéra/kuéra<det><pl>$
+^ndive/ndive<post>$
+^ohóva/o<prn><p3><ac>+ho<v><iv><pres>+va<subs><dem>$
+^ykuápe/ykua<n>+pe<post>$
+^ha/ha<cnjcoo>$
+^oporandu/o<prn><p3><ac>+porandu<v><iv><pres>$
+^chupe/chupe<prn><pers><p3><sg><acc>$
+^kuéra/kuéra<det><pl>$
+^:/:<sent>$
+^Koʼápepa/koʼã<adv>+pe<post>+pa<qst>$
+^oiko/<prn><p3><ac>+ko<v><iv><pres>$
+^pe/pe<prn><dem><sg>$
+^mbaʼe/mbaʼe<n>$
+^rechahára/r<det>+hecha<v><tv>+hára<subs>$
+^?/?<sent>$
+
+# sent_id = biblia:24
+# text = Haʼe kuéra heʼi: Hẽe amo gotyomive, ha peiko pyaʼéke.
+# labels = 
+^Haʼe/haʼe<prn><pers><p3><sg>$
+^kuéra/kuéra<pl><det>$
+^heʼi/heʼi<v><tv><p3><pres>$
+^:/:<sent>$
+^Hẽe/hẽe<adv>$
+^amo/amo<prn><dem><sg>$
+^gotyomive/gotyo<post>+mi<pii>+ve<comp>$
+^,/,<cm>$
+^ha/ha<cnjcoo>$
+^peiko/pe<imp><p2><pl>+ko<v><iv><pres>$
+^pyaʼéke/pyaʼe<adv>+ke<pol>$
+^./.<sent>$
+
+# sent_id = biblia:25
+# text = Péinako oguahẽ ramo hína ha oñembosakoʼi omymbajuka haguã ijyvatehápe.
+# labels = 
+^Péinako/péina<adv><dem><sg>+ko<emph>$
+^oguahẽ/o<prn><p3><ac>+guahẽ<v><iv><pres>$
+^ramo/ramo<adv>$
+^hína/hína<aux><impf><p3>$
+^ha/ha<cnjcoo>$
+^oñembosakoʼi/o<prn><p3><ac>+ñembosakoʼi<v><iv><pres>$
+^omymbajuka/o<prn><p3><ac>+mymbajuka<v><tv><pres>$
+^haguã/haguã<post>$
+^ijyvatehápe/i<prn><pro><p3><in>+yvate<n>+ha<subs>+pe<post>$
+^./.<sent>$
+
+# sent_id = biblia:26
+# text = Peguahẽ vove peheka chupe oho mboyve ijyvatehápe ojekaru haguã.
+# labels = 
+^Peguahẽ/pe<prn><p2><pl><nom>+guahẽ<v><iv><pres>$
+^vove/vove<post>$
+^peheka/pe<imp><p2><pl>+heka<v><tv><pres>$
+^chupe/chupe<prn><pers><p3><sg><acc>$
+^oho/oho<v><iv><p3><pres>$
+^mboyve/mboyve<adv>$
+^ijyvatehápe/i<prn><pro><p3><in>+yvate<n>+ha<subs>+pe<post>$
+^ojekaru/o<prn><p3><ac>+je<ref>+karu<v><tv><pres>$
+^haguã/haguã<post>$
+^./.<sent>$
+
+# sent_id = biblia:27
+# text = Avave ndokarúi haʼe oguahẽ meve.
+# labels = 
+^Avave/avave<prn><ind>$
+^ndokarúi/nd<neg>+o<prn><p3><ac>+karu<v><iv><pres>+i<neg>$
+^haʼe/haʼe<vbser><iv><pres>$
+^oguahẽ/oguahẽ<adv>$
+^meve/peve<post>$
+^./.<sent>$
+
+# sent_id = biblia:28
+# text = Oikuaveʼẽ raẽta mymbajuka ha upéi ojekarúta.
+# labels = 
+^Oikuaveʼẽ/o<prn><p3><ac>+kuaveʼẽ<v><tv><pres>$
+^raẽta/raẽ<v><tv>+ta<fti>$
+^mymbajuka/mymbajuka<n>$
+^ha/ha<cnjcoo>$
+^upéi/upéi<adv>$
+^ojekarúta/o<prn><p3><ac>+je<ref>+karu<v><iv>+ta<fti>$
+^./.<sent>$
+
+# sent_id = biblia:29
+# text = Tapeho koʼágã ha pejuhúta chupe.
+# labels = 
+^Tapeho/tape<opt><p2><pl>+ho<v><iv><pres>$
+^koʼágã/koʼága<adv>$
+^ha/ha<cnjcoo>$
+^pejuhúta/pe<prn><p2><pl><ac>+juhu<v><tv>+ta<fti>$
+^chupe/chupe<prn><pers><p3><sg><acc>$
+^./.<sent>$
+
+# sent_id = biblia:30
+# text = Haʼe kuéra oho upe táva gotyo.
+# labels = 
+^Haʼe/haʼe<prn><pers><p3><sg>$
+^kuéra/kuéra<post>$
+^oho/oho<v><iv><p3><pres>$
+^upe/upe<prn><dem><sg>$
+^táva/táva<n>$
+^gotyo/gotyo<post>$
+^./.<sent>$
+
+# sent_id = biblia:31
+# text = Ha haʼe kuéra oguahẽvo, Samuel osẽ oho haguã upe ijyvateha gotyo.
+# labels = 
+^Ha/ha<cnjcoo>$
+^haʼe/haʼe<prn><pers><p3><sg>$
+^kuéra/kuéra<post>$
+^oguahẽvo/o<prn><p3><ac>+guahẽ<v><iv><pres>+vo<adv>$
+^,/,<cm>$
+^Samuel/Samuel<np><ant>$
+^osẽ/o<prn><p3><ac>+sẽ<v><iv><pres>$
+^oho/oho<v><iv><p3><pres>$
+^haguã/haguã<post>$
+^upe/upe<adj><dem><sg>$
+^ijyvateha/i<prn><pos><p3><in>+yvate<n>+ha<subs>$
+^gotyo/gotyo<post>$
+^./.<sent>$
+
+# sent_id = biblia:32
+# text = Pe árape, Saúl oguahẽ mboyve, Ñandejára heʼi raʼe péicha Samuélpe: “Koʼẽrõ, kóva ko órape, amboúta ne rendápe peteĩ kuimbaʼe Benjamingua ha upéva remboykéta chéve guarã oisãmbyhy haguã che retã Israel.
+# labels = 
+^Pe/pe<adj><dem><sg>$
+^árape/ára<n>+pe<post>$
+^,/,<cm>$
+^Saúl/Saúl<np><ant>$
+^oguahẽ/o<prn><p3><ac>+guahẽ<v><iv><pres>$
+^mboyve/mboyve<adj>$
+^,/,<cm>$
+^Ñandejára/ñande<prn><pos><p1><pl>+jára<n>$
+^heʼi/heʼi<v><tv><p3><pres>$
+^raʼe/raʼe<past>$
+^péicha/pe<prn><dem><sg>+icha<comp>$
+^Samuélpe/Samuel<np><ant>+pe<post>$
+^:/:<sent>$
+^“/“<lquot>$
+^Koʼẽrõ/koʼẽrõ<adv>$
+^,/,<cm>$
+^kóva/ko<prn><dem><sg>+va<subs><dem>$
+^ko/ko<adj><dem><sg>$
+^órape/óra<n>+pe<post>$
+^,/,<cm>$
+^amboúta/a<prn><p1><sg><ac>+mbou<v><tv>+ta<fti>$
+^ne/ne<prn><p2><sg><acc>$
+^rendápe/r<det>+tenda<n>+pe<post>$
+^peteĩ/peteĩ<prn><ind>$
+^kuimbaʼe/kuimbaʼe<n>$
+^Benjamingua/Benjamin<np><ant>+gua<post>$
+^ha/ha<cnjcoo>$
+^upéva/upe<prn><dem><sg>+va<subs><dem>$
+^remboykéta/re<prn><p2><sg><ac>+mboyke<v><tv>+ta<fti>$
+^chéve/chéve<prn><pers><p1><sg><dat>$
+^guarã/guarã<post>$
+^oisãmbyhy/o<prn><p3><ac>+sãmbyhy<v><tv><pres>$
+^haguã/haguã<post>$
+^che/che<prn><pos><p1><sg>$
+^retã/r<det>+tetã<n>$
+^Israel/Israel<np><top>$
+^./.<sent>$
+
+# sent_id = biblia:33
+# text = Haʼe oipeʼáta chupe filistéo pógui.
+# labels = 
+^Haʼe/haʼe<prn><pers><p3><sg>$
+^oipeʼáta/o<prn><p3><ac>+peʼa<v><tv>+ta<fti>$
+^chupe/chupe<prn><pers><p3><sg><acc>$
+^filistéo/filistéo<np><al>$
+^pógui/po<n>+gui<post>$
+^./.<sent>$
+
+# sent_id = biblia:34
+# text = Aiporiahurereko niko che retã guápe, oguahẽvo che apysápe isapukái.” Samuel ohechávo Saúlpe, Ñandejára heʼi chupe: “Kóva hína upe kuimbaʼe añeʼẽ hague ndéve.
+# labels = 
+^Aiporiahurereko/a<prn><p1><sg><ac>poriahurereko<v><iv><pres>$
+^niko/niko<aux><nar>$
+^che/che<prn><pos><p1><sg>$
+^retã/retã<post>/r<det>+tetã<n>$
+^guápe/gua<post>+pe<post>$
+^,/,<cm>$
+^oguahẽvo/o<prn><p3><ac>+guahẽ<v><iv><pres>+vo<adv>$
+^che/ché<prn><pers><p1><sg>$
+^apysápe/apysa<n>+pe<post>$
+^isapukái/i<prn><pos><p3><sg>+sapukái<n>$
+^./.<sent>$
+^”/”<rquot>$
+^Samuel/Samuel<np><ant>$
+^ohechávo/o<prn><p3><ac>+hecha<v><tv><pres>+vo<adv>$
+^Saúlpe/Saúl<np><ant>+pe<post>$
+^,/,<cm>$
+^Ñandejára/ñande<prn><pos><p1><pl>+jára<n>$
+^heʼi/heʼi<v><tv><p3><pres>$
+^chupe/chupe<prn><pers><p3><sg><dat>$
+^:/:<sent>$
+^“/“<lquot>$
+^Kóva/ko<prn><dem><sg>+va<subs><dem>$
+^hína/hína<aux><impf><p3>$
+^upe/upe<adj><dem><sg>$
+^kuimbaʼe/kuimbaʼe<n>$
+^añeʼẽ/a<prn><p1><sg><ac>+ñeʼẽ<v><iv><pres>$
+^hague/hague<post>$
+^ndéve/ndéve<prn><pers><p2><sg><dat>$
+^./.<sent>$
+
+# sent_id = biblia:35
+# text = Haʼe oisãmbyhýta che retã guápe.” Pe táva reike ypýpe Saúl oñemboja Samuel rendápe ha heʼi chupe: Ikatu piko eremi chéve moõpa opyta mbaʼe rechahára róga?
+# labels = 
+^Haʼe/haʼe<prn><pers><p3>$
+^oisãmbyhýta/o<prn><p3><ac>+sãmbyhy<v><tv>+ta<fti>$
+^che/che<prn><pos><p1><sg>$
+^retã/r<det>+tetã<n>$
+^guápe/gua<post>+pe<post>$
+^./.<sent>$
+^”/”<rquot>$
+^Pe/pe<adj><dem><sg>$
+^táva/táva<n>$
+^reike/reike<n>$
+^ypýpe/ypy<n>+pe<post>$
+^Saúl/Saúl<np><ant>$
+^oñemboja/o<prn><p3><ac>+ñemboja<v><iv><pres>$
+^Samuel/Samuel<np><ant>$
+^rendápe/rendápe<post>$
+^ha/ha<cnjcoo>$
+^heʼi/heʼi<v><tv><p3><pres>$
+^chupe/chupe<prn><pers><p3><sg><dat>$
+^:/:<sent>$
+^Ikatu/ikatu<vaux><iv><pres>$
+^piko/piko<qst>$
+^eremi/ere<v><iv><p2><sg><pres>+mi<pii>$
+^chéve/chéve<prn><pers><p1><sg><dat>$
+^moõpa/moõ<adv><itg>+pa<qst>$
+^opyta/o<prn><p3><ac>+pyta<v><iv><pres>$
+^mbaʼe/mbaʼe<cnjcoo>$
+^rechahára/r<det>+techahára<n>$
+^róga/r<det>+óga<n>$
+^?/?<sent>$
+
+# sent_id = biblia:36
+# text = Samuel heʼi chupe: Che hína upe mbaʼe rechahára.
+# labels = 
+^Samuel/Samuel<np><ant>$
+^heʼi/heʼi<v><tv><p3><pres>$
+^chupe/chupe<prn><pers><p3><sg><dat>$
+^:/:<sent>$
+^Che/ché<prn><pers><p1><sg>$
+^hína/hína<aux><impf><p3>$
+^upe/upe<adj><dem><sg>$
+^mbaʼe/mbaʼe<cnjcoo>$
+^rechahára/r<det>+techahára<n>$
+^./.<sent>$
+
+# sent_id = biblia:37
+# text = Tereho che renonderã upe ijyvatehápe hapépe rekarúta che ndive.
+# labels = 
+^Tereho/tere<opt><p2><sg>+ho<v><iv><pres>$
+^che/che<prn><pos><p1><sg>$
+^renonderã/r<det>+tenonderã<n>$
+^upe/upe<adj><dem><sg>$
+^ijyvatehápe/i<prn><pro><p3><sg><in>+yvate<n>+ha<subs>+pe<post>$
+^hapépe/h<prn><pos><p3><sg>+tape<n>+pe<post>$
+^rekarúta/re<prn><p2><sg><nom>+karu<v><iv>+ta<fti>$
+^che/che<prn><pers><p1><sg>$
+^ndive/ndive<post>$
+^./.<sent>$
+
+# sent_id = biblia:38
+# text = Koʼẽrõ koʼẽ mboyve reho kuaa ha amombeʼúta ndéve opa mbaʼe reikuaaséva.
+# labels = 
+^Koʼẽrõ/koʼẽrõ<adv>$
+^koʼẽ/koʼẽ<n>$
+^mboyve/mboyve<post>$
+^reho/re<prn><p2><sg><ac>+ho<v><iv><pres>$
+^kuaa/kuaa<v><tv><pres>$
+^ha/ha<cnjcoo>$
+^amombeʼúta/a<prn><p1><sg><ac>+mombeʼu<v><tv>+ta<fti>$
+^ndéve/ndéve<prn><pers><p2><sg><dat>$
+^opa/opa<adj><ind>$
+^mbaʼe/mbaʼe<cnjcoo>$
+^reikuaaséva/re<prn><p2><sg><ac>+kuaa<v><tv><pres>+se<vol>+va<subs><dem>$
+^./.<sent>$
+
+# sent_id = biblia:39
+# text = Umi ne rymba vúrro okañy vaekue rehe ojapóma mbohapy ára, ani rejepyʼapy.
+# labels = 
+^Umi/umi<adj><dem><pl>$
+^ne/ne<prn><pos><p2><sg>$
+^rymba/rymba<n>/r<det>+tymba<n>$
+^vúrro/vúrro<n>$
+^okañy/o<prn><p3><ac>+kañy<v><tv><pres>$
+^vaekue/vaʼekue<aux><pmp>$
+^rehe/rehe<post>$
+^ojapóma/o<prn><p3><ac>+japo<v><tv><pres>+ma<adv>$
+^mbohapy/mbohapy<num>$
+^ára/ára<n>$
+^,/,<cm>$
+^ani/ani<adv><neg>$
+^rejepyʼapy/re<prn><p2><sg><ac>+jepyʼapy<v><iv><pres>$
+^./.<sent>$
+
+# sent_id = biblia:40
+# text = Ojejuhúma.
+# labels = 
+^Ojejuhúma/o<prn><p3><ac>+je<pass>+juhu<v><tv><pres>+ma<adv>$
+^./.<sent>$
+
+# sent_id = biblia:41
+# text = Avei, opa mbaʼe iporãvéva Israélpe, nde ha nde rogagua mbaʼerãta hína.
+# labels = 
+^Avei/avei<adv>$
+^,/,<cm>$
+^opa/opa<adj><ind>$
+^mbaʼe/mbaʼe<cnjcoo>$
+^iporãvéva/i<prn><pro><p3><in>+porã<n>+ve<comp>+va<subs><dem>$
+^Israélpe/Israel<np><top>+pe<post>$
+^,/,<cm>$
+^nde/nde<prn><pos><p2><sg>$
+^ha/ha<cnjcoo>$
+^nde/nde<prn><pos><p2><sg>$
+^rogagua/r<det>+óga<n>+gua<post>$
+^mbaʼerãta/mbaʼe<n>+rã<subs>+ta<fti>$
+^hína/hína<aux><impf><p3>$
+^./.<sent>$
+
+# sent_id = biblia:42
+# text = Saúl heʼi chupe: Che niko Benjamín guánte hína, upe michĩvéva Israel ñemoñare guágui.
+# labels = 
+^Saúl/Saúl<np><ant>$
+^heʼi/heʼi<v><iv><p3><pres>$
+^chupe/chupe<prn><pers><p3><sg><dat>$
+^:/:<sent>$
+^Che/ché<prn><pers><p1><sg>$
+^niko/niko<aux><nar>$
+^Benjamín/Benjamín<np><ant>$
+^guánte/gua<post>+nte<adv>$
+^hína/hína<aux><impf><p3>$
+^,/,<cm>$
+^upe/upe<adj><dem><sg>$
+^michĩvéva/michĩ<adj>+ve<comp>+va<subs><dem>$
+^Israel/Israel<np><top>$
+^ñemoñare/ñemoñare<n>$
+^guágui/gua<post>+gui<post>$
+^./.<sent>$
+
+# sent_id = biblia:43
+# text = Che rogagua katu upe michĩvéva umi Benjamín róga guágui.
+# labels = 
+^Che/ché<prn><pers><p1><sg>$
+^rogagua/r<det>+óga<n>+gua<post>$
+^katu/katu<adv>$
+^upe/upe<adj><dem><sg>$
+^michĩvéva/michĩ<adj>+ve<comp>+va<subs><dem>$
+^umi/umi<adj><dem><pl>$
+^Benjamín/Benjamín<np><ant>$
+^róga/r<det>+óga<n>$
+^guágui/gua<post>+gui<post>$
+^./.<sent>$
+
+# sent_id = biblia:44
+# text = Mbaʼére piko reñeʼẽ chéve péicha?
+# labels = 
+^Mbaʼére/mbaʼére<adv><itg>$
+^piko/piko<qst>$
+^reñeʼẽ/re<prn><p2><sg><ac>+ñeʼẽ<n>$
+^chéve/chéve<prn><pers><p1><sg><dat>$
+^péicha/pe<prn><dem><sg>+icha<comp>$
+^?/?<sent>$
+
+# sent_id = biblia:45
+# text = Samuel ogueraha hendive Saúl ha iñirũme, omoinge kotýpe ha omboguapy chupe kuéra mesa akãme.
+# labels = 
+^Samuel/Samuel<np><ant>$
+^ogueraha/o<prn><p3><ac>+gueraha<v><tv><pres>$
+^hendive/haʼe<prn><pers><p3><sg>+ndive<post>$
+^Saúl/Saúl<np><ant>$
+^ha/ha<cnjcoo>$
+^iñirũme/i<prn><pos><p3>+irũ<n>+pe<post>$
+^,/,<cm>$
+^omoinge/o<prn><p3><ac>+moinge<v><tv><pres>$
+^kotýpe/koty<n>+pe<post>$
+^ha/ha<cnjcoo>$
+^omboguapy/o<prn><p3><ac>+mbo<coop>+guapy<v><iv><pres>$
+^chupe/chupe<prn><pers><p3><sg>$
+^kuéra/kuéra<det><pl>$
+^mesa/mesa<n>$
+^akãme/akã<n>+pe<post>$
+^./.<sent>$
+
+# sent_id = biblia:46
+# text = Umi mesápe oguapýva, 30 rupi.
+# labels = 
+^Umi/umi<adj><dem><pl>$
+^mesápe/mesa<n>+pe<post>$
+^oguapýva/o<prn><p3><ac>+guapy<v><iv><pres>+va<subs><dem>$
+^,/,<cm>$
+^30/30<num>$
+^rupi/rupi<post>$
+^./.<sent>$
+
+# sent_id = biblia:47
+# text = Upérõ Samuel heʼi upe tembiʼu ombojývape: Eru pe soʼo pehẽngue haʼe vaekue ndéve remboyke haguã.
+# labels = 
+^Upérõ/upérõ<adv>$
+^Samuel/Samuel<np><ant>$
+^heʼi/heʼi<v><iv><p3><pres>$
+^upe/upe<adj><dem><sg>$
+^tembiʼu/tembiʼu<n>$
+^ombojývape/o<prn><p3><ac>+mbojy<v><tv><pres>+va<subs><dem>+pe<post>$
+^:/:<sent>$
+^Eru/e<imp><p2><sg>+ru<v><tv><pres>$
+^pe/pe<adj><dem><sg>$
+^soʼo/soʼo<n>$
+^pehẽngue/pehẽngue<n>$
+^haʼe/haʼe<v><iv><p1><sg><pres>$
+^vaekue/vaʼekue<aux><pmp>$
+^ndéve/ndéve<prn><pers><p2><sg><dat>$
+^remboyke/re<prn><p2><sg><ac>+mboyke<v><tv><pres>$
+^haguã/haguã<post>$
+^./.<sent>$
+
+# sent_id = biblia:48
+# text = Pyaʼe upe tembiʼu apoha oguenohẽ peteĩ hetyma ha huguaikue, ha omoĩ Saúlpe.
+# labels = 
+^Pyaʼe/pyaʼe<adv>$
+^upe/upe<adj><dem><sg>$
+^tembiʼu/tembiʼu<n>$
+^apoha/apoha<n>$
+^oguenohẽ/o<prn><p3><ac>+guenohẽ<v><tv><pres>$
+^peteĩ/peteĩ<prn><ind>$
+^hetyma/h<prn><pos>+tetyma<n>$
+^ha/ha<cnjcoo>$
+^huguaikue/huguái<n>+kue<subs>$
+^,/,<cm>$
+^ha/ha<cnjcoo>$
+^omoĩ/o<prn><p3><ac>+moĩ<v><tv><pres>$
+^Saúlpe/Saúl<np><ant>+pe<post>$
+^./.<sent>$
+
+# sent_id = biblia:49
+# text = Samuel heʼi Saúlpe: Kóina ápe ko oñemboyke vaekue ndéve guarã.
+# labels = 
+^Samuel/Samuel<np><ant>$
+^heʼi/heʼi<v><iv><p3><sg><pres>$
+^Saúlpe/Saúl<np><ant>+pe<post>$
+^:/:<sent>$
+^Kóina/kóina<prn><dem><sg>$
+^ápe/apé<adv>$
+^ko/ko<adj><dem><sg>$
+^oñemboyke/o<prn><p3><ac>+ñemboyke<v><tv><pres>$
+^vaekue/vaʼekue<aux><pmp>$
+^ndéve/ndéve<prn><pers><p2><sg><dat>$
+^guarã/guarã<post>$
+^./.<sent>$
+
+# sent_id = biblia:50
+# text = Ekaru, heʼu! Ndéve guarã amboyke kuri, ko karu guasurã, ajapóva Israelgua kuérape.
+# labels = 
+^Ekaru/e<imp><p2><sg>+karu<v><tv><pres>$
+^,/,<cm>$
+^heʼu/he<n><incp>+ʼu<v><tv><pres>$
+^!/!<sent>$
+^Ndéve/ndéve<prn><pers><p2><sg><dat>$
+^guarã/guarã<post>$
+^amboyke/a<prn><p1><sg><ac>+mboyke<v><tv><pres>$
+^kuri/kuri<adv>$
+^,/,<cm>$
+^ko/ko<adj><dem><sg>$
+^karu/karu<n>$
+^guasurã/guasu<adj>+rã<subs>$
+^,/,<cm>$
+^ajapóva/a<prn><p1><sg><ac>+japo<v><tv><pres>+va<subs><dem>$
+^Israelgua/Israel<np><top>+gua<post>$
+^kuérape/kuera<adj>+pe<post>$
+^./.<sent>$
+
+# sent_id = biblia:51
+# text = Saúl okaru Samuel ndive upe árape.
+# labels = 
+^Saúl/Saúl<np><ant>$
+^okaru/o<prn><p3><ac>+karu<v><tv><pres>$
+^Samuel/Samuel<np><ant>$
+^ndive/ndive<post>$
+^upe/upe<adj><dem><sg>$
+^árape/ára<n>+pe<post>$
+^./.<sent>$
+
+# sent_id = biblia:52
+# text = Upéi oguejy hikuái upe ijyvatehágui ha oho táva gotyo.
+# labels = 
+^Upéi/upéi<adv>$
+^oguejy/o<prn><p3><ac>+guejy<v><iv><pres>$
+^hikuái/hikuái<aux><impf><p3>$
+^upe/upe<adj><dem><sg>$
+^ijyvatehágui/i<prn><pro><p3><in>+yvate<n>+ha<subs>+gui<post>$
+^ha/ha<cnjcoo>$
+^oho/o<prn><p3><ac>+ho<v><iv><pres>$
+^táva/táva<n>$
+^gotyo/gotyo<post>$
+^./.<sent>$
+
+# sent_id = biblia:53
+# text = Upépe Samuel omoĩka Saúlpe huparã upe óga ape ári, ha Saúl oke upépe.
+# labels = 
+^Upépe/upépe<adv>$
+^Samuel/Samuel<np><ant>$
+^omoĩka/o<prn><p3><ac>+moĩka<v><tv><pres>$
+^Saúlpe/Saúl<np><ant>+pe<post>$
+^huparã/h<prn><p3><pos>+tupa+rã<subs>$
+^upe/upe<adj><dem><sg>$
+^óga/óga<n>$
+^ape/apé<adv>$
+^ári/ári<adv>$
+^,/,<cm>$
+^ha/ha<cnjcoo>$
+^Saúl/Saúl<np><ant>$
+^oke/o<prn><p3><ac>+ke<v><tv><pres>$
+^upépe/upe<prn><dem><sg>+pe<post>/upépe<adv>$
+^./.<sent>$
+
+# sent_id = biblia:54
+# text = Pe ára ambuépe Samuel ohenói Saúlpe upe óga ape ári ha heʼi chupe: Epuʼã.
+# labels = 
+^Pe/pe<adj><dem><sg>$
+^ára/ára<n>$
+^ambuépe/ambue<adj><ind>+pe<post>$
+^Samuel/Samuel<np><ant>$
+^ohenói/o<prn><p3><ac>+henói<v><tv><pres>$
+^Saúlpe/Saúl<np><ant>+pe<post>$
+^upe/upe<adj><dem><sg>$
+^óga/óga<n>$
+^ape/apé<adv>$
+^ári/ári<adv>$
+^ha/ha<cnjcoo>$
+^heʼi/heʼi<v><iv><p3><pres>$
+^chupe/chupe<prn><pers><p3><sg><dat>$
+^:/:<sent>$
+^Epuʼã/e<imp><p2><sg>+puʼã<v><iv><pres>$
+^./.<sent>$
+
+# sent_id = biblia:55
+# text = Ikatúma reho.
+# labels = 
+^Ikatúma/i<prn><pro><p3><in>+katu<v><iv><pres>+ma<adv>$
+^reho/reho<v><iv><p2><sg><pres>$
+^./.<sent>$
+
+# sent_id = biblia:56
+# text = Saúl opuʼã.
+# labels = 
+^Saúl/Saúl<np><ant>$
+^opuʼã/o<prn><p3><ac>+puʼã<v><iv><pres>$
+^./.<sent>$
+
+# sent_id = biblia:57
+# text = Upéi osẽ Samuel ndive tapépe.
+# labels = 
+^Upéi/upéi<adv>$
+^osẽ/o<prn><p3><ac>+sẽ<v><iv><pres>$
+^Samuel/Samuel<np><ant>$
+^ndive/ndive<post>$
+^tapépe/tape<n>+pe<post>$
+^./.<sent>$
+
+# sent_id = biblia:58
+# text = Oĩma ramo hikuái upe táva rokápe, Samuel heʼi Saúlpe: Emondo ne irũme tenonde ha epyta koʼápe, taʼe ndéve upe Tupã heʼikáva ndéve.
+# labels = 
+^Oĩma/o<prn><p3><ac>+ĩ<v><iv><pres>+ma<adv>$
+^ramo/ramo<adv>$
+^hikuái/hikuái<aux><impf><p3>$
+^upe/upe<adj><dem><sg>$
+^táva/táva<n>$
+^rokápe/roka<barb>+pe<post>$
+^,/,<cm>$
+^Samuel/Samuel<np><ant>$
+^heʼi/heʼi<v><iv><p3><pres>$
+^Saúlpe/Saúl<np><ant>+pe<post>$
+^:/:<sent>$
+^Emondo/e<imp><p2><sg>+mondo<v><tv><pres>$
+^ne/ne<prn><pos><p2><sg>$
+^irũme/irũ<n>+pe<post>$
+^tenonde/tenonde<adv>$
+^ha/ha<cnjcoo>$
+^epyta/e<imp><p2><sg>+pyta<v><iv><pres>$
+^koʼápe/koʼápe<adv>$
+^,/,<cm>$
+^taʼe/*taʼe$
+^ndéve/ndéve<prn><pers><p2><sg><dat>$
+^upe/upe<adj><dem><sg>$
+^Tupã/tupã<n>$
+^heʼikáva/*heʼikáva$
+^ndéve/ndéve<prn><pers><p2><sg><dat>$
+^./.<sent>$
+
