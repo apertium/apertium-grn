@@ -1,8 +1,8 @@
 # sent_id = miscellaneous:1
-# text = Paraguái Ñe’ẽnguéra Sãmbyhyha, Facultad Politécnica (Universidad Nacional de Asunción), Mozilla, ha Ateneo de Lengua y Cultura Guaraní oguenohẽta ko arakõime ojeporúma hag̃ua Mozilla Firefox guaranietépe “Aguaratata”.
+# text = Paraguái Ñeʼẽnguéra Sãmbyhyha, Facultad Politécnica (Universidad Nacional de Asunción), Mozilla, ha Ateneo de Lengua y Cultura Guaraní oguenohẽta ko arakõime ojeporúma hag̃ua Mozilla Firefox guaranietépe “Aguaratata”.
 # labels = 
 ^Paraguái/Paraguái<np><top>$ 
-^Ñe’ẽnguéra/ñeʼẽ<n>+kuéra<det><pl>$ 
+^Ñeʼẽnguéra/ñeʼẽ<n>+kuéra<det><pl>$ 
 ^Sãmbyhyha/sãmbyhyha<n>$
 ^,/,<cm>$ 
 ^Facultad/facultad<barb>$ 
@@ -66,7 +66,7 @@
 ^./.<sent>$
 
 # sent_id = miscellaneous:3
-# text = Omoakãta ko aty guasu, Paraguái Ñe’ẽnguéra Sãmbyhyhára, Ladilsaa Alcaraz de Silvero, Facultad Politécnica Decano, Teodoro Salas, ha Ateneo de Lengua y Cultura Guaraní Moakãhára, David Galeano Olivera; oykekóta avei opa tapicha omoirũ va’ẽrã ko tembiporu pyahu Mozilla Firefox ñembojere guaraníme, ohupytýva 45 mil ñe’ẽ rupi.
+# text = Omoakãta ko aty guasu, Paraguái Ñeʼẽnguéra Sãmbyhyhára, Ladilsaa Alcaraz de Silvero, Facultad Politécnica Decano, Teodoro Salas, ha Ateneo de Lengua y Cultura Guaraní Moakãhára, David Galeano Olivera; oykekóta avei opa tapicha omoirũ vaʼẽrã ko tembiporu pyahu Mozilla Firefox ñembojere guaraníme, ohupytýva 45 mil ñeʼẽ rupi.
 # labels = 
 ^Omoakãta/o<prn><p3><ac>+moakã<v><tv>+ta<fti>$ 
 ^ko/ko<adj><dem><sg>$ 
@@ -74,7 +74,7 @@
 ^guasu/guasu<adj>$
 ^,/,<cm>$ 
 ^Paraguái/Paraguái<np><top>$ 
-^Ñe’ẽnguéra/ñeʼẽ<n>+kuéra<det><pl>$ 
+^Ñeʼẽnguéra/ñeʼẽ<n>+kuéra<det><pl>$ 
 ^Sãmbyhyhára/sãmbyhyhára<n>$
 ^,/,<cm>$ 
 ^Ladilsaa/Ladilsaa<np><ant>$ 
@@ -106,8 +106,8 @@
 ^avei/avei<adv>$ 
 ^opa/opa<n>$ 
 ^tapicha/tapicha<n>$ 
-^omoirũ/o<prn><p3><ac>+moirũ<v><tv>+va’ẽrã<aux><fti>$ 
-^va’ẽrã/vaʼerã<aux><fti>$
+^omoirũ/o<prn><p3><ac>+moirũ<v><tv>+vaʼẽrã<aux><fti>$ 
+^vaʼẽrã/vaʼerã<aux><fti>$
 ^ko/ko<adj><dem><sg>$ 
 ^tembiporu/tembiporu<n>$ 
 ^pyahu/pyahu<adj>$
@@ -118,12 +118,12 @@
 ^ohupytýva/o<prn><p3><ac>+hupyty<v><tv><pres>+va<subs><dem>$ 
 ^45/45<num>$ 
 ^mil/mil<barb>$ 
-^ñe’ẽ/ñeʼẽ<n>$ 
+^ñeʼẽ/ñeʼẽ<n>$ 
 ^rupi/rupi<post>$
 ^./.<sent>$
 
 # sent_id = miscellaneous:4
-# text = Ko tembiporu pyahu, osẽva hína internet pe jeikerã, omombaretéta TIC’s jeporu ha Paraguáipe guarani ñe’ẽ hesãi, ojeporuve ha imbaretéta avei tetãpýpe.
+# text = Ko tembiporu pyahu, osẽva hína internet pe jeikerã, omombaretéta TICʼs jeporu ha Paraguáipe guarani ñeʼẽ hesãi, ojeporuve ha imbaretéta avei tetãpýpe.
 # labels = 
 ^Ko/ko<adj><dem><sg>$ 
 ^tembiporu/tembiporu<n>$ 
@@ -136,12 +136,12 @@
 ^jeikerã/jeike<v><tv><pres>+rã<subs>/je<pass>+ke<v><iv><pres>+rã<subs>$
 ^,/,<cm>$ 
 ^omombaretéta/o<prn><p3><ac>+mombarete<v><tv>+ta<fti>$ 
-^TIC’s/TIC’s<np><al>$ 
+^TICʼs/TICʼs<np><al>$ 
 ^jeporu/jeporu<n>/jeporu<v><iv><pres>$ 
 ^ha/ha<cnjcoo>$ 
 ^Paraguáipe/Paraguái<np><top>+pe<post>$
 ^guarani/guarani<n>$ 
-^ñe’ẽ/ñeʼẽ<v><tv><pres>$ 
+^ñeʼẽ/ñeʼẽ<v><tv><pres>$ 
 ^hesãi/hesãi<adj>$
 ^,/,<cm>$ 
 ^ojeporuve/o<prn><p3><ac>+jeporu<v><iv><pres>+ve<comp>$ 
@@ -152,7 +152,7 @@
 ^./.<sent>$
 
 # sent_id = miscellaneous:5
-# text = Karai Alcides Torres, omoakãva ko tembiapo kakuaa, omomba’e guasu ikatútare guarani poruhára oiporu iñe’ẽteépe ko osẽva.
+# text = Karai Alcides Torres, omoakãva ko tembiapo kakuaa, omombaʼe guasu ikatútare guarani poruhára oiporu iñeʼẽteépe ko osẽva.
 # labels = 
 ^Karai/karai<n>$ 
 ^Alcides/Alcides<np><ant>$ 
@@ -163,19 +163,19 @@
 ^tembiapo/tembiapo<n>$ 
 ^kakuaa/kakuaa<adj>$
 ^,/,<cm>$ 
-^omomba’e/o<prn><p3><ac>+mombaʼe<v><tv><pres>$ 
+^omombaʼe/o<prn><p3><ac>+mombaʼe<v><tv><pres>$ 
 ^guasu/guasu<n>$ 
 ^ikatútare/i<prn><pro><p3><in>+katu<v><iv><pres>+ta<fti>+re<post>$ 
 ^guarani/guarani<n>$ 
 ^poruhára/poruhára<n>$ 
 ^oiporu/o<prn><p3><ac>+poru<v><tv><pres>$ 
-^iñe’ẽteépe/i<prn><pos><p3>+ñe’ẽ<n>+tee<adj>+pe<post>$
+^iñeʼẽteépe/i<prn><pos><p3>+ñeʼẽ<n>+tee<adj>+pe<post>$
 ^ko/ko<adj><dem><sg>$ 
 ^osẽva/o<prn><p3><ac>+sẽ<v><iv><pres>+va<subs><dem>$
 ^./.<sent>$ 
 
 # sent_id = miscellaneous:6
-# text = “Ko Mozilla Firefox Guaraníme rupive ojeheka hína tove toikéma avei ha toiporu guaraníme oikovéva ko’ã TIC, he’i castellano pe.
+# text = “Ko Mozilla Firefox Guaraníme rupive ojeheka hína tove toikéma avei ha toiporu guaraníme oikovéva koʼã TIC, heʼi castellano pe.
 # labels = 
 ^“/“<lquot>$
 ^Ko/ko<adj><dem><sg>$ 
@@ -191,16 +191,16 @@
 ^toiporu/to<opt><p3>+poru<v><tv><pres>$ 
 ^guaraníme/guarani<n>+pe<post>$ 
 ^oikovéva/o<prn><p3><ac>+ko<v><iv><pres>+ve<comp>+va<subs><dem>$ 
-^ko’ã/koʼã<adj><dem><pl>$ 
-^TIC/TIC’s<np><al>$
+^koʼã/koʼã<adj><dem><pl>$ 
+^TIC/TICʼs<np><al>$
 ^,/,<cm>$ 
-^he’i/heʼi<v><iv><p3><pres>$ 
+^heʼi/heʼi<v><iv><p3><pres>$ 
 ^castellano/castellano<barb>$ 
 ^pe/pe<post>$
 ^./.<sent>$
 
 # sent_id = miscellaneous:7
-# text = Ko tembiporu pyahu guaraníme ñembojere, oykeko va’ekue Mozilla Internacional ha Mozilla Paraguay, omono’õ hetaiterei ñe’ẽ ha ombohetavéva “Corpus del Guaraní Paraguayo”, ojeporúva ko’ág̃a rupi.
+# text = Ko tembiporu pyahu guaraníme ñembojere, oykeko vaʼekue Mozilla Internacional ha Mozilla Paraguay, omonoʼõ hetaiterei ñeʼẽ ha ombohetavéva “Corpus del Guaraní Paraguayo”, ojeporúva koʼág̃a rupi.
 # labels = 
 ^Ko/ko<adj><dem><sg>$ 
 ^tembiporu/tembiporu<n>$ 
@@ -209,16 +209,16 @@
 ^ñembojere/ñembojere<v><iv><pres>$
 ^,/,<cm>$ 
 ^oykeko/o<prn><p3><ac>+ykeko<v><tv><pres>$ 
-^va’ekue/vaʼekue<aux><pmp>$ 
+^vaʼekue/vaʼekue<aux><pmp>$ 
 ^Mozilla/Mozilla<np><al>$ 
 ^Internacional/internacional<barb>$ 
 ^ha/ha<cnjcoo>$ 
 ^Mozilla/Mozilla<np><al>$ 
 ^Paraguay/Paraguay<np><top>$
 ^,/,<cm>$ 
-^omono’õ/o<prn><p3><ac>+mbo<coop>+noʼõ<v><iv><pres>$ 
+^omonoʼõ/o<prn><p3><ac>+mbo<coop>+noʼõ<v><iv><pres>$ 
 ^hetaiterei/heta<adj>+eterei<sup>$ 
-^ñe’ẽ/ñeʼẽ<n>$ 
+^ñeʼẽ/ñeʼẽ<n>$ 
 ^ha/ha<cnjcoo>$ 
 ^ombohetavéva/o<prn><p3><ac>+mbohetave<v><tv><pres>+va<subs><dem>$ 
 ^“/“<lquot>$
@@ -229,26 +229,26 @@
 ^”/”<rquot>$
 ^,/,<cm>$ 
 ^ojeporúva/o<prn><p3><ac>+jeporu<v><iv><pres>+va<subs><dem>$
-^ko’ág̃a/koʼága<adv>$ 
+^koʼág̃a/koʼága<adv>$ 
 ^rupi/rupi<post>$
 ^./.<sent>$
 
 # sent_id = miscellaneous:8
-# text = “Ikatu omombareteve guarani ñe’ẽhára tembiporu pyahu TIC’s jeporúpe.
+# text = “Ikatu omombareteve guarani ñeʼẽhára tembiporu pyahu TICʼs jeporúpe.
 # labels = 
 ^“/“<lquot>$
 ^Ikatu/ikatu<vaux><iv><pres>$ 
 ^omombareteve/o<prn><p3><ac>+mombareteve<v><tv><pres>$ 
 ^guarani/guarani<n>$ 
-^ñe’ẽhára/ñeʼẽ<v><iv><pres>+hára<subs>$ 
+^ñeʼẽhára/ñeʼẽ<v><iv><pres>+hára<subs>$ 
 ^tembiporu/tembiporu<n>$ 
 ^pyahu/pyahu<adj>$ 
-^TIC’s/TIC’s<np><al>$ 
+^TICʼs/TICʼs<np><al>$ 
 ^jeporúpe/jeporu<n>+pe<post>$
 ^./.<sent>$ 
 
 # sent_id = miscellaneous:9
-# text = Paraguái avei ojehecharamovéta oka guivo ha ohechaukáta mba’e mba’épepa Mozilla Firefox Aguaratata ikatu ñane pytyvõ”, he’i jey castellano pe Alcides Torres.
+# text = Paraguái avei ojehecharamovéta oka guivo ha ohechaukáta mbaʼe mbaʼépepa Mozilla Firefox Aguaratata ikatu ñane pytyvõ”, heʼi jey castellano pe Alcides Torres.
 # labels = 
 ^Paraguái/Paraguái<np><top>$ 
 ^avei/avei<adv>$ 
@@ -257,8 +257,8 @@
 ^guivo/gui<post>+vo<adv>$
 ^ha/ha<cnjcoo>$ 
 ^ohechaukáta/o<prn><p3><ac>+hechauka<v><tv>+ta<fti>$ 
-^mba’e/mbaʼe<cnjcoo>$ 
-^mba’épepa/mba’e<prn><itg>+pe<post>+pa<qst>$
+^mbaʼe/mbaʼe<cnjcoo>$ 
+^mbaʼépepa/mbaʼe<prn><itg>+pe<post>+pa<qst>$
 ^Mozilla Firefox/Mozilla Firefox<np><al>$
 ^Aguaratata/Aguaratata<np><al>$ 
 ^ikatu/ikatu<vaux><iv><pres>$ 
@@ -266,7 +266,7 @@
 ^pytyvõ/pytyvõ<v><tv><pres>$
 ^”/”<rquot>$
 ^,/,<cm>$ 
-^he’i/heʼi<v><iv><p3><pres>$ 
+^heʼi/heʼi<v><iv><p3><pres>$ 
 ^jey/jey<adv>$ 
 ^castellano/castellano<barb>$ 
 ^pe/pe<post>$ 
@@ -275,13 +275,13 @@
 ^./.<sent>$
 
 # sent_id = miscellaneous:10
-# text = Mozilla Aguaratatápe osẽma kuatia he’ihápe de interés académico ha científico: Consejo Superior Universitario (UNA), Consejo Nacional de Ciencia y Tecnología (CONACYT), ha Secretaría Nacional de Tecnología de la Información y Comunicación (SENATICs).
+# text = Mozilla Aguaratatápe osẽma kuatia heʼihápe de interés académico ha científico: Consejo Superior Universitario (UNA), Consejo Nacional de Ciencia y Tecnología (CONACYT), ha Secretaría Nacional de Tecnología de la Información y Comunicación (SENATICs).
 # labels = 
 ^Mozilla/Mozilla<np><al>$ 
 ^Aguaratatápe/Aguaratata<np><al>+pe<post>$ 
 ^osẽma/o<prn><p3><ac>+sẽ<v><iv><pres>+ma<adv>$ 
 ^kuatia/kuatia<n>$ 
-^he’ihápe/heʼi<v><iv><p3><pres>+ha<subs>+pe<post>$ 
+^heʼihápe/heʼi<v><iv><p3><pres>+ha<subs>+pe<post>$ 
 ^de/de<barb>$ 
 ^interés/interés<barb>$ 
 ^académico/académico<barb>$ 
@@ -358,7 +358,7 @@
 ^./.<sent>$
 
 # sent_id = miscellaneous:12
-# text = Ko APP, osẽva sistema Android-pe g̃uarã, oguereko heta ha opaichagua haipy ayvu (mombe’urã, ñe’ẽyvoty, káso ndaha’éiva ojehuva’ekue, mombe’u yma, morangu, ha ambueve). Heta ko’ã mombe’upy apytégui omboayvu ihaihaitevoi.
+# text = Ko APP, osẽva sistema Android-pe g̃uarã, oguereko heta ha opaichagua haipy ayvu (mombeʼurã, ñeʼẽyvoty, káso ndahaʼéiva ojehuvaʼekue, mombeʼu yma, morangu, ha ambueve). Heta koʼã mombeʼupy apytégui omboayvu ihaihaitevoi.
 # labels = 
 ^Ko/ko<adj><dem><sg>$ 
 ^APP/APP<abbr>$
@@ -377,15 +377,15 @@
 ^haipy/haipy<n>$ 
 ^ayvu/ayvu<n>$ 
 ^(/(<lpar>$
-^mombe’urã/mombeʼurã<n>$
+^mombeʼurã/mombeʼurã<n>$
 ^,/,<cm>$ 
-^ñe’ẽyvoty/ñeʼẽyvoty<n>$
+^ñeʼẽyvoty/ñeʼẽyvoty<n>$
 ^,/,<cm>$ 
 ^káso/káso<n>$ 
-^ndaha’éiva/nd<neg>+haʼe<v><iv><p1><sg><pres>+i<neg>+va<subs><dem>$ 
-^ojehuva’ekue/o<prn><p3><ac>+jehu<v><tv>+vaʼekue<pmp>$
+^ndahaʼéiva/nd<neg>+haʼe<v><iv><p1><sg><pres>+i<neg>+va<subs><dem>$ 
+^ojehuvaʼekue/o<prn><p3><ac>+jehu<v><tv>+vaʼekue<pmp>$
 ^,/,<cm>$ 
-^mombe’u/mombeʼu<n>$ 
+^mombeʼu/mombeʼu<n>$ 
 ^yma/yma<adj>/yma<adv>$
 ^,/,<cm>$ 
 ^morangu/morangu<n>$
@@ -395,38 +395,38 @@
 ^)/)<rpar>$
 ^./.<sent>$ 
 ^Heta/heta<adv>$ 
-^ko’ã/koʼã<adj><dem><pl>$ 
-^mombe’upy/mombeʼupy<adj>$ 
+^koʼã/koʼã<adj><dem><pl>$ 
+^mombeʼupy/mombeʼupy<adj>$ 
 ^apytégui/apyte<n>+gui<post>$ 
 ^omboayvu/o<prn><p3><ac>+mboayvu<v><tv><pres>$ 
 ^ihaihaitevoi/i<prn><p3><pos>+haihai<v><tv><pres>+te<sup>+voi<adv>$
 ^./.<sent>$
 
 # sent_id = miscellaneous:13
-# text = ArandukApp ojeiporukuaa heta mba’erã; ikatu tekombo’erã, umi ohecha’ỹvape g̃uarã; umi nomoñe’ẽkuaáiva iñe’ẽ guaraníme g̃uarã, umi ndoiporukuaái ko ñe’ẽ ohendu hag̃ua, ha ambueve.
+# text = ArandukApp ojeiporukuaa heta mbaʼerã; ikatu tekomboʼerã, umi ohechaʼỹvape g̃uarã; umi nomoñeʼẽkuaáiva iñeʼẽ guaraníme g̃uarã, umi ndoiporukuaái ko ñeʼẽ ohendu hag̃ua, ha ambueve.
 # labels = 
 ^ArandukApp/ArandukApp<np><al>$ 
 ^ojeiporukuaa/ojeiporukuaa<n>$ 
 ^heta/heta<adv>$ 
-^mba’erã/mbaʼerã<adv><itg>$
+^mbaʼerã/mbaʼerã<adv><itg>$
 ^;/;<sent>$ 
 ^ikatu/ikatu<v><iv><pres>$ 
-^tekombo’erã/tekombo’e<adj>+rã<post>$
+^tekomboʼerã/tekomboʼe<adj>+rã<post>$
 ^,/,<cm>$ 
 ^umi/umi<adj><dem><pl>$ 
-^ohecha’ỹvape/ohecha’ỹ<adj>+va<subs><dem>+pe<post>$ 
+^ohechaʼỹvape/ohechaʼỹ<adj>+va<subs><dem>+pe<post>$ 
 ^g̃uarã/guarã<post>$
 ^;/;<sent>$ 
 ^umi/umi<prn><dem><pl>$ 
-^nomoñe’ẽkuaáiva/nd<neg>+o<prn><p3><ac>+moñeʼẽ<n><incp>+kuaa<v><tv><pres>+i<neg>+va<subs><dem>$ 
-^iñe’ẽ/i<prn><pos><p3>+ñeʼẽ<n>$ 
+^nomoñeʼẽkuaáiva/nd<neg>+o<prn><p3><ac>+moñeʼẽ<n><incp>+kuaa<v><tv><pres>+i<neg>+va<subs><dem>$ 
+^iñeʼẽ/i<prn><pos><p3>+ñeʼẽ<n>$ 
 ^guaraníme/guarani<n>+pe<post>$
 ^g̃uarã/guarã<post>$
 ^,/,<cm>$ 
 ^umi/umi<prn><dem><pl>$ 
 ^ndoiporukuaái/nd<neg>+o<prn><p3><ac>+poru<v><tv><pres>+kuaa<v><tv><pres>+i<neg>$ 
 ^ko/ko<v><iv><pres>$ 
-^ñe’ẽ/ñeʼẽ<n>$ 
+^ñeʼẽ/ñeʼẽ<n>$ 
 ^ohendu/o<prn><p3><ac>+hendu<v><tv><pres>$ 
 ^hag̃ua/hag̃ua<post>$
 ^,/,<cm>$ 
@@ -435,16 +435,16 @@
 ^./.<sent>$ 
 
 # sent_id = miscellaneous:14
-# text = Upéicha, rei ha pya’e ikatu ojeike ko’ã guarani ayvúpe, mamo henda guive.
+# text = Upéicha, rei ha pyaʼe ikatu ojeike koʼã guarani ayvúpe, mamo henda guive.
 # labels = 
 ^Upéicha/upéicha<adv>$
 ^,/,<cm>$ 
 ^rei/rei<adv>$ 
 ^ha/ha<cnjcoo>$ 
-^pya’e/pyaʼe<adv>$ 
+^pyaʼe/pyaʼe<adv>$ 
 ^ikatu/ikatu<vaux><iv><pres>$ 
 ^ojeike/o<prn><p3><ac>+jeike<v><tv><pres>$ 
-^ko’ã/koʼã<adj><dem><pl>$ 
+^koʼã/koʼã<adj><dem><pl>$ 
 ^guarani/guarani<n>$ 
 ^ayvúpe/ayvu<n>+pe<post>$
 ^,/,<cm>$ 
@@ -454,7 +454,7 @@
 ^./.<sent>$
 
 # sent_id = miscellaneous:15
-# text = Ko atýpe oñeguenohẽta avei aranduka hérava “Lenguas extranjeras habladas en Paraguay. Estudio de la Secretaría de Políticas Lingüísticas”, ko jetypeka ojejapova’ekue 2016 arýpe rupive oñemomarandukuaa opa umi pytagua ñe’ẽ oikovéva ñane retãme.
+# text = Ko atýpe oñeguenohẽta avei aranduka hérava “Lenguas extranjeras habladas en Paraguay. Estudio de la Secretaría de Políticas Lingüísticas”, ko jetypeka ojejapovaʼekue 2016 arýpe rupive oñemomarandukuaa opa umi pytagua ñeʼẽ oikovéva ñane retãme.
 # labels = 
 ^Ko/ko<adj><dem><sg>$ 
 ^atýpe/aty<n>+pe<post>$ 
@@ -480,7 +480,7 @@
 ^,/,<cm>$ 
 ^ko/ko<adj><dem><sg>$ 
 ^jetypeka/jetypeka<n>$ 
-^ojejapova’ekue/o<prn><p3><ac>+jejapo<v><tv>+vaʼekue<pmp>$
+^ojejapovaʼekue/o<prn><p3><ac>+jejapo<v><tv>+vaʼekue<pmp>$
 ^2016/2016<num>$ 
 ^arýpe/ary<n>+pe<post>$ 
 ^rupive/rupive<cnjcoo>$ 
@@ -488,7 +488,7 @@
 ^opa/opa<n>$ 
 ^umi/umi<adj><dem><pl>$ 
 ^pytagua/pytagua<adj>$ 
-^ñe’ẽ/ñeʼẽ<n>$ 
+^ñeʼẽ/ñeʼẽ<n>$ 
 ^oikovéva/o<prn><p3><ac>+ko<v><iv><pres>+ve<comp>+va<subs><dem>$ 
 ^ñane/ñande<prn><pos><p1><pl>$ 
 ^retãme/r<det>+tetã<n>+pe<post>$
@@ -515,15 +515,15 @@
 ^./.<sent>$
 
 # sent_id = miscellaneous:17
-# text = Avei, PÑS oguenohẽta opa mba’e ojehupytyva’ekue apopyrã proyecto “Rescate lingüístico del pueblo Lumnanas-Manjui” ryepýpe, ãva niko Ñe’ẽryru Manjui – Castellano, Ta’angamýi Manjui rehegua ha Diagnóstico Sociolingüístico ko ypykuéra rehegua ojejapova’ekue mbohapy hekohapekuéra.
+# text = Avei, PÑS oguenohẽta opa mbaʼe ojehupytyvaʼekue apopyrã proyecto “Rescate lingüístico del pueblo Lumnanas-Manjui” ryepýpe, ãva niko Ñeʼẽryru Manjui – Castellano, Taʼangamýi Manjui rehegua ha Diagnóstico Sociolingüístico ko ypykuéra rehegua ojejapovaʼekue mbohapy hekohapekuéra.
 # labels = 
 ^Avei/avei<adv>$
 ^,/,<cm>$ 
 ^PÑS/PÑS<abb>$ 
 ^oguenohẽta/o<prn><p3><ac>+guenohẽ<v><tv>+ta<fti>$ 
 ^opa/opa<n>$ 
-^mba’e/mbaʼe<cnjcoo>$ 
-^ojehupytyva’ekue/o<prn><p3><ac>+je<pass>+hupyty<v><tv>+vaʼekue<pmp>$ 
+^mbaʼe/mbaʼe<cnjcoo>$ 
+^ojehupytyvaʼekue/o<prn><p3><ac>+je<pass>+hupyty<v><tv>+vaʼekue<pmp>$ 
 ^apopyrã/apopyrã<n>$ 
 ^proyecto/proyecto<barb>$ 
 ^“/“<lquot>$
@@ -539,12 +539,12 @@
 ^,/,<cm>$ 
 ^ãva/ãva<n>$ 
 ^niko/niko<aux><nar>$ 
-^Ñe’ẽryru/ñeʼẽryru<n>$ 
+^Ñeʼẽryru/ñeʼẽryru<n>$ 
 ^Manjui/Manjui<np><al>$ 
 ^–/–<guio>$ 
 ^Castellano/castellano<barb>$
 ^,/,<cm>$ 
-^Ta’angamýi/taʼangamýi<n>$ 
+^Taʼangamýi/taʼangamýi<n>$ 
 ^Manjui/Manjui<np><al>$ 
 ^rehegua/rehegua<adj>$ 
 ^ha/ha<cnjcoo>$ 
@@ -553,34 +553,34 @@
 ^ko/ko<adj><dem><sg>$ 
 ^ypykuéra/ypy<n>+kuéra<det><pl>$
 ^rehegua/rehegua<adj>$ 
-^ojejapova’ekue/o<prn><p3><ac>+jejapo<v><tv>+vaʼekue<pmp>$ 
+^ojejapovaʼekue/o<prn><p3><ac>+jejapo<v><tv>+vaʼekue<pmp>$ 
 ^mbohapy/mbohapy<num>$ 
 ^hekohapekuéra/h<dem>+tekoha<n>+pe<post>+kuéra<dem><pl>$
 ^./.<sent>$
 
 # sent_id = miscellaneous:18
-# text = Ko’ã tembiapokakuaa rupive niko Paraguái Ñe’ẽnguéra Sãmbyhyha ohechauka omba’apo kyre’ỹha ohóvo opa ñane retã ñe’ẽnguéra rérape.
+# text = Koʼã tembiapokakuaa rupive niko Paraguái Ñeʼẽnguéra Sãmbyhyha ohechauka ombaʼapo kyreʼỹha ohóvo opa ñane retã ñeʼẽnguéra rérape.
 # labels = 
-^Ko’ã/koʼã<adj><dem><pl>$ 
+^Koʼã/koʼã<adj><dem><pl>$ 
 ^tembiapokakuaa/tembiapo<n><incp>+kakuaa<v><iv><pres>$ 
 ^rupive/rupive<cnjcoo>$ 
 ^niko/niko<aux><nar>$ 
 ^Paraguái/Paraguái<np><top>$ 
-^Ñe’ẽnguéra/ñeʼẽ<n>+kuéra<det><pl>$
+^Ñeʼẽnguéra/ñeʼẽ<n>+kuéra<det><pl>$
 ^Sãmbyhyha/sãmbyhy<v><tv><pres>+ha<subs>$ 
 ^ohechauka/o<prn><p3><ac>+hechauka<v><tv><pres>$ 
-^omba’apo/o<prn><p3><ac>+mbaʼapo<v><tv><pres>$
-^kyre’ỹha/kyreʼỹ<n>+ha<subs>$ 
+^ombaʼapo/o<prn><p3><ac>+mbaʼapo<v><tv><pres>$
+^kyreʼỹha/kyreʼỹ<n>+ha<subs>$ 
 ^ohóvo/o<prn><p3><ac>+ho<v><iv><pres>+vo<adv>$ 
 ^opa/opa<n>$ 
 ^ñane/ñande<prn><pos><p1><pl>$ 
 ^retã/r<det>+tetã<n>$ 
-^ñe’ẽnguéra/ñeʼẽ<n>+kuéra<det><pl>$ 
+^ñeʼẽnguéra/ñeʼẽ<n>+kuéra<det><pl>$ 
 ^rérape/réra<v><tv><pres>+pe<post>$
 ^./.<sent>$
 
 # sent_id = miscellaneous:19
-# text = Yma, ara ypýpe, oñembyaty hikuái heta moñái oñembojaru haĝua yvyporakuérare. Peteîva osê he’i: “Jahekyi’arâmo’â peteî mba’e yvyporakuéragui. Áĝa, mba’épa ikatu jahekýi chuguikuéra”.
+# text = Yma, ara ypýpe, oñembyaty hikuái heta moñái oñembojaru haĝua yvyporakuérare. Peteîva osê heʼi: “Jahekyiʼarâmoʼâ peteî mbaʼe yvyporakuéragui. Áĝa, mbaʼépa ikatu jahekýi chuguikuéra”.
 # labels = 
 ^Yma/yma<adv>$
 ^,/,<cm>$ 
@@ -597,17 +597,17 @@
 ^./.<sent>$
 ^Peteîva/peteĩ<prn><ind>+va<subs><dem>$ 
 ^osê/o<prn><p3><ac>+sẽ<v><iv><pres>$ 
-^he’i/heʼi<v><tv><p3><pres>$
+^heʼi/heʼi<v><tv><p3><pres>$
 ^:/:<sent>$ 
 ^“/“<lquot>$
-^Jahekyi’arâmo’â/ja<prn><p1><pl><ac>+hekýi<v><tv><pres>+aʼrã<fti>+mo’ã<fti>$
+^Jahekyiʼarâmoʼâ/ja<prn><p1><pl><ac>+hekýi<v><tv><pres>+aʼrã<fti>+moʼã<fti>$
 ^peteî/peteĩ<prn><ind>$ 
-^mba’e/mbaʼe<n>$ 
+^mbaʼe/mbaʼe<n>$ 
 ^yvyporakuéragui/yvypóra<n>+kuéra<det><pl>+gui<post>$
 ^./.<sent>$ 
 ^Áĝa/ágã<adv>$
 ^,/,<cm>$ 
-^mba’épa/mbaʼe<prn><itg>+pa<qst>$ 
+^mbaʼépa/mbaʼe<prn><itg>+pa<qst>$ 
 ^ikatu/ikatu<vaux><iv><pres>$ 
 ^jahekýi/ja<prn><p1><pl><ac>+hekýi<v><tv><pres>$ 
 ^chuguikuéra/chuguikuéra<prn><pers><p3><pl><dat>$
@@ -615,26 +615,26 @@
 ^./.<sent>$
 
 # sent_id = miscellaneous:20
-# text = Heta oñepy’amongeta rire, ambue osê he’i:
+# text = Heta oñepyʼamongeta rire, ambue osê heʼi:
 # labels = 
 ^Heta/heta<adv>$ 
-^oñepy’amongeta/o<prn><p3><ac>+je<ref>+pyʼamongeta<v><tv><pres>$ 
+^oñepyʼamongeta/o<prn><p3><ac>+je<ref>+pyʼamongeta<v><tv><pres>$ 
 ^rire/rire<adv>$
 ^,/,<cm>$ 
 ^ambue/ambue<adj><ind>$
 ^osê/o<prn><p3><ac>+sẽ<v><iv><pres>$ 
-^he’i/heʼi<v><tv><p3><pres>$ 
+^heʼi/heʼi<v><tv><p3><pres>$ 
 ^:/:<sent>$
 
 # sent_id = miscellaneous:21
-# text = “Aikuaáma, jahekýita chuguikuéra vy’apavê. Áĝa pe che ndaikuaáivango moôpa ñañomíta ani haĝua ha’ekuéra ojuhu…”
+# text = “Aikuaáma, jahekýita chuguikuéra vyʼapavê. Áĝa pe che ndaikuaáivango moôpa ñañomíta ani haĝua haʼekuéra ojuhu…”
 # labels = 
 ^“/“<lquot>$
 ^Aikuaáma/a<prn><p1><sg><ac>+kuaa<v><tv><pres>+ma<adv>$
 ^,/,<cm>$ 
 ^jahekýita/ja<prn><p1><pl><ac>+hekýi<v><tv>+ta<fti>$ 
 ^chuguikuéra/chuguikuéra<prn><p3><pl><dat>$
-^vy’apavê/vyʼapavẽ<n>$
+^vyʼapavê/vyʼapavẽ<n>$
 ^./.<sent>$ 
 ^Áĝa/ágã<adv>$ 
 ^pe/pe<prn><dem><sg>$ 
@@ -644,17 +644,17 @@
 ^ñañomíta/ja<prn><p1><pl><ac>+ñomi<v><tv>+ta<fti>$ 
 ^ani/ani<adv><neg>$ 
 ^haĝua/haguã<post>$ 
-^ha’ekuéra/haʼekuéra<prn><pers><p3><pl>$ 
+^haʼekuéra/haʼekuéra<prn><pers><p3><pl>$ 
 ^ojuhu/o<prn><p3><ac>+juhu<v><tv><pres>$
 ^…/…<sent>$
 ^”/”<rquot>$
 
 # sent_id = miscellaneous:22
-# text = Peteîva osê he’i: “Ikatúngo ñañomi pe yvyty ijyvatevévape oîva ko”.
+# text = Peteîva osê heʼi: “Ikatúngo ñañomi pe yvyty ijyvatevévape oîva ko yvórape”.
 # labels = 
 ^Peteîva/peteĩ<adj><ind>+va<subs><dem>$ 
 ^osê/o<prn><p3><ac>+sẽ<v><iv><pres>$ 
-^he’i/heʼi<v><tv><p3><sg><pres>$
+^heʼi/heʼi<v><tv><p3><sg><pres>$
 ^:/:<sent>$ 
 ^“/“<lquot>$
 ^Ikatúngo/ikatu<vaux><iv><pres>+ko<emph>$ 
@@ -663,7 +663,8 @@
 ^yvyty/yvyty<n>$ 
 ^ijyvatevévape/i<prn><pro><p3><in>+yvate<n>+ve<comp>+va<dem><subs>+pe<post>$ 
 ^oîva/o<prn><p3><ac>+ĩ<v><iv><pres>+va<subs><dem>$ 
-^ko/ko<prn><dem><sg>$^yvórape/yvóra<n>+pe<post>$
+^ko/ko<prn><dem><sg>$
+^yvórape/yvóra<n>+pe<post>$
 ^”/”<rquot>$
 ^./.<sent>$
 
@@ -677,14 +678,14 @@
 ^:/:<sent>$
 
 # sent_id = miscellaneous:24
-# text = “Nahániri. Nemandu’áke ha’ekuéra ipu’akaha. Peichaháguinte peteî ojupíta. Peteî ojuhúramo, opavavete oikuaátama mamópa oî…”.
+# text = “Nahániri. Nemanduʼáke haʼekuéra ipuʼakaha. Peichaháguinte peteî ojupíta. Peteî ojuhúramo, opavavete oikuaátama mamópa oî…”.
 # labels = 
 ^“/“<lquot>$
 ^Nahániri/nahániri<adv><neg>$
 ^./.<sent>$
-^Nemandu’áke/nde<prn><pro><p2><sg>+manduʼa<v><tv><pres>+ke<pol>$ 
-^ha’ekuéra/haʼekuéra<prn><pers><p3><pl>$ 
-^ipu’akaha/i<prn><pro><p3><in>+puʼaka<n>+ha<subs>$
+^Nemanduʼáke/nde<prn><pro><p2><sg>+manduʼa<v><tv><pres>+ke<pol>$ 
+^haʼekuéra/haʼekuéra<prn><pers><p3><pl>$ 
+^ipuʼakaha/i<prn><pro><p3><in>+puʼaka<n>+ha<subs>$
 ^./.<sent>$ 
 ^Peichaháguinte/pe<prn><dem><sg>+icha<comp>+ha<subs>+gui<comp>+nte<adv>$ 
 ^peteî/peteĩ<prn><ind>$
@@ -702,27 +703,27 @@
 ^./.<sent>$
 
 # sent_id = miscellaneous:25
-# text = Upéi ambue he’i: “Upéicharô ñañomiva’erâ para ruguaitépe. Upépengo ndojuhumo’âi hikuái…”.
+# text = Upéi ambue heʼi: “Upéicharô ñañomivaʼerâ para ruguaitépe. Upépengo ndojuhumoʼâi hikuái…”.
 # labels = 
 ^Upéi/upéi<adv>$ 
 ^ambue/ambue<adj><ind>$ 
-^he’i/heʼi<v><tv><p3><pres>$
+^heʼi/heʼi<v><tv><p3><pres>$
 ^:/:<sent>$ 
 ^“/“<lquot>$
 ^Upéicharô/upe<prn><dem><sg>+icha<comp>+rõ<post>$
-^ñañomiva’erâ/ja<prn><p1><pl><ac>+ñomi<v><tv><pres>+vaʼerã<aux><fti>$ 
+^ñañomivaʼerâ/ja<prn><p1><pl><ac>+ñomi<v><tv><pres>+vaʼerã<aux><fti>$ 
 ^para/para<n>$ 
 ^ruguaitépe/r<det>+tugua<n>+ete<sup>+pe<post>$
 ^./.<sent>$ 
 ^Upépengo/upe<prn><dem><sg>+pe<post>+ko<emph>$ 
-^ndojuhumo’âi/nd<neg>+o<prn><p3><ac>+juhu<v><tv><pres>+moʼã<fti>+i<neg>$ 
+^ndojuhumoʼâi/nd<neg>+o<prn><p3><ac>+juhu<v><tv><pres>+moʼã<fti>+i<neg>$ 
 ^hikuái/hikuái<aux><impf><p3>$
 ^…/…<sent>$
 ^”/”<rquot>$
 ^./.<sent>$
 
 # sent_id = miscellaneous:26
-# text = Ha ambue ombohovái: “Nahániri. Nemandu’áke ha’ekuéra akóinte ojeporekaha. Oĝuahêta peteî ára ha’ekuéra ojapotahápe peteî mba’yru oguejy haĝua ha upéicha ojuhúta hikuái…”.
+# text = Ha ambue ombohovái: “Nahániri. Nemanduʼáke haʼekuéra akóinte ojeporekaha. Oĝuahêta peteî ára haʼekuéra ojapotahápe peteî mbaʼyru oguejy haĝua ha upéicha ojuhúta hikuái…”.
 # labels = 
 ^Ha/ha<cnjcoo>$
 ^ambue/ambue<adj><ind>$ 
@@ -731,18 +732,18 @@
 ^“/“<lquot>$
 ^Nahániri/nahániri<adv><neg>$
 ^./.<sent>$ 
-^Nemandu’áke/nde<prn><pro><p2><sg><in>+manduʼa<v><tv><pres>+ke<pol>$ 
-^ha’ekuéra/haʼekuéra<prn><pers><p3><pl>$ 
+^Nemanduʼáke/nde<prn><pro><p2><sg><in>+manduʼa<v><tv><pres>+ke<pol>$ 
+^haʼekuéra/haʼekuéra<prn><pers><p3><pl>$ 
 ^akóinte/akói<adv>+nte<adv>$ 
 ^ojeporekaha/o<prn><p3><ac>+jeporeka<v><tv><pres>+ha<subs>$
 ^./.<sent>$ 
 ^Oĝuahêta/o<prn><p3><ac>+guahẽ<v><iv><pres>+ta<fti>$ 
 ^peteî/peteĩ<prn><ind>$ 
 ^ára/ára<n>$ 
-^ha’ekuéra/haʼekuéra<prn><pers><p3><pl>$ 
+^haʼekuéra/haʼekuéra<prn><pers><p3><pl>$ 
 ^ojapotahápe/o<prn><p3><ac>+japo<v><tv><pres>+ta<fti>+ha<subs>+pe<post>$
 ^peteî/peteĩ<prn><ind>$ 
-^mba’yru/mbaʼyru<n>$ 
+^mbaʼyru/mbaʼyru<n>$ 
 ^oguejy/o<prn><p3><ac>+guejy<v><iv><pres>$ 
 ^haĝua/haguã<post>$ 
 ^ha/ha<cnjcoo>$ 
@@ -754,11 +755,11 @@
 ^./.<sent>$
 
 # sent_id = miscellaneous:27
-# text = Peteî osêjey he’i: “Ñañomína peteî mbyjápe oîva mombyryeterei Yvýgui”.
+# text = Peteî osêjey heʼi: “Ñañomína peteî mbyjápe oîva mombyryeterei Yvýgui”.
 # labels = 
 ^Peteî/peteĩ<prn><ind>$ 
 ^osêjey/o<prn><p3><ac>+sẽ<v><iv><pres>+jey<adv>$ 
-^he’i/heʼi<v><tv><p3><pres>$
+^heʼi/heʼi<v><tv><p3><pres>$
 ^:/:<sent>$
 ^“/“<lquot>$
 ^Ñañomína/ja<prn><p1><pl><ac>+ñomi<v><tv><pres>+na<pol>$ 
@@ -771,7 +772,7 @@
 ^./.<sent>$
 
 # sent_id = miscellaneous:28
-# text = Ha… ombohovái hikuái chupe: “Nahániri. Nemandu’áke iñaranduha hikuái ha peteî ára ikatu ojapo peteî mba’yruveve ha péicha ojuhúta hikuái pe mba’e oñemoñemíva. Péva ojehúrô, opavavete hupytýta hikuái vy’apavê…”.
+# text = Ha… ombohovái hikuái chupe: “Nahániri. Nemanduʼáke iñaranduha hikuái ha peteî ára ikatu ojapo peteî mbaʼyruveve ha péicha ojuhúta hikuái pe mbaʼe oñemoñemíva. Péva ojehúrô, opavavete hupytýta hikuái vyʼapavê…”.
 # labels = 
 ^Ha/ha<cnjcoo>$
 ^…/…<sent>$ 
@@ -782,7 +783,7 @@
 ^“/“<lquot>$
 ^Nahániri/nahániri<adv><neg>$
 ^./.<sent>$ 
-^Nemandu’áke/nde<prn><pro><p2><sg><in>+manduʼa<v><tv><pres>+ke<pol>$ 
+^Nemanduʼáke/nde<prn><pro><p2><sg><in>+manduʼa<v><tv><pres>+ke<pol>$ 
 ^iñaranduha/i<prn><pos><p3>+arandu<n>+ha<subs>$ 
 ^hikuái/hikuái<aux><impf><p3>$ 
 ^ha/ha<cnjcoo>$ 
@@ -791,13 +792,13 @@
 ^ikatu/ikatu<vaux><iv><pres>$ 
 ^ojapo/o<prn><p3><ac>+japo<v><tv><pres>$ 
 ^peteî/peteĩ<prn><ind>$ 
-^mba’yruveve/mbaʼyruveve<n>$ 
+^mbaʼyruveve/mbaʼyruveve<n>$ 
 ^ha/ha<cnjcoo>$ 
 ^péicha/pe<prn><dem><sg>+icha<comp>$ 
 ^ojuhúta/o<prn><p3><ac>+juhu<v><tv>+ta<fti>$ 
 ^hikuái/hikuái<aux><impf><p3>$ 
 ^pe/pe<prn><dem><sg>$ 
-^mba’e/mba’e<n>$ 
+^mbaʼe/mbaʼe<n>$ 
 ^oñemoñemíva/o<prn><p3><ac>+je<ref>+mbo<coop>+ñemi<v><iv><pres>+va<subs><dem>$
 ^./.<sent>$
 ^Péva/pe<prn><dem><sg>+va<subs><dem>$
@@ -806,7 +807,7 @@
 ^opavavete/opavave<prn><ind>+ete<sup>$
 ^hupytýta/hupyty<v><tv>+ta<fti>$ 
 ^hikuái/hikuái<aux><impf><p3>$ 
-^vy’apavê/vyʼapavẽ<n>$
+^vyʼapavê/vyʼapavẽ<n>$
 ^…/…<sent>$
 ^”/”<rquot>$
 ^./.<sent>$
@@ -828,16 +829,16 @@
 ^./.<sent>$ 
 
 # sent_id = miscellaneous:30
-# text = Ohesa’ŷijókuri peteîteî umi temiandu ha upéi ojerure ñe’ê: “Aikuaáma moôpa ñañomikuaa”.
+# text = Ohesaʼŷijókuri peteîteî umi temiandu ha upéi ojerure ñeʼê: “Aikuaáma moôpa ñañomikuaa”.
 # labels = 
-^Ohesa’ŷijókuri/o<prn><p3><ac>+hesaʼỹijo<v><vt><pres>+kuri<past>$ 
+^Ohesaʼŷijókuri/o<prn><p3><ac>+hesaʼỹijo<v><vt><pres>+kuri<past>$ 
 ^peteîteî/peteĩteĩ<adv>$ 
 ^umi/umi<prn><dem><pl>$ 
 ^temiandu/temiandu<n>$ 
 ^ha/ha<cnjcoo>$ 
 ^upéi/upéi<adv>$ 
 ^ojerure/o<prn><p3><ac>+jerure<v><tv><pres>$ 
-^ñe’ê/ñeʼê<n>$
+^ñeʼê/ñeʼê<n>$
 ^:/:<sent>$ 
 ^“/“<lquot>$
 ^Aikuaáma/a<prn><p1><sg><ac>+kuaa<v><tv><pres>+ma<adv>$ 
@@ -872,9 +873,9 @@
 ^./.<sent>$ 
 
 # sent_id = miscellaneous:33
-# text = Ha’ekuéra oikóta oheka hikuái ijere ha opárupi ha araka’eve ndojuhumo’âi.
+# text = Haʼekuéra oikóta oheka hikuái ijere ha opárupi ha arakaʼeve ndojuhumoʼâi.
 # labels = 
-^Ha’ekuéra/haʼekuéra<prn><pers><p3><pl>$ 
+^Haʼekuéra/haʼekuéra<prn><pers><p3><pl>$ 
 ^oikóta/o<prn><p3><ac>+ko<v><iv>+ta<fti>$ 
 ^oheka/o<prn><p3><ac>+heka<v><tv><pres>$ 
 ^hikuái/hikuái<aux><impf><p3>$ 
@@ -882,12 +883,12 @@
 ^ha/ha<cnjcoo>$ 
 ^opárupi/opa<adj><ind>+rupi<post>$ 
 ^ha/ha<cnjcoo>$ 
-^araka’eve/arakaʼeve<adv>$ 
-^ndojuhumo’âi/nd<neg>+o<prn><p3><ac>+juhu<v><tv><pres>+mo’ã<fti>+i<neg>$
+^arakaʼeve/arakaʼeve<adv>$ 
+^ndojuhumoʼâi/nd<neg>+o<prn><p3><ac>+juhu<v><tv><pres>+moʼã<fti>+i<neg>$
 ^./.<sent>$
 
 # sent_id = miscellaneous:34
-# text = Opavavete omoneĩkuri ha upete guive ojehu péicha: yvypóra oikójepi oheka vy’apavê ijerére oikuaa’ŷre vy’apavê oñemohendahague ikorasôruguaitépe….
+# text = Opavavete omoneĩkuri ha upete guive ojehu péicha: yvypóra oikójepi oheka vyʼapavê ijerére oikuaaʼŷre vyʼapavê oñemohendahague ikorasôruguaitépe….
 # labels = 
 ^Opavavete/opavave<prn><ind>+ete<sup>$
 ^omoneĩkuri/o<prn><p3><ac>+moneĩ<v><iv>+kuri<past>$ 
@@ -900,10 +901,10 @@
 ^yvypóra/yvypóra<n>$ 
 ^oikójepi/o<prn><p3><ac>+ko<v><iv><pres>+jepi<adv>$ 
 ^oheka/o<prn><p3><ac>+heka<v><tv><pres>$ 
-^vy’apavê/vyʼapavẽ<n>$ 
+^vyʼapavê/vyʼapavẽ<n>$ 
 ^ijerére/i<prn><pos><p3>+jere<n>+re<post>$ 
-^oikuaa’ŷre/o<prn><p3><ac>+kuaa’ỹ<v><tv><pres>+re<post>$
-^vy’apavê/vyʼapavẽ<n>$ 
+^oikuaaʼŷre/o<prn><p3><ac>+kuaaʼỹ<v><tv><pres>+re<post>$
+^vyʼapavê/vyʼapavẽ<n>$ 
 ^oñemohendahague/o<prn><p3><ac>+je<pass>+mohenda<v><tv><pres>+hague<post>$ 
 ^ikorasôruguaitépe/i<prn><pos><p3>+korasõ<n>+r<det>+tugua<n>+ete<sup>+pe<post>$
 ^…/…<sent>$

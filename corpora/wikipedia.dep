@@ -1,6 +1,6 @@
 # sent_id = wikipedia:Avañeʼẽ:1
 # text = Avañeʼẽ ha Guarani ñeʼẽ ombohéra hikuái umi Guaranikuéra pe ñeʼẽ teépe.
-# text[spa] = La lengua avañe'ẽ y la lengua guaraní tienen nombre del pueblo de los guaraní.
+# text[spa] = La lengua avañeʼẽ y la lengua guaraní tienen nombre del pueblo de los guaraní.
 # labels = to_check
 "<Avañeʼẽ>"
 	"avañeʼẽ" n @nsubj #1->6
@@ -320,7 +320,7 @@
 	"." sent @punct #28->6
 
 # sent_id = wikipedia:Avañeʼẽ:8
-# text = "Ava" niko heʼise tekove, yvypóra, tapicha, kuimba'e térã kuña oikóva oñondive, peteĩ avano'õme (sociedad); "ñe'ẽ" ikatu he'ise "ñemongeta ahyʼo pu rupive".
+# text = "Ava" niko heʼise tekove, yvypóra, tapicha, kuimbaʼe térã kuña oikóva oñondive, peteĩ avanoʼõme (sociedad); "ñeʼẽ" ikatu heʼise "ñemongeta ahyʼo pu rupive".
 # text[spa] = "Ava" significa individuo, humano, persona, hombre y mujer cuidan juntos de la sociedad (sociedad); "ñeʼẽ" puede significar "parlamento que  explota garganta". 
 # labels = 
 "<">" 
@@ -436,7 +436,7 @@
 	"." sent @punct #19->6  
 
 # sent_id = wikipedia:Avañeʼẽ:10
-# text = Ñeʼẽ niko omopeteĩ chupekuéra ha ohechauka avei avakuéra oikoha peteĩ tetãme ha upe tetãme ojepuruha peteĩ ñeʼẽte, ha’éva avañeʼẽ. 
+# text = Ñeʼẽ niko omopeteĩ chupekuéra ha ohechauka avei avakuéra oikoha peteĩ tetãme ha upe tetãme ojepuruha peteĩ ñeʼẽte, haʼéva avañeʼẽ. 
 # text[spa] = Ellos simplifican la lengua y también indican los guaranís que viven en uno país y una lengua que se usa en ese país es guaraní.  
 # labels = 
 "<Ñeʼẽ>"
@@ -485,8 +485,8 @@
 	"neʼẽte" n @nsubj #27->5
 "<,>"
 	"," cm @punct #28->20
-"<ha’éva>"
-	"ha’e" v tv pres @acl #29->31
+"<haʼéva>"
+	"haʼe" v tv pres @acl #29->31
 		"va" subs dem @dep #30->29 
 "<avañeʼẽ>"
 	"avañeʼẽ" n @obl #31->9
@@ -495,7 +495,7 @@
 	"." sent @punct #32->9 
  
 # sent_id = wikipedia:Avañeʼẽ:11
-# text = Opaite ñeʼẽte oĩva yvy ape ári niko oñemohendakuaa ñeʼẽkuaaty (lingüística) rupive ha upevarã tekotevẽ ñanemandu'a Augusto Schleicher (1821-1867) rembiapokuére.
+# text = Opaite ñeʼẽte oĩva yvy ape ári niko oñemohendakuaa ñeʼẽkuaaty (lingüística) rupive ha upevarã tekotevẽ ñanemanduʼa Augusto Schleicher (1821-1867) rembiapokuére.
 # text[spa] = Todas las lenguas que están aqui en el sur son colocadas en cima por causa de lingüística (lingüística) y es preciso que nosotros recordamos el trabajo de Augusto Schleicher.
 # labels = 
 "<Opaite>"
@@ -584,7 +584,7 @@
 	"." sent @punct #13->5
 
 # sent_id = wikipedia:Avañeʼẽ:13
-# text = Schleicher he'íkuri ñe'ẽte ikatuha oñemohenda mbohapýpe, kóicha: 
+# text = Schleicher heʼíkuri ñeʼẽte ikatuha oñemohenda mbohapýpe, kóicha: 
 # text[spa] = Schleicher ha dicho de lenguas que pueden se ordenan en tres grupos, así: 
 # labels = 
 "<Schleicher>"
@@ -612,7 +612,7 @@
 	":" sent @punct #14->2
 
 # sent_id = wikipedia:Avañeʼẽ:14
-# text = Ñe'ẽnguéra iñe'ẽpehẽteĩva (lenguas aislantes o monosilábicas), ko'ãva apytépe oĩ chinañe'ẽ, iñe'ẽpehẽteĩteĩva (Fu – Man – Chu).
+# text = Ñeʼẽnguéra iñeʼẽpehẽteĩva (lenguas aislantes o monosilábicas), koʼãva apytépe oĩ chinañeʼẽ, iñeʼẽpehẽteĩteĩva (Fu – Man – Chu).
 # text[spa] = Las lenguas monosilábicas, entre estas está la lengua chinesa aislante (Fu – Man – Chu).
 # labels = 
 "<Ñeʼẽnguéra>"
@@ -665,7 +665,7 @@
 	"." sent @punct #25->14 
 
 # sent_id = wikipedia:Avañeʼẽ:15
-# text = Ñe'ẽnguéra iñe'ẽjoapykuaáva (lenguas aglutinantes), tuykiañe'ẽ guaicha, ombojoajúva ñe'ẽpehẽtai (afijo) ñe'ẽrapóre (raíz). 
+# text = Ñeʼẽnguéra iñeʼẽjoapykuaáva (lenguas aglutinantes), tuykiañeʼẽ guaicha, ombojoajúva ñeʼẽpehẽtai (afijo) ñeʼẽrapóre (raíz). 
 # text[spa] = En lenguas aglutinantes, como lengua turca, afijo se une a raíz.
 # labels = FIXME! Ambiguous 
 "<Ñeʼẽnguéra>"
@@ -715,7 +715,7 @@
 	"." sent @punct #25->14
 
 # sent_id = wikipedia:Avañeʼẽ:16
-# text = Iporã ja'e avañe'ẽ oñemohendaha avei ko'ãva apytépe (n-a-mbo-guata-se-i-eté-pa-kuri).
+# text = Iporã jaʼe avañeʼẽ oñemohendaha avei koʼãva apytépe (n-a-mbo-guata-se-i-eté-pa-kuri).
 # text[spa] = Decimos también que guaraní se estabelece bién entre (n-a-mbo-guata-se-i-eté-pa-kuri).
 # labels = 
 "<Iporã>"
@@ -777,7 +777,7 @@
 	"." sent @punct #30->29 
 
 # sent_id = wikipedia:Avañeʼẽ:17
-# text = Ñe'ẽnguéra iñe'ẽrapoambuéva (lenguas de flexión), umi ñe'ẽte indoeuropeo-icha.  
+# text = Ñeʼẽnguéra iñeʼẽrapoambuéva (lenguas de flexión), umi ñeʼẽte indoeuropeo-icha.  
 # text[spa] = Las lenguas de flexión, aquellas lenguas como indoeuropeas. 
 # labels = 
 "<Ñeʼẽnguéra>"
@@ -869,7 +869,7 @@
 	"." sent @punct #32->
 
 # sent_id = wikipedia:Avañeʼẽ:19
-# text = Aipórõ guarani ñe'ẽte ija umi iñe'ẽjoapykuaáva apytépe, ha upépe ojoavýma karaiñe'ẽgui oñemohendáva umi iñe'ẽrapoambuéva apytépe. 
+# text = Aipórõ guarani ñeʼẽte ija umi iñeʼẽjoapykuaáva apytépe, ha upépe ojoavýma karaiñeʼẽgui oñemohendáva umi iñeʼẽrapoambuéva apytépe. 
 # text[spa] = Aquella lengua guarani cabe entre estas, allá se diferencía ya de español y estas se estabelecen entre las flectivas.
 # labels = incomplete
 "<Aipórõ>"
@@ -916,7 +916,7 @@
 	"." sent @punct #24->  
 
 # sent_id = wikipedia:Avañeʼẽ:20
-# text = Ko mba'e iporã ñamyesakã oĩgui heta tapicha - yma ha ko'ága - oñeha'ãva ohesa'ỹijo avañe’ẽ Castellano oñehesa'ỹijoháicha, ha ivaivéva - oikuaaporã’ỹre - oipuruséva Guarani ñe’ẽre Castellano ñe’ẽtekuaa. 
+# text = Ko mbaʼe iporã ñamyesakã oĩgui heta tapicha - yma ha koʼága - oñehaʼãva ohesaʼỹijo avañeʼẽ Castellano oñehesaʼỹijoháicha, ha ivaivéva - oikuaaporãʼỹre - oipuruséva Guarani ñeʼẽre Castellano ñeʼẽtekuaa. 
 # text[spa] = Esto (es) como explicamos que mucha gente - antes y ahora - esfuerza bién a analizar como Castellano tanto guaraní, todavía peor - sin saber bién quiere utilizar lengua Guarani hablado y aprender la lengua Castellana.
 # labels = 
 "<Ko>"
@@ -973,7 +973,7 @@
 				"va" dem subs@dep #32->30 
 "<->"
 	"-" guio @punct #33-> 
-"<oikuaaporã’ỹre>"
+"<oikuaaporãʼỹre>"
 	"o" prn p3 sg @dep #34->35 
 		"kuaa" v tv pres @acl #35->40 
 			"porã" adv @advmod #36->35 
@@ -992,8 +992,8 @@
 		"re" post @dep #45->44
 "<Castellano>"
 	"Castellano" barb @foreign #46->48  
-"<ñe’ẽtekuaa>"
-	"ñe’ẽte" incp @obl #47->48  
+"<ñeʼẽtekuaa>"
+	"ñeʼẽte" incp @obl #47->48  
 		"kuaa" v tv pres @acl #48->5  
 "<.>"
 	"." sent @punct #49-> 

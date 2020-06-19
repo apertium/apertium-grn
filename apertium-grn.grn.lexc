@@ -177,6 +177,7 @@ Digits  "weight: 1.0" ;
 !!!!!!!!!!!!!!!!!!!! LEXICON SPANISH !!!!!!!!!!
 LEXICON ADJ-ES 
 %<barb%>: # ;
+%<barb%>:%- COMP ;
 
 LEXICON SpaAdjectives
 paraguayo:paraguayo ADJ-ES ;
@@ -192,6 +193,7 @@ democrática:democrática ADJ-ES ;
 económico:económico ADJ-ES ;
 humana:humana ADJ-ES ;
 obligatorio:obligatorio ADJ-ES ;
+indoeuropeo:indoeuropeo ADJ-ES ;
 
 
 LEXICON N-ES
@@ -3487,6 +3489,7 @@ Colmán:Colmán NP-COG ; ! ""
 filistéo:filistéo NP-COG ;
 
 Tëtaiguaete:Tëtaiguaete NP-AL ; ! "Naciones Unidas" 
+Mercosur:Mercosur NP-AL ; ! ""
 Rotary:Rotary NP-AL ; ! ""
 Ñembosaraipavẽ:Ñembosaraipavẽ NP-AL ; ! ""
 Vikipetã:Vikipetã NP-AL ; ! ""

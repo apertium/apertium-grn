@@ -1,5 +1,5 @@
 # sent_id = malavisão:1
-# text = Che ramói ningo omombe'uva'ekue chéve mba'éichapa. peteî jey, omondýiva'ekue chupe Malavisiô. 
+# text = Che ramói ningo omombeʼuvaʼekue chéve mbaʼéichapa. peteî jey, omondýivaʼekue chupe Malavisiô. 
 # text[spa] = Mi abuelo me contó de como, una vez, lo asustó el Malavisión. 
 ^Che/ché<prn><pers><p1><sg>$ 
 ^ramói/ramói<n>$ 
@@ -17,8 +17,8 @@
 ^./.<sent>$ 
 
 # sent_id = malavisão:2
-# text = Ha'éngo oikova'ekue amo Ka'asapa ruguáre ha upépe oîva'ekue peteî ka'aguy'i ojekyhyjeha, ndaje upépe oikova'ekue Malavisiô. 
-# text[spa] = El vivía en el fondo de Ka'asapa y allí había un pequeño monte muy temido, porqué se decía que allí vivía el Malavisión.
+# text = Haʼéngo oikovaʼekue amo Kaʼasapa ruguáre ha upépe oîvaʼekue peteî kaʼaguyʼi ojekyhyjeha, ndaje upépe oikovaʼekue Malavisiô. 
+# text[spa] = El vivía en el fondo de Kaʼasapa y allí había un pequeño monte muy temido, porqué se decía que allí vivía el Malavisión.
 ^Haʼéngo/haʼe<prn><pers><p3><sg>+ko<nar>$
 ^oikovaʼekue/o<prn><p3><ac>+ko<v><iv>+vaʼekue<pmp>$
 ^amo/amo<prn><dem><sg>$
@@ -38,7 +38,7 @@
 ^./.<sent>$
 
 # sent_id = malavisão:3
-# text = Peteî ka'arupytûme, ara vai, osunu, overa ha okypotaite jave, che ru chemondova'ekue peteî vakara'y piári. 
+# text = Peteî kaʼarupytûme, ara vai, osunu, overa ha okypotaite jave, che ru chemondovaʼekue peteî vakaraʼy piári. 
 # text[spa] = Una tardecita, cuando el tiempo estaba feo, tronaba, relampagueáva y estaba a punto de llover, mi padre me mandó a buscar un ternero perdido. 
 ^Peteĩ/peteĩ<prn><ind>$
 ^kaʼarupytũme/kaʼaru<n>+pytũ<adj>+pe<post>$
@@ -62,8 +62,8 @@
 ^./.<sent>$
 
 # sent_id = malavisão:4
-# text = Oho chendive peteî mba'apohára pyahu ndaha'éiva Ka'asapaygua. 
-# text[spa] = Me acompañó un peón nuevo que no era de Ka'asapa. 
+# text = Oho chendive peteî mbaʼapohára pyahu ndahaʼéiva Kaʼasapaygua. 
+# text[spa] = Me acompañó un peón nuevo que no era de Kaʼasapa. 
 ^Oho/oho<v><iv><pres>$
 ^chendive/che<prn><pers><p1><sg>+ndive<post>$
 ^peteĩ/peteĩ<prn><ind>$
@@ -74,7 +74,7 @@
 ^./.<sent>$
 
 # sent_id = malavisão:5
-# text = Roñembojávo ka'aguy'ípe, rohendu vakara'y rasê ha ha'e che irûme “Ara vaíngo ha iñipytûñepyrûma. 
+# text = Roñembojávo kaʼaguyʼípe, rohendu vakaraʼy rasê ha haʼe che irûme “Ara vaíngo ha iñipytûñepyrûma. 
 # text[spa] = Al acercarnos al montecito, escuchamos el llanto del ternero y le dije a mi compañero “El tiempo está feo y está anocheciendo. 
 ^Roñembojávo/ro<prn><p1><pl><ac>+ñemboja<v><iv><pres>+vo<adv>$
 ^kaʼaguyʼípe/kaʼaguy<n>+i<dim>+pe<post>$
@@ -103,7 +103,7 @@
 ^./.<sent>$
 
 # sent_id = malavisão:7
-# text = Jajevýnte ógape ha ko'êrô jajujeýne ipiári”. 
+# text = Jajevýnte ógape ha koʼêrô jajujeýne ipiári”. 
 # text[spa] = Regresemos a casa y mañana vendremos a rescatarlo”. 
 ^Jajevýnte/ja<prn><p1><pl><ac>+jevy<v><tv><pres>+nte<adv>$
 ^ógape/óga<n>+pe<post>$
@@ -115,7 +115,7 @@
 ^./.<sent>$
 
 # sent_id = malavisão:8
-# text = Mba'apohára pyahu osê ombohovái chéve “Jahákatu vakara'y piári. 
+# text = Mbaʼapohára pyahu osê ombohovái chéve “Jahákatu vakaraʼy piári. 
 # text[spa] = El peón nuevo me respondió “Vamos sí a rescatar al ternero. 
 ^Mbaʼapohára/mbaʼapohára<n>$
 ^pyahu/pyahu<adj>$
@@ -136,7 +136,7 @@
 ^./.<sent>$
 
 # sent_id = malavisão:10
-# text = Ndajaraháirô vakara'ýpe nde ru tuichaiterei ipochýta”. 
+# text = Ndajaraháirô vakaraʼýpe nde ru tuichaiterei ipochýta”. 
 # text[spa] = Si no lo llevamos tu padre se enojará mucho”.
 ^Ndajaraháirõ/nd<neg>+ja<prn><p1><pl><ac>+raha<v><tv><pres>+i<neg>+rõ<post>$
 ^vakaraʼýpe/vakaraʼy<n>+pe<post>$
@@ -148,7 +148,7 @@
 ^./.<sent>$
 
 # sent_id = malavisão:11
-# text = Upémarô, roikévo ka'aguy'ípe ajovasa ha kirirîháme añembo'e mbykymi. 
+# text = Upémarô, roikévo kaʼaguyʼípe ajovasa ha kirirîháme añemboʼe mbykymi. 
 # text[spa] = Entonces, al entrar al pequeño monte me santigué y en silencio recé una corta plegaria. 
 ^Upémarõ/Upémarõ<cnjsub>$
 ^,/,<cm>$
@@ -162,7 +162,7 @@
 ^./.<sent>$
 
 # sent_id = malavisão:12
-# text = Sapy'aitérô ĝuarâ rohendúma peteî turuñe'ê ha mba'apohára pyahu osê ombohovái ha oturuñe'ê avei. 
+# text = Sapyʼaitérô ĝuarâ rohendúma peteî turuñeʼê ha mbaʼapohára pyahu osê ombohovái ha oturuñeʼê avei. 
 # text[spa] = Al ratito, escuchamos un silbido y el peón nuevo le respondió con otro silbido. 
 ^Sapyʼaitérõ/sapyʼa<adv>+ete<sup>+rõ<post>$
 ^ĝuarã/guarã<post>$
@@ -180,7 +180,7 @@
 ^./.<sent>$
 
 # sent_id = malavisão:13
-# text = Upépengo ha'e chupe “Ani. Ani rembohovái pévango Malavisiô ha oúta ñandéve”. 
+# text = Upépengo haʼe chupe “Ani. Ani rembohovái pévango Malavisiô ha oúta ñandéve”. 
 # text[spa] = Allí le dije “No. No le respondas ese es el Malavisión y vendrá por nosotros”. 
 ^Upépengo/upe<prn><dem><sg>+pe<post>+ko<nar>$
 ^haʼe/haʼe<v><tv><p1><sg><pres>$
@@ -199,7 +199,7 @@
 ^./.<sent>$
 
 # sent_id = malavisão:14
-# text = Mitâkaria'ymi pukavýpe he'i chéve “Mba'éiko aipóva. Chéngo ndaikuaái upévape”. 
+# text = Mitâkariaʼymi pukavýpe heʼi chéve “Mbaʼéiko aipóva. Chéngo ndaikuaái upévape”. 
 # text[spa] = El jovencito sonriendo me dijo “Qué es eso?. Yo no lo conozco”. 
 ^Mitãkariaʼymi/mitã<n>+kariaʼy<n>+mi<dim>$
 ^pukavýpe/pukavy<n>+pe<post>$
@@ -216,7 +216,7 @@
 ^./.<sent>$
 
 # sent_id = malavisão:15
-# text = Che ha'ejey chupe “Péva ivai, omanóva angue ndopytu'úivajeko”. 
+# text = Che haʼejey chupe “Péva ivai, omanóva angue ndopytuʼúivajeko”. 
 # text[spa] = Yo le dije “Eso es feo, dicen que se trata de almas en pena”. 
 ^Che/ché<prn><pers><p1><sg>$
 ^haʼejey/haʼe<v><tv><p1><sg><pres>+jey<adv>$
@@ -232,7 +232,7 @@
 ^./.<sent>$
 
 # sent_id = malavisão:16
-# text = Upe jave rohendujey oturuñe'êva ha mba'apohára pyahu osêjeýma ombohovái. 
+# text = Upe jave rohendujey oturuñeʼêva ha mbaʼapohára pyahu osêjeýma ombohovái. 
 # text[spa] = En ese momento volvimos a escuchar otro silbido y el peón nuevo le respondió otra vez.
 ^Upe/upe<prn><dem><sg>$
 ^jave/jave<adv>$
@@ -246,7 +246,7 @@
 ^./.<sent>$
 
 # sent_id = malavisão:17
-# text = Ha upépengo rohecha ore rendonderâ hesakâsapy'a ha peteî mba'e po'i, puku ha iñakâmokôiva ou oréve. 
+# text = Ha upépengo rohecha ore rendonderâ hesakâsapyʼa ha peteî mbaʼe poʼi, puku ha iñakâmokôiva ou oréve. 
 # text[spa] = En ese preciso momento vimos frente nuestro como un golpe de luz y la imagen de una cosa delgada, larga y con dos cabezas que avanzaba hacia nosotros. 
 ^Ha/ha<cnjcoo>$
 ^upépengo/upe<prn><dem><sg>+pe<post>+ko<nar>$
@@ -311,7 +311,7 @@
 ^./.<sent>$
 
 # sent_id = malavisão:21
-# text = Peteî akâ osê he'i “So'o” ha ambuéva avei he'i “So'o”. 
+# text = Peteî akâ osê heʼi “Soʼo” ha ambuéva avei heʼi “Soʼo”. 
 # text[spa] = Una de las cabezas dijo “Carne” y la otra también dijo “Carne”. 
 ^Peteĩ/peteĩ<prn><ind>$
 ^akã/akã<n>$
@@ -330,7 +330,7 @@
 ^./.<sent>$
 
 # sent_id = malavisão:22
-# text = Omañasapy'ami orerehe ha osê oho. 
+# text = Omañasapyʼami orerehe ha osê oho. 
 # text[spa] = Nos mirô por un rato y luego se fue. 
 ^Omañasapyʼami/o<prn><p3><ac>+maña<v><iv><pres>+sapyʼa<adv>+mi<dim>$
 ^orerehe/ore<prn><pos><p1><pl>+rehe<post>$
@@ -340,7 +340,7 @@
 ^./.<sent>$
 
 # sent_id = malavisão:23
-# text = Rohendu peteî akâ he'i “Jaha” ha ambuéva he'i “Jaheka so'o”.
+# text = Rohendu peteî akâ heʼi “Jaha” ha ambuéva heʼi “Jaheka soʼo”.
 # text[spa] = Escuchamos a una de las cabezas decir “Vamos” y la otra le respondió “A buscar carne”.
 ^Rohendu/ro<prn><p1><pl>+hendu<v><tv><pres>$
 ^peteĩ/peteĩ<prn><ind>$
@@ -359,7 +359,7 @@
 ^./.<sent>$
 
 # sent_id = malavisão:24
-# text = Pya'épeko roguejy, rojupi ore rymba ári ha rosê ka'aguy'ígui itavývaicha. 
+# text = Pyaʼépeko roguejy, rojupi ore rymba ári ha rosê kaʼaguyʼígui itavývaicha. 
 # text[spa] = Rápidamente bajamos, subimos a nuestros caballos y salimos como locos del montecito. 
 ^Pyaʼépeko/pyaʼe<n>+pe<post>+ko<nar>$
 ^roguejy/ro<prn><p1><pl>+guejy<v><iv><pres>$
@@ -375,7 +375,7 @@
 ^./.<sent>$
 
 # sent_id = malavisão:25
-# text = Ndaipóri rire Pindo, Malavisiô ore'úmava'erâkuri. 
+# text = Ndaipóri rire Pindo, Malavisiô oreʼúmavaʼerâkuri. 
 # text[spa] = Si no hubieran estado esas plantas de Pindó, Malavisión ya nos hubiera comido. 
 ^Ndaipóri/nd<neg>+a<prn><p1><sg><ac>+po<v><iv><pres>+i<neg>$
 ^rire/rire<adv>$
@@ -386,7 +386,7 @@
 ^./.<sent>$
 
 # sent_id = malavisão:26
-# text = Pindóngo Ñande Ru ka'avo ha Malavisiô okyhyje chugui. 
+# text = Pindóngo Ñande Ru kaʼavo ha Malavisiô okyhyje chugui. 
 # text[spa] = El pindó es de Dios y el Malavisión le tiene miedo a esa planta. 
 ^Pindóngo/pindo<n>+ko<nar>$
 ^Ñande/ñande<prn><pos><p1><pl>$
@@ -399,7 +399,7 @@
 ^./.<sent>$
 
 # sent_id = malavisão:27
-# text = Péicha avei, oikóva guive che rekohápe imandu'a ko'áĝa peve upe ka'aguy'ípe ojejukahague mokôi mitâ, kôinguéva, ha jeko hi'angakuéra ndopytu'úi ha oiko chuguikuéra Malavisiô.
+# text = Péicha avei, oikóva guive che rekohápe imanduʼa koʼáĝa peve upe kaʼaguyʼípe ojejukahague mokôi mitâ, kôinguéva, ha jeko hiʼangakuéra ndopytuʼúi ha oiko chuguikuéra Malavisiô.
 # text[spa] = Así también, todos mis vecinos recuerdan hasta ahora que en ese montecito habían matado a dos niños, mellizos, cuyas almas nunca descansaron y se convirtieron en el Malavisión.
 ^Péicha/pe<prn><dem><sg>+icha<comp>$
 ^avei/avei<adv>$
@@ -430,7 +430,7 @@
 ^./.<sent>$
 
 # sent_id = malavisão:28
-# text = “Umi mba'éngo ojehu ha rei ndajagueroviaséi”, he'i chéve ipahápe che ramói. 
+# text = “Umi mbaʼéngo ojehu ha rei ndajagueroviaséi”, heʼi chéve ipahápe che ramói. 
 # text[spa] = “Esa cosas ocurren y en vano no las creemos”, me dijo finalmente mi abuelo.
 ^“/“<lquot>$
 ^Umi/umi<prn><dem><pl>$

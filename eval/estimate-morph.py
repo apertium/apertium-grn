@@ -38,6 +38,9 @@ for line in tstl:
 		analyser[surface] = []
 
 	for ta in analyses:
+		if surface not in dico:
+			print('Error|', surface,'|', line, '|',ta)
+			sys.exit(-1)
 		if ta in dico[surface]:
 			tp += 1	
 		else:

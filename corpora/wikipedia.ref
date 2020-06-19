@@ -1,18 +1,18 @@
 # sent_id = wiki:Jagua:1
-# text = Jagua (Canis lupus familiaris) ha'e peteĩ mymba okambúva ha ho'uva so'o oñemohendáva juehepehẽ umi jaguapehẽ imbytépe, hína peteĩ jaguaru juehegua'i "(Canis lupus)". 
+# text = Jagua (Canis lupus familiaris) haʼe peteĩ mymba okambúva ha hoʼuva soʼo oñemohendáva juehepehẽ umi jaguapehẽ imbytépe, hína peteĩ jaguaru jueheguaʼi "(Canis lupus)". 
 ^Jagua/jagua<n>$
 ^(/(<lpar>$
 ^Canis/canis<barb>$
 ^lupus/lupus<barb>$
 ^familiaris/familiaris<barb>$
 ^)/)<rpar>$
-^ha'e/haʼe<vbser><iv><pres>$
+^haʼe/haʼe<vbser><iv><pres>$
 ^peteĩ/peteĩ<prn><ind>$
 ^mymba/mymba<n>$
 ^okambúva/okambúva<adj>$
 ^ha/ha<cnjcoo>$
-^ho'uva/hoʼu<v><tv><p3><pres>+va<subs><dem>$
-^so'o/soʼo<n>$
+^hoʼuva/hoʼu<v><tv><p3><pres>+va<subs><dem>$
+^soʼo/soʼo<n>$
 ^oñemohendáva/o<prn><p3><ac>+ñemohenda<v><iv><pres>+va<subs><dem>$
 ^juehepehẽ/juehepehẽ<n>$
 ^umi/umi<adj><dem><pl>$
@@ -30,9 +30,9 @@
 ^./.<sent>$
 
 # sent_id = wiki:Jagua:2
-# text = Peteĩ ñehesa'ỹijo osẽ akue ku kuatia rembikuaáva héraha "Nature"-pe omohechauka yvypóra osaite'o jaguarúpe ha omoambue hete ha heko, ha upe guive jagua okarukuaa heta mba'e ha heko oikoveva. 
+# text = Peteĩ ñehesaʼỹijo osẽ akue ku kuatia rembikuaáva héraha "Nature"-pe omohechauka yvypóra osaiteʼo jaguarúpe ha omoambue hete ha heko, ha upe guive jagua okarukuaa heta mbaʼe ha heko oikoveva. 
 ^Peteĩ/peteĩ<num>$
-^ñehesa'ỹijo/ñe<prn><p1><pl><ac>+hesaʼỹijo<v><tv><pres>$
+^ñehesaʼỹijo/ñe<prn><p1><pl><ac>+hesaʼỹijo<v><tv><pres>$
 ^osẽ/o<prn><pos><p3><ac>+sẽ<n>$
 ^akue/akue<post>$
 ^ku/ku<adj><dem><sg>$
@@ -56,7 +56,7 @@
 ^jagua/jagua<n>$
 ^okarukuaa/o<prn><p3><ac>+karu<n><incp>+kuaa<v><tv><pres>$
 ^heta/heta<adj><ind>$
-^mba'e/mbaʼe<n>/a<prn><p1><sg><ac>+mbaʼe<n>$
+^mbaʼe/mbaʼe<n>/a<prn><p1><sg><ac>+mbaʼe<n>$
 ^ha/ha<cnjcoo>$
 ^heko/h<prn><pos><p3>+teko<n>$
 ^oikoveva/o<prn><p3><ac>+ikove<v><iv><pres>+va<subs><dem>$
@@ -78,7 +78,7 @@
 ^./.<sent>$
 
 # sent_id = wiki:Jagua:4
-# text = Ijapysa ha itĩ mbarete, ha itĩre oñandu porãve mba'ekuéra ijerére. 
+# text = Ijapysa ha itĩ mbarete, ha itĩre oñandu porãve mbaʼekuéra ijerére. 
 ^Ijapysa/i<prn><pos><p3>+apysa<n>$
 ^ha/ha<cnjcoo>$
 ^itĩ/i<prn><pos><p3>+tĩ<n>$
@@ -88,7 +88,7 @@
 ^itĩre/i<prn><pos><p3>+tĩ<n>+re<post>$
 ^oñandu/o<prn><pos><p3><ac>+ñandu<v><tv><pres>$
 ^porãve/porã<adv>+ve<comp>$
-^mba'ekuéra/mbaʼe<n>+kuéra<det><pl>$
+^mbaʼekuéra/mbaʼe<n>+kuéra<det><pl>$
 ^ijerére/i<prn><pos><p3>+jere<n>+re<post>$
 ^./.<sent>$
 
@@ -119,7 +119,7 @@
 ^./.<sent>$
 
 # sent_id = wiki:Jagua:6
-# text = Oiko amo 800 jagua irrása kuéra, ituichakue, hete ha heko opaichagua, oguereko avei opaichagua sa'y ha hague. 
+# text = Oiko amo 800 jagua irrása kuéra, ituichakue, hete ha heko opaichagua, oguereko avei opaichagua saʼy ha hague. 
 ^Oiko/o<prn><p3><ac>+ko<v><iv><pres>$
 ^amo/amo<adj><dem><sg>$
 ^800/800<num>$
@@ -137,13 +137,13 @@
 ^oguereko/o<prn><p3><ac>+guereko<v><tv><pres>$
 ^avei/avei<adv>$
 ^opaichagua/opaichagua<adj>$
-^sa'y/saʼy<n>$
+^saʼy/saʼy<n>$
 ^ha/ha<cnjcoo>$
 ^hague/hague<post>$
 ^./.<sent>$
 
 # sent_id = wiki:Jagua:7
-# text = Jagua niko oiko porãve yvypóra ndive ha upévare ojepuru heta jagua oñemoirũ, ñangarekohára, omba'apohára, ogueraháva yvypóra ha mba'ekuéra yrypy'áre, tymba'apiha, ñañihára, osãmbyhýva umíva ndohecháiva ha oĩ avei umi jagua rerekua omboguataporãva ovecha ha vaka kuéra. 
+# text = Jagua niko oiko porãve yvypóra ndive ha upévare ojepuru heta jagua oñemoirũ, ñangarekohára, ombaʼapohára, ogueraháva yvypóra ha mbaʼekuéra yrypyʼáre, tymbaʼapiha, ñañihára, osãmbyhýva umíva ndohecháiva ha oĩ avei umi jagua rerekua omboguataporãva ovecha ha vaka kuéra. 
 ^Jagua/jagua<n>$
 ^niko/niko<aux><nar>$
 ^oiko/o<prn><p3><ac>+ko<v><iv><pres>$
@@ -159,15 +159,15 @@
 ^,/,<cm>$
 ^ñangarekohára/ñangarekohára<n>$
 ^,/,<cm>$
-^omba'apohára/o<prn><p3><ac>+mbaʼapo<v><iv><pres>+hára<subs>$
+^ombaʼapohára/o<prn><p3><ac>+mbaʼapo<v><iv><pres>+hára<subs>$
 ^,/,<cm>$
 ^ogueraháva/o<prn><p3><ac>+gueraha<v><tv><pres>+va<subs><dem>$
 ^yvypóra/yvypóra<n>$
 ^ha/ha<cnjcoo>$
-^mba'ekuéra/mbaʼe<n>+kuéra<det><pl>$
-^yrypy'áre/yrypyʼa<n>+re<post>$
+^mbaʼekuéra/mbaʼe<n>+kuéra<det><pl>$
+^yrypyʼáre/yrypyʼa<n>+re<post>$
 ^,/,<cm>$
-^tymba'apiha/tymbaʼapiha<n>$
+^tymbaʼapiha/tymbaʼapiha<n>$
 ^,/,<cm>$
 ^ñañihára/*ñañihára$
 ^,/,<cm>$
@@ -209,7 +209,7 @@
 
 # sent_id = wikipedia:Avañeʼẽ:1
 # text = Avañeʼẽ ha Guarani ñeʼẽ ombohéra hikuái umi Guaranikuéra pe ñeʼẽ teépe.
-# text[spa] = La lengua avañe'ẽ y la lengua guaraní tienen nombre del pueblo de los guaraní.
+# text[spa] = La lengua avañeʼẽ y la lengua guaraní tienen nombre del pueblo de los guaraní.
 # labels = to_check
 ^Avañeʼẽ/avañeʼẽ<n>$
 ^ha/ha<cnjcoo>$
@@ -365,7 +365,7 @@
 ^./.<sent>$
 
 # sent_id = wikipedia:Avañeʼẽ:8
-# text = "Ava" niko heʼise tekove, yvypóra, tapicha, kuimba'e térã kuña oikóva oñondive, peteĩ avano'õme (sociedad); "ñe'ẽ" ikatu he'ise "ñemongeta ahyʼo pu rupive".
+# text = "Ava" niko heʼise tekove, yvypóra, tapicha, kuimbaʼe térã kuña oikóva oñondive, peteĩ avanoʼõme (sociedad); "ñeʼẽ" ikatu heʼise "ñemongeta ahyʼo pu rupive".
 # text[spa] = "Ava" significa individuo, humano, persona, hombre y mujer cuidan juntos de la sociedad (sociedad); "ñeʼẽ" puede significar "parlamento que  explota garganta". 
 # labels = 
 ^"/"<sent>$
@@ -423,7 +423,7 @@
 ^./.<sent>$
 
 # sent_id = wikipedia:Avañeʼẽ:10
-# text = Ñeʼẽ niko omopeteĩ chupekuéra ha ohechauka avei avakuéra oikoha peteĩ tetãme ha upe tetãme ojepuruha peteĩ ñeʼẽte, ha’éva avañeʼẽ. 
+# text = Ñeʼẽ niko omopeteĩ chupekuéra ha ohechauka avei avakuéra oikoha peteĩ tetãme ha upe tetãme ojepuruha peteĩ ñeʼẽte, haʼéva avañeʼẽ. 
 # text[spa] = Ellos simplifican la lengua y también indican los guaranís que viven en uno país y una lengua que se usa en ese país es guaraní.  
 # labels = 
 ^Ñeʼẽ/ñeʼẽ<n>$
@@ -444,12 +444,12 @@
 ^peteĩ/peteĩ<num>$
 ^neʼẽte/neʼẽte<n>$
 ^,/,<cm>$
-^ha’éva/ha’e<v><tv><pres>+va<subs><dem>$
+^haʼéva/haʼe<v><tv><pres>+va<subs><dem>$
 ^avañeʼẽ/avañeʼẽ<n>$
 ^./.<sent>$
 
 # sent_id = wikipedia:Avañeʼẽ:11
-# text = Opaite ñeʼẽte oĩva yvy ape ári niko oñemohendakuaa ñeʼẽkuaaty (lingüística) rupive ha upevarã tekotevẽ ñanemandu'a Augusto Schleicher (1821-1867) rembiapokuére.
+# text = Opaite ñeʼẽte oĩva yvy ape ári niko oñemohendakuaa ñeʼẽkuaaty (lingüística) rupive ha upevarã tekotevẽ ñanemanduʼa Augusto Schleicher (1821-1867) rembiapokuére.
 # text[spa] = Todas las lenguas que están aqui en el sur son colocadas en cima por causa de lingüística (lingüística) y es preciso que nosotros recordamos el trabajo de Augusto Schleicher.
 # labels = 
 ^Opaite/opaite<adj><ind>$
@@ -494,7 +494,7 @@
 ^./.<sent>$
 
 # sent_id = wikipedia:Avañeʼẽ:13
-# text = Schleicher he'íkuri ñe'ẽte ikatuha oñemohenda mbohapýpe, kóicha: 
+# text = Schleicher heʼíkuri ñeʼẽte ikatuha oñemohenda mbohapýpe, kóicha: 
 # text[spa] = Schleicher ha dicho de lenguas que pueden se ordenan en tres grupos, así: 
 # labels = 
 ^Schleicher/Schleicher<np><ant>$
@@ -508,7 +508,7 @@
 ^:/:<sent>$
 
 # sent_id = wikipedia:Avañeʼẽ:14
-# text = Ñe'ẽnguéra iñe'ẽpehẽteĩva (lenguas aislantes o monosilábicas), ko'ãva apytépe oĩ chinañe'ẽ, iñe'ẽpehẽteĩteĩva (Fu – Man – Chu).
+# text = Ñeʼẽnguéra iñeʼẽpehẽteĩva (lenguas aislantes o monosilábicas), koʼãva apytépe oĩ chinañeʼẽ, iñeʼẽpehẽteĩteĩva (Fu – Man – Chu).
 # text[spa] = Las lenguas monosilábicas, entre estas está la lengua chinesa aislante (Fu – Man – Chu).
 # labels = 
 ^Ñeʼẽnguéra/ñeʼẽ<n>+kuéra<det><pl>$
@@ -536,7 +536,7 @@
 ^./.<sent>$
 
 # sent_id = wikipedia:Avañeʼẽ:15
-# text = Ñe'ẽnguéra iñe'ẽjoapykuaáva (lenguas aglutinantes), tuykiañe'ẽ guaicha, ombojoajúva ñe'ẽpehẽtai (afijo) ñe'ẽrapóre (raíz). 
+# text = Ñeʼẽnguéra iñeʼẽjoapykuaáva (lenguas aglutinantes), tuykiañeʼẽ guaicha, ombojoajúva ñeʼẽpehẽtai (afijo) ñeʼẽrapóre (raíz). 
 # text[spa] = En lenguas aglutinantes, como lengua turca, afijo se une a raíz.
 # labels = FIXME! Ambiguous 
 ^Ñeʼẽnguéra/ñeʼẽ<n>+kuéra<det><pl>$
@@ -561,7 +561,7 @@
 ^./.<sent>$
 
 # sent_id = wikipedia:Avañeʼẽ:16
-# text = Iporã ja'e avañe'ẽ oñemohendaha avei ko'ãva apytépe (n-a-mbo-guata-se-i-eté-pa-kuri).
+# text = Iporã jaʼe avañeʼẽ oñemohendaha avei koʼãva apytépe (n-a-mbo-guata-se-i-eté-pa-kuri).
 # text[spa] = Decimos también que guaraní se estabelece bién entre (n-a-mbo-guata-se-i-eté-pa-kuri).
 # labels = 
 ^Iporã/Iporã<adv>$
@@ -593,7 +593,7 @@
 ^./.<sent>$
 
 # sent_id = wikipedia:Avañeʼẽ:17
-# text = Ñe'ẽnguéra iñe'ẽrapoambuéva (lenguas de flexión), umi ñe'ẽte indoeuropeo-icha.  
+# text = Ñeʼẽnguéra iñeʼẽrapoambuéva (lenguas de flexión), umi ñeʼẽte indoeuropeo-icha.  
 # text[spa] = Las lenguas de flexión, aquellas lenguas como indoeuropeas. 
 # labels = 
 ^Ñeʼẽnguéra/ñeʼẽ<n>+kuéra<det><pl>$
@@ -638,7 +638,7 @@
 ^./.<sent>$
 
 # sent_id = wikipedia:Avañeʼẽ:19
-# text = Aipórõ guarani ñe'ẽte ija umi iñe'ẽjoapykuaáva apytépe, ha upépe ojoavýma karaiñe'ẽgui oñemohendáva umi iñe'ẽrapoambuéva apytépe. 
+# text = Aipórõ guarani ñeʼẽte ija umi iñeʼẽjoapykuaáva apytépe, ha upépe ojoavýma karaiñeʼẽgui oñemohendáva umi iñeʼẽrapoambuéva apytépe. 
 # text[spa] = Aquella lengua guarani cabe entre estas, allá se diferencía ya de español y estas se estabelecen entre las flectivas.
 # labels = incomplete
 ^Aipórõ/aipo<adj><dem><sg>+rõ<post>$
@@ -660,7 +660,7 @@
 ^./.<sent>$
 
 # sent_id = wikipedia:Avañeʼẽ:20
-# text = Ko mba'e iporã ñamyesakã oĩgui heta tapicha - yma ha ko'ága - oñeha'ãva ohesa'ỹijo avañe’ẽ Castellano oñehesa'ỹijoháicha, ha ivaivéva - oikuaaporã’ỹre - oipuruséva Guarani ñe’ẽre Castellano ñe’ẽtekuaa. 
+# text = Ko mbaʼe iporã ñamyesakã oĩgui heta tapicha - yma ha koʼága - oñehaʼãva ohesaʼỹijo avañeʼẽ Castellano oñehesaʼỹijoháicha, ha ivaivéva - oikuaaporãʼỹre - oipuruséva Guarani ñeʼẽre Castellano ñeʼẽtekuaa. 
 # text[spa] = Esto (es) como explicamos que mucha gente - antes y ahora - esfuerza bién a analizar como Castellano tanto guaraní, todavía peor - sin saber bién quiere utilizar lengua Guarani hablado y aprender la lengua Castellana.
 # labels = 
 ^Ko/ko<adj><dem><sg>$
@@ -684,12 +684,12 @@
 ^ha/ha<cnjcoo>$
 ^ivaivéva/i<prn><pos><p3><sg>+vai<adj>+ve<comp>+va<dem><subs>$
 ^-/-<guio>$
-^oikuaaporã’ỹre/o<prn><p3><sg>+kuaa<v><tv><pres>+porã<adv>+ỹre<post>$
+^oikuaaporãʼỹre/o<prn><p3><sg>+kuaa<v><tv><pres>+porã<adv>+ỹre<post>$
 ^-/-<guio>$
 ^oipuruséva/o<prn><p3><sg><nom>+puru<v><tv><pres>+se<vol>+va<dem><subs>$
 ^Guarani/Guarani<n>$
 ^ñeʼẽre/ñeʼẽ<v><iv><pres>+re<post>$
 ^Castellano/Castellano<barb>$
-^ñe’ẽtekuaa/ñe’ẽte<incp>+kuaa<v><tv><pres>$
+^ñeʼẽtekuaa/ñeʼẽte<incp>+kuaa<v><tv><pres>$
 ^./.<sent>$
 
