@@ -641,8 +641,8 @@
 	"apytépe" post @advmod #13->14
 "<oĩ>"
 	"oĩ" v iv pres @root #14->0
-"<chinañeʼẽ >"
-	"chinañeʼẽ " n @nsubj #15->14
+"<chinañeʼẽ>"
+	"chinañeʼẽ" n @nsubj #15->14
 "<,>"
 	"," cm @punct #16->17 
 "<iñeʼẽpehẽteĩva>" 

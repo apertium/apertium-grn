@@ -4,7 +4,7 @@ refl = open(sys.argv[1]).readlines()
 tstl = open(sys.argv[2]).readlines()
 
 if len(refl) != len(tstl):
-	print(refl,'!=',tstl)
+	print('ERROR:', refl,'!=',tstl)
 	sys.exit(-1)
 
 dico = {}
@@ -72,8 +72,6 @@ if len(sys.argv) > 3:
 	if sys.argv[3] == 'token':
 		sys.exit(-1)
 
-for m in missing:
-	print(m)
 
 print('= TYPE ==================================================================================')
 
@@ -103,4 +101,9 @@ F = 2 * ((P*R) / (P+R))
 print('P:',P)
 print('R:',R)
 print('F:',F)
+
+print('========================================================================================')
+
+for m in missing:
+	print('FN:', m)
 
