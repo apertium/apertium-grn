@@ -382,7 +382,7 @@
 # text = Haʼe kuéra heʼi: Hẽe amo gotyomive, ha peiko pyaʼéke.
 # labels = 
 ^Haʼe/haʼe<prn><pers><p3><sg>$
-^kuéra/kuéra<pl><det>$
+^kuéra/kuéra<det><pl>$
 ^heʼi/heʼi<v><tv><p3><pres>$
 ^:/:<sent>$
 ^Hẽe/hẽe<adv>$
@@ -457,7 +457,7 @@
 # text = Haʼe kuéra oho upe táva gotyo.
 # labels = 
 ^Haʼe/haʼe<prn><pers><p3><sg>$
-^kuéra/kuéra<post>$
+^kuéra/kuéra<det><pl>$
 ^oho/oho<v><iv><p3><pres>$
 ^upe/upe<prn><dem><sg>$
 ^táva/táva<n>$
