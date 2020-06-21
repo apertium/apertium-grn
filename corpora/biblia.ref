@@ -269,7 +269,7 @@
 # text = Iñirũ heʼi chupe: Kóina ápe platami.
 # labels = 
 ^Iñirũ/i<prn><pos><p3>+irũ<n>$
-^heʼi/heʼi<v><tv><p3><sg><pres>$
+^heʼi/heʼi<v><tv><p3><pres>$
 ^chupe/chupe<prn><pers><p3><sg><dat>$
 ^:/:<sent>$
 ^Kóina/kóina<prn><dem><sg>$
