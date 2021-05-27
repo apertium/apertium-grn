@@ -1,6 +1,6 @@
 AC_PREREQ(2.52)
 
-AC_INIT([Apertium Guaraní], [0.1.0], [jonathan.north.washington@gmail.com], [apertium-grn], [http://wiki.apertium.org/wiki/Apertium-grn])
+AC_INIT([Apertium Guaraní], [0.1.0], [jonathan.north.washington@gmail.com], [apertium-grn], [https://wiki.apertium.org/wiki/Apertium-grn])
 AM_INIT_AUTOMAKE
 
 AC_PROG_LN_S
