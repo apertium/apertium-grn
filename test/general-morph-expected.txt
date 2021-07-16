@@ -1,0 +1,116 @@
+[-9_N503tjT5I#0] ^aryeta/a<prn><p1><sg><ac>+ry<n>+ita<adj><ind><pl>/ary<n>+ita<adj><ind><pl>$
+[/-9_N503tjT5I]
+[06TMPhf0Xe5d#0] ^Paraguáype/Paraguay<np><top>+pe<post>$
+[/06TMPhf0Xe5d]
+[0Izqff2sGrlZ#0] ^rejuhúmi/re<prn><p2><sg><ac>+juhu<v><tv>+mi<pii>/re<prn><p2><sg><ac>+juhu<v><tv>+mi<dim>$
+[/0Izqff2sGrlZ]
+[1MJcmPgm6sWN#0] ^aháta/a<prn><p1><sg><ac>+hatã<n>/a<prn><p1><sg><ac>+ha<v><iv>+ta<fti>/aha<v><iv><p1><sg><pres>+ta<fti>/a<v><iv><pres>+hatã<adv>/a<v><tv><pres>+hatã<adv>/ã<n><incp>+ha<v><iv>+ta<fti>$
+[/1MJcmPgm6sWN]
+[2ZbF4iAYiMFJ#0] ^oremanduʼa/ore<prn><pos><p1><pl>+manduʼa<n>/ore<prn><pro><p1><pl><acc>+manduʼa<v><tv>/ore<prn><pro><p1><pl><acc>+manduʼa<v><tv><pres>/ore<prn><pro><p1><pl><in>+manduʼa<n>/ore<prn><pro><p1><pl><in>+manduʼa<v><tv>/ore<prn><pro><p1><pl><in>+manduʼa<v><tv><pres>$
+[/2ZbF4iAYiMFJ]
+[3AHvyEG4q79L#0] ^kova/*kova$
+[/3AHvyEG4q79L]
+[3jWBPxKwLTno#0] ^ahákuri/a<prn><p1><sg><ac>+ha<v><iv>+kuri<past>/a<prn><p1><sg><ac>+ha<v><iv><pres>+kuri<adv>/aha<v><iv><p1><sg><pres>+kuri<past>/a<v><iv>+ha<subs>+kuri<past>/a<v><iv><pres>+ha<subs>+kuri<past>/a<v><tv>+ha<subs>+kuri<past>/a<v><tv><pres>+ha<subs>+kuri<past>/ã<n>+ha<subs>+kuri<past>/ã<n><incp>+ha<v><iv>+kuri<past>/ã<n><incp>+ha<v><iv><pres>+kuri<adv>$
+[/3jWBPxKwLTno]
+[4bIplvdJLwoU#0] ^aikoha/a<prn><p1><sg><ac>+ko<v><iv>+ha<subs>/a<prn><p1><sg><ac>+ko<v><iv><pres>+ha<subs>/aiko<v><tv>+ha<subs>/aiko<v><tv><pres>+ha<subs>/ai<n><incp>+ko<v><iv>+ha<subs>/ai<n><incp>+ko<v><iv><pres>+ha<subs>$
+[/4bIplvdJLwoU]
+[6hisbSrljPKf#0] ^vokóicha/voko<n>+icha<comp>/voko<v><tv>+i<neg>+icha<comp>/voko<v><tv><pres>+icha<comp>/voko<v><tv><pres>+i<neg>+icha<comp>/vokói<adv>+icha<comp>/vo<v><tv><pres>+kóicha<adv>/voko<n><incp>+ĩ<v><iv>+i<neg>+icha<comp>/voko<n><incp>+ĩ<v><iv><pres>+icha<comp>/voko<n><incp>+ĩ<v><iv><pres>+i<neg>+icha<comp>$
+[/6hisbSrljPKf]
+[6zB4kiiiFb4f#0] ^peguata/pe<prn><p2><pl><ac>+guata<n>/pe<prn><p2><pl><ac>+guata<v><iv>/pe<prn><p2><pl><ac>+guata<v><iv><pres>/pe<imp><p2><pl>+guata<v><iv>/pe<imp><p2><pl>+guata<v><iv><pres>/pẽ<n><incp>+guata<v><iv>/pẽ<n><incp>+guata<v><iv><pres>$
+[/6zB4kiiiFb4f]
+[7BQ8TztOMXZ_#0] ^asẽʼakue/a<prn><p1><sg><ac>+sẽ<v><iv>+akue<ifi>/ã<n><incp>+sẽ<v><iv>+akue<ifi>$
+[/7BQ8TztOMXZ_]
+[7mVovqT41X7v#0] ^ógape/óga<n>+pe<post>/óga<n><incp>+pẽ<v><iv>/óga<n><incp>+pẽ<v><iv><pres>$
+[/7mVovqT41X7v]
+[80jZV2sGeqDc#0] ^Amérikagua/Amérika<np><top>+gua<post>$
+[/80jZV2sGeqDc]
+[8HOWPu5Uxt33#0] ^jarekue/jare<adj>+kue<post>/jare<adj>+kue<subs>/jare<n>+kue<post>/jare<n>+kue<subs>$
+[/8HOWPu5Uxt33]
+[9KatPUs8Mv6I#0] ^nemanduʼa/nde<prn><pro><p2><sg><in>+manduʼa<n>/nde<prn><pro><p2><sg><in>+manduʼa<v><tv>/nde<prn><pro><p2><sg><in>+manduʼa<v><tv><pres>$
+[/9KatPUs8Mv6I]
+[9Nvgpn0qFO57#0] ^tovaja/tovaja<n>/tova<n><incp>+ja<v><iv>/tova<n><incp>+ja<v><iv><pres>$
+[/9Nvgpn0qFO57]
+[C4FRLGZUjYBb#0] ^aguata/a<prn><p1><sg><ac>+guata<n>/a<prn><p1><sg><ac>+guata<v><iv>/a<prn><p1><sg><ac>+guata<v><iv><pres>/ã<n><incp>+guata<v><iv>/ã<n><incp>+guata<v><iv><pres>$
+[/C4FRLGZUjYBb]
+[C4YhDicJVMvG#0] ^ranguéme/*ranguéme$
+[/C4YhDicJVMvG]
+[CZLAwOEDiWkC#0] ^ndehovy/nde<prn><pos><p2><sg>+hovy<adj>/nde<prn><pro><p2><sg><in>+hovy<adj>/nde<sup>+hovy<adj>$
+[/CZLAwOEDiWkC]
+[DQxj2wj4kMGP#0] ^Paraguaype/*Paraguaype$
+[/DQxj2wj4kMGP]
+[DedgBFoLkA4J#0] ^Amerikagua/Amérika<np><top>+gua<post>$
+[/DedgBFoLkA4J]
+[INT3AR_wC4NM#0] ^Paraguaipe/*Paraguaipe$
+[/INT3AR_wC4NM]
+[Ic6rJZLd58wR#0] ^neñarõ/nde<prn><pro><p2><sg><in>+ñarõ<adj>/nde<prn><pro><p2><sg><in>+ñarõ<n>/nde<prn><pro><p2><sg><in>+ñarõ<v><tv>/nde<prn><pro><p2><sg><in>+ñarõ<v><tv><pres>/nde<prn><pro><p2><sg><in>+ña<n>+rõ<post>/ne<n><incp>+ñarõ<v><tv>/ne<n><incp>+ñarõ<v><tv><pres>$
+[/Ic6rJZLd58wR]
+[J4JH42pITwj6#0] ^ahámi/a<prn><p1><sg><ac>+ha<v><iv>+mi<pii>/aha<v><iv><p1><sg><pres>+mi<pii>/a<v><iv>+ha<subs>+mi<pii>/a<v><iv><pres>+ha<subs>+mi<pii>/a<v><tv>+ha<subs>+mi<pii>/a<v><tv><pres>+ha<subs>+mi<pii>/ã<n>+ha<subs>+mi<pii>/a<prn><p1><sg><ac>+ha<n>+mi<dim>/a<prn><p1><sg><ac>+ha<v><iv>+mi<dim>/aha<v><iv><p1><sg><pres>+mi<dim>/ã<n><incp>+ha<v><iv>+mi<pii>/ã<n><incp>+ha<v><iv>+mi<dim>$
+[/J4JH42pITwj6]
+[KCwxRN9qfkWG#0] ^pejuhu/pe<prn><p2><pl><ac>+juhu<v><tv>/pe<prn><p2><pl><ac>+juhu<v><tv><pres>/pe<imp><p2><pl>+juhu<v><tv>/pe<imp><p2><pl>+juhu<v><tv><pres>/pẽ<n><incp>+juhu<v><tv>/pẽ<n><incp>+juhu<v><tv><pres>$
+[/KCwxRN9qfkWG]
+[Kw-5QCxrIqTN#0] ^héra/h<prn><pos><p3>+téra<n>/he<adj>+rã<subs>/he<n>+rã<subs>/héra<v><tv>/héra<v><tv><pres>$
+[/Kw-5QCxrIqTN]
+[Lhwj0lI9Zvoo#0] ^hóga/h<prn><pos><p3>+óga<n>$
+[/Lhwj0lI9Zvoo]
+[MZVbrZq0SY_2#0] ^guarépe/guare<post>+pe<post>$
+[/MZVbrZq0SY_2]
+[MdPlE_sY0BuM#0] ^ajaguakarãi/a<prn><p1><sg><ac>+jagua<n><incp>+karãi<v><tv>/a<prn><p1><sg><ac>+jagua<n><incp>+karãi<v><tv><pres>$
+[/MdPlE_sY0BuM]
+[MmvbhrU36IRU#0] ^ndaguatái/nd<neg>+a<prn><p1><sg><ac>+guata<v><iv>+i<neg>/nd<neg>+a<prn><p1><sg><ac>+guata<v><iv><pres>+i<neg>/nd<neg>+a<prn><p1><sg><ac>+guata<n><incp>+ĩ<v><iv>/nd<neg>+a<prn><p1><sg><ac>+guata<n><incp>+ĩ<v><iv>+i<neg>/nd<neg>+a<prn><p1><sg><ac>+guata<n><incp>+ĩ<v><iv><pres>/nd<neg>+a<prn><p1><sg><ac>+guata<n><incp>+ĩ<v><iv><pres>+i<neg>$
+[/MmvbhrU36IRU]
+[PixjpWS94yVz#0] ^jareveva/*jareveva$
+[/PixjpWS94yVz]
+[Pp9Fj75-GcMC#0] ^róga/r<det>+óga<n>$
+[/Pp9Fj75-GcMC]
+[RvKB73zYkBqa#0] ^oikoha/o<prn><p3><ac>+ko<v><iv>+ha<subs>/o<prn><p3><ac>+ko<v><iv><pres>+ha<subs>$
+[/RvKB73zYkBqa]
+[TIdAGiAtlfCg#0] ^hovyete/hovy<adj>+ete<sup>$
+[/TIdAGiAtlfCg]
+[UbNaTNTrA9sQ#0] ^Paraguáipe/Paraguái<np><top>+pe<post>/paraguái<np><top>+pe<post>$
+[/UbNaTNTrA9sQ]
+[V_woCihNCKgt#0] ^peteĩve/peteĩ<num>+ve<adj><dist>/pe<prn><p2><pl><ac>+te<n><incp>+ĩ<v><iv><pres>+ve<comp>/pete<n><incp>+ĩ<v><iv><pres>+ve<comp>$
+[/V_woCihNCKgt]
+[WlZrLOS0OGJb#0] ^kavajúicha/kavaju<n>+icha<comp>/kavaju<n><incp>+ĩ<v><iv>+i<neg>+icha<comp>/kavaju<n><incp>+ĩ<v><iv><pres>+icha<comp>/kavaju<n><incp>+ĩ<v><iv><pres>+i<neg>+icha<comp>$
+[/WlZrLOS0OGJb]
+[Z4cytELXjGvs#0] ^jareite/jare<adj>+ete<sup>/jare<n>+ete<sup>$
+[/Z4cytELXjGvs]
+[ZIPeugZmVxIF#0] ^téra/tera<n>/terã<cnjcoo>/te<n>+rã<subs>/téra<n>/térã<cnjcoo>/tẽra<cnjcoo>$
+[/ZIPeugZmVxIF]
+[_oYHwZq2g3bY#0] ^yvyporakuéra/yvyporã<adj>+kue<post>+rã<subs>/yvy<n><incp>+po<v><iv>+rã<subs>+kue<post>+rã<subs>/yvy<n><incp>+po<v><iv><pres>+rã<subs>+kue<post>+rã<subs>/yvy<n><incp>+po<v><tv>+rã<subs>+kue<post>+rã<subs>/yvy<n><incp>+po<v><tv><pres>+rã<subs>+kue<post>+rã<subs>$
+[/_oYHwZq2g3bY]
+[aMyWMpZ-Y3UK#0] ^óga/óga<n>$
+[/aMyWMpZ-Y3UK]
+[bcj0O3ue6isP#0] ^chemanduʼa/che<prn><pos><p1><sg>+manduʼa<n>/che<prn><pro><p1><sg><acc>+manduʼa<v><tv>/che<prn><pro><p1><sg><acc>+manduʼa<v><tv><pres>/che<prn><pro><p1><sg><in>+manduʼa<n>/che<prn><pro><p1><sg><in>+manduʼa<v><tv>/che<prn><pro><p1><sg><in>+manduʼa<v><tv><pres>$
+[/bcj0O3ue6isP]
+[dMg9kyLifXhv#0] ^ajuhúkuri/a<prn><p1><sg><ac>+juhu<v><tv>+kuri<past>/a<prn><p1><sg><ac>+juhu<v><tv><pres>+kuri<adv>/ã<n><incp>+juhu<v><tv>+kuri<past>/ã<n><incp>+juhu<v><tv><pres>+kuri<adv>$
+[/dMg9kyLifXhv]
+[eg8_4tUMhDKZ#0] ^roguata/ro<prn><p1><pl><ac>+guata<n>/ro<prn><p1><pl><ac>+guata<v><iv>/ro<prn><p1><pl><ac>+guata<v><iv><pres>/ro<prn><obj><p3><sg>+guata<v><iv>/ro<prn><obj><p3><sg>+guata<v><iv><pres>/ro<prn><pro><p2><sg><in>+guata<n>/ro<prn><pro><p2><sg><in>+guata<v><iv>/ro<prn><pro><p2><sg><in>+guata<v><iv><pres>/roguata<v><tv>/roguata<v><tv><pres>$
+[/eg8_4tUMhDKZ]
+[em7L8D5Ngu1l#0] ^ogakuéra/*ogakuéra$
+[/em7L8D5Ngu1l]
+[g2l9Lz3Nd5G2#0] ^oguata/o<prn><pos><p3>+guata<n>/o<prn><p3><ac>+guata<n>/o<prn><p3><ac>+guata<v><iv>/o<prn><p3><ac>+guata<v><iv><pres>$
+[/g2l9Lz3Nd5G2]
+[mmBGmx2LSFZQ#0] ^reguata/re<prn><p2><sg><ac>+guata<n>/re<prn><p2><sg><ac>+guata<v><iv>/re<prn><p2><sg><ac>+guata<v><iv><pres>$
+[/mmBGmx2LSFZQ]
+[n0IVYLzQcYyR#0] ^akoha/ã<n><incp>+ko<v><iv>+ha<subs>/ã<n><incp>+ko<v><iv><pres>+ha<subs>$
+[/n0IVYLzQcYyR]
+[nE1WrZ8b0ltK#0] ^jaguata/ja<prn><p1><pl><ac>+guata<n>/ja<prn><p1><pl><ac>+guata<v><iv>/ja<prn><p1><pl><ac>+guata<v><iv><pres>/ja<n><incp>+guata<v><iv>/ja<n><incp>+guata<v><iv><pres>$
+[/nE1WrZ8b0ltK]
+[nY855SAXbm_f#0] ^penemanduʼa/pende<prn><pro><p2><pl><in>+manduʼa<n>/pende<prn><pro><p2><pl><in>+manduʼa<v><tv>/pende<prn><pro><p2><pl><in>+manduʼa<v><tv><pres>$
+[/nY855SAXbm_f]
+[oBUitQsVhhFH#0] ^réra/réra<v><tv>/réra<v><tv><pres>/rẽ<adj>+rã<subs>/r<det>+téra<n>$
+[/oBUitQsVhhFH]
+[rpzK7-j2aXWy#0] ^ñanemanduʼa/ñande<prn><pro><p1><pl><in>+manduʼa<n>/ñande<prn><pro><p1><pl><in>+manduʼa<v><tv>/ñande<prn><pro><p1><pl><in>+manduʼa<v><tv><pres>$
+[/rpzK7-j2aXWy]
+[tBcIinAvQFyF#0] ^heta/h<prn><pos><p3>+tetã<n>/heta<adj><ind>/heta<adv>$
+[/tBcIinAvQFyF]
+[tsULDFdx8X-r#0] ^ogagua/ogagua<n>/óga<n>+gua<post>$
+[/tsULDFdx8X-r]
+[wELIzFUbFlc_#0] ^imanduʼa/i<prn><pos><p3>+manduʼa<n>/i<prn><pro><p3><acc>+manduʼa<v><tv>/i<prn><pro><p3><acc>+manduʼa<v><tv><pres>$
+[/wELIzFUbFlc_]
+[wtcc0UQhcEcd#0] ^ndamomichi/nd<neg>+a<prn><p1><sg><ac>+momichi<v><tv>/nd<neg>+a<prn><p1><sg><ac>+momichi<v><tv><pres>/nd<neg>+a<prn><p1><sg><ac>+momichĩ<v><tv>/nd<neg>+a<prn><p1><sg><ac>+momichĩ<v><tv>+i<neg>/nd<neg>+a<prn><p1><sg><ac>+momichĩ<v><tv><pres>/nd<neg>+a<prn><p1><sg><ac>+momichĩ<v><tv><pres>+i<neg>$
+[/wtcc0UQhcEcd]
+[xUOMd56Dj2MS#0] ^rovaja/rovaja<n>/r<det>+tovaja<n>/ro<prn><p1><pl><ac>+va<n><incp>+ja<v><iv>/ro<prn><p1><pl><ac>+va<n><incp>+ja<v><iv><pres>/ro<prn><pro><p2><sg><in>+va<n><incp>+ja<v><iv>/ro<prn><pro><p2><sg><in>+va<n><incp>+ja<v><iv><pres>$
+[/xUOMd56Dj2MS]
+[zE6wzb-DDoMx#0] ^mitãita/mitã<n>+ita<adj><ind><pl>/mitã<n><incp>+ĩ<v><iv>+ta<fti>$
+[/zE6wzb-DDoMx]

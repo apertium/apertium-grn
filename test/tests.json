@@ -1,0 +1,14 @@
+{
+  "general": {
+    "input": "general-input.txt",
+    "mode": "grn-morph"
+  },
+  "general-gen": {
+    "input": "general-gen-input.txt",
+    "mode": "grn-gener"
+  },
+  "coverage": {
+    "input": null,
+    "command": "test/coverage/coverage.sh"
+  }
+}

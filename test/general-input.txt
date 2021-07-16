@@ -1,0 +1,95 @@
+# accentuation
+ogakuéra
+yvyporakuéra
+ógape
+ogagua
+vokóicha
+Paraguáipe
+Paraguaipe
+Paraguáype
+Paraguaype
+Amérikagua
+Amerikagua
+
+# adjectives
+heta
+peteĩve
+
+# aireales
+aikoha
+akoha
+
+# biformes
+tovaja
+rovaja
+
+# comparative
+vokóicha
+kavajúicha
+
+# demonstrative
+kova
+
+# future
+aháta
+
+# imperative
+pejuhu
+
+# incorporation
+ajaguakarãi
+
+# negative
+ndamomichi
+ndaguatái
+
+# past
+ahákuri
+ajuhúkuri
+asẽʼakue
+ahámi
+rejuhúmi
+
+# plural
+mitãita
+aryeta
+
+# postpositions
+guarépe
+ranguéme
+
+# presente
+aguata
+reguata
+oguata
+jaguata
+roguata
+peguata
+oguata
+chemanduʼa
+nemanduʼa
+imanduʼa
+ñanemanduʼa
+oremanduʼa
+penemanduʼa
+imanduʼa
+
+# substantivantes
+jarekue
+oikoha
+
+# superlatives
+jareveva
+jareite
+hovyete
+ndehovy
+neñarõ
+
+# triformes
+óga
+hóga
+róga
+téra
+réra
+héra
+

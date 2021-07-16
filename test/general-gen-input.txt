@@ -1,0 +1,91 @@
+# accentuation
+^óga<n>+kuéra<pl>$
+^yvypóra<n>+kuéra<pl>$
+^óga<n>+pe<post>$
+^óga<n>+gua<post>$
+^vokói<adv>+icha<comp>$
+^Paraguái<np><top>+pe<post>$
+^Amérika<np><top>+gua<post>$
+
+# adjectives
+^heta<adj><ind>$
+^peteĩ<num>+ve<adj><dist>$
+
+# aireales
+^a<prn><p1><sg>+ko<v><iv><pres>+ha<subs>$
+^a<prn><p1><sg>+ko<v><iv><pres>+ha<subs>$
+
+# biformes
+^tovaja<n>$
+^rovaja<n>$
+
+# comparative
+^vokói<adv>+icha<comp>$
+^kavaju<n>+icha<comp>$
+
+# demonstrative
+^ko<adj><dem><sg>+va<subs><dem>$
+
+# future
+^a<prn><p1><sg>+ha<v><iv>+ta<fti>$
+
+# imperative
+^pe<imp><p2><pl>+juhu<v><tv><pres>$
+
+# incorporation
+^a<prn><p1><sg>+jagua<n><incp>+karãi<v><tv><pres>$
+
+# negative
+^nd<neg>+a<prn><p1><sg>+momichĩ<v><tv><pres>+i<neg>$
+^nd<neg>+a<prn><p1><sg>+aguata<v><iv><pres>+i<neg>$
+
+# past
+^a<prn><p1><sg>+ha<v><iv>+kuri<past>$
+^a<prn><p1><sg>+juhu<v><tv>+kuri<past>$
+^a<prn><p1><sg>+sẽ<v><iv>+akue<ifi>$
+^a<prn><p1><sg>+ha<v><iv>+mi<pii>$
+^re<prn><p2><sg>+juhu<v><tv>+mi<pii>$
+
+# plural
+^mitã<n>+ita<adj><ind><pl>$
+^ary<n>+ita<adj><ind><pl>$
+
+# postpositions
+^guare<post>+pe<post>$
+^rangue<post>+pe<post>$
+
+# presente
+^a<prn><p1><sg>+guata<v><iv><pres>$
+^re<prn><p2><sg>+guata<v><iv><pres>$
+^o<prn><p3><sg>+guata<v><iv><pres>$
+^ja<prn><p1><pl>+guata<v><iv><pres>$
+^ro<prn><p1><pl>+guata<v><iv><pres>$
+^pe<prn><p2><pl>+guata<v><iv><pres>$
+^o<prn><p3><pl>+guata<v><iv><pres>$
+^che<prn><pro><p1><sg><acc>+manduʼa<v><tv><pres>$
+^nde<prn><pro><p2><sg><acc>+manduʼa<v><tv><pres>$
+^i<prn><pro><p3><sg><acc>+manduʼa<v><tv><pres>$
+^ñande<prn><pro><p1><pl><acc>+manduʼa<v><tv><pres>$
+^ore<prn><pro><p1><pl><acc>+manduʼa<v><tv><pres>$
+^pende<prn><pro><p2><pl><acc>+manduʼa<v><tv><pres>$
+^i<prn><pro><p3><pl><acc>+manduʼa<v><tv><pres>$
+
+# substantivantes
+^jare<adj>+kue<subs>$
+^o<prn><p3><sg>+i<ai>+ko<v><iv><pres>+ha<subs>$
+
+# superlatives
+^jare<adj>+ve<comp>+va<subs><dem>$
+^jare<adj>+ete<sup>$
+^hovy<adj>+ete<sup>$
+^nde<sup>+hovy<adj>$
+^nde<sup>+ñarõ<adj>$
+
+# triformes
+^óga<n>$
+^h<prn><pos><p3><sg>+óga<n>$
+^r<det>+óga<n>$
+^téra<n>$
+^r<det>+éra<n>$
+^h<prn><pos><p3><sg>+éra<n>$
+
